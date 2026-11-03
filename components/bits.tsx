@@ -7,7 +7,7 @@ export type ColourMap = Record<string, string>
 export function ModuleChip({ code, colours, link = false }: { code: string; colours: ColourMap; link?: boolean }) {
   const colour = colours[code]
   const chip = (
-    <span className="chip" style={{ background: colour ?? '#ece4df' }}>
+    <span className="chip" style={{ background: colour ?? '#e3e6eb' }}>
       {code}
     </span>
   )

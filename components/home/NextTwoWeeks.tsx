@@ -2,9 +2,9 @@
 
 import Link from 'next/link'
 import { addDays, fmtDay, fmtDayLong, fmtRange, fmtShort, mondayOf, weekdayIndex } from '@/lib/dates'
-import type { MaterialLink } from '@/lib/slides'
+import { type MaterialLink, materialsFrom, sessionsFrom } from '@/lib/timetable'
 import type { Session, WeekInfo } from '@/lib/types'
-import { useApp } from '../AppProvider'
+import { useApp, useData } from '../AppProvider'
 import { type ColourMap, ModuleChip, splitModules, typeLabel } from '../bits'
 import { LeafIcon } from '../icons'
 
@@ -36,34 +36,42 @@ export function buildWeeks(today: string, weeks: WeekInfo[], sessions: Session[]
   })
 }
 
-export function NextTwoWeeks({
-  weeks,
-  sessions,
-  colours,
-  materials,
-}: {
-  weeks: WeekInfo[]
-  sessions: Session[]
-  colours: ColourMap
-  materials?: Record<string, MaterialLink[]>
-}) {
+export function NextTwoWeeks({ colours }: { colours: ColourMap }) {
   const { today } = useApp()
+  const { timetable, decks } = useData()
+  const sessions = sessionsFrom(timetable)
+  const materials = materialsFrom(decks)
+  const weeks: WeekInfo[] = []
   const blocks = buildWeeks(today, weeks, sessions)
-  const lastMonday = weeks[weeks.length - 1]?.monday
-  const termOver = !!lastMonday && blocks[0].monday > lastMonday
+  const termOver = sessions.length > 0 && sessions[sessions.length - 1].date < today
 
   return (
     <section aria-labelledby="two-weeks">
-      <h2 id="two-weeks" className="text-[22px] font-semibold">
-        Next two weeks
-      </h2>
+      <div className="flex items-baseline justify-between gap-3">
+        <h2 id="two-weeks" className="text-[22px] font-semibold">
+          Next two weeks
+        </h2>
+        {sessions.length > 0 && (
+          <Link href="/timetable" className="text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline">
+            Edit timetable
+          </Link>
+        )}
+      </div>
       {sessions.length === 0 ? (
-        <div className="card mt-3 p-6 text-muted">
-          Your timetable will show here: this week and next, with times and rooms. Adding it is coming soon.
+        <div className="card mt-3 p-6">
+          <p className="text-[16px] font-semibold">Add your timetable</p>
+          <p className="mt-1 text-[15px] text-muted">Import your university calendar or add sessions yourself to see this week and next here.</p>
+          <Link href="/timetable" className="btn btn-primary mt-4">
+            Add timetable
+          </Link>
         </div>
       ) : termOver ? (
         <div className="card mt-3 p-6 text-muted">
-          That’s the end of your timetable for this term. The module library is still here whenever you want it.
+          That’s the end of your timetable for now.{' '}
+          <Link href="/timetable" className="font-semibold text-rose-ink underline-offset-4 hover:underline">
+            Add next term
+          </Link>{' '}
+          when you have it.
         </div>
       ) : (
         <div className="mt-3 space-y-4">
@@ -151,7 +159,7 @@ export function SessionMaterials({ items }: { items?: MaterialLink[] }) {
       {items.map((m) => (
         <Link
           key={m.id}
-          href={`/slides/${m.id}`}
+          href={`/slides/view?id=${encodeURIComponent(m.id)}`}
           className="inline-flex min-h-8 items-start gap-1 rounded-xl bg-wash px-2.5 py-1.5 text-left text-[12px] font-semibold leading-snug text-muted hover:bg-rose-soft hover:text-rose-ink"
         >
           <span aria-hidden>📎</span>

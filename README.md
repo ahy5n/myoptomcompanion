@@ -10,10 +10,11 @@ This is the **tester version**, forked from a private one-student site. All pers
 | **Study** | Module library with progress rings · module pages (ticks, editable names) · topics (summary, key points, exam traps, SVG diagrams, go deeper, checklists, flashcards, multiple choice, clinical cases, label the diagram, notes) · mistakes deck (Leitner) · quick quiz and module quiz · Ask Claude · Flag this · Save for GoodNotes (A4 PDF) |
 | **You** | Settings → About you: name, target average, and an optional daily reflection (off by default, or motivational quotes, or Qur'an verses) |
 | **Tracker** | Weighted marks towards each student's own target |
-| **Timetable & slides** | Ship empty. Each student's own timetable and slides replace them (onboarding and uploads are still to build) |
+| **Timetable** | `/timetable`: import a university calendar (link or `.ics` file, weekly repeats, moved and cancelled weeks handled) or add sessions by hand. Shows as "Next two weeks" on the home page and on module pages |
+| **Slides** | `/slides`: add a PDF or PowerPoint (.pptx). It's read in the browser into a slide-by-slide outline; only the outline is saved, never the file. Link it to a session and topics; "Summarise with Claude" sends the outline to Claude |
 | **Content** | One course pack: 12 UK optometry modules, written from standard UK practice. Not checked against any university's slides; every topic says so. |
 
-Still to do before testers: server-side accounts by default, onboarding (university, modules, timetable import), a simpler tutor setup, a disclaimer page and a basic usage log.
+Still to do before testers: onboarding (university and modules), a simpler tutor setup, a disclaimer page and a basic usage log.
 
 ---
 
@@ -87,13 +88,16 @@ Safari → open the site → **Share → Add to Home Screen**. It opens full scr
 - **Quick quiz**: 10 questions from all full modules; ones they've ever got wrong are 3× as likely, ones still in the deck 6×.
 - **Target tracker**: weighted average of marked, weighted, graded items; the “needed” figure is `(target × total weight − points so far) ÷ remaining weight`, where the target is each student's own (Settings → About you, default 70). Pass/fail items are excluded. Until every upcoming item has a weighting it says “so far” rather than claiming a final result.
 - **PDF export**: “Save for GoodNotes” opens an A4 print view with a ~50 mm right margin for handwriting, a “Test yourself” section and the answers at the end.
-- **Dates** are always UK time (Europe/London), whatever the device clock says.
+- **Dates** are always UK time (Europe/London), whatever the device clock says. Calendar times in UTC are converted to UK time.
+- **Calendar links** go through `/api/calendar`, a small server route (browsers can't read another site's calendar directly). It only fetches public `https` addresses, checks every redirect, and caps size and time.
+- **Slide reading** loads PDF.js and JSZip from cdnjs on first use. Scanned (image-only) PDFs and old `.ppt`/Keynote files are refused with a hint to export as PDF or `.pptx`.
 
 ## Project layout
 
 ```
 app/                 routes (/, /m/[code], /m/[code]/quiz, /t/[topicId], /t/[topicId]/print,
-                     /quiz, /mistakes, /checklists, /tracker, /slides, /settings, manifest, icons)
+                     /quiz, /mistakes, /checklists, /tracker, /timetable, /slides, /slides/view,
+                     /settings, /api/calendar, manifest, icons)
 components/          UI (home/, module/, topic/, practice/, diagrams/, tracker/, settings/)
 lib/                 content loader, dates, Leitner, tracker maths, storage backends
 data/                course data from the build pack (+ verses.resolved.json, generated)
@@ -108,7 +112,7 @@ claude-project/      instructions for a student's own Claude tutor project
 
 - **Content for the 11 non-AaD modules was written from standard UK optometry knowledge** (College CMGs, NICE, DESP, TFOS DEWS II, GOC) to follow each module's outline. It has *not* been checked against any university's lecture slides. Every topic shows the "check against your lecture slides" note, and the Flag button exists for exactly this. Numbers that vary by department (fog lens size, Van Herick referral grade, cycloplegic protocols, Abbe values, statistics on sight loss) are hedged in the text.
 
-- Schema: `profiles` has `display_name`, `target_mark` and `reflection` for the per-student settings. `schema.sql` is safe to re-run after pulling changes.
+- Schema: `profiles` has `display_name`, `target_mark` and `reflection`; `timetable_entries` and `slide_decks` hold each student's own sessions and slide outlines. `schema.sql` is safe to re-run after pulling changes.
 - One content inconsistency to check: in `aad.json`, the centration key points say minus lenses are “base-to-apex”, but the diagram spec (and usual teaching) says **apex-to-apex**. The diagram follows apex-to-apex. Worth checking against a dispensing textbook and fixing the text if needed.
 - The 1.60 and 1.74 points on the materials chart use typical Abbe values (≈42 and ≈33), shown as dashed “approximate” points. The other values come from the content file.
 - No offline service worker: Add to Home Screen works, but the site needs a connection. That's deliberate, so new content always shows up.

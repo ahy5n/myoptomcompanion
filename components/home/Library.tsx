@@ -6,7 +6,6 @@ import { inkColour } from '@/lib/colour'
 import { addDays, fmtDayLong, mondayOf, weekdayIndex } from '@/lib/dates'
 import { isDue } from '@/lib/leitner'
 import { type LibraryModule, moduleProgress } from '@/lib/progress'
-import type { WeekInfo } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { ProgressRing } from '../bits'
 import { ChevronRight } from '../icons'
@@ -15,12 +14,10 @@ const THEMES = ['Management', 'Patient', 'Professional'] as const
 
 export function Library({
   modules,
-  weeks,
   knownItemIds,
   checklistCount,
 }: {
   modules: LibraryModule[]
-  weeks: WeekInfo[]
   knownItemIds: string[]
   checklistCount: number
 }) {
@@ -28,25 +25,17 @@ export function Library({
   const data = useData()
   const [theme, setTheme] = useState<string | null>(null)
 
-  const weekend = weekdayIndex(today) >= 5
-  const thisMonday = weekend ? addDays(mondayOf(today), 7) : mondayOf(today)
-  const readingWeek = !!weeks.find((w) => w.monday === thisMonday)?.readingWeek
-
   const known = new Set(knownItemIds)
   const due = Object.values(data.reviews).filter((r) => known.has(r.itemId) && isDue(r, today)).length
   const inDeck = Object.values(data.reviews).filter((r) => known.has(r.itemId) && r.box < 5).length
   const shown = theme ? modules.filter((m) => m.theme === theme) : modules
 
   return (
-    <section
-      aria-labelledby="library"
-      className={readingWeek ? 'rounded-[28px] bg-sage-soft/80 p-3 ring-2 ring-sage sm:p-4' : ''}
-    >
+    <section aria-labelledby="library">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="library" className="text-[22px] font-semibold">
           Module library
         </h2>
-        {readingWeek && <p className="text-[14px] font-medium text-sage-ink">Reading week — pick anything you like</p>}
       </div>
 
       <div role="group" aria-label="Filter by theme" className="no-scrollbar -mx-1 mt-3 flex gap-2 overflow-x-auto px-1 pb-1">
@@ -109,8 +98,11 @@ export function Library({
         <Tile href="/tracker" title={`${data.profile.targetMark}% tracker`} tone="butter">
           Your marks and what’s left
         </Tile>
-        <Tile href="/slides" title="Slides & materials" tone="rose" wide>
-          Add your own lecture slides and get outlines
+        <Tile href="/timetable" title="Timetable" tone="sky">
+          {data.timetable.length ? `${data.timetable.filter((e) => e.date >= today).length} sessions coming up` : 'Import or add your sessions'}
+        </Tile>
+        <Tile href="/slides" title="Slides & materials" tone="rose">
+          {data.decks.length ? `${data.decks.length} ${data.decks.length === 1 ? 'deck' : 'decks'} outlined` : 'Add lecture slides, get outlines'}
         </Tile>
       </div>
     </section>

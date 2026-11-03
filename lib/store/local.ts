@@ -137,4 +137,17 @@ export const localBackend: Backend = {
   async savePlacement(user, id, p) {
     mutate(user, (d) => void ((d.placements ??= {})[id] = p))
   },
+  async addTimetable(user, entries) {
+    mutate(user, (d) => void (d.timetable = [...(d.timetable ?? []), ...entries]))
+  },
+  async deleteTimetable(user, ids) {
+    const gone = new Set(ids)
+    mutate(user, (d) => void (d.timetable = (d.timetable ?? []).filter((e) => !gone.has(e.id))))
+  },
+  async saveDeck(user, deck) {
+    mutate(user, (d) => void (d.decks = [...(d.decks ?? []).filter((x) => x.id !== deck.id), deck]))
+  },
+  async deleteDeck(user, id) {
+    mutate(user, (d) => void (d.decks = (d.decks ?? []).filter((x) => x.id !== id)))
+  },
 }

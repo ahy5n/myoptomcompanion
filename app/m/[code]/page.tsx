@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ModuleView } from '@/components/module/ModuleView'
-import { getModule, getModules, getPracticeItems, getTimetable, getVerifyNote } from '@/lib/content'
-import { decksForModule, materialsBySession } from '@/lib/slides'
+import { getModule, getModules, getPracticeItems, getVerifyNote } from '@/lib/content'
 
 export const dynamicParams = false
 
@@ -20,19 +19,13 @@ export default async function ModulePage({ params }: { params: Promise<{ code: s
   const { code } = await params
   const m = getModule(code)
   if (!m) notFound()
-  const sessions = getTimetable().sessions.filter((s) =>
-    (s.module ?? '').split('/').map((x) => x.trim()).includes(m.code),
-  )
   const colours = Object.fromEntries(getModules().map((x) => [x.code, x.colour]))
   return (
     <ModuleView
       module={m}
-      sessions={sessions}
       colours={colours}
       verifyNote={getVerifyNote(m.code)}
       questionCount={getPracticeItems(m.code).filter((i) => i.kind === 'mcq').length}
-      materials={materialsBySession()}
-      decks={decksForModule(m.code)}
     />
   )
 }

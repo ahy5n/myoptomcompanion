@@ -3,8 +3,9 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { inkColour, ringColour } from '@/lib/colour'
-import type { MaterialLink } from '@/lib/slides'
-import type { ModuleView as ModuleData, Session } from '@/lib/types'
+import { fmtDayLong } from '@/lib/dates'
+import { materialsFrom, sessionsFrom } from '@/lib/timetable'
+import type { ModuleView as ModuleData } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { BackLink, type ColourMap, ProgressRing } from '../bits'
 import { SessionRow } from '../home/NextTwoWeeks'
@@ -14,23 +15,20 @@ import { TickButton } from './TickButton'
 
 export function ModuleView({
   module: m,
-  sessions,
   colours,
   verifyNote,
   questionCount,
-  materials,
-  decks,
 }: {
   module: ModuleData
-  sessions: Session[]
   colours: ColourMap
   verifyNote?: string
   questionCount: number
-  materials: Record<string, MaterialLink[]>
-  decks: { id: string; title: string; week: number; kind: string; outlined: boolean; status: string | null }[]
 }) {
   const { today, setProgress, setOverride } = useApp()
   const data = useData()
+  const sessions = sessionsFrom(data.timetable).filter((s) => s.module === m.code)
+  const materials = materialsFrom(data.decks)
+  const decks = data.decks.filter((d) => d.module === m.code)
   const override = data.overrides[m.code]
   const name = override || m.name
   const [editing, setEditing] = useState(false)
@@ -164,7 +162,16 @@ export function ModuleView({
             Sessions
           </h2>
           <div className="card mt-3 px-4 py-2 sm:px-5">
-            {upcoming.length === 0 && <p className="py-3 text-[15px] text-muted">No more sessions this term.</p>}
+            {upcoming.length === 0 && (
+              <p className="py-3 text-[15px] text-muted">
+                {sessions.length ? 'No more sessions coming up.' : 'No sessions for this module in your timetable. '}
+                {!sessions.length && (
+                  <Link href="/timetable" className="font-semibold text-rose-ink underline-offset-4 hover:underline">
+                    Add timetable
+                  </Link>
+                )}
+              </p>
+            )}
             <ul>
               {upcoming.map((s, i) => (
                 <SessionRow key={i} s={s} colours={colours} showDate materials={materials} />
@@ -190,15 +197,12 @@ export function ModuleView({
               <ul className="card mt-3 divide-y divide-line/80">
                 {decks.map((d) => (
                   <li key={d.id}>
-                    <Link href={`/slides/${d.id}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-wash/50 sm:px-5">
+                    <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-wash/50 sm:px-5">
                       <span className="min-w-0 flex-1">
                         <span className="block text-[13px] font-semibold text-muted">
-                          Week {d.week} · {d.kind}
+                          {d.sessionDate ? fmtDayLong(d.sessionDate) : 'Slides'} · {d.slides.length} slides
                         </span>
                         <span className="block font-medium leading-snug">{d.title}</span>
-                        <span className={`block text-[13px] ${d.outlined ? 'font-semibold text-sage-ink' : 'text-muted'}`}>
-                          {d.outlined ? 'Outlined slide by slide' : d.status === 'after-lecture' ? 'Released after the lecture' : 'Not uploaded yet'}
-                        </span>
                       </span>
                       <ChevronRight className="mt-1 size-[18px] shrink-0 text-faint group-hover:text-ink" />
                     </Link>
@@ -206,7 +210,7 @@ export function ModuleView({
                 ))}
               </ul>
               <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline">
-                All slides by week
+                All slides
               </Link>
             </div>
           )}

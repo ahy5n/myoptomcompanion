@@ -19,17 +19,7 @@ import { NotesBox } from './NotesBox'
 
 export const VERIFY_NOTE = 'Written from standard optometry knowledge. Check against your lecture slides.'
 
-export interface TopicDeck {
-  id: string
-  title: string
-  week: number
-  kind: string
-  checked: boolean
-  outlined: boolean
-}
-
 interface Props {
-  decks?: TopicDeck[]
   topic: Topic
   moduleCode: string
   moduleName: string
@@ -42,9 +32,10 @@ interface Props {
 
 type Tab = 'flashcards' | 'mcq' | 'cases' | 'label'
 
-export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next, decks = [] }: Props) {
+export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next }: Props) {
   const { setProgress } = useApp()
   const data = useData()
+  const decks = data.decks.filter((d) => d.topics.includes(t.id))
   const p = data.progress[t.id] ?? { covered: false, revised: false }
   const moduleLabel = data.overrides[moduleCode] || moduleName
 
@@ -107,19 +98,15 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
               {VERIFY_NOTE}
             </p>
             {decks.length > 0 && (
-              <div className="mt-3 rounded-2xl bg-rose-soft/70 px-4 py-3">
+              <div className="mt-3 rounded-[12px] bg-rose-soft px-4 py-3">
                 <p className="text-[13px] font-semibold uppercase tracking-wide text-rose-ink">From your lectures</p>
                 <ul className="mt-1 space-y-1">
                   {decks.map((d) => (
                     <li key={d.id} className="text-[15px]">
-                      <Link href={`/slides/${d.id}`} className="font-medium underline-offset-4 hover:underline">
-                        📎 {d.title}
+                      <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="font-medium underline-offset-4 hover:underline">
+                        {d.title}
                       </Link>
-                      <span className="text-muted">
-                        {' '}
-                        · week {d.week} {d.kind.toLowerCase()}
-                        {d.checked ? ' · this page is checked against it ✓' : d.outlined ? '' : ' · not uploaded yet'}
-                      </span>
+                      <span className="text-muted"> · {d.slides.length} slides</span>
                     </li>
                   ))}
                 </ul>

@@ -5,7 +5,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
-import type { AuthUser, Backend, UserData } from './types'
+import type { AuthUser, Backend, TimetableEntry, UserData, UserDeck } from './types'
 import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'myoptomcompanion.local'
@@ -60,6 +60,72 @@ const assessmentToRow = (a: Omit<Assessment, 'id'>) => ({
   pass_fail: a.passFail,
   date: a.date,
 })
+
+interface EntryRow {
+  id: string
+  series: string | null
+  date: string
+  start_time: string
+  end_time: string
+  title: string
+  module: string | null
+  room: string | null
+  is_assessment: boolean
+  source: string
+}
+const rowToEntry = (r: EntryRow): TimetableEntry => ({
+  id: r.id,
+  series: r.series,
+  date: r.date,
+  start: r.start_time,
+  end: r.end_time,
+  title: r.title,
+  module: r.module,
+  room: r.room,
+  isAssessment: r.is_assessment,
+  source: r.source === 'calendar' ? 'calendar' : 'manual',
+})
+const entryToRow = (e: TimetableEntry) => ({
+  id: e.id,
+  series: e.series,
+  date: e.date,
+  start_time: e.start,
+  end_time: e.end,
+  title: e.title,
+  module: e.module,
+  room: e.room,
+  is_assessment: e.isAssessment,
+  source: e.source,
+})
+interface DeckRow {
+  id: string
+  title: string
+  module: string | null
+  session_date: string | null
+  session_start: string | null
+  topics: string[] | null
+  slides: UserDeck['slides'] | null
+  file_name: string
+  created_at: string
+}
+const rowToDeck = (r: DeckRow): UserDeck => ({
+  id: r.id,
+  title: r.title,
+  module: r.module,
+  sessionDate: r.session_date,
+  sessionStart: r.session_start,
+  topics: r.topics ?? [],
+  slides: r.slides ?? [],
+  fileName: r.file_name,
+  createdAt: r.created_at,
+})
+
+/** Big calendar imports go up in slices so no single request is huge. */
+function chunks<T>(list: T[], size = 400): T[][] {
+  const out: T[][] = []
+  for (let i = 0; i < list.length; i += size) out.push(list.slice(i, i + size))
+  return out
+}
 
 export const supabaseBackend: Backend = {
   mode: 'supabase',
@@ -134,7 +200,7 @@ export const supabaseBackend: Backend = {
 
   async load(user) {
     const c = sb()
-    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements] = await Promise.all([
+    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks] = await Promise.all([
       c.from('profiles').select('username, display_name, target_mark, reflection, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
       c.from('checklist_progress').select('checklist_id, done_steps'),
@@ -144,6 +210,8 @@ export const supabaseBackend: Backend = {
       c.from('module_overrides').select('module_code, name'),
       c.from('flags').select('topic_id, item_id, message, created_at').order('created_at', { ascending: false }).limit(50),
       c.from('placement_progress').select('placement_id, status, interview_date, interview_time'),
+      c.from('timetable_entries').select('id, series, date, start_time, end_time, title, module, room, is_assessment, source'),
+      c.from('slide_decks').select('id, title, module, session_date, session_start, topics, slides, file_name, created_at'),
     ])
     const d: UserData = emptyData(user.username)
     const p = check(profile)
@@ -185,6 +253,9 @@ export const supabaseBackend: Backend = {
         }
       }
     }
+    // Timetable and slides came later too: same tolerance.
+    if (!timetable.error) d.timetable = (timetable.data ?? []).map(rowToEntry)
+    if (!decks.error) d.decks = (decks.data ?? []).map(rowToDeck)
     d.flags = (check(flags) ?? []).map((r) => ({
       topicId: r.topic_id,
       itemId: r.item_id,
@@ -285,5 +356,29 @@ export const supabaseBackend: Backend = {
     check(
       await sb().from('flags').insert({ user_id: user.id, topic_id: f.topicId, item_id: f.itemId, message: f.message }),
     )
+  },
+  async addTimetable(_user, entries) {
+    for (const part of chunks(entries)) check(await sb().from('timetable_entries').insert(part.map(entryToRow)))
+  },
+  async deleteTimetable(_user, ids) {
+    for (const part of chunks(ids)) check(await sb().from('timetable_entries').delete().in('id', part))
+  },
+  async saveDeck(_user, deck) {
+    check(
+      await sb().from('slide_decks').upsert({
+        id: deck.id,
+        title: deck.title,
+        module: deck.module,
+        session_date: deck.sessionDate,
+        session_start: deck.sessionStart,
+        topics: deck.topics,
+        slides: deck.slides,
+        file_name: deck.fileName,
+        created_at: deck.createdAt,
+      }),
+    )
+  },
+  async deleteDeck(_user, id) {
+    check(await sb().from('slide_decks').delete().eq('id', id))
   },
 }

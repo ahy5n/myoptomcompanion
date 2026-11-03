@@ -101,6 +101,38 @@ create table if not exists public.placement_progress (
   primary key (user_id, placement_id)
 );
 
+-- A student's own timetable: one row per dated session.
+create table if not exists public.timetable_entries (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  series text,
+  date date not null,
+  start_time text not null,
+  end_time text not null,
+  title text not null,
+  module text,
+  room text,
+  is_assessment boolean not null default false,
+  source text not null default 'manual',
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
+-- Lecture decks a student added: the slide-by-slide outline only, never the file.
+create table if not exists public.slide_decks (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  title text not null,
+  module text,
+  session_date date,
+  session_start text,
+  topics text[] not null default '{}',
+  slides jsonb not null default '[]',
+  file_name text not null default '',
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
 create index if not exists quiz_attempts_user_idx on public.quiz_attempts (user_id, item_id);
 create index if not exists assessments_user_idx on public.assessments (user_id);
 create index if not exists flags_user_idx on public.flags (user_id);
@@ -117,7 +149,8 @@ declare t text;
 begin
   foreach t in array array[
     'topic_progress', 'checklist_progress', 'notes', 'review_items',
-    'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress'
+    'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress',
+    'timetable_entries', 'slide_decks'
   ] loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "own rows" on public.%I', t);

@@ -11,6 +11,8 @@ import {
   type PlacementProgress,
   type Profile,
   type Progress,
+  type TimetableEntry,
+  type UserDeck,
   type UserData,
 } from '@/lib/store'
 import type { Assessment } from '@/lib/tracker'
@@ -44,6 +46,10 @@ interface AppState {
   markTrackerSeeded(): void
   flag(f: Omit<FlagRecord, 'createdAt'>): Promise<void>
   setPlacement(placementId: string, patch: Partial<PlacementProgress>): void
+  addTimetable(entries: TimetableEntry[]): Promise<void>
+  deleteTimetable(ids: string[]): Promise<void>
+  saveDeck(deck: UserDeck): Promise<void>
+  deleteDeck(id: string): Promise<void>
   toast(message: string): void
 }
 
@@ -259,6 +265,27 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         const next = { ...cur, ...patch }
         update((d) => ({ ...d, placements: { ...d.placements, [id]: next } }))
         serial(`placement:${id}`, () => backend.savePlacement(u, id, next))
+      },
+
+      async addTimetable(entries) {
+        await backend.addTimetable(u, entries)
+        update((d) => ({ ...d, timetable: [...d.timetable, ...entries] }))
+      },
+
+      async deleteTimetable(ids) {
+        await backend.deleteTimetable(u, ids)
+        const gone = new Set(ids)
+        update((d) => ({ ...d, timetable: d.timetable.filter((e) => !gone.has(e.id)) }))
+      },
+
+      async saveDeck(deck) {
+        await backend.saveDeck(u, deck)
+        update((d) => ({ ...d, decks: [...d.decks.filter((x) => x.id !== deck.id), deck] }))
+      },
+
+      async deleteDeck(id) {
+        await backend.deleteDeck(u, id)
+        update((d) => ({ ...d, decks: d.decks.filter((x) => x.id !== id) }))
       },
 
       async flag(f) {
