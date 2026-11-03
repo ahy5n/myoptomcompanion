@@ -155,6 +155,9 @@ export const localBackend: Backend = {
   async saveCardSet(user, set) {
     mutate(user, (d) => void (d.cardSets = [...(d.cardSets ?? []).filter((x) => x.id !== set.id), set]))
   },
+  async addFeedback(user, item) {
+    mutate(user, (d) => void (d.feedback = [item, ...(d.feedback ?? [])]))
+  },
   async deleteCardSet(user, id) {
     mutate(user, (d) => void (d.cardSets = (d.cardSets ?? []).filter((x) => x.id !== id)))
   },

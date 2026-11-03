@@ -15,6 +15,7 @@ import {
   type TimetableEntry,
   type UserDeck,
   type CardSet,
+  type FeedbackItem,
   type UserData,
 } from '@/lib/store'
 import type { Assessment } from '@/lib/tracker'
@@ -54,6 +55,7 @@ interface AppState {
   deleteDeck(id: string): Promise<void>
   saveCardSet(set: CardSet): Promise<void>
   deleteCardSet(id: string): Promise<void>
+  sendFeedback(item: FeedbackItem): Promise<void>
   toast(message: string): void
 }
 
@@ -301,6 +303,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       async saveCardSet(set) {
         await backend.saveCardSet(u, set)
         update((d) => ({ ...d, cardSets: [...d.cardSets.filter((x) => x.id !== set.id), set] }))
+      },
+
+      async sendFeedback(item) {
+        await backend.addFeedback(u, item)
+        update((d) => ({ ...d, feedback: [item, ...d.feedback] }))
       },
 
       async deleteCardSet(id) {

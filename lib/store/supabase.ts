@@ -6,7 +6,7 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
 import { isMode, isPalette } from '../theme'
-import type { AuthUser, Backend, CardSet, TimetableEntry, UserData, UserDeck } from './types'
+import type { AuthUser, Backend, CardSet, FeedbackItem, TimetableEntry, UserData, UserDeck } from './types'
 import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'myoptomcompanion.local'
@@ -246,7 +246,7 @@ export const supabaseBackend: Backend = {
 
   async load(user) {
     const c = sb()
-    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks, cardSets] = await Promise.all([
+    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks, cardSets, feedback] = await Promise.all([
       // '*' so a database missing a newer column still loads.
       c.from('profiles').select('*').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
@@ -260,6 +260,7 @@ export const supabaseBackend: Backend = {
       c.from('timetable_entries').select('id, series, date, start_time, end_time, title, module, room, is_assessment, source'),
       c.from('slide_decks').select('id, title, module, session_date, session_start, topics, slides, file_name, created_at'),
       c.from('flashcard_sets').select('id, name, module, cards, created_at').order('created_at'),
+      c.from('feedback').select('id, kind, message, page, can_contact, created_at').order('created_at', { ascending: false }).limit(50),
     ])
     const d: UserData = emptyData(user.username)
     const p = check(profile)
@@ -309,6 +310,16 @@ export const supabaseBackend: Backend = {
     if (!timetable.error) d.timetable = (timetable.data ?? []).map(rowToEntry)
     if (!decks.error) d.decks = (decks.data ?? []).map(rowToDeck)
     if (!cardSets.error) d.cardSets = (cardSets.data ?? []).map(rowToCardSet)
+    if (!feedback.error) {
+      d.feedback = (feedback.data ?? []).map((r) => ({
+        id: r.id,
+        kind: r.kind as FeedbackItem['kind'],
+        message: r.message,
+        page: r.page ?? '',
+        canContact: !!r.can_contact,
+        createdAt: r.created_at,
+      }))
+    }
     d.flags = (check(flags) ?? []).map((r) => ({
       topicId: r.topic_id,
       itemId: r.item_id,
@@ -413,6 +424,22 @@ export const supabaseBackend: Backend = {
     check(
       await sb().from('flags').insert({ user_id: user.id, topic_id: f.topicId, item_id: f.itemId, message: f.message }),
     )
+  },
+  async addFeedback(user, item) {
+    const res = await sb().from('feedback').insert({
+      id: item.id,
+      kind: item.kind,
+      message: item.message,
+      page: item.page,
+      can_contact: item.canContact,
+      // Only kept when they're happy to hear back.
+      email: item.canContact ? user.username : null,
+      created_at: item.createdAt,
+    })
+    if (res.error && /feedback/.test(res.error.message)) {
+      throw new Error('Feedback can’t be sent until the site owner runs the latest supabase/schema.sql.')
+    }
+    check(res)
   },
   async addTimetable(_user, entries) {
     for (const part of chunks(entries)) check(await sb().from('timetable_entries').insert(part.map(entryToRow)))

@@ -8,6 +8,7 @@ import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
 import { AboutApp, Appearance } from './Appearance'
+import { FeedbackCard } from './FeedbackCard'
 
 function isClaudeUrl(v: string) {
   try {
@@ -125,6 +126,8 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
           </ul>
         </section>
       )}
+
+      <FeedbackCard />
 
       <AboutApp />
     </div>

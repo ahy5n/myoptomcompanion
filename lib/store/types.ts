@@ -102,6 +102,20 @@ export interface CardSet {
   createdAt: string
 }
 
+export type FeedbackKind = 'bug' | 'idea' | 'content' | 'other'
+
+/** A note to the people running the site: a bug, an idea, a content mistake. */
+export interface FeedbackItem {
+  id: string
+  kind: FeedbackKind
+  message: string
+  /** The page they were on, so a bug report has context. */
+  page: string
+  /** Whether they're happy to be emailed back. */
+  canContact: boolean
+  createdAt: string
+}
+
 export interface UserData {
   profile: Profile
   progress: Record<string, Progress>
@@ -115,6 +129,7 @@ export interface UserData {
   timetable: TimetableEntry[]
   decks: UserDeck[]
   cardSets: CardSet[]
+  feedback: FeedbackItem[]
 }
 
 export interface NewAccount {
@@ -151,6 +166,7 @@ export interface Backend {
   deleteDeck(user: AuthUser, id: string): Promise<void>
   saveCardSet(user: AuthUser, set: CardSet): Promise<void>
   deleteCardSet(user: AuthUser, id: string): Promise<void>
+  addFeedback(user: AuthUser, item: FeedbackItem): Promise<void>
 }
 
 export function emptyData(username: string): UserData {
@@ -167,6 +183,7 @@ export function emptyData(username: string): UserData {
     timetable: [],
     decks: [],
     cardSets: [],
+    feedback: [],
   }
 }
 

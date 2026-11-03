@@ -150,6 +150,20 @@ create table if not exists public.flashcard_sets (
   primary key (user_id, id)
 );
 
+-- Feedback students send from Settings. Read it in Supabase → Table Editor → feedback.
+-- email is only filled in when they ticked "happy for you to reply".
+create table if not exists public.feedback (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  kind text not null default 'other',
+  message text not null,
+  page text,
+  can_contact boolean not null default false,
+  email text,
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
 create index if not exists quiz_attempts_user_idx on public.quiz_attempts (user_id, item_id);
 create index if not exists assessments_user_idx on public.assessments (user_id);
 create index if not exists flags_user_idx on public.flags (user_id);
@@ -167,7 +181,7 @@ begin
   foreach t in array array[
     'topic_progress', 'checklist_progress', 'notes', 'review_items',
     'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress',
-    'timetable_entries', 'slide_decks', 'flashcard_sets'
+    'timetable_entries', 'slide_decks', 'flashcard_sets', 'feedback'
   ] loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "own rows" on public.%I', t);

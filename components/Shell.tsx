@@ -61,7 +61,18 @@ export function Shell({ children }: { children: React.ReactNode }) {
           </nav>
         </div>
       </header>
-      <main className="mx-auto max-w-[1320px] px-4 pb-24 pt-5 sm:px-6 sm:pt-7 print:max-w-none print:p-0">{children}</main>
+      <main className="mx-auto max-w-[1320px] px-4 pb-10 pt-5 sm:px-6 sm:pt-7 print:max-w-none print:p-0">{children}</main>
+      <footer className="no-print mx-auto max-w-[1320px] px-4 pb-24 sm:px-6">
+        <p className="border-t border-border pt-5 text-[13.5px] text-muted">
+          Something not right, or an idea?{' '}
+          <Link
+            href={`/settings?from=${encodeURIComponent(pathname)}#feedback`}
+            className="font-semibold text-ink underline-offset-4 hover:underline"
+          >
+            Send feedback
+          </Link>
+        </p>
+      </footer>
     </>
   )
 }
