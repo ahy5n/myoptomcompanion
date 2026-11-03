@@ -83,6 +83,21 @@ export interface UserDeck {
   createdAt: string
 }
 
+export interface UserCard {
+  id: string
+  front: string
+  back: string
+}
+
+/** A set of flashcards the student imported or typed in themselves. */
+export interface CardSet {
+  id: string
+  name: string
+  module: string | null
+  cards: UserCard[]
+  createdAt: string
+}
+
 export interface UserData {
   profile: Profile
   progress: Record<string, Progress>
@@ -95,6 +110,7 @@ export interface UserData {
   placements: Record<string, PlacementProgress>
   timetable: TimetableEntry[]
   decks: UserDeck[]
+  cardSets: CardSet[]
 }
 
 export interface NewAccount {
@@ -129,6 +145,8 @@ export interface Backend {
   deleteTimetable(user: AuthUser, ids: string[]): Promise<void>
   saveDeck(user: AuthUser, deck: UserDeck): Promise<void>
   deleteDeck(user: AuthUser, id: string): Promise<void>
+  saveCardSet(user: AuthUser, set: CardSet): Promise<void>
+  deleteCardSet(user: AuthUser, id: string): Promise<void>
 }
 
 export function emptyData(username: string): UserData {
@@ -144,6 +162,7 @@ export function emptyData(username: string): UserData {
     placements: {},
     timetable: [],
     decks: [],
+    cardSets: [],
   }
 }
 

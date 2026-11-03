@@ -98,11 +98,17 @@ export function PracticeRunner({
             <span className="block h-full rounded-full bg-rose-ink/60 transition-all" style={{ width: `${(i / items.length) * 100}%` }} />
           </span>
         </div>
-        {showTopic && (
-          <Link href={`/t/${item.topicId}`} className="truncate text-[14px] font-medium text-muted hover:text-ink">
-            {item.moduleCode} · {item.topicTitle}
-          </Link>
-        )}
+        {showTopic &&
+          (item.topicId ? (
+            <Link href={`/t/${item.topicId}`} className="truncate text-[14px] font-medium text-muted hover:text-ink">
+              {item.moduleCode} · {item.topicTitle}
+            </Link>
+          ) : (
+            // The student's own flashcards have no lesson to link to.
+            <Link href="/flashcards" className="truncate text-[14px] font-medium text-muted hover:text-ink">
+              {item.topicTitle}
+            </Link>
+          ))}
       </div>
       <div key={item.id + i}>
         {item.kind === 'mcq' && <McqCard mcq={item.mcq} onResult={onResult} />}
@@ -110,7 +116,7 @@ export function PracticeRunner({
         {item.kind === 'case' && <CaseCard id={item.id} kase={item.kase} onResult={onResult} />}
       </div>
       <div className="mt-5 flex items-center justify-between gap-3">
-        <FlagButton topicId={item.topicId} itemId={item.id} variant="link" label="Flag this question" />
+        {item.topicId ? <FlagButton topicId={item.topicId} itemId={item.id} variant="link" label="Flag this question" /> : <span />}
         {answered && (
           <button className="btn btn-primary fade-in" onClick={next} autoFocus>
             {i + 1 === items.length ? 'Finish' : 'Next'}

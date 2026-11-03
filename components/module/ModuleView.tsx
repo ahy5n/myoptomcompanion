@@ -87,7 +87,7 @@ export function ModuleView({
             {!editing &&
               (override ? (
                 <p className="mt-2 flex flex-wrap items-center gap-x-3 text-[14px] text-muted">
-                  Name confirmed by you.
+                  Renamed by you.
                   <button className="min-h-11 font-semibold text-ink underline-offset-4 hover:underline" onClick={() => { setDraft(name); setEditing(true) }}>
                     Edit
                   </button>

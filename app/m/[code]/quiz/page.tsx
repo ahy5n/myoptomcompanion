@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { QuizPage } from '@/components/practice/QuizPage'
+import { ModuleName } from '@/components/ModuleName'
 import { getModule, getModules, getPracticeItems } from '@/lib/content'
 
 export const dynamicParams = false
@@ -26,9 +27,9 @@ export default async function ModuleQuiz({ params }: { params: Promise<{ code: s
       items={items}
       mode="all"
       title={`${m.code} quiz`}
-      subtitle={`All ${items.length} questions from ${m.name}, in a random order.`}
+      subtitle={<>All {items.length} questions from <ModuleName code={m.code} name={m.name} />, in a random order.</>}
       backHref={`/m/${m.code}`}
-      backLabel={`${m.code} · ${m.name}`}
+      backLabel={<>{m.code} · <ModuleName code={m.code} name={m.name} /></>}
     />
   )
 }

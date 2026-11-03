@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import type { LibraryModule } from '@/lib/progress'
 import { getUniversity, modulesFor, SYLLABUS_CHECKED } from '@/lib/universities'
-import { useApp, useData } from '../AppProvider'
+import { useApp, useData, useModuleName } from '../AppProvider'
 import { type Course, CoursePicker } from '../CoursePicker'
 
 const checkedLabel = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(SYLLABUS_CHECKED))
@@ -13,6 +13,7 @@ const checkedLabel = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'n
 export function YourCourse({ modules }: { modules: LibraryModule[] }) {
   const { profile } = useData()
   const byCode = new Map(modules.map((m) => [m.code, m]))
+  const moduleName = useModuleName()
   const uni = getUniversity(profile.university)
   const year = profile.studyYear
 
@@ -57,7 +58,7 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
                         className="inline-flex min-h-7 items-center gap-1.5 rounded-md bg-wash px-2 text-[12.5px] font-medium text-ink hover:bg-line"
                       >
                         <span aria-hidden className="size-2 rounded-full" style={{ background: s.colour, boxShadow: 'inset 0 0 0 1px rgb(15 20 25 / 0.15)' }} />
-                        {s.name}
+                        {moduleName(s.code, s.name)}
                         {!s.hasContent && <span className="text-faint">· soon</span>}
                       </Link>
                     )
@@ -80,7 +81,7 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
           <div className="mt-2 flex flex-wrap gap-1.5">
             {subjectsThisYear!.map((s) => (
               <Link key={s.code} href={`/m/${s.code}`} className="inline-flex min-h-8 items-center rounded-md bg-wash px-2.5 text-[13px] font-medium hover:bg-line">
-                {s.name}
+                {moduleName(s.code, s.name)}
               </Link>
             ))}
           </div>

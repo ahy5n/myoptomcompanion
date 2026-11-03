@@ -137,6 +137,17 @@ create table if not exists public.slide_decks (
   primary key (user_id, id)
 );
 
+-- Flashcard sets a student imported (Quizlet, Anki, a spreadsheet) or typed in.
+create table if not exists public.flashcard_sets (
+  user_id uuid not null default auth.uid() references auth.users on delete cascade,
+  id text not null,
+  name text not null,
+  module text,
+  cards jsonb not null default '[]',
+  created_at timestamptz not null default now(),
+  primary key (user_id, id)
+);
+
 create index if not exists quiz_attempts_user_idx on public.quiz_attempts (user_id, item_id);
 create index if not exists assessments_user_idx on public.assessments (user_id);
 create index if not exists flags_user_idx on public.flags (user_id);
@@ -154,7 +165,7 @@ begin
   foreach t in array array[
     'topic_progress', 'checklist_progress', 'notes', 'review_items',
     'quiz_attempts', 'assessments', 'module_overrides', 'flags', 'placement_progress',
-    'timetable_entries', 'slide_decks'
+    'timetable_entries', 'slide_decks', 'flashcard_sets'
   ] loop
     execute format('alter table public.%I enable row level security', t);
     execute format('drop policy if exists "own rows" on public.%I', t);

@@ -82,4 +82,35 @@ t('weekly sessions until a date', () => {
   assert.equal(weeklyEntries({ title: 'x', module: null, room: null, start: '09:00', end: '10:00', isAssessment: false }, '2026-10-05', null).length, 1)
 })
 t('module codes match whole words only', () => { assert.equal(detectModule('AaD lecture', CODES), 'AaD'); assert.equal(detectModule('Ladder talk', CODES), null) })
+
+const { parseCards } = require('../.test-build/flashcardImport.js')
+t('cards: Quizlet tab export', () => {
+  const r = parseCards('Myopia\tShort-sightedness\nHyperopia\tLong-sightedness\n')
+  assert.equal(r.separator, 'tab'); assert.deepEqual(r.cards, [{ front: 'Myopia', back: 'Short-sightedness' }, { front: 'Hyperopia', back: 'Long-sightedness' }])
+})
+t('cards: CSV with header, quotes and line breaks', () => {
+  const r = parseCards('Term,Definition\n"Snell\'s law","n1 sin i = n2 sin r, at a boundary"\n"Prentice","P = cF\nc in cm"\n')
+  assert.equal(r.separator, 'comma'); assert.equal(r.cards.length, 2)
+  assert.equal(r.cards[0].back, 'n1 sin i = n2 sin r, at a boundary'); assert.equal(r.cards[1].back, 'P = cF\nc in cm')
+})
+t('cards: Anki headers and HTML', () => {
+  const r = parseCards('#separator:tab\n#html:true\nIOP<br>normal?\t10&ndash;21 &amp; <b>mmHg</b>\n')
+  assert.deepEqual(r.cards, [{ front: 'IOP\nnormal?', back: '10–21 & mmHg' }])
+})
+t('cards: dash lines, one-sided rows and repeats skipped', () => {
+  const r = parseCards('Cornea - clear front window\nLens - focuses\nno answer here\nLens - focuses')
+  assert.equal(r.separator, 'dash'); assert.equal(r.cards.length, 2); assert.equal(r.skipped, 2)
+})
+t('cards: chosen separator wins', () => assert.equal(parseCards('a;b,c\nd;e,f', 'comma').cards[0].back, 'c'))
+const { cardsFromDeck } = require('../.test-build/userCards.js')
+t('slides → cards: title front, points back, filler slides skipped', () => {
+  let i = 0
+  const cards = cardsFromDeck([
+    { n: 1, title: 'Learning outcomes', points: ['Know things'] },
+    { n: 2, title: 'Tear film layers', points: ['Lipid', 'Aqueous', 'Mucin'] },
+    { n: 3, title: 'Questions?', points: ['Ask away'] },
+    { n: 4, title: 'Picture only', points: [] },
+  ], () => `c${++i}`)
+  assert.deepEqual(cards, [{ id: 'c1', front: 'Tear film layers', back: '• Lipid\n• Aqueous\n• Mucin' }])
+})
 console.log(`\n${n} passed`)

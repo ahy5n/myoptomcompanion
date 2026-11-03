@@ -12,7 +12,9 @@ This is the **tester version**, forked from a private one-student site. All pers
 | **Your year** | Pick your university (all 17 GOC-approved optometry degrees, or "Not listed") and year at sign-up. The home page then shows that year's real modules, each linked to the subjects that cover it, and the subject library filters to your year. From `data/universities.json`, built from each university's course page (checked Nov 2026) |
 | **Tracker** | Weighted marks towards each student's own target |
 | **Timetable** | `/timetable`: import a university calendar (link or `.ics` file, weekly repeats, moved and cancelled weeks handled) or add sessions by hand. Shows as "Next two weeks" on the home page and on module pages |
-| **Slides** | `/slides`: add a PDF or PowerPoint (.pptx). It's read in the browser into a slide-by-slide outline; only the outline is saved, never the file. Link it to a session and topics; "Summarise with Claude" sends the outline to Claude |
+| **Slides** | `/slides`: add a PDF or PowerPoint (.pptx). It's read in the browser into a slide-by-slide outline; only the outline is saved, never the file. Link it to a session and topics; "Summarise with Claude" sends the outline to Claude. "Make flashcards" (or the tick box when adding) turns each content slide into a card |
+| **Flashcards** | `/flashcards`: import sets from Quizlet, Anki ("Notes in Plain Text") or a two-column CSV/spreadsheet, by file or paste; the split is worked out automatically. Edit, add and delete cards; cards marked "Again" join the mistakes deck |
+| **Subject names** | Rename any subject to your university's module name (Settings → Subject names, or on the subject page). The name is used everywhere |
 | **Subjects** | 19 subjects covering Years 1–5, each tagged with the years it's usually taught in, all with full lessons: 116 topics and 772 practice items (MCQs, flashcards, clinical cases) plus practical checklists. Written from standard UK practice and guidance (not checked against any university's slides; every topic says so) |
 
 Still to do before testers: onboarding (university and modules), a simpler tutor setup, a disclaimer page and a basic usage log.
@@ -98,7 +100,7 @@ Safari → open the site → **Share → Add to Home Screen**. It opens full scr
 
 ```
 app/                 routes (/, /m/[code], /m/[code]/quiz, /t/[topicId], /t/[topicId]/print,
-                     /quiz, /mistakes, /checklists, /tracker, /timetable, /slides, /slides/view,
+                     /quiz, /mistakes, /checklists, /tracker, /timetable, /slides, /slides/view, /flashcards,
                      /settings, /api/calendar, manifest, icons)
 components/          UI (home/, module/, topic/, practice/, diagrams/, tracker/, settings/)
 lib/                 content loader, dates, Leitner, tracker maths, storage backends
@@ -114,7 +116,7 @@ claude-project/      instructions for a student's own Claude tutor project
 
 - **Content for the 11 non-AaD modules was written from standard UK optometry knowledge** (College CMGs, NICE, DESP, TFOS DEWS II, GOC) to follow each module's outline. It has *not* been checked against any university's lecture slides. Every topic shows the "check against your lecture slides" note, and the Flag button exists for exactly this. Numbers that vary by department (fog lens size, Van Herick referral grade, cycloplegic protocols, Abbe values, statistics on sight loss) are hedged in the text.
 
-- Schema: `profiles` has `display_name`, `target_mark` and `reflection`; `timetable_entries` and `slide_decks` hold each student's own sessions and slide outlines. `schema.sql` is safe to re-run after pulling changes.
+- Schema: `profiles` has `display_name`, `target_mark` and `reflection`; `timetable_entries`, `slide_decks` and `flashcard_sets` hold each student's own sessions, slide outlines and flashcards. `schema.sql` is safe to re-run after pulling changes.
 - One content inconsistency to check: in `aad.json`, the centration key points say minus lenses are “base-to-apex”, but the diagram spec (and usual teaching) says **apex-to-apex**. The diagram follows apex-to-apex. Worth checking against a dispensing textbook and fixing the text if needed.
 - The 1.60 and 1.74 points on the materials chart use typical Abbe values (≈42 and ≈33), shown as dashed “approximate” points. The other values come from the content file.
 - No offline service worker: Add to Home Screen works, but the site needs a connection. That's deliberate, so new content always shows up.

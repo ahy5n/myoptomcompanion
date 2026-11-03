@@ -14,6 +14,7 @@ import {
   type Progress,
   type TimetableEntry,
   type UserDeck,
+  type CardSet,
   type UserData,
 } from '@/lib/store'
 import type { Assessment } from '@/lib/tracker'
@@ -51,6 +52,8 @@ interface AppState {
   deleteTimetable(ids: string[]): Promise<void>
   saveDeck(deck: UserDeck): Promise<void>
   deleteDeck(id: string): Promise<void>
+  saveCardSet(set: CardSet): Promise<void>
+  deleteCardSet(id: string): Promise<void>
   toast(message: string): void
 }
 
@@ -67,6 +70,12 @@ export function useData(): UserData {
   const { data } = useApp()
   if (!data) throw new Error('useData before data loaded')
   return data
+}
+
+/** A subject's name as the student renamed it, or its built-in name. */
+export function useModuleName(): (code: string, fallback: string) => string {
+  const { overrides } = useData()
+  return (code, fallback) => overrides[code] || fallback
 }
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -287,6 +296,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       async deleteDeck(id) {
         await backend.deleteDeck(u, id)
         update((d) => ({ ...d, decks: d.decks.filter((x) => x.id !== id) }))
+      },
+
+      async saveCardSet(set) {
+        await backend.saveCardSet(u, set)
+        update((d) => ({ ...d, cardSets: [...d.cardSets.filter((x) => x.id !== set.id), set] }))
+      },
+
+      async deleteCardSet(id) {
+        await backend.deleteCardSet(u, id)
+        update((d) => ({ ...d, cardSets: d.cardSets.filter((x) => x.id !== id) }))
       },
 
       async flag(f) {

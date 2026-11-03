@@ -5,7 +5,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
-import type { AuthUser, Backend, TimetableEntry, UserData, UserDeck } from './types'
+import type { AuthUser, Backend, CardSet, TimetableEntry, UserData, UserDeck } from './types'
 import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'myoptomcompanion.local'
@@ -141,6 +141,21 @@ const rowToDeck = (r: DeckRow): UserDeck => ({
   createdAt: r.created_at,
 })
 
+interface CardSetRow {
+  id: string
+  name: string
+  module: string | null
+  cards: CardSet['cards'] | null
+  created_at: string
+}
+const rowToCardSet = (r: CardSetRow): CardSet => ({
+  id: r.id,
+  name: r.name,
+  module: r.module,
+  cards: r.cards ?? [],
+  createdAt: r.created_at,
+})
+
 /** Big calendar imports go up in slices so no single request is huge. */
 function chunks<T>(list: T[], size = 400): T[][] {
   const out: T[][] = []
@@ -230,7 +245,7 @@ export const supabaseBackend: Backend = {
 
   async load(user) {
     const c = sb()
-    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks] = await Promise.all([
+    const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks, cardSets] = await Promise.all([
       // '*' so a database missing a newer column still loads.
       c.from('profiles').select('*').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
@@ -243,6 +258,7 @@ export const supabaseBackend: Backend = {
       c.from('placement_progress').select('placement_id, status, interview_date, interview_time'),
       c.from('timetable_entries').select('id, series, date, start_time, end_time, title, module, room, is_assessment, source'),
       c.from('slide_decks').select('id, title, module, session_date, session_start, topics, slides, file_name, created_at'),
+      c.from('flashcard_sets').select('id, name, module, cards, created_at').order('created_at'),
     ])
     const d: UserData = emptyData(user.username)
     const p = check(profile)
@@ -289,6 +305,7 @@ export const supabaseBackend: Backend = {
     // Timetable and slides came later too: same tolerance.
     if (!timetable.error) d.timetable = (timetable.data ?? []).map(rowToEntry)
     if (!decks.error) d.decks = (decks.data ?? []).map(rowToDeck)
+    if (!cardSets.error) d.cardSets = (cardSets.data ?? []).map(rowToCardSet)
     d.flags = (check(flags) ?? []).map((r) => ({
       topicId: r.topic_id,
       itemId: r.item_id,
@@ -415,5 +432,21 @@ export const supabaseBackend: Backend = {
   },
   async deleteDeck(_user, id) {
     check(await sb().from('slide_decks').delete().eq('id', id))
+  },
+  async saveCardSet(_user, set) {
+    const res = await sb().from('flashcard_sets').upsert({
+      id: set.id,
+      name: set.name,
+      module: set.module,
+      cards: set.cards,
+      created_at: set.createdAt,
+    })
+    if (res.error && /flashcard_sets/.test(res.error.message)) {
+      throw new Error('Flashcards can’t be saved until the site owner runs the latest supabase/schema.sql.')
+    }
+    check(res)
+  },
+  async deleteCardSet(_user, id) {
+    check(await sb().from('flashcard_sets').delete().eq('id', id))
   },
 }

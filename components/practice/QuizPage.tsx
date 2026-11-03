@@ -24,9 +24,9 @@ export function QuizPage({
   items: PracticeItem[]
   mode: 'quick' | 'all'
   title: string
-  subtitle: string
+  subtitle: React.ReactNode
   backHref: string
-  backLabel: string
+  backLabel: React.ReactNode
 }) {
   const data = useData()
   const [picked, setPicked] = useState<PracticeItem[] | null>(null)

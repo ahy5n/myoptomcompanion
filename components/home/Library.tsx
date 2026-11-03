@@ -60,7 +60,13 @@ export function Library({
         <h2 id="library" className="text-[22px] font-semibold">
           Subject library
         </h2>
-        <p className="text-[13px] text-muted">{uni ? `Years as taught at ${uni.short}` : 'Years as usually taught in the UK'}</p>
+        <p className="text-[13px] text-muted">
+          {uni ? `Years as taught at ${uni.short}` : 'Years as usually taught in the UK'}
+          {' · '}
+          <Link href="/settings#subject-names" className="font-semibold text-ink underline-offset-4 hover:underline">
+            Rename subjects
+          </Link>
+        </p>
       </div>
 
       <div role="group" aria-label="Filter by year" className="no-scrollbar -mx-1 mt-3 flex gap-2 overflow-x-auto px-1 pb-1">
@@ -129,6 +135,11 @@ export function Library({
         </Tile>
         <Tile href="/timetable" title="Timetable" tone="sky">
           {data.timetable.length ? `${data.timetable.filter((e) => e.date >= today).length} sessions coming up` : 'Import or add your sessions'}
+        </Tile>
+        <Tile href="/flashcards" title="Your flashcards" tone="lilac">
+          {data.cardSets.length
+            ? `${data.cardSets.reduce((n, s) => n + s.cards.length, 0)} cards in ${data.cardSets.length} ${data.cardSets.length === 1 ? 'set' : 'sets'}`
+            : 'Import from Quizlet, Anki or slides'}
         </Tile>
         <Tile href="/slides" title="Slides & materials" tone="rose">
           {data.decks.length ? `${data.decks.length} ${data.decks.length === 1 ? 'deck' : 'decks'} outlined` : 'Add lecture slides, get outlines'}

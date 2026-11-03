@@ -4,7 +4,7 @@ import { useMemo, useRef, useState } from 'react'
 import { addDays, fmtDayLong, fmtRange, fmtShort, mondayOf } from '@/lib/dates'
 import type { TimetableEntry } from '@/lib/store'
 import { type IcsResult, detectModule, parseIcs, sessionKey, weeklyEntries } from '@/lib/timetable'
-import { useApp, useData } from '../AppProvider'
+import { useApp, useData, useModuleName } from '../AppProvider'
 import { BackLink, type ColourMap, ModuleChip } from '../bits'
 import type { ModuleOption } from '@/lib/moduleOptions'
 import { PlusIcon, TrashIcon } from '../icons'
@@ -236,6 +236,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
 
 function AddCard({ modules }: { modules: ModuleOption[] }) {
   const { addTimetable, toast, today } = useApp()
+  const moduleName = useModuleName()
   const [title, setTitle] = useState('')
   const [module, setModule] = useState('')
   const [date, setDate] = useState(today)
@@ -291,7 +292,7 @@ function AddCard({ modules }: { modules: ModuleOption[] }) {
             <option value="">None / not sure</option>
             {modules.map((m) => (
               <option key={m.code} value={m.code}>
-                {m.code} · {m.name}
+                {m.code} · {moduleName(m.code, m.name)}
               </option>
             ))}
           </select>

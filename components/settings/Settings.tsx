@@ -17,7 +17,7 @@ function isClaudeUrl(v: string) {
   }
 }
 
-export function Settings() {
+export function Settings({ modules }: { modules: { code: string; name: string }[] }) {
   const { setClaudeUrl, toast, mode, signOut, user } = useApp()
   const data = useData()
   const [url, setUrl] = useState(data.profile.claudeProjectUrl)
@@ -49,6 +49,8 @@ export function Settings() {
       <h1 className="mt-2 text-[32px] font-semibold">Settings</h1>
 
       <AboutYouCard />
+
+      <SubjectNamesCard modules={modules} />
 
       <section className="card mt-6 p-6" aria-labelledby="claude">
         <h2 id="claude" className="text-[20px] font-semibold">
@@ -250,5 +252,87 @@ function PasswordCard() {
         </div>
       </form>
     </section>
+  )
+}
+
+/** Rename any subject to match what your university calls it. */
+function SubjectNamesCard({ modules }: { modules: { code: string; name: string }[] }) {
+  const { setOverride, toast } = useApp()
+  const { overrides } = useData()
+
+  function commit(code: string, builtIn: string, value: string) {
+    const v = value.trim()
+    const next = v && v !== builtIn ? v : null
+    if (next === (overrides[code] ?? null)) return
+    setOverride(code, next)
+    toast(next ? `Renamed ${code}.` : `${code} is back to its usual name.`)
+  }
+
+  return (
+    <section id="subject-names" className="card mt-6 scroll-mt-6 p-6" aria-labelledby="subject-names-title">
+      <h2 id="subject-names-title" className="text-[20px] font-semibold">
+        Subject names
+      </h2>
+      <p className="mt-1 text-[14px] text-muted">
+        Call each subject what your university calls it. The new name shows everywhere in the app. Clear a box to go back to the usual name.
+      </p>
+      <ul className="mt-4 divide-y divide-line/80">
+        {modules.map((m) => (
+          <SubjectNameRow key={m.code} code={m.code} builtIn={m.name} current={overrides[m.code] ?? ''} onCommit={commit} />
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+function SubjectNameRow({
+  code,
+  builtIn,
+  current,
+  onCommit,
+}: {
+  code: string
+  builtIn: string
+  current: string
+  onCommit: (code: string, builtIn: string, value: string) => void
+}) {
+  const [draft, setDraft] = useState(current || builtIn)
+  const renamed = !!current
+  return (
+    <li className="flex items-center gap-3 py-2.5">
+      <label htmlFor={`name-${code}`} className="w-12 shrink-0 text-[13px] font-semibold text-muted">
+        {code}
+      </label>
+      <input
+        id={`name-${code}`}
+        className="field min-h-10 flex-1 py-1.5 text-[15px]"
+        value={draft}
+        placeholder={builtIn}
+        onChange={(e) => setDraft(e.target.value)}
+        onBlur={() => {
+          onCommit(code, builtIn, draft)
+          if (!draft.trim()) setDraft(builtIn)
+        }}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') e.currentTarget.blur()
+          if (e.key === 'Escape') setDraft(current || builtIn)
+        }}
+      />
+      {renamed ? (
+        <button
+          type="button"
+          className="min-h-10 shrink-0 text-[13px] font-semibold text-ink underline-offset-4 hover:underline"
+          onClick={() => {
+            onCommit(code, builtIn, '')
+            setDraft(builtIn)
+          }}
+          aria-label={`Reset ${code} to ${builtIn}`}
+        >
+          Reset
+        </button>
+      ) : (
+        <span className="w-[38px] shrink-0" aria-hidden />
+      )}
+    </li>
   )
 }

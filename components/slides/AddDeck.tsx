@@ -7,11 +7,14 @@ import { fmtDayLong } from '@/lib/dates'
 import type { ModuleOption } from '@/lib/moduleOptions'
 import type { DeckSlide } from '@/lib/store'
 import { detectModule, newId, sessionKey } from '@/lib/timetable'
-import { useApp, useData } from '../AppProvider'
+import { cardsFromDeck, setFromDeck } from '@/lib/userCards'
+import { useApp, useData, useModuleName } from '../AppProvider'
 
 export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: () => void }) {
-  const { saveDeck, toast, today } = useApp()
+  const { saveDeck, saveCardSet, toast, today } = useApp()
+  const [makeCards, setMakeCards] = useState(true)
   const { timetable } = useData()
+  const moduleName = useModuleName()
   const router = useRouter()
   const fileRef = useRef<HTMLInputElement>(null)
   const [reading, setReading] = useState(false)
@@ -56,13 +59,15 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
   }, [timetable, module, today])
   const moduleTopics = modules.find((m) => m.code === module)?.topics ?? []
 
+  const cardCount = useMemo(() => (slides ? cardsFromDeck(slides, () => '').length : 0), [slides])
+
   async function save() {
     if (!slides) return
     setSaving(true)
     const [sessionDate, sessionStart] = session ? session.split('T') : [null, null]
     const id = newId()
     try {
-      await saveDeck({
+      const deck = {
         id,
         title: title.trim() || fileName,
         module: module || null,
@@ -72,8 +77,17 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
         slides,
         fileName,
         createdAt: new Date().toISOString(),
-      })
-      toast('Slides added.')
+      }
+      await saveDeck(deck)
+      const set = makeCards ? setFromDeck(deck, newId) : null
+      if (set) {
+        try {
+          await saveCardSet(set)
+          toast(`Slides added, with ${set.cards.length} flashcards.`)
+        } catch (e) {
+          toast(e instanceof Error ? e.message : 'Slides added, but the flashcards couldn’t be saved.')
+        }
+      } else toast('Slides added.')
       onDone()
       router.push(`/slides/view?id=${encodeURIComponent(id)}`)
     } catch {
@@ -144,7 +158,7 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
               <option value="">None / not sure</option>
               {modules.map((m) => (
                 <option key={m.code} value={m.code}>
-                  {m.code} · {m.name}
+                  {m.code} · {moduleName(m.code, m.name)}
                 </option>
               ))}
             </select>
@@ -205,7 +219,13 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
           </ol>
         </div>
       </div>
-      <div className="flex flex-wrap gap-2 border-t border-line bg-wash/40 px-6 py-4">
+      <div className="flex flex-wrap items-center gap-2 border-t border-line bg-wash/40 px-6 py-4">
+        {cardCount > 0 && (
+          <label className="flex min-h-10 w-full items-center gap-2 text-[14px]">
+            <input type="checkbox" className="size-4" checked={makeCards} onChange={(e) => setMakeCards(e.target.checked)} />
+            Also make {cardCount} flashcards from these slides (slide title on the front, its points on the back)
+          </label>
+        )}
         <button className="btn btn-primary" disabled={saving} onClick={() => void save()}>
           {saving ? 'Saving…' : 'Save outline'}
         </button>

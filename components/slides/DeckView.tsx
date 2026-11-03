@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { outlineText } from '@/lib/deckParse'
 import { fmtDayLong } from '@/lib/dates'
 import type { ModuleOption } from '@/lib/moduleOptions'
+import { newId } from '@/lib/timetable'
+import { deckSetId, setFromDeck } from '@/lib/userCards'
 import { useApp, useData } from '../AppProvider'
 import { AskClaudeButton } from '../AskClaudeButton'
 import { BackLink, ModuleChip } from '../bits'
@@ -13,8 +15,8 @@ import { TrashIcon } from '../icons'
 
 export function DeckView({ modules }: { modules: ModuleOption[] }) {
   const id = useSearchParams().get('id')
-  const { decks } = useData()
-  const { deleteDeck, toast } = useApp()
+  const { decks, cardSets } = useData()
+  const { deleteDeck, saveCardSet, toast } = useApp()
   const router = useRouter()
   const [sure, setSure] = useState(false)
   const d = decks.find((x) => x.id === id)
@@ -29,6 +31,7 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
   }
 
   const colours = Object.fromEntries(modules.map((m) => [m.code, m.colour]))
+  const cardSet = cardSets.find((s) => s.id === deckSetId(d.id))
   const mod = modules.find((m) => m.code === d.module)
   const topics = (mod?.topics ?? []).filter((t) => d.topics.includes(t.id))
   const prompt = `${outlineText(d.title, d.slides)}\n\nThese are the slides from one of my optometry lectures. Summarise the key points in plain language, tell me what's most likely to come up in an exam, then ask me three questions to check I've understood.`
@@ -46,6 +49,28 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
         <p className="mt-1 break-all text-[13px] text-faint">{d.fileName}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <AskClaudeButton text={prompt} label="Summarise with Claude" variant="primary" />
+          {cardSet ? (
+            <Link href={`/flashcards?set=${encodeURIComponent(cardSet.id)}`} className="btn btn-soft">
+              Study {cardSet.cards.length} flashcards
+            </Link>
+          ) : (
+            <button
+              className="btn btn-soft"
+              onClick={async () => {
+                const set = setFromDeck(d, newId)
+                if (!set) return toast('None of these slides have bullet points to turn into cards.')
+                try {
+                  await saveCardSet(set)
+                  toast(`Made ${set.cards.length} flashcards.`)
+                  router.push(`/flashcards?set=${encodeURIComponent(set.id)}`)
+                } catch (e) {
+                  toast(e instanceof Error ? e.message : 'Couldn’t save the flashcards just now.')
+                }
+              }}
+            >
+              Make flashcards
+            </button>
+          )}
           {sure ? (
             <span className="flex items-center gap-2 text-[14px]">
               Remove this outline?
