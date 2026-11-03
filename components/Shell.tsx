@@ -6,7 +6,7 @@ import { useApp } from './AppProvider'
 import { FlagButton } from './FlagButton'
 import { GearIcon } from './icons'
 import { LoginScreen } from './LoginScreen'
-import { LogoMark, Wordmark } from './Logo'
+import { Logo } from './Logo'
 
 export function Shell({ children }: { children: React.ReactNode }) {
   const { status, error, retry, signOut } = useApp()
@@ -16,7 +16,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
     return (
       <div className="grid min-h-dvh place-items-center" aria-busy="true">
         <div className="flex flex-col items-center gap-3 text-muted">
-          <LogoMark className="size-10 animate-pulse" />
+          <Logo size={40} withWordmark={false} className="animate-pulse" />
           <span className="text-sm">Opening your notes…</span>
         </div>
       </div>
@@ -45,13 +45,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const topicId = pathname.startsWith('/t/') ? pathname.split('/')[2] : pathname
   return (
     <>
-      <header className="no-print sticky top-0 z-30 border-b border-line/70 bg-paper/90 backdrop-blur-md supports-[backdrop-filter]:bg-paper/75">
+      <header className="no-print sticky top-0 z-30 border-b border-border/70 bg-bg/90 backdrop-blur-md supports-[backdrop-filter]:bg-bg/75">
         <div className="mx-auto flex h-16 max-w-[1320px] items-center justify-between gap-2 px-4 sm:px-6">
           <Link
             href="/"
             className="flex min-h-11 items-center rounded-lg px-1"
           >
-            <Wordmark />
+            <Logo size={30} />
           </Link>
           <nav className="flex items-center gap-1">
             <FlagButton topicId={topicId} variant="header" />

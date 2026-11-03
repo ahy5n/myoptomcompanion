@@ -1,6 +1,7 @@
 // Shared building blocks for the inline SVG diagrams.
 
 import type { ReactNode } from 'react'
+import { FIG } from './palette'
 
 export type Spot = { x: number; y: number }
 
@@ -13,12 +14,12 @@ export interface DiagramDef {
   render: (labelled: boolean) => ReactNode
 }
 
-export const INK = '#0f1419'
-export const MUTED = '#59616e'
-export const ROSE = '#b0472f'
-export const LILAC = '#454b8c'
-export const SKY = '#1c6074'
-export const SAGE = '#1b6644'
+export const INK = FIG.grey900
+export const MUTED = FIG.grey600c
+export const ROSE = FIG.red600c
+export const LILAC = FIG.indigo600
+export const SKY = FIG.teal700
+export const SAGE = FIG.green700
 
 export function Arrowheads() {
   return (
@@ -74,7 +75,7 @@ export function T({
       fontWeight={weight}
       fill={fill}
       dominantBaseline="middle"
-      stroke="#ffffff"
+      stroke={FIG.white}
       strokeWidth={4}
       strokeLinejoin="round"
       paintOrder="stroke"
@@ -93,9 +94,9 @@ export function Cross({ x, y, colour = ROSE, r = 7 }: { x: number; y: number; co
   )
 }
 
-export const ROSE_SOFT = '#fbece7'
-export const SKY_SOFT = '#edf6f9'
-export const LILAC_SOFT = '#f4effb'
-export const SAGE_SOFT = '#eef8f2'
-export const BUTTER = '#f3e6c6'
-export const BUTTER_INK = '#77510f'
+export const ROSE_SOFT = FIG.orange100
+export const SKY_SOFT = FIG.grey50b
+export const LILAC_SOFT = FIG.grey50c
+export const SAGE_SOFT = FIG.grey50
+export const BUTTER = FIG.amber100
+export const BUTTER_INK = FIG.amber700

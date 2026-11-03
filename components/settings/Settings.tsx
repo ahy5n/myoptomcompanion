@@ -7,6 +7,7 @@ import { type Course, CoursePicker } from '../CoursePicker'
 import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
+import { AboutApp, Appearance } from './Appearance'
 
 function isClaudeUrl(v: string) {
   try {
@@ -48,6 +49,8 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
       <BackLink href="/">Home</BackLink>
       <h1 className="mt-2 text-[32px] font-semibold">Settings</h1>
 
+      <Appearance />
+
       <AboutYouCard />
 
       <SubjectNamesCard modules={modules} />
@@ -69,7 +72,7 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
             aria-describedby="claude-help"
           />
           {error && (
-            <p role="alert" className="mt-2 text-[14px] text-danger-ink">
+            <p role="alert" className="mt-2 text-[14px] text-bad-ink">
               {error}
             </p>
           )}
@@ -122,6 +125,8 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
           </ul>
         </section>
       )}
+
+      <AboutApp />
     </div>
   )
 }
@@ -189,7 +194,7 @@ function AboutYouCard() {
           </select>
         </label>
         {error && (
-          <p role="alert" className="text-[14px] text-danger-ink sm:col-span-2">
+          <p role="alert" className="text-[14px] text-bad-ink sm:col-span-2">
             {error}
           </p>
         )}
@@ -241,7 +246,7 @@ function PasswordCard() {
           <input className="field" type="password" autoComplete="new-password" minLength={6} required value={next} onChange={(e) => setNext(e.target.value)} />
         </label>
         {error && (
-          <p role="alert" className="text-[14px] text-danger-ink sm:col-span-2">
+          <p role="alert" className="text-[14px] text-bad-ink sm:col-span-2">
             {error}
           </p>
         )}
@@ -276,7 +281,7 @@ function SubjectNamesCard({ modules }: { modules: { code: string; name: string }
       <p className="mt-1 text-[14px] text-muted">
         Call each subject what your university calls it. The new name shows everywhere in the app. Clear a box to go back to the usual name.
       </p>
-      <ul className="mt-4 divide-y divide-line/80">
+      <ul className="mt-4 divide-y divide-border/80">
         {modules.map((m) => (
           <SubjectNameRow key={m.code} code={m.code} builtIn={m.name} current={overrides[m.code] ?? ''} onCommit={commit} />
         ))}

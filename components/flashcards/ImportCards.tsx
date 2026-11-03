@@ -133,7 +133,7 @@ export function ImportCards({ modules, onDone }: { modules: ModuleOption[]; onDo
           </p>
           {cards.length === 0 && <p className="mt-1 text-[14px] text-muted">Try a different “Split by” option.</p>}
           {cards.length > 0 && (
-            <ul className="mt-2 divide-y divide-line/80 overflow-hidden rounded-xl border border-line">
+            <ul className="mt-2 divide-y divide-border/80 overflow-hidden rounded-xl border border-border">
               {cards.slice(0, 5).map((c, i) => (
                 <li key={i} className="grid gap-1 px-4 py-2.5 text-[14px] sm:grid-cols-2 sm:gap-4">
                   <span className="whitespace-pre-line font-medium">{c.front}</span>
@@ -165,7 +165,7 @@ export function ImportCards({ modules, onDone }: { modules: ModuleOption[]; onDo
       </div>
 
       {error && (
-        <p role="alert" className="mt-4 rounded-xl bg-danger-soft px-4 py-3 text-[14px] text-danger-ink">
+        <p role="alert" className="mt-4 rounded-xl bg-bad-soft px-4 py-3 text-[14px] text-bad-ink">
           {error}
         </p>
       )}

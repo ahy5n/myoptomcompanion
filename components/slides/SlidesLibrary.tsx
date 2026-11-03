@@ -58,17 +58,17 @@ export function SlidesLibrary({ modules }: { modules: ModuleOption[] }) {
                     key={m ?? 'all'}
                     onClick={() => setMod(m)}
                     aria-pressed={mod === m}
-                    className={`min-h-10 shrink-0 rounded-lg px-3.5 text-[14px] font-semibold ${mod === m ? 'bg-ink text-white' : 'bg-card text-muted shadow-[var(--shadow-soft)] hover:text-ink'}`}
+                    className={`min-h-10 shrink-0 rounded-lg px-3.5 text-[14px] font-semibold ${mod === m ? 'bg-accent text-on-accent' : 'bg-surface text-muted shadow-[var(--shadow-soft)] hover:text-ink'}`}
                   >
                     {m ?? 'All'}
                   </button>
                 ))}
               </div>
             )}
-            <ul className="card mt-4 divide-y divide-line/80">
+            <ul className="card mt-4 divide-y divide-border/80">
               {shown.map((d) => (
                 <li key={d.id}>
-                  <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-center gap-3 px-5 py-4 hover:bg-wash/50">
+                  <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-center gap-3 px-5 py-4 hover:bg-bg/50">
                     <span className="min-w-0 flex-1">
                       <span className="flex flex-wrap items-center gap-2 text-[13px] text-muted">
                         {d.module && <ModuleChip code={d.module} colours={colours} />}
@@ -77,7 +77,7 @@ export function SlidesLibrary({ modules }: { modules: ModuleOption[] }) {
                       </span>
                       <span className="mt-1 block truncate text-[16px] font-medium">{d.title}</span>
                     </span>
-                    <ChevronRight className="size-[18px] shrink-0 text-faint group-hover:text-ink" />
+                    <ChevronRight className="size-[18px] shrink-0 text-muted group-hover:text-ink" />
                   </Link>
                 </li>
               ))}

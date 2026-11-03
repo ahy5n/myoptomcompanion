@@ -90,10 +90,10 @@ function SetList({ modules, colours, importing }: { modules: ModuleOption[]; col
           <p className="mt-6 text-[14px] text-muted">
             {sets.length} {sets.length === 1 ? 'set' : 'sets'} · {total} cards
           </p>
-          <ul className="card mt-2 divide-y divide-line/80">
+          <ul className="card mt-2 divide-y divide-border/80">
             {sets.map((s) => (
               <li key={s.id}>
-                <Link href={`/flashcards?set=${encodeURIComponent(s.id)}`} className="group flex items-center gap-3 px-5 py-4 hover:bg-wash/50">
+                <Link href={`/flashcards?set=${encodeURIComponent(s.id)}`} className="group flex items-center gap-3 px-5 py-4 hover:bg-bg/50">
                   <span className="min-w-0 flex-1">
                     <span className="flex flex-wrap items-center gap-2 text-[13px] text-muted">
                       {s.module && <ModuleChip code={s.module} colours={colours} />}
@@ -101,7 +101,7 @@ function SetList({ modules, colours, importing }: { modules: ModuleOption[]; col
                     </span>
                     <span className="mt-1 block truncate text-[16px] font-medium">{s.name}</span>
                   </span>
-                  <ChevronRight className="size-[18px] shrink-0 text-faint group-hover:text-ink" />
+                  <ChevronRight className="size-[18px] shrink-0 text-muted group-hover:text-ink" />
                 </Link>
               </li>
             ))}
@@ -202,12 +202,12 @@ function SetView({ set, modules, colours }: { set: CardSet; modules: ModuleOptio
         ))}
       </ul>
 
-      <div className="mt-8 border-t border-line pt-5">
+      <div className="mt-8 border-t border-border pt-5">
         {confirmDelete ? (
           <p className="flex flex-wrap items-center gap-3 text-[14px]">
             Delete “{set.name}” and all {set.cards.length} cards?
             <button
-              className="btn min-h-10 bg-danger-ink px-4 text-white hover:opacity-90"
+              className="btn min-h-10 bg-bad-ink px-4 text-surface hover:opacity-90"
               onClick={async () => {
                 try {
                   await deleteCardSet(set.id)
@@ -225,7 +225,7 @@ function SetView({ set, modules, colours }: { set: CardSet; modules: ModuleOptio
             </button>
           </p>
         ) : (
-          <button className="inline-flex min-h-10 items-center gap-1.5 text-[14px] font-semibold text-danger-ink" onClick={() => setConfirmDelete(true)}>
+          <button className="inline-flex min-h-10 items-center gap-1.5 text-[14px] font-semibold text-bad-ink" onClick={() => setConfirmDelete(true)}>
             <TrashIcon className="size-4" />
             Delete this set
           </button>
@@ -370,13 +370,13 @@ function CardRow({
   }
   return (
     <li className="card flex items-start gap-3 px-4 py-3">
-      <span className="w-6 shrink-0 pt-0.5 text-[13px] text-faint">{n}</span>
+      <span className="w-6 shrink-0 pt-0.5 text-[13px] text-muted">{n}</span>
       <button className="grid min-w-0 flex-1 gap-1 text-left text-[14.5px] sm:grid-cols-2 sm:gap-4" onClick={() => setEditing(true)} aria-label={`Edit card ${n}`}>
         <span className="whitespace-pre-line font-medium">{front}</span>
         <span className="whitespace-pre-line text-muted">{back}</span>
       </button>
-      {inDeck && <span className="shrink-0 rounded-md bg-rose-soft px-1.5 py-0.5 text-[11.5px] font-semibold text-rose-ink">In mistakes</span>}
-      <button className="grid size-9 shrink-0 place-items-center rounded-lg text-faint hover:bg-wash hover:text-danger-ink" onClick={onDelete} aria-label={`Remove card ${n}`}>
+      {inDeck && <span className="shrink-0 rounded-md bg-accent-soft px-1.5 py-0.5 text-[11.5px] font-semibold text-accent-strong">In mistakes</span>}
+      <button className="grid size-9 shrink-0 place-items-center rounded-lg text-muted hover:bg-bg hover:text-bad-ink" onClick={onDelete} aria-label={`Remove card ${n}`}>
         <TrashIcon className="size-4" />
       </button>
     </li>

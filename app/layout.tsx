@@ -1,19 +1,20 @@
 import type { Metadata, Viewport } from 'next'
 import { AppProvider } from '@/components/AppProvider'
 import { Shell } from '@/components/Shell'
+import { ThemeSync } from '@/components/useTheme'
+import { THEME_SCRIPT } from '@/lib/theme'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: { default: 'myoptomcompanion', template: '%s · myoptomcompanion' },
+  title: { default: 'optom companion', template: '%s · optom companion' },
   description: 'A study companion for UK optometry students.',
-  applicationName: 'myoptomcompanion',
-  appleWebApp: { capable: true, title: 'myoptomcompanion', statusBarStyle: 'default' },
+  applicationName: 'optom companion',
+  appleWebApp: { capable: true, title: 'optom companion', statusBarStyle: 'default' },
   formatDetection: { telephone: false },
   robots: { index: false, follow: false },
 }
 
 export const viewport: Viewport = {
-  themeColor: '#f6f7f9',
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',
@@ -21,8 +22,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-GB">
+    // The head script sets data-palette / data-mode before React loads.
+    <html lang="en-GB" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
@@ -30,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <AppProvider>
+          <ThemeSync />
           <Shell>{children}</Shell>
         </AppProvider>
       </body>

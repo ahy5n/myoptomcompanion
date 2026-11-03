@@ -24,7 +24,7 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
 
   return (
     <section aria-labelledby="your-year" className="card overflow-hidden">
-      <div className="flex items-start justify-between gap-3 border-b border-line px-5 py-4">
+      <div className="flex items-start justify-between gap-3 border-b border-border px-5 py-4">
         <div>
           <p className="eyebrow">Your year</p>
           <h2 id="your-year" className="mt-0.5 text-[20px] font-semibold">
@@ -40,12 +40,12 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
 
       {uni ? (
         <>
-          <ul className="divide-y divide-line/80">
+          <ul className="divide-y divide-border/80">
             {uniModules.map((m) => (
               <li key={m.name} className="px-5 py-3">
                 <p className="text-[15px] font-medium leading-snug">
                   {m.name}
-                  {m.optional && <span className="ml-2 rounded-md bg-wash px-1.5 py-0.5 text-[12px] font-semibold text-muted">Optional</span>}
+                  {m.optional && <span className="ml-2 rounded-md bg-bg px-1.5 py-0.5 text-[12px] font-semibold text-muted">Optional</span>}
                 </p>
                 <div className="mt-1.5 flex flex-wrap gap-1.5">
                   {m.subjects.map((code) => {
@@ -55,11 +55,11 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
                       <Link
                         key={code}
                         href={`/m/${code}`}
-                        className="inline-flex min-h-7 items-center gap-1.5 rounded-md bg-wash px-2 text-[12.5px] font-medium text-ink hover:bg-line"
+                        className="inline-flex min-h-7 items-center gap-1.5 rounded-md bg-bg px-2 text-[12.5px] font-medium text-ink hover:bg-border"
                       >
-                        <span aria-hidden className="size-2 rounded-full" style={{ background: s.colour, boxShadow: 'inset 0 0 0 1px rgb(15 20 25 / 0.15)' }} />
+                        <span aria-hidden className="size-2 rounded-full" style={{ background: s.colour, boxShadow: 'inset 0 0 0 1px color-mix(in srgb, var(--subject-ink) 15%, transparent)' }} />
                         {moduleName(s.code, s.name)}
-                        {!s.hasContent && <span className="text-faint">· soon</span>}
+                        {!s.hasContent && <span className="text-muted">· soon</span>}
                       </Link>
                     )
                   })}
@@ -67,7 +67,7 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
               </li>
             ))}
           </ul>
-          <p className="border-t border-line px-5 py-3 text-[12.5px] leading-snug text-faint">
+          <p className="border-t border-border px-5 py-3 text-[12.5px] leading-snug text-muted">
             {uni.note ? `${uni.note} ` : ''}From{' '}
             <a href={uni.source} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink">
               {uni.short}’s course page
@@ -80,7 +80,7 @@ export function YourCourse({ modules }: { modules: LibraryModule[] }) {
           <p className="text-[14px] text-muted">Most UK optometry degrees cover these subjects in Year {year}:</p>
           <div className="mt-2 flex flex-wrap gap-1.5">
             {subjectsThisYear!.map((s) => (
-              <Link key={s.code} href={`/m/${s.code}`} className="inline-flex min-h-8 items-center rounded-md bg-wash px-2.5 text-[13px] font-medium hover:bg-line">
+              <Link key={s.code} href={`/m/${s.code}`} className="inline-flex min-h-8 items-center rounded-md bg-bg px-2.5 text-[13px] font-medium hover:bg-border">
                 {moduleName(s.code, s.name)}
               </Link>
             ))}
