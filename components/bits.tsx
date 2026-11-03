@@ -63,7 +63,7 @@ export function ProgressRing({
         textAnchor="middle"
         fontSize={size * 0.27}
         fontWeight={650}
-        fill="#4a4350"
+        fill="#0f1419"
       >
         {Math.round(pct * 100)}%
       </text>

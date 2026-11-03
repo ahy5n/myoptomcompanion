@@ -21,12 +21,12 @@ export function FlashcardCard({ id, card, onResult }: { id: string; card: Flashc
         aria-label={flipped ? 'Show the question' : 'Flip to see the answer'}
       >
         <div className={`flip-inner grid min-h-[220px] ${flipped ? 'flipped' : ''}`}>
-          <div className="flip-face col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-lilac-soft to-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-lilac/60">
+          <div className="flip-face col-start-1 row-start-1 flex flex-col justify-between rounded-[14px] bg-card p-6 shadow-[var(--shadow-soft)] ring-1 ring-lilac/60">
             <p className="eyebrow text-lilac-ink">Question</p>
             <p className="my-4 text-center font-rounded text-[22px] font-semibold leading-snug">{card.front}</p>
             <p className="text-center text-[13px] text-muted">Tap to flip</p>
           </div>
-          <div className="flip-face flip-back col-start-1 row-start-1 flex flex-col justify-between rounded-[22px] bg-gradient-to-br from-sage-soft to-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-sage">
+          <div className="flip-face flip-back col-start-1 row-start-1 flex flex-col justify-between rounded-[14px] bg-sage-soft p-6 shadow-[var(--shadow-soft)] ring-1 ring-sage">
             <p className="eyebrow text-sage-ink">Answer</p>
             <p className="my-4 text-center text-[19px] leading-snug">{card.back}</p>
             <p className="text-center text-[13px] text-muted">Tap to flip back</p>

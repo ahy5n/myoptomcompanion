@@ -1051,7 +1051,7 @@ const evidencePyramid: DiagramDef = {
   viewBox: [640, 360],
   render: () => {
     const levels = ['Systematic reviews & meta-analyses', 'Randomised controlled trials', 'Cohort studies', 'Case-control studies', 'Cross-sectional studies', 'Case series & reports', 'Expert opinion']
-    const fills = ['#f6c9d0', '#f8d6dc', '#e5daf5', '#ece4f8', '#cfe3f7', '#dde9f6', '#e7efe0']
+    const fills = ['#f2d3c9', '#f8d6dc', '#e1e3f2', '#ece4f8', '#d2e9ef', '#dde9f6', '#e7efe0']
     return (
       <g>
         {levels.map((l, i) => {

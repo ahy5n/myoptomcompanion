@@ -12,7 +12,7 @@
       "theme": "Management",
       "contentStatus": "full",
       "contentFile": "content/aad.json",
-      "colour": "#F6C9D0",
+      "colour": "#D9E3F7",
       "topics": [
         "aad-frame-measurement",
         "aad-facial-measurements",
@@ -28,7 +28,7 @@
       "name": "Refraction & Management of Refractive Error",
       "theme": "Management",
       "contentStatus": "full",
-      "colour": "#CFE3F7",
+      "colour": "#D3EAF0",
       "outline": [
         "Retinoscopy refinement and working-distance lens",
         "Subjective refraction: best vision sphere, fogging, duochrome",
@@ -56,7 +56,7 @@
       "name": "Contact Lenses",
       "theme": "Management",
       "contentStatus": "full",
-      "colour": "#D9F0E3",
+      "colour": "#D5EBDF",
       "outline": [
         "Keratometry and corneal topography for lens selection",
         "Soft lens materials: hydrogel vs silicone hydrogel, water content, Dk and Dk/t",
@@ -84,7 +84,7 @@
       "name": "Anterior Eye Examination",
       "theme": "Patient",
       "contentStatus": "full",
-      "colour": "#FBE3C8",
+      "colour": "#F1E5CC",
       "outline": [
         "Slit lamp illumination techniques: diffuse, direct focal, parallelepiped, optic section, specular, retro-illumination, sclerotic scatter",
         "Systematic anterior segment examination: lids, lashes, conjunctiva, cornea, AC, iris, lens",
@@ -110,7 +110,7 @@
       "name": "Posterior Eye (and Glaucoma)",
       "theme": "Patient",
       "contentStatus": "full",
-      "colour": "#E5DAF5",
+      "colour": "#E1E3F2",
       "outline": [
         "Direct ophthalmoscopy technique",
         "Indirect fundus examination with slit lamp and Volk lens",
@@ -136,7 +136,7 @@
       "name": "Diagnosis & Systemic Disease",
       "theme": "Patient",
       "contentStatus": "full",
-      "colour": "#F2F0C9",
+      "colour": "#E9E6CF",
       "outline": [
         "Case history and diagnostic reasoning",
         "Building a differential diagnosis",
@@ -160,7 +160,7 @@
       "name": "Binocular Vision",
       "theme": "Management",
       "contentStatus": "full",
-      "colour": "#CDEFF0",
+      "colour": "#D2E6E3",
       "outline": [
         "Heterophoria and heterotropia",
         "Cover test",
@@ -182,7 +182,7 @@
       "name": "Paediatrics",
       "theme": "Management",
       "contentStatus": "full",
-      "colour": "#FAD6E8",
+      "colour": "#EADCD6",
       "outline": [
         "Visual development",
         "Assessing vision in children (preferential looking, Kay pictures, Cardiff cards)",
@@ -204,7 +204,7 @@
       "name": "Vision Science & Evidence",
       "theme": "Professional",
       "contentStatus": "full",
-      "colour": "#DDE7D0",
+      "colour": "#DCE6D2",
       "outline": [
         "Research design",
         "Descriptive and inferential statistics",
@@ -226,7 +226,7 @@
       "name": "Professional & Personal Development",
       "theme": "Professional",
       "contentStatus": "full",
-      "colour": "#EDE3DA",
+      "colour": "#E2E5EA",
       "outline": [
         "GOC Standards for Optical Students",
         "Communication and consent",
@@ -246,7 +246,7 @@
       "name": "Duty of Candour",
       "theme": "Professional",
       "contentStatus": "full",
-      "colour": "#EDE3DA",
+      "colour": "#E6DFEC",
       "outline": [
         "What the professional duty of candour requires",
         "Apologising and explaining when things go wrong",
@@ -264,7 +264,7 @@
       "name": "Public Health & Eye Health",
       "theme": "Professional",
       "contentStatus": "full",
-      "colour": "#EDE3DA",
+      "colour": "#DDE8EE",
       "outline": [
         "Causes of sight loss in the UK",
         "Health inequalities and access to eye care",

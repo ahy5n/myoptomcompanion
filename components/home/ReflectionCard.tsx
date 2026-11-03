@@ -22,7 +22,7 @@ function QuoteCard({ quotes }: { quotes: string[] }) {
   const q = quotes[(base + offset) % quotes.length]
 
   return (
-    <figure className="card relative overflow-hidden bg-gradient-to-br from-white via-white to-rose-soft">
+    <figure className="card relative overflow-hidden">
       <button className="block w-full px-6 pb-5 pt-6 text-left sm:px-7" onClick={() => setOffset((o) => o + 1)} aria-label="Show another quote">
         <blockquote className="text-[18px] leading-relaxed text-ink">“{q}”</blockquote>
         <figcaption className="mt-3 flex justify-end text-[12px] text-faint">

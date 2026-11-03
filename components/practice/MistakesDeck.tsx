@@ -42,7 +42,7 @@ export function MistakesDeck({ items }: { items: PracticeItem[] }) {
       <div className="card mt-6 p-5 sm:p-7">
         {session === null ? null : session.length === 0 ? (
           <div className="py-6 text-center">
-            <p className="font-rounded text-[24px] font-semibold">Nothing due today 🌷</p>
+            <p className="font-rounded text-[24px] font-semibold">Nothing due today</p>
             <p className="mt-1 text-muted">
               {upcoming.length
                 ? `Next one comes back ${upcoming[0] === addDays(today, 1) ? 'tomorrow' : `on ${fmtDayLong(upcoming[0])}`}.`

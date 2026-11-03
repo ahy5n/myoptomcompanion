@@ -57,7 +57,7 @@ export function Library({
               key={t ?? 'all'}
               onClick={() => setTheme(t)}
               aria-pressed={active}
-              className={`min-h-11 shrink-0 rounded-full px-4 text-[15px] font-semibold transition-colors ${
+              className={`min-h-11 shrink-0 rounded-lg px-3.5 text-[14px] font-semibold transition-colors ${
                 active ? 'bg-ink text-white' : 'bg-card text-muted shadow-[var(--shadow-soft)] hover:text-ink'
               }`}
             >
@@ -76,10 +76,12 @@ export function Library({
               <Link
                 href={`/m/${m.code}`}
                 className="card group flex h-full min-h-[132px] flex-col justify-between overflow-hidden p-4 transition-shadow hover:shadow-[var(--shadow-lift)]"
-                style={{ background: `linear-gradient(160deg, ${m.colour} 0%, ${m.colour}55 55%, #fff 100%)` }}
               >
                 <div className="flex items-start justify-between gap-2">
-                  <span className="font-rounded text-[22px] font-bold" style={{ color: inkColour(m.colour) }}>
+                  <span
+                    className="rounded-md px-2 py-0.5 text-[15px] font-semibold tracking-tight"
+                    style={{ background: m.colour, color: inkColour(m.colour) }}
+                  >
                     {m.code}
                   </span>
                   <ProgressRing value={pct} colour={m.colour} label={`${m.code} ${Math.round(pct * 100)}% ticked`} />
@@ -146,7 +148,7 @@ function Tile({
         <p className="font-rounded text-[17px] font-semibold">{title}</p>
         <p className="text-[14px] text-muted">{children}</p>
       </div>
-      <span className={`grid size-9 shrink-0 place-items-center rounded-full ${TONES[tone]}`}>
+      <span className={`grid size-8 shrink-0 place-items-center rounded-lg ${TONES[tone]}`}>
         <ChevronRight className="size-[18px]" />
       </span>
     </Link>

@@ -99,7 +99,7 @@ function WeekCard({
             <LeafIcon />
           </span>
           <div>
-            <p className="font-rounded text-[19px] font-semibold text-sage-ink">Reading week 🌿</p>
+            <p className="font-rounded text-[19px] font-semibold text-sage-ink">Reading week</p>
             <p className="text-[15px] text-muted">No timetabled sessions. The module library is all yours.</p>
           </div>
         </div>

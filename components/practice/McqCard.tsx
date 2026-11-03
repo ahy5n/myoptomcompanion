@@ -56,7 +56,7 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
               >
                 <span
                   className={`grid size-8 shrink-0 place-items-center rounded-full text-[14px] font-bold ${
-                    showRight ? 'bg-sage text-sage-ink' : showWrong ? 'bg-rose text-rose-ink' : 'bg-wash text-muted'
+                    showRight ? 'bg-sage text-sage-ink' : showWrong ? 'bg-danger text-danger-ink' : 'bg-wash text-muted'
                   }`}
                 >
                   {showRight ? <CheckIcon className="size-4" /> : showWrong ? <CloseIcon className="size-4" /> : LETTERS[pos]}
@@ -70,8 +70,8 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
 
       {answered && (
         <div className="fade-in mt-5 space-y-3" role="status">
-          <div className={`rounded-2xl px-4 py-3.5 ${correct ? 'bg-sage-soft' : 'bg-rose-soft'}`}>
-            <p className={`font-rounded text-[17px] font-semibold ${correct ? 'text-sage-ink' : 'text-rose-ink'}`}>
+          <div className={`rounded-2xl px-4 py-3.5 ${correct ? 'bg-sage-soft' : 'bg-danger-soft'}`}>
+            <p className={`font-rounded text-[17px] font-semibold ${correct ? 'text-sage-ink' : 'text-danger-ink'}`}>
               {correct ? 'Correct' : 'Not quite'}
             </p>
             <p className="mt-1 text-[16px]">{mcq.options[chosen].feedback}</p>

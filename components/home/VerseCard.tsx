@@ -16,7 +16,7 @@ export function VerseCard({ verses }: { verses: ResolvedVerse[] }) {
   const canExpand = v.partial && !!(v.arabic || v.englishFull)
 
   return (
-    <figure className="card relative overflow-hidden bg-gradient-to-br from-white via-white to-rose-soft">
+    <figure className="card relative overflow-hidden">
       <button
         className="block w-full px-6 pb-5 pt-6 text-left sm:px-7"
         onClick={() => {

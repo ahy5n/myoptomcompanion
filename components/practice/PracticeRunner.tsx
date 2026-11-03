@@ -44,13 +44,13 @@ export function PracticeRunner({
   if (i >= items.length) {
     const right = results.filter(Boolean).length
     return (
-      <div className="fade-in rounded-[22px] bg-gradient-to-br from-rose-soft via-white to-lilac-soft p-6 text-center sm:p-8">
+      <div className="card fade-in p-6 text-center sm:p-8">
         <p className="font-rounded text-[26px] font-semibold">
           {right} of {items.length}
         </p>
         <p className="mt-1 text-muted">
           {right === items.length
-            ? 'Every single one. 🌷'
+            ? 'Every single one.'
             : right >= items.length * 0.7
               ? 'Lovely work. The ones you missed are in your mistakes deck.'
               : 'Good practice — the ones you missed are saved in your mistakes deck for later.'}

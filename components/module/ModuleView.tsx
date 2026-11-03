@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { inkColour } from '@/lib/colour'
+import { inkColour, ringColour } from '@/lib/colour'
 import type { MaterialLink } from '@/lib/slides'
 import type { ModuleView as ModuleData, Session } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
@@ -48,8 +48,8 @@ export function ModuleView({
       <BackLink href="/">Home</BackLink>
 
       <header
-        className="card mt-2 overflow-hidden"
-        style={{ background: `linear-gradient(150deg, ${m.colour} 0%, ${m.colour}66 50%, #fff 100%)` }}
+        className="card mt-2 overflow-hidden border-t-4"
+        style={{ borderTopColor: ringColour(m.colour) }}
       >
         <div className="flex items-start justify-between gap-4 p-6 sm:p-8">
           <div className="min-w-0">
@@ -95,7 +95,7 @@ export function ModuleView({
                 </p>
               ) : (
                 <button
-                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-white/70 px-3.5 text-[14px] font-medium text-ink hover:bg-white"
+                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-wash px-3.5 text-[14px] font-medium text-ink hover:bg-line"
                   onClick={() => {
                     setDraft(name)
                     setEditing(true)

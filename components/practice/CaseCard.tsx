@@ -7,7 +7,7 @@ import { useApp } from '../AppProvider'
 const MARKS = [
   { key: 'nailed', label: 'Nailed it', correct: true, cls: 'bg-sage text-sage-ink hover:bg-[#c8e8d6]' },
   { key: 'partly', label: 'Partly', correct: false, cls: 'bg-butter text-butter-ink hover:bg-[#f7e6bb]' },
-  { key: 'missed', label: 'Missed it', correct: false, cls: 'bg-rose-soft text-rose-ink hover:bg-rose' },
+  { key: 'missed', label: 'Missed it', correct: false, cls: 'bg-danger-soft text-danger-ink hover:bg-danger' },
 ] as const
 
 export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCase; onResult?: (correct: boolean) => void }) {

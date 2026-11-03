@@ -66,7 +66,7 @@ export function Settings() {
             aria-describedby="claude-help"
           />
           {error && (
-            <p role="alert" className="mt-2 text-[14px] text-rose-ink">
+            <p role="alert" className="mt-2 text-[14px] text-danger-ink">
               {error}
             </p>
           )}
@@ -182,7 +182,7 @@ function AboutYouCard() {
           </select>
         </label>
         {error && (
-          <p role="alert" className="text-[14px] text-rose-ink sm:col-span-2">
+          <p role="alert" className="text-[14px] text-danger-ink sm:col-span-2">
             {error}
           </p>
         )}
@@ -234,7 +234,7 @@ function PasswordCard() {
           <input className="field" type="password" autoComplete="new-password" minLength={6} required value={next} onChange={(e) => setNext(e.target.value)} />
         </label>
         {error && (
-          <p role="alert" className="text-[14px] text-rose-ink sm:col-span-2">
+          <p role="alert" className="text-[14px] text-danger-ink sm:col-span-2">
             {error}
           </p>
         )}

@@ -101,8 +101,8 @@ export function LabelDiagram({ diagramId, targets }: { diagramId: string; target
             const has = placed[s]
             const ok = checked && has === s
             const bad = checked && has && has !== s
-            const fill = ok ? '#d9f0e3' : bad ? '#fcebee' : has ? '#e5daf5' : '#ffffff'
-            const stroke = ok ? '#2c6a4d' : bad ? '#9a4560' : '#5a4590'
+            const fill = ok ? '#d4ece0' : bad ? '#fbece7' : has ? '#e1e3f2' : '#ffffff'
+            const stroke = ok ? '#1b6644' : bad ? '#b0472f' : '#454b8c'
             return (
               <g
                 key={s}

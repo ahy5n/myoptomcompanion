@@ -6,11 +6,11 @@ import { useData } from '../AppProvider'
 
 const LAST = 'sc:last-encouragement'
 
-function greeting(hour: number) {
-  if (hour < 5) return { text: 'Hello, night owl', emoji: '🌙' }
-  if (hour < 12) return { text: 'Good morning', emoji: '☁️' }
-  if (hour < 17) return { text: 'Good afternoon', emoji: '🌤️' }
-  return { text: 'Good evening', emoji: '🌙' }
+function greeting(hour: number): { text: string } {
+  if (hour < 5) return { text: 'Hello, night owl' }
+  if (hour < 12) return { text: 'Good morning' }
+  if (hour < 17) return { text: 'Good afternoon' }
+  return { text: 'Good evening' }
 }
 
 export function Greeting({ lines }: { lines: string[] }) {
@@ -35,8 +35,8 @@ export function Greeting({ lines }: { lines: string[] }) {
 
   return (
     <div>
-      <h1 className="text-[32px] font-semibold sm:text-[36px]">
-        {g.text}, {name} <span aria-hidden>{g.emoji}</span>
+      <h1 className="text-[30px] font-semibold tracking-tight sm:text-[34px]">
+        {g.text}, {name}
       </h1>
       <p className="mt-1.5 min-h-[1.6em] text-[18px] text-muted">{line ?? ' '}</p>
     </div>

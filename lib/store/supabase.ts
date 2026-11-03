@@ -13,7 +13,7 @@ let client: SupabaseClient | null = null
 function sb(): SupabaseClient {
   if (!client) {
     client = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!, {
-      auth: { persistSession: true, autoRefreshToken: true, storageKey: 'aris-auth' },
+      auth: { persistSession: true, autoRefreshToken: true, storageKey: 'myoptomcompanion-auth' },
     })
   }
   return client
@@ -83,6 +83,40 @@ export const supabaseBackend: Backend = {
               : msg || 'Couldn’t sign in.',
       )
     }
+    return { id: data.user.id, username }
+  },
+
+  async signUp(rawUsername, password, displayName) {
+    const username = normaliseUsername(rawUsername)
+    if (!USERNAME_RE.test(username)) throw new Error('Usernames use letters, numbers, dots, dashes or underscores.')
+    if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+    const { data, error } = await sb().auth.signUp({
+      email: toEmail(username),
+      password,
+      options: { data: { display_name: displayName.trim() } },
+    })
+    if (error) {
+      const msg = error.message
+      throw new Error(
+        /already registered|already exists/i.test(msg)
+          ? 'That username is taken. Try another, or sign in.'
+          : /signups? not allowed|disabled/i.test(msg)
+            ? 'New accounts are switched off. In Supabase, turn on “Allow new users to sign up”.'
+            : /invalid/i.test(msg) && /email/i.test(msg)
+              ? 'Supabase rejected the account address. Set NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN to a real-looking domain.'
+              : /fetch|network/i.test(msg)
+                ? 'Couldn’t reach the server — check your connection.'
+                : msg || 'Couldn’t create the account.',
+      )
+    }
+    // With "Confirm email" on, Supabase makes the user but no session, and
+    // nobody can confirm a made-up address.
+    if (!data.session || !data.user) {
+      throw new Error('Account made, but Supabase wants it confirmed by email. In Supabase, turn off “Confirm email”, then sign in.')
+    }
+    // The signup trigger copies the name too; this covers databases set up
+    // before it did.
+    await sb().from('profiles').upsert({ id: data.user.id, username, display_name: displayName.trim() || null })
     return { id: data.user.id, username }
   },
 

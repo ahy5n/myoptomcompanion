@@ -26,6 +26,7 @@ interface AppState {
   today: string
   error: string | null
   signIn(username: string, password: string): Promise<void>
+  signUp(username: string, password: string, displayName: string): Promise<void>
   signOut(): Promise<void>
   changePassword(current: string, next: string): Promise<void>
   retry(): void
@@ -159,6 +160,10 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       async signIn(username, password) {
         const signed = await backend.signIn(username, password)
         await loadFor(signed)
+      },
+      async signUp(username, password, displayName) {
+        const created = await backend.signUp(username, password, displayName)
+        await loadFor(created)
       },
       async signOut() {
         await backend.signOut()

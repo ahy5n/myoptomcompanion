@@ -86,7 +86,7 @@ function Summary({ s, target }: { s: ReturnType<typeof summarise>; target: numbe
           : `Add weightings to see what you need on the rest to reach ${target}%.`
       break
     case 'secured':
-      headline = `${target}% is already secure 🎉`
+      headline = `${target}% is already secure`
       detail = `Your marks so far lock it in on the weightings you’ve entered (${fmt(s.totalWeight)}% of the year). Everything else is a bonus.`
       break
     case 'on-track':
@@ -105,14 +105,14 @@ function Summary({ s, target }: { s: ReturnType<typeof summarise>; target: numbe
       break
     case 'done':
       headline = `${fmt(avg!)}% for the year`
-      detail = avg! >= target ? 'All weighted marks are in, and you made it. 🌷' : 'All weighted marks are in.'
+      detail = avg! >= target ? 'All weighted marks are in, and you made it.' : 'All weighted marks are in.'
       break
   }
   const pct = Math.max(0, Math.min(100, avg ?? 0))
 
   return (
     <div className="card mt-6 overflow-hidden">
-      <div className="grid gap-6 bg-gradient-to-br from-butter-soft via-white to-rose-soft p-6 sm:grid-cols-[1fr_auto] sm:p-8">
+      <div className="grid gap-6 border-b border-line p-6 sm:grid-cols-[1fr_auto] sm:p-8">
         <div>
           <p className="eyebrow">Towards {target}%</p>
           <p className="mt-2 font-rounded text-[30px] font-semibold leading-tight sm:text-[34px]">{headline}</p>
@@ -134,8 +134,8 @@ function Summary({ s, target }: { s: ReturnType<typeof summarise>; target: numbe
       </div>
       {avg != null && (
         <div className="px-6 pb-6 pt-1 sm:px-8">
-          <div className="relative h-3 rounded-full bg-wash" role="img" aria-label={`Average ${fmt(avg)}%, target ${target}%`}>
-            <div className="h-full rounded-full bg-gradient-to-r from-rose to-rose-ink/70 transition-all" style={{ width: `${pct}%` }} />
+          <div className="relative h-2 rounded-full bg-wash" role="img" aria-label={`Average ${fmt(avg)}%, target ${target}%`}>
+            <div className="h-full rounded-full bg-rose-ink transition-all" style={{ width: `${pct}%` }} />
             <div className="absolute -top-1.5 h-6 w-0.5 rounded bg-ink/60" style={{ left: `${target}%` }} />
           </div>
           <div className="relative mt-1 h-4 text-[12px] text-muted">

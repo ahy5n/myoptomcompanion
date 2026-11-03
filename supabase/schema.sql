@@ -137,8 +137,8 @@ language plpgsql
 security definer set search_path = public
 as $$
 begin
-  insert into public.profiles (id, username)
-  values (new.id, split_part(new.email, '@', 1))
+  insert into public.profiles (id, username, display_name)
+  values (new.id, split_part(new.email, '@', 1), nullif(new.raw_user_meta_data->>'display_name', ''))
   on conflict (id) do nothing;
   return new;
 end;

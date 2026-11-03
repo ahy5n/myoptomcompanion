@@ -43,11 +43,8 @@ Testing helpers:
 
 1. Create a project at [supabase.com](https://supabase.com) (free plan). Any region near the UK, e.g. London.
 2. **SQL Editor → New query**, paste all of [`supabase/schema.sql`](supabase/schema.sql), **Run**. This creates the tables, turns on Row Level Security (everyone sees only their own rows) and adds a trigger that creates a profile for each new user.
-3. **Authentication → Sign In / Providers → Email**: turn **off** “Confirm email”. Leave Email enabled. (Optional: turn off “Allow new users to sign up”, so only accounts you create can exist.)
-4. **Authentication → Users → Add user → Create new user**
-   - Email: `yourname@myoptomcompanion.local` (the username is the part before `@`; they sign in with just `yourname`)
-   - Password: one you choose (they can change it in Settings)
-   - Tick **Auto Confirm User**.
+3. **Authentication → Sign In / Providers → Email**: turn **off** “Confirm email” and make sure **“Allow new users to sign up”** is **on**. Students create their own accounts from the front page (a username and password; the app turns the username into `{username}@{domain}` behind the scenes, and nobody receives email).
+4. If an account was made in the dashboard before sign-up existed, it still works: its username is the part of its email before the `@`.
 5. **Project Settings → API**: copy the **Project URL** and the **anon / publishable** key. *Never* use the `service_role` / secret key in this app.
 6. Copy `.env.example` to `.env.local` and fill in both values. Restart `npm run dev`.
 

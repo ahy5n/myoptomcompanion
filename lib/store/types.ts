@@ -60,6 +60,7 @@ export interface Backend {
   mode: 'local' | 'supabase'
   currentUser(): Promise<AuthUser | null>
   signIn(username: string, password: string): Promise<AuthUser>
+  signUp(username: string, password: string, displayName: string): Promise<AuthUser>
   signOut(): Promise<void>
   changePassword(user: AuthUser, current: string, next: string): Promise<void>
   load(user: AuthUser): Promise<UserData>

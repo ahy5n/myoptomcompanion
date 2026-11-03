@@ -13,12 +13,12 @@ export interface DiagramDef {
   render: (labelled: boolean) => ReactNode
 }
 
-export const INK = '#2e2a33'
-export const MUTED = '#675e6d'
-export const ROSE = '#9a4560'
-export const LILAC = '#5a4590'
-export const SKY = '#2d5a85'
-export const SAGE = '#2c6a4d'
+export const INK = '#0f1419'
+export const MUTED = '#59616e'
+export const ROSE = '#b0472f'
+export const LILAC = '#454b8c'
+export const SKY = '#1c6074'
+export const SAGE = '#1b6644'
 
 export function Arrowheads() {
   return (
@@ -93,9 +93,9 @@ export function Cross({ x, y, colour = ROSE, r = 7 }: { x: number; y: number; co
   )
 }
 
-export const ROSE_SOFT = '#fcebee'
-export const SKY_SOFT = '#eef5fc'
+export const ROSE_SOFT = '#fbece7'
+export const SKY_SOFT = '#edf6f9'
 export const LILAC_SOFT = '#f4effb'
 export const SAGE_SOFT = '#eef8f2'
-export const BUTTER = '#fbefd0'
+export const BUTTER = '#f3e6c6'
 export const BUTTER_INK = '#77510f'
