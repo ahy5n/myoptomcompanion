@@ -17,6 +17,10 @@ export interface Profile {
   targetMark: number
   /** Optional daily line under the greeting. Off by default. */
   reflection: Reflection
+  /** Id from data/universities.json, or 'other'. */
+  university: string | null
+  /** Year of the degree they're in (1–5). */
+  studyYear: number | null
   claudeProjectUrl: string
   trackerSeeded: boolean
 }
@@ -93,13 +97,19 @@ export interface UserData {
   decks: UserDeck[]
 }
 
+export interface NewAccount {
+  displayName: string
+  university: string | null
+  studyYear: number | null
+}
+
 export type NewAssessment = Omit<Assessment, 'id'>
 
 export interface Backend {
   mode: 'local' | 'supabase'
   currentUser(): Promise<AuthUser | null>
   signIn(username: string, password: string): Promise<AuthUser>
-  signUp(email: string, password: string, displayName: string): Promise<AuthUser>
+  signUp(email: string, password: string, about: NewAccount): Promise<AuthUser>
   signOut(): Promise<void>
   changePassword(user: AuthUser, current: string, next: string): Promise<void>
   load(user: AuthUser): Promise<UserData>
@@ -123,7 +133,7 @@ export interface Backend {
 
 export function emptyData(username: string): UserData {
   return {
-    profile: { username, displayName: '', targetMark: 70, reflection: 'off', claudeProjectUrl: '', trackerSeeded: false },
+    profile: { username, displayName: '', targetMark: 70, reflection: 'off', university: null, studyYear: null, claudeProjectUrl: '', trackerSeeded: false },
     progress: {},
     checklists: {},
     notes: {},

@@ -1,0 +1,2641 @@
+{
+ "_note": "UK GOC-approved optometry degrees and the modules each teaches by year, from each university's own course page (checked 3 Nov 2026). 'subjects' maps each module to the subjects in data/modules.json that cover it. Modules change: check the source link before relying on a list.",
+ "checked": "2026-11-03",
+ "universities": [
+  {
+   "id": "anglia-ruskin",
+   "name": "Anglia Ruskin University",
+   "short": "ARU",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.aru.ac.uk/study/undergraduate/optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Geometrical and Visual Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Clinical Optometry 1 – Introduction to Optometric Practice",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Human and Ocular Anatomy",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Theoretical and Practical Ophthalmic Lenses",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Vision Science",
+       "subjects": [
+        "VPE"
+       ]
+      },
+      {
+       "name": "Into ARU",
+       "subjects": [
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Clinical Optometry 2 – Skills for Optometric Practice",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Pharmacology and Pathology",
+       "subjects": [
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Binocular and Paediatric Vision",
+       "subjects": [
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Introduction to Ocular Disease",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Clinical Optometry 3 – Introduction to Professional Practice",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "How can Professionalism Promote Patient Safety?",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ],
+       "optional": true
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Clinical Optometry 4 – Low Vision Assessment and Management",
+       "subjects": [
+        "LVA"
+       ]
+      },
+      {
+       "name": "Clinical Optometry 5 – Professional Practice",
+       "subjects": [
+        "PPD",
+        "DoC",
+        "PHE"
+       ]
+      },
+      {
+       "name": "Clinical Optometry 6 – Advanced Contact Lens Practice",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Management of Ocular Disease",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Advanced Clinical Skills",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Research Methods",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Optometry, Lifestyle and the Workplace",
+       "subjects": [
+        "AaD",
+        "PHE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Major Project",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Advanced Management of Medical Retina",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aston",
+   "name": "Aston University",
+   "short": "Aston",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.aston.ac.uk/study/courses/optometry-moptom",
+   "note": "Aston teaches each year as one integrated stage; these are the main areas its published outcomes cover.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Optics, ophthalmic lenses and contact lens optics",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Anatomy and physiology of the anterior and posterior eye",
+       "subjects": [
+        "ANA",
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Visual perception, development and binocular vision basics",
+       "subjects": [
+        "VPE",
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Refraction and assessment of vision",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Body systems, pathology and microbiology",
+       "subjects": [
+        "ANA",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Professional standards, law, governance and public health",
+       "subjects": [
+        "PPD",
+        "DoC",
+        "PHE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Routine eye examination",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Spectacle dispensing and low vision aids",
+       "subjects": [
+        "AaD",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Soft and rigid contact lens fitting",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Binocular vision investigation and anomalies",
+       "subjects": [
+        "BVP"
+       ]
+      },
+      {
+       "name": "Anterior and posterior eye conditions",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Ocular manifestations of systemic disease",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Ophthalmic pharmacology and diagnostic drugs",
+       "subjects": [
+        "PHA"
+       ]
+      },
+      {
+       "name": "Evidence-based practice and professionalism",
+       "subjects": [
+        "VSE",
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Binocular vision management",
+       "subjects": [
+        "BVP"
+       ]
+      },
+      {
+       "name": "Paediatric optometry",
+       "subjects": [
+        "PaP"
+       ]
+      },
+      {
+       "name": "Patients with additional needs and low vision",
+       "subjects": [
+        "PaP",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Anterior segment disease management",
+       "subjects": [
+        "AnE",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Posterior segment disease management",
+       "subjects": [
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Referral and patient safety",
+       "subjects": [
+        "SyD",
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Population and public health",
+       "subjects": [
+        "PHE"
+       ]
+      },
+      {
+       "name": "Special and vocational optical appliances",
+       "subjects": [
+        "AaD",
+        "LVA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical Learning in Practice (final-year placement)",
+       "subjects": [
+        "PPD",
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bradford",
+   "name": "University of Bradford",
+   "short": "Bradford",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.bradford.ac.uk/courses/ug/master-of-optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Ocular Health and Disease 1",
+       "subjects": [
+        "ANA",
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Vision, Optics and Refractive Correction 1",
+       "subjects": [
+        "OPT",
+        "VPE",
+        "AaD",
+        "AaM"
+       ]
+      },
+      {
+       "name": "Optometric Practice 1",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Ocular Health and Disease 2",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Vision, Optics and Refractive Correction 2",
+       "subjects": [
+        "AaD",
+        "AaM",
+        "CLB",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Optometric Practice 2",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Optometric Practice 3",
+       "subjects": [
+        "SyD",
+        "PaP",
+        "PHA",
+        "LVA",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Extended Clinical Placement",
+       "subjects": [
+        "PPD",
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cardiff",
+   "name": "Cardiff University",
+   "short": "Cardiff",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/master-of-optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Eye Examination",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Visual Correction",
+       "subjects": [
+        "OPT",
+        "AaD",
+        "AaM"
+       ]
+      },
+      {
+       "name": "The Eye",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      },
+      {
+       "name": "Being a Professional",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Further Eye Examination",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Advanced Visual Correction",
+       "subjects": [
+        "AaD",
+        "AaM",
+        "CLB"
+       ]
+      },
+      {
+       "name": "Pathology and Management",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Primary Care",
+       "subjects": [
+        "AaM",
+        "SyD",
+        "PaP",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Enhanced Services",
+       "subjects": [
+        "SyD",
+        "PHE",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Research and Evidence-based Optometry",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Low Vision",
+       "subjects": [
+        "LVA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Medical Retina",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Ocular Therapeutics and Pharmacology",
+       "subjects": [
+        "PHA",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Glaucoma",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "city",
+   "name": "City St George's, University of London",
+   "short": "City St George's",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.citystgeorges.ac.uk/prospective-students/courses/undergraduate/optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Basic Sciences for Optometry",
+       "subjects": [
+        "OPT",
+        "ANA",
+        "VPE"
+       ]
+      },
+      {
+       "name": "Clinical Skills for Optometry",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Ocular Disease and Abnormality",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Advanced Clinical Investigation",
+       "subjects": [
+        "AaM",
+        "CLB",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Management of Clinical Conditions",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Paediatric Optometry",
+       "subjects": [
+        "PaP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Intensive Clinical Placement",
+       "subjects": [
+        "PPD",
+        "CLP"
+       ]
+      },
+      {
+       "name": "Optometric Research Project",
+       "subjects": [
+        "VSE"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de-montfort",
+   "name": "De Montfort University",
+   "short": "DMU",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/optometry/optometry.aspx",
+   "note": "A new course (first intake 2026).",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Pure and Applied Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Vision and Refractive Correction 1",
+       "subjects": [
+        "OPT",
+        "AaM"
+       ]
+      },
+      {
+       "name": "Ocular Health and Eye Examination 1",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Professional Studies 1",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Vision and Refractive Correction 2",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Ocular Health and Eye Examination 2",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Contact Lenses and Binocular Vision",
+       "subjects": [
+        "CLB",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Professional Studies 2",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Ocular Disease and Therapeutics",
+       "subjects": [
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Clinical Optometry",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Professional Studies 3",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Research Project / Dissertation",
+       "subjects": [
+        "VSE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical Learning in Practice 3",
+       "subjects": [
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glasgow-caledonian",
+   "name": "Glasgow Caledonian University",
+   "short": "GCU",
+   "degree": "MOptom (IP)",
+   "years": 5,
+   "source": "https://www.gcu.ac.uk/study/courses/ug/2728/moptom-ip-optometry-with-independent-prescribing-glasgow",
+   "note": "Five years, including independent prescribing.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Biology of the Human Eye and Supporting Structures",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Foundations of Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Principles of Spectacle Dispensing",
+       "subjects": [
+        "AaD"
+       ]
+      },
+      {
+       "name": "Visual Optics, Refraction and Binocular Vision",
+       "subjects": [
+        "OPT",
+        "AaM",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Clinical and Professional Studies 1",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Neural Anatomy and Physiology",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Diagnostic Instrumentation and Techniques A",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Diagnostic Instrumentation and Techniques B",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Clinical and Professional Studies 2",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Further Refraction and Binocular Vision",
+       "subjects": [
+        "AaM",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Introduction to Ocular and Systemic Disease",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Ocular Pharmacology",
+       "subjects": [
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Further Ocular Disease",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Visual Development and Paediatric Eyecare",
+       "subjects": [
+        "PaP"
+       ]
+      },
+      {
+       "name": "Clinical and Professional Studies 3",
+       "subjects": [
+        "AaM",
+        "CLB",
+        "LVA",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Contact Lens Studies",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Neuro-ophthalmology and Eye Movement Disorders",
+       "subjects": [
+        "VPE",
+        "SyD",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Visual Perception and Methods of Enquiry in Vision Science",
+       "subjects": [
+        "VPE",
+        "VSE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical and Professional Studies 4A",
+       "subjects": [
+        "SyD",
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Clinical and Professional Studies 4B",
+       "subjects": [
+        "SyD",
+        "PPD",
+        "PHE"
+       ]
+      },
+      {
+       "name": "Management of Ocular Disease A",
+       "subjects": [
+        "AnE",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Management of Ocular Disease B",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Project / Dissertation",
+       "subjects": [
+        "VSE"
+       ],
+       "optional": true
+      }
+     ]
+    },
+    {
+     "year": 5,
+     "modules": [
+      {
+       "name": "Independent Prescribing: Prescribing Safely and Effectively",
+       "subjects": [
+        "PHA",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Independent Prescribing: Placement",
+       "subjects": [
+        "CLP",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Learning and Experience in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hertfordshire",
+   "name": "University of Hertfordshire",
+   "short": "Herts",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.herts.ac.uk/courses/undergraduate/moptom-master-of-optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Anatomy, Pharmacology and Pathology",
+       "subjects": [
+        "ANA",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Visual Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Foundations of Clinical Practice",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Professionalism in Optometry",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Ophthalmic Dispensing",
+       "subjects": [
+        "AaD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Clinical Investigation and Interpretation",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Visual Function and Management",
+       "subjects": [
+        "VPE",
+        "AaM",
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Core Clinical Practice",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Ocular Pathology and Patient Care",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Clinical Decision Making",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Advanced Clinical Practice",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Special Populations",
+       "subjects": [
+        "PaP",
+        "LVA",
+        "PHE"
+       ]
+      },
+      {
+       "name": "Preparation for Learning in Practice",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Transition to Clinical Learning in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Consolidation of Clinical Learning in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Ophthalmic Project",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Foundations of Independent Prescribing",
+       "subjects": [
+        "PHA",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Enhanced Services",
+       "subjects": [
+        "SyD",
+        "PHE",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "huddersfield",
+   "name": "University of Huddersfield",
+   "short": "Huddersfield",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://courses.hud.ac.uk/2027-28/undergraduate/optometry-moptom/",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Human Body Systems",
+       "subjects": [
+        "ANA",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Clinical Skills 1",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Ocular Anatomy and Physiology",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Ophthalmic Lenses and Dispensing",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Science of Visual Perception",
+       "subjects": [
+        "VPE"
+       ]
+      },
+      {
+       "name": "Visual Optics",
+       "subjects": [
+        "OPT"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Clinical Skills 2",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Binocular Vision and Paediatric Optometry",
+       "subjects": [
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Contact Lenses in Practice",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Investigative Techniques",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Primary Ocular Health and Pharmacology",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Clinical Practice",
+       "subjects": [
+        "AaM",
+        "SyD",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Advanced Ocular Health",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Professional Practice",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Optometric Practice across the Human Lifespan",
+       "subjects": [
+        "SyD",
+        "PaP",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Community Optometry",
+       "subjects": [
+        "PHE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Advanced Optometric Practice 1 – Ocular Therapeutics",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Advanced Optometric Practice 2",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice Part 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice Part 2",
+       "subjects": [
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lancashire",
+   "name": "University of Lancashire",
+   "short": "Lancashire",
+   "degree": "MOptom (work-based)",
+   "years": 3,
+   "source": "https://www.lancashire.ac.uk/postgraduate/courses/optometry-moptom",
+   "note": "A three-year route for people already working in the optical industry.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Clinical Optometry",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Clinical Decision Making in Ophthalmic Practice",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Clinical Learning in Ophthalmic Practice",
+       "subjects": [
+        "PPD",
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "leicester",
+   "name": "University of Leicester",
+   "short": "Leicester",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://le.ac.uk/courses/optometry-moptom/2027",
+   "note": "A new course.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Anatomy and Vision",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      },
+      {
+       "name": "Fundamental Optics and Appliances",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Elementary Clinical Skills",
+       "subjects": [
+        "AaM",
+        "AnE"
+       ]
+      },
+      {
+       "name": "Professional, Communication and Education Skills",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Ocular Pathology",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Advanced Optical Appliances",
+       "subjects": [
+        "AaD",
+        "CLB",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Binocular Vision and Paediatrics",
+       "subjects": [
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Clinical Procedures and Refraction",
+       "subjects": [
+        "AaM"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Research-based Practice",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Practice Management and Law",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Patient Care and Case Management",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Advanced Instrumentation",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Dissertation",
+       "subjects": [
+        "VSE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Professional Certificate in Glaucoma",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Initial Clinical Learning in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Further Clinical Learning in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "manchester",
+   "name": "University of Manchester",
+   "short": "Manchester",
+   "degree": "MSci",
+   "years": 4,
+   "source": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/21273/msci-optometry/",
+   "note": "Manchester teaches each year as two broad units; the subjects listed are what its course page says each year covers.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Fundamentals of Optometry 1 and 2: light and optics, eye anatomy, how vision is processed, using optometric instruments",
+       "subjects": [
+        "OPT",
+        "ANA",
+        "VPE",
+        "AaM",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Introduction to Clinical Optometry 1 and 2: disease processes, pharmacology, contact lenses, binocular vision, optics and appliances",
+       "subjects": [
+        "AaD",
+        "AaM",
+        "CLB",
+        "SyD",
+        "BVP",
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Clinical Practice 1 and 2: patient management in clinic and at Manchester Royal Eye Hospital, evidence-based practice",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "VSE",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Advanced Clinical Practice 1 and 2: placements and becoming proficient in all core areas",
+       "subjects": [
+        "CLP",
+        "HQ"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plymouth",
+   "name": "University of Plymouth",
+   "short": "Plymouth",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.plymouth.ac.uk/courses/undergraduate/moptom-optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Visual Perception",
+       "subjects": [
+        "VPE"
+       ]
+      },
+      {
+       "name": "Geometric and Physical Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Visual Optics and Ophthalmic Lenses",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Anatomy and Physiology",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Clinical Optometry Skills",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Preparation for Practice",
+       "subjects": [
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Paediatric and Binocular Vision",
+       "subjects": [
+        "BVP",
+        "PaP"
+       ]
+      },
+      {
+       "name": "Clinical Optometry Skills and Refractive Management",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Specialist Optometry Skills",
+       "subjects": [
+        "CLB",
+        "AnE",
+        "PEG",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Introduction to Pathology and Therapeutics",
+       "subjects": [
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Project Studies",
+       "subjects": [
+        "VSE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "General Optometric Practice",
+       "subjects": [
+        "AaM",
+        "SyD",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Specialist Optometric Practice",
+       "subjects": [
+        "CLB",
+        "BVP",
+        "PaP",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Enhanced Pathology and Therapeutics",
+       "subjects": [
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Clinical Case Management in Optometry",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Project",
+       "subjects": [
+        "VSE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Applied Clinical and Professional Practice",
+       "subjects": [
+        "SyD",
+        "PPD",
+        "CLP"
+       ]
+      },
+      {
+       "name": "Applied Clinical Practice and Leadership",
+       "subjects": [
+        "PPD",
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Optometric Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Optometric Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Glaucoma",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Medical Retina",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Acute and Emergency Eye Care",
+       "subjects": [
+        "AnE",
+        "SyD",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Cataract",
+       "subjects": [
+        "SyD",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "teesside",
+   "name": "Teesside University",
+   "short": "Teesside",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.tees.ac.uk/undergraduate_courses/nursing_&_health/moptom_(hons)_optometry.cfm",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Anatomy and Physiology for Optometrists",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Clinical Optometry Skills",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Investigative Techniques and Instrumentation",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Ophthalmic Lenses and Dispensing",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Professionalism and Evidence-based Practice",
+       "subjects": [
+        "VSE",
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "The Visual System",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Anterior Eye",
+       "subjects": [
+        "AnE"
+       ]
+      },
+      {
+       "name": "Binocular Vision",
+       "subjects": [
+        "BVP"
+       ]
+      },
+      {
+       "name": "Contact Lenses",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Eye Examination",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Further Investigative Techniques",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Posterior Eye",
+       "subjects": [
+        "PEG"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Advanced Contact Lens Practice",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Low Vision and Law",
+       "subjects": [
+        "LVA",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Optometry Clinical Practice",
+       "subjects": [
+        "AaM",
+        "SyD",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Pharmacology",
+       "subjects": [
+        "PHA"
+       ]
+      },
+      {
+       "name": "Research Project",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Specialist Optometric Techniques",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Advanced Clinical Management",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice Part 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice Part 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Glaucoma",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Medical Retina",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "highlands-islands",
+   "name": "University of the Highlands and Islands",
+   "short": "UHI",
+   "degree": "MOptom (IP)",
+   "years": 5,
+   "source": "https://www.uhi.ac.uk/en/courses/moptom-optometry-with-independent-prescribing/",
+   "note": "Five years, including independent prescribing.",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Foundations of Clinical Practice",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Introduction to Clinical Optometry",
+       "subjects": [
+        "AaM",
+        "AnE"
+       ]
+      },
+      {
+       "name": "Introduction to Optometry Business Skills",
+       "subjects": [
+        "PPD"
+       ]
+      },
+      {
+       "name": "Principles of Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Structure and Function of the Visual Pathway",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      },
+      {
+       "name": "Study Skills for Optometrists",
+       "subjects": [
+        "VSE",
+        "PPD"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Management and Therapeutics 1",
+       "subjects": [
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Ophthalmic Dispensing",
+       "subjects": [
+        "AaD"
+       ]
+      },
+      {
+       "name": "Optometric Studies 1",
+       "subjects": [
+        "AaM",
+        "AnE",
+        "PEG",
+        "BVP"
+       ]
+      },
+      {
+       "name": "Optometric Studies 2",
+       "subjects": [
+        "CLB",
+        "BVP",
+        "PaP"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Advanced Optometric Studies 1",
+       "subjects": [
+        "CLB",
+        "SyD",
+        "LVA"
+       ]
+      },
+      {
+       "name": "Management and Therapeutics 2",
+       "subjects": [
+        "AnE",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Management and Therapeutics 3",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Optometric Studies 3",
+       "subjects": [
+        "SyD",
+        "PaP",
+        "LVA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Advanced Optometric Studies 2",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Community Optometry",
+       "subjects": [
+        "PHE"
+       ]
+      },
+      {
+       "name": "Dissertation",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Management and Therapeutics 4",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "HQ"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 5,
+     "modules": [
+      {
+       "name": "Learning and Experience in Practice",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Independent Prescribing 1",
+       "subjects": [
+        "PHA",
+        "HQ"
+       ]
+      },
+      {
+       "name": "Independent Prescribing 2",
+       "subjects": [
+        "PHA",
+        "HQ"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ulster",
+   "name": "Ulster University",
+   "short": "Ulster",
+   "degree": "MOptom",
+   "years": 4,
+   "source": "https://www.ulster.ac.uk/courses/202627/optometry-50948",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Clinical Skills 1",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Clinical Skills 2",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Practical Optics",
+       "subjects": [
+        "OPT"
+       ]
+      },
+      {
+       "name": "Visual Anatomy and Physiology",
+       "subjects": [
+        "ANA"
+       ]
+      },
+      {
+       "name": "Ocular Health and Disease I",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Visual Processing and Perception",
+       "subjects": [
+        "VPE"
+       ]
+      },
+      {
+       "name": "Continuing Professional and Personal Development 1",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Contact Lens Practice",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Clinical Skills 3",
+       "subjects": [
+        "AaM"
+       ]
+      },
+      {
+       "name": "Ophthalmic Dispensing Practice",
+       "subjects": [
+        "AaD"
+       ]
+      },
+      {
+       "name": "Human Disease",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Clinical Decision Making 1",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Ocular Health and Disease II",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Preparing for Clinical Learning in Practice",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Continuing Professional and Personal Development 2",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Optometric Research",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Professional and Clinical Practice",
+       "subjects": [
+        "AaM",
+        "PPD",
+        "DoC"
+       ]
+      },
+      {
+       "name": "Ocular Pharmacology and Therapeutics",
+       "subjects": [
+        "PHA"
+       ]
+      },
+      {
+       "name": "Paediatric Optometry",
+       "subjects": [
+        "PaP"
+       ]
+      },
+      {
+       "name": "Binocular Vision",
+       "subjects": [
+        "BVP"
+       ]
+      },
+      {
+       "name": "Clinical Decision Making 2",
+       "subjects": [
+        "SyD"
+       ]
+      },
+      {
+       "name": "Low Vision",
+       "subjects": [
+        "LVA"
+       ]
+      },
+      {
+       "name": "Continuing Professional and Personal Development 3",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Advanced Clinical Practice 1",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Advanced Clinical Practice 2",
+       "subjects": [
+        "SyD",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uwe",
+   "name": "University of the West of England (UWE Bristol)",
+   "short": "UWE",
+   "degree": "MSci",
+   "years": 4,
+   "source": "https://courses.uwe.ac.uk/B511/optometry",
+   "syllabus": [
+    {
+     "year": 1,
+     "modules": [
+      {
+       "name": "Contact Lenses",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Dispensing and Optical Appliances 1",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Foundation Optometry Skills",
+       "subjects": [
+        "AaM",
+        "AnE"
+       ]
+      },
+      {
+       "name": "Investigative Skills",
+       "subjects": [
+        "AnE",
+        "PEG"
+       ]
+      },
+      {
+       "name": "Ocular Anatomy and the Visual System",
+       "subjects": [
+        "ANA",
+        "VPE"
+       ]
+      },
+      {
+       "name": "Professional Development and Communication",
+       "subjects": [
+        "PPD",
+        "DoC"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 2,
+     "modules": [
+      {
+       "name": "Advanced Contact Lenses",
+       "subjects": [
+        "CLB"
+       ]
+      },
+      {
+       "name": "Dispensing and Optical Appliances 2",
+       "subjects": [
+        "OPT",
+        "AaD"
+       ]
+      },
+      {
+       "name": "Ocular Pathology",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD"
+       ]
+      },
+      {
+       "name": "Primary Care Routine and Binocular Vision",
+       "subjects": [
+        "AaM",
+        "BVP"
+       ]
+      },
+      {
+       "name": "The Ageing Eye",
+       "subjects": [
+        "PEG",
+        "SyD",
+        "LVA"
+       ]
+      },
+      {
+       "name": "The Body and Pharmacology",
+       "subjects": [
+        "ANA",
+        "SyD",
+        "PHA"
+       ]
+      }
+     ]
+    },
+    {
+     "year": 3,
+     "modules": [
+      {
+       "name": "Advanced Ocular Pathology and Pharmacology",
+       "subjects": [
+        "AnE",
+        "PEG",
+        "SyD",
+        "PHA"
+       ]
+      },
+      {
+       "name": "Clinical Optometry and Leadership",
+       "subjects": [
+        "AaM",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Clinical Optometry and Preparing for Clinical Learning in Practice",
+       "subjects": [
+        "AaM",
+        "SyD",
+        "PPD"
+       ]
+      },
+      {
+       "name": "Evidence Based Optometry",
+       "subjects": [
+        "VSE"
+       ]
+      },
+      {
+       "name": "Shared Care and Prescribing",
+       "subjects": [
+        "SyD",
+        "PHA",
+        "PHE"
+       ]
+      },
+      {
+       "name": "Glaucoma Advanced Studies",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      },
+      {
+       "name": "Medical Retina Advanced Studies",
+       "subjects": [
+        "PEG",
+        "HQ"
+       ],
+       "optional": true
+      }
+     ]
+    },
+    {
+     "year": 4,
+     "modules": [
+      {
+       "name": "Clinical Learning in Practice 1",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Clinical Learning in Practice 2",
+       "subjects": [
+        "CLP"
+       ]
+      },
+      {
+       "name": "Lifelong Learning Project",
+       "subjects": [
+        "VSE",
+        "PPD"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

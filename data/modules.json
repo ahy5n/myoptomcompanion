@@ -1,15 +1,79 @@
 {
-  "_note": "Modules in this course pack. Students can rename a module from its page; the rename is saved per user.",
+  "_note": "Subjects in this course pack. 'years' is the year of a UK optometry degree the subject is usually taught in (from 17 universities' published syllabi, see universities.json). Outline subjects list their topics before the full content is written. Students can rename a subject; the rename is saved per user.",
   "themes": {
+    "Foundations": "The science underneath: optics, anatomy, how vision works",
     "Management": "Clinical management: dispensing, refraction, contact lenses, binocular vision, paediatrics",
     "Patient": "Examining the patient: anterior eye, posterior eye, diagnosis",
     "Professional": "Evidence, professionalism and public health"
   },
   "modules": [
     {
+      "code": "OPT",
+      "name": "Optics & Ophthalmic Lenses",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "outline",
+      "colour": "#DCE3EE",
+      "outline": [
+        "Light, refraction and Snell's law; prisms and deviation",
+        "Vergence and the thin lens equation; lens power in dioptres",
+        "Thick lenses, cardinal points and back vertex power",
+        "Mirrors and reflection",
+        "Visual optics: the schematic eye, ametropia, far and near points",
+        "Astigmatism, cylindrical lenses, spherocylinder notation and transposition",
+        "Accommodation, presbyopia and reading additions",
+        "Aberrations, and physical optics: interference, diffraction and polarisation"
+      ]
+    },
+    {
+      "code": "ANA",
+      "name": "Ocular Anatomy & Physiology",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "outline",
+      "colour": "#E6E1D3",
+      "outline": [
+        "Orbit, eyelids and the lacrimal system",
+        "Cornea, conjunctiva and the tear film",
+        "Uvea, and aqueous production and drainage",
+        "Crystalline lens and accommodation",
+        "Retina: layers, photoreceptors and phototransduction",
+        "Visual pathway: optic nerve, chiasm, LGN and visual cortex",
+        "Extraocular muscles and cranial nerves",
+        "Blood supply of the eye and orbit"
+      ]
+    },
+    {
+      "code": "VPE",
+      "name": "Visual Perception & Vision Science",
+      "theme": "Foundations",
+      "years": [
+        1
+      ],
+      "contentStatus": "outline",
+      "colour": "#D9E6E9",
+      "outline": [
+        "Visual acuity and contrast sensitivity",
+        "Colour vision and colour vision deficiency",
+        "Light and dark adaptation",
+        "Visual fields",
+        "Depth perception and stereopsis",
+        "Motion, form and visual illusions",
+        "Psychophysics: thresholds and how they are measured"
+      ]
+    },
+    {
       "code": "AaD",
       "name": "Optical Dispensing",
       "theme": "Management",
+      "years": [
+        1,
+        2
+      ],
       "contentStatus": "full",
       "contentFile": "content/aad.json",
       "colour": "#D9E3F7",
@@ -27,6 +91,10 @@
       "code": "AaM",
       "name": "Refraction & Management of Refractive Error",
       "theme": "Management",
+      "years": [
+        1,
+        2
+      ],
       "contentStatus": "full",
       "colour": "#D3EAF0",
       "outline": [
@@ -55,6 +123,10 @@
       "code": "CLB",
       "name": "Contact Lenses",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#D5EBDF",
       "outline": [
@@ -83,6 +155,9 @@
       "code": "AnE",
       "name": "Anterior Eye Examination",
       "theme": "Patient",
+      "years": [
+        2
+      ],
       "contentStatus": "full",
       "colour": "#F1E5CC",
       "outline": [
@@ -109,6 +184,10 @@
       "code": "PEG",
       "name": "Posterior Eye (and Glaucoma)",
       "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#E1E3F2",
       "outline": [
@@ -135,6 +214,10 @@
       "code": "SyD",
       "name": "Diagnosis & Systemic Disease",
       "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#E9E6CF",
       "outline": [
@@ -159,6 +242,10 @@
       "code": "BVP",
       "name": "Binocular Vision",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#D2E6E3",
       "outline": [
@@ -181,6 +268,10 @@
       "code": "PaP",
       "name": "Paediatrics",
       "theme": "Management",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#EADCD6",
       "outline": [
@@ -203,6 +294,11 @@
       "code": "VSE",
       "name": "Vision Science & Evidence",
       "theme": "Professional",
+      "years": [
+        1,
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#DCE6D2",
       "outline": [
@@ -225,6 +321,12 @@
       "code": "PPD",
       "name": "Professional & Personal Development",
       "theme": "Professional",
+      "years": [
+        1,
+        2,
+        3,
+        4
+      ],
       "contentStatus": "full",
       "colour": "#E2E5EA",
       "outline": [
@@ -245,6 +347,10 @@
       "code": "DoC",
       "name": "Duty of Candour",
       "theme": "Professional",
+      "years": [
+        2,
+        3
+      ],
       "contentStatus": "full",
       "colour": "#E6DFEC",
       "outline": [
@@ -263,6 +369,9 @@
       "code": "PHE",
       "name": "Public Health & Eye Health",
       "theme": "Professional",
+      "years": [
+        3
+      ],
       "contentStatus": "full",
       "colour": "#DDE8EE",
       "outline": [
@@ -276,6 +385,81 @@
         "phe-sight-loss-uk",
         "phe-inequalities",
         "phe-health-promotion"
+      ]
+    },
+    {
+      "code": "PHA",
+      "name": "Ocular Pharmacology & Therapeutics",
+      "theme": "Patient",
+      "years": [
+        2,
+        3
+      ],
+      "contentStatus": "outline",
+      "colour": "#ECE0D9",
+      "outline": [
+        "How topical eye drops reach their target (pharmacokinetics)",
+        "Diagnostic drugs: mydriatics, cycloplegics, anaesthetics and stains",
+        "Adverse reactions and contraindications, including angle-closure risk",
+        "Exemptions and the legal framework for optometrists using medicines",
+        "Anti-infectives and anti-inflammatories",
+        "Glaucoma medicines",
+        "Systemic medicines with eye side effects"
+      ]
+    },
+    {
+      "code": "LVA",
+      "name": "Low Vision",
+      "theme": "Management",
+      "years": [
+        3
+      ],
+      "contentStatus": "outline",
+      "colour": "#DDE5D6",
+      "outline": [
+        "Causes and impact of visual impairment in the UK",
+        "Low vision assessment: history, acuity, contrast and fields",
+        "Magnification: types and working out how much is needed",
+        "Magnifiers, telescopes and electronic aids",
+        "Lighting, contrast and non-optical aids",
+        "Certification (CVI), registration and referral to support services"
+      ]
+    },
+    {
+      "code": "CLP",
+      "name": "Clinical Learning in Practice (Placement Year)",
+      "theme": "Professional",
+      "years": [
+        4
+      ],
+      "contentStatus": "outline",
+      "colour": "#E4DDE9",
+      "outline": [
+        "How the final placement year is structured",
+        "Building your log of patient episodes",
+        "Running a full routine eye examination on your own",
+        "Referral letters and communicating with GPs and hospital eye services",
+        "Record keeping, consent and safeguarding in practice",
+        "Preparing for final assessments and GOC registration"
+      ]
+    },
+    {
+      "code": "HQ",
+      "name": "Glaucoma, Medical Retina & Prescribing",
+      "theme": "Patient",
+      "years": [
+        4,
+        5
+      ],
+      "contentStatus": "outline",
+      "colour": "#E1E6E1",
+      "outline": [
+        "College of Optometrists higher certificates in glaucoma and medical retina",
+        "Glaucoma: risk factors, assessment and monitoring",
+        "Medical retina: AMD, diabetic retinopathy and vein occlusions",
+        "Acute and emergency eye care services",
+        "Additional supply and supplementary prescribing",
+        "Independent prescribing: the law, management plans and responsibility"
       ]
     }
   ]

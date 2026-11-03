@@ -10,6 +10,8 @@ create table if not exists public.profiles (
   display_name text,
   target_mark numeric not null default 70,
   reflection text not null default 'off' check (reflection in ('off', 'quotes', 'faith')),
+  university text,
+  study_year int check (study_year between 1 and 5),
   claude_project_url text,
   tracker_seeded boolean not null default false, -- target tracker pre-filled from the timetable once
   created_at timestamptz not null default now()
@@ -18,6 +20,8 @@ alter table public.profiles add column if not exists tracker_seeded boolean not 
 alter table public.profiles add column if not exists display_name text;
 alter table public.profiles add column if not exists target_mark numeric not null default 70;
 alter table public.profiles add column if not exists reflection text not null default 'off';
+alter table public.profiles add column if not exists university text;
+alter table public.profiles add column if not exists study_year int;
 
 create table if not exists public.topic_progress (
   user_id uuid not null default auth.uid() references auth.users on delete cascade,

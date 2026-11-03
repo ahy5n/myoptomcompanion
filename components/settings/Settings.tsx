@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { fmtShort } from '@/lib/dates'
 import type { Reflection } from '@/lib/store'
+import { type Course, CoursePicker } from '../CoursePicker'
 import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
@@ -135,6 +136,7 @@ function AboutYouCard() {
   const [name, setName] = useState(profile.displayName)
   const [target, setTarget] = useState(String(profile.targetMark))
   const [reflection, setReflection] = useState<Reflection>(profile.reflection)
+  const [course, setCourse] = useState<Course>({ university: profile.university, studyYear: profile.studyYear })
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -148,7 +150,7 @@ function AboutYouCard() {
     setError(null)
     setBusy(true)
     try {
-      await saveProfile({ displayName: name.trim(), targetMark: t, reflection })
+      await saveProfile({ displayName: name.trim(), targetMark: t, reflection, ...course })
       toast('Saved.')
     } catch {
       toast('Couldn’t save just now.')
@@ -171,6 +173,9 @@ function AboutYouCard() {
           <span className="mb-1 block text-[14px] font-medium">Target average (%)</span>
           <input className="field" type="number" inputMode="numeric" min={40} max={100} value={target} onChange={(e) => setTarget(e.target.value)} />
         </label>
+        <div className="sm:col-span-2">
+          <CoursePicker value={course} onChange={setCourse} />
+        </div>
         <label className="block sm:col-span-2">
           <span className="mb-1 block text-[14px] font-medium">Daily reflection on the home page</span>
           <select className="field" value={reflection} onChange={(e) => setReflection(e.target.value as Reflection)}>

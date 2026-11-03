@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { inkColour, ringColour } from '@/lib/colour'
 import { fmtDayLong } from '@/lib/dates'
 import { materialsFrom, sessionsFrom } from '@/lib/timetable'
+import { getUniversity, yearLabel } from '@/lib/universities'
 import type { ModuleView as ModuleData } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
 import { BackLink, type ColourMap, ProgressRing } from '../bits'
@@ -29,6 +30,9 @@ export function ModuleView({
   const sessions = sessionsFrom(data.timetable).filter((s) => s.module === m.code)
   const materials = materialsFrom(data.decks)
   const decks = data.decks.filter((d) => d.module === m.code)
+  const uni = getUniversity(data.profile.university)
+  // The modules at their university this subject helps with, by year.
+  const atUni = (uni?.syllabus ?? []).flatMap((y) => y.modules.filter((x) => x.subjects.includes(m.code)).map((x) => ({ year: y.year, name: x.name })))
   const override = data.overrides[m.code]
   const name = override || m.name
   const [editing, setEditing] = useState(false)
@@ -105,6 +109,29 @@ export function ModuleView({
               ))}
           </div>
           <ProgressRing value={pct} colour={m.colour} size={64} stroke={6} label={`${Math.round(pct * 100)}% ticked`} />
+        </div>
+        <div className="border-t border-line px-6 py-4 text-[14px] sm:px-8">
+          <p>
+            <span className="text-muted">Usually taught in </span>
+            <span className="font-semibold">{yearLabel(m.years)}</span>
+            <span className="text-muted"> of a UK optometry degree.</span>
+          </p>
+          {uni && (
+            <p className="mt-1">
+              <span className="text-muted">At {uni.short}: </span>
+              {atUni.length ? (
+                atUni.map((x, i) => (
+                  <span key={`${x.year}-${x.name}`}>
+                    {i > 0 && <span className="text-faint"> · </span>}
+                    <span className={x.year === data.profile.studyYear ? 'font-semibold' : ''}>{x.name}</span>
+                    <span className="text-muted"> (Year {x.year})</span>
+                  </span>
+                ))
+              ) : (
+                <span className="text-muted">not a named part of the syllabus, but still useful background.</span>
+              )}
+            </p>
+          )}
         </div>
       </header>
 

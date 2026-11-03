@@ -1,12 +1,14 @@
 // Shapes of the static course data in /data. Content files added later
 // (content/aam.json, content/clb.json, …) must follow the same schema.
 
-export type ThemeName = 'Management' | 'Patient' | 'Professional'
+export type ThemeName = 'Foundations' | 'Management' | 'Patient' | 'Professional'
 
 export interface ModuleMeta {
   code: string
   name: string
   theme: ThemeName
+  /** Years of the degree this subject is usually taught in. */
+  years: number[]
   contentStatus: 'full' | 'outline'
   contentFile?: string
   colour: string

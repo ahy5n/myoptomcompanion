@@ -154,12 +154,12 @@ export const supabaseBackend: Backend = {
     return { id: data.user.id, username }
   },
 
-  async signUp(rawEmail, password, displayName) {
+  async signUp(rawEmail, password, about) {
     const username = checkNewAccount(rawEmail, password)
     const { data, error } = await sb().auth.signUp({
       email: username,
       password,
-      options: { data: { display_name: displayName.trim() } },
+      options: { data: { display_name: about.displayName.trim() } },
     })
     if (error) {
       const msg = error.message
@@ -182,7 +182,13 @@ export const supabaseBackend: Backend = {
     }
     // The signup trigger copies the name too; this covers databases set up
     // before it did.
-    await sb().from('profiles').upsert({ id: data.user.id, username, display_name: displayName.trim() || null })
+    await sb().from('profiles').upsert({
+      id: data.user.id,
+      username,
+      display_name: about.displayName.trim() || null,
+      university: about.university,
+      study_year: about.studyYear,
+    })
     return { id: data.user.id, username }
   },
 
@@ -201,7 +207,7 @@ export const supabaseBackend: Backend = {
   async load(user) {
     const c = sb()
     const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks] = await Promise.all([
-      c.from('profiles').select('username, display_name, target_mark, reflection, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
+      c.from('profiles').select('username, display_name, target_mark, reflection, university, study_year, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
       c.from('checklist_progress').select('checklist_id, done_steps'),
       c.from('notes').select('topic_id, body'),
@@ -221,6 +227,8 @@ export const supabaseBackend: Backend = {
         displayName: p.display_name ?? '',
         targetMark: p.target_mark ?? 70,
         reflection: p.reflection ?? 'off',
+        university: p.university ?? null,
+        studyYear: p.study_year ?? null,
         claudeProjectUrl: p.claude_project_url ?? '',
         trackerSeeded: !!p.tracker_seeded,
       }
@@ -270,6 +278,8 @@ export const supabaseBackend: Backend = {
     if (patch.displayName !== undefined) row.display_name = patch.displayName
     if (patch.targetMark !== undefined) row.target_mark = patch.targetMark
     if (patch.reflection !== undefined) row.reflection = patch.reflection
+    if (patch.university !== undefined) row.university = patch.university
+    if (patch.studyYear !== undefined) row.study_year = patch.studyYear
     if (patch.claudeProjectUrl !== undefined) row.claude_project_url = patch.claudeProjectUrl
     if (patch.trackerSeeded !== undefined) row.tracker_seeded = patch.trackerSeeded
     check(await sb().from('profiles').update(row).eq('id', user.id))

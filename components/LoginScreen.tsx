@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useApp } from './AppProvider'
+import { type Course, CoursePicker } from './CoursePicker'
 import { Wordmark } from './Logo'
 
 type Tab = 'sign-in' | 'sign-up'
@@ -125,9 +126,10 @@ function SignInForm({ onSwitch }: { onSwitch: () => void }) {
 function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
   const { signUp, mode } = useApp()
   const [name, setName] = useState('')
+  const [course, setCourse] = useState<Course>({ university: null, studyYear: null })
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const { busy, error, submit } = useSubmit(() => signUp(email, password, name), 'Couldn’t create the account.')
+  const { busy, error, submit } = useSubmit(() => signUp(email, password, { displayName: name, ...course }), 'Couldn’t create the account.')
 
   return (
     <form onSubmit={submit} className="fade-in mt-8 space-y-4" role="tabpanel" aria-label="Create account">
@@ -139,6 +141,7 @@ function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
         <span className="mb-1.5 block text-[14px] font-medium">Your first name</span>
         <input className="field" autoComplete="given-name" maxLength={40} required value={name} onChange={(e) => setName(e.target.value)} />
       </label>
+      <CoursePicker value={course} onChange={setCourse} required />
       <EmailField value={email} onChange={setEmail} hint="Used to sign in. We won’t send you marketing." />
       <PasswordField value={password} onChange={setPassword} autoComplete="new-password" hint="At least 6 characters." />
       <FormError error={error} />

@@ -7,6 +7,7 @@ import {
   backend,
   type AuthUser,
   type FlagRecord,
+  type NewAccount,
   type NewAssessment,
   type PlacementProgress,
   type Profile,
@@ -28,7 +29,7 @@ interface AppState {
   today: string
   error: string | null
   signIn(username: string, password: string): Promise<void>
-  signUp(email: string, password: string, displayName: string): Promise<void>
+  signUp(email: string, password: string, about: NewAccount): Promise<void>
   signOut(): Promise<void>
   changePassword(current: string, next: string): Promise<void>
   retry(): void
@@ -167,8 +168,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         const signed = await backend.signIn(username, password)
         await loadFor(signed)
       },
-      async signUp(email, password, displayName) {
-        const created = await backend.signUp(email, password, displayName)
+      async signUp(email, password, about) {
+        const created = await backend.signUp(email, password, about)
         await loadFor(created)
       },
       async signOut() {

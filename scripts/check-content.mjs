@@ -48,7 +48,8 @@ const seenItem = (id, where) => {
 
 for (const m of modulesFile?.modules ?? []) {
   for (const k of ['code', 'name', 'theme', 'colour', 'contentStatus']) if (!m[k]) err(`modules.json: module ${m.code ?? '?'} is missing "${k}"`)
-  if (!['Management', 'Patient', 'Professional'].includes(m.theme)) warn(`modules.json: ${m.code} has unknown theme "${m.theme}"`)
+  if (!['Foundations', 'Management', 'Patient', 'Professional'].includes(m.theme)) warn(`modules.json: ${m.code} has unknown theme "${m.theme}"`)
+  if (!Array.isArray(m.years) || !m.years.length || m.years.some((y) => !(y >= 1 && y <= 5))) err(`modules.json: ${m.code} needs "years" (1–5)`)
   if (m.contentStatus !== 'full') {
     if (!m.outline?.length) warn(`modules.json: ${m.code} is an outline module with no outline topics`)
     continue
@@ -114,6 +115,18 @@ for (const t of topicsById.values()) {
     else if (anchor && !(target.goDeeper ?? []).some((g) => slugify(g.heading) === anchor))
       warn(`${t.id} › ${q.id}: "Read more" anchor "#${anchor}" matches no go-deeper heading in ${tid}`)
   }
+}
+
+// Universities: every module must map to subjects that exist.
+const codes = new Set((modulesFile?.modules ?? []).map((m) => m.code))
+const unis = readJson('universities.json')
+for (const u of unis?.universities ?? []) {
+  if (u.syllabus?.length !== u.years) err(`universities.json › ${u.id}: ${u.years} years but ${u.syllabus?.length} in the syllabus`)
+  for (const y of u.syllabus ?? [])
+    for (const m of y.modules ?? []) {
+      if (!m.subjects?.length) warn(`universities.json › ${u.id} year ${y.year}: "${m.name}" has no subjects`)
+      for (const s of m.subjects ?? []) if (!codes.has(s)) err(`universities.json › ${u.id}: "${m.name}" points to unknown subject "${s}"`)
+    }
 }
 
 for (const w of warnings) console.warn(`  warn  ${w}`)

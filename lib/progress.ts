@@ -5,6 +5,7 @@ export interface LibraryModule {
   code: string
   name: string
   theme: string
+  years: number[]
   colour: string
   hasContent: boolean
   rowIds: string[]
@@ -14,6 +15,7 @@ export const toLibraryModule = (m: ModuleView): LibraryModule => ({
   code: m.code,
   name: m.name,
   theme: m.theme,
+  years: m.years,
   colour: m.colour,
   hasContent: m.hasContent,
   rowIds: m.rows.map((r) => r.id),

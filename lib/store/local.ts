@@ -64,7 +64,7 @@ export const localBackend: Backend = {
     return user
   },
 
-  async signUp(rawEmail, password, displayName) {
+  async signUp(rawEmail, password, about) {
     const username = checkNewAccount(rawEmail, password)
     const users = read<Users>(USERS, {})
     if (users[username]) throw new Error('There’s already an account with that email. Sign in instead.')
@@ -72,7 +72,9 @@ export const localBackend: Backend = {
     users[username] = { id: user.id, hash: await hash(username, password) }
     write(USERS, users)
     const d = emptyData(username)
-    d.profile.displayName = displayName.trim()
+    d.profile.displayName = about.displayName.trim()
+    d.profile.university = about.university
+    d.profile.studyYear = about.studyYear
     write(dataKey(user.id), d)
     write(SESSION, user)
     return user
