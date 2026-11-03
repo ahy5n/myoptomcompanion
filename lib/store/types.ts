@@ -1,4 +1,5 @@
 import type { ReviewItem } from '../leitner'
+import type { Mode, Palette } from '../theme'
 import type { Assessment } from '../tracker'
 
 export interface AuthUser {
@@ -23,6 +24,9 @@ export interface Profile {
   studyYear: number | null
   claudeProjectUrl: string
   trackerSeeded: boolean
+  /** Colour theme, synced across devices. Null → whatever this device has. */
+  palette: Palette | null
+  colorMode: Mode | null
 }
 
 export interface Progress {
@@ -151,7 +155,7 @@ export interface Backend {
 
 export function emptyData(username: string): UserData {
   return {
-    profile: { username, displayName: '', targetMark: 70, reflection: 'off', university: null, studyYear: null, claudeProjectUrl: '', trackerSeeded: false },
+    profile: { username, displayName: '', targetMark: 70, reflection: 'off', university: null, studyYear: null, claudeProjectUrl: '', trackerSeeded: false, palette: null, colorMode: null },
     progress: {},
     checklists: {},
     notes: {},

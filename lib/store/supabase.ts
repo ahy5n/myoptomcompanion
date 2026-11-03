@@ -5,6 +5,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
+import { isMode, isPalette } from '../theme'
 import type { AuthUser, Backend, CardSet, TimetableEntry, UserData, UserDeck } from './types'
 import { checkLogin, checkNewAccount, emptyData } from './types'
 
@@ -271,6 +272,8 @@ export const supabaseBackend: Backend = {
         university: p.university ?? null,
         studyYear: p.study_year ?? null,
         claudeProjectUrl: p.claude_project_url ?? '',
+        palette: isPalette(p.palette) ? p.palette : null,
+        colorMode: isMode(p.color_mode) ? p.color_mode : null,
         trackerSeeded: !!p.tracker_seeded,
       }
     } else {
@@ -323,6 +326,8 @@ export const supabaseBackend: Backend = {
     if (patch.university !== undefined) row.university = patch.university
     if (patch.studyYear !== undefined) row.study_year = patch.studyYear
     if (patch.claudeProjectUrl !== undefined) row.claude_project_url = patch.claudeProjectUrl
+    if (patch.palette !== undefined) row.palette = patch.palette
+    if (patch.colorMode !== undefined) row.color_mode = patch.colorMode
     if (patch.trackerSeeded !== undefined) row.tracker_seeded = patch.trackerSeeded
     await writeProfile(row, (r) => sb().from('profiles').update(r).eq('id', user.id))
   },

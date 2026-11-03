@@ -320,7 +320,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       {children}
       <div aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-6 z-50 flex justify-center px-4">
         {toastMsg && (
-          <div className="toast-in rounded-full bg-ink px-5 py-3 text-[15px] font-medium text-white shadow-lg">
+          <div className="toast-in rounded-full bg-ink px-5 py-3 text-[15px] font-medium text-bg shadow-lg">
             {toastMsg}
           </div>
         )}

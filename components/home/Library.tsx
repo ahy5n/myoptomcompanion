@@ -78,7 +78,7 @@ export function Library({
               onClick={() => setFilter(f.key)}
               aria-pressed={active}
               className={`min-h-10 shrink-0 rounded-lg px-3.5 text-[14px] font-semibold transition-colors ${
-                active ? 'bg-ink text-white' : 'bg-card text-muted shadow-[var(--shadow-soft)] hover:text-ink'
+                active ? 'bg-accent text-on-accent' : 'bg-surface text-muted shadow-[var(--shadow-soft)] hover:text-ink'
               }`}
             >
               {f.label}
@@ -151,11 +151,11 @@ export function Library({
 
 
 const TONES = {
-  rose: 'bg-rose-soft text-rose-ink',
-  lilac: 'bg-lilac-soft text-lilac-ink',
-  sage: 'bg-sage-soft text-sage-ink',
-  butter: 'bg-butter-soft text-butter-ink',
-  sky: 'bg-sky-soft text-sky-ink',
+  rose: 'bg-accent-soft text-accent-strong',
+  lilac: 'bg-accent-soft text-accent-strong',
+  sage: 'bg-accent-soft text-accent-strong',
+  butter: 'bg-accent-soft text-accent-strong',
+  sky: 'bg-accent-soft text-accent-strong',
 }
 
 function Tile({

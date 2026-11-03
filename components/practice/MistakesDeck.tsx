@@ -76,8 +76,8 @@ export function MistakesDeck({ items: builtIn }: { items: PracticeItem[] }) {
                 </p>
               </li>
             ))}
-            <li className="card bg-sage-soft px-4 py-3">
-              <p className="font-rounded text-[24px] font-semibold text-sage-ink">{retired}</p>
+            <li className="card bg-good-soft px-4 py-3">
+              <p className="font-rounded text-[24px] font-semibold text-good-ink">{retired}</p>
               <p className="text-[13px] text-muted">Retired — learnt</p>
             </li>
           </ul>

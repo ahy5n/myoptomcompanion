@@ -136,7 +136,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
           {found > 0 ? `, ${found} matched to your modules` : ''}.
           {preview.skippedAllDay > 0 && ` ${preview.skippedAllDay} all-day ${preview.skippedAllDay === 1 ? 'event was' : 'events were'} left out.`}
         </p>
-        <ul className="mt-3 max-h-48 space-y-1 overflow-y-auto rounded-[10px] bg-wash p-3 text-[14px]">
+        <ul className="mt-3 max-h-48 space-y-1 overflow-y-auto rounded-[10px] bg-bg p-3 text-[14px]">
           {preview.entries.slice(0, 8).map((e) => (
             <li key={e.id} className="flex gap-2">
               <span className="w-28 shrink-0 tabular-nums text-muted">
@@ -149,7 +149,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
         </ul>
         {hasImported && (
           <label className="mt-3 flex items-center gap-2 text-[14px]">
-            <input type="checkbox" className="size-4 accent-[var(--color-ink)]" checked={replace} onChange={(e) => setReplace(e.target.checked)} />
+            <input type="checkbox" className="size-4" checked={replace} onChange={(e) => setReplace(e.target.checked)} />
             Replace sessions I imported before
           </label>
         )}
@@ -171,7 +171,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
         Import from your university
       </h2>
       <p className="mt-1 text-[15px] text-muted">Most timetable systems have an “iCal”, “ICS” or “Subscribe” option.</p>
-      <div role="tablist" aria-label="Import from" className="mt-4 inline-grid grid-cols-2 rounded-[10px] bg-wash p-1">
+      <div role="tablist" aria-label="Import from" className="mt-4 inline-grid grid-cols-2 rounded-[10px] bg-bg p-1">
         {(
           [
             ['link', 'Calendar link'],
@@ -186,7 +186,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
               setVia(key)
               setError(null)
             }}
-            className={`min-h-9 rounded-lg px-4 text-[14px] font-semibold ${via === key ? 'bg-card text-ink shadow-[var(--shadow-soft)]' : 'text-muted hover:text-ink'}`}
+            className={`min-h-9 rounded-lg px-4 text-[14px] font-semibold ${via === key ? 'bg-surface text-ink shadow-[var(--shadow-soft)]' : 'text-muted hover:text-ink'}`}
           >
             {label}
           </button>
@@ -216,7 +216,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
         </form>
       ) : (
         <div className="mt-4">
-          <label className="flex min-h-28 cursor-pointer flex-col items-center justify-center gap-1 rounded-[12px] border border-dashed border-[#c9ced6] bg-wash/60 px-4 text-center hover:bg-wash">
+          <label className="flex min-h-28 cursor-pointer flex-col items-center justify-center gap-1 rounded-[12px] border border-dashed border-muted/40 bg-bg/60 px-4 text-center hover:bg-bg">
             <span className="text-[15px] font-semibold">Choose an .ics file</span>
             <span className="text-[13px] text-muted">Exported from your university timetable or calendar app</span>
             <input ref={fileRef} type="file" accept=".ics,text/calendar" className="sr-only" onChange={(e) => void fromFile(e.target.files?.[0])} />
@@ -224,7 +224,7 @@ function ImportCard({ modules, hasImported }: { modules: ModuleOption[]; hasImpo
         </div>
       )}
       {error && (
-        <p role="alert" className="mt-3 rounded-[10px] bg-danger-soft px-3 py-2.5 text-[14px] text-danger-ink">
+        <p role="alert" className="mt-3 rounded-[10px] bg-bad-soft px-3 py-2.5 text-[14px] text-bad-ink">
           {error}
         </p>
       )}
@@ -317,7 +317,7 @@ function AddCard({ modules }: { modules: ModuleOption[] }) {
         </label>
         <div className="col-span-2 flex flex-wrap items-center gap-x-5 gap-y-2 text-[14px]">
           <label className="flex items-center gap-2">
-            <input type="checkbox" className="size-4 accent-[var(--color-ink)]" checked={repeat} onChange={(e) => setRepeat(e.target.checked)} />
+            <input type="checkbox" className="size-4" checked={repeat} onChange={(e) => setRepeat(e.target.checked)} />
             Repeats every week
           </label>
           {repeat && (
@@ -327,12 +327,12 @@ function AddCard({ modules }: { modules: ModuleOption[] }) {
             </label>
           )}
           <label className="flex items-center gap-2">
-            <input type="checkbox" className="size-4 accent-[var(--color-ink)]" checked={assessment} onChange={(e) => setAssessment(e.target.checked)} />
+            <input type="checkbox" className="size-4" checked={assessment} onChange={(e) => setAssessment(e.target.checked)} />
             It’s an assessment
           </label>
         </div>
         {error && (
-          <p role="alert" className="col-span-2 text-[14px] text-danger-ink">
+          <p role="alert" className="col-span-2 text-[14px] text-bad-ink">
             {error}
           </p>
         )}
@@ -356,11 +356,11 @@ function WeekList({ entries, colours, today }: { entries: TimetableEntry[]; colo
     <div className="mt-3 space-y-4">
       {[...weeks].map(([monday, list]) => (
         <div key={monday} className="card overflow-hidden">
-          <p className="border-b border-line px-5 py-3 text-[14px] font-semibold text-muted">
+          <p className="border-b border-border px-5 py-3 text-[14px] font-semibold text-muted">
             Week of {fmtRange(monday, addDays(monday, 6))}
-            {monday === mondayOf(today) && <span className="ml-2 rounded-md bg-rose-soft px-1.5 py-0.5 text-[12px] text-rose-ink">This week</span>}
+            {monday === mondayOf(today) && <span className="ml-2 rounded-md bg-accent-soft px-1.5 py-0.5 text-[12px] text-accent-strong">This week</span>}
           </p>
-          <ul className="divide-y divide-line/80">
+          <ul className="divide-y divide-border/80">
             {list.map((e) => (
               <EntryRow key={e.id} e={e} colours={colours} />
             ))}
@@ -394,18 +394,18 @@ function EntryRow({ e, colours }: { e: TimetableEntry; colours: ColourMap }) {
             {fmtDayLong(e.date)} · {e.start}–{e.end}
           </span>
           {e.module && <ModuleChip code={e.module} colours={colours} />}
-          {e.isAssessment && <span className="text-[13px] font-semibold text-lilac-ink">Assessment</span>}
+          {e.isAssessment && <span className="text-[13px] font-semibold text-accent">Assessment</span>}
         </p>
         <p className="mt-0.5 truncate text-[16px] font-medium">{e.title}</p>
         {e.room && <p className="truncate text-[14px] text-muted">{e.room}</p>}
       </div>
       {asking ? (
         <div className="flex flex-col items-end gap-1 sm:flex-row sm:items-center">
-          <button className="btn btn-quiet min-h-9 px-3 text-[13px] text-danger-ink" onClick={() => void remove([e.id])}>
+          <button className="btn btn-quiet min-h-9 px-3 text-[13px] text-bad-ink" onClick={() => void remove([e.id])}>
             This one
           </button>
           {seriesIds.length > 1 && (
-            <button className="btn btn-quiet min-h-9 px-3 text-[13px] text-danger-ink" onClick={() => void remove(seriesIds)}>
+            <button className="btn btn-quiet min-h-9 px-3 text-[13px] text-bad-ink" onClick={() => void remove(seriesIds)}>
               Every week ({seriesIds.length})
             </button>
           )}
@@ -432,7 +432,7 @@ function ClearAll({ count }: { count: number }) {
   const [sure, setSure] = useState(false)
   if (!sure) {
     return (
-      <button className="btn btn-ghost min-h-9 px-3 text-[14px] text-danger-ink" onClick={() => setSure(true)}>
+      <button className="btn btn-ghost min-h-9 px-3 text-[14px] text-bad-ink" onClick={() => setSure(true)}>
         Clear timetable
       </button>
     )
@@ -441,7 +441,7 @@ function ClearAll({ count }: { count: number }) {
     <span className="flex items-center gap-2 text-[14px]">
       Remove all {count}?
       <button
-        className="btn btn-quiet min-h-9 px-3 text-[14px] text-danger-ink"
+        className="btn btn-quiet min-h-9 px-3 text-[14px] text-bad-ink"
         onClick={async () => {
           try {
             await deleteTimetable(timetable.map((e) => e.id))

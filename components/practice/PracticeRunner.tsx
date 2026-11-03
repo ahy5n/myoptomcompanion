@@ -94,8 +94,8 @@ export function PracticeRunner({
           <span>
             {i + 1} of {items.length}
           </span>
-          <span className="h-1.5 w-24 overflow-hidden rounded-full bg-wash sm:w-40" aria-hidden>
-            <span className="block h-full rounded-full bg-rose-ink/60 transition-all" style={{ width: `${(i / items.length) * 100}%` }} />
+          <span className="h-1.5 w-24 overflow-hidden rounded-full bg-bg sm:w-40" aria-hidden>
+            <span className="block h-full rounded-full bg-accent/60 transition-all" style={{ width: `${(i / items.length) * 100}%` }} />
           </span>
         </div>
         {showTopic &&

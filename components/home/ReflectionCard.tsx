@@ -25,7 +25,7 @@ function QuoteCard({ quotes }: { quotes: string[] }) {
     <figure className="card relative overflow-hidden">
       <button className="block w-full px-6 pb-5 pt-6 text-left sm:px-7" onClick={() => setOffset((o) => o + 1)} aria-label="Show another quote">
         <blockquote className="text-[18px] leading-relaxed text-ink">“{q}”</blockquote>
-        <figcaption className="mt-3 flex justify-end text-[12px] text-faint">
+        <figcaption className="mt-3 flex justify-end text-[12px] text-muted">
           <span aria-hidden>tap for another</span>
         </figcaption>
       </button>

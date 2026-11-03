@@ -22,6 +22,8 @@ alter table public.profiles add column if not exists target_mark numeric not nul
 alter table public.profiles add column if not exists reflection text not null default 'off';
 alter table public.profiles add column if not exists university text;
 alter table public.profiles add column if not exists study_year int;
+alter table public.profiles add column if not exists palette text;
+alter table public.profiles add column if not exists color_mode text;
 
 create table if not exists public.topic_progress (
   user_id uuid not null default auth.uid() references auth.users on delete cascade,

@@ -108,7 +108,7 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
           </button>
         </div>
         <label
-          className={`mt-4 flex min-h-36 cursor-pointer flex-col items-center justify-center gap-1 rounded-[12px] border border-dashed border-[#c9ced6] bg-wash/60 px-4 text-center hover:bg-wash ${reading ? 'pointer-events-none opacity-70' : ''}`}
+          className={`mt-4 flex min-h-36 cursor-pointer flex-col items-center justify-center gap-1 rounded-[12px] border border-dashed border-muted/40 bg-bg/60 px-4 text-center hover:bg-bg ${reading ? 'pointer-events-none opacity-70' : ''}`}
         >
           <span className="text-[16px] font-semibold">{reading ? 'Reading your slides…' : 'Choose a PDF or PowerPoint file'}</span>
           <span className="text-[13px] text-muted">.pdf or .pptx · read on this device, only the outline is saved</span>
@@ -122,7 +122,7 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
           />
         </label>
         {error && (
-          <p role="alert" className="mt-3 rounded-[10px] bg-danger-soft px-3 py-2.5 text-[14px] text-danger-ink">
+          <p role="alert" className="mt-3 rounded-[10px] bg-bad-soft px-3 py-2.5 text-[14px] text-bad-ink">
             {error}
           </p>
         )}
@@ -186,7 +186,7 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
                       type="button"
                       aria-pressed={on}
                       onClick={() => setTopics((cur) => (on ? cur.filter((x) => x !== t.id) : [...cur, t.id]))}
-                      className={`min-h-9 rounded-lg px-3 text-left text-[13px] font-medium ${on ? 'bg-ink text-white' : 'bg-wash text-ink hover:bg-line'}`}
+                      className={`min-h-9 rounded-lg px-3 text-left text-[13px] font-medium ${on ? 'bg-accent text-on-accent' : 'bg-bg text-ink hover:bg-border'}`}
                     >
                       {t.title}
                     </button>
@@ -198,11 +198,11 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
         </div>
         <div className="min-w-0">
           <p className="eyebrow">Outline preview</p>
-          <ol className="mt-2 max-h-[380px] space-y-3 overflow-y-auto rounded-[12px] bg-wash p-4">
+          <ol className="mt-2 max-h-[380px] space-y-3 overflow-y-auto rounded-[12px] bg-bg p-4">
             {slides.map((s) => (
               <li key={s.n} className="text-[14px]">
                 <p className="font-semibold">
-                  <span className="mr-1.5 tabular-nums text-faint">{s.n}</span>
+                  <span className="mr-1.5 tabular-nums text-muted">{s.n}</span>
                   {s.title}
                 </p>
                 {s.points.length > 0 && (
@@ -219,7 +219,7 @@ export function AddDeck({ modules, onDone }: { modules: ModuleOption[]; onDone: 
           </ol>
         </div>
       </div>
-      <div className="flex flex-wrap items-center gap-2 border-t border-line bg-wash/40 px-6 py-4">
+      <div className="flex flex-wrap items-center gap-2 border-t border-border bg-bg/40 px-6 py-4">
         {cardCount > 0 && (
           <label className="flex min-h-10 w-full items-center gap-2 text-[14px]">
             <input type="checkbox" className="size-4" checked={makeCards} onChange={(e) => setMakeCards(e.target.checked)} />

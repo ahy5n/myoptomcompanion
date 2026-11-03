@@ -46,7 +46,7 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
           <span>· {d.slides.length} slides</span>
         </p>
         <h1 className="mt-2 text-[30px] font-semibold sm:text-[34px]">{d.title}</h1>
-        <p className="mt-1 break-all text-[13px] text-faint">{d.fileName}</p>
+        <p className="mt-1 break-all text-[13px] text-muted">{d.fileName}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <AskClaudeButton text={prompt} label="Summarise with Claude" variant="primary" />
           {cardSet ? (
@@ -75,7 +75,7 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
             <span className="flex items-center gap-2 text-[14px]">
               Remove this outline?
               <button
-                className="btn btn-quiet min-h-10 px-3 text-[14px] text-danger-ink"
+                className="btn btn-quiet min-h-10 px-3 text-[14px] text-bad-ink"
                 onClick={async () => {
                   try {
                     await deleteDeck(d.id)
@@ -109,7 +109,7 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
           <ul className="mt-2 flex flex-wrap gap-2">
             {topics.map((t) => (
               <li key={t.id}>
-                <Link href={`/t/${t.id}`} className="inline-flex min-h-9 items-center rounded-lg bg-wash px-3 text-[14px] font-medium hover:bg-line">
+                <Link href={`/t/${t.id}`} className="inline-flex min-h-9 items-center rounded-lg bg-bg px-3 text-[14px] font-medium hover:bg-border">
                   {t.title}
                 </Link>
               </li>
@@ -126,7 +126,7 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
           {d.slides.map((s) => (
             <li key={s.n} className="card p-4 sm:p-5">
               <div className="flex gap-3">
-                <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-md bg-wash text-[13px] font-semibold tabular-nums text-muted">
+                <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-md bg-bg text-[13px] font-semibold tabular-nums text-muted">
                   {s.n}
                 </span>
                 <div className="min-w-0">
@@ -135,13 +135,13 @@ export function DeckView({ modules }: { modules: ModuleOption[] }) {
                     <ul className="mt-1.5 space-y-1">
                       {s.points.map((p, i) => (
                         <li key={i} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/90">
-                          <span aria-hidden className="mt-[9px] size-1.5 shrink-0 rounded-full bg-faint" />
+                          <span aria-hidden className="mt-[9px] size-1.5 shrink-0 rounded-full bg-muted" />
                           {p}
                         </li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="mt-1 text-[14px] text-faint">No text on this slide (probably a picture or diagram).</p>
+                    <p className="mt-1 text-[14px] text-muted">No text on this slide (probably a picture or diagram).</p>
                   )}
                 </div>
               </div>

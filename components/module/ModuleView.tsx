@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { inkColour, ringColour } from '@/lib/colour'
+import { ringColour } from '@/lib/colour'
 import { fmtDayLong } from '@/lib/dates'
 import { materialsFrom, sessionsFrom } from '@/lib/timetable'
 import { getUniversity, yearLabel } from '@/lib/universities'
@@ -55,8 +55,11 @@ export function ModuleView({
       >
         <div className="flex items-start justify-between gap-4 p-6 sm:p-8">
           <div className="min-w-0">
-            <p className="font-rounded text-[17px] font-bold" style={{ color: inkColour(m.colour) }}>
-              {m.code} · {m.theme}
+            <p className="flex items-center gap-2 font-rounded text-[17px] font-semibold text-muted">
+              <span className="chip text-[15px]" style={{ background: m.colour }}>
+                {m.code}
+              </span>
+              {m.theme}
             </p>
             {editing ? (
               <form
@@ -97,7 +100,7 @@ export function ModuleView({
                 </p>
               ) : (
                 <button
-                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-wash px-3.5 text-[14px] font-medium text-ink hover:bg-line"
+                  className="mt-2 inline-flex min-h-11 items-center gap-1.5 rounded-full bg-bg px-3.5 text-[14px] font-medium text-ink hover:bg-border"
                   onClick={() => {
                     setDraft(name)
                     setEditing(true)
@@ -110,7 +113,7 @@ export function ModuleView({
           </div>
           <ProgressRing value={pct} colour={m.colour} size={64} stroke={6} label={`${Math.round(pct * 100)}% ticked`} />
         </div>
-        <div className="border-t border-line px-6 py-4 text-[14px] sm:px-8">
+        <div className="border-t border-border px-6 py-4 text-[14px] sm:px-8">
           <p>
             <span className="text-muted">Usually taught in </span>
             <span className="font-semibold">{yearLabel(m.years)}</span>
@@ -122,7 +125,7 @@ export function ModuleView({
               {atUni.length ? (
                 atUni.map((x, i) => (
                   <span key={`${x.year}-${x.name}`}>
-                    {i > 0 && <span className="text-faint"> · </span>}
+                    {i > 0 && <span className="text-muted"> · </span>}
                     <span className={x.year === data.profile.studyYear ? 'font-semibold' : ''}>{x.name}</span>
                     <span className="text-muted"> (Year {x.year})</span>
                   </span>
@@ -148,24 +151,24 @@ export function ModuleView({
             )}
           </div>
           {!m.hasContent && (
-            <p className="mt-2 rounded-2xl bg-butter-soft px-4 py-3 text-[15px] text-butter-ink">
+            <p className="mt-2 rounded-2xl bg-warn-soft px-4 py-3 text-[15px] text-warn-ink">
               Content coming soon. For now this is the topic outline — you can still tick what you’ve covered and revised.
             </p>
           )}
-          <ol className="card mt-3 divide-y divide-line/80">
+          <ol className="card mt-3 divide-y divide-border/80">
             {m.rows.map((r, i) => {
               const p = data.progress[r.id] ?? { covered: false, revised: false }
               const titleId = `row-${r.id}`
               return (
                 <li key={r.id} className="flex flex-col gap-2 px-4 py-3.5 sm:flex-row sm:items-center sm:px-5">
                   <div className="flex min-w-0 flex-1 items-start gap-3">
-                    <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full bg-wash text-[13px] font-semibold text-muted">
+                    <span className="mt-0.5 grid size-7 shrink-0 place-items-center rounded-full bg-bg text-[13px] font-semibold text-muted">
                       {i + 1}
                     </span>
                     {r.full ? (
-                      <Link id={titleId} href={`/t/${r.id}`} className="group flex min-h-11 flex-1 items-start gap-1 pt-0.5 font-medium hover:text-rose-ink">
+                      <Link id={titleId} href={`/t/${r.id}`} className="group flex min-h-11 flex-1 items-start gap-1 pt-0.5 font-medium hover:text-accent">
                         <span className="flex-1">{r.title}</span>
-                        <ChevronRight className="mt-0.5 size-[18px] shrink-0 text-faint group-hover:text-rose-ink" />
+                        <ChevronRight className="mt-0.5 size-[18px] shrink-0 text-muted group-hover:text-accent" />
                       </Link>
                     ) : (
                       <span id={titleId} className="flex-1 pt-0.5">
@@ -193,7 +196,7 @@ export function ModuleView({
               <p className="py-3 text-[15px] text-muted">
                 {sessions.length ? 'No more sessions coming up.' : 'No sessions for this module in your timetable. '}
                 {!sessions.length && (
-                  <Link href="/timetable" className="font-semibold text-rose-ink underline-offset-4 hover:underline">
+                  <Link href="/timetable" className="font-semibold text-accent underline-offset-4 hover:underline">
                     Add timetable
                   </Link>
                 )}
@@ -205,7 +208,7 @@ export function ModuleView({
               ))}
             </ul>
             {past.length > 0 && (
-              <details className="group border-t border-line/80 py-2">
+              <details className="group border-t border-border/80 py-2">
                 <summary className="flex min-h-11 items-center gap-1 text-[15px] font-medium text-muted">
                   <ChevronDown className="size-4 transition-transform group-open:rotate-180" />
                   Earlier sessions ({past.length})
@@ -221,22 +224,22 @@ export function ModuleView({
           {decks.length > 0 && (
             <div className="mt-6">
               <h2 className="text-[22px] font-semibold">Slides & materials</h2>
-              <ul className="card mt-3 divide-y divide-line/80">
+              <ul className="card mt-3 divide-y divide-border/80">
                 {decks.map((d) => (
                   <li key={d.id}>
-                    <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-wash/50 sm:px-5">
+                    <Link href={`/slides/view?id=${encodeURIComponent(d.id)}`} className="group flex items-start gap-2 px-4 py-3 hover:bg-bg/50 sm:px-5">
                       <span className="min-w-0 flex-1">
                         <span className="block text-[13px] font-semibold text-muted">
                           {d.sessionDate ? fmtDayLong(d.sessionDate) : 'Slides'} · {d.slides.length} slides
                         </span>
                         <span className="block font-medium leading-snug">{d.title}</span>
                       </span>
-                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-faint group-hover:text-ink" />
+                      <ChevronRight className="mt-1 size-[18px] shrink-0 text-muted group-hover:text-ink" />
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-rose-ink underline-offset-4 hover:underline">
+              <Link href="/slides" className="mt-2 inline-flex min-h-11 items-center text-[14px] font-semibold text-accent underline-offset-4 hover:underline">
                 All slides
               </Link>
             </div>
