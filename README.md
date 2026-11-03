@@ -13,7 +13,7 @@ This is the **tester version**, forked from a private one-student site. All pers
 | **Tracker** | Weighted marks towards each student's own target |
 | **Timetable** | `/timetable`: import a university calendar (link or `.ics` file, weekly repeats, moved and cancelled weeks handled) or add sessions by hand. Shows as "Next two weeks" on the home page and on module pages |
 | **Slides** | `/slides`: add a PDF or PowerPoint (.pptx). It's read in the browser into a slide-by-slide outline; only the outline is saved, never the file. Link it to a session and topics; "Summarise with Claude" sends the outline to Claude |
-| **Subjects** | 19 subjects, each tagged with the years it's usually taught in. 12 have full lessons, written from standard UK practice (not checked against any university's slides; every topic says so). 7 are outlines for now: optics, ocular anatomy, visual perception, pharmacology, low vision, the placement year, and glaucoma/medical retina/prescribing |
+| **Subjects** | 19 subjects covering Years 1–5, each tagged with the years it's usually taught in, all with full lessons: 116 topics and 772 practice items (MCQs, flashcards, clinical cases) plus practical checklists. Written from standard UK practice and guidance (not checked against any university's slides; every topic says so) |
 
 Still to do before testers: onboarding (university and modules), a simpler tutor setup, a disclaimer page and a basic usage log.
 

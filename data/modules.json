@@ -14,17 +14,18 @@
       "years": [
         1
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#DCE3EE",
-      "outline": [
-        "Light, refraction and Snell's law; prisms and deviation",
-        "Vergence and the thin lens equation; lens power in dioptres",
-        "Thick lenses, cardinal points and back vertex power",
-        "Mirrors and reflection",
-        "Visual optics: the schematic eye, ametropia, far and near points",
-        "Astigmatism, cylindrical lenses, spherocylinder notation and transposition",
-        "Accommodation, presbyopia and reading additions",
-        "Aberrations, and physical optics: interference, diffraction and polarisation"
+      "contentFile": "content/opt.json",
+      "topics": [
+        "opt-refraction-prisms",
+        "opt-vergence-thin-lenses",
+        "opt-thick-lenses",
+        "opt-mirrors",
+        "opt-visual-optics",
+        "opt-astigmatism-cylinders",
+        "opt-accommodation-presbyopia",
+        "opt-aberrations-physical"
       ]
     },
     {
@@ -34,17 +35,18 @@
       "years": [
         1
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#E6E1D3",
-      "outline": [
-        "Orbit, eyelids and the lacrimal system",
-        "Cornea, conjunctiva and the tear film",
-        "Uvea, and aqueous production and drainage",
-        "Crystalline lens and accommodation",
-        "Retina: layers, photoreceptors and phototransduction",
-        "Visual pathway: optic nerve, chiasm, LGN and visual cortex",
-        "Extraocular muscles and cranial nerves",
-        "Blood supply of the eye and orbit"
+      "contentFile": "content/ana.json",
+      "topics": [
+        "ana-orbit-lids-lacrimal",
+        "ana-cornea-conjunctiva-tears",
+        "ana-uvea-aqueous",
+        "ana-lens",
+        "ana-retina",
+        "ana-visual-pathway",
+        "ana-eom-nerves",
+        "ana-blood-supply"
       ]
     },
     {
@@ -54,16 +56,17 @@
       "years": [
         1
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#D9E6E9",
-      "outline": [
-        "Visual acuity and contrast sensitivity",
-        "Colour vision and colour vision deficiency",
-        "Light and dark adaptation",
-        "Visual fields",
-        "Depth perception and stereopsis",
-        "Motion, form and visual illusions",
-        "Psychophysics: thresholds and how they are measured"
+      "contentFile": "content/vpe.json",
+      "topics": [
+        "vpe-acuity-contrast",
+        "vpe-colour-vision",
+        "vpe-adaptation",
+        "vpe-visual-fields",
+        "vpe-stereopsis",
+        "vpe-motion-form",
+        "vpe-psychophysics"
       ]
     },
     {
@@ -395,16 +398,17 @@
         2,
         3
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#ECE0D9",
-      "outline": [
-        "How topical eye drops reach their target (pharmacokinetics)",
-        "Diagnostic drugs: mydriatics, cycloplegics, anaesthetics and stains",
-        "Adverse reactions and contraindications, including angle-closure risk",
-        "Exemptions and the legal framework for optometrists using medicines",
-        "Anti-infectives and anti-inflammatories",
-        "Glaucoma medicines",
-        "Systemic medicines with eye side effects"
+      "contentFile": "content/pha.json",
+      "topics": [
+        "pha-pharmacokinetics",
+        "pha-diagnostic-drugs",
+        "pha-adverse-reactions",
+        "pha-law",
+        "pha-anti-infectives-inflammatories",
+        "pha-glaucoma-medicines",
+        "pha-systemic-side-effects"
       ]
     },
     {
@@ -414,15 +418,16 @@
       "years": [
         3
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#DDE5D6",
-      "outline": [
-        "Causes and impact of visual impairment in the UK",
-        "Low vision assessment: history, acuity, contrast and fields",
-        "Magnification: types and working out how much is needed",
-        "Magnifiers, telescopes and electronic aids",
-        "Lighting, contrast and non-optical aids",
-        "Certification (CVI), registration and referral to support services"
+      "contentFile": "content/lva.json",
+      "topics": [
+        "lva-causes-impact",
+        "lva-assessment",
+        "lva-magnification",
+        "lva-aids",
+        "lva-lighting-nonoptical",
+        "lva-certification-support"
       ]
     },
     {
@@ -432,15 +437,16 @@
       "years": [
         4
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#E4DDE9",
-      "outline": [
-        "How the final placement year is structured",
-        "Building your log of patient episodes",
-        "Running a full routine eye examination on your own",
-        "Referral letters and communicating with GPs and hospital eye services",
-        "Record keeping, consent and safeguarding in practice",
-        "Preparing for final assessments and GOC registration"
+      "contentFile": "content/clp.json",
+      "topics": [
+        "clp-structure",
+        "clp-patient-log",
+        "clp-routine-exam",
+        "clp-referrals",
+        "clp-records-consent-safeguarding",
+        "clp-registration"
       ]
     },
     {
@@ -451,15 +457,16 @@
         4,
         5
       ],
-      "contentStatus": "outline",
+      "contentStatus": "full",
       "colour": "#E1E6E1",
-      "outline": [
-        "College of Optometrists higher certificates in glaucoma and medical retina",
-        "Glaucoma: risk factors, assessment and monitoring",
-        "Medical retina: AMD, diabetic retinopathy and vein occlusions",
-        "Acute and emergency eye care services",
-        "Additional supply and supplementary prescribing",
-        "Independent prescribing: the law, management plans and responsibility"
+      "contentFile": "content/hq.json",
+      "topics": [
+        "hq-higher-qualifications",
+        "hq-glaucoma",
+        "hq-medical-retina",
+        "hq-acute-eye-care",
+        "hq-additional-supply-sp",
+        "hq-independent-prescribing"
       ]
     }
   ]
