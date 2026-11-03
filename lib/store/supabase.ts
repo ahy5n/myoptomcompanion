@@ -33,6 +33,27 @@ function check<T>(res: { data: T; error: { message: string } | null }): T {
 
 const nowIso = () => new Date().toISOString()
 
+// Databases set up before a profile column was added don't have it until
+// schema.sql is run again. Drop each column Supabase says is missing and
+// retry, so signing in and saving everything else still works.
+const MISSING_COLUMN = /Could not find the '(\w+)' column|column \w+\.(\w+) does not exist/
+
+async function writeProfile(
+  row: Record<string, unknown>,
+  write: (row: Record<string, unknown>) => PromiseLike<{ error: { message: string } | null }>,
+) {
+  const r = { ...row }
+  for (;;) {
+    const { error } = await write(r)
+    const m = error?.message.match(MISSING_COLUMN)
+    const col = m?.[1] ?? m?.[2]
+    if (!error) return
+    if (!col || !(col in r)) throw new Error(error.message)
+    delete r[col]
+    if (Object.keys(r).length === 0) return
+  }
+}
+
 interface AssessmentRow {
   id: number
   name: string
@@ -182,13 +203,16 @@ export const supabaseBackend: Backend = {
     }
     // The signup trigger copies the name too; this covers databases set up
     // before it did.
-    await sb().from('profiles').upsert({
-      id: data.user.id,
-      username,
-      display_name: about.displayName.trim() || null,
-      university: about.university,
-      study_year: about.studyYear,
-    })
+    await writeProfile(
+      {
+        id: data.user.id,
+        username,
+        display_name: about.displayName.trim() || null,
+        university: about.university,
+        study_year: about.studyYear,
+      },
+      (row) => sb().from('profiles').upsert(row),
+    ).catch(() => {})
     return { id: data.user.id, username }
   },
 
@@ -207,7 +231,8 @@ export const supabaseBackend: Backend = {
   async load(user) {
     const c = sb()
     const [profile, progress, checklists, notes, reviews, assessments, overrides, flags, placements, timetable, decks] = await Promise.all([
-      c.from('profiles').select('username, display_name, target_mark, reflection, university, study_year, claude_project_url, tracker_seeded').eq('id', user.id).maybeSingle(),
+      // '*' so a database missing a newer column still loads.
+      c.from('profiles').select('*').eq('id', user.id).maybeSingle(),
       c.from('topic_progress').select('topic_id, covered, revised'),
       c.from('checklist_progress').select('checklist_id, done_steps'),
       c.from('notes').select('topic_id, body'),
@@ -282,7 +307,7 @@ export const supabaseBackend: Backend = {
     if (patch.studyYear !== undefined) row.study_year = patch.studyYear
     if (patch.claudeProjectUrl !== undefined) row.claude_project_url = patch.claudeProjectUrl
     if (patch.trackerSeeded !== undefined) row.tracker_seeded = patch.trackerSeeded
-    check(await sb().from('profiles').update(row).eq('id', user.id))
+    await writeProfile(row, (r) => sb().from('profiles').update(r).eq('id', user.id))
   },
 
   async saveProgress(user, topicId, p) {
