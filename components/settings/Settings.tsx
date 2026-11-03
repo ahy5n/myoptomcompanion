@@ -165,7 +165,7 @@ function AboutYouCard() {
       <form onSubmit={submit} className="mt-3 grid gap-3 sm:grid-cols-2">
         <label className="block">
           <span className="mb-1 block text-[14px] font-medium">What should we call you?</span>
-          <input className="field" maxLength={40} placeholder={profile.username} value={name} onChange={(e) => setName(e.target.value)} />
+          <input className="field" maxLength={40} placeholder={profile.username.split('@')[0]} value={name} onChange={(e) => setName(e.target.value)} />
         </label>
         <label className="block">
           <span className="mb-1 block text-[14px] font-medium">Target average (%)</span>

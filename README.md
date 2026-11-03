@@ -29,7 +29,7 @@ export PATH="$HOME/.local/node/bin:$PATH"
 cd ~/Documents/myoptomcompanion && npm run dev
 ```
 
-Open http://localhost:3000. With no Supabase keys the site runs in **"this device only" mode**: the first sign-in with a new username creates it in that browser, and progress is saved in the browser.
+Open http://localhost:3000. With no Supabase keys the site runs in **"this device only" mode**: accounts made on the front page and all progress are saved in that browser only.
 
 Testing helpers:
 
@@ -43,12 +43,12 @@ Testing helpers:
 
 1. Create a project at [supabase.com](https://supabase.com) (free plan). Any region near the UK, e.g. London.
 2. **SQL Editor → New query**, paste all of [`supabase/schema.sql`](supabase/schema.sql), **Run**. This creates the tables, turns on Row Level Security (everyone sees only their own rows) and adds a trigger that creates a profile for each new user.
-3. **Authentication → Sign In / Providers → Email**: turn **off** “Confirm email” and make sure **“Allow new users to sign up”** is **on**. Students create their own accounts from the front page (a username and password; the app turns the username into `{username}@{domain}` behind the scenes, and nobody receives email).
-4. If an account was made in the dashboard before sign-up existed, it still works: its username is the part of its email before the `@`.
+3. **Authentication → Sign In / Providers → Email**: turn **off** “Confirm email” and make sure **“Allow new users to sign up”** is **on**. Students create their own accounts from the front page with their email and a password. With “Confirm email” off, Supabase sends them nothing. (Turn it on later if you want verified addresses; the front page then tells new students to check their inbox. Supabase's built-in mailer only sends a few emails an hour, so add your own SMTP first.)
+4. Accounts made in the dashboard before sign-up existed still work: they can sign in with the username, which is the part of their `@{domain}` address before the `@`.
 5. **Project Settings → API**: copy the **Project URL** and the **anon / publishable** key. *Never* use the `service_role` / secret key in this app.
 6. Copy `.env.example` to `.env.local` and fill in both values. Restart `npm run dev`.
 
-> If Supabase ever refuses the `.local` address, set `NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN` to another domain you like (e.g. `myoptomcompanion.app`) in `.env.local` and on Vercel, and use that domain in step 4.
+> `NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN` only matters for those older username accounts. New accounts use real email addresses, because Supabase rejects made-up domains such as `.local`.
 
 ## 2. Deploy to Vercel (free)
 

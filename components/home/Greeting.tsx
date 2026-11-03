@@ -15,7 +15,7 @@ function greeting(hour: number): { text: string } {
 
 export function Greeting({ lines }: { lines: string[] }) {
   const { profile } = useData()
-  const name = profile.displayName.trim() || profile.username
+  const name = profile.displayName.trim() || profile.username.split('@')[0]
   const [line, setLine] = useState<string | null>(null)
   const g = greeting(ukHourNow())
 

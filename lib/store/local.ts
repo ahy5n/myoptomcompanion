@@ -1,7 +1,7 @@
 // "This device only" mode: used until Supabase keys are added. Accounts and
 // progress live in localStorage, so they don't follow the student to another device.
 import type { AuthUser, Backend, UserData } from './types'
-import { emptyData, normaliseUsername, USERNAME_RE } from './types'
+import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const USERS = 'sc:v1:users'
 const SESSION = 'sc:v1:session'
@@ -54,24 +54,20 @@ export const localBackend: Backend = {
     return read<AuthUser | null>(SESSION, null)
   },
 
-  async signIn(rawUsername, password) {
-    const username = normaliseUsername(rawUsername)
-    if (!USERNAME_RE.test(username)) throw new Error('Usernames use letters, numbers, dots, dashes or underscores.')
-    if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+  async signIn(rawLogin, password) {
+    const username = checkLogin(rawLogin)
     const entry = read<Users>(USERS, {})[username]
-    if (!entry) throw new Error('There’s no account with that username on this device. Create one instead.')
-    if (entry.hash !== (await hash(username, password))) throw new Error('That password doesn’t match this username.')
+    if (!entry) throw new Error('There’s no account with that email on this device. Create one instead.')
+    if (entry.hash !== (await hash(username, password))) throw new Error('That email and password don’t match.')
     const user = { id: entry.id, username }
     write(SESSION, user)
     return user
   },
 
-  async signUp(rawUsername, password, displayName) {
-    const username = normaliseUsername(rawUsername)
-    if (!USERNAME_RE.test(username)) throw new Error('Usernames use letters, numbers, dots, dashes or underscores.')
-    if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+  async signUp(rawEmail, password, displayName) {
+    const username = checkNewAccount(rawEmail, password)
     const users = read<Users>(USERS, {})
-    if (users[username]) throw new Error('That username is taken. Try another, or sign in.')
+    if (users[username]) throw new Error('There’s already an account with that email. Sign in instead.')
     const user = { id: newId(), username }
     users[username] = { id: user.id, hash: await hash(username, password) }
     write(USERS, users)

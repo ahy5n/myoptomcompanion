@@ -129,7 +129,7 @@ begin
 end $$;
 
 -- ── Create a profile automatically for each new user ────────────────────
--- The username is the part of the synthetic email before the @.
+-- username holds the sign-in email (unique), display_name what they asked to be called.
 
 create or replace function public.handle_new_user()
 returns trigger
@@ -138,7 +138,7 @@ security definer set search_path = public
 as $$
 begin
   insert into public.profiles (id, username, display_name)
-  values (new.id, split_part(new.email, '@', 1), nullif(new.raw_user_meta_data->>'display_name', ''))
+  values (new.id, lower(new.email), nullif(new.raw_user_meta_data->>'display_name', ''))
   on conflict (id) do nothing;
   return new;
 end;

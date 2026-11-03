@@ -1,11 +1,12 @@
-// Supabase mode: username + password, mapped to a synthetic email.
+// Supabase mode: email + password. Accounts made before sign-up existed
+// used a username, mapped to a synthetic {username}@{DOMAIN} address.
 // Row Level Security (supabase/schema.sql) limits every table to the
 // signed-in user's own rows.
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
 import type { AuthUser, Backend, UserData } from './types'
-import { emptyData, normaliseUsername, USERNAME_RE } from './types'
+import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'myoptomcompanion.local'
 
@@ -19,8 +20,11 @@ function sb(): SupabaseClient {
   return client
 }
 
-const toEmail = (username: string) => `${username}@${DOMAIN}`
-const fromEmail = (email: string | undefined) => (email ?? '').split('@')[0]
+const toEmail = (login: string) => (login.includes('@') ? login : `${login}@${DOMAIN}`)
+const fromEmail = (email: string | undefined) => {
+  const e = email ?? ''
+  return e.endsWith(`@${DOMAIN}`) ? e.slice(0, -DOMAIN.length - 1) : e
+}
 
 function check<T>(res: { data: T; error: { message: string } | null }): T {
   if (res.error) throw new Error(res.error.message)
@@ -66,18 +70,16 @@ export const supabaseBackend: Backend = {
     return u ? { id: u.id, username: fromEmail(u.email) } : null
   },
 
-  async signIn(rawUsername, password) {
-    const username = normaliseUsername(rawUsername)
-    if (!USERNAME_RE.test(username)) throw new Error('Usernames use letters, numbers, dots, dashes or underscores.')
+  async signIn(rawLogin, password) {
+    const username = checkLogin(rawLogin)
     const { data, error } = await sb().auth.signInWithPassword({ email: toEmail(username), password })
     if (error || !data.user) {
       const msg = error?.message ?? ''
-      // The UI only ever talks about usernames, never the email behind them.
       throw new Error(
         /invalid login credentials/i.test(msg)
-          ? 'That username and password don’t match.'
-          : /email|confirm/i.test(msg)
-            ? 'This account isn’t switched on yet. In Supabase, confirm the user (Auto Confirm) and try again.'
+          ? 'That email and password don’t match.'
+          : /not confirmed|confirm/i.test(msg)
+            ? 'Confirm your email first: open the link Supabase sent you, then sign in.'
             : /fetch|network/i.test(msg)
               ? 'Couldn’t reach the server — check your connection.'
               : msg || 'Couldn’t sign in.',
@@ -86,12 +88,10 @@ export const supabaseBackend: Backend = {
     return { id: data.user.id, username }
   },
 
-  async signUp(rawUsername, password, displayName) {
-    const username = normaliseUsername(rawUsername)
-    if (!USERNAME_RE.test(username)) throw new Error('Usernames use letters, numbers, dots, dashes or underscores.')
-    if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+  async signUp(rawEmail, password, displayName) {
+    const username = checkNewAccount(rawEmail, password)
     const { data, error } = await sb().auth.signUp({
-      email: toEmail(username),
+      email: username,
       password,
       options: { data: { display_name: displayName.trim() } },
     })
@@ -99,20 +99,20 @@ export const supabaseBackend: Backend = {
       const msg = error.message
       throw new Error(
         /already registered|already exists/i.test(msg)
-          ? 'That username is taken. Try another, or sign in.'
+          ? 'There’s already an account with that email. Sign in instead.'
           : /signups? not allowed|disabled/i.test(msg)
             ? 'New accounts are switched off. In Supabase, turn on “Allow new users to sign up”.'
             : /invalid/i.test(msg) && /email/i.test(msg)
-              ? 'Supabase rejected the account address. Set NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN to a real-looking domain.'
+              ? 'That email address was rejected. Check it’s typed correctly and is one you can receive mail at.'
               : /fetch|network/i.test(msg)
                 ? 'Couldn’t reach the server — check your connection.'
                 : msg || 'Couldn’t create the account.',
       )
     }
-    // With "Confirm email" on, Supabase makes the user but no session, and
-    // nobody can confirm a made-up address.
+    // With "Confirm email" on, Supabase makes the user but no session until
+    // they click the link it emails them.
     if (!data.session || !data.user) {
-      throw new Error('Account made, but Supabase wants it confirmed by email. In Supabase, turn off “Confirm email”, then sign in.')
+      throw new Error('Nearly there: check your inbox for a confirmation link, then come back and sign in.')
     }
     // The signup trigger copies the name too; this covers databases set up
     // before it did.

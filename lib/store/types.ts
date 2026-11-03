@@ -3,6 +3,7 @@ import type { Assessment } from '../tracker'
 
 export interface AuthUser {
   id: string
+  /** What they sign in with: their email, or a username for older accounts. */
   username: string
 }
 
@@ -60,7 +61,7 @@ export interface Backend {
   mode: 'local' | 'supabase'
   currentUser(): Promise<AuthUser | null>
   signIn(username: string, password: string): Promise<AuthUser>
-  signUp(username: string, password: string, displayName: string): Promise<AuthUser>
+  signUp(email: string, password: string, displayName: string): Promise<AuthUser>
   signOut(): Promise<void>
   changePassword(user: AuthUser, current: string, next: string): Promise<void>
   load(user: AuthUser): Promise<UserData>
@@ -93,7 +94,22 @@ export function emptyData(username: string): UserData {
 }
 
 export const USERNAME_RE = /^[a-z0-9][a-z0-9._-]{1,30}$/
+export const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
 
 export function normaliseUsername(u: string): string {
   return u.trim().toLowerCase()
+}
+
+/** Sign-in accepts an email, or a username from before sign-up used email. */
+export function checkLogin(raw: string): string {
+  const login = normaliseUsername(raw)
+  if (!EMAIL_RE.test(login) && !USERNAME_RE.test(login)) throw new Error('Enter the email address you signed up with.')
+  return login
+}
+
+export function checkNewAccount(rawEmail: string, password: string): string {
+  const email = normaliseUsername(rawEmail)
+  if (!EMAIL_RE.test(email)) throw new Error('That email address doesn’t look right.')
+  if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+  return email
 }

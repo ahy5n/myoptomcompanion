@@ -95,9 +95,9 @@ function useSubmit(action: () => Promise<void>, fallback: string) {
 
 function SignInForm({ onSwitch }: { onSwitch: () => void }) {
   const { signIn, mode } = useApp()
-  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const { busy, error, submit } = useSubmit(() => signIn(username, password), 'Couldn’t sign in.')
+  const { busy, error, submit } = useSubmit(() => signIn(email, password), 'Couldn’t sign in.')
 
   return (
     <form onSubmit={submit} className="fade-in mt-8 space-y-4" role="tabpanel" aria-label="Sign in">
@@ -105,7 +105,7 @@ function SignInForm({ onSwitch }: { onSwitch: () => void }) {
         <h2 className="text-[22px] font-semibold">Welcome back</h2>
         <p className="mt-1 text-[15px] text-muted">Sign in to pick up where you left off.</p>
       </div>
-      <UsernameField value={username} onChange={setUsername} />
+      <EmailField value={email} onChange={setEmail} />
       <PasswordField value={password} onChange={setPassword} autoComplete="current-password" />
       <FormError error={error} />
       <button className="btn btn-primary w-full" disabled={busy}>
@@ -125,21 +125,21 @@ function SignInForm({ onSwitch }: { onSwitch: () => void }) {
 function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
   const { signUp, mode } = useApp()
   const [name, setName] = useState('')
-  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const { busy, error, submit } = useSubmit(() => signUp(username, password, name), 'Couldn’t create the account.')
+  const { busy, error, submit } = useSubmit(() => signUp(email, password, name), 'Couldn’t create the account.')
 
   return (
     <form onSubmit={submit} className="fade-in mt-8 space-y-4" role="tabpanel" aria-label="Create account">
       <div>
         <h2 className="text-[22px] font-semibold">Create your account</h2>
-        <p className="mt-1 text-[15px] text-muted">Free while we’re testing. No email needed.</p>
+        <p className="mt-1 text-[15px] text-muted">Free while we’re testing. Takes ten seconds.</p>
       </div>
       <label className="block">
         <span className="mb-1.5 block text-[14px] font-medium">Your first name</span>
         <input className="field" autoComplete="given-name" maxLength={40} required value={name} onChange={(e) => setName(e.target.value)} />
       </label>
-      <UsernameField value={username} onChange={setUsername} hint="Letters, numbers, dots, dashes or underscores." />
+      <EmailField value={email} onChange={setEmail} hint="Used to sign in. We won’t send you marketing." />
       <PasswordField value={password} onChange={setPassword} autoComplete="new-password" hint="At least 6 characters." />
       <FormError error={error} />
       <button className="btn btn-primary w-full" disabled={busy}>
@@ -156,13 +156,15 @@ function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
   )
 }
 
-function UsernameField({ value, onChange, hint }: { value: string; onChange: (v: string) => void; hint?: string }) {
+function EmailField({ value, onChange, hint }: { value: string; onChange: (v: string) => void; hint?: string }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-[14px] font-medium">Username</span>
+      <span className="mb-1.5 block text-[14px] font-medium">Email</span>
       <input
         className="field"
-        autoComplete="username"
+        type="text"
+        inputMode="email"
+        autoComplete="email"
         autoCapitalize="none"
         autoCorrect="off"
         spellCheck={false}
