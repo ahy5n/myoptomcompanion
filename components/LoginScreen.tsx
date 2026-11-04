@@ -16,6 +16,8 @@ const FEATURES: [string, string][] = [
 
 export function LoginScreen() {
   const [tab, setTab] = useState<Tab>('sign-in')
+  // "Forgot password?" swaps the sign-in form for the reset form, keeping the email typed so far.
+  const [forgot, setForgot] = useState<string | null>(null)
 
   return (
     <div className="grid min-h-dvh bg-bg lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
@@ -59,7 +61,10 @@ export function LoginScreen() {
                 key={key}
                 role="tab"
                 aria-selected={tab === key}
-                onClick={() => setTab(key)}
+                onClick={() => {
+                  setTab(key)
+                  setForgot(null)
+                }}
                 className={`min-h-10 rounded-lg text-[14px] font-semibold transition-colors ${
                   tab === key ? 'bg-surface text-ink shadow-[var(--shadow-soft)]' : 'text-muted hover:text-ink'
                 }`}
@@ -69,7 +74,13 @@ export function LoginScreen() {
             ))}
           </div>
 
-          {tab === 'sign-in' ? <SignInForm onSwitch={() => setTab('sign-up')} /> : <SignUpForm onSwitch={() => setTab('sign-in')} />}
+          {tab === 'sign-up' ? (
+            <SignUpForm onSwitch={() => setTab('sign-in')} />
+          ) : forgot !== null ? (
+            <ForgotForm initialEmail={forgot} onBack={() => setForgot(null)} />
+          ) : (
+            <SignInForm onSwitch={() => setTab('sign-up')} onForgot={setForgot} />
+          )}
         </div>
         <p className="text-center text-[12px] text-muted lg:hidden">A revision aid in testing. Not affiliated with any university.</p>
       </main>
@@ -94,7 +105,7 @@ function useSubmit(action: () => Promise<void>, fallback: string) {
   return { busy, error, submit }
 }
 
-function SignInForm({ onSwitch }: { onSwitch: () => void }) {
+function SignInForm({ onSwitch, onForgot }: { onSwitch: () => void; onForgot: (email: string) => void }) {
   const { signIn, mode } = useApp()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -107,7 +118,16 @@ function SignInForm({ onSwitch }: { onSwitch: () => void }) {
         <p className="mt-1 text-[15px] text-muted">Sign in to pick up where you left off.</p>
       </div>
       <EmailField value={email} onChange={setEmail} />
-      <PasswordField value={password} onChange={setPassword} autoComplete="current-password" />
+      <div>
+        <PasswordField value={password} onChange={setPassword} autoComplete="current-password" />
+        <button
+          type="button"
+          onClick={() => onForgot(email)}
+          className="mt-1.5 min-h-9 text-[14px] font-semibold text-accent underline-offset-4 hover:underline"
+        >
+          Forgot password?
+        </button>
+      </div>
       <FormError error={error} />
       <button className="btn btn-primary w-full" disabled={busy}>
         {busy ? 'Signing in…' : 'Sign in'}
@@ -119,6 +139,51 @@ function SignInForm({ onSwitch }: { onSwitch: () => void }) {
         </button>
       </p>
       {mode === 'local' && <LocalNote />}
+    </form>
+  )
+}
+
+function ForgotForm({ initialEmail, onBack }: { initialEmail: string; onBack: () => void }) {
+  const { sendPasswordReset, mode } = useApp()
+  const [email, setEmail] = useState(initialEmail)
+  const [sentTo, setSentTo] = useState<string | null>(null)
+  const { busy, error, submit } = useSubmit(async () => {
+    await sendPasswordReset(email)
+    setSentTo(email.trim())
+  }, 'Couldn’t send the reset email.')
+
+  if (sentTo) {
+    return (
+      <div className="fade-in mt-8 space-y-4" role="status">
+        <h2 className="text-[22px] font-semibold">Check your email</h2>
+        <p className="text-[15px] text-muted">
+          If there’s an account for <b className="text-ink">{sentTo}</b>, a link to set a new password is on its way. It can take a few minutes, so check
+          your junk folder too.
+        </p>
+        <button type="button" className="btn btn-quiet w-full" onClick={onBack}>
+          Back to sign in
+        </button>
+      </div>
+    )
+  }
+
+  return (
+    <form onSubmit={submit} className="fade-in mt-8 space-y-4" aria-label="Reset your password">
+      <div>
+        <h2 className="text-[22px] font-semibold">Reset your password</h2>
+        <p className="mt-1 text-[15px] text-muted">Enter your email and we’ll send you a link to choose a new one.</p>
+      </div>
+      <EmailField value={email} onChange={setEmail} />
+      <FormError error={error} />
+      <button className="btn btn-primary w-full" disabled={busy || mode === 'local'}>
+        {busy ? 'Sending…' : 'Send reset link'}
+      </button>
+      <button type="button" className="btn btn-ghost w-full" onClick={onBack}>
+        Back to sign in
+      </button>
+      {mode === 'local' && (
+        <p className="text-center text-[13px] text-muted">Accounts in this preview live on this device only, so there’s no reset email.</p>
+      )}
     </form>
   )
 }
@@ -180,21 +245,23 @@ function EmailField({ value, onChange, hint }: { value: string; onChange: (v: st
   )
 }
 
-function PasswordField({
+export function PasswordField({
   value,
   onChange,
   autoComplete,
   hint,
+  label = 'Password',
 }: {
   value: string
   onChange: (v: string) => void
   autoComplete: string
   hint?: string
+  label?: string
 }) {
   const [shown, setShown] = useState(false)
   return (
     <label className="block">
-      <span className="mb-1.5 block text-[14px] font-medium">Password</span>
+      <span className="mb-1.5 block text-[14px] font-medium">{label}</span>
       <span className="relative block">
         <input
           className="field pr-16"
@@ -219,7 +286,7 @@ function PasswordField({
   )
 }
 
-function FormError({ error }: { error: string | null }) {
+export function FormError({ error }: { error: string | null }) {
   if (!error) return null
   return (
     <p role="alert" className="rounded-[10px] bg-bad-soft px-3 py-2.5 text-[14px] text-bad-ink">

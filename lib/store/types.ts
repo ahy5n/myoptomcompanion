@@ -147,6 +147,10 @@ export interface Backend {
   signUp(email: string, password: string, about: NewAccount): Promise<AuthUser>
   signOut(): Promise<void>
   changePassword(user: AuthUser, current: string, next: string): Promise<void>
+  /** Emails a link to /reset-password. Says nothing about whether the account exists. */
+  sendPasswordReset(email: string): Promise<void>
+  /** Sets a new password for the account signed in by that link. */
+  setNewPassword(password: string): Promise<void>
   load(user: AuthUser): Promise<UserData>
   saveProfile(user: AuthUser, patch: Partial<Omit<Profile, 'username'>>): Promise<void>
   saveProgress(user: AuthUser, topicId: string, p: Progress): Promise<void>

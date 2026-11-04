@@ -34,6 +34,8 @@ interface AppState {
   signUp(email: string, password: string, about: NewAccount): Promise<void>
   signOut(): Promise<void>
   changePassword(current: string, next: string): Promise<void>
+  sendPasswordReset(email: string): Promise<void>
+  setNewPassword(password: string): Promise<void>
   retry(): void
   setProgress(topicId: string, field: keyof Progress, value: boolean): void
   setChecklist(checklistId: string, steps: number[]): void
@@ -193,6 +195,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       async changePassword(current, next) {
         await backend.changePassword(u, current, next)
       },
+      sendPasswordReset: (email) => backend.sendPasswordReset(email),
+      setNewPassword: (password) => backend.setNewPassword(password),
 
       setProgress(topicId, field, v) {
         const cur = dataRef.current?.progress[topicId] ?? { covered: false, revised: false }

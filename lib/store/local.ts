@@ -84,6 +84,12 @@ export const localBackend: Backend = {
     localStorage.removeItem(SESSION)
   },
 
+  async sendPasswordReset() {
+    throw new Error('Accounts in this preview live on this device only, so there’s no reset email. Create a new account instead.')
+  },
+  async setNewPassword() {
+    throw new Error('Password reset links only work on the live site.')
+  },
   async changePassword(user, current, next) {
     const users = read<Users>(USERS, {})
     const entry = users[user.username]

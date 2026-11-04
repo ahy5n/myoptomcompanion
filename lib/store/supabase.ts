@@ -191,6 +191,34 @@ export const supabaseBackend: Backend = {
     return { id: data.user.id, username }
   },
 
+  async sendPasswordReset(rawEmail) {
+    const email = toEmail(checkLogin(rawEmail))
+    const { error } = await sb().auth.resetPasswordForEmail(email, { redirectTo: `${window.location.origin}/reset-password` })
+    if (error) {
+      throw new Error(
+        /rate limit|too many|security purposes/i.test(error.message)
+          ? 'Too many reset emails just now. Wait a few minutes and try again.'
+          : /fetch|network/i.test(error.message)
+            ? 'Couldn’t reach the server — check your connection.'
+            : error.message,
+      )
+    }
+  },
+
+  async setNewPassword(password) {
+    if (password.length < 6) throw new Error('Passwords need at least 6 characters.')
+    const { error } = await sb().auth.updateUser({ password })
+    if (error) {
+      throw new Error(
+        /different from the old|same/i.test(error.message)
+          ? 'That’s your current password. Choose a new one.'
+          : /session|jwt|expired/i.test(error.message)
+            ? 'This reset link has expired. Ask for a new one from the sign-in page.'
+            : error.message,
+      )
+    }
+  },
+
   async signUp(rawEmail, password, about) {
     const username = checkNewAccount(rawEmail, password)
     const { data, error } = await sb().auth.signUp({

@@ -22,6 +22,10 @@ export function Shell({ children }: { children: React.ReactNode }) {
       </div>
     )
   }
+  // The reset-password page stands alone, signed in by its link or not.
+  if (pathname === '/reset-password') {
+    return <main className="grid min-h-dvh place-items-center px-4 py-10">{children}</main>
+  }
   if (status === 'signed-out') return <LoginScreen />
   if (status === 'error') {
     return (
