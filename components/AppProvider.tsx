@@ -4,7 +4,13 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { todayISO } from '@/lib/dates'
 import { schedule } from '@/lib/leitner'
 import {
+  accountBackend,
   backend,
+  clearGuestData,
+  isGuest,
+  readGuestData,
+  setGuest,
+  startGuest,
   type AuthUser,
   type FlagRecord,
   type NewAccount,
@@ -31,8 +37,13 @@ interface AppState {
   today: string
   error: string | null
   signIn(username: string, password: string): Promise<void>
-  signUp(email: string, password: string, about: NewAccount): Promise<void>
+  signUp(email: string, password: string, about: NewAccount, keepGuestProgress?: boolean): Promise<void>
   signOut(): Promise<void>
+  /** True while using the app without an account (progress on this device only). */
+  guest: boolean
+  continueAsGuest(): Promise<void>
+  /** Whether this device has guest progress that a new account could take over. */
+  hasGuestProgress(): boolean
   changePassword(current: string, next: string): Promise<void>
   sendPasswordReset(email: string): Promise<void>
   setNewPassword(password: string): Promise<void>
@@ -80,6 +91,26 @@ export function useData(): UserData {
 export function useModuleName(): (code: string, fallback: string) => string {
   const { overrides } = useData()
   return (code, fallback) => overrides[code] || fallback
+}
+
+/** Copies a guest's progress from this device into their new account. */
+async function copyGuestProgress(user: AuthUser, g: UserData) {
+  const b = accountBackend
+  const jobs: Promise<unknown>[] = []
+  for (const [id, p] of Object.entries(g.progress)) jobs.push(b.saveProgress(user, id, p))
+  for (const [id, steps] of Object.entries(g.checklists)) jobs.push(b.saveChecklist(user, id, steps))
+  for (const [id, body] of Object.entries(g.notes)) if (body) jobs.push(b.saveNote(user, id, body))
+  for (const r of Object.values(g.reviews)) jobs.push(b.saveReview(user, r))
+  for (const [code, name] of Object.entries(g.overrides)) jobs.push(b.saveOverride(user, code, name))
+  for (const [id, p] of Object.entries(g.placements ?? {})) jobs.push(b.savePlacement(user, id, p))
+  for (const deck of g.decks ?? []) jobs.push(b.saveDeck(user, deck))
+  for (const set of g.cardSets ?? []) jobs.push(b.saveCardSet(user, set))
+  if (g.assessments.length) jobs.push(b.addAssessments(user, g.assessments.map(({ id: _id, ...a }) => a)))
+  if (g.timetable?.length) jobs.push(b.addTimetable(user, g.timetable))
+  const { targetMark, reflection, palette, colorMode, claudeProjectUrl } = g.profile
+  jobs.push(b.saveProfile(user, { targetMark, reflection, palette, colorMode, claudeProjectUrl }))
+  const results = await Promise.allSettled(jobs)
+  if (results.some((r) => r.status === 'rejected')) throw new Error('partial copy')
 }
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -181,12 +212,28 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         const signed = await backend.signIn(username, password)
         await loadFor(signed)
       },
-      async signUp(email, password, about) {
+      async signUp(email, password, about, keepGuestProgress = true) {
+        const guestData = readGuestData()
         const created = await backend.signUp(email, password, about)
+        if (guestData && keepGuestProgress) {
+          await copyGuestProgress(created, guestData).catch(() => toast('Some of your guest progress couldn’t be copied.'))
+          clearGuestData()
+        }
         await loadFor(created)
+      },
+      guest: !!user && isGuest(),
+      async continueAsGuest() {
+        setGuest(true)
+        await loadFor(startGuest())
+      },
+      hasGuestProgress() {
+        const g = readGuestData()
+        return !!g && (Object.keys(g.progress).length > 0 || Object.keys(g.reviews).length > 0 || g.cardSets.length > 0 || Object.keys(g.placements ?? {}).length > 0 || g.assessments.length > 0 || Object.keys(g.notes).length > 0)
       },
       async signOut() {
         await backend.signOut()
+        // Leaving guest mode keeps the guest's progress on this device for next time.
+        setGuest(false)
         dataRef.current = null
         setUser(null)
         setData(null)

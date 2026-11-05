@@ -143,6 +143,21 @@
   .prose-soft p + p { margin-top: 0.75rem; }
 }
 
+@layer components {
+  /* Placement map markers (also used as legend dots). */
+  .pm-city {
+    display: grid; place-items: center; width: 30px; height: 30px; border-radius: 999px;
+    background: var(--accent); color: var(--on-accent); font: 700 12px/1 var(--font-sans);
+    box-shadow: 0 0 0 3px var(--surface), 0 2px 6px rgb(0 0 0 / 0.25); cursor: pointer;
+  }
+  .pm-place { display: inline-block; width: 14px; height: 14px; border-radius: 999px; box-shadow: 0 0 0 2.5px var(--surface); flex-shrink: 0; }
+  .pm-hospital { background: var(--accent); }
+  .pm-surgical { background: var(--muted); }
+  .leaflet-container { background: var(--bg); font-family: var(--font-sans); }
+  /* Darken the light map tiles to sit inside a dark theme. */
+  .pm-dark .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9); }
+}
+
 @layer utilities {
   .toast-in { animation: toast-in 0.25s ease-out; }
   .fade-in { animation: fade-in 0.3s ease-out; }

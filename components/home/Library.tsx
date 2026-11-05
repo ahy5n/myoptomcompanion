@@ -136,6 +136,12 @@ export function Library({
         <Tile href="/timetable" title="Timetable" tone="sky">
           {data.timetable.length ? `${data.timetable.filter((e) => e.date >= today).length} sessions coming up` : 'Import or add your sessions'}
         </Tile>
+        <Tile href="/placements" title="Work experience" tone="sky">
+          {(() => {
+            const n = Object.values(data.placements).filter((p) => p.status !== 'not-contacted').length
+            return n ? `${n} ${n === 1 ? 'place' : 'places'} contacted` : 'Eye departments and clinics in every city, on a map'
+          })()}
+        </Tile>
         <Tile href="/flashcards" title="Your flashcards" tone="lilac">
           {data.cardSets.length
             ? `${data.cardSets.reduce((n, s) => n + s.cards.length, 0)} cards in ${data.cardSets.length} ${data.cardSets.length === 1 ? 'set' : 'sets'}`

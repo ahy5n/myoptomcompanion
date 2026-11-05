@@ -17,7 +17,7 @@ const MAX = 2000
 
 /** Send a note to the people running the site. */
 export function FeedbackCard() {
-  const { sendFeedback, user } = useApp()
+  const { sendFeedback, user, guest, mode } = useApp()
   const { feedback } = useData()
   const [kind, setKind] = useState<FeedbackKind>('idea')
   const [message, setMessage] = useState('')
@@ -60,7 +60,12 @@ export function FeedbackCard() {
       </h2>
       <p className="mt-1 text-[14px] text-muted">This is a test version, so tell us what works, what doesn’t and what you’d like next. We read every message.</p>
 
-      {sent ? (
+      {guest && mode === 'supabase' ? (
+        <p className="mt-4 rounded-xl bg-bg px-4 py-3 text-[14.5px]">
+          Feedback is sent from your account, so create a free account first (the banner at the top of the page has a button). Your guest progress comes
+          with you.
+        </p>
+      ) : sent ? (
         <div className="mt-4 rounded-xl bg-good-soft px-4 py-4" role="status">
           <p className="font-semibold text-good-ink">Thanks, that’s been sent.</p>
           <button className="mt-2 text-[14px] font-semibold text-ink underline-offset-4 hover:underline" onClick={() => setSent(false)}>

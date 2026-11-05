@@ -47,6 +47,22 @@ function mutate(user: AuthUser, fn: (d: UserData) => void) {
   write(dataKey(user.id), d)
 }
 
+// ── Guest mode ───────────────────────────────────────────────────────────
+const GUEST: AuthUser = { id: 'guest', username: 'Guest' }
+
+/** Signs in as the device's guest, keeping any earlier guest progress. */
+export function startGuest(): AuthUser {
+  if (!localStorage.getItem(dataKey(GUEST.id))) write(dataKey(GUEST.id), emptyData(GUEST.username))
+  write(SESSION, GUEST)
+  return GUEST
+}
+export function readGuestData(): UserData | null {
+  return read<UserData | null>(dataKey(GUEST.id), null)
+}
+export function clearGuestData() {
+  localStorage.removeItem(dataKey(GUEST.id))
+}
+
 export const localBackend: Backend = {
   mode: 'local',
 

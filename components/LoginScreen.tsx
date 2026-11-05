@@ -1,11 +1,14 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useApp } from './AppProvider'
 import { type Course, CoursePicker } from './CoursePicker'
 import { Logo } from './Logo'
 
 type Tab = 'sign-in' | 'sign-up'
+
+/** Set before a guest signs out to create an account. */
+export const SIGNUP_FLAG = 'oc:open-signup'
 
 const FEATURES: [string, string][] = [
   ['Every module, topic by topic', 'Summaries, exam traps, diagrams and practical checklists for UK optometry.'],
@@ -16,6 +19,15 @@ const FEATURES: [string, string][] = [
 
 export function LoginScreen() {
   const [tab, setTab] = useState<Tab>('sign-in')
+  // A guest who taps "Create a free account" lands straight on the sign-up tab.
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem(SIGNUP_FLAG)) {
+        sessionStorage.removeItem(SIGNUP_FLAG)
+        setTab('sign-up')
+      }
+    } catch {}
+  }, [])
   // "Forgot password?" swaps the sign-in form for the reset form, keeping the email typed so far.
   const [forgot, setForgot] = useState<string | null>(null)
 
@@ -81,6 +93,7 @@ export function LoginScreen() {
           ) : (
             <SignInForm onSwitch={() => setTab('sign-up')} onForgot={setForgot} />
           )}
+          <GuestEntry />
         </div>
         <p className="text-center text-[12px] text-muted lg:hidden">A revision aid in testing. Not affiliated with any university.</p>
       </main>
@@ -143,6 +156,32 @@ function SignInForm({ onSwitch, onForgot }: { onSwitch: () => void; onForgot: (e
   )
 }
 
+function GuestEntry() {
+  const { continueAsGuest } = useApp()
+  const [busy, setBusy] = useState(false)
+  return (
+    <div className="mt-8">
+      <div className="flex items-center gap-3 text-[13px] text-muted" aria-hidden>
+        <span className="h-px flex-1 bg-border" />
+        or
+        <span className="h-px flex-1 bg-border" />
+      </div>
+      <button
+        type="button"
+        className="btn btn-quiet mt-4 w-full"
+        disabled={busy}
+        onClick={async () => {
+          setBusy(true)
+          await continueAsGuest()
+        }}
+      >
+        {busy ? 'Opening…' : 'Continue as guest'}
+      </button>
+      <p className="mt-2 text-center text-[13px] text-muted">Try everything without an account. Progress is saved on this device until you sign up.</p>
+    </div>
+  )
+}
+
 function ForgotForm({ initialEmail, onBack }: { initialEmail: string; onBack: () => void }) {
   const { sendPasswordReset, mode } = useApp()
   const [email, setEmail] = useState(initialEmail)
@@ -189,12 +228,14 @@ function ForgotForm({ initialEmail, onBack }: { initialEmail: string; onBack: ()
 }
 
 function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
-  const { signUp, mode } = useApp()
+  const { signUp, mode, hasGuestProgress } = useApp()
+  const [hasGuest] = useState(hasGuestProgress)
+  const [keepGuest, setKeepGuest] = useState(true)
   const [name, setName] = useState('')
   const [course, setCourse] = useState<Course>({ university: null, studyYear: null })
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const { busy, error, submit } = useSubmit(() => signUp(email, password, { displayName: name, ...course }), 'Couldn’t create the account.')
+  const { busy, error, submit } = useSubmit(() => signUp(email, password, { displayName: name, ...course }, keepGuest), 'Couldn’t create the account.')
 
   return (
     <form onSubmit={submit} className="fade-in mt-8 space-y-4" role="tabpanel" aria-label="Create account">
@@ -209,6 +250,12 @@ function SignUpForm({ onSwitch }: { onSwitch: () => void }) {
       <CoursePicker value={course} onChange={setCourse} required />
       <EmailField value={email} onChange={setEmail} hint="Used to sign in. We won’t send you marketing." />
       <PasswordField value={password} onChange={setPassword} autoComplete="new-password" hint="At least 6 characters." />
+      {hasGuest && (
+        <label className="flex min-h-10 items-center gap-2 text-[14px]">
+          <input type="checkbox" className="size-4" checked={keepGuest} onChange={(e) => setKeepGuest(e.target.checked)} />
+          Bring my guest progress into this account
+        </label>
+      )}
       <FormError error={error} />
       <button className="btn btn-primary w-full" disabled={busy}>
         {busy ? 'Creating account…' : 'Create account'}

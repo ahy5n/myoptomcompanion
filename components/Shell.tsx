@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation'
 import { useApp } from './AppProvider'
 import { FlagButton } from './FlagButton'
 import { GearIcon } from './icons'
-import { LoginScreen } from './LoginScreen'
+import { LoginScreen, SIGNUP_FLAG } from './LoginScreen'
 import { Logo } from './Logo'
 
 export function Shell({ children }: { children: React.ReactNode }) {
-  const { status, error, retry, signOut } = useApp()
+  const { status, error, retry, signOut, guest } = useApp()
   const pathname = usePathname()
 
   if (status === 'loading') {
@@ -65,6 +65,26 @@ export function Shell({ children }: { children: React.ReactNode }) {
           </nav>
         </div>
       </header>
+      {guest && (
+        <div className="no-print border-b border-border bg-accent-soft">
+          <div className="mx-auto flex max-w-[1320px] flex-wrap items-center justify-between gap-x-4 gap-y-1 px-4 py-2 text-[14px] sm:px-6">
+            <p>
+              <b>You’re using a guest account.</b> <span className="text-muted">Progress is saved on this device only.</span>
+            </p>
+            <button
+              className="font-semibold text-accent-strong underline-offset-4 hover:underline"
+              onClick={() => {
+                try {
+                  sessionStorage.setItem(SIGNUP_FLAG, '1')
+                } catch {}
+                void signOut()
+              }}
+            >
+              Create a free account
+            </button>
+          </div>
+        </div>
+      )}
       <main className="mx-auto max-w-[1320px] px-4 pb-10 pt-5 sm:px-6 sm:pt-7 print:max-w-none print:p-0">{children}</main>
       <footer className="no-print mx-auto max-w-[1320px] px-4 pb-24 sm:px-6">
         <p className="border-t border-border pt-5 text-[13.5px] text-muted">

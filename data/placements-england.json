@@ -1,0 +1,3759 @@
+{
+ "checked": "5 November 2026",
+ "cities": [
+  {
+   "id": "bath",
+   "name": "Bath",
+   "region": "South West",
+   "lat": 51.3828,
+   "lng": -2.3593,
+   "places": [
+    "royal-united-hospital-bath-eye-clinic"
+   ]
+  },
+  {
+   "id": "bradford",
+   "name": "Bradford",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.7908,
+   "lng": -1.7546,
+   "places": [
+    "bradford-royal-infirmary-ophthalmology",
+    "bradford-university-eye-clinic",
+    "newmedica-bradford-and-huddersfield-bd19-6bw",
+    "spamedica-bradford-bd5-8hb",
+    "optegra-eye-hospital-yorkshire-bradford-bd10-0rd"
+   ]
+  },
+  {
+   "id": "brighton-hove",
+   "name": "Brighton & Hove",
+   "region": "South East",
+   "lat": 50.825,
+   "lng": -0.1388,
+   "places": [
+    "sussex-eye-hospital",
+    "spamedica-brighton-bn6-9ls",
+    "optegra-eye-clinic-brighton-bn1-8af"
+   ]
+  },
+  {
+   "id": "bristol",
+   "name": "Bristol",
+   "region": "South West",
+   "lat": 51.4531,
+   "lng": -2.601,
+   "places": [
+    "bristol-eye-hospital",
+    "newmedica-bristol-aztec-west-bs32-4ud",
+    "newmedica-bristol-litfield-house-bs8-3ls",
+    "spamedica-bristol-bs30-8fj"
+   ]
+  },
+  {
+   "id": "cambridge",
+   "name": "Cambridge",
+   "region": "East of England",
+   "lat": 52.2049,
+   "lng": 0.1197,
+   "places": [
+    "cambridge-eye-unit-addenbrooke-s-hospital",
+    "spamedica-cambridge-cb4-3dh"
+   ]
+  },
+  {
+   "id": "canterbury",
+   "name": "Canterbury",
+   "region": "South East",
+   "lat": 51.2797,
+   "lng": 1.0789,
+   "places": [
+    "kent-and-canterbury-hospital-ophthalmology"
+   ]
+  },
+  {
+   "id": "carlisle",
+   "name": "Carlisle",
+   "region": "North West",
+   "lat": 54.8926,
+   "lng": -2.933,
+   "places": [
+    "cumberland-infirmary-ophthalmology",
+    "spamedica-carlisle-ca2-7af"
+   ]
+  },
+  {
+   "id": "chelmsford",
+   "name": "Chelmsford",
+   "region": "East of England",
+   "lat": 51.737,
+   "lng": 0.4736,
+   "places": [
+    "broomfield-hospital-eye-clinic",
+    "spamedica-chelmsford-cm1-1wz"
+   ]
+  },
+  {
+   "id": "chester",
+   "name": "Chester",
+   "region": "North West",
+   "lat": 53.1902,
+   "lng": -2.8916,
+   "places": [
+    "countess-of-chester-hospital-westminster-eye-centre",
+    "newmedica-cheshire-oaks-ch2-4hy"
+   ]
+  },
+  {
+   "id": "chichester",
+   "name": "Chichester",
+   "region": "South East",
+   "lat": 50.8365,
+   "lng": -0.779,
+   "places": [],
+   "nearestHospital": {
+    "id": "queen-alexandra-hospital-eye-department",
+    "city": "Portsmouth",
+    "km": 20
+   }
+  },
+  {
+   "id": "colchester",
+   "name": "Colchester",
+   "region": "East of England",
+   "lat": 51.8897,
+   "lng": 0.8993,
+   "places": [
+    "colchester-hospital-eye-department",
+    "newmedica-ipswich-ip2-0ee",
+    "spamedica-colchester-co4-9gn",
+    "optegra-eye-clinic-colchester-co4-9pd"
+   ]
+  },
+  {
+   "id": "coventry",
+   "name": "Coventry",
+   "region": "West Midlands",
+   "lat": 52.4077,
+   "lng": -1.5069,
+   "places": [
+    "university-hospital-coventry-eye-unit",
+    "newmedica-nuneaton-cv10-9eb",
+    "spamedica-coventry-cv5-6ub"
+   ]
+  },
+  {
+   "id": "derby",
+   "name": "Derby",
+   "region": "East Midlands",
+   "lat": 52.9247,
+   "lng": -1.4781,
+   "places": [
+    "royal-derby-hospital-ophthalmology",
+    "newmedica-derby-de24-8rf",
+    "spamedica-derby-de21-4xf"
+   ]
+  },
+  {
+   "id": "doncaster",
+   "name": "Doncaster",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.5227,
+   "lng": -1.1324,
+   "places": [
+    "doncaster-royal-infirmary-ophthalmology",
+    "newmedica-worksop-s80-2pu",
+    "spamedica-doncaster-dn4-8qg"
+   ]
+  },
+  {
+   "id": "durham",
+   "name": "Durham",
+   "region": "North East",
+   "lat": 54.7779,
+   "lng": -1.5826,
+   "places": [
+    "university-hospital-of-north-durham-ophthalmology-clinics",
+    "newmedica-darlington-dl1-5lw"
+   ]
+  },
+  {
+   "id": "ely",
+   "name": "Ely",
+   "region": "East of England",
+   "lat": 52.3996,
+   "lng": 0.2625,
+   "places": [],
+   "nearestHospital": {
+    "id": "cambridge-eye-unit-addenbrooke-s-hospital",
+    "city": "Cambridge",
+    "km": 26
+   }
+  },
+  {
+   "id": "exeter",
+   "name": "Exeter",
+   "region": "South West",
+   "lat": 50.7226,
+   "lng": -3.5326,
+   "places": [
+    "west-of-england-eye-unit-rd-e-wonford",
+    "newmedica-exeter-ex2-8nl",
+    "spamedica-exeter-ex5-2hl"
+   ]
+  },
+  {
+   "id": "gloucester",
+   "name": "Gloucester",
+   "region": "South West",
+   "lat": 51.8646,
+   "lng": -2.2469,
+   "places": [
+    "gloucestershire-royal-hospital-ophthalmology-outpatients",
+    "newmedica-gloucester-aspen-gl1-3px",
+    "newmedica-gloucester-brighouse-gl4-3rt",
+    "spamedica-gloucester-gl2-4dh"
+   ]
+  },
+  {
+   "id": "hereford",
+   "name": "Hereford",
+   "region": "West Midlands",
+   "lat": 52.056,
+   "lng": -2.7175,
+   "places": [
+    "the-county-hospital-victoria-eye-unit",
+    "spamedica-hereford-hr2-7je"
+   ]
+  },
+  {
+   "id": "hull",
+   "name": "Hull",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.7446,
+   "lng": -0.3326,
+   "places": [
+    "eye-hospital-hull-royal-infirmary",
+    "newmedica-brigg-dn20-8as",
+    "newmedica-grimsby-dn31-2bh",
+    "spamedica-hull-hu10-6fe"
+   ]
+  },
+  {
+   "id": "lancaster",
+   "name": "Lancaster",
+   "region": "North West",
+   "lat": 54.0501,
+   "lng": -2.8032,
+   "places": [
+    "royal-lancaster-infirmary-ophthalmology",
+    "spamedica-kendal-la9-7rl"
+   ]
+  },
+  {
+   "id": "leeds",
+   "name": "Leeds",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.8007,
+   "lng": -1.5503,
+   "places": [
+    "st-james-s-university-hospital-eye-department",
+    "newmedica-leeds-ls7-4hz",
+    "spamedica-leeds-ls15-8zb",
+    "optegra-eye-clinic-bowcliffe-hall-yorkshire-ls23-6lp"
+   ]
+  },
+  {
+   "id": "leicester",
+   "name": "Leicester",
+   "region": "East Midlands",
+   "lat": 52.6336,
+   "lng": -1.1335,
+   "places": [
+    "leicester-royal-infirmary-eye-department",
+    "newmedica-leicester-le19-1sj",
+    "spamedica-leicester-le19-1sy",
+    "optegra-eye-clinic-leicester-le19-1rp"
+   ]
+  },
+  {
+   "id": "lichfield",
+   "name": "Lichfield",
+   "region": "West Midlands",
+   "lat": 52.6831,
+   "lng": -1.8273,
+   "places": [
+    "samuel-johnson-community-hospital-eye-clinics",
+    "optegra-eye-clinic-uttoxeter-st14-8az"
+   ]
+  },
+  {
+   "id": "lincoln",
+   "name": "Lincoln",
+   "region": "East Midlands",
+   "lat": 53.2348,
+   "lng": -0.5384,
+   "places": [
+    "lincoln-county-hospital-ophthalmology",
+    "newmedica-lincoln-ln6-9ba",
+    "spamedica-newark-ng24-1un"
+   ]
+  },
+  {
+   "id": "liverpool",
+   "name": "Liverpool",
+   "region": "North West",
+   "lat": 53.4093,
+   "lng": -2.9785,
+   "places": [
+    "st-paul-s-eye-unit-royal-liverpool-university-hospital",
+    "spamedica-birkenhead-ch42-0lq",
+    "spamedica-liverpool-l7-9nn",
+    "spamedica-skelmersdale-wn8-8ap",
+    "spamedica-widnes-wa8-0rr"
+   ]
+  },
+  {
+   "id": "london",
+   "name": "London",
+   "region": "London",
+   "lat": 51.5074,
+   "lng": -0.1277,
+   "places": [
+    "moorfields-eye-hospital-city-road",
+    "western-eye-hospital",
+    "newmedica-slough-sl3-6ez",
+    "spamedica-bromley-br1-3wa",
+    "spamedica-croydon-cr0-2rd",
+    "spamedica-dalston-n1-4bz",
+    "spamedica-epsom-kt17-1bl",
+    "spamedica-romford-rm1-1tr",
+    "spamedica-wembley-ha9-0hp",
+    "london-eye-hospital-optegra-central-london-w1g-9ht",
+    "optegra-eye-hospital-north-london-nw9-6bx",
+    "optegra-eye-clinic-west-london-tw3-1el"
+   ]
+  },
+  {
+   "id": "manchester",
+   "name": "Manchester",
+   "region": "North West",
+   "lat": 53.4789,
+   "lng": -2.2453,
+   "places": [
+    "manchester-royal-eye-hospital",
+    "spamedica-manchester-m15-4sq",
+    "spamedica-oldham-ol1-2pd",
+    "spamedica-macclesfield-sk10-2xa",
+    "optegra-eye-hospital-manchester-m20-2ey"
+   ]
+  },
+  {
+   "id": "milton-keynes",
+   "name": "Milton Keynes",
+   "region": "South East",
+   "lat": 52.043,
+   "lng": -0.7541,
+   "places": [
+    "milton-keynes-university-hospital-eye-clinic",
+    "newmedica-northampton-nn3-6ja",
+    "spamedica-bedford-mk41-7ph"
+   ]
+  },
+  {
+   "id": "newcastle-upon-tyne",
+   "name": "Newcastle upon Tyne",
+   "region": "North East",
+   "lat": 54.978,
+   "lng": -1.6102,
+   "places": [
+    "newcastle-eye-centre-royal-victoria-infirmary",
+    "newmedica-newcastle-ne12-8ew",
+    "spamedica-gateshead-ne11-0xa",
+    "spamedica-north-tyneside-ne27-0qj",
+    "optegra-eye-clinic-newcastle-ne11-0be"
+   ]
+  },
+  {
+   "id": "norwich",
+   "name": "Norwich",
+   "region": "East of England",
+   "lat": 52.6289,
+   "lng": 1.2933,
+   "places": [
+    "norfolk-and-norwich-university-hospital-eye-department",
+    "newmedica-norwich-nr7-0wg",
+    "spamedica-norwich-nr4-6dj"
+   ]
+  },
+  {
+   "id": "nottingham",
+   "name": "Nottingham",
+   "region": "East Midlands",
+   "lat": 52.9562,
+   "lng": -1.1512,
+   "places": [
+    "queen-s-medical-centre-ophthalmology-eent-centre",
+    "newmedica-keyworth-ng12-5ju",
+    "newmedica-nottingham-ng2-1rt",
+    "optegra-eye-clinic-nottingham-ng11-7dd"
+   ]
+  },
+  {
+   "id": "oxford",
+   "name": "Oxford",
+   "region": "South East",
+   "lat": 51.752,
+   "lng": -1.2576,
+   "places": [
+    "oxford-eye-hospital-john-radcliffe-hospital",
+    "newmedica-oxfordshire-ox14-1tz",
+    "spamedica-oxford-ox29-8ln"
+   ]
+  },
+  {
+   "id": "peterborough",
+   "name": "Peterborough",
+   "region": "East of England",
+   "lat": 52.5725,
+   "lng": -0.2425,
+   "places": [
+    "peterborough-city-hospital",
+    "spamedica-peterborough-pe2-6ys"
+   ]
+  },
+  {
+   "id": "plymouth",
+   "name": "Plymouth",
+   "region": "South West",
+   "lat": 50.37,
+   "lng": -4.1421,
+   "places": [
+    "rei-eye-services-formerly-the-royal-eye-infirmary",
+    "newmedica-plymouth-pl6-5wr"
+   ]
+  },
+  {
+   "id": "portsmouth",
+   "name": "Portsmouth",
+   "region": "South East",
+   "lat": 50.7968,
+   "lng": -1.0912,
+   "places": [
+    "queen-alexandra-hospital-eye-department",
+    "spamedica-isle-of-wight-po30-5wb",
+    "spamedica-portsmouth-po6-4pr"
+   ]
+  },
+  {
+   "id": "preston",
+   "name": "Preston",
+   "region": "North West",
+   "lat": 53.7606,
+   "lng": -2.6985,
+   "places": [
+    "lancashire-eye-centre-ophthalmology",
+    "spamedica-preston-pr2-2yb",
+    "spamedica-blackpool-fy4-5pw",
+    "optegra-eye-clinic-preston-pr5-6la"
+   ]
+  },
+  {
+   "id": "ripon",
+   "name": "Ripon",
+   "region": "Yorkshire and the Humber",
+   "lat": 54.136,
+   "lng": -1.5234,
+   "places": [
+    "harrogate-district-hospital-ophthalmology",
+    "newmedica-harrogate-hg1-4dp"
+   ]
+  },
+  {
+   "id": "salford",
+   "name": "Salford",
+   "region": "North West",
+   "lat": 53.4806,
+   "lng": -2.295,
+   "places": [
+    "newmedica-manchester-m32-0qy",
+    "spamedica-bolton-bl1-1hu",
+    "spamedica-haydock-wa12-0jq",
+    "spamedica-sale-m33-2gs"
+   ],
+   "nearestHospital": {
+    "id": "manchester-royal-eye-hospital",
+    "city": "Manchester",
+    "km": 5
+   }
+  },
+  {
+   "id": "salisbury",
+   "name": "Salisbury",
+   "region": "South West",
+   "lat": 51.0704,
+   "lng": -1.7964,
+   "places": [
+    "salisbury-district-hospital-eye-clinic"
+   ]
+  },
+  {
+   "id": "sheffield",
+   "name": "Sheffield",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.3825,
+   "lng": -1.4685,
+   "places": [
+    "royal-hallamshire-hospital-ophthalmology",
+    "newmedica-barlborough-s43-4fr",
+    "spamedica-sheffield-s35-1qn",
+    "spamedica-chesterfield-s40-2wg",
+    "optegra-eye-clinic-sheffield-s9-2eh"
+   ]
+  },
+  {
+   "id": "southampton",
+   "name": "Southampton",
+   "region": "South East",
+   "lat": 50.9049,
+   "lng": -1.4043,
+   "places": [
+    "southampton-general-hospital-eye-unit",
+    "newmedica-hampshire-po15-7fj",
+    "spamedica-southampton-so50-9nw",
+    "optegra-eye-hospital-hampshire-po15-7ad"
+   ]
+  },
+  {
+   "id": "southend-on-sea",
+   "name": "Southend-on-Sea",
+   "region": "East of England",
+   "lat": 51.5401,
+   "lng": 0.7114,
+   "places": [
+    "southend-university-hospital-ophthalmology",
+    "spamedica-sittingbourne-me9-8lt"
+   ]
+  },
+  {
+   "id": "st-albans",
+   "name": "St Albans",
+   "region": "East of England",
+   "lat": 51.7523,
+   "lng": -0.3391,
+   "places": [
+    "newmedica-welwyn-garden-city-al7-1tw",
+    "spamedica-luton-lu1-3lu",
+    "spamedica-stevenage-sg1-2ng",
+    "spamedica-watford-wd24-4wh"
+   ],
+   "nearestHospital": {
+    "id": "western-eye-hospital",
+    "city": "London",
+    "km": 28
+   }
+  },
+  {
+   "id": "stoke-on-trent",
+   "name": "Stoke-on-Trent",
+   "region": "West Midlands",
+   "lat": 53.0222,
+   "lng": -2.1734,
+   "places": [
+    "royal-stoke-university-hospital-ophthalmology",
+    "spamedica-newcastle-under-lyme-st5-9qd"
+   ]
+  },
+  {
+   "id": "sunderland",
+   "name": "Sunderland",
+   "region": "North East",
+   "lat": 54.9022,
+   "lng": -1.3838,
+   "places": [
+    "sunderland-specialist-eye-hospital"
+   ]
+  },
+  {
+   "id": "truro",
+   "name": "Truro",
+   "region": "South West",
+   "lat": 50.2633,
+   "lng": -5.051,
+   "places": [
+    "royal-cornwall-hospital-eye-unit",
+    "spamedica-truro-tr1-1qh"
+   ]
+  },
+  {
+   "id": "wakefield",
+   "name": "Wakefield",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.6837,
+   "lng": -1.4982,
+   "places": [
+    "pinderfields-hospital-the-eye-centre",
+    "newmedica-wakefield-wf1-5nx",
+    "spamedica-wakefield-wf5-9tj"
+   ]
+  },
+  {
+   "id": "wells",
+   "name": "Wells",
+   "region": "South West",
+   "lat": 51.2086,
+   "lng": -2.6472,
+   "places": [
+    "musgrove-park-hospital-ophthalmology",
+    "newmedica-langford-bs40-5el"
+   ]
+  },
+  {
+   "id": "winchester",
+   "name": "Winchester",
+   "region": "South East",
+   "lat": 51.0618,
+   "lng": -1.311,
+   "places": [
+    "royal-hampshire-county-hospital-ophthalmology"
+   ]
+  },
+  {
+   "id": "wolverhampton",
+   "name": "Wolverhampton",
+   "region": "West Midlands",
+   "lat": 52.5862,
+   "lng": -2.1299,
+   "places": [
+    "eye-infirmary-ophthalmology-new-cross-hospital",
+    "spamedica-wolverhampton-wv9-5ha",
+    "spamedica-telford-tf3-4ly"
+   ]
+  },
+  {
+   "id": "worcester",
+   "name": "Worcester",
+   "region": "West Midlands",
+   "lat": 52.1929,
+   "lng": -2.2211,
+   "places": [
+    "worcestershire-royal-hospital-ophthalmology",
+    "newmedica-bromsgrove-b61-0ae",
+    "newmedica-worcester-wr4-9fa",
+    "spamedica-worcester-wr4-9fq"
+   ]
+  },
+  {
+   "id": "york",
+   "name": "York",
+   "region": "Yorkshire and the Humber",
+   "lat": 53.962,
+   "lng": -1.0837,
+   "places": [
+    "york-hospital-eye-department",
+    "optegra-eye-clinic-york-yo26-6rs"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "id": "royal-united-hospital-bath-eye-clinic",
+   "city": "Bath",
+   "kind": "hospital",
+   "name": "Royal United Hospital Bath — Eye Clinic",
+   "org": "Royal United Hospitals Bath NHS FT",
+   "address": "Combe Park, Bath, BA1 3NG",
+   "lat": 51.39166,
+   "lng": -2.39122,
+   "phones": [
+    {
+     "number": "01225 824602",
+     "note": "Eye Clinic"
+    },
+    {
+     "number": "01225 428331",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "ruh-tr.careersengage@nhs.net",
+     "label": "Careers engagement (work experience)"
+    }
+   ],
+   "web": "https://www.ruh.nhs.uk/finding/maps.asp",
+   "workExperience": "https://www.ruh.nhs.uk/careers/work_experience.asp?menu_id=5d",
+   "tip": "“Experience of the Workplace” is for Years 12–13 and college students in the catchment; theatres, critical care, ED, paediatrics and maternity are excluded."
+  },
+  {
+   "id": "bradford-royal-infirmary-ophthalmology",
+   "city": "Bradford",
+   "kind": "hospital",
+   "name": "Bradford Royal Infirmary — Ophthalmology",
+   "org": "Bradford Teaching Hospitals NHS FT",
+   "address": "Duckworth Lane, Bradford, BD9 6RJ",
+   "lat": 53.806,
+   "lng": -1.7947,
+   "phones": [
+    {
+     "number": "01274 274274",
+     "note": "Number on the NHS.uk listing"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.nhs.uk/services/hospital/bradford-royal-infirmary/X381/departments/SRV0070/ophthalmology",
+   "workExperience": null,
+   "tip": "The trust site couldn’t be read when this was checked, so details are from NHS.uk. Ask the switchboard for the eye department or the trust’s work experience team."
+  },
+  {
+   "id": "bradford-university-eye-clinic",
+   "city": "Bradford",
+   "kind": "hospital",
+   "name": "Bradford University Eye Clinic",
+   "org": "Bradford Teaching Hospitals NHS FT",
+   "address": "Forster Building, University of Bradford, Richmond Road, Bradford, BD7 1DP",
+   "lat": 53.79158,
+   "lng": -1.76377,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.nhs.uk/services/clinic/bradford-university-eye-clinic/RAE0M",
+   "workExperience": null,
+   "tip": "Hospital-run clinic on the university campus."
+  },
+  {
+   "id": "sussex-eye-hospital",
+   "city": "Brighton & Hove",
+   "kind": "hospital",
+   "name": "Sussex Eye Hospital",
+   "org": "University Hospitals Sussex NHS FT",
+   "address": "Eastern Road, Brighton, BN2 5BE",
+   "lat": 50.81946,
+   "lng": -0.11815,
+   "phones": [
+    {
+     "number": "01273 696955",
+     "note": "Hospital number"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.uhsussex.nhs.uk/hospitals/sussex-eye-hospital/",
+   "workExperience": "https://www.uhsussex.nhs.uk/patients-and-visitors/volunteer/",
+   "tip": "No work experience page was found; the trust’s volunteering page is the closest route."
+  },
+  {
+   "id": "bristol-eye-hospital",
+   "city": "Bristol",
+   "kind": "hospital",
+   "name": "Bristol Eye Hospital",
+   "org": "University Hospitals Bristol and Weston NHS FT",
+   "address": "Lower Maudlin Street, Bristol, BS1 2LX",
+   "lat": 51.45844,
+   "lng": -2.59455,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.nhs.uk/services/hospital/bristol-eye-hospital/X395",
+   "workExperience": null,
+   "tip": "The trust merged with North Bristol in 2026 and its pages were out of date when checked, so call the main hospital or check the trust site for the current work experience route."
+  },
+  {
+   "id": "cambridge-eye-unit-addenbrooke-s-hospital",
+   "city": "Cambridge",
+   "kind": "hospital",
+   "name": "Cambridge Eye Unit, Addenbrooke’s Hospital",
+   "org": "Cambridge University Hospitals NHS FT",
+   "address": "Level 1, Addenbrooke’s Hospital, Hills Road, Cambridge, CB2 0QQ",
+   "lat": 52.175,
+   "lng": 0.14065,
+   "phones": [
+    {
+     "number": "01223 805000",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.cuh.nhs.uk/our-services/cambridge-eye-unit/",
+   "workExperience": "https://careers.cuh.nhs.uk/where-could-i-work/work-experience/",
+   "tip": "CUH runs a work experience programme for students aged 14–19."
+  },
+  {
+   "id": "kent-and-canterbury-hospital-ophthalmology",
+   "city": "Canterbury",
+   "kind": "hospital",
+   "name": "Kent and Canterbury Hospital — Ophthalmology",
+   "org": "East Kent Hospitals University NHS FT",
+   "address": "Ethelbert Road, Canterbury, Kent, CT1 3NG",
+   "lat": 51.26659,
+   "lng": 1.08711,
+   "phones": [
+    {
+     "number": "01227 868686",
+     "note": "Outpatient appointments (new)"
+    },
+    {
+     "number": "01227 864332",
+     "note": "Follow-up bookings"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.ekhuft.nhs.uk/patients-and-visitors/services/ophthalmology-eye/",
+   "workExperience": null,
+   "tip": "No direct eye department line is published; ask the appointments team to pass a request to the department manager."
+  },
+  {
+   "id": "cumberland-infirmary-ophthalmology",
+   "city": "Carlisle",
+   "kind": "hospital",
+   "name": "Cumberland Infirmary — Ophthalmology",
+   "org": "North Cumbria Integrated Care NHS FT",
+   "address": "Newtown Road, Carlisle, Cumbria, CA2 7HY",
+   "lat": 54.8965,
+   "lng": -2.9578,
+   "phones": [
+    {
+     "number": "01228 523444",
+     "note": "Cumberland Infirmary"
+    },
+    {
+     "number": "01228 814476",
+     "note": "Consultants’ secretaries"
+    }
+   ],
+   "emails": [
+    {
+     "address": "learningdevelopment@ncic.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.ncic.nhs.uk/services/ophthalmology-eye-care",
+   "workExperience": "https://www.ncic.nhs.uk/careers/work-experience",
+   "tip": "The work experience page lists Ophthalmology at the Cumberland Infirmary. 1–2 day placements, 16+."
+  },
+  {
+   "id": "broomfield-hospital-eye-clinic",
+   "city": "Chelmsford",
+   "kind": "hospital",
+   "name": "Broomfield Hospital — Eye clinic",
+   "org": "Mid and South Essex NHS FT",
+   "address": "Court Road, Broomfield, Chelmsford, CM1 7ET",
+   "lat": 51.77466,
+   "lng": 0.46602,
+   "phones": [
+    {
+     "number": "0300 443 7833",
+     "note": "Ophthalmology"
+    },
+    {
+     "number": "0300 443 0001",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.mse.nhs.uk/ophthalmology-services",
+   "workExperience": "https://www.mse.nhs.uk/work-experience",
+   "tip": "Applications go through the trust’s Experience Hub (linked from the work experience page)."
+  },
+  {
+   "id": "southend-university-hospital-ophthalmology",
+   "city": "Southend-on-Sea",
+   "kind": "hospital",
+   "name": "Southend University Hospital — Ophthalmology",
+   "org": "Mid and South Essex NHS FT",
+   "address": "Prittlewell Chase, Westcliff-on-Sea, Essex, SS0 0RY",
+   "lat": 51.55384,
+   "lng": 0.68865,
+   "phones": [
+    {
+     "number": "0300 443 0105",
+     "note": "Ophthalmology appointments"
+    },
+    {
+     "number": "0300 443 0002",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.mse.nhs.uk/ophthalmology-services",
+   "workExperience": "https://www.mse.nhs.uk/work-experience",
+   "tip": "Same trust-wide work experience route as Broomfield."
+  },
+  {
+   "id": "countess-of-chester-hospital-westminster-eye-centre",
+   "city": "Chester",
+   "kind": "hospital",
+   "name": "Countess of Chester Hospital — Westminster Eye Centre",
+   "org": "Countess of Chester Hospital NHS FT",
+   "address": "Liverpool Road, Chester, CH2 1UL",
+   "lat": 53.20882,
+   "lng": -2.89789,
+   "phones": [
+    {
+     "number": "01244 366663",
+     "note": "Eye appointments"
+    },
+    {
+     "number": "01244 365000",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "coch.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.coch.nhs.uk/all-services/ophthalmology.aspx",
+   "workExperience": "https://www.coch.nhs.uk/working-with-us/work-experience.aspx",
+   "tip": "Ophthalmology isn’t on the standard work experience list, so ask whether the eye centre can host you."
+  },
+  {
+   "id": "colchester-hospital-eye-department",
+   "city": "Colchester",
+   "kind": "hospital",
+   "name": "Colchester Hospital — Eye department",
+   "org": "East Suffolk and North Essex NHS FT",
+   "address": "Primary Care Centre, Colchester Hospital, Turner Road, Colchester, CO4 5JL",
+   "lat": 51.91017,
+   "lng": 0.89924,
+   "phones": [
+    {
+     "number": "01206 746066",
+     "note": "Ophthalmology"
+    },
+    {
+     "number": "01206 747474",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.esneft.nhs.uk/service/eye-department/",
+   "workExperience": null,
+   "tip": "No work experience page was found on the trust site; call the department."
+  },
+  {
+   "id": "university-hospital-coventry-eye-unit",
+   "city": "Coventry",
+   "kind": "hospital",
+   "name": "University Hospital Coventry — Eye Unit",
+   "org": "University Hospitals Coventry and Warwickshire NHS Trust",
+   "address": "Clifford Bridge Road, Coventry, CV2 2DX",
+   "lat": 52.42123,
+   "lng": -1.4384,
+   "phones": [
+    {
+     "number": "0800 252060",
+     "note": "Number on the NHS.uk listing"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.nhs.uk/services/hospital/university-hospital-coventry/RKB01/departments/SRV0070/ophthalmology",
+   "workExperience": null,
+   "tip": "Purpose-built unit serving Coventry and Warwickshire. The trust site couldn’t be read when checked, so confirm details by phone."
+  },
+  {
+   "id": "royal-derby-hospital-ophthalmology",
+   "city": "Derby",
+   "kind": "hospital",
+   "name": "Royal Derby Hospital — Ophthalmology",
+   "org": "University Hospitals of Derby and Burton NHS FT",
+   "address": "Kings Treatment Centre (Level 2), Royal Derby Hospital, Uttoxeter Road, Derby, DE22 3NE",
+   "lat": 52.91042,
+   "lng": -1.51352,
+   "phones": [
+    {
+     "number": "01332 787002",
+     "note": "Ophthalmology outpatients"
+    },
+    {
+     "number": "01332 340131",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "uhdb.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.uhdb.nhs.uk/ophthalmology-eyes",
+   "workExperience": "https://www.uhdb.nhs.uk/work-experience",
+   "tip": "The trust paused work experience in 2025; email to check whether it has reopened."
+  },
+  {
+   "id": "doncaster-royal-infirmary-ophthalmology",
+   "city": "Doncaster",
+   "kind": "hospital",
+   "name": "Doncaster Royal Infirmary — Ophthalmology",
+   "org": "Doncaster and Bassetlaw Teaching Hospitals NHS FT",
+   "address": "Armthorpe Road, Doncaster, DN2 5LT",
+   "lat": 53.53081,
+   "lng": -1.10894,
+   "phones": [
+    {
+     "number": "01302 366666",
+     "note": "Hospital"
+    }
+   ],
+   "emails": [
+    {
+     "address": "dbth.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.dbth.nhs.uk/services/ophthalmology/",
+   "workExperience": "https://www.dbth.nhs.uk/education/work-experience-at-dbth/",
+   "tip": "Cohort placements by application form for people living in the Doncaster or Bassetlaw area; observational only."
+  },
+  {
+   "id": "university-hospital-of-north-durham-ophthalmology-clinics",
+   "city": "Durham",
+   "kind": "hospital",
+   "name": "University Hospital of North Durham — Ophthalmology clinics",
+   "org": "County Durham and Darlington NHS FT",
+   "address": "North Road, Durham, DH1 5TW",
+   "lat": 54.78851,
+   "lng": -1.59384,
+   "phones": [
+    {
+     "number": "0191 333 2333",
+     "note": "Main reception"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.cddft.nhs.uk/services/ophthalmology",
+   "workExperience": "https://www.cddft.nhs.uk/join-us/work-experience",
+   "tip": "Eye surgery is at Darlington Memorial; UHND runs outpatient clinics. The trust’s scheme is for ages 15–18 in school or college, by online form only."
+  },
+  {
+   "id": "west-of-england-eye-unit-rd-e-wonford",
+   "city": "Exeter",
+   "kind": "hospital",
+   "name": "West of England Eye Unit, RD&E Wonford",
+   "org": "Royal Devon University Healthcare NHS FT",
+   "address": "Barrack Road, Exeter, EX2 5DW",
+   "lat": 50.71669,
+   "lng": -3.50669,
+   "phones": [
+    {
+     "number": "01392 406922",
+     "note": "WEEU booking officer"
+    },
+    {
+     "number": "01392 411611",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "rduh.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.royaldevon.nhs.uk/services/ophthalmology/west-of-england-eye-unit-weeu/",
+   "workExperience": "https://www.royaldevon.nhs.uk/careers/training-and-development/work-experience-t-levels-and-supported-internships/",
+   "tip": "Clinical and non-clinical placements for 16+, up to four weeks."
+  },
+  {
+   "id": "gloucestershire-royal-hospital-ophthalmology-outpatients",
+   "city": "Gloucester",
+   "kind": "hospital",
+   "name": "Gloucestershire Royal Hospital — Ophthalmology Outpatients",
+   "org": "Gloucestershire Hospitals NHS FT",
+   "address": "First Floor Outpatients, Gloucestershire Royal Hospital, Gloucester, GL1 3NN",
+   "lat": 51.86639,
+   "lng": -2.23207,
+   "phones": [
+    {
+     "number": "0300 422 4500",
+     "note": "Eye bookings"
+    },
+    {
+     "number": "0300 422 3200",
+     "note": "Outpatients"
+    }
+   ],
+   "emails": [
+    {
+     "address": "glicb.workexp@nhs.net",
+     "label": "Virtual work experience"
+    }
+   ],
+   "web": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/ophthalmology/",
+   "workExperience": "https://careers.gloshospitals.nhs.uk/work-experience-at-ghft/",
+   "tip": "Eye surgery is at Cheltenham General. Open to people who live or study in Gloucestershire."
+  },
+  {
+   "id": "the-county-hospital-victoria-eye-unit",
+   "city": "Hereford",
+   "kind": "hospital",
+   "name": "The County Hospital — Victoria Eye Unit",
+   "org": "Wye Valley NHS Trust",
+   "address": "Stonebow Road, Hereford, HR1 2ER",
+   "lat": 52.05853,
+   "lng": -2.70778,
+   "phones": [
+    {
+     "number": "01432 355444 ext. 2926",
+     "note": "Eye outpatients (via switchboard)"
+    }
+   ],
+   "emails": [
+    {
+     "address": "workexperience@wvt.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.wyevalley.nhs.uk/visitors-and-patients/county-hospital-acute/a-z-departments/ophthalmology.aspx",
+   "workExperience": "https://www.wyevalley.nhs.uk/work-with-us/work-experience.aspx",
+   "tip": "Up to 75 hours of work experience offered."
+  },
+  {
+   "id": "eye-hospital-hull-royal-infirmary",
+   "city": "Hull",
+   "kind": "hospital",
+   "name": "Eye Hospital, Hull Royal Infirmary",
+   "org": "Hull University Teaching Hospitals NHS Trust",
+   "address": "Hull Royal Infirmary, Anlaby Road, Hull, HU3 2JZ",
+   "lat": 53.74413,
+   "lng": -0.35815,
+   "phones": [
+    {
+     "number": "01482 608788",
+     "note": "Eye appointments"
+    },
+    {
+     "number": "01482 816655",
+     "note": "Eye Clinic"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.hey.nhs.uk/ophthalmology/",
+   "workExperience": null,
+   "tip": "No work experience page found; ask via the trust’s careers site."
+  },
+  {
+   "id": "samuel-johnson-community-hospital-eye-clinics",
+   "city": "Lichfield",
+   "kind": "hospital",
+   "name": "Samuel Johnson Community Hospital — eye clinics",
+   "org": "University Hospitals of Derby and Burton NHS FT",
+   "address": "Trent Valley Road, Lichfield, WS13 6EF",
+   "lat": 52.68595,
+   "lng": -1.81546,
+   "phones": [
+    {
+     "number": "01543 412900",
+     "note": "Hospital"
+    }
+   ],
+   "emails": [
+    {
+     "address": "uhdb.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.uhdb.nhs.uk/ophthalmology-eyes",
+   "workExperience": "https://www.uhdb.nhs.uk/work-experience",
+   "tip": "Eye surgery for this area is at Queen’s Hospital Burton (01283 593200 for appointments)."
+  },
+  {
+   "id": "royal-lancaster-infirmary-ophthalmology",
+   "city": "Lancaster",
+   "kind": "hospital",
+   "name": "Royal Lancaster Infirmary — Ophthalmology",
+   "org": "University Hospitals of Morecambe Bay NHS FT",
+   "address": "Ashton Road, Lancaster, LA1 4RP",
+   "lat": 54.04274,
+   "lng": -2.79923,
+   "phones": [
+    {
+     "number": "01539 715800",
+     "note": "Ophthalmology outpatients (cross-bay)"
+    },
+    {
+     "number": "01524 65944",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "work.experience@mbht.nhs.uk",
+     "label": "Careers and Engagement Team"
+    }
+   ],
+   "web": "https://www.uhmb.nhs.uk/our-services/services/ophthalmology",
+   "workExperience": "https://www.uhmb.nhs.uk/get-involved/work-experience",
+   "tip": "Observation-only placements for 16+, usually 1–5 days."
+  },
+  {
+   "id": "st-james-s-university-hospital-eye-department",
+   "city": "Leeds",
+   "kind": "hospital",
+   "name": "St James’s University Hospital — Eye Department",
+   "org": "Leeds Teaching Hospitals NHS Trust",
+   "address": "Gledhow Wing (Level 4), Beckett Street, Leeds, LS9 7TF",
+   "lat": 53.80689,
+   "lng": -1.52036,
+   "phones": [
+    {
+     "number": "0113 243 2799",
+     "note": "Switchboard"
+    },
+    {
+     "number": "0113 518 1823",
+     "note": "Referral and booking"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.leedsth.nhs.uk/services/ophthalmology-eye-department/",
+   "workExperience": "https://www.leedsth.nhs.uk/careers/student-placements/",
+   "tip": "The trust says to contact the department directly about placements."
+  },
+  {
+   "id": "leicester-royal-infirmary-eye-department",
+   "city": "Leicester",
+   "kind": "hospital",
+   "name": "Leicester Royal Infirmary — Eye Department",
+   "org": "University Hospitals of Leicester NHS Trust",
+   "address": "Infirmary Square, Leicester, LE1 5WW",
+   "lat": 52.6268,
+   "lng": -1.13595,
+   "phones": [
+    {
+     "number": "0300 303 1573",
+     "note": "Switchboard"
+    },
+    {
+     "number": "0116 258 5277",
+     "note": "Orthoptics and children’s eye clinic"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.uhleicester.nhs.uk/services/ophthalmology/",
+   "workExperience": "https://www.uhleicester.nhs.uk/patients-visitors/get-involved/volunteering/",
+   "tip": "No work experience page found; volunteering is the listed route."
+  },
+  {
+   "id": "lincoln-county-hospital-ophthalmology",
+   "city": "Lincoln",
+   "kind": "hospital",
+   "name": "Lincoln County Hospital — Ophthalmology",
+   "org": "United Lincolnshire Teaching Hospitals NHS Trust",
+   "address": "Greetwell Road, Lincoln, LN2 5QY",
+   "lat": 53.2336,
+   "lng": -0.51963,
+   "phones": [
+    {
+     "number": "01522 512512",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.ulh.nhs.uk/services/ophthalmology/",
+   "workExperience": "https://www.ulh.nhs.uk/jobs/work-experience/",
+   "tip": "Lincolnshire NHS work experience runs through the Lincolnshire Talent Academy."
+  },
+  {
+   "id": "st-paul-s-eye-unit-royal-liverpool-university-hospital",
+   "city": "Liverpool",
+   "kind": "hospital",
+   "name": "St Paul’s Eye Unit, Royal Liverpool University Hospital",
+   "org": "Liverpool University Hospitals NHS FT",
+   "address": "Prescot Street, Liverpool, L7 8XP",
+   "lat": 53.40952,
+   "lng": -2.96481,
+   "phones": [
+    {
+     "number": "0151 706 3222",
+     "note": "Outpatients"
+    }
+   ],
+   "emails": [],
+   "web": "https://uhliverpool.nhs.uk/services/service-finder/st-pauls-eye-unit",
+   "workExperience": null,
+   "tip": "One of the largest eye units in the UK. The trust site blocked automated reading, so check its careers pages for work experience."
+  },
+  {
+   "id": "moorfields-eye-hospital-city-road",
+   "city": "London",
+   "kind": "hospital",
+   "name": "Moorfields Eye Hospital, City Road",
+   "org": "Moorfields Eye Hospital NHS FT",
+   "address": "162 City Road, London, EC1V 2PD",
+   "lat": 51.52725,
+   "lng": -0.08986,
+   "phones": [
+    {
+     "number": "020 7253 3411",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "Moorfields.friends@nhs.net",
+     "label": "Friends of Moorfields (volunteering)"
+    }
+   ],
+   "web": "https://www.moorfields.nhs.uk/for-patients",
+   "workExperience": null,
+   "tip": "No public work experience scheme; volunteering with Friends of Moorfields is a way in. City Road services are due to move to the new centre in Camden in 2027."
+  },
+  {
+   "id": "western-eye-hospital",
+   "city": "London",
+   "kind": "hospital",
+   "name": "Western Eye Hospital",
+   "org": "Imperial College Healthcare NHS Trust",
+   "address": "153–173 Marylebone Road, London, NW1 5QH",
+   "lat": 51.5207,
+   "lng": -0.16331,
+   "phones": [
+    {
+     "number": "020 3312 3209",
+     "note": "Ophthalmology clinics"
+    }
+   ],
+   "emails": [],
+   "web": "https://imperial.nhs.uk/our-services/ophthalmology/clinics",
+   "workExperience": null,
+   "tip": "The trust site blocked automated reading, so these details come from search results. Confirm before contacting."
+  },
+  {
+   "id": "manchester-royal-eye-hospital",
+   "city": "Manchester",
+   "kind": "hospital",
+   "name": "Manchester Royal Eye Hospital",
+   "org": "Manchester University NHS FT",
+   "address": "Oxford Road, Manchester, M13 9WL",
+   "lat": 53.46245,
+   "lng": -2.22771,
+   "phones": [
+    {
+     "number": "0161 276 5533",
+     "note": "Eye outpatients"
+    },
+    {
+     "number": "0161 276 1234",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "Work.Experience@mft.nhs.uk",
+     "label": "Work experience / shadowing"
+    },
+    {
+     "address": "Volunteer.services@mft.nhs.uk",
+     "label": "Volunteering"
+    }
+   ],
+   "web": "https://mft.nhs.uk/royal-eye/",
+   "workExperience": "https://mft.nhs.uk/get-involved/volunteer-with-us/",
+   "tip": "A specialist eye hospital, so expect plenty of interest; apply early."
+  },
+  {
+   "id": "milton-keynes-university-hospital-eye-clinic",
+   "city": "Milton Keynes",
+   "kind": "hospital",
+   "name": "Milton Keynes University Hospital — Eye Clinic",
+   "org": "Milton Keynes University Hospital NHS FT",
+   "address": "Community Diagnostics Centre, Lloyds Court, Central Milton Keynes, MK9 3AT",
+   "lat": 52.04521,
+   "lng": -0.75769,
+   "phones": [
+    {
+     "number": "01908 995526",
+     "note": "Eye Clinic"
+    },
+    {
+     "number": "01908 660033",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "workexperience@mkuh.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.mkuh.nhs.uk/eye-clinic",
+   "workExperience": "https://www.mkuh.nhs.uk/working-at-mkuh/apprenticeships-and-work-experience",
+   "tip": "Clinical placements 16+, 1–5 days, for people who live or study in Milton Keynes."
+  },
+  {
+   "id": "newcastle-eye-centre-royal-victoria-infirmary",
+   "city": "Newcastle upon Tyne",
+   "kind": "hospital",
+   "name": "Newcastle Eye Centre, Royal Victoria Infirmary",
+   "org": "Newcastle upon Tyne Hospitals NHS FT",
+   "address": "Claremont Wing, RVI, Queen Victoria Road, Newcastle upon Tyne, NE1 4LP",
+   "lat": 54.98022,
+   "lng": -1.61887,
+   "phones": [
+    {
+     "number": "0191 282 5905",
+     "note": "Eye outpatient appointments"
+    },
+    {
+     "number": "0191 233 6161",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "nuth.workexperiencequeries@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.newcastle-hospitals.nhs.uk/services/eye-department/",
+   "workExperience": "https://www.newcastle-hospitals.nhs.uk/about/working-for-us/work-experience/",
+   "tip": "Minimum age 16; the application window opens at set times."
+  },
+  {
+   "id": "norfolk-and-norwich-university-hospital-eye-department",
+   "city": "Norwich",
+   "kind": "hospital",
+   "name": "Norfolk and Norwich University Hospital — Eye Department",
+   "org": "Norfolk and Norwich University Hospitals NHS FT",
+   "address": "West Outpatients (Level 2), Colney Lane, Norwich, NR4 7UY",
+   "lat": 52.61757,
+   "lng": 1.2212,
+   "phones": [
+    {
+     "number": "01603 288632",
+     "note": "Eye Clinic"
+    },
+    {
+     "number": "01603 286286",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "skillsacademy@nnuh.nhs.uk",
+     "label": "Skills Academy (work experience)"
+    }
+   ],
+   "web": "https://www.nnuh.nhs.uk/departments/eye-department/",
+   "workExperience": "https://www.nnuh.nhs.uk/training-education/nnuh-skills-academy/work-experience/",
+   "tip": "Short application windows a few times a year; the next is 1–3 March 2027 for May–July placements."
+  },
+  {
+   "id": "queen-s-medical-centre-ophthalmology-eent-centre",
+   "city": "Nottingham",
+   "kind": "hospital",
+   "name": "Queen’s Medical Centre — Ophthalmology (EENT Centre)",
+   "org": "Nottingham University Hospitals NHS Trust",
+   "address": "Queen’s Medical Centre, Derby Road, Nottingham, NG7 2UH",
+   "lat": 52.94382,
+   "lng": -1.18595,
+   "phones": [
+    {
+     "number": "0115 924 9924",
+     "note": "Switchboard / eye outpatients"
+    }
+   ],
+   "emails": [
+    {
+     "address": "nuhnt.wideningparticipation@nhs.net",
+     "label": "Widening Participation team"
+    }
+   ],
+   "web": "https://www.nuh.nhs.uk/ophthalmology",
+   "workExperience": "https://www.nuh.nhs.uk/work-with-schools",
+   "tip": "Volunteering needs a six-month commitment; the Widening Participation team handles school and college links."
+  },
+  {
+   "id": "oxford-eye-hospital-john-radcliffe-hospital",
+   "city": "Oxford",
+   "kind": "hospital",
+   "name": "Oxford Eye Hospital, John Radcliffe Hospital",
+   "org": "Oxford University Hospitals NHS FT",
+   "address": "West Wing (Level LG1), Headley Way, Headington, Oxford, OX3 9DU",
+   "lat": 51.76387,
+   "lng": -1.21977,
+   "phones": [
+    {
+     "number": "01865 234567",
+     "note": "Ophthalmology appointment lines"
+    }
+   ],
+   "emails": [
+    {
+     "address": "ouh.workexperience@ouh.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.ouh.nhs.uk/eye-hospital/",
+   "workExperience": "https://www.ouh.nhs.uk/working-for-us/sectors/work-experience/",
+   "tip": "Three application windows a year; Summer 2027 opens in February 2027. Clinical shadowing from 16."
+  },
+  {
+   "id": "peterborough-city-hospital",
+   "city": "Peterborough",
+   "kind": "hospital",
+   "name": "Peterborough City Hospital",
+   "org": "North West Anglia NHS FT",
+   "address": "Edith Cavell Campus, Bretton Gate, Peterborough, PE3 9GZ",
+   "lat": 52.58394,
+   "lng": -0.27937,
+   "phones": [
+    {
+     "number": "01733 678000",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "nwangliaft.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.nwangliaft.nhs.uk/peterborough-city-hospital",
+   "workExperience": "https://www.nwangliaft.nhs.uk/work-experience",
+   "tip": "Four-day shadowing programme for 16–19s; ask about ophthalmology day cases."
+  },
+  {
+   "id": "rei-eye-services-formerly-the-royal-eye-infirmary",
+   "city": "Plymouth",
+   "kind": "hospital",
+   "name": "REI — Eye Services (formerly the Royal Eye Infirmary)",
+   "org": "University Hospitals Plymouth NHS Trust",
+   "address": "International Business Park, 3 Alpha Way, Plymouth, PL6 5ZF",
+   "lat": 50.41486,
+   "lng": -4.12256,
+   "phones": [
+    {
+     "number": "01752 439308",
+     "note": "REI appointments"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.plymouthhospitals.nhs.uk/rei",
+   "workExperience": "https://www.plymouthhospitals.nhs.uk/work-experience",
+   "tip": "You need a host department to agree first; ask the REI directly."
+  },
+  {
+   "id": "queen-alexandra-hospital-eye-department",
+   "city": "Portsmouth",
+   "kind": "hospital",
+   "name": "Queen Alexandra Hospital — Eye Department",
+   "org": "Portsmouth Hospitals University NHS Trust",
+   "address": "B Level, Southwick Hill, Portsmouth, PO6 3LY",
+   "lat": 50.85029,
+   "lng": -1.06992,
+   "phones": [
+    {
+     "number": "023 9228 6000 ext. 3808",
+     "note": "Eye outpatients"
+    }
+   ],
+   "emails": [
+    {
+     "address": "pho-tr.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.porthosp.nhs.uk/departments-and-services/eye-department",
+   "workExperience": "https://www.porthosp.nhs.uk/work-with-us/work-experience-phu",
+   "tip": "Termly application windows for people living in and around Portsmouth."
+  },
+  {
+   "id": "lancashire-eye-centre-ophthalmology",
+   "city": "Preston",
+   "kind": "hospital",
+   "name": "Lancashire Eye Centre (Ophthalmology)",
+   "org": "Lancashire Teaching Hospitals NHS FT",
+   "address": "Chorley and South Ribble Hospital, Preston Road, Chorley, PR7 1PP",
+   "lat": 53.66577,
+   "lng": -2.6366,
+   "phones": [
+    {
+     "number": "01257 245056",
+     "note": "Lancashire Eye Centre"
+    }
+   ],
+   "emails": [
+    {
+     "address": "volunteerservice@LTHTR.nhs.uk",
+     "label": "Volunteering"
+    }
+   ],
+   "web": "https://www.lancsteachinghospitals.nhs.uk/lancashire-eye-centre",
+   "workExperience": "https://www.lancsteachinghospitals.nhs.uk/volunteering-opportunities",
+   "tip": "The department also runs clinics at Royal Preston Hospital. No work experience page; volunteering reopens in 2027."
+  },
+  {
+   "id": "harrogate-district-hospital-ophthalmology",
+   "city": "Ripon",
+   "kind": "hospital",
+   "name": "Harrogate District Hospital — Ophthalmology",
+   "org": "Harrogate and District NHS FT",
+   "address": "Lancaster Park Road, Harrogate, HG2 7SX",
+   "lat": 53.99382,
+   "lng": -1.51758,
+   "phones": [
+    {
+     "number": "01423 553591",
+     "note": "Eye Clinic appointments"
+    },
+    {
+     "number": "01423 885959",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.hdft.nhs.uk/services/ophthalmology/",
+   "workExperience": "https://www.hdft.nhs.uk/careers/work-experience/",
+   "tip": "Ripon Community Hospital gets outreach eye clinics. Work experience is paused; the Career Enhancement Volunteering Pathway leads to shadowing."
+  },
+  {
+   "id": "salisbury-district-hospital-eye-clinic",
+   "city": "Salisbury",
+   "kind": "hospital",
+   "name": "Salisbury District Hospital — Eye Clinic",
+   "org": "Salisbury NHS FT",
+   "address": "Odstock Road, Salisbury, SP2 8BJ",
+   "lat": 51.04394,
+   "lng": -1.78981,
+   "phones": [
+    {
+     "number": "01722 345543",
+     "note": "Central booking"
+    },
+    {
+     "number": "01722 336262",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.salisbury.nhs.uk/wards-departments/departments/eye-clinic/",
+   "workExperience": null,
+   "tip": "No work experience page was found; contact the clinic directly."
+  },
+  {
+   "id": "royal-hallamshire-hospital-ophthalmology",
+   "city": "Sheffield",
+   "kind": "hospital",
+   "name": "Royal Hallamshire Hospital — Ophthalmology",
+   "org": "Sheffield Teaching Hospitals NHS FT",
+   "address": "A Floor, Glossop Road, Sheffield, S10 2JF",
+   "lat": 53.37837,
+   "lng": -1.49333,
+   "phones": [
+    {
+     "number": "0114 271 1645",
+     "note": "Ophthalmology (NHS.uk listing)"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.sth.nhs.uk/find-hospitals-and-services/royal-hallamshire-hospital/a-z-hospital-services2/ophthalmology-2/",
+   "workExperience": null,
+   "tip": "The trust site blocked automated reading; confirm the number before calling."
+  },
+  {
+   "id": "southampton-general-hospital-eye-unit",
+   "city": "Southampton",
+   "kind": "hospital",
+   "name": "Southampton General Hospital — Eye unit",
+   "org": "University Hospital Southampton NHS FT",
+   "address": "Tremona Road, Southampton, SO16 6YD",
+   "lat": 50.93301,
+   "lng": -1.4351,
+   "phones": [
+    {
+     "number": "023 8077 7222",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.uhs.nhs.uk/for-visitors/southampton-general-hospital",
+   "workExperience": null,
+   "tip": "Ask the switchboard for the eye unit manager."
+  },
+  {
+   "id": "royal-stoke-university-hospital-ophthalmology",
+   "city": "Stoke-on-Trent",
+   "kind": "hospital",
+   "name": "Royal Stoke University Hospital — Ophthalmology",
+   "org": "University Hospitals of North Midlands NHS Trust",
+   "address": "Main Building, Ground Floor, Newcastle Road, Stoke-on-Trent, ST4 6QG",
+   "lat": 53.00326,
+   "lng": -2.2118,
+   "phones": [
+    {
+     "number": "01782 676001",
+     "note": "Eye department"
+    },
+    {
+     "number": "01782 715444",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.uhnm.nhs.uk/hospitals-and-services/ophthalmology/",
+   "workExperience": "https://www.uhnm.nhs.uk/working-here/work-experience/",
+   "tip": "Work experience applications were closed when checked."
+  },
+  {
+   "id": "sunderland-specialist-eye-hospital",
+   "city": "Sunderland",
+   "kind": "hospital",
+   "name": "Sunderland Specialist Eye Hospital",
+   "org": "South Tyneside and Sunderland NHS FT",
+   "address": "Plater Way, Sunderland, SR1 3AE",
+   "lat": 54.9079,
+   "lng": -1.38947,
+   "phones": [
+    {
+     "number": "0191 524 4900",
+     "note": "General enquiries and appointments"
+    }
+   ],
+   "emails": [
+    {
+     "address": "stsft.volunteer@nhs.net",
+     "label": "Volunteering"
+    }
+   ],
+   "web": "https://www.stsft.nhs.uk/our-locations/our-locations/sunderlands-new-eye-hospital",
+   "workExperience": "https://stsft.nhs.uk/get-involved/volunteer-us/volunteer",
+   "tip": "A new specialist eye hospital replacing Sunderland Eye Infirmary."
+  },
+  {
+   "id": "royal-cornwall-hospital-eye-unit",
+   "city": "Truro",
+   "kind": "hospital",
+   "name": "Royal Cornwall Hospital — Eye Unit",
+   "org": "Royal Cornwall Hospitals NHS Trust",
+   "address": "Tower Block (ground floor), Treliske, Truro, TR1 3LJ",
+   "lat": 50.26667,
+   "lng": -5.09151,
+   "phones": [
+    {
+     "number": "01872 252272",
+     "note": "Eye service"
+    },
+    {
+     "number": "01872 250000",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://royalcornwallhospitals.nhs.uk/services/ophthalmology/",
+   "workExperience": null,
+   "tip": "No work experience page found; contact the eye unit."
+  },
+  {
+   "id": "pinderfields-hospital-the-eye-centre",
+   "city": "Wakefield",
+   "kind": "hospital",
+   "name": "Pinderfields Hospital — The Eye Centre",
+   "org": "Mid Yorkshire Teaching NHS Trust",
+   "address": "Aberford Road, Wakefield, WF1 4DG",
+   "lat": 53.69243,
+   "lng": -1.48856,
+   "phones": [
+    {
+     "number": "01924 541000",
+     "note": "Ophthalmology / switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "midyorks.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.midyorks.nhs.uk/ophthalmology",
+   "workExperience": "https://www.midyorks.nhs.uk/work-experience",
+   "tip": "For 15–19s at school or college in Wakefield or North Kirklees."
+  },
+  {
+   "id": "musgrove-park-hospital-ophthalmology",
+   "city": "Wells",
+   "kind": "hospital",
+   "name": "Musgrove Park Hospital — Ophthalmology",
+   "org": "Somerset NHS FT",
+   "address": "Parkfield Drive, Taunton, TA1 5DA",
+   "lat": 51.01157,
+   "lng": -3.1217,
+   "phones": [
+    {
+     "number": "01823 342750",
+     "note": "Ophthalmology appointments"
+    }
+   ],
+   "emails": [
+    {
+     "address": "Work.Experience@SomersetFT.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.somersetft.nhs.uk/ophthalmology-eyes/",
+   "workExperience": "https://www.somersetft.nhs.uk/recruitment/work-experience-and-career-engagement/work-experience/",
+   "tip": "Wells has no hospital eye department; this is Somerset’s main eye service (Yeovil Hospital also runs clinics)."
+  },
+  {
+   "id": "royal-hampshire-county-hospital-ophthalmology",
+   "city": "Winchester",
+   "kind": "hospital",
+   "name": "Royal Hampshire County Hospital — Ophthalmology",
+   "org": "Hampshire Hospitals NHS FT",
+   "address": "Romsey Road, Winchester, SO22 5DG",
+   "lat": 51.0617,
+   "lng": -1.32916,
+   "phones": [
+    {
+     "number": "01962 824143",
+     "note": "Eye department"
+    },
+    {
+     "number": "01962 863535",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "WorkExperience@hhft.nhs.uk",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.hampshirehospitals.nhs.uk/our-services/az-departments-and-specialties/ophthalmology-eyes",
+   "workExperience": "https://www.hampshirehospitals.nhs.uk/get-involved/volunteers",
+   "tip": null
+  },
+  {
+   "id": "eye-infirmary-ophthalmology-new-cross-hospital",
+   "city": "Wolverhampton",
+   "kind": "hospital",
+   "name": "Eye Infirmary (Ophthalmology), New Cross Hospital",
+   "org": "The Royal Wolverhampton NHS Trust",
+   "address": "Wolverhampton Road, Wolverhampton, WV10 0QP",
+   "lat": 52.59974,
+   "lng": -2.09555,
+   "phones": [
+    {
+     "number": "01902 307999",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "rwh-tr.nhsfutures@nhs.net",
+     "label": "NHS Futures (work experience)"
+    }
+   ],
+   "web": "https://royalwolverhampton.nhs.uk/service/eye-infirmary-ophthalmology/",
+   "workExperience": "https://royalwolverhampton.nhs.uk/work-with-us/starting-your-career/work-experience/",
+   "tip": "“Explore” observational placements for 16+, 1–5 days."
+  },
+  {
+   "id": "worcestershire-royal-hospital-ophthalmology",
+   "city": "Worcester",
+   "kind": "hospital",
+   "name": "Worcestershire Royal Hospital — Ophthalmology",
+   "org": "Worcestershire Acute Hospitals NHS Trust",
+   "address": "Charles Hastings Way, Worcester, WR5 1DD",
+   "lat": 52.1912,
+   "lng": -2.18115,
+   "phones": [
+    {
+     "number": "01905 760422",
+     "note": "Eye outpatients"
+    },
+    {
+     "number": "01905 763333",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [
+    {
+     "address": "wah-tr.workexperience@nhs.net",
+     "label": "Work experience"
+    }
+   ],
+   "web": "https://www.worcsacute.nhs.uk/ophthalmology/",
+   "workExperience": "https://www.worcsacute.nhs.uk/work-with-us/early-careers/work-experience/",
+   "tip": "Placements run June–August; applications 2 January to 28 February."
+  },
+  {
+   "id": "york-hospital-eye-department",
+   "city": "York",
+   "kind": "hospital",
+   "name": "York Hospital — Eye Department",
+   "org": "York and Scarborough Teaching Hospitals NHS FT",
+   "address": "Wigginton Road, York, YO31 8HE",
+   "lat": 53.96897,
+   "lng": -1.08429,
+   "phones": [
+    {
+     "number": "01904 726272",
+     "note": "Eye appointments"
+    },
+    {
+     "number": "01904 631313",
+     "note": "Switchboard"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.yorkhospitals.nhs.uk/our-services/organdonation/a-z-of-services/eye-department-ophthalmology/",
+   "workExperience": "https://www.yorkhospitals.nhs.uk/work-with-us/work-experience/schools-colleges-and-sixth-forms/",
+   "tip": "Taster days and shadowing for 16+; apply through the trust’s online form."
+  },
+  {
+   "id": "newmedica-barlborough-s43-4fr",
+   "city": "Sheffield",
+   "kind": "surgical",
+   "name": "Newmedica Barlborough",
+   "org": "Newmedica",
+   "address": "Unit 1B and 1C Midland Place, Barlborough Links, Chesterfield, S43 4FR, S43 4FR",
+   "lat": 53.282,
+   "lng": -1.29235,
+   "phones": [
+    {
+     "number": "01246 739005",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/barlborough/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-bradford-and-huddersfield-bd19-6bw",
+   "city": "Bradford",
+   "kind": "surgical",
+   "name": "Newmedica Bradford and Huddersfield",
+   "org": "Newmedica",
+   "address": "Park House, Woodland Park, Bradford Road, Cleckheaton, West Yorkshire, BD19 6BW, BD19 6BW",
+   "lat": 53.73934,
+   "lng": -1.73189,
+   "phones": [
+    {
+     "number": "01274 940 519",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/bradford-huddersfield/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-brigg-dn20-8as",
+   "city": "Hull",
+   "kind": "surgical",
+   "name": "Newmedica Brigg",
+   "org": "Newmedica",
+   "address": "Riverside Surgery, Barnard Avenue, Brigg, DN20 8AS, DN20 8AS",
+   "lat": 53.5536,
+   "lng": -0.49183,
+   "phones": [
+    {
+     "number": "01472 806806",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/brigg/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-bristol-aztec-west-bs32-4ud",
+   "city": "Bristol",
+   "kind": "surgical",
+   "name": "Newmedica Bristol - Aztec West",
+   "org": "Newmedica",
+   "address": "Building 720, Waterside Drive, Aztec West, Almondsbury, Bristol, BS32 4UD, BS32 4UD",
+   "lat": 51.53881,
+   "lng": -2.57402,
+   "phones": [
+    {
+     "number": "0117 335 0160",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/bristol-aztec-west/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-bristol-litfield-house-bs8-3ls",
+   "city": "Bristol",
+   "kind": "surgical",
+   "name": "Newmedica Bristol - Litfield House",
+   "org": "Newmedica",
+   "address": "Litfield House Medical Centre, 1 Litfield Place, Clifton Down, Bristol, BS8 3LS, BS8 3LS",
+   "lat": 51.45776,
+   "lng": -2.6231,
+   "phones": [
+    {
+     "number": "0117 335 0160",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/bristol-litfield/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-bromsgrove-b61-0ae",
+   "city": "Worcester",
+   "kind": "surgical",
+   "name": "Newmedica Bromsgrove",
+   "org": "Newmedica",
+   "address": "BHI Parkside, Stourbridge Road, Bromsgrove, Worcestershire, B61 0AE, B61 0AE",
+   "lat": 52.33964,
+   "lng": -2.05845,
+   "phones": [
+    {
+     "number": "01905 671637",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/bromsgrove/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-cheshire-oaks-ch2-4hy",
+   "city": "Chester",
+   "kind": "surgical",
+   "name": "Newmedica Cheshire Oaks",
+   "org": "Newmedica",
+   "address": "Units 3-4, The Oaks Office Park, Ellesmere Port, Cheshire, CH2 4HY, CH2 4HY",
+   "lat": 53.26425,
+   "lng": -2.87449,
+   "phones": [
+    {
+     "number": "0151 332 9657",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/cheshire-oaks/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-darlington-dl1-5lw",
+   "city": "Durham",
+   "kind": "surgical",
+   "name": "Newmedica Darlington",
+   "org": "Newmedica",
+   "address": "Park Place Health Centre, Park Place, Darlington DL1 5LW, DL1 5LW",
+   "lat": 54.52328,
+   "lng": -1.54862,
+   "phones": [
+    {
+     "number": "01642 087614",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/darlington/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-derby-de24-8rf",
+   "city": "Derby",
+   "kind": "surgical",
+   "name": "Newmedica Derby",
+   "org": "Newmedica",
+   "address": "3 Centro Place, Pride Park, Derby, DE24 8RF, DE24 8RF",
+   "lat": 52.91279,
+   "lng": -1.45415,
+   "phones": [
+    {
+     "number": "01332 980 005",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/derby/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-exeter-ex2-8nl",
+   "city": "Exeter",
+   "kind": "surgical",
+   "name": "Newmedica Exeter",
+   "org": "Newmedica",
+   "address": "The Medical Eye Clinic, Sigford Road, Matford Park, Exeter, EX2 8NL, EX2 8NL",
+   "lat": 50.69683,
+   "lng": -3.51751,
+   "phones": [
+    {
+     "number": "01392 797717",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/exeter/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-gloucester-aspen-gl1-3px",
+   "city": "Gloucester",
+   "kind": "surgical",
+   "name": "Newmedica Gloucester - Aspen",
+   "org": "Newmedica",
+   "address": "Aspen Medical Centre, Horton Road, Gloucester, GL1 3PX, GL1 3PX",
+   "lat": 51.86598,
+   "lng": -2.22579,
+   "phones": [
+    {
+     "number": "01452 223334",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/gloucester-aspen/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-gloucester-brighouse-gl4-3rt",
+   "city": "Gloucester",
+   "kind": "surgical",
+   "name": "Newmedica Gloucester - Brighouse",
+   "org": "Newmedica",
+   "address": "19D Brighouse Court, Barnwood, Gloucester, GL4 3RT, GL4 3RT",
+   "lat": 51.86423,
+   "lng": -2.20285,
+   "phones": [
+    {
+     "number": "01452 223334",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/gloucester-brighouse/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-grimsby-dn31-2bh",
+   "city": "Hull",
+   "kind": "surgical",
+   "name": "Newmedica Grimsby",
+   "org": "Newmedica",
+   "address": "Cromwell Primary Care Centre, 1st Floor, Cromwell Road, Grimsby, DN31 2BH, DN31 2BH",
+   "lat": 53.56784,
+   "lng": -0.10881,
+   "phones": [
+    {
+     "number": "01472 806806",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/grimsby/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-hampshire-po15-7fj",
+   "city": "Southampton",
+   "kind": "surgical",
+   "name": "Newmedica Hampshire",
+   "org": "Newmedica",
+   "address": "St Andrew's House, 4400 Parkway, Solent Business Park, Whiteley, PO15 7FJ, PO15 7FJ",
+   "lat": 50.87928,
+   "lng": -1.23845,
+   "phones": [
+    {
+     "number": "01489 357465",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/hampshire/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-harrogate-hg1-4dp",
+   "city": "Ripon",
+   "kind": "surgical",
+   "name": "Newmedica Harrogate",
+   "org": "Newmedica",
+   "address": "2 Grove Park Court, Harrogate, HG1 4DP, HG1 4DP",
+   "lat": 54.00071,
+   "lng": -1.52995,
+   "phones": [
+    {
+     "number": "01423 223219",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/harrogate/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-ipswich-ip2-0ee",
+   "city": "Colchester",
+   "kind": "surgical",
+   "name": "Newmedica Ipswich",
+   "org": "Newmedica",
+   "address": "London House, Hadleigh Road, Ipswich, IP2 0EE, IP2 0EE",
+   "lat": 52.05784,
+   "lng": 1.13217,
+   "phones": [
+    {
+     "number": "01473 453463",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/ipswich/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-keyworth-ng12-5ju",
+   "city": "Nottingham",
+   "kind": "surgical",
+   "name": "Newmedica Keyworth",
+   "org": "Newmedica",
+   "address": "Village Health Group, Bunny Lane, Keyworth, Nottingham, NG12 5JU, NG12 5JU",
+   "lat": 52.87148,
+   "lng": -1.09341,
+   "phones": [
+    {
+     "number": "01157 733815",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/keyworth/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-langford-bs40-5el",
+   "city": "Wells",
+   "kind": "surgical",
+   "name": "Newmedica Langford",
+   "org": "Newmedica",
+   "address": "Mendip Vale Medical Centre, Pudding Pie Lane, Langford, BS40 5EL, BS40 5EL",
+   "lat": 51.34149,
+   "lng": -2.7859,
+   "phones": [
+    {
+     "number": "0117 335 0160",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/langford/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-leeds-ls7-4hz",
+   "city": "Leeds",
+   "kind": "surgical",
+   "name": "Newmedica Leeds",
+   "org": "Newmedica",
+   "address": "St Martins House, 210 Chapeltown Road, Leeds, LS7 4HZ, LS7 4HZ",
+   "lat": 53.82213,
+   "lng": -1.53214,
+   "phones": [
+    {
+     "number": "01132 621613",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/leeds/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-leicester-le19-1sj",
+   "city": "Leicester",
+   "kind": "surgical",
+   "name": "Newmedica Leicester",
+   "org": "Newmedica",
+   "address": "Grove Park, 1 Barton Close, Leicester, LE19 1SJ, LE19 1SJ",
+   "lat": 52.59663,
+   "lng": -1.18961,
+   "phones": [
+    {
+     "number": "0116 216 3737",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/leicester/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-lincoln-ln6-9ba",
+   "city": "Lincoln",
+   "kind": "surgical",
+   "name": "Newmedica Lincoln",
+   "org": "Newmedica",
+   "address": "North Hykeham Health Centre, Moor Lane, North Hykeham, Lincoln, LN6 9BA, LN6 9BA",
+   "lat": 53.18737,
+   "lng": -0.59646,
+   "phones": [
+    {
+     "number": "01472 806806",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/lincoln/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-manchester-m32-0qy",
+   "city": "Salford",
+   "kind": "surgical",
+   "name": "Newmedica Manchester",
+   "org": "Newmedica",
+   "address": "Unit 27 Cobra Court, 2 Blackmore Road, Manchester, M32 0QY, M32 0QY",
+   "lat": 53.46053,
+   "lng": -2.32326,
+   "phones": [
+    {
+     "number": "0161 507 1957",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/manchester/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-newcastle-ne12-8ew",
+   "city": "Newcastle upon Tyne",
+   "kind": "surgical",
+   "name": "Newmedica Newcastle",
+   "org": "Newmedica",
+   "address": "Hadrian House, Balliol Business Park, Newcastle Upon Tyne, NE12 8EW, NE12 8EW",
+   "lat": 55.01995,
+   "lng": -1.58879,
+   "phones": [
+    {
+     "number": "0191 4060781",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/newcastle/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-northampton-nn3-6ja",
+   "city": "Milton Keynes",
+   "kind": "surgical",
+   "name": "Newmedica Northampton",
+   "org": "Newmedica",
+   "address": "Unit 2 Westbury Court, Anglia Way, Moulton Park, Northampton, NN3 6JA, NN3 6JA",
+   "lat": 52.27425,
+   "lng": -0.87397,
+   "phones": [
+    {
+     "number": "01604 215232",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/northampton/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-norwich-nr7-0wg",
+   "city": "Norwich",
+   "kind": "surgical",
+   "name": "Newmedica Norwich",
+   "org": "Newmedica",
+   "address": "Lakeside 200, Old Chapel Way, Broadland Business Park, Norwich, NR7 0WG, NR7 0WG",
+   "lat": 52.62938,
+   "lng": 1.37178,
+   "phones": [
+    {
+     "number": "01603 957020",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/norwich/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-nottingham-ng2-1rt",
+   "city": "Nottingham",
+   "kind": "surgical",
+   "name": "Newmedica Nottingham",
+   "org": "Newmedica",
+   "address": "Tottle Road, Riverside Business Park, Nottingham, NG2 1RT, NG2 1RT",
+   "lat": 52.93488,
+   "lng": -1.16483,
+   "phones": [
+    {
+     "number": "01157 733815",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/nottingham/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-nuneaton-cv10-9eb",
+   "city": "Coventry",
+   "kind": "surgical",
+   "name": "Newmedica Nuneaton",
+   "org": "Newmedica",
+   "address": "GP Led Health Centre, Ramsden Avenue, Camp Hill, Nuneaton, CV10 9EB, CV10 9EB",
+   "lat": 52.53305,
+   "lng": -1.50695,
+   "phones": [
+    {
+     "number": "01926 403319",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/nuneaton/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-oxfordshire-ox14-1tz",
+   "city": "Oxford",
+   "kind": "surgical",
+   "name": "Newmedica Oxfordshire",
+   "org": "Newmedica",
+   "address": "Avalon House, Marcham Road, Abingdon, OX14 1TZ, OX14 1TZ",
+   "lat": 51.66826,
+   "lng": -1.30491,
+   "phones": [
+    {
+     "number": "01865 410435",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/oxfordshire/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-plymouth-pl6-5wr",
+   "city": "Plymouth",
+   "kind": "surgical",
+   "name": "Newmedica Plymouth",
+   "org": "Newmedica",
+   "address": "Forder House, 20 William Prance Road, Derriford, Plymouth, PL6 5WR, PL6 5WR",
+   "lat": 50.41127,
+   "lng": -4.12024,
+   "phones": [
+    {
+     "number": "01752 421622",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/plymouth/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-slough-sl3-6ez",
+   "city": "London",
+   "kind": "surgical",
+   "name": "Newmedica Slough",
+   "org": "Newmedica",
+   "address": "Buckland House, Langley Business Park, 10 Waterside Drive, Langley, Slough, Berkshire, SL3 6EZ, SL3 6EZ",
+   "lat": 51.50851,
+   "lng": -0.54587,
+   "phones": [
+    {
+     "number": "01753 291 086",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/slough/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-wakefield-wf1-5nx",
+   "city": "Wakefield",
+   "kind": "surgical",
+   "name": "Newmedica Wakefield",
+   "org": "Newmedica",
+   "address": "106 Barnsley Road, Wakefield, WF1 5NX, WF1 5NX",
+   "lat": 53.66613,
+   "lng": -1.48679,
+   "phones": [
+    {
+     "number": "01924 252662",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/wakefield/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-welwyn-garden-city-al7-1tw",
+   "city": "St Albans",
+   "kind": "surgical",
+   "name": "Newmedica Welwyn Garden City",
+   "org": "Newmedica",
+   "address": "3 Falcon Gate, Shire Park, Welwyn Garden City, Hertfordshire, AL7 1TW, AL7 1TW",
+   "lat": 51.80692,
+   "lng": -0.19798,
+   "phones": [
+    {
+     "number": "01707 242038",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/welwyn-garden-city/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-worcester-wr4-9fa",
+   "city": "Worcester",
+   "kind": "surgical",
+   "name": "Newmedica Worcester",
+   "org": "Newmedica",
+   "address": "Unit 5, Berkeley Business Park, Wainwright Road, Worcester, WR4 9FA, WR4 9FA",
+   "lat": 52.21312,
+   "lng": -2.17195,
+   "phones": [
+    {
+     "number": "01905 671637",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/worcester/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "newmedica-worksop-s80-2pu",
+   "city": "Doncaster",
+   "kind": "surgical",
+   "name": "Newmedica Worksop",
+   "org": "Newmedica",
+   "address": "The Dukeries, 31-33 Retford Road, Worksop, S80 2PU, S80 2PU",
+   "lat": 53.3026,
+   "lng": -1.10391,
+   "phones": [
+    {
+     "number": "01246 739005",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.newmedica.co.uk/clinics/worksop/",
+   "workExperience": null,
+   "tip": "NHS cataract, glaucoma and AMD clinics run with optometrists. Ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-birkenhead-ch42-0lq",
+   "city": "Liverpool",
+   "kind": "surgical",
+   "name": "SpaMedica Birkenhead",
+   "org": "SpaMedica",
+   "address": "St Catherines Health Centre, Church Road, Birkenhead, CH42 0LQ",
+   "lat": 53.38005,
+   "lng": -3.02653,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/wirral/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-bolton-bl1-1hu",
+   "city": "Salford",
+   "kind": "surgical",
+   "name": "SpaMedica Bolton",
+   "org": "SpaMedica",
+   "address": "43 Churchgate, Bolton, BL1 1HU",
+   "lat": 53.57995,
+   "lng": -2.42582,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/bolton/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-bradford-bd5-8hb",
+   "city": "Bradford",
+   "kind": "surgical",
+   "name": "SpaMedica Bradford",
+   "org": "SpaMedica",
+   "address": "Standard House, 11 Trevor Foster Way, Bradford, BD5 8HB",
+   "lat": 53.77031,
+   "lng": -1.74839,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/bradford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-gateshead-ne11-0xa",
+   "city": "Newcastle upon Tyne",
+   "kind": "surgical",
+   "name": "SpaMedica Gateshead",
+   "org": "SpaMedica",
+   "address": "Ground Floor The Edge, Fifth Avenue, Team Valley, Gateshead, NE11 0XA",
+   "lat": 54.93356,
+   "lng": -1.61569,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/gateshead/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-hull-hu10-6fe",
+   "city": "Hull",
+   "kind": "surgical",
+   "name": "SpaMedica Hull",
+   "org": "SpaMedica",
+   "address": "Building B, Willerby Court, Willerby Hill Business Park, Hull, HU10 6FE",
+   "lat": 53.77107,
+   "lng": -0.44731,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/hull/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-kendal-la9-7rl",
+   "city": "Lancaster",
+   "kind": "surgical",
+   "name": "SpaMedica Kendal",
+   "org": "SpaMedica",
+   "address": "Juniper House, Murley Moss Business Park, Oxenholme Road, Kendal, LA9 7RL",
+   "lat": 54.31112,
+   "lng": -2.73548,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/kendal/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-liverpool-l7-9nn",
+   "city": "Liverpool",
+   "kind": "surgical",
+   "name": "SpaMedica Liverpool",
+   "org": "SpaMedica",
+   "address": "Rathbone Building, Liverpool Innovation Park, 360 Edge Lane, Liverpool, L7 9NN",
+   "lat": 53.40899,
+   "lng": -2.92979,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/liverpool/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-manchester-m15-4sq",
+   "city": "Manchester",
+   "kind": "surgical",
+   "name": "SpaMedica Manchester",
+   "org": "SpaMedica",
+   "address": "Citygate Central, Blantyre Street, Manchester, M15 4SQ",
+   "lat": 53.47275,
+   "lng": -2.25814,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/manchester/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-newcastle-under-lyme-st5-9qd",
+   "city": "Stoke-on-Trent",
+   "kind": "surgical",
+   "name": "SpaMedica Newcastle-under-Lyme",
+   "org": "SpaMedica",
+   "address": "Osprey House, Brymbo Road, Newcastle-under-Lyme, ST5 9QD",
+   "lat": 53.02875,
+   "lng": -2.24392,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/newcastle-under-lyme/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-preston-pr2-2yb",
+   "city": "Preston",
+   "kind": "surgical",
+   "name": "SpaMedica Preston",
+   "org": "SpaMedica",
+   "address": "Number 3, Albert Edward House, The Pavilions, Preston, PR2 2YB",
+   "lat": 53.75973,
+   "lng": -2.72419,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/preston/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-sheffield-s35-1qn",
+   "city": "Sheffield",
+   "kind": "surgical",
+   "name": "SpaMedica Sheffield",
+   "org": "SpaMedica",
+   "address": "6 Smithy Wood Drive, Chapeltown, Sheffield, S35 1QN",
+   "lat": 53.45372,
+   "lng": -1.45601,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/sheffield/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-skelmersdale-wn8-8ap",
+   "city": "Liverpool",
+   "kind": "surgical",
+   "name": "SpaMedica Skelmersdale",
+   "org": "SpaMedica",
+   "address": "Unit B, High Street, Westgate, Skelmersdale, WN8 8AP",
+   "lat": 53.54719,
+   "lng": -2.8009,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/skelmersdale/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-wakefield-wf5-9tj",
+   "city": "Wakefield",
+   "kind": "surgical",
+   "name": "SpaMedica Wakefield",
+   "org": "SpaMedica",
+   "address": "10 Silkwood Park, Ossett, Wakefield, WF5 9TJ",
+   "lat": 53.68286,
+   "lng": -1.54819,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/Wakefield/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-widnes-wa8-0rr",
+   "city": "Liverpool",
+   "kind": "surgical",
+   "name": "SpaMedica Widnes",
+   "org": "SpaMedica",
+   "address": "Teal House, Tan House Lane, Widnes, Cheshire, WA8 0RR",
+   "lat": 53.366,
+   "lng": -2.71329,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/widnes/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-oldham-ol1-2pd",
+   "city": "Manchester",
+   "kind": "surgical",
+   "name": "SpaMedica Oldham",
+   "org": "SpaMedica",
+   "address": "1st Floor, 48 Sheepfoot Lane, Oldham, OL1 2PD",
+   "lat": 53.5545,
+   "lng": -2.12231,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/oldham/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-leeds-ls15-8zb",
+   "city": "Leeds",
+   "kind": "surgical",
+   "name": "SpaMedica Leeds",
+   "org": "SpaMedica",
+   "address": "Part First Floor, 1175 Century Way, Thorpe Park, Leeds, LS15 8ZB",
+   "lat": 53.79684,
+   "lng": -1.42644,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/leeds/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-doncaster-dn4-8qg",
+   "city": "Doncaster",
+   "kind": "surgical",
+   "name": "SpaMedica Doncaster",
+   "org": "SpaMedica",
+   "address": "Block A, Loversall Court, Tickhill Road, Balby, Doncaster, DN4 8QG",
+   "lat": 53.49802,
+   "lng": -1.1525,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/doncaster/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-blackpool-fy4-5pw",
+   "city": "Preston",
+   "kind": "surgical",
+   "name": "SpaMedica Blackpool",
+   "org": "SpaMedica",
+   "address": "Barons Gate, Graceways, Whitehills Business Park, Blackpool, FY4 5PW",
+   "lat": 53.78659,
+   "lng": -2.98921,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/blackpool/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-north-tyneside-ne27-0qj",
+   "city": "Newcastle upon Tyne",
+   "kind": "surgical",
+   "name": "SpaMedica North Tyneside",
+   "org": "SpaMedica",
+   "address": "Cobalt 3.2, Silver Fox Way, North Tyneside, NE27 0QJ",
+   "lat": 55.02008,
+   "lng": -1.5066,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/north-tyneside/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-carlisle-ca2-7af",
+   "city": "Carlisle",
+   "kind": "surgical",
+   "name": "SpaMedica Carlisle",
+   "org": "SpaMedica",
+   "address": "Minerva House, Port Road, Carlisle, CA2 7AF",
+   "lat": 54.89682,
+   "lng": -2.95344,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/carlisle/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-haydock-wa12-0jq",
+   "city": "Salford",
+   "kind": "surgical",
+   "name": "SpaMedica Haydock",
+   "org": "SpaMedica",
+   "address": "Unit 2, The Parks, Haydock, WA12 0JQ",
+   "lat": 53.4798,
+   "lng": -2.63979,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/haydock/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-sale-m33-2gs",
+   "city": "Salford",
+   "kind": "surgical",
+   "name": "SpaMedica Sale",
+   "org": "SpaMedica",
+   "address": "Dovecote House, Old Hall Road, Sale, M33 2GS",
+   "lat": 53.42446,
+   "lng": -2.29404,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/sale/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-macclesfield-sk10-2xa",
+   "city": "Manchester",
+   "kind": "surgical",
+   "name": "SpaMedica Macclesfield",
+   "org": "SpaMedica",
+   "address": "Fernbank House, Tytherington Business Park, Springwood Way, Macclesfield, SK10 2XA",
+   "lat": 53.28426,
+   "lng": -2.12166,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/macclesfield/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-coventry-cv5-6ub",
+   "city": "Coventry",
+   "kind": "surgical",
+   "name": "SpaMedica Coventry",
+   "org": "SpaMedica",
+   "address": "1410 Spring Place, Herald Avenue, Coventry Business Park, Coventry, CV5 6UB",
+   "lat": 52.40326,
+   "lng": -1.55239,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/coventry/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-derby-de21-4xf",
+   "city": "Derby",
+   "kind": "surgical",
+   "name": "SpaMedica Derby",
+   "org": "SpaMedica",
+   "address": "Ground Floor, Quarnmill House, Stores Road, Derby, DE21 4XF",
+   "lat": 52.9289,
+   "lng": -1.4658,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/derby/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-leicester-le19-1sy",
+   "city": "Leicester",
+   "kind": "surgical",
+   "name": "SpaMedica Leicester",
+   "org": "SpaMedica",
+   "address": "Gateway House, Part Ground Floor, 4 Penman Way, Grove Park, Enderby, Leicester, LE19 1SY",
+   "lat": 52.59593,
+   "lng": -1.18639,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/leicester/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-newark-ng24-1un",
+   "city": "Lincoln",
+   "kind": "surgical",
+   "name": "SpaMedica Newark",
+   "org": "SpaMedica",
+   "address": "Loxley House, Balderton Gate, Newark, NG24 1UN",
+   "lat": 53.07339,
+   "lng": -0.80562,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/newark/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-wolverhampton-wv9-5ha",
+   "city": "Wolverhampton",
+   "kind": "surgical",
+   "name": "SpaMedica Wolverhampton",
+   "org": "SpaMedica",
+   "address": "Pendeford Business Park, Overstrand, Off Wobaston Road, Wolverhampton, WV9 5HA",
+   "lat": 52.62816,
+   "lng": -2.15153,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/wolverhampton/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-gloucester-gl2-4dh",
+   "city": "Gloucester",
+   "kind": "surgical",
+   "name": "SpaMedica Gloucester",
+   "org": "SpaMedica",
+   "address": "Ground Floor Suite 2, Sanctus House, Olympus Business Park, Quedgeley, Gloucester, GL2 4DH",
+   "lat": 51.83508,
+   "lng": -2.27385,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/gloucester/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-peterborough-pe2-6ys",
+   "city": "Peterborough",
+   "kind": "surgical",
+   "name": "SpaMedica Peterborough",
+   "org": "SpaMedica",
+   "address": "Ashurst, Southgate Park, Bakewell Road, Peterborough, PE2 6YS",
+   "lat": 52.53603,
+   "lng": -0.3193,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/peterborough/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-telford-tf3-4ly",
+   "city": "Wolverhampton",
+   "kind": "surgical",
+   "name": "SpaMedica Telford",
+   "org": "SpaMedica",
+   "address": "First Floor, Titan House, Euston Park, Telford, TF3 4LY",
+   "lat": 52.68088,
+   "lng": -2.43811,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/telford-2/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-worcester-wr4-9fq",
+   "city": "Worcester",
+   "kind": "surgical",
+   "name": "SpaMedica Worcester",
+   "org": "SpaMedica",
+   "address": "Ground Floor, Acorn House, 1 Bridgewater Road, Worcester, WR4 9FQ",
+   "lat": 52.21311,
+   "lng": -2.16146,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/worcester/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-chesterfield-s40-2wg",
+   "city": "Sheffield",
+   "kind": "surgical",
+   "name": "SpaMedica Chesterfield",
+   "org": "SpaMedica",
+   "address": "Spire Walk, Derby Road, Chesterfield, S40 2WG",
+   "lat": 53.23092,
+   "lng": -1.42373,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/chesterfield/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-cambridge-cb4-3dh",
+   "city": "Cambridge",
+   "kind": "surgical",
+   "name": "SpaMedica Cambridge",
+   "org": "SpaMedica",
+   "address": "Carlyle House, Carlyle Road, Cambridge, CB4 3DH",
+   "lat": 52.21407,
+   "lng": 0.11694,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/cambridge/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-hereford-hr2-7je",
+   "city": "Hereford",
+   "kind": "surgical",
+   "name": "SpaMedica Hereford",
+   "org": "SpaMedica",
+   "address": "Hereford Asda Supercentre, Belmont Road, Hereford, HR2 7JE",
+   "lat": 52.04943,
+   "lng": -2.72233,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/hereford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-bedford-mk41-7ph",
+   "city": "Milton Keynes",
+   "kind": "surgical",
+   "name": "SpaMedica Bedford",
+   "org": "SpaMedica",
+   "address": "Bedford Heights, Ground Floor, Manton Lane, Brickhill Drive Entrance, Bedford, MK41 7PH",
+   "lat": 52.1508,
+   "lng": -0.47473,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/bedford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-brighton-bn6-9ls",
+   "city": "Brighton & Hove",
+   "kind": "surgical",
+   "name": "SpaMedica Brighton",
+   "org": "SpaMedica",
+   "address": "Pavilion House, Kings Business Park, Reeds Lane, Sayers Common, Hassocks, Brighton, BN6 9LS",
+   "lat": 50.94911,
+   "lng": -0.2023,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/brighton/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-bromley-br1-3wa",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Bromley",
+   "org": "SpaMedica",
+   "address": "Northside House, 69 Tweedy Road, Bromley, BR1 3WA",
+   "lat": 51.40842,
+   "lng": 0.01661,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/bromley/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-chelmsford-cm1-1wz",
+   "city": "Chelmsford",
+   "kind": "surgical",
+   "name": "SpaMedica Chelmsford",
+   "org": "SpaMedica",
+   "address": "Lower Ground And Ground Floor, Buckenham House, 1 Coval Wells, Chelmsford, CM1 1WZ",
+   "lat": 51.73443,
+   "lng": 0.46404,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/chelmsford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-colchester-co4-9gn",
+   "city": "Colchester",
+   "kind": "surgical",
+   "name": "SpaMedica Colchester",
+   "org": "SpaMedica",
+   "address": "First Floor, 100 The Crescent, Colchester Business Park, Colchester, CO4 9GN",
+   "lat": 51.92201,
+   "lng": 0.92718,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/colchester/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-croydon-cr0-2rd",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Croydon",
+   "org": "SpaMedica",
+   "address": "Part Ground Floor, Interchange Building, 81-85 Station Road, Croydon, CR0 2RD",
+   "lat": 51.37954,
+   "lng": -0.10144,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/croydon/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-dalston-n1-4bz",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Dalston",
+   "org": "SpaMedica",
+   "address": "Playle House, Tottenham Road, Dalston, N1 4BZ",
+   "lat": 51.54536,
+   "lng": -0.07732,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/dalston/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-epsom-kt17-1bl",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Epsom",
+   "org": "SpaMedica",
+   "address": "New Plan House, East Street, Epsom, Surrey, KT17 1BL",
+   "lat": 51.33593,
+   "lng": -0.26258,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/epsom/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-luton-lu1-3lu",
+   "city": "St Albans",
+   "kind": "surgical",
+   "name": "SpaMedica Luton",
+   "org": "SpaMedica",
+   "address": "Unit 725, Capability Green, Luton, LU1 3LU",
+   "lat": 51.86532,
+   "lng": -0.4093,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/luton/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-norwich-nr4-6dj",
+   "city": "Norwich",
+   "kind": "surgical",
+   "name": "SpaMedica Norwich",
+   "org": "SpaMedica",
+   "address": "West Suite Ground Floor, Discovery House, 4 Norwich Business Park, Whiting Road, Norwich, NR4 6DJ",
+   "lat": 52.60754,
+   "lng": 1.29224,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/norwich/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-romford-rm1-1tr",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Romford",
+   "org": "SpaMedica",
+   "address": "Ground Floor, 210 South Street, Romford, Essex, RM1 1TR",
+   "lat": 51.57259,
+   "lng": 0.1836,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/romford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-sittingbourne-me9-8lt",
+   "city": "Southend-on-Sea",
+   "kind": "surgical",
+   "name": "SpaMedica Sittingbourne",
+   "org": "SpaMedica",
+   "address": "Denne Court, Hengist Field, Oad Street, Borden, Sittingbourne, ME9 8LT",
+   "lat": 51.32556,
+   "lng": 0.69286,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/sittingbourne/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-stevenage-sg1-2ng",
+   "city": "St Albans",
+   "kind": "surgical",
+   "name": "SpaMedica Stevenage",
+   "org": "SpaMedica",
+   "address": "Office LG20, Kings Court, London Road, Stevenage, SG1 2NG",
+   "lat": 51.89701,
+   "lng": -0.20355,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/stevenage/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-watford-wd24-4wh",
+   "city": "St Albans",
+   "kind": "surgical",
+   "name": "SpaMedica Watford",
+   "org": "SpaMedica",
+   "address": "Part Ground Floor, St. Andrews, The Belfry, Watford, WD24 4WH",
+   "lat": 51.66732,
+   "lng": -0.38907,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/watford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-wembley-ha9-0hp",
+   "city": "London",
+   "kind": "surgical",
+   "name": "SpaMedica Wembley",
+   "org": "SpaMedica",
+   "address": "28 and 30 Wembley Park Boulevard, Wembley, HA9 0HP",
+   "lat": 51.55753,
+   "lng": -0.28154,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/wembley/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-bristol-bs30-8fj",
+   "city": "Bristol",
+   "kind": "surgical",
+   "name": "SpaMedica Bristol",
+   "org": "SpaMedica",
+   "address": "Corum 2, Corum Office Park, Crown Way, Warmley, Bristol, BS30 8FJ",
+   "lat": 51.45785,
+   "lng": -2.47606,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/bristol/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-exeter-ex5-2hl",
+   "city": "Exeter",
+   "kind": "surgical",
+   "name": "SpaMedica Exeter",
+   "org": "SpaMedica",
+   "address": "Part Ground Floor, Lancaster House, Exeter International Office Park, Exeter, EX5 2HL",
+   "lat": 50.72941,
+   "lng": -3.41365,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/exeter/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-isle-of-wight-po30-5wb",
+   "city": "Portsmouth",
+   "kind": "surgical",
+   "name": "SpaMedica Isle of Wight",
+   "org": "SpaMedica",
+   "address": "Innovation Centre, St Cross Business Park, Newport, Isle of Wight, PO30 5WB",
+   "lat": 50.71274,
+   "lng": -1.29609,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/isle-of-wight/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-oxford-ox29-8ln",
+   "city": "Oxford",
+   "kind": "surgical",
+   "name": "SpaMedica Oxford",
+   "org": "SpaMedica",
+   "address": "14 Blenheim Office Park, Long Hanborough, Oxford, OX29 8LN",
+   "lat": 51.8242,
+   "lng": -1.36914,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/oxford/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-portsmouth-po6-4pr",
+   "city": "Portsmouth",
+   "kind": "surgical",
+   "name": "SpaMedica Portsmouth",
+   "org": "SpaMedica",
+   "address": "Shore House, North Harbor Business Park, Portsmouth, PO6 4PR",
+   "lat": 50.84441,
+   "lng": -1.09167,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/portsmouth/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-southampton-so50-9nw",
+   "city": "Southampton",
+   "kind": "surgical",
+   "name": "SpaMedica Southampton",
+   "org": "SpaMedica",
+   "address": "Ground Floor, Stoneham Place, Stoneham Lane, Southampton, SO50 9NW",
+   "lat": 50.95442,
+   "lng": -1.37193,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/southampton/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "spamedica-truro-tr1-1qh",
+   "city": "Truro",
+   "kind": "surgical",
+   "name": "SpaMedica Truro",
+   "org": "SpaMedica",
+   "address": "Ground Floor, High Water House, Malpas Road, Truro, TR1 1QH",
+   "lat": 50.2621,
+   "lng": -5.0465,
+   "phones": [],
+   "emails": [],
+   "web": "https://www.spamedica.co.uk/location/truro/",
+   "workExperience": null,
+   "tip": "NHS cataract surgery provider that employs optometrists for pre- and post-op checks. No phone on the location list, so use the page’s contact details and ask for the clinic manager."
+  },
+  {
+   "id": "optegra-eye-clinic-bowcliffe-hall-yorkshire-ls23-6lp",
+   "city": "Leeds",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Bowcliffe Hall Yorkshire",
+   "org": "Optegra",
+   "address": "Bowcliffe Hall, Bramham, Wetherby, Leeds, LS23 6LP",
+   "lat": 53.87458,
+   "lng": -1.35429,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/bowcliffe-hall-eye-clinic/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "london-eye-hospital-optegra-central-london-w1g-9ht",
+   "city": "London",
+   "kind": "surgical",
+   "name": "London Eye Hospital (Optegra Central London)",
+   "org": "Optegra",
+   "address": "25 Queen Anne St, Marylebone, London, W1G 9HT",
+   "lat": 51.51792,
+   "lng": -0.14713,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-hospital-london/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-leicester-le19-1rp",
+   "city": "Leicester",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Leicester",
+   "org": "Optegra",
+   "address": "Ground floor 6, Dominus Way, Meridian Business Park, Leicester, LE19 1RP",
+   "lat": 52.61185,
+   "lng": -1.19126,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-leicester/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-hospital-manchester-m20-2ey",
+   "city": "Manchester",
+   "kind": "surgical",
+   "name": "Optegra Eye Hospital Manchester",
+   "org": "Optegra",
+   "address": "One Didsbury Point, 2 The Avenue, Didsbury, Manchester, M20 2EY",
+   "lat": 53.43011,
+   "lng": -2.24995,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-hospital-manchester/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-brighton-bn1-8af",
+   "city": "Brighton & Hove",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Brighton",
+   "org": "Optegra",
+   "address": "Sussex House, Crowhurst Road, Brighton, East Sussex, BN1 8AF",
+   "lat": 50.86709,
+   "lng": -0.12385,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-brighton/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-hospital-yorkshire-bradford-bd10-0rd",
+   "city": "Bradford",
+   "kind": "surgical",
+   "name": "Optegra Eye Hospital Yorkshire (Bradford)",
+   "org": "Optegra",
+   "address": "937 Harrogate Road, Apperley Bridge, Bradford, BD10 0RD",
+   "lat": 53.83241,
+   "lng": -1.71038,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-hospital-yorkshire/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-colchester-co4-9pd",
+   "city": "Colchester",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Colchester",
+   "org": "Optegra",
+   "address": "Oyster House, Severalls Lane, Colchester, CO4 9PD",
+   "lat": 51.91783,
+   "lng": 0.92331,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-colchester/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-hospital-hampshire-po15-7ad",
+   "city": "Southampton",
+   "kind": "surgical",
+   "name": "Optegra Eye Hospital Hampshire",
+   "org": "Optegra",
+   "address": "Fusion 3, Solent Business Park, 1200 Parkway, Whiteley, Hampshire, PO15 7AD",
+   "lat": 50.87812,
+   "lng": -1.2444,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-hospital-hampshire/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-newcastle-ne11-0be",
+   "city": "Newcastle upon Tyne",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Newcastle",
+   "org": "Optegra",
+   "address": "Units 1-3 Maingate, Kingsway North, Team Valley Trading Estate, Gateshead, NE11 0BE",
+   "lat": 54.94329,
+   "lng": -1.62441,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-newcastle/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-hospital-north-london-nw9-6bx",
+   "city": "London",
+   "kind": "surgical",
+   "name": "Optegra Eye Hospital North London",
+   "org": "Optegra",
+   "address": "6 The Technology Park, Colindeep Lane, London, NW9 6BX",
+   "lat": 51.59215,
+   "lng": -0.25428,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-hospital-north-london/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-nottingham-ng11-7dd",
+   "city": "Nottingham",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Nottingham",
+   "org": "Optegra",
+   "address": "Building C Apex Business Park, Ruddington Lane, Nottingham, NG11 7DD",
+   "lat": 52.91342,
+   "lng": -1.15743,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-nottingham/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-preston-pr5-6la",
+   "city": "Preston",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Preston",
+   "org": "Optegra",
+   "address": "175-177 Station Road, Bamber Bridge, Preston, PR5 6LA",
+   "lat": 53.73063,
+   "lng": -2.66122,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-preston/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-sheffield-s9-2eh",
+   "city": "Sheffield",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Sheffield",
+   "org": "Optegra",
+   "address": "3 Carbrook Triangle, 23 Carbrook Hall Road, Sheffield, S9 2EH",
+   "lat": 53.40496,
+   "lng": -1.41733,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-sheffield/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-uttoxeter-st14-8az",
+   "city": "Lichfield",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic Uttoxeter",
+   "org": "Optegra",
+   "address": "Unit 2, Heritage Trade Park, Town Meadows Way, Uttoxeter, ST14 8AZ",
+   "lat": 52.90029,
+   "lng": -1.85819,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-uttoxeter/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-west-london-tw3-1el",
+   "city": "London",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic West London",
+   "org": "Optegra",
+   "address": "Unit 6 High Street Quarter, 2 Holloway Street, Hounslow, TW3 1EL",
+   "lat": 51.46989,
+   "lng": -0.36216,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-west-london/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  },
+  {
+   "id": "optegra-eye-clinic-york-yo26-6rs",
+   "city": "York",
+   "kind": "surgical",
+   "name": "Optegra Eye Clinic York",
+   "org": "Optegra",
+   "address": "1 Tudor Court, York Business Park, York, YO26 6RS",
+   "lat": 53.97901,
+   "lng": -1.13098,
+   "phones": [
+    {
+     "number": "0800 086 1064",
+     "note": "As published on the provider’s site"
+    }
+   ],
+   "emails": [],
+   "web": "https://www.optegra.com/hospitals-and-clinics/optegra-eye-clinic-york/",
+   "workExperience": null,
+   "tip": "Eye hospital doing NHS and private cataract and refractive surgery. Ask for the clinical services manager."
+  }
+ ]
+}

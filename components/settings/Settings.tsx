@@ -7,6 +7,7 @@ import { type Course, CoursePicker } from '../CoursePicker'
 import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
+import { SIGNUP_FLAG } from '../LoginScreen'
 import { AboutApp, Appearance } from './Appearance'
 import { FeedbackCard } from './FeedbackCard'
 
@@ -20,7 +21,7 @@ function isClaudeUrl(v: string) {
 }
 
 export function Settings({ modules }: { modules: { code: string; name: string }[] }) {
-  const { setClaudeUrl, toast, mode, signOut, user } = useApp()
+  const { setClaudeUrl, toast, mode, signOut, user, guest } = useApp()
   const data = useData()
   const [url, setUrl] = useState(data.profile.claudeProjectUrl)
   const [busy, setBusy] = useState(false)
@@ -91,21 +92,48 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
         </form>
       </section>
 
-      <PasswordCard />
+      {!guest && <PasswordCard />}
 
       <section className="card mt-6 p-6" aria-labelledby="account">
         <h2 id="account" className="text-[20px] font-semibold">
           Account
         </h2>
-        <p className="mt-2 text-[15px] text-muted">
-          Signed in as <b className="text-ink">{user?.username}</b>.{' '}
-          {mode === 'supabase'
-            ? 'Your ticks, notes and marks sync across your devices.'
-            : 'This device only — progress is saved in this browser and won’t appear on other devices.'}
-        </p>
-        <button className="btn btn-quiet mt-4" onClick={() => void signOut()}>
-          Sign out
-        </button>
+        {guest ? (
+          <>
+            <p className="mt-2 text-[15px] text-muted">
+              You’re using a <b className="text-ink">guest account</b>. Progress is saved in this browser only. Create a free account to keep it safe and
+              use it on other devices; your guest progress comes with you.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <button
+                className="btn btn-primary"
+                onClick={() => {
+                  try {
+                    sessionStorage.setItem(SIGNUP_FLAG, '1')
+                  } catch {}
+                  void signOut()
+                }}
+              >
+                Create a free account
+              </button>
+              <button className="btn btn-quiet" onClick={() => void signOut()}>
+                Leave guest mode
+              </button>
+            </div>
+          </>
+        ) : (
+          <>
+            <p className="mt-2 text-[15px] text-muted">
+              Signed in as <b className="text-ink">{user?.username}</b>.{' '}
+              {mode === 'supabase'
+                ? 'Your ticks, notes and marks sync across your devices.'
+                : 'This device only — progress is saved in this browser and won’t appear on other devices.'}
+            </p>
+            <button className="btn btn-quiet mt-4" onClick={() => void signOut()}>
+              Sign out
+            </button>
+          </>
+        )}
       </section>
 
       {data.flags.length > 0 && (
