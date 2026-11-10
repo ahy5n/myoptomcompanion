@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
 import { fmtShort } from '@/lib/dates'
-import type { Reflection } from '@/lib/store'
+import { backend, type Reflection } from '@/lib/store'
 import { type Course, CoursePicker } from '../CoursePicker'
 import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
@@ -156,6 +157,8 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
       )}
 
       <FeedbackCard />
+
+      <OwnerLink />
 
       <AboutApp />
     </div>
@@ -370,5 +373,25 @@ function SubjectNameRow({
         <span className="w-[38px] shrink-0" aria-hidden />
       )}
     </li>
+  )
+}
+
+/** Only shown to accounts listed in the admins table. */
+function OwnerLink() {
+  const { guest, mode } = useApp()
+  const [admin, setAdmin] = useState(false)
+  useEffect(() => {
+    if (guest || mode !== 'supabase') return
+    backend.isAdmin().then(setAdmin, () => setAdmin(false))
+  }, [guest, mode])
+  if (!admin) return null
+  return (
+    <Link href="/admin" className="card mt-6 flex items-center justify-between p-5 hover:shadow-[var(--shadow-lift)]">
+      <span>
+        <span className="block text-[17px] font-semibold">Owner inbox</span>
+        <span className="text-[14px] text-muted">Feedback, flagged questions, sign-ups and usage</span>
+      </span>
+      <span aria-hidden className="text-muted">→</span>
+    </Link>
   )
 }

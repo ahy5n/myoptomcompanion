@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useEffect } from 'react'
+import { track } from '@/lib/usage'
 import { useApp } from './AppProvider'
 import { FlagButton } from './FlagButton'
 import { GearIcon } from './icons'
@@ -11,6 +13,9 @@ import { Logo } from './Logo'
 export function Shell({ children }: { children: React.ReactNode }) {
   const { status, error, retry, signOut, guest } = useApp()
   const pathname = usePathname()
+
+  // Anonymous page-view count (see lib/usage.ts).
+  useEffect(() => track('view', pathname), [pathname])
 
   if (status === 'loading') {
     return (

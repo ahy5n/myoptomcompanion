@@ -125,7 +125,7 @@ export function AboutApp() {
         About
       </h2>
       <Logo size={34} />
-      <p className="text-[13px] text-muted">A revision aid in testing. Not affiliated with any university.</p>
+      <p className="max-w-md text-[13px] text-muted">A revision aid in testing. Not affiliated with any university. The site counts page views anonymously (no account, IP or cookie) to see what’s useful, and skips browsers that ask not to be tracked.</p>
     </section>
   )
 }

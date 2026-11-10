@@ -24,11 +24,11 @@ function readJson(rel) {
   }
 }
 
-// Built-in diagram drawings: keys of DIAGRAMS (Diagrams.tsx) and MORE_DIAGRAMS (MoreDiagrams.tsx).
-const diagramSrc = ['Diagrams.tsx', 'MoreDiagrams.tsx']
+// Built-in diagram drawings: keys of DIAGRAMS and the registries it spreads in.
+const diagramSrc = ['Diagrams.tsx', 'MoreDiagrams.tsx', 'ChartDiagrams.tsx', 'OpticsDiagrams.tsx', 'EyeDiagrams.tsx']
   .map((f) => fs.readFileSync(path.join(ROOT, 'components/diagrams', f), 'utf8'))
   .join('\n')
-const registries = [...diagramSrc.matchAll(/export const (?:MORE_)?DIAGRAMS[^=]*=\s*\{([\s\S]*?)\n\}/g)].map((m) => m[1])
+const registries = [...diagramSrc.matchAll(/export const (?:[A-Z]+_)?DIAGRAMS[^=]*=\s*\{([\s\S]*?)\n\}/g)].map((m) => m[1])
 const registryEntries = registries.flatMap((b) => [...b.matchAll(/^\s*'?([\w-]+)'?\s*(?::\s*(\w+))?\s*,/gm)])
 const builtIn = new Set(registryEntries.map((m) => m[1]))
 const spotsFor = (id) => {

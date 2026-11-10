@@ -177,6 +177,23 @@ export const localBackend: Backend = {
   async saveCardSet(user, set) {
     mutate(user, (d) => void (d.cardSets = [...(d.cardSets ?? []).filter((x) => x.id !== set.id), set]))
   },
+  // On this device there's no one else, so the inbox shows this device's own notes.
+  async isAdmin() {
+    return true
+  },
+  async adminInbox(user) {
+    const d = read<UserData>(dataKey(user.id), emptyData(user.username))
+    return {
+      counts: { users: 1, newUsers7d: 0, active7d: 1, feedback: (d.feedback ?? []).length, flags: d.flags.length },
+      feedback: (d.feedback ?? []).map((f) => ({ ...f, email: null, name: d.profile.displayName || null })),
+      flags: d.flags.map((f, i) => ({ id: i, ...f })),
+      signups: [],
+      usage: { daily: [], pages: [], events: [] },
+    }
+  },
+  async logUsage() {
+    // Device-only mode keeps no usage stats.
+  },
   async addFeedback(user, item) {
     mutate(user, (d) => void (d.feedback = [item, ...(d.feedback ?? [])]))
   },

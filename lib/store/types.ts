@@ -116,6 +116,20 @@ export interface FeedbackItem {
   createdAt: string
 }
 
+export interface UsageEvent {
+  event: string
+  path: string | null
+}
+
+/** What the site owner sees in /admin. */
+export interface AdminInbox {
+  counts: { users: number; newUsers7d: number; active7d: number; feedback: number; flags: number }
+  feedback: { id: string; kind: FeedbackKind; message: string; page: string | null; canContact: boolean; email: string | null; createdAt: string; name: string | null }[]
+  flags: { id: number | string; topicId: string; itemId: string | null; message: string; createdAt: string }[]
+  signups: { email: string; name: string | null; university: string | null; studyYear: number | null; createdAt: string; lastSignIn: string | null }[]
+  usage: { daily: { day: string; views: number }[]; pages: { path: string; n: number }[]; events: { event: string; n: number }[] }
+}
+
 export interface UserData {
   profile: Profile
   progress: Record<string, Progress>
@@ -171,6 +185,11 @@ export interface Backend {
   saveCardSet(user: AuthUser, set: CardSet): Promise<void>
   deleteCardSet(user: AuthUser, id: string): Promise<void>
   addFeedback(user: AuthUser, item: FeedbackItem): Promise<void>
+  /** Whether the signed-in account may open the owner inbox. */
+  isAdmin(): Promise<boolean>
+  adminInbox(user: AuthUser): Promise<AdminInbox>
+  /** Anonymous usage counts; never throws. */
+  logUsage(events: UsageEvent[]): Promise<void>
 }
 
 export function emptyData(username: string): UserData {

@@ -5,7 +5,10 @@
 
 import { Arrowheads, Cross, Dim, INK, LILAC, MUTED, ROSE, SAGE, SKY, T, type DiagramDef } from './kit'
 import { FIG } from './palette'
+import { CHART_DIAGRAMS } from './ChartDiagrams'
+import { EYE_DIAGRAMS } from './EyeDiagrams'
 import { MORE_DIAGRAMS } from './MoreDiagrams'
+import { OPTICS_DIAGRAMS } from './OpticsDiagrams'
 
 export type { DiagramDef, Spot } from './kit'
 
@@ -461,6 +464,9 @@ const palZones: DiagramDef = {
 
 export const DIAGRAMS: Record<string, DiagramDef> = {
   ...MORE_DIAGRAMS,
+  ...CHART_DIAGRAMS,
+  ...OPTICS_DIAGRAMS,
+  ...EYE_DIAGRAMS,
   'boxing-system': boxing,
   'pd-measurement': pd,
   prentice,

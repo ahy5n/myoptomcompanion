@@ -212,3 +212,82 @@ drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function public.handle_new_user();
+
+-- ── Usage stats (anonymous) ─────────────────────────────────────────────
+-- Page views and feature use, with no user id, IP or cookie. Anyone may add
+-- a row (guests too); nobody can read rows through the API — only the owner
+-- inbox function below summarises them.
+create table if not exists public.usage_events (
+  id bigserial primary key,
+  event text not null check (char_length(event) <= 60),
+  path text check (char_length(path) <= 120),
+  created_at timestamptz not null default now()
+);
+create index if not exists usage_events_created_idx on public.usage_events (created_at);
+alter table public.usage_events enable row level security;
+drop policy if exists "anyone can add" on public.usage_events;
+create policy "anyone can add" on public.usage_events for insert to anon, authenticated with check (true);
+
+-- ── Owner inbox ─────────────────────────────────────────────────────────
+-- Add the site owner's sign-in email once, in the SQL editor:
+--   insert into public.admins (email) values ('you@example.com');
+-- The table has no policies, so it can't be read or changed through the API.
+create table if not exists public.admins (email text primary key);
+alter table public.admins enable row level security;
+
+create or replace function public.is_admin()
+returns boolean
+language sql stable security definer set search_path = public
+as $$
+  select exists (select 1 from public.admins where lower(email) = lower(coalesce(auth.jwt() ->> 'email', '')));
+$$;
+
+create or replace function public.admin_inbox()
+returns json
+language plpgsql stable security definer set search_path = public
+as $$
+begin
+  if not public.is_admin() then
+    raise exception 'not allowed';
+  end if;
+  return json_build_object(
+    'counts', json_build_object(
+      'users', (select count(*) from auth.users),
+      'newUsers7d', (select count(*) from auth.users where created_at > now() - interval '7 days'),
+      'active7d', (select count(*) from auth.users where last_sign_in_at > now() - interval '7 days'),
+      'feedback', (select count(*) from public.feedback),
+      'flags', (select count(*) from public.flags)
+    ),
+    'feedback', coalesce((select json_agg(x) from (
+      select f.id, f.kind, f.message, f.page, f.can_contact as "canContact", f.email, f.created_at as "createdAt", p.display_name as name
+      from public.feedback f left join public.profiles p on p.id = f.user_id
+      order by f.created_at desc limit 300) x), '[]'::json),
+    'flags', coalesce((select json_agg(x) from (
+      select fl.id, fl.topic_id as "topicId", fl.item_id as "itemId", fl.message, fl.created_at as "createdAt"
+      from public.flags fl order by fl.created_at desc limit 300) x), '[]'::json),
+    'signups', coalesce((select json_agg(x) from (
+      select u.email, p.display_name as name, p.university, p.study_year as "studyYear", u.created_at as "createdAt", u.last_sign_in_at as "lastSignIn"
+      from auth.users u left join public.profiles p on p.id = u.id
+      order by u.created_at desc limit 300) x), '[]'::json),
+    'usage', json_build_object(
+      'daily', coalesce((select json_agg(x order by x.day) from (
+        select to_char(date_trunc('day', created_at), 'YYYY-MM-DD') as day, count(*) as views
+        from public.usage_events where event = 'view' and created_at > now() - interval '14 days'
+        group by 1) x), '[]'::json),
+      'pages', coalesce((select json_agg(x) from (
+        select path, count(*) as n from public.usage_events
+        where event = 'view' and created_at > now() - interval '30 days'
+        group by path order by n desc limit 25) x), '[]'::json),
+      'events', coalesce((select json_agg(x) from (
+        select event, count(*) as n from public.usage_events
+        where event <> 'view' and created_at > now() - interval '30 days'
+        group by event order by n desc limit 25) x), '[]'::json)
+    )
+  );
+end;
+$$;
+
+revoke all on function public.admin_inbox() from public, anon;
+grant execute on function public.admin_inbox() to authenticated;
+revoke all on function public.is_admin() from public, anon;
+grant execute on function public.is_admin() to authenticated;

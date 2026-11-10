@@ -3,6 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { todayISO } from '@/lib/dates'
 import { schedule } from '@/lib/leitner'
+import { track } from '@/lib/usage'
 import {
   accountBackend,
   backend,
@@ -213,6 +214,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         await loadFor(signed)
       },
       async signUp(email, password, about, keepGuestProgress = true) {
+        track('signup')
         const guestData = readGuestData()
         const created = await backend.signUp(email, password, about)
         if (guestData && keepGuestProgress) {
@@ -223,6 +225,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
       guest: !!user && isGuest(),
       async continueAsGuest() {
+        track('guest_start')
         setGuest(true)
         await loadFor(startGuest())
       },
@@ -272,6 +275,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
 
       recordResult(itemId, kind, correct, chosen) {
+        track(`answer_${kind}`)
         const existing = dataRef.current?.reviews[itemId]
         const next = schedule(existing, itemId, kind, correct, today)
         if (next) {
@@ -320,6 +324,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
 
       setPlacement(id, patch) {
+        if (patch.status) track(`placement_${patch.status}`)
         const cur: PlacementProgress = dataRef.current?.placements?.[id] ?? {
           status: 'not-contacted',
           interviewDate: null,
@@ -331,6 +336,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
 
       async addTimetable(entries) {
+        track('timetable_added')
         await backend.addTimetable(u, entries)
         update((d) => ({ ...d, timetable: [...d.timetable, ...entries] }))
       },
@@ -342,6 +348,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
 
       async saveDeck(deck) {
+        track('slides_saved')
         await backend.saveDeck(u, deck)
         update((d) => ({ ...d, decks: [...d.decks.filter((x) => x.id !== deck.id), deck] }))
       },
@@ -352,11 +359,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       },
 
       async saveCardSet(set) {
+        track('flashcards_saved')
         await backend.saveCardSet(u, set)
         update((d) => ({ ...d, cardSets: [...d.cardSets.filter((x) => x.id !== set.id), set] }))
       },
 
       async sendFeedback(item) {
+        track(`feedback_${item.kind}`)
         await backend.addFeedback(u, item)
         update((d) => ({ ...d, feedback: [item, ...d.feedback] }))
       },

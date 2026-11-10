@@ -6,7 +6,7 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import type { ReviewItem } from '../leitner'
 import type { Assessment } from '../tracker'
 import { isMode, isPalette } from '../theme'
-import type { AuthUser, Backend, CardSet, FeedbackItem, TimetableEntry, UserData, UserDeck } from './types'
+import type { AdminInbox, AuthUser, Backend, CardSet, FeedbackItem, TimetableEntry, UserData, UserDeck } from './types'
 import { checkLogin, checkNewAccount, emptyData } from './types'
 
 const DOMAIN = process.env.NEXT_PUBLIC_USERNAME_EMAIL_DOMAIN || 'myoptomcompanion.local'
@@ -452,6 +452,27 @@ export const supabaseBackend: Backend = {
     check(
       await sb().from('flags').insert({ user_id: user.id, topic_id: f.topicId, item_id: f.itemId, message: f.message }),
     )
+  },
+  async isAdmin() {
+    const { data, error } = await sb().rpc('is_admin')
+    return !error && data === true
+  },
+  async adminInbox() {
+    const { data, error } = await sb().rpc('admin_inbox')
+    if (error) {
+      throw new Error(
+        /not allowed/i.test(error.message)
+          ? 'This page is only for the site owner.'
+          : /admin_inbox|function/i.test(error.message)
+            ? 'Run the latest supabase/schema.sql first, then add your email to the admins table.'
+            : error.message,
+      )
+    }
+    return data as AdminInbox
+  },
+  async logUsage(events) {
+    if (!events.length) return
+    await sb().from('usage_events').insert(events).then(() => {}, () => {})
   },
   async addFeedback(user, item) {
     const res = await sb().from('feedback').insert({

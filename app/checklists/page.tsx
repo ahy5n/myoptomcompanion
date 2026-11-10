@@ -12,6 +12,9 @@ export default function ChecklistsPage() {
       <BackLink href="/">Home</BackLink>
       <h1 className="mt-2 text-[32px] font-semibold">Checklists</h1>
       <p className="mt-1 text-muted">Step-by-step routines for practicals. Tick as you go, reset when you practise again.</p>
+      <Link href="/practical" className="btn btn-soft mt-4">
+        Practise as a timed station
+      </Link>
       {lists.length === 0 && <p className="mt-6 text-muted">No checklists yet.</p>}
       <div className="mt-6 space-y-8">
         {lists.map((l) => (
@@ -23,6 +26,9 @@ export default function ChecklistsPage() {
               </Link>
             </p>
             <ChecklistCard checklist={l.checklist} />
+            <Link href={`/practical?station=${encodeURIComponent(l.checklist.id)}`} className="mt-2 inline-block text-[14px] font-semibold text-accent underline-offset-4 hover:underline">
+              Run as a timed station →
+            </Link>
           </section>
         ))}
       </div>
