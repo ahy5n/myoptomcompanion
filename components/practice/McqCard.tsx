@@ -10,7 +10,7 @@ import { shuffle } from './shuffle'
 
 const LETTERS = 'ABCDEFGH'
 
-export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: boolean) => void }) {
+export function McqCard({ mcq, topicId, onResult }: { mcq: Mcq; topicId?: string; onResult?: (correct: boolean) => void }) {
   const { recordResult } = useApp()
   // Shuffle after mount so server and client markup agree.
   const [order, setOrder] = useState(() => mcq.options.map((_, i) => i))
@@ -20,6 +20,7 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
   const answered = chosen !== null
   const correctIdx = mcq.options.findIndex((o) => o.correct)
   const correct = answered && mcq.options[chosen].correct
+  const readHref = mcq.link ?? topicId
 
   function choose(i: number) {
     if (answered) return
@@ -80,24 +81,24 @@ export function McqCard({ mcq, onResult }: { mcq: Mcq; onResult?: (correct: bool
             <span className="font-semibold">Why: </span>
             {mcq.explanation}
           </p>
-          {!correct && (
-            <div className="flex flex-wrap items-center gap-2">
-              {mcq.link && (
-                <Link
-                  href={`/t/${mcq.link}`}
-                  className="inline-flex min-h-11 items-center gap-1 rounded-full bg-accent-soft px-3.5 text-[14px] font-semibold text-accent-strong hover:bg-accent-tint"
-                >
-                  Read more
-                  <ChevronRight className="size-4" />
-                </Link>
-              )}
+          <div className="flex flex-wrap items-center gap-2">
+            {readHref && (
+              <Link
+                href={`/t/${readHref}`}
+                className="inline-flex min-h-11 items-center gap-1 rounded-full bg-accent-soft px-3.5 text-[14px] font-semibold text-accent-strong hover:bg-accent-tint"
+              >
+                Back to the topic
+                <ChevronRight className="size-4" />
+              </Link>
+            )}
+            {!correct && (
               <AskClaudeButton
                 variant="small"
                 label="Ask Claude"
                 text={wrongAnswerPrompt(mcq.q, mcq.options[chosen].text, mcq.options[correctIdx]?.text ?? '')}
               />
-            </div>
-          )}
+            )}
+          </div>
         </div>
       )}
     </div>

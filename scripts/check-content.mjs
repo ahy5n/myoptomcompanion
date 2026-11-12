@@ -39,6 +39,8 @@ const spotsFor = (id) => {
 }
 
 const modulesFile = readJson('modules.json')
+const moduleCodes = new Set((modulesFile?.modules ?? []).map((m) => m.code))
+const PRIORITIES = new Set(['exam-core', 'clinical', 'background'])
 const topicsById = new Map()
 const itemIds = new Map()
 const seenItem = (id, where) => {
@@ -48,6 +50,7 @@ const seenItem = (id, where) => {
 
 for (const m of modulesFile?.modules ?? []) {
   for (const k of ['code', 'name', 'theme', 'colour', 'contentStatus']) if (!m[k]) err(`modules.json: module ${m.code ?? '?'} is missing "${k}"`)
+  if (m.lecturer !== undefined && typeof m.lecturer !== 'string') err(`modules.json: ${m.code} lecturer should be text (leave blank if unknown)`)
   if (!['Foundations', 'Management', 'Patient', 'Professional'].includes(m.theme)) warn(`modules.json: ${m.code} has unknown theme "${m.theme}"`)
   if (!Array.isArray(m.years) || !m.years.length || m.years.some((y) => !(y >= 1 && y <= 5))) err(`modules.json: ${m.code} needs "years" (1–5)`)
   if (m.contentStatus !== 'full') {
@@ -74,6 +77,21 @@ for (const m of modulesFile?.modules ?? []) {
     for (const k of ['keyPoints', 'examTraps', 'goDeeper', 'flashcards', 'mcq', 'cases', 'links'])
       if (t[k] !== undefined && !Array.isArray(t[k])) err(`${where}: "${k}" should be a list`)
     for (const g of t.goDeeper ?? []) if (!g.heading || !g.body) err(`${where}: a goDeeper section needs heading and body`)
+    // Content blocks: key points and traps may still be plain strings (treated as exam-core).
+    const blocks = [
+      ...(t.summaryMeta ? [['summary', t.summaryMeta]] : []),
+      ...(t.keyPoints ?? []).map((b, i) => [`key point ${i + 1}`, b]),
+      ...(t.examTraps ?? []).map((b, i) => [`exam trap ${i + 1}`, b]),
+      ...(t.goDeeper ?? []).map((b) => [`go deeper "${b.heading}"`, b]),
+      ...(t.checklist?.priority ? [['checklist', t.checklist]] : []),
+    ]
+    for (const [label, b] of blocks) {
+      if (typeof b === 'string') continue
+      if (label.startsWith('key point') || label.startsWith('exam trap')) if (!b.text) err(`${where}: ${label} has no text`)
+      if (!PRIORITIES.has(b.priority)) err(`${where}: ${label} has priority "${b.priority}" (use exam-core, clinical or background)`)
+      if (!moduleCodes.has(b.module)) err(`${where}: ${label} has unknown module "${b.module}"`)
+      if ((b.why || b.limits) && !b.needsReview) warn(`${where}: ${label} has a rule note but isn't marked needsReview`)
+    }
     for (const [i, f] of (t.flashcards ?? []).entries()) {
       if (!f.front || !f.back) err(`${where}: flashcard ${i + 1} needs front and back`)
       seenItem(`${t.id}:fc${i + 1}`, where)

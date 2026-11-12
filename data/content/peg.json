@@ -6,22 +6,78 @@
       "id": "peg-direct-ophthalmoscopy",
       "title": "Direct ophthalmoscopy technique",
       "summary": "The direct ophthalmoscope gives a highly magnified (about 15x for an emmetrope), erect view of a small field. College guidance makes it the minimum internal examination on an undilated eye, so you need a fluent routine from the external eye to the macula and a descriptive way of recording it.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "College guidance: as a minimum, examine internally with direct ophthalmoscopy on the undilated eye (other methods are allowed); if you can't get an adequate view, dilate or refer. The Opticians Act requires external and internal examination.",
-        "Set-up: lights off, glasses off, raise the chair, give a spotlight to fixate. Your right hand and right eye for their right eye; left for left. Explain that the light is bright and you'll come close.",
-        "Start with about +10 D (eye in focus at 10 cm, about 2.5x): red reflex, iris, pupil, cornea, lids and lashes (eyes closed), then the conjunctiva in each direction of gaze, reducing plus as you move through the media.",
-        "Posterior eye: find the disc (about 0 D if you're both emmetropic), check the posterior pole, then the periphery in 8 gaze directions (hold the upper lid in downgaze), and the macula last with the macular stop.",
-        "Magnification M = (K′ ÷ 4) × 1 ÷ (1 − wK): about 15x for an emmetrope, more for myopes, less for hyperopes.",
-        "Useful field of view j = g(K − W) ÷ K′: it shrinks with longer working distance, smaller pupils and myopia, and grows with hyperopia.",
-        "Apertures include wide, intermediate, macular stop, red-free, slit, fixation cross and cobalt blue.",
-        "Record descriptively for each structure (e.g. lids 'clean, full', cornea 'clear', iris 'brown, even colour'); avoid 'NAD', 'WNL' and 'normal'.",
-        "Direct ophthalmoscopy's advantages over indirect: an erect image, portability, and it suits every patient. Its limits: small field, no stereo, and it only reaches about the equator."
+        {
+          "text": "College guidance: as a minimum, examine internally with direct ophthalmoscopy on the undilated eye (other methods are allowed); if you can't get an adequate view, dilate or refer. The Opticians Act requires external and internal examination.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Set-up: lights off, glasses off, raise the chair, give a spotlight to fixate. Your right hand and right eye for their right eye; left for left. Explain that the light is bright and you'll come close.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Start with about +10 D (eye in focus at 10 cm, about 2.5x): red reflex, iris, pupil, cornea, lids and lashes (eyes closed), then the conjunctiva in each direction of gaze, reducing plus as you move through the media.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Posterior eye: find the disc (about 0 D if you're both emmetropic), check the posterior pole, then the periphery in 8 gaze directions (hold the upper lid in downgaze), and the macula last with the macular stop.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Magnification M = (K′ ÷ 4) × 1 ÷ (1 − wK): about 15x for an emmetrope, more for myopes, less for hyperopes.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Useful field of view j = g(K − W) ÷ K′: it shrinks with longer working distance, smaller pupils and myopia, and grows with hyperopia.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Apertures include wide, intermediate, macular stop, red-free, slit, fixation cross and cobalt blue.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Record descriptively for each structure (e.g. lids 'clean, full', cornea 'clear', iris 'brown, even colour'); avoid 'NAD', 'WNL' and 'normal'.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Direct ophthalmoscopy's advantages over indirect: an erect image, portability, and it suits every patient. Its limits: small field, no stereo, and it only reaches about the equator.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Thinking field of view shrinks with hyperopia: it grows; it shrinks with myopia.",
-        "Saying a high myope must wear their glasses for the anterior eye: the patient's Rx doesn't matter there (it does help for the fundus).",
-        "Starting with the macula: the light constricts the pupil and makes the rest harder.",
-        "Reacting with surprise or alarm during the examination."
+        {
+          "text": "Thinking field of view shrinks with hyperopia: it grows; it shrinks with myopia.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Saying a high myope must wear their glasses for the anterior eye: the patient's Rx doesn't matter there (it does help for the fundus).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Starting with the macula: the light constricts the pupil and makes the rest harder.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Reacting with surprise or alarm during the examination.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "direct-oph-approach",
@@ -36,15 +92,21 @@
       "goDeeper": [
         {
           "heading": "Tips for hard cases",
-          "body": "Small pupils: get as close as you can, turn the brightness down to reduce reflections, give clear fixation instructions, remind them it's fine to blink, and consider dilating. High myopes: let them wear their correction; everything looks big and the field is small, so it's easy to miss things, and they're at higher risk of detachment, so consider dilating or an indirect method."
+          "body": "Small pupils: get as close as you can, turn the brightness down to reduce reflections, give clear fixation instructions, remind them it's fine to blink, and consider dilating. High myopes: let them wear their correction; everything looks big and the field is small, so it's easy to miss things, and they're at higher risk of detachment, so consider dilating or an indirect method.",
+          "priority": "clinical",
+          "module": "PEG"
         },
         {
           "heading": "Monocular indirect ophthalmoscopes",
-          "body": "The Welch Allyn PanOptic gives about 5x the field of a direct ophthalmoscope and the Keeler wide-angle about 10x. PanOptic routine: maximum aperture, centre the red dot on the filter dial, focus with the thumb lever and approach along the red reflex."
+          "body": "The Welch Allyn PanOptic gives about 5x the field of a direct ophthalmoscope and the Keeler wide-angle about 10x. PanOptic routine: maximum aperture, centre the red dot on the filter dial, focus with the thumb lever and approach along the red reflex.",
+          "priority": "background",
+          "module": "PEG"
         },
         {
           "heading": "Worked SAQ: field of view",
-          "body": "+10.00 D eye, 4 mm pupil, 2.5 cm working distance: j = 0.004 × (10 − (−40)) ÷ 60 = 0.0033 m, about 3.3 mm."
+          "body": "+10.00 D eye, 4 mm pupil, 2.5 cm working distance: j = 0.004 × (10 − (−40)) ÷ 60 = 0.0033 m, about 3.3 mm.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "checklist": {
@@ -61,7 +123,9 @@
           "Look at the periphery as far as possible.",
           "Ask the patient to look at the light to view the macula last.",
           "Repeat for the left eye and record (with a drawing)."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "PEG"
       },
       "flashcards": [
         {
@@ -88,30 +152,57 @@
       "mcq": [
         {
           "id": "peg-do-1",
-          "q": "You're examining the patient's left eye. Which eye and hand do you use?",
+          "q": "A student examines a patient's left eye using their own right eye. What problem will they meet?",
           "options": [
             {
-              "text": "Your left eye and left hand",
+              "text": "Their noses collide and they can't get close, so the field shrinks",
               "correct": true,
-              "feedback": "Yes — same side as the patient's eye."
+              "feedback": "Yes: use your left eye and hand."
             },
             {
-              "text": "Your right eye and right hand",
+              "text": "None",
               "correct": false,
-              "feedback": "That's for their right eye."
+              "feedback": "It's awkward and limits the view."
             },
             {
-              "text": "Either — whichever is more comfortable",
+              "text": "The image will be inverted",
               "correct": false,
-              "feedback": "Using the matching side avoids blocking fixation and bumping noses."
+              "feedback": "Direct gives an upright image."
             },
             {
-              "text": "Your dominant eye",
+              "text": "The lens wheel won't work",
               "correct": false,
-              "feedback": "Dominance doesn't decide it."
+              "feedback": "It will."
             }
           ],
-          "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target."
+          "explanation": "Use your left eye and left hand for the patient's left eye, and your right for their right, so you can get close.",
+          "original": {
+            "q": "You're examining the patient's left eye. Which eye and hand do you use?",
+            "options": [
+              {
+                "text": "Your left eye and left hand",
+                "correct": true,
+                "feedback": "Yes — same side as the patient's eye."
+              },
+              {
+                "text": "Your right eye and right hand",
+                "correct": false,
+                "feedback": "That's for their right eye."
+              },
+              {
+                "text": "Either — whichever is more comfortable",
+                "correct": false,
+                "feedback": "Using the matching side avoids blocking fixation and bumping noses."
+              },
+              {
+                "text": "Your dominant eye",
+                "correct": false,
+                "feedback": "Dominance doesn't decide it."
+              }
+            ],
+            "explanation": "Matching sides keeps your head out of the patient's line of sight so they can fixate the distant target."
+          },
+          "needsReview": true
         },
         {
           "id": "peg-oh-1",
@@ -174,30 +265,57 @@
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0052",
-          "q": "Which aperture do you use for the macula?",
+          "q": "The patient's pupil constricts sharply and they squint whenever you look at the macula. Which aperture helps?",
           "options": [
             {
-              "text": "The macular stop",
+              "text": "The macular stop (a small aperture)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Red-free",
+              "text": "The large aperture",
               "correct": false,
-              "feedback": "For vessels and the nerve fibre layer."
+              "feedback": "More light and reflections."
             },
             {
-              "text": "Cobalt blue",
+              "text": "The slit",
+              "correct": false,
+              "feedback": "For elevation."
+            },
+            {
+              "text": "The cobalt filter",
               "correct": false,
               "feedback": "For fluorescein."
-            },
-            {
-              "text": "Slit",
-              "correct": false,
-              "feedback": "For contours."
             }
           ],
-          "explanation": ""
+          "explanation": "The macular stop reduces glare and pupil constriction when viewing the macula.",
+          "original": {
+            "q": "Which aperture do you use for the macula?",
+            "options": [
+              {
+                "text": "The macular stop",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Red-free",
+                "correct": false,
+                "feedback": "For vessels and the nerve fibre layer."
+              },
+              {
+                "text": "Cobalt blue",
+                "correct": false,
+                "feedback": "For fluorescein."
+              },
+              {
+                "text": "Slit",
+                "correct": false,
+                "feedback": "For contours."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0053",
@@ -255,17 +373,17 @@
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0055",
-          "q": "What happens to field of view through a direct ophthalmoscope as myopia increases?",
+          "q": "You switch from examining a −8.00 D myope to an emmetrope with the same pupil size. How does your field of view through the direct ophthalmoscope change?",
           "options": [
             {
-              "text": "It shrinks",
+              "text": "It gets larger",
               "correct": true,
-              "feedback": "Yes; it grows with hyperopia."
+              "feedback": "Yes: the field shrinks as myopia increases."
             },
             {
-              "text": "It grows",
+              "text": "It gets smaller",
               "correct": false,
-              "feedback": "That's hyperopia."
+              "feedback": "No."
             },
             {
               "text": "It stays the same",
@@ -278,7 +396,34 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Field of view shrinks with higher myopia, longer working distance and smaller pupils.",
+          "original": {
+            "q": "What happens to field of view through a direct ophthalmoscope as myopia increases?",
+            "options": [
+              {
+                "text": "It shrinks",
+                "correct": true,
+                "feedback": "Yes; it grows with hyperopia."
+              },
+              {
+                "text": "It grows",
+                "correct": false,
+                "feedback": "That's hyperopia."
+              },
+              {
+                "text": "It stays the same",
+                "correct": false,
+                "feedback": "It changes."
+              },
+              {
+                "text": "It disappears",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x0056",
@@ -1146,10 +1291,10 @@
         },
         {
           "id": "peg-direct-ophthalmoscopy-x03321",
-          "q": "How should you hold the ophthalmoscope for the patient's right eye?",
+          "q": "Which of these is a correct set-up for the patient's right eye?",
           "options": [
             {
-              "text": "In your right hand, looking with your right eye",
+              "text": "Ophthalmoscope in your right hand, looking with your right eye, approaching from the patient's right",
               "correct": true,
               "feedback": "Yes."
             },
@@ -1159,17 +1304,44 @@
               "feedback": "That's for their left eye."
             },
             {
-              "text": "Either",
+              "text": "Right hand, left eye",
               "correct": false,
-              "feedback": "Use matching sides."
+              "feedback": "Awkward and limits the view."
             },
             {
-              "text": "Both hands",
+              "text": "Either, as long as the lights are on",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Lights should be dimmed."
             }
           ],
-          "explanation": ""
+          "explanation": "Use your right hand and right eye for the patient's right eye.",
+          "original": {
+            "q": "How should you hold the ophthalmoscope for the patient's right eye?",
+            "options": [
+              {
+                "text": "In your right hand, looking with your right eye",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Left hand, left eye",
+                "correct": false,
+                "feedback": "That's for their left eye."
+              },
+              {
+                "text": "Either",
+                "correct": false,
+                "feedback": "Use matching sides."
+              },
+              {
+                "text": "Both hands",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-direct-ophthalmoscopy-x03322",
@@ -1438,20 +1610,68 @@
       "id": "peg-indirect-volk",
       "title": "Slit lamp indirect ophthalmoscopy with condensing lenses",
       "summary": "Slit lamp biomicroscopy with a high-plus condensing lens gives a stereoscopic, wide, variable-magnification view of the fundus. The image is real, aerial, inverted and laterally reversed. Know the indications, the lens powers, and the set-up.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Indications: symptomatic patients, a new patient, reduced VA (often unexplained), known retinal pathology, systemic disease with retinal effects, cataract and high myopia.",
-        "Binocular and stereoscopic, with a variable (potentially large) field, variable magnification and a longer working distance.",
-        "Lens table at a 16x slit lamp: SuperField and +90 D give 0.76x image magnification (about 12x) with a wide field; +78 D gives 0.93x (about 14x) with a narrower field; +60 D about 18x; +20 D gives 3x (used with headset BIO).",
-        "Lower-power lenses magnify more and have a narrower field.",
-        "Set-up: illumination in line with the microscope, moderate parallelepiped, low (10x) magnification, focus on the cornea, lens 5–11 mm from the eye (further for lower powers) with the 'V' pointing to the eye.",
-        "Pull the slit lamp back: the lens surface focuses first, then a blurred red reflex, then the fundus. Use all 8 positions of gaze for the periphery.",
-        "The −55 D Hruby lens gives a virtual, erect image but a field of only 5–8° (about a disc diameter) and is hard to keep in focus.",
-        "Advantages of binocular indirect over direct: stereo, larger field, beyond the equator, works through cataract and high ametropia, longer working distance."
+        {
+          "text": "Indications: symptomatic patients, a new patient, reduced VA (often unexplained), known retinal pathology, systemic disease with retinal effects, cataract and high myopia.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Binocular and stereoscopic, with a variable (potentially large) field, variable magnification and a longer working distance.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Lens table at a 16x slit lamp: SuperField and +90 D give 0.76x image magnification (about 12x) with a wide field; +78 D gives 0.93x (about 14x) with a narrower field; +60 D about 18x; +20 D gives 3x (used with headset BIO).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Lower-power lenses magnify more and have a narrower field.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Set-up: illumination in line with the microscope, moderate parallelepiped, low (10x) magnification, focus on the cornea, lens 5–11 mm from the eye (further for lower powers) with the 'V' pointing to the eye.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Pull the slit lamp back: the lens surface focuses first, then a blurred red reflex, then the fundus. Use all 8 positions of gaze for the periphery.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "The −55 D Hruby lens gives a virtual, erect image but a field of only 5–8° (about a disc diameter) and is hard to keep in focus.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Advantages of binocular indirect over direct: stereo, larger field, beyond the equator, works through cataract and high ametropia, longer working distance.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Forgetting the image is inverted and reversed when recording where a lesion is.",
-        "Holding the lens the wrong way round: the 'V' on a Volk lens points towards the eye.",
-        "Thinking higher-power lenses magnify more: they give a wider field and less magnification."
+        {
+          "text": "Forgetting the image is inverted and reversed when recording where a lesion is.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Holding the lens the wrong way round: the 'V' on a Volk lens points towards the eye.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Thinking higher-power lenses magnify more: they give a wider field and less magnification.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "volk-optics",
@@ -1466,11 +1686,15 @@
       "goDeeper": [
         {
           "heading": "Lecture MCQs",
-          "body": "As magnification increases, field decreases. As Volk lens power decreases, magnification increases. For a first-time 21-year-old with no history, the lecture's answer is slit lamp biomicroscopy with a high-plus lens, because 'new patient' is an indication."
+          "body": "As magnification increases, field decreases. As Volk lens power decreases, magnification increases. For a first-time 21-year-old with no history, the lecture's answer is slit lamp biomicroscopy with a high-plus lens, because 'new patient' is an indication.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "Dilation for the view",
-          "body": "Dilating (e.g. tropicamide) gives a much better view, especially of the periphery; check the angle and IOP first, as in the week 5 and 9 lectures."
+          "body": "Dilating (e.g. tropicamide) gives a much better view, especially of the periphery; check the angle and IOP first, as in the week 5 and 9 lectures.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -1654,57 +1878,111 @@
         },
         {
           "id": "peg-indirect-volk-x0052",
-          "q": "What kind of image does a +90 D lens give?",
+          "q": "Through a +90 D lens, a haemorrhage appears at the top left of your view. Where is it in the fundus?",
           "options": [
             {
-              "text": "Real, aerial, inverted and laterally reversed",
+              "text": "Bottom right (inferior and on the opposite side)",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the image is inverted and laterally reversed."
             },
             {
-              "text": "Virtual and erect",
+              "text": "Top left",
               "correct": false,
-              "feedback": "That's the Hruby lens."
+              "feedback": "The image is inverted."
             },
             {
-              "text": "Real and erect",
+              "text": "Top right",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's inverted vertically too."
             },
             {
-              "text": "Virtual and inverted",
+              "text": "Bottom left",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's reversed sideways too."
             }
           ],
-          "explanation": ""
+          "explanation": "A condensing lens forms a real, aerial, inverted and laterally reversed image.",
+          "original": {
+            "q": "What kind of image does a +90 D lens give?",
+            "options": [
+              {
+                "text": "Real, aerial, inverted and laterally reversed",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Virtual and erect",
+                "correct": false,
+                "feedback": "That's the Hruby lens."
+              },
+              {
+                "text": "Real and erect",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Virtual and inverted",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0053",
-          "q": "How far from the cornea is a condensing lens held?",
+          "q": "You switch from a +90 D lens to a +60 D lens. How should you change the lens position?",
           "options": [
             {
-              "text": "About 5–11 mm, further for lower powers",
+              "text": "Hold it a little further from the cornea",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: lower powers sit further away."
             },
             {
-              "text": "Touching the cornea",
+              "text": "Hold it closer",
               "correct": false,
-              "feedback": "That's a contact lens."
+              "feedback": "Higher powers sit closer."
             },
             {
-              "text": "50 cm",
+              "text": "Touch the cornea",
               "correct": false,
-              "feedback": "That's headset BIO with +20 D."
+              "feedback": "Non-contact."
             },
             {
-              "text": "2 m",
+              "text": "No change",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It changes."
             }
           ],
-          "explanation": ""
+          "explanation": "Condensing lenses are held about 5–11 mm from the cornea, further for lower powers.",
+          "original": {
+            "q": "How far from the cornea is a condensing lens held?",
+            "options": [
+              {
+                "text": "About 5–11 mm, further for lower powers",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Touching the cornea",
+                "correct": false,
+                "feedback": "That's a contact lens."
+              },
+              {
+                "text": "50 cm",
+                "correct": false,
+                "feedback": "That's headset BIO with +20 D."
+              },
+              {
+                "text": "2 m",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0054",
@@ -1816,7 +2094,7 @@
         },
         {
           "id": "peg-indirect-volk-x0163",
-          "q": "Why is slit lamp indirect ophthalmoscopy better than direct for the disc?",
+          "q": "You can't tell from the direct ophthalmoscope whether a disc is cupped or swollen. Why does slit lamp indirect ophthalmoscopy help?",
           "options": [
             {
               "text": "It gives a stereoscopic view",
@@ -1826,20 +2104,47 @@
             {
               "text": "It's upright",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's inverted."
             },
             {
-              "text": "It doesn't need dilation",
+              "text": "It has more magnification than direct",
               "correct": false,
-              "feedback": "Better dilated."
+              "feedback": "Usually less."
             },
             {
-              "text": "It's monocular",
+              "text": "It needs no dilation",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Easier with dilation."
             }
           ],
-          "explanation": ""
+          "explanation": "The binocular microscope gives a stereo view of the disc, showing depth.",
+          "original": {
+            "q": "Why is slit lamp indirect ophthalmoscopy better than direct for the disc?",
+            "options": [
+              {
+                "text": "It gives a stereoscopic view",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "It's upright",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It doesn't need dilation",
+                "correct": false,
+                "feedback": "Better dilated."
+              },
+              {
+                "text": "It's monocular",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-indirect-volk-x0164",
@@ -2856,20 +3161,68 @@
     {
       "id": "peg-optic-disc",
       "title": "Optic disc assessment",
-      "summary": "Assess the disc for cup depth, rim colour, CD ratio, the ISNT rule, margins and any crescent or parapapillary atrophy, judging the cup by its contour and remembering that bigger discs have bigger cups.",
+      "summary": "Assess the disc for cup depth, rim colour, CD ratio, the ISNT pattern of rim thickness, margins and any crescent or parapapillary atrophy, judging the cup by its contour and remembering that bigger discs have bigger cups. ISNT is a guide to what many healthy discs look like, not a test on its own.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG",
+        "needsReview": true
+      },
       "keyPoints": [
-        "What to record: CD ratio (vertical), cup depth (deep, medium, shallow), rim colour (pink/orange), margins (distinct or not), ISNT, and any crescent or parapapillary atrophy.",
-        "ISNT rule: the neuroretinal rim is usually thickest inferiorly, then superiorly, nasally and temporally. A disc that breaks it raises suspicion, especially with a large CD ratio.",
-        "Judge the cup by its contour (where the vessels bend), which can be larger than the colour cup (the pale area).",
-        "CD ratio rises with disc size (Blue Mountains Eye Study: average disc 1.5 mm), so a large cup in a large disc may be normal, and a CD of 0.6 may be non-pathological.",
-        "No cupping doesn't mean pathology: small discs often have little or no cup.",
-        "Glaucoma changes (week 11): progressive deepening and vertical enlargement of the cup, rim loss, and nasal displacement of the vessels.",
-        "Normal variations include myopic and choroidal crescents and a visible lamina cribrosa."
+        {
+          "text": "What to record: CD ratio (vertical), cup depth (deep, medium, shallow), rim colour (pink/orange), margins (distinct or not), ISNT, and any crescent or parapapillary atrophy.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "ISNT rule: in many healthy eyes the neuroretinal rim is thickest inferiorly, then superiorly, nasally and temporally. A disc that breaks this pattern is a reason to look more closely, especially with a large CD ratio, but it can't be used alone.",
+          "priority": "exam-core",
+          "module": "PEG",
+          "why": "The rim is made of retinal ganglion cell axons entering the disc. The largest nerve fibre bundles, the superior and inferior arcuate bundles, carry fibres from a wide sweep of retina above and below the fovea and enter the disc at its upper and lower poles, so the rim is thickest there. The papillomacular bundle enters on the temporal side; it serves the macula with many fine axons packed into a narrow sector, so the temporal rim is usually the thinnest. Nasal fibres come from a smaller area of retina. The disc is also usually slightly taller than it is wide, which adds to the inferior and superior rim.",
+          "limits": "Many healthy discs don't follow the full order, and the inferior and superior rims are often about equal. The pattern is less reliable in small, large, tilted or myopic discs. Glaucoma tends to thin the inferior and superior poles first, so a breach is a prompt to check disc size, CD asymmetry, haemorrhages, the nerve fibre layer, OCT and fields. It cannot diagnose or exclude glaucoma by itself.",
+          "needsReview": true
+        },
+        {
+          "text": "Judge the cup by its contour (where the vessels bend), which can be larger than the colour cup (the pale area).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "CD ratio rises with disc size (Blue Mountains Eye Study: average disc 1.5 mm), so a large cup in a large disc may be normal, and a CD of 0.6 may be non-pathological.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "No cupping doesn't mean pathology: small discs often have little or no cup.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Glaucoma changes (week 11): progressive deepening and vertical enlargement of the cup, rim loss, and nasal displacement of the vessels.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Normal variations include myopic and choroidal crescents and a visible lamina cribrosa.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Judging the cup by colour instead of contour.",
-        "Ignoring disc size when deciding if a CD ratio is abnormal.",
-        "Calling a disc with no cup abnormal."
+        {
+          "text": "Judging the cup by colour instead of contour.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Ignoring disc size when deciding if a CD ratio is abnormal.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Calling a disc with no cup abnormal.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "optic-disc",
@@ -2886,11 +3239,17 @@
       "goDeeper": [
         {
           "heading": "Worked SAQ: the ISNT rule",
-          "body": "It describes the expected relative rim thickness: inferior thickest, then superior, nasal and temporal. It helps decide whether a disc with a large CD ratio is likely to be healthy."
+          "body": "It describes the relative rim thickness seen in many healthy discs: inferior thickest, then superior, nasal and temporal. It helps you judge whether a disc with a large CD ratio is likely to be healthy, but it is a guide only: many healthy discs don't follow it, so always combine it with disc size, the rest of the disc assessment, OCT and fields.",
+          "priority": "exam-core",
+          "module": "PEG",
+          "limits": "Answer SAQs by naming ISNT as a pattern seen in many healthy discs, explaining the nerve fibre anatomy behind it, and stating that it can't be used on its own.",
+          "needsReview": true
         },
         {
           "heading": "Other glaucoma disc signs",
-          "body": "Rim notching, disc haemorrhages (Drance), beta-zone parapapillary atrophy, baring of circumlinear vessels and bayoneting. A CD asymmetry over about 0.2 between similar-sized discs is suspicious. A pale rim (rather than cup) suggests a non-glaucomatous optic neuropathy, and swollen discs need urgent assessment."
+          "body": "Rim notching, disc haemorrhages (Drance), beta-zone parapapillary atrophy, baring of circumlinear vessels and bayoneting. A CD asymmetry over about 0.2 between similar-sized discs is suspicious. A pale rim (rather than cup) suggests a non-glaucomatous optic neuropathy, and swollen discs need urgent assessment.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "labelDiagram": {
@@ -3037,57 +3396,111 @@
         },
         {
           "id": "peg-optic-disc-x0052",
-          "q": "The ISNT rule says the rim is thinnest",
+          "q": "A disc's rim is thinnest inferiorly. How does this compare with the ISNT pattern seen in many healthy discs?",
           "options": [
             {
-              "text": "temporally",
+              "text": "It breaks it: in ISNT the rim is usually thinnest temporally, so look further",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "inferiorly",
+              "text": "It follows it",
               "correct": false,
-              "feedback": "Thickest."
+              "feedback": "Inferior is usually thickest."
             },
             {
-              "text": "superiorly",
+              "text": "ISNT doesn't concern rim thickness",
               "correct": false,
-              "feedback": "Second thickest."
+              "feedback": "It does."
             },
             {
-              "text": "nasally",
+              "text": "It proves glaucoma",
               "correct": false,
-              "feedback": "Third."
+              "feedback": "ISNT can't be used alone."
             }
           ],
-          "explanation": ""
+          "explanation": "In the ISNT pattern the rim is thickest inferiorly and thinnest temporally; a breach is a prompt to look further, not a diagnosis.",
+          "original": {
+            "q": "The ISNT rule says the rim is thinnest",
+            "options": [
+              {
+                "text": "temporally",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "inferiorly",
+                "correct": false,
+                "feedback": "Thickest."
+              },
+              {
+                "text": "superiorly",
+                "correct": false,
+                "feedback": "Second thickest."
+              },
+              {
+                "text": "nasally",
+                "correct": false,
+                "feedback": "Third."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0053",
-          "q": "Which cup should you judge the CD ratio by?",
+          "q": "A disc's pale area covers 0.3 of the disc, but the vessels bend at 0.5. What CD ratio should you record?",
           "options": [
             {
-              "text": "The contour cup (where vessels bend)",
+              "text": "0.5",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: judge by the contour cup."
             },
             {
-              "text": "The colour cup (pale area)",
+              "text": "0.3",
               "correct": false,
-              "feedback": "Can underestimate."
+              "feedback": "That's the colour cup."
             },
             {
-              "text": "The disc margin",
+              "text": "0.4",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Don't average."
             },
             {
-              "text": "The macula",
+              "text": "0.8",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Judge the cup by its contour (where the vessels bend), which can be larger than the pale colour cup.",
+          "original": {
+            "q": "Which cup should you judge the CD ratio by?",
+            "options": [
+              {
+                "text": "The contour cup (where vessels bend)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The colour cup (pale area)",
+                "correct": false,
+                "feedback": "Can underestimate."
+              },
+              {
+                "text": "The disc margin",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The macula",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-optic-disc-x0054",
@@ -4252,17 +4665,53 @@
       "id": "peg-macula-vessels",
       "title": "Macula and retinal vessels: what normal looks like",
       "summary": "Know what the normal macula and vessels look like, record them descriptively, and recognise common normal variations so you don't over-refer.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Macula: even colour, may look darker than the surrounding retina; foveal reflex present (often absent with age-related changes or drusen). The foveal reflex lies temporal to the disc.",
-        "A:V ratio describes relative vessel width, not number: arterioles are narrower, so 2:3 or 1:2 is normal (3:2 is not).",
-        "Look for nipping at crossings, tortuosity and narrowing: signs of systemic disease such as hypertension.",
-        "Normal variations: tigroid (tessellated) fundus, most often in myopes with thinner retinas; visible choroidal vessels; crescents.",
-        "Record the fundus and macula descriptively, e.g. 'even colour', 'foveal reflex present', 'A:V 2:3, even calibre, no nipping'."
+        {
+          "text": "Macula: even colour, may look darker than the surrounding retina; foveal reflex present (often absent with age-related changes or drusen). The foveal reflex lies temporal to the disc.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "A:V ratio describes relative vessel width, not number: arterioles are narrower, so 2:3 or 1:2 is normal (3:2 is not).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Look for nipping at crossings, tortuosity and narrowing: signs of systemic disease such as hypertension.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Normal variations: tigroid (tessellated) fundus, most often in myopes with thinner retinas; visible choroidal vessels; crescents.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Record the fundus and macula descriptively, e.g. 'even colour', 'foveal reflex present', 'A:V 2:3, even calibre, no nipping'.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Saying a normal A:V ratio is 3:2.",
-        "Calling a tessellated myopic fundus abnormal.",
-        "Skipping the macula because the light is uncomfortable: switch to the macular stop and do it last."
+        {
+          "text": "Saying a normal A:V ratio is 3:2.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Calling a tessellated myopic fundus abnormal.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Skipping the macula because the light is uncomfortable: switch to the macular stop and do it last.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "normal-fundus",
@@ -4279,7 +4728,9 @@
       "goDeeper": [
         {
           "heading": "More on normal vessels",
-          "body": "Arteries are lighter red with a brighter central light reflex; veins are wider and darker. At normal crossings the vein isn't narrowed or deflected. Spontaneous venous pulsation at the disc is seen in many normal eyes, but its absence alone isn't diagnostic."
+          "body": "Arteries are lighter red with a brighter central light reflex; veins are wider and darker. At normal crossings the vein isn't narrowed or deflected. Spontaneous venous pulsation at the disc is seen in many normal eyes, but its absence alone isn't diagnostic.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "labelDiagram": {
@@ -4394,30 +4845,57 @@
         },
         {
           "id": "peg-macula-vessels-x0053",
-          "q": "AV nipping at crossings is a sign of",
+          "q": "You see AV nipping and arteriolar narrowing in a 60-year-old. What's the most appropriate action?",
           "options": [
             {
-              "text": "systemic disease such as hypertension",
+              "text": "Advise a BP check with the GP",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: these suggest hypertension."
             },
             {
-              "text": "myopia",
+              "text": "Emergency referral",
+              "correct": false,
+              "feedback": "Not without severe signs."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Act."
+            },
+            {
+              "text": "New glasses",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "glaucoma",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "normal ageing only",
-              "correct": false,
-              "feedback": "It's worth noting."
             }
           ],
-          "explanation": ""
+          "explanation": "AV nipping, narrowing and tortuosity are signs of systemic disease such as hypertension.",
+          "original": {
+            "q": "AV nipping at crossings is a sign of",
+            "options": [
+              {
+                "text": "systemic disease such as hypertension",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "normal ageing only",
+                "correct": false,
+                "feedback": "It's worth noting."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0054",
@@ -4529,30 +5007,57 @@
         },
         {
           "id": "peg-macula-vessels-x0058",
-          "q": "Recording example for the macula?",
+          "q": "Which macular record is most useful?",
           "options": [
             {
-              "text": "'Even colour, foveal reflex present'",
+              "text": "'Macula: even colour, foveal reflex present, no haemorrhages or drusen'",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "'NAD'",
+              "text": "'Macula: fine'",
               "correct": false,
-              "feedback": "Too vague."
+              "feedback": "Not descriptive."
             },
             {
-              "text": "'Fine'",
+              "text": "'OK'",
               "correct": false,
-              "feedback": "Too vague."
+              "feedback": "No."
             },
             {
-              "text": "'Checked'",
+              "text": "Leaving it blank",
               "correct": false,
-              "feedback": "Too vague."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Record the macula descriptively, e.g. 'even colour, foveal reflex present'.",
+          "original": {
+            "q": "Recording example for the macula?",
+            "options": [
+              {
+                "text": "'Even colour, foveal reflex present'",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "'NAD'",
+                "correct": false,
+                "feedback": "Too vague."
+              },
+              {
+                "text": "'Fine'",
+                "correct": false,
+                "feedback": "Too vague."
+              },
+              {
+                "text": "'Checked'",
+                "correct": false,
+                "feedback": "Too vague."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x0059",
@@ -5393,30 +5898,57 @@
         },
         {
           "id": "peg-macula-vessels-x03321",
-          "q": "Arteries have a",
+          "q": "Two vessels cross near the disc. One is lighter, narrower and has a bright central light reflex. What is it?",
           "options": [
             {
-              "text": "brighter central light reflex than veins",
+              "text": "An artery (arteriole)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "darker colour",
+              "text": "A vein",
               "correct": false,
-              "feedback": "Veins."
+              "feedback": "Darker and wider."
             },
             {
-              "text": "wider calibre",
+              "text": "A haemorrhage",
               "correct": false,
-              "feedback": "Veins."
+              "feedback": "No."
             },
             {
-              "text": "no reflex",
+              "text": "A nerve fibre",
               "correct": false,
-              "feedback": "They have one."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Arteries are lighter and narrower with a brighter central reflex; veins are darker and wider.",
+          "original": {
+            "q": "Arteries have a",
+            "options": [
+              {
+                "text": "brighter central light reflex than veins",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "darker colour",
+                "correct": false,
+                "feedback": "Veins."
+              },
+              {
+                "text": "wider calibre",
+                "correct": false,
+                "feedback": "Veins."
+              },
+              {
+                "text": "no reflex",
+                "correct": false,
+                "feedback": "They have one."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-macula-vessels-x03322",
@@ -5679,19 +6211,66 @@
       "id": "peg-tonometry",
       "title": "Tonometry: Goldmann applanation and non-contact",
       "summary": "Goldmann applanation tonometry (GAT) is the reference standard for IOP. It flattens a 3.06 mm diameter area of cornea and uses the Imbert–Fick principle. Non-contact tonometry (NCT) is quicker and needs no anaesthetic, so it's widely used for screening.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Imbert–Fick principle: pressure = force ÷ area (W = P × A) for a thin, flat, dry membrane.",
-        "GAT flattens a 3.06 mm diameter area, where corneal rigidity and tear film surface tension roughly cancel out.",
-        "GAT needs topical anaesthetic and fluorescein; view with cobalt blue light.",
-        "End point: inner edges of the two green semicircles (mires) just touch; dial reading × 10 = mmHg.",
-        "Thick corneas over-read IOP; thin corneas under-read (CCT matters).",
-        "NCT: an air puff flattens the cornea; take several readings and average them.",
-        "Normal IOP is roughly 10–21 mmHg; it varies through the day (often highest in the morning)."
+        {
+          "text": "Imbert–Fick principle: pressure = force ÷ area (W = P × A) for a thin, flat, dry membrane.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "GAT flattens a 3.06 mm diameter area, where corneal rigidity and tear film surface tension roughly cancel out.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "GAT needs topical anaesthetic and fluorescein; view with cobalt blue light.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "End point: inner edges of the two green semicircles (mires) just touch; dial reading × 10 = mmHg.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Thick corneas over-read IOP; thin corneas under-read (CCT matters).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "NCT: an air puff flattens the cornea; take several readings and average them.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Normal IOP is roughly 10–21 mmHg; it varies through the day (often highest in the morning).",
+          "priority": "exam-core",
+          "module": "PEG",
+          "why": "The range is statistical, roughly the mean plus or minus two standard deviations in healthy adults; IOP also follows a daily rhythm.",
+          "limits": "Normal-tension glaucoma occurs within this range and many people above it never develop glaucoma, so IOP alone can't diagnose or exclude glaucoma.",
+          "needsReview": true
+        }
       ],
       "examTraps": [
-        "Mire rings too thick (too much fluorescein) → over-reading.",
-        "Pressing on the lids or the patient holding their breath, raising IOP.",
-        "Forgetting to disinfect the prism (or use a disposable tip)."
+        {
+          "text": "Mire rings too thick (too much fluorescein) → over-reading.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Pressing on the lids or the patient holding their breath, raising IOP.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Forgetting to disinfect the prism (or use a disposable tip).",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "gat-mires",
@@ -5705,15 +6284,21 @@
       "goDeeper": [
         {
           "heading": "GAT step by step",
-          "body": "Check for contraindications (e.g. corneal infection or abrasion, recent surgery), explain, instil anaesthetic and fluorescein, set the dial to about 10 mmHg, cobalt blue light with the beam fully open at about 60°, bring the prism gently to touch the central cornea, then adjust the dial until the inner edges of the mires meet. Read, multiply by 10, repeat, and record time and method."
+          "body": "Check for contraindications (e.g. corneal infection or abrasion, recent surgery), explain, instil anaesthetic and fluorescein, set the dial to about 10 mmHg, cobalt blue light with the beam fully open at about 60°, bring the prism gently to touch the central cornea, then adjust the dial until the inner edges of the mires meet. Read, multiply by 10, repeat, and record time and method.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "Corneal thickness and IOP",
-          "body": "GAT assumes an average central corneal thickness (about 520–540 µm). Thick corneas resist flattening and give falsely high readings; thin corneas (including after refractive surgery) give falsely low readings. Thin CCT is also an independent risk factor for glaucoma. Don't use simple correction formulas as exact — consider CCT in your overall risk assessment."
+          "body": "GAT assumes an average central corneal thickness (about 520–540 µm). Thick corneas resist flattening and give falsely high readings; thin corneas (including after refractive surgery) give falsely low readings. Thin CCT is also an independent risk factor for glaucoma. Don't use simple correction formulas as exact — consider CCT in your overall risk assessment.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "When NCT isn't enough",
-          "body": "NCT can be affected by tear film, blinking and anxiety, and is less accurate at high pressures. Raised NCT readings should be repeated and confirmed with Goldmann-type (contact) tonometry before acting, in line with NICE NG81."
+          "body": "NCT can be affected by tear film, blinking and anxiety, and is less accurate at high pressures. Raised NCT readings should be repeated and confirmed with Goldmann-type (contact) tonometry before acting, in line with NICE NG81.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "checklist": {
@@ -5730,7 +6315,9 @@
           "Adjust the dial until the inner edges of the mires touch.",
           "Read (× 10 = mmHg), repeat, and do the other eye.",
           "Record IOP, method and time; advise not to rub eyes while anaesthetised."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "PEG"
       },
       "flashcards": [
         {
@@ -5809,57 +6396,111 @@
         },
         {
           "id": "peg-tonometry-x0051",
-          "q": "What area does Goldmann applanation flatten?",
+          "q": "Why does Goldmann applanation flatten an area exactly 3.06 mm across?",
           "options": [
             {
-              "text": "3.06 mm diameter",
+              "text": "At that size corneal rigidity and tear surface tension roughly cancel, and 1 g reads as 10 mmHg",
               "correct": true,
-              "feedback": "Yes: where rigidity and tear surface tension roughly cancel."
+              "feedback": "Yes."
             },
             {
-              "text": "10 mm",
+              "text": "It matches the pupil",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "1 mm",
+              "text": "It's the largest area the prism allows",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the reason."
             },
             {
-              "text": "The whole cornea",
+              "text": "It avoids the need for anaesthetic",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "GAT flattens a 3.06 mm diameter area, chosen so that rigidity and surface tension roughly cancel.",
+          "original": {
+            "q": "What area does Goldmann applanation flatten?",
+            "options": [
+              {
+                "text": "3.06 mm diameter",
+                "correct": true,
+                "feedback": "Yes: where rigidity and tear surface tension roughly cancel."
+              },
+              {
+                "text": "10 mm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "1 mm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The whole cornea",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0052",
-          "q": "What is the GAT end point?",
+          "q": "During Goldmann tonometry the two green semicircles overlap a lot. What should you do?",
           "options": [
             {
-              "text": "The inner edges of the two green semicircles just touch",
+              "text": "Reduce the force until their inner edges just touch",
               "correct": true,
-              "feedback": "Yes; dial × 10 = mmHg."
+              "feedback": "Yes."
             },
             {
-              "text": "The mires overlap fully",
+              "text": "Increase the force",
               "correct": false,
-              "feedback": "Too much pressure."
+              "feedback": "That overlaps them more."
             },
             {
-              "text": "The mires are far apart",
+              "text": "Read it as it is",
               "correct": false,
-              "feedback": "Too little pressure."
+              "feedback": "Not the end point."
             },
             {
-              "text": "The cornea turns red",
+              "text": "Add more fluorescein",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the issue."
             }
           ],
-          "explanation": ""
+          "explanation": "The GAT end point is when the inner edges of the two mires just touch; dial reading × 10 = mmHg.",
+          "original": {
+            "q": "What is the GAT end point?",
+            "options": [
+              {
+                "text": "The inner edges of the two green semicircles just touch",
+                "correct": true,
+                "feedback": "Yes; dial × 10 = mmHg."
+              },
+              {
+                "text": "The mires overlap fully",
+                "correct": false,
+                "feedback": "Too much pressure."
+              },
+              {
+                "text": "The mires are far apart",
+                "correct": false,
+                "feedback": "Too little pressure."
+              },
+              {
+                "text": "The cornea turns red",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0053",
@@ -5890,57 +6531,111 @@
         },
         {
           "id": "peg-tonometry-x0054",
-          "q": "What does GAT need that NCT doesn't?",
+          "q": "A patient is allergic to topical anaesthetics. Which IOP method avoids them?",
           "options": [
             {
-              "text": "Topical anaesthetic and fluorescein",
+              "text": "Non-contact tonometry (or rebound tonometry)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "An air puff",
+              "text": "Goldmann",
               "correct": false,
-              "feedback": "That's NCT."
+              "feedback": "Needs anaesthetic."
             },
             {
-              "text": "Dilation",
+              "text": "Perkins",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Needs anaesthetic."
             },
             {
-              "text": "A dark room",
+              "text": "Tono-Pen",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Needs anaesthetic."
             }
           ],
-          "explanation": ""
+          "explanation": "GAT needs topical anaesthetic and fluorescein; NCT doesn't.",
+          "original": {
+            "q": "What does GAT need that NCT doesn't?",
+            "options": [
+              {
+                "text": "Topical anaesthetic and fluorescein",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "An air puff",
+                "correct": false,
+                "feedback": "That's NCT."
+              },
+              {
+                "text": "Dilation",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A dark room",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0055",
-          "q": "What's the Imbert-Fick principle?",
+          "q": "Which statement about the Imbert–Fick principle is wrong?",
           "options": [
             {
-              "text": "Pressure = force ÷ area for a thin, flat, dry membrane",
+              "text": "It assumes the cornea is thick, curved and wet",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it assumes a thin, flat, dry membrane."
             },
             {
-              "text": "Pressure = force × area",
+              "text": "It says pressure = force ÷ area",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Pressure is constant",
+              "text": "Goldmann's design works around its assumptions",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Pressure = area ÷ force",
+              "text": "The cornea doesn't fully meet its assumptions",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Imbert–Fick: pressure = force ÷ area for a thin, flat, dry membrane.",
+          "original": {
+            "q": "What's the Imbert-Fick principle?",
+            "options": [
+              {
+                "text": "Pressure = force ÷ area for a thin, flat, dry membrane",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Pressure = force × area",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Pressure is constant",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Pressure = area ÷ force",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0056",
@@ -5971,30 +6666,57 @@
         },
         {
           "id": "peg-tonometry-x0057",
-          "q": "When is IOP often highest?",
+          "q": "A glaucoma suspect's IOP is 18 mmHg at 4 pm. What should you consider?",
           "options": [
             {
-              "text": "In the morning",
+              "text": "IOP is often higher in the morning, so a reading at another time may differ",
               "correct": true,
-              "feedback": "Yes: it varies through the day."
+              "feedback": "Yes."
             },
             {
-              "text": "At midnight",
+              "text": "It's definitely normal all day",
               "correct": false,
-              "feedback": "Not usually given."
+              "feedback": "IOP varies."
             },
             {
-              "text": "After lunch",
+              "text": "IOP is lowest in the morning",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually higher."
             },
             {
-              "text": "It never varies",
+              "text": "Time of day doesn't matter",
               "correct": false,
               "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "IOP varies through the day and is often highest in the morning.",
+          "original": {
+            "q": "When is IOP often highest?",
+            "options": [
+              {
+                "text": "In the morning",
+                "correct": true,
+                "feedback": "Yes: it varies through the day."
+              },
+              {
+                "text": "At midnight",
+                "correct": false,
+                "feedback": "Not usually given."
+              },
+              {
+                "text": "After lunch",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It never varies",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x0058",
@@ -6916,7 +7638,7 @@
         },
         {
           "id": "peg-tonometry-x03424",
-          "q": "What's the 'gold standard' clinical tonometer?",
+          "q": "Your NCT reading and a hospital Goldmann reading differ. Which is usually taken as the reference?",
           "options": [
             {
               "text": "Goldmann applanation",
@@ -6939,7 +7661,34 @@
               "feedback": "Old."
             }
           ],
-          "explanation": ""
+          "explanation": "Goldmann applanation is the clinical gold standard.",
+          "original": {
+            "q": "What's the 'gold standard' clinical tonometer?",
+            "options": [
+              {
+                "text": "Goldmann applanation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "NCT",
+                "correct": false,
+                "feedback": "Screening."
+              },
+              {
+                "text": "Digital palpation",
+                "correct": false,
+                "feedback": "Crude."
+              },
+              {
+                "text": "Schiotz",
+                "correct": false,
+                "feedback": "Old."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-tonometry-x03425",
@@ -7121,19 +7870,63 @@
       "id": "peg-glaucoma-referral",
       "title": "Glaucoma: background and visual field analysis",
       "summary": "Glaucoma is an optic neuropathy with characteristic cupping and field loss, and IOP isn't part of the definition. Detect it with IOP, disc assessment and perimetry together from age 35, and read full-threshold fields systematically.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Classified by IOP: high-tension glaucoma, ocular hypertension, normal-tension and low-tension glaucoma. About 500,000 people in the UK have glaucoma.",
-        "Use the diagnostic triad (IOP, optic nerve head, perimetry) for everyone over 35, when risk becomes significant.",
-        "Mechanical theory: raised IOP compresses the lamina cribrosa and damages ganglion cell axons (doesn't explain normal-tension glaucoma). Vascular theory: reduced blood flow at the lamina causes ischaemia; low blood pressure adds risk.",
-        "Disc changes: deepening and vertical enlargement of the cup, rim loss, nasal vessel shift. Field defects: paracentral scotomas, enlarged blind spot, nasal step, arcuate scotoma.",
-        "Full-threshold perimetry is the standard for monitoring. Unreliable if fixation losses are over 20% or false negatives or positives over 33%.",
-        "MD reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal. The pattern deviation map reveals focal loss hidden under cataract.",
-        "Glaucoma hemifield test: compares mirror-image upper and lower sectors; outcomes are within normal limits, outside, borderline, general reduction or abnormally high sensitivity."
+        {
+          "text": "Classified by IOP: high-tension glaucoma, ocular hypertension, normal-tension and low-tension glaucoma. About 500,000 people in the UK have glaucoma.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Use the diagnostic triad (IOP, optic nerve head, perimetry) for everyone over 35, when risk becomes significant.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Mechanical theory: raised IOP compresses the lamina cribrosa and damages ganglion cell axons (doesn't explain normal-tension glaucoma). Vascular theory: reduced blood flow at the lamina causes ischaemia; low blood pressure adds risk.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Disc changes: deepening and vertical enlargement of the cup, rim loss, nasal vessel shift. Field defects: paracentral scotomas, enlarged blind spot, nasal step, arcuate scotoma.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Full-threshold perimetry is the standard for monitoring. Unreliable if fixation losses are over 20% or false negatives or positives over 33%.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "MD reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal. The pattern deviation map reveals focal loss hidden under cataract.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Glaucoma hemifield test: compares mirror-image upper and lower sectors; outcomes are within normal limits, outside, borderline, general reduction or abnormally high sensitivity.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Defining glaucoma by raised IOP.",
-        "Mistaking the learning effect (better second field) for improvement.",
-        "Reading the total deviation map alone when cataract coexists: check pattern deviation."
+        {
+          "text": "Defining glaucoma by raised IOP.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Mistaking the learning effect (better second field) for improvement.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Reading the total deviation map alone when cataract coexists: check pattern deviation.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "glaucoma-referral-flow",
@@ -7147,11 +7940,15 @@
       "goDeeper": [
         {
           "heading": "Reading a printout step by step",
-          "body": "Reliability, then greyscale, global indices, total and pattern deviation maps, the glaucoma hemifield test, and finally a diagnosis. Early glaucoma can show a nasal step with significant maps but modest MD and PSD."
+          "body": "Reliability, then greyscale, global indices, total and pattern deviation maps, the glaucoma hemifield test, and finally a diagnosis. Early glaucoma can show a nasal step with significant maps but modest MD and PSD.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "NICE referral criteria",
-          "body": "NICE NG81: refer for optic nerve damage or a repeatable field defect consistent with glaucoma, or IOP of 24 mmHg or more on repeat contact (Goldmann-type) tonometry. Suspected angle closure is referred too, and acute angle closure is an emergency. Follow local repeat-measurement or enhanced schemes. In England, first-degree relatives over 40 get free NHS sight tests. Risk factors include age, family history, Black African or Caribbean ethnicity, myopia and thin corneas."
+          "body": "NICE NG81: refer for optic nerve damage or a repeatable field defect consistent with glaucoma, or IOP of 24 mmHg or more on repeat contact (Goldmann-type) tonometry. Suspected angle closure is referred too, and acute angle closure is an emergency. Follow local repeat-measurement or enhanced schemes. In England, first-degree relatives over 40 get free NHS sight tests. Risk factors include age, family history, Black African or Caribbean ethnicity, myopia and thin corneas.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -7229,30 +8026,57 @@
         },
         {
           "id": "peg-glaucoma-referral-x0051",
-          "q": "Glaucoma is defined by",
+          "q": "A patient has IOP of 28 mmHg but healthy discs and full fields. Do they have glaucoma?",
           "options": [
             {
-              "text": "characteristic optic nerve cupping and field loss",
+              "text": "No: glaucoma is defined by characteristic optic nerve damage and field loss; this is ocular hypertension",
               "correct": true,
-              "feedback": "Yes; IOP isn't in the definition."
+              "feedback": "Yes."
             },
             {
-              "text": "IOP over 21 mmHg",
+              "text": "Yes, because IOP is high",
               "correct": false,
-              "feedback": "No."
+              "feedback": "IOP alone doesn't define it."
             },
             {
-              "text": "any field loss",
+              "text": "Yes, normal-tension glaucoma",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That has damage with normal IOP."
             },
             {
-              "text": "reduced VA",
+              "text": "It's angle closure",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not from this."
             }
           ],
-          "explanation": ""
+          "explanation": "Glaucoma is defined by characteristic cupping and field loss, not by IOP.",
+          "original": {
+            "q": "Glaucoma is defined by",
+            "options": [
+              {
+                "text": "characteristic optic nerve cupping and field loss",
+                "correct": true,
+                "feedback": "Yes; IOP isn't in the definition."
+              },
+              {
+                "text": "IOP over 21 mmHg",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "any field loss",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "reduced VA",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0052",
@@ -7310,84 +8134,165 @@
         },
         {
           "id": "peg-glaucoma-referral-x0054",
-          "q": "A field has 25% fixation losses. Is it reliable?",
+          "q": "A field printout shows 6 fixation losses out of 20. How should you treat it?",
           "options": [
             {
-              "text": "No: over 20% fixation losses is unreliable",
+              "text": "As unreliable: that's 30%, over the usual 20% limit",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Yes",
+              "text": "As reliable",
+              "correct": false,
+              "feedback": "Too many losses."
+            },
+            {
+              "text": "As proof of glaucoma",
+              "correct": false,
+              "feedback": "Reliability first."
+            },
+            {
+              "text": "As normal",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Only if false positives are high",
-              "correct": false,
-              "feedback": "Fixation losses alone over 20% count."
-            },
-            {
-              "text": "Reliability doesn't matter",
-              "correct": false,
-              "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Fixation losses over 20% usually make a field unreliable.",
+          "original": {
+            "q": "A field has 25% fixation losses. Is it reliable?",
+            "options": [
+              {
+                "text": "No: over 20% fixation losses is unreliable",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Yes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only if false positives are high",
+                "correct": false,
+                "feedback": "Fixation losses alone over 20% count."
+              },
+              {
+                "text": "Reliability doesn't matter",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0055",
-          "q": "Which index reflects focal loss?",
+          "q": "A field has a normal MD but a high PSD. What kind of loss does that suggest?",
           "options": [
             {
-              "text": "PSD (and CPSD)",
+              "text": "Focal loss, as in early glaucoma",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "MD",
+              "text": "Diffuse loss, as in cataract",
               "correct": false,
-              "feedback": "Diffuse loss."
+              "feedback": "That raises MD."
             },
             {
-              "text": "SF",
+              "text": "No loss",
               "correct": false,
-              "feedback": "Variability."
+              "feedback": "PSD is raised."
             },
             {
-              "text": "VFI",
+              "text": "Unreliable results",
               "correct": false,
-              "feedback": "Not discussed."
+              "feedback": "Not from this."
             }
           ],
-          "explanation": ""
+          "explanation": "MD reflects diffuse loss; PSD and CPSD reflect focal loss.",
+          "original": {
+            "q": "Which index reflects focal loss?",
+            "options": [
+              {
+                "text": "PSD (and CPSD)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "MD",
+                "correct": false,
+                "feedback": "Diffuse loss."
+              },
+              {
+                "text": "SF",
+                "correct": false,
+                "feedback": "Variability."
+              },
+              {
+                "text": "VFI",
+                "correct": false,
+                "feedback": "Not discussed."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0056",
-          "q": "Cataract and glaucoma coexist. Which map reveals the glaucoma?",
+          "q": "A patient with cataract has a generally depressed field. Which plot helps reveal a focal glaucomatous defect underneath?",
           "options": [
             {
               "text": "Pattern deviation",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it removes general depression."
             },
             {
               "text": "Total deviation",
               "correct": false,
-              "feedback": "Shows general depression."
+              "feedback": "Shows all loss."
             },
             {
-              "text": "Greyscale",
+              "text": "Grey scale",
               "correct": false,
               "feedback": "Hard to interpret."
             },
             {
-              "text": "Numeric",
+              "text": "Fixation monitor",
               "correct": false,
-              "feedback": "Hard to interpret."
+              "feedback": "Reliability."
             }
           ],
-          "explanation": ""
+          "explanation": "Pattern deviation removes general depression to show focal loss.",
+          "original": {
+            "q": "Cataract and glaucoma coexist. Which map reveals the glaucoma?",
+            "options": [
+              {
+                "text": "Pattern deviation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Total deviation",
+                "correct": false,
+                "feedback": "Shows general depression."
+              },
+              {
+                "text": "Greyscale",
+                "correct": false,
+                "feedback": "Hard to interpret."
+              },
+              {
+                "text": "Numeric",
+                "correct": false,
+                "feedback": "Hard to interpret."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0057",
@@ -7445,30 +8350,57 @@
         },
         {
           "id": "peg-glaucoma-referral-x0161",
-          "q": "Which is a risk factor for POAG?",
+          "q": "Which patient has the highest risk of developing POAG?",
           "options": [
             {
-              "text": "Family history",
+              "text": "A 65-year-old whose mother had glaucoma",
               "correct": true,
-              "feedback": "Yes, also age, African-Caribbean ethnicity, myopia and raised IOP."
+              "feedback": "Yes: age and family history."
             },
             {
-              "text": "Hyperopia only",
+              "text": "A 25-year-old with no family history",
               "correct": false,
-              "feedback": "That's for angle closure."
+              "feedback": "Low risk."
             },
             {
-              "text": "Being female",
+              "text": "A 40-year-old hyperope",
               "correct": false,
-              "feedback": "Angle closure."
+              "feedback": "More angle closure risk."
             },
             {
-              "text": "Contact lens wear",
+              "text": "A contact lens wearer",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not a risk factor."
             }
           ],
-          "explanation": ""
+          "explanation": "Risk factors include age, family history, raised IOP, African-Caribbean ethnicity and myopia.",
+          "original": {
+            "q": "Which is a risk factor for POAG?",
+            "options": [
+              {
+                "text": "Family history",
+                "correct": true,
+                "feedback": "Yes, also age, African-Caribbean ethnicity, myopia and raised IOP."
+              },
+              {
+                "text": "Hyperopia only",
+                "correct": false,
+                "feedback": "That's for angle closure."
+              },
+              {
+                "text": "Being female",
+                "correct": false,
+                "feedback": "Angle closure."
+              },
+              {
+                "text": "Contact lens wear",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-glaucoma-referral-x0162",
@@ -8541,19 +9473,63 @@
       "id": "peg-imaging",
       "title": "Fundus photography and OCT basics",
       "summary": "Fundus photos document what you see and help spot change over time. OCT (optical coherence tomography) gives cross-sections of the retina and measures layer thickness — invaluable for the macula and for nerve fibre layer analysis in glaucoma, as long as you know its pitfalls.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Fundus cameras: typically 45° field; widefield systems image much more of the retina in one shot.",
-        "Red-free (green) photos improve contrast of vessels, haemorrhages and the nerve fibre layer.",
-        "OCT uses low-coherence interferometry with near-infrared light to make cross-sectional images (like ultrasound, but with light).",
-        "Retinal layers seen on OCT include RNFL, ganglion cell layer, photoreceptor layers (ellipsoid zone) and RPE.",
-        "Macular OCT shows fluid, drusen, epiretinal membranes, macular holes and thickness maps.",
-        "RNFL and ganglion cell analysis are compared with a normative database (green/amber/red).",
-        "Check scan quality, centration and segmentation before trusting the colours ('red disease' and 'green disease')."
+        {
+          "text": "Fundus cameras: typically 45° field; widefield systems image much more of the retina in one shot.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Red-free (green) photos improve contrast of vessels, haemorrhages and the nerve fibre layer.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "OCT uses low-coherence interferometry with near-infrared light to make cross-sectional images (like ultrasound, but with light).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Retinal layers seen on OCT include RNFL, ganglion cell layer, photoreceptor layers (ellipsoid zone) and RPE.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Macular OCT shows fluid, drusen, epiretinal membranes, macular holes and thickness maps.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "RNFL and ganglion cell analysis are compared with a normative database (green/amber/red).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Check scan quality, centration and segmentation before trusting the colours ('red disease' and 'green disease').",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Trusting the coloured normative map without checking scan quality.",
-        "Forgetting high myopes may fall outside the normative database.",
-        "Assuming a normal OCT rules out every disease."
+        {
+          "text": "Trusting the coloured normative map without checking scan quality.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Forgetting high myopes may fall outside the normative database.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Assuming a normal OCT rules out every disease.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "diagram": {
         "id": "oct-macula",
@@ -8570,11 +9546,15 @@
       "goDeeper": [
         {
           "heading": "Reading a macular OCT",
-          "body": "Start with the foveal contour (is there a normal pit?). Then go layer by layer: anything above the retina (ERM, vitreomacular traction), within it (cysts, fluid), beneath it (subretinal fluid, drusen, PED). Compare the thickness map with the other eye and with previous scans."
+          "body": "Start with the foveal contour (is there a normal pit?). Then go layer by layer: anything above the retina (ERM, vitreomacular traction), within it (cysts, fluid), beneath it (subretinal fluid, drusen, PED). Compare the thickness map with the other eye and with previous scans.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "'Red disease' and 'green disease'",
-          "body": "Red disease: the scan flags thinning that isn't real (poor signal, segmentation errors, myopic eyes, floaters). Green disease: the scan looks normal but there's real pathology (early or focal loss, or a patient whose baseline was above average). Always combine OCT with the clinical picture, fields and photos."
+          "body": "Red disease: the scan flags thinning that isn't real (poor signal, segmentation errors, myopic eyes, floaters). Green disease: the scan looks normal but there's real pathology (early or focal loss, or a patient whose baseline was above average). Always combine OCT with the clinical picture, fields and photos.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -8626,30 +9606,57 @@
         },
         {
           "id": "peg-imaging-x0051",
-          "q": "How does OCT make images?",
+          "q": "Which statement about OCT is wrong?",
           "options": [
             {
-              "text": "Low-coherence interferometry with near-infrared light",
+              "text": "It uses ultrasound to image the retina",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it uses light."
             },
             {
-              "text": "Ultrasound",
+              "text": "It uses near-infrared light",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "X-rays",
+              "text": "It relies on low-coherence interferometry",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Fluorescein",
+              "text": "It produces cross-sectional images",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "OCT uses low-coherence interferometry with near-infrared light to make cross-sectional images.",
+          "original": {
+            "q": "How does OCT make images?",
+            "options": [
+              {
+                "text": "Low-coherence interferometry with near-infrared light",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Ultrasound",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "X-rays",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Fluorescein",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0052",
@@ -8680,30 +9687,57 @@
         },
         {
           "id": "peg-imaging-x0053",
-          "q": "Why use red-free photos?",
+          "q": "A colour fundus photo makes a subtle nerve fibre layer defect hard to see. What could help?",
           "options": [
             {
-              "text": "They improve contrast of vessels, haemorrhages and the nerve fibre layer",
+              "text": "A red-free (green) photo",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: better contrast for vessels, haemorrhages and RNFL."
             },
             {
-              "text": "To see colour",
+              "text": "A blue photo",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the usual choice."
             },
             {
-              "text": "To dilate the pupil",
+              "text": "An infrared photo",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not for RNFL contrast."
             },
             {
-              "text": "To measure IOP",
+              "text": "A darker photo",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Red-free photos improve contrast of vessels, haemorrhages and the nerve fibre layer.",
+          "original": {
+            "q": "Why use red-free photos?",
+            "options": [
+              {
+                "text": "They improve contrast of vessels, haemorrhages and the nerve fibre layer",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To see colour",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To dilate the pupil",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To measure IOP",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0054",
@@ -8761,12 +9795,17 @@
         },
         {
           "id": "peg-imaging-x0056",
-          "q": "Which can macular OCT show?",
+          "q": "A patient has distortion but a normal-looking macula on ophthalmoscopy. Which test is most likely to show the cause?",
           "options": [
             {
-              "text": "Fluid, drusen, epiretinal membranes and macular holes",
+              "text": "Macular OCT",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it shows fluid, membranes, holes and drusen."
+            },
+            {
+              "text": "Fields",
+              "correct": false,
+              "feedback": "Not first."
             },
             {
               "text": "IOP",
@@ -8774,71 +9813,147 @@
               "feedback": "No."
             },
             {
-              "text": "Visual fields",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Tear film",
+              "text": "Keratometry",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Macular OCT shows fluid, drusen, epiretinal membranes and macular holes.",
+          "original": {
+            "q": "Which can macular OCT show?",
+            "options": [
+              {
+                "text": "Fluid, drusen, epiretinal membranes and macular holes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "IOP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Visual fields",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Tear film",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0057",
-          "q": "What should you check before trusting OCT colour codes?",
+          "q": "An OCT shows red RNFL sectors, but the scan is off-centre with a low signal score. What should you do?",
           "options": [
             {
-              "text": "Scan quality, centration and segmentation",
+              "text": "Repeat the scan before trusting the result",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The patient's age only",
+              "text": "Refer for glaucoma",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Check quality first."
             },
             {
-              "text": "The time of day",
+              "text": "Ignore OCT entirely",
+              "correct": false,
+              "feedback": "Repeat it."
+            },
+            {
+              "text": "Increase the IOP",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "Always check."
             }
           ],
-          "explanation": ""
+          "explanation": "Check scan quality, centration and segmentation before trusting the colour codes.",
+          "original": {
+            "q": "What should you check before trusting OCT colour codes?",
+            "options": [
+              {
+                "text": "Scan quality, centration and segmentation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The patient's age only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "The time of day",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Always check."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0058",
-          "q": "OCT RNFL results are compared with",
+          "q": "A −10.00 D myope's RNFL scan shows several red sectors, but discs and fields look normal. Why might it be misleading?",
           "options": [
             {
-              "text": "a normative database (green, amber, red)",
+              "text": "The normative database may not include eyes like theirs",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "the other patient",
+              "text": "OCT can't scan myopes",
+              "correct": false,
+              "feedback": "It can."
+            },
+            {
+              "text": "Red always means glaucoma",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "the fundus photo",
+              "text": "Myopes have thicker RNFL",
               "correct": false,
-              "feedback": "Not directly."
-            },
-            {
-              "text": "the Rx",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Usually not."
             }
           ],
-          "explanation": ""
+          "explanation": "RNFL results are compared with a normative database, which often excludes high myopes.",
+          "original": {
+            "q": "OCT RNFL results are compared with",
+            "options": [
+              {
+                "text": "a normative database (green, amber, red)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "the other patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "the fundus photo",
+                "correct": false,
+                "feedback": "Not directly."
+              },
+              {
+                "text": "the Rx",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0059",
@@ -8869,30 +9984,57 @@
         },
         {
           "id": "peg-imaging-x0161",
-          "q": "OCT is based on",
+          "q": "Why can OCT measure retinal layer thickness in micrometres while a fundus camera can't?",
           "options": [
             {
-              "text": "low-coherence interferometry with near-infrared light",
+              "text": "OCT measures the echo delay of reflected light using interferometry",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "ultrasound",
+              "text": "OCT uses higher magnification",
+              "correct": false,
+              "feedback": "Not the principle."
+            },
+            {
+              "text": "OCT uses dye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "X-ray",
+              "text": "It can't",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "fluorescein",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "It can."
             }
           ],
-          "explanation": ""
+          "explanation": "OCT uses low-coherence interferometry with near-infrared light, giving axial resolution of a few micrometres.",
+          "original": {
+            "q": "OCT is based on",
+            "options": [
+              {
+                "text": "low-coherence interferometry with near-infrared light",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "ultrasound",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "X-ray",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "fluorescein",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-imaging-x0162",
@@ -9992,23 +11134,65 @@
       "id": "peg-peripheral-fundus",
       "title": "Peripheral fundus examination",
       "summary": "Seeing the retinal periphery: head-mounted binocular indirect ophthalmoscopy, the slit-lamp contact fundus lens and scleral indentation, with their indications and set-up.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Head-mounted BIO with +20 D: stereoscopic, about 45° field, about 3x, real inverted and reversed image; can show the entire retina.",
-        "Contact fundus (mirror) lens: virtual, erect, reversed image with a limited field per mirror; needs topical anaesthetic and coupling fluid. Choose the mirror 180° from the area of interest.",
-        "Scleral indentation: patient supine, headset BIO and +20 D. The patient first looks away from the area, the indenter goes on the lid fold, then the patient looks towards it.",
-        "Indentation indications: far-peripheral lesions, symptoms, tobacco dust (Shafer's sign), vitreous haemorrhage, previous detachment, high myopia, or a periphery hard to see optically.",
-        "Landmarks: ora serrata about 7 mm behind the limbus; equator about 13–14 mm.",
-        "Light safety: keep the rheostat at half power and don't view one area for more than 40 seconds."
+        {
+          "text": "Head-mounted BIO with +20 D: stereoscopic, about 45° field, about 3x, real inverted and reversed image; can show the entire retina.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Contact fundus (mirror) lens: virtual, erect, reversed image with a limited field per mirror; needs topical anaesthetic and coupling fluid. Choose the mirror 180° from the area of interest.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Scleral indentation: patient supine, headset BIO and +20 D. The patient first looks away from the area, the indenter goes on the lid fold, then the patient looks towards it.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Indentation indications: far-peripheral lesions, symptoms, tobacco dust (Shafer's sign), vitreous haemorrhage, previous detachment, high myopia, or a periphery hard to see optically.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Landmarks: ora serrata about 7 mm behind the limbus; equator about 13–14 mm.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Light safety: keep the rheostat at half power and don't view one area for more than 40 seconds.",
+          "priority": "clinical",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Saying a contact fundus lens doesn't need anaesthetic because of the coupling gel. It does.",
-        "Having the patient look away from the indenter during indentation. They look towards it.",
-        "Doing scleral indentation upright, or saying it is only for active detachment."
+        {
+          "text": "Saying a contact fundus lens doesn't need anaesthetic because of the coupling gel. It does.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Having the patient look away from the indenter during indentation. They look towards it.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Doing scleral indentation upright, or saying it is only for active detachment.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Ocular anaesthetics",
-          "body": "Examples are oxybuprocaine 0.4%, tetracaine 0.5%, proxymetacaine 0.5% and lidocaine 4%. They are highly toxic so use them sparingly; proxymetacaine must be refrigerated. Record dose, batch number and expiry of any drug used."
+          "body": "Examples are oxybuprocaine 0.4%, tetracaine 0.5%, proxymetacaine 0.5% and lidocaine 4%. They are highly toxic so use them sparingly; proxymetacaine must be refrigerated. Record dose, batch number and expiry of any drug used.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -10162,57 +11346,111 @@
         },
         {
           "id": "peg-peripheral-fundus-x0053",
-          "q": "Where is the ora serrata?",
+          "q": "During BIO you see the scalloped edge where the retina ends. Roughly how far behind the limbus is it?",
           "options": [
             {
-              "text": "About 7 mm behind the limbus",
+              "text": "About 7 mm",
               "correct": true,
-              "feedback": "Yes; equator 13–14 mm."
+              "feedback": "Yes: the ora serrata."
             },
             {
-              "text": "At the limbus",
+              "text": "About 1 mm",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too close."
             },
             {
-              "text": "About 20 mm behind",
+              "text": "About 13–14 mm",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the equator."
             },
             {
-              "text": "At the fovea",
+              "text": "About 25 mm",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The ora serrata is about 7 mm behind the limbus; the equator about 13–14 mm.",
+          "original": {
+            "q": "Where is the ora serrata?",
+            "options": [
+              {
+                "text": "About 7 mm behind the limbus",
+                "correct": true,
+                "feedback": "Yes; equator 13–14 mm."
+              },
+              {
+                "text": "At the limbus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "About 20 mm behind",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "At the fovea",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0054",
-          "q": "Which is an indication for scleral indentation?",
+          "q": "A patient with new flashes has pigment cells in the anterior vitreous but no visible break. What's the next step?",
           "options": [
             {
-              "text": "Tobacco dust (Shafer's sign)",
+              "text": "Scleral indentation to search the far periphery for a tear",
               "correct": true,
-              "feedback": "Yes, among others."
+              "feedback": "Yes."
             },
             {
-              "text": "Normal routine exam",
+              "text": "Reassure and discharge",
               "correct": false,
-              "feedback": "Not routine."
+              "feedback": "Tobacco dust suggests a tear."
             },
             {
-              "text": "Dry eye",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Presbyopia",
+              "text": "Refraction",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "IOP only",
+              "correct": false,
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "Tobacco dust (Shafer's sign) is an indication for scleral indentation to look for a break.",
+          "original": {
+            "q": "Which is an indication for scleral indentation?",
+            "options": [
+              {
+                "text": "Tobacco dust (Shafer's sign)",
+                "correct": true,
+                "feedback": "Yes, among others."
+              },
+              {
+                "text": "Normal routine exam",
+                "correct": false,
+                "feedback": "Not routine."
+              },
+              {
+                "text": "Dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0055",
@@ -10270,30 +11508,57 @@
         },
         {
           "id": "peg-peripheral-fundus-x0057",
-          "q": "Light safety guidance for fundus viewing says",
+          "q": "A student keeps the BIO at full power on the macula for two minutes. What's wrong?",
           "options": [
             {
-              "text": "rheostat at half power and no more than 40 seconds on one area",
+              "text": "It breaks light safety guidance: half power and no more than about 40 seconds on one area",
               "correct": true,
-              "feedback": "Yes (ANSI)."
+              "feedback": "Yes."
             },
             {
-              "text": "maximum power",
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "It's unsafe."
+            },
+            {
+              "text": "The power should be higher",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "no time limit",
+              "text": "Only the time matters",
               "correct": false,
-              "feedback": "There is one."
-            },
-            {
-              "text": "only use red light",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Both matter."
             }
           ],
-          "explanation": ""
+          "explanation": "Keep the rheostat at half power and avoid viewing one area for more than about 40 seconds.",
+          "original": {
+            "q": "Light safety guidance for fundus viewing says",
+            "options": [
+              {
+                "text": "rheostat at half power and no more than 40 seconds on one area",
+                "correct": true,
+                "feedback": "Yes (ANSI)."
+              },
+              {
+                "text": "maximum power",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "no time limit",
+                "correct": false,
+                "feedback": "There is one."
+              },
+              {
+                "text": "only use red light",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-peripheral-fundus-x0161",
@@ -11384,32 +12649,85 @@
       "id": "peg-pupils",
       "title": "Pupils: testing and anomalies",
       "summary": "A few quick tests (size in light and dark, direct and consensual responses, swinging flashlight, near response) sort pupil anomalies into afferent and efferent problems, and pick out the ones that need urgent referral.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Normal: equal, round, 2–4 mm in bright light and 4–8 mm in dim; smaller with age; not affected by sex, iris colour or refractive error.",
-        "Afferent defects (retina to pretectal area) cause an RAPD but not anisocoria. Efferent defects cause anisocoria but not an RAPD.",
-        "Swinging flashlight test: 2–3 seconds per eye, switching quickly; the eye with an RAPD dilates when lit. Cataract and refractive error never cause an RAPD.",
-        "No condition affects the near response while sparing the light response. Light-near dissociation: Adie's, Argyll Robertson, Parinaud's.",
-        "Anisocoria worse in bright light: parasympathetic (larger pupil abnormal, e.g. third nerve palsy, Adie's). Worse in the dark: sympathetic (smaller pupil abnormal, Horner's).",
-        "Physiological anisocoria (about 20% of people): usually under 1 mm, the same in light and dark, long-standing, normal reflexes.",
-        "Painful third nerve palsy with a dilated pupil: refer immediately (posterior communicating artery aneurysm). Acute change in pupil shape: refer immediately."
+        {
+          "text": "Normal: equal, round, 2–4 mm in bright light and 4–8 mm in dim; smaller with age; not affected by sex, iris colour or refractive error.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Afferent defects (retina to pretectal area) cause an RAPD but not anisocoria. Efferent defects cause anisocoria but not an RAPD.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Swinging flashlight test: 2–3 seconds per eye, switching quickly; the eye with an RAPD dilates when lit. Refractive error doesn't cause an RAPD, and cataract usually doesn't, so an RAPD points to the retina or optic nerve.",
+          "priority": "exam-core",
+          "module": "PEG",
+          "why": "An RAPD reflects reduced light signal from one retina or optic nerve compared with the other. Blur from refractive error doesn't reduce the total light reaching the retina, and most cataracts scatter rather than block light.",
+          "limits": "A very dense cataract may rarely be associated with a small RAPD, and a large difference in retinal or optic nerve disease between the eyes is needed for an obvious one. Check for other causes before blaming the media.",
+          "needsReview": true
+        },
+        {
+          "text": "No condition affects the near response while sparing the light response. Light-near dissociation: Adie's, Argyll Robertson, Parinaud's.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Anisocoria worse in bright light: parasympathetic (larger pupil abnormal, e.g. third nerve palsy, Adie's). Worse in the dark: sympathetic (smaller pupil abnormal, Horner's).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Physiological anisocoria (about 20% of people): usually under 1 mm, the same in light and dark, long-standing, normal reflexes.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Painful third nerve palsy with a dilated pupil: refer immediately (posterior communicating artery aneurysm). Acute change in pupil shape: refer immediately.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Saying an RAPD comes with anisocoria. The consensual response keeps the pupils equal.",
-        "Calling Horner's a parasympathetic problem, or saying it is often bilateral.",
-        "Holding the light on each eye for less than 2–3 seconds during the swinging flashlight test, the commonest error."
+        {
+          "text": "Saying an RAPD comes with anisocoria. The consensual response keeps the pupils equal.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Calling Horner's a parasympathetic problem, or saying it is often bilateral.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Holding the light on each eye for less than 2–3 seconds during the swinging flashlight test, the commonest error.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Drug tests",
-          "body": "Pilocarpine 0.1% constricts an Adie's pupil (denervation supersensitivity) but not a pupil involved in third nerve palsy. Cocaine 4% blocks noradrenaline reuptake: it dilates a normal small pupil but has little effect on a Horner's pupil."
+          "body": "Pilocarpine 0.1% constricts an Adie's pupil (denervation supersensitivity) but not a pupil involved in third nerve palsy. Cocaine 4% blocks noradrenaline reuptake: it dilates a normal small pupil but has little effect on a Horner's pupil.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "Horner's syndrome",
-          "body": "Mild ptosis (Müller's muscle), raised lower lid, miosis with dilation lag, normal light and near responses, reduced sweating on that side, and iris heterochromia if congenital. Causes include a Pancoast tumour, carotid aneurysm or dissection, and neck lesions. Refer to ophthalmology or neurology."
+          "body": "Mild ptosis (Müller's muscle), raised lower lid, miosis with dilation lag, normal light and near responses, reduced sweating on that side, and iris heterochromia if congenital. Causes include a Pancoast tumour, carotid aneurysm or dissection, and neck lesions. Refer to ophthalmology or neurology.",
+          "priority": "exam-core",
+          "module": "PEG"
         },
         {
           "heading": "Recording examples",
-          "body": "Normal: PERRLA D+C, no RAPD, brisk, 4 mm R and L. Physiological anisocoria: round, reactive D+C and near, no RAPD, R 4 mm, L 3.5 mm. RAPD: RAPD +ve LE 0.4 log (quantified with ND filters)."
+          "body": "Normal: PERRLA D+C, no RAPD, brisk, 4 mm R and L. Physiological anisocoria: round, reactive D+C and near, no RAPD, R 4 mm, L 3.5 mm. RAPD: RAPD +ve LE 0.4 log (quantified with ND filters).",
+          "priority": "clinical",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -11577,30 +12895,57 @@
         },
         {
           "id": "peg-pupils-x0052",
-          "q": "Which drug test helps diagnose Horner's syndrome?",
+          "q": "You suspect Horner's syndrome. After cocaine 4% in both eyes, what do you expect?",
           "options": [
             {
-              "text": "Cocaine 4% (the Horner's pupil barely dilates)",
+              "text": "The Horner's pupil dilates little or not at all, increasing the anisocoria",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Pilocarpine 0.1%",
-              "correct": false,
-              "feedback": "Adie's."
-            },
-            {
-              "text": "Tropicamide",
-              "correct": false,
-              "feedback": "Not diagnostic."
-            },
-            {
-              "text": "Fluorescein",
+              "text": "Both pupils constrict",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "The Horner's pupil dilates more",
+              "correct": false,
+              "feedback": "Opposite."
+            },
+            {
+              "text": "No change in either",
+              "correct": false,
+              "feedback": "The normal pupil dilates."
             }
           ],
-          "explanation": ""
+          "explanation": "Cocaine blocks noradrenaline reuptake, so a pupil without sympathetic supply barely dilates.",
+          "original": {
+            "q": "Which drug test helps diagnose Horner's syndrome?",
+            "options": [
+              {
+                "text": "Cocaine 4% (the Horner's pupil barely dilates)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Pilocarpine 0.1%",
+                "correct": false,
+                "feedback": "Adie's."
+              },
+              {
+                "text": "Tropicamide",
+                "correct": false,
+                "feedback": "Not diagnostic."
+              },
+              {
+                "text": "Fluorescein",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0053",
@@ -11631,30 +12976,57 @@
         },
         {
           "id": "peg-pupils-x0054",
-          "q": "Which is the commonest cause of a third nerve palsy with pupil involvement?",
+          "q": "A patient has a sudden painful third nerve palsy with a dilated pupil. What's the main concern, and the action?",
           "options": [
             {
-              "text": "A posterior communicating artery aneurysm",
+              "text": "A posterior communicating artery aneurysm: emergency referral",
               "correct": true,
-              "feedback": "Yes: refer immediately if painful."
+              "feedback": "Yes."
             },
             {
-              "text": "Diabetes",
+              "text": "Microvascular palsy: review in a month",
               "correct": false,
-              "feedback": "That usually spares the pupil."
+              "feedback": "Pupil involvement and pain raise concern."
             },
             {
-              "text": "Hypertension",
+              "text": "Myasthenia: routine referral",
               "correct": false,
-              "feedback": "Usually spares the pupil."
+              "feedback": "Pupils are spared in myasthenia."
             },
             {
-              "text": "Migraine",
+              "text": "Migraine: reassure",
               "correct": false,
-              "feedback": "Not the commonest."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A pupil-involving third nerve palsy is classically from a posterior communicating artery aneurysm.",
+          "original": {
+            "q": "Which is the commonest cause of a third nerve palsy with pupil involvement?",
+            "options": [
+              {
+                "text": "A posterior communicating artery aneurysm",
+                "correct": true,
+                "feedback": "Yes: refer immediately if painful."
+              },
+              {
+                "text": "Diabetes",
+                "correct": false,
+                "feedback": "That usually spares the pupil."
+              },
+              {
+                "text": "Hypertension",
+                "correct": false,
+                "feedback": "Usually spares the pupil."
+              },
+              {
+                "text": "Migraine",
+                "correct": false,
+                "feedback": "Not the commonest."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-pupils-x0161",
@@ -12756,37 +14128,124 @@
       "id": "peg-visual-fields",
       "title": "Visual fields and where defects come from",
       "summary": "The visual field maps onto the retina and visual pathway in an orderly way, so the shape of a defect and whether it matches between the eyes tells you roughly where the lesion is.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PEG"
+      },
       "keyPoints": [
-        "Normal monocular field: about 60° superior and nasal, 70° inferior, 100° temporal. Central field is 0–30°.",
-        "Physiological blind spot: 15° temporal to fixation, 1.5° below the horizontal, 5.5° wide and 7.5° high.",
-        "Scotoma: focal loss, relative or absolute. Diffuse loss is a general depression of the hill of vision.",
-        "Retinal nerve fibre lesions (e.g. glaucoma) give arcuate scotomas and nasal steps that respect the horizontal midline.",
-        "At the chiasm nasal fibres cross and temporal fibres don't. Pituitary adenoma, the commonest compressive lesion, gives bitemporal loss, often upper temporal first; a junctional scotoma comes from compression near Wilbrand's knee.",
-        "Lesions behind the chiasm give homonymous defects that respect the vertical midline and get more congruent the further back they are.",
-        "Stroke: a half to three-quarters of victims get field loss, most often homonymous hemianopia; any recovery is usually within a month.",
-        "Kinetic perimetry (moving target, about 4°/s) maps isopters; static perimetry (fixed positions, brightness varied) is more sensitive to shallow and small defects.",
-        "1 dB = 0.1 log unit; 0 dB is the brightest stimulus. Full threshold (4-2 dB staircase) quantifies; suprathreshold (about 5 dB above expected) screens but can miss shallow defects.",
-        "Grids: 24-2 or 30-2 (6° spacing) for glaucoma and neurology; 10-2 (2° spacing) for macular disease; Esterman for driving (UK: 120° horizontal).",
-        "SITA (Humphrey) uses Bayesian prediction: SITA Standard is as accurate as full threshold in about 7 minutes; SITA Fast matches FASTPAC in about 4. ZATA and GATE can start from previous results.",
-        "Reliability: fixation losses (blind spot checks or gaze tracking), false negatives (inflate loss) and false positives (hide loss).",
-        "Unreliable field: fixation losses over 20%, false negatives over 33% or false positives over 33%.",
-        "MD (mean deviation) reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal.",
-        "Total deviation shows all loss; pattern deviation removes general depression to show focal loss. The glaucoma hemifield test compares mirror-image upper and lower sectors."
+        {
+          "text": "Normal monocular field: about 60° superior and nasal, 70° inferior, 100° temporal. Central field is 0–30°.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Physiological blind spot: 15° temporal to fixation, 1.5° below the horizontal, 5.5° wide and 7.5° high.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Scotoma: focal loss, relative or absolute. Diffuse loss is a general depression of the hill of vision.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Retinal nerve fibre lesions (e.g. glaucoma) give arcuate scotomas and nasal steps that respect the horizontal midline.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "At the chiasm nasal fibres cross and temporal fibres don't. Pituitary adenoma, the commonest compressive lesion, gives bitemporal loss, often upper temporal first; a junctional scotoma comes from compression near Wilbrand's knee.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Lesions behind the chiasm give homonymous defects that respect the vertical midline and get more congruent the further back they are.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Stroke: a half to three-quarters of victims get field loss, most often homonymous hemianopia; any recovery is usually within a month.",
+          "priority": "background",
+          "module": "PEG"
+        },
+        {
+          "text": "Kinetic perimetry (moving target, about 4°/s) maps isopters; static perimetry (fixed positions, brightness varied) is more sensitive to shallow and small defects.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "1 dB = 0.1 log unit; 0 dB is the brightest stimulus. Full threshold (4-2 dB staircase) quantifies; suprathreshold (about 5 dB above expected) screens but can miss shallow defects.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Grids: 24-2 or 30-2 (6° spacing) for glaucoma and neurology; 10-2 (2° spacing) for macular disease; Esterman for driving (UK: 120° horizontal).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "SITA (Humphrey) uses Bayesian prediction: SITA Standard is as accurate as full threshold in about 7 minutes; SITA Fast matches FASTPAC in about 4. ZATA and GATE can start from previous results.",
+          "priority": "background",
+          "module": "PEG"
+        },
+        {
+          "text": "Reliability: fixation losses (blind spot checks or gaze tracking), false negatives (inflate loss) and false positives (hide loss).",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Commonly used cut-offs for an unreliable field: fixation losses over 20%, false negatives over 33% or false positives over 33% (newer strategies often use about 15% for false positives).",
+          "priority": "exam-core",
+          "module": "PEG",
+          "why": "High error rates mean the patient's responses don't reflect what they can see, so defects may be artefacts or hidden.",
+          "limits": "These are conventions, not fixed rules. Check your device's guidance, and interpret borderline reliability alongside the pattern of loss and the patient's behaviour during the test.",
+          "needsReview": true
+        },
+        {
+          "text": "MD (mean deviation) reflects diffuse loss (e.g. cataract); PSD and CPSD reflect focal loss (e.g. glaucoma); beyond about ±2 dB is usually abnormal.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Total deviation shows all loss; pattern deviation removes general depression to show focal loss. The glaucoma hemifield test compares mirror-image upper and lower sectors.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "examTraps": [
-        "Forgetting the field is inverted and reversed on the retina: superior retinal damage gives an inferior field defect.",
-        "Expecting a homonymous defect from a lesion in front of the chiasm.",
-        "Relying on confrontation to rule out field loss: its sensitivity is only about 63%.",
-        "Comparing dB values between different perimeters: the scales aren't the same."
+        {
+          "text": "Forgetting the field is inverted and reversed on the retina: superior retinal damage gives an inferior field defect.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Expecting a homonymous defect from a lesion in front of the chiasm.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Relying on confrontation to rule out field loss: its sensitivity is only about 63%.",
+          "priority": "exam-core",
+          "module": "PEG"
+        },
+        {
+          "text": "Comparing dB values between different perimeters: the scales aren't the same.",
+          "priority": "exam-core",
+          "module": "PEG"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Chiasmal tumours",
-          "body": "Pituitary adenomas press from below: 6 mm of chiasmal elevation causes field defects in about half of cases and 11 mm in about 90%. Craniopharyngiomas, common in children, press from above and affect the superior nasal fibres first (inferior temporal field). Tuberculum sellae meningiomas mimic prefixed pituitary tumours."
+          "body": "Pituitary adenomas press from below: 6 mm of chiasmal elevation causes field defects in about half of cases and 11 mm in about 90%. Craniopharyngiomas, common in children, press from above and affect the superior nasal fibres first (inferior temporal field). Tuberculum sellae meningiomas mimic prefixed pituitary tumours.",
+          "priority": "background",
+          "module": "PEG"
         },
         {
           "heading": "Macular sparing",
-          "body": "About 80% of striate cortex represents the central 30°. Occipital lesions can spare the macula, which is hard to show with a 30-2 grid (6° spacing); use a 10-2 grid (2° spacing) or an Amsler chart."
+          "body": "About 80% of striate cortex represents the central 30°. Occipital lesions can spare the macula, which is hard to show with a 30-2 grid (6° spacing); use a 10-2 grid (2° spacing) or an Amsler chart.",
+          "priority": "exam-core",
+          "module": "PEG"
         }
       ],
       "flashcards": [
@@ -12888,30 +14347,57 @@
         },
         {
           "id": "peg-vf2-1",
-          "q": "Which perimetry strategy is best for screening quickly?",
+          "q": "A practice wants a quick field test to screen many patients. Which strategy fits best?",
           "options": [
             {
               "text": "Suprathreshold",
               "correct": true,
-              "feedback": "Yes: many points quickly, set about 5 dB above the expected threshold."
+              "feedback": "Yes."
             },
             {
               "text": "Full threshold",
               "correct": false,
-              "feedback": "That quantifies the field and takes longer."
+              "feedback": "Slow."
             },
             {
               "text": "Kinetic Goldmann",
               "correct": false,
-              "feedback": "Manual and slow."
+              "feedback": "Slow and specialist."
             },
             {
-              "text": "Confrontation",
+              "text": "10-2 threshold",
               "correct": false,
-              "feedback": "Too insensitive to screen."
+              "feedback": "Central only."
             }
           ],
-          "explanation": "Visual fields 2, slides 11–13."
+          "explanation": "Suprathreshold strategies are quick for screening; threshold strategies quantify loss.",
+          "original": {
+            "q": "Which perimetry strategy is best for screening quickly?",
+            "options": [
+              {
+                "text": "Suprathreshold",
+                "correct": true,
+                "feedback": "Yes: many points quickly, set about 5 dB above the expected threshold."
+              },
+              {
+                "text": "Full threshold",
+                "correct": false,
+                "feedback": "That quantifies the field and takes longer."
+              },
+              {
+                "text": "Kinetic Goldmann",
+                "correct": false,
+                "feedback": "Manual and slow."
+              },
+              {
+                "text": "Confrontation",
+                "correct": false,
+                "feedback": "Too insensitive to screen."
+              }
+            ],
+            "explanation": "Visual fields 2, slides 11–13."
+          },
+          "needsReview": true
         },
         {
           "id": "peg-vf4-1",
@@ -13914,57 +15400,111 @@
         },
         {
           "id": "peg-visual-fields-x03527",
-          "q": "Homonymous defects that respect the vertical midline suggest a lesion",
+          "q": "A field defect respects the vertical midline in both eyes. Which lesion site fits?",
           "options": [
             {
-              "text": "behind the chiasm",
+              "text": "The optic tract, radiations or occipital cortex",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: behind the chiasm."
             },
             {
-              "text": "in the retina",
+              "text": "The retina",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually respects the horizontal midline."
             },
             {
-              "text": "in the optic nerve",
+              "text": "One optic nerve",
               "correct": false,
-              "feedback": "No."
+              "feedback": "One eye."
             },
             {
-              "text": "in the cornea",
+              "text": "The cornea",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Homonymous defects that respect the vertical midline arise behind the chiasm.",
+          "original": {
+            "q": "Homonymous defects that respect the vertical midline suggest a lesion",
+            "options": [
+              {
+                "text": "behind the chiasm",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "in the retina",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "in the optic nerve",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "in the cornea",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03528",
-          "q": "Altitudinal defects respect the",
+          "q": "A sudden painless loss of the lower half of the field in one eye respects a straight line. Which line, and what could cause it?",
           "options": [
             {
-              "text": "horizontal midline",
+              "text": "The horizontal midline; e.g. AION or a branch retinal artery occlusion",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "vertical midline",
+              "text": "The vertical midline; e.g. a stroke",
               "correct": false,
-              "feedback": "Neurological."
+              "feedback": "That's homonymous."
             },
             {
-              "text": "blind spot",
+              "text": "The blind spot; e.g. papilloedema",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Different."
             },
             {
-              "text": "periphery",
+              "text": "No line; e.g. cataract",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this."
             }
           ],
-          "explanation": ""
+          "explanation": "Altitudinal defects respect the horizontal midline.",
+          "original": {
+            "q": "Altitudinal defects respect the",
+            "options": [
+              {
+                "text": "horizontal midline",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "vertical midline",
+                "correct": false,
+                "feedback": "Neurological."
+              },
+              {
+                "text": "blind spot",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "periphery",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x03529",
@@ -14022,57 +15562,111 @@
         },
         {
           "id": "peg-visual-fields-x0061",
-          "q": "Where is the physiological blind spot?",
+          "q": "A patient's 24-2 field shows an absolute defect about 15° temporal to fixation, just below the horizontal, in both eyes. What is it most likely?",
           "options": [
             {
-              "text": "About 15° temporal to fixation and 1.5° below the horizontal",
+              "text": "The normal physiological blind spot",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "At fixation",
+              "text": "A pituitary tumour",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "15° nasal",
+              "text": "Glaucoma",
               "correct": false,
-              "feedback": "It's temporal in the field."
+              "feedback": "Not this location."
             },
             {
-              "text": "50° temporal",
+              "text": "A test artefact",
               "correct": false,
-              "feedback": "Too far."
+              "feedback": "It's normal anatomy."
             }
           ],
-          "explanation": ""
+          "explanation": "The physiological blind spot is about 15° temporal to fixation and 1.5° below the horizontal.",
+          "original": {
+            "q": "Where is the physiological blind spot?",
+            "options": [
+              {
+                "text": "About 15° temporal to fixation and 1.5° below the horizontal",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "At fixation",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "15° nasal",
+                "correct": false,
+                "feedback": "It's temporal in the field."
+              },
+              {
+                "text": "50° temporal",
+                "correct": false,
+                "feedback": "Too far."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0062",
-          "q": "A homonymous hemianopia means the lesion is",
+          "q": "A patient has a right homonymous hemianopia. Which eye or eyes are affected?",
           "options": [
             {
-              "text": "behind the chiasm",
+              "text": "Both: the right half of the field in each eye",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "in front of the chiasm",
+              "text": "Only the right eye",
               "correct": false,
-              "feedback": "That gives one-eye defects."
+              "feedback": "Homonymous affects both."
             },
             {
-              "text": "at the retina",
+              "text": "Only the left eye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "at the cornea",
+              "text": "The temporal field of each eye",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's bitemporal."
             }
           ],
-          "explanation": ""
+          "explanation": "Homonymous means the same side of the field in both eyes, from a lesion behind the chiasm.",
+          "original": {
+            "q": "A homonymous hemianopia means the lesion is",
+            "options": [
+              {
+                "text": "behind the chiasm",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "in front of the chiasm",
+                "correct": false,
+                "feedback": "That gives one-eye defects."
+              },
+              {
+                "text": "at the retina",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "at the cornea",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "peg-visual-fields-x0063",

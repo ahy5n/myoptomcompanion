@@ -6,18 +6,58 @@
       "id": "pha-pharmacokinetics",
       "title": "How eye drops reach their target",
       "summary": "Only a small fraction of an eye drop gets into the eye. Most overflows or drains down the nasolacrimal duct, where it can be absorbed into the blood. To cross the cornea a drug needs to dissolve in both fats (to pass the epithelium) and water (to pass the stroma). Understanding this explains dosing, side effects and why technique matters.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "A typical drop is about 30–50 µl, but the eye holds only about 7–10 µl, so most of it is lost straight away.",
-        "Drainage through the nasolacrimal duct lets drugs reach the bloodstream through the nasal lining, bypassing the liver: this is how eye drops cause systemic side effects.",
-        "The corneal epithelium is lipophilic (fat-loving) and the stroma hydrophilic (water-loving), so the best drugs have both properties.",
-        "Closing the eyes or pressing on the inner corner (punctal occlusion) for 1–2 minutes increases absorption into the eye and reduces systemic absorption.",
-        "Darker irides bind some drugs to melanin, so dilation can be slower and sometimes needs more drops.",
-        "Preservatives such as benzalkonium chloride keep multi-dose bottles sterile but can damage the ocular surface with long-term use."
+        {
+          "text": "A typical drop is about 30–50 µl, but the eye holds only about 7–10 µl, so most of it is lost straight away.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Drainage through the nasolacrimal duct lets drugs reach the bloodstream through the nasal lining, bypassing the liver: this is how eye drops cause systemic side effects.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "The corneal epithelium is lipophilic (fat-loving) and the stroma hydrophilic (water-loving), so the best drugs have both properties.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Closing the eyes or pressing on the inner corner (punctal occlusion) for 1–2 minutes increases absorption into the eye and reduces systemic absorption.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Darker irides bind some drugs to melanin, so dilation can be slower and sometimes needs more drops.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Preservatives such as benzalkonium chloride keep multi-dose bottles sterile but can damage the ocular surface with long-term use.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Assuming eye drops can't cause systemic effects: timolol drops can cause bronchospasm.",
-        "Giving two different drops one immediately after the other: the second washes out the first; wait about 5 minutes.",
-        "Forgetting that a damaged epithelium lets drugs (and toxicity) in much more easily."
+        {
+          "text": "Assuming eye drops can't cause systemic effects: timolol drops can cause bronchospasm.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Giving two different drops one immediately after the other: the second washes out the first; wait about 5 minutes.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Forgetting that a damaged epithelium lets drugs (and toxicity) in much more easily.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "drop-pathways",
@@ -35,15 +75,21 @@
       "goDeeper": [
         {
           "heading": "Getting drops in well",
-          "body": "Tilt the head back, pull the lower lid down, look up and put one drop into the pocket without touching the eye or lashes. Close the eye gently for 1–2 minutes (don't blink hard) and press the inner corner. Wait about 5 minutes between different drops, and put ointments in last. Many patients, especially older ones, struggle with technique, so show them and consider aids."
+          "body": "Tilt the head back, pull the lower lid down, look up and put one drop into the pocket without touching the eye or lashes. Close the eye gently for 1–2 minutes (don't blink hard) and press the inner corner. Wait about 5 minutes between different drops, and put ointments in last. Many patients, especially older ones, struggle with technique, so show them and consider aids.",
+          "priority": "clinical",
+          "module": "PHA"
         },
         {
           "heading": "Formulations",
-          "body": "Solutions are quick but short-acting. Suspensions (for example some steroids) need shaking. Gels and ointments stay longer and are useful at night but blur vision. Preservative-free single-use vials suit patients using drops often, those with surface disease, and contact lens wearers. Pro-drugs (such as latanoprost) are changed into the active form inside the eye."
+          "body": "Solutions are quick but short-acting. Suspensions (for example some steroids) need shaking. Gels and ointments stay longer and are useful at night but blur vision. Preservative-free single-use vials suit patients using drops often, those with surface disease, and contact lens wearers. Pro-drugs (such as latanoprost) are changed into the active form inside the eye.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Systemic absorption",
-          "body": "Drug absorbed through the nose goes straight into the circulation without first passing through the liver. That's why a beta-blocker drop can slow the heart or tighten the airways, and why cyclopentolate can occasionally cause behaviour changes in small children. Punctal occlusion and using the lowest effective strength reduce the risk."
+          "body": "Drug absorbed through the nose goes straight into the circulation without first passing through the liver. That's why a beta-blocker drop can slow the heart or tighten the airways, and why cyclopentolate can occasionally cause behaviour changes in small children. Punctal occlusion and using the lowest effective strength reduce the risk.",
+          "priority": "exam-core",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -259,57 +305,111 @@
         },
         {
           "id": "pha-pharmacokinetics-x0075",
-          "q": "The corneal epithelium is",
+          "q": "A highly water-soluble drug penetrates the cornea poorly. Which layer is the main barrier?",
           "options": [
             {
-              "text": "lipophilic",
-              "correct": true,
-              "feedback": "Yes; the stroma is hydrophilic."
-            },
-            {
-              "text": "hydrophilic",
-              "correct": false,
-              "feedback": "That's the stroma."
-            },
-            {
-              "text": "impermeable",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "absent",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-pharmacokinetics-x0076",
-          "q": "What's the downside of benzalkonium chloride?",
-          "options": [
-            {
-              "text": "It can damage the ocular surface with long-term use",
+              "text": "The epithelium, because it's lipophilic",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "It makes drops unsterile",
+              "text": "The stroma",
               "correct": false,
-              "feedback": "It keeps them sterile."
+              "feedback": "Hydrophilic, so water-soluble drugs pass it."
             },
             {
-              "text": "It colours the eye",
+              "text": "The endothelium",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the main barrier."
             },
             {
-              "text": "None",
+              "text": "The tear film",
               "correct": false,
-              "feedback": "It has downsides."
+              "feedback": "Not the main barrier."
             }
           ],
-          "explanation": ""
+          "explanation": "The epithelium is lipophilic and the stroma hydrophilic, so drugs that are both lipid- and water-soluble penetrate best.",
+          "original": {
+            "q": "The corneal epithelium is",
+            "options": [
+              {
+                "text": "lipophilic",
+                "correct": true,
+                "feedback": "Yes; the stroma is hydrophilic."
+              },
+              {
+                "text": "hydrophilic",
+                "correct": false,
+                "feedback": "That's the stroma."
+              },
+              {
+                "text": "impermeable",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "absent",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-pharmacokinetics-x0076",
+          "q": "A glaucoma patient using preserved drops four times a day has a sore, red surface. Which change might help most?",
+          "options": [
+            {
+              "text": "Switch to preservative-free drops",
+              "correct": true,
+              "feedback": "Yes: BAK can damage the ocular surface."
+            },
+            {
+              "text": "Add more preserved drops",
+              "correct": false,
+              "feedback": "Worse."
+            },
+            {
+              "text": "Use the drops less often without telling anyone",
+              "correct": false,
+              "feedback": "Unsafe."
+            },
+            {
+              "text": "Rinse with tap water",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Preservatives like benzalkonium chloride can damage the ocular surface with long-term use.",
+          "original": {
+            "q": "What's the downside of benzalkonium chloride?",
+            "options": [
+              {
+                "text": "It can damage the ocular surface with long-term use",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "It makes drops unsterile",
+                "correct": false,
+                "feedback": "It keeps them sterile."
+              },
+              {
+                "text": "It colours the eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "It has downsides."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0077",
@@ -340,57 +440,111 @@
         },
         {
           "id": "pha-pharmacokinetics-x0181",
-          "q": "How long should you wait between two different eye drops?",
+          "q": "A patient uses two different drops at the same time and finds the second runs straight out. What should you advise?",
           "options": [
             {
-              "text": "About 5 minutes",
+              "text": "Wait about 5 minutes between drops",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "No wait",
+              "text": "Use both at once",
               "correct": false,
-              "feedback": "Washes out."
+              "feedback": "Washes out the first."
             },
             {
-              "text": "1 hour",
+              "text": "Wait an hour",
               "correct": false,
               "feedback": "Not needed."
             },
             {
-              "text": "A day",
+              "text": "Stop one drop",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not without advice."
             }
           ],
-          "explanation": ""
+          "explanation": "Leave about 5 minutes between different drops.",
+          "original": {
+            "q": "How long should you wait between two different eye drops?",
+            "options": [
+              {
+                "text": "About 5 minutes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "No wait",
+                "correct": false,
+                "feedback": "Washes out."
+              },
+              {
+                "text": "1 hour",
+                "correct": false,
+                "feedback": "Not needed."
+              },
+              {
+                "text": "A day",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0182",
-          "q": "The corneal stroma is",
+          "q": "A very fat-soluble drug crosses the epithelium easily but then stalls. Which layer is the barrier now?",
           "options": [
             {
-              "text": "hydrophilic",
+              "text": "The stroma, which is hydrophilic",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "lipophilic",
+              "text": "The epithelium",
               "correct": false,
-              "feedback": "Epithelium."
+              "feedback": "It got through."
             },
             {
-              "text": "impermeable",
+              "text": "The tear film",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the barrier here."
             },
             {
-              "text": "dry",
+              "text": "Bowman's layer only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the main barrier."
             }
           ],
-          "explanation": ""
+          "explanation": "The corneal stroma is hydrophilic.",
+          "original": {
+            "q": "The corneal stroma is",
+            "options": [
+              {
+                "text": "hydrophilic",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "lipophilic",
+                "correct": false,
+                "feedback": "Epithelium."
+              },
+              {
+                "text": "impermeable",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-pharmacokinetics-x0183",
@@ -1432,20 +1586,68 @@
       "id": "pha-diagnostic-drugs",
       "title": "Selecting and using diagnostic drugs safely",
       "summary": "Only use diagnostic drops within your competence and after the right checks. Explain, ask about past reactions, get consent, do the 4D check, check the angle and IOP around dilation, take care with cycloplegics and anaesthetics, and record everything.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "Before any drop: explain why, what it will do and when it wears off; ask about previous problems or reactions; get consent (or assent). Warn first-timers about possible effects.",
-        "4D check at the patient's shoulder: Drug (the right one), Dose, Date (in date), Dispose (can you dispose of it properly).",
-        "Record the drug, concentration, number of drops, which eye, batch number, expiry and all advice given.",
-        "Dilation: tropicamide is the drug of choice; add phenylephrine for more profound dilation. Angle closure risk is about 1 in 5,000.",
-        "Before dilating: check the angle (van Herick, gonioscopy, shadow test or AS-OCT), IOP and symptoms of sub-acute angle closure. After: angles and IOP again. Don't dilate with an iris-clip lens.",
-        "Advise sunglasses and no driving, cycling or machinery until vision recovers; refer suspected angle closure to eye casualty as an emergency and tell the GP.",
-        "Cycloplegia: cyclopentolate is the drug of choice, usually for children (angle and IOP checks are hard; check them in young adults). Record VA and a dry refraction first, watch for reactions, and recheck vision with the result after it wears off (24–48 hours), making sure they're not fogged.",
-        "Topical anaesthetics: no specific pre-tests, but ask about past reactions; they're potentially highly toxic, so always check for staining afterwards."
+        {
+          "text": "Before any drop: explain why, what it will do and when it wears off; ask about previous problems or reactions; get consent (or assent). Warn first-timers about possible effects.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "4D check at the patient's shoulder: Drug (the right one), Dose, Date (in date), Dispose (can you dispose of it properly).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Record the drug, concentration, number of drops, which eye, batch number, expiry and all advice given.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Dilation: tropicamide is the drug of choice; add phenylephrine for more profound dilation. Angle closure risk is about 1 in 5,000.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Before dilating: check the angle (van Herick, gonioscopy, shadow test or AS-OCT), IOP and symptoms of sub-acute angle closure. After: angles and IOP again. Don't dilate with an iris-clip lens.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Advise sunglasses and no driving, cycling or machinery until vision recovers; refer suspected angle closure to eye casualty as an emergency and tell the GP.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Cycloplegia: cyclopentolate is the drug of choice, usually for children (angle and IOP checks are hard; check them in young adults). Record VA and a dry refraction first, watch for reactions, and recheck vision with the result after it wears off (24–48 hours), making sure they're not fogged.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Topical anaesthetics: no specific pre-tests, but ask about past reactions; they're potentially highly toxic, so always check for staining afterwards.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Skipping post-dilation IOP and angle checks.",
-        "Forgetting to record batch number and expiry.",
-        "Dilating a patient with an iris-clip lens."
+        {
+          "text": "Skipping post-dilation IOP and angle checks.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Forgetting to record batch number and expiry.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Dilating a patient with an iris-clip lens.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "pupil-receptors",
@@ -1461,7 +1663,9 @@
       "goDeeper": [
         {
           "heading": "Drug timings",
-          "body": "Tropicamide 0.5–1% works in about 20–30 minutes and lasts around 4–6 hours with mild cycloplegia. Phenylephrine 2.5% is an alpha-1 agonist; take care with heart disease and high blood pressure. Cyclopentolate 0.5% under about 1 year, 1% in older children, peaking at 30–60 minutes. Anaesthetics work in seconds and last about 15–20 minutes. Fluorescein shows epithelial loss and is used for TBUT, Goldmann tonometry and the Seidel test."
+          "body": "Tropicamide 0.5–1% works in about 20–30 minutes and lasts around 4–6 hours with mild cycloplegia. Phenylephrine 2.5% is an alpha-1 agonist; take care with heart disease and high blood pressure. Cyclopentolate 0.5% under about 1 year, 1% in older children, peaking at 30–60 minutes. Anaesthetics work in seconds and last about 15–20 minutes. Fluorescein shows epithelial loss and is used for TBUT, Goldmann tonometry and the Seidel test.",
+          "priority": "exam-core",
+          "module": "PHA"
         }
       ],
       "checklist": {
@@ -1475,7 +1679,9 @@
           "Instil the drop(s) and record drug, strength, number of drops, eye, time and batch number.",
           "Re-check pupils and IOP if indicated after examination, and give written advice about warning symptoms (pain, redness, haloes).",
           "Tell the patient to seek urgent help if they get a painful red eye or headache with haloes."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "PHA"
       },
       "flashcards": [
         {
@@ -1614,7 +1820,7 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0071",
-          "q": "Which drug is first choice for dilation?",
+          "q": "You want to dilate a healthy adult for a fundus exam with the least cycloplegia. Which drug is first choice?",
           "options": [
             {
               "text": "Tropicamide",
@@ -1622,22 +1828,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Cyclopentolate",
-              "correct": false,
-              "feedback": "Cycloplegia."
-            },
-            {
               "text": "Atropine",
               "correct": false,
-              "feedback": "Too long-acting."
+              "feedback": "Long cycloplegia."
+            },
+            {
+              "text": "Cyclopentolate",
+              "correct": false,
+              "feedback": "Stronger cycloplegia."
             },
             {
               "text": "Pilocarpine",
               "correct": false,
-              "feedback": "Miotic."
+              "feedback": "Constricts."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide is the drug of choice for dilation; add phenylephrine for more.",
+          "original": {
+            "q": "Which drug is first choice for dilation?",
+            "options": [
+              {
+                "text": "Tropicamide",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cyclopentolate",
+                "correct": false,
+                "feedback": "Cycloplegia."
+              },
+              {
+                "text": "Atropine",
+                "correct": false,
+                "feedback": "Too long-acting."
+              },
+              {
+                "text": "Pilocarpine",
+                "correct": false,
+                "feedback": "Miotic."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0072",
@@ -1668,22 +1901,22 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0073",
-          "q": "When should vision be rechecked after cycloplegic refraction?",
+          "q": "A child's vision is blurred the day after a cycloplegic refraction. When should vision be rechecked?",
           "options": [
             {
-              "text": "After it wears off (24–48 hours)",
+              "text": "After the drug has worn off, about 24–48 hours",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Immediately",
               "correct": false,
-              "feedback": "Still cyclopleged."
+              "feedback": "Still affected."
             },
             {
-              "text": "After a year",
+              "text": "After a month",
               "correct": false,
-              "feedback": "Too late."
+              "feedback": "Too long."
             },
             {
               "text": "Never",
@@ -1691,7 +1924,34 @@
               "feedback": "Recheck."
             }
           ],
-          "explanation": ""
+          "explanation": "Recheck vision after cycloplegia wears off.",
+          "original": {
+            "q": "When should vision be rechecked after cycloplegic refraction?",
+            "options": [
+              {
+                "text": "After it wears off (24–48 hours)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Immediately",
+                "correct": false,
+                "feedback": "Still cyclopleged."
+              },
+              {
+                "text": "After a year",
+                "correct": false,
+                "feedback": "Too late."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "Recheck."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0074",
@@ -1722,30 +1982,57 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0075",
-          "q": "What advice follows dilation?",
+          "q": "A patient drove to their appointment and has just been dilated. What should you advise?",
           "options": [
             {
-              "text": "Sunglasses, and no driving, cycling or machinery until vision recovers",
+              "text": "Wear sunglasses and don't drive, cycle or use machinery until vision recovers",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Drive straight home",
+              "text": "Drive home now",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Nothing",
+              "text": "Drive with sunglasses",
               "correct": false,
-              "feedback": "Always advise."
+              "feedback": "Not until vision recovers."
             },
             {
-              "text": "Rub the eyes",
+              "text": "No advice needed",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Advice is needed."
             }
           ],
-          "explanation": ""
+          "explanation": "After dilation advise sunglasses and no driving, cycling or machinery until vision recovers.",
+          "original": {
+            "q": "What advice follows dilation?",
+            "options": [
+              {
+                "text": "Sunglasses, and no driving, cycling or machinery until vision recovers",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Drive straight home",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Always advise."
+              },
+              {
+                "text": "Rub the eyes",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0181",
@@ -1776,30 +2063,57 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0182",
-          "q": "Tropicamide's peak dilation is at about",
+          "q": "You instil tropicamide at 9:00. Roughly when will dilation be at its peak?",
           "options": [
             {
-              "text": "20–30 minutes",
+              "text": "About 9:20–9:30",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "2 minutes",
+              "text": "9:02",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too soon."
             },
             {
-              "text": "4 hours",
+              "text": "11:00",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Later than peak."
             },
             {
-              "text": "1 day",
+              "text": "The next day",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide works in about 20–30 minutes and lasts around 4–6 hours.",
+          "original": {
+            "q": "Tropicamide's peak dilation is at about",
+            "options": [
+              {
+                "text": "20–30 minutes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "2 minutes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "4 hours",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "1 day",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0183",
@@ -2100,30 +2414,57 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0464",
-          "q": "About how long does topical anaesthesia last?",
+          "q": "You use a topical anaesthetic for tonometry at 14:00. Until about when should the patient avoid rubbing their eyes?",
           "options": [
             {
-              "text": "About 15–20 minutes",
+              "text": "Until about 14:20, when sensation returns",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it lasts about 15–20 minutes."
             },
             {
-              "text": "A day",
+              "text": "14:01",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too soon."
             },
             {
-              "text": "1 minute",
+              "text": "The next morning",
               "correct": false,
-              "feedback": "Too short."
+              "feedback": "Too long."
             },
             {
-              "text": "A week",
+              "text": "No precautions",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Advise them."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical anaesthesia lasts about 15–20 minutes.",
+          "original": {
+            "q": "About how long does topical anaesthesia last?",
+            "options": [
+              {
+                "text": "About 15–20 minutes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A day",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "1 minute",
+                "correct": false,
+                "feedback": "Too short."
+              },
+              {
+                "text": "A week",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0465",
@@ -2154,30 +2495,57 @@
         },
         {
           "id": "pha-diagnostic-drugs-x0466",
-          "q": "Combined lidocaine and fluorescein minims are used for",
+          "q": "You're about to do Goldmann tonometry. Which single minim does the job?",
           "options": [
             {
-              "text": "Goldmann tonometry",
+              "text": "Lidocaine with fluorescein",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "dilation",
+              "text": "Tropicamide",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Dilates."
             },
             {
-              "text": "cycloplegia",
+              "text": "Cyclopentolate",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Cycloplegia."
             },
             {
-              "text": "allergy",
+              "text": "Lissamine green",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Wrong stain."
             }
           ],
-          "explanation": ""
+          "explanation": "Combined anaesthetic and fluorescein minims are used for Goldmann tonometry.",
+          "original": {
+            "q": "Combined lidocaine and fluorescein minims are used for",
+            "options": [
+              {
+                "text": "Goldmann tonometry",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "dilation",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "cycloplegia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "allergy",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x0467",
@@ -2559,7 +2927,7 @@
         },
         {
           "id": "pha-diagnostic-drugs-x04621",
-          "q": "Which is the shortest-acting antimuscarinic for dilation?",
+          "q": "An older patient has to drive later but needs dilating. Which antimuscarinic gives the shortest effect?",
           "options": [
             {
               "text": "Tropicamide",
@@ -2569,20 +2937,47 @@
             {
               "text": "Atropine",
               "correct": false,
-              "feedback": "Longest."
-            },
-            {
-              "text": "Cyclopentolate",
-              "correct": false,
-              "feedback": "Longer."
+              "feedback": "Days."
             },
             {
               "text": "Homatropine",
               "correct": false,
               "feedback": "Longer."
+            },
+            {
+              "text": "Cyclopentolate",
+              "correct": false,
+              "feedback": "Up to 24 hours."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide is the shortest-acting antimuscarinic for dilation.",
+          "original": {
+            "q": "Which is the shortest-acting antimuscarinic for dilation?",
+            "options": [
+              {
+                "text": "Tropicamide",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Atropine",
+                "correct": false,
+                "feedback": "Longest."
+              },
+              {
+                "text": "Cyclopentolate",
+                "correct": false,
+                "feedback": "Longer."
+              },
+              {
+                "text": "Homatropine",
+                "correct": false,
+                "feedback": "Longer."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04622",
@@ -2613,12 +3008,12 @@
         },
         {
           "id": "pha-diagnostic-drugs-x04623",
-          "q": "Which drop gives the patient yellow-tinged tears?",
+          "q": "After a sight test a patient says their tissue went yellow when they blew their nose. Which drop explains it?",
           "options": [
             {
               "text": "Fluorescein",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it drains through the nasolacrimal duct."
             },
             {
               "text": "Tropicamide",
@@ -2631,12 +3026,39 @@
               "feedback": "No."
             },
             {
-              "text": "Lissamine",
+              "text": "Lissamine green",
               "correct": false,
               "feedback": "Green."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluorescein colours the tears and drains into the nose.",
+          "original": {
+            "q": "Which drop gives the patient yellow-tinged tears?",
+            "options": [
+              {
+                "text": "Fluorescein",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Tropicamide",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Proxymetacaine",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Lissamine",
+                "correct": false,
+                "feedback": "Green."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-diagnostic-drugs-x04624",
@@ -2851,21 +3273,73 @@
       "id": "pha-adverse-reactions",
       "title": "Adverse drug reactions and reporting",
       "summary": "What adverse reactions are and how they're classified, the optometrist's role in monitoring, detecting and reporting them via the Yellow Card scheme, and the reactions to know for the topical diagnostic drugs.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "Adverse reaction: an unintended harmful effect of a correctly given drug. Side effect: a secondary unwanted effect. Allergic reaction: an immune response, an emergency. OAR: an ocular adverse reaction.",
-        "Types A and B, plus C (continuing), D (delayed) and E (end-of-use).",
-        "Optometrists see many patients regularly across all ages, so they can monitor, detect (with baseline data) and report. Reporting implies no criticism and the medication usually continues.",
-        "Report suspected reactions on a Yellow Card (MHRA or BNF) and inform the GP; emergency referral isn't usually needed. Report all suspected reactions to black-triangle drugs, and serious ones to established, OTC and herbal products, with extra care for under-18s and the elderly. Device incidents (e.g. contact lenses) are reportable too.",
-        "Likelihood depends on the drug (dose, nature, interactions), the patient (age, with reactions peaking about 70; history; genetics) and their condition (chronic disease, metabolism).",
-        "Tropicamide: dry mouth, tachycardia, headache, nausea, pallor, allergy; the sight-threatening risk is acute angle closure (severe pain, redness, haloes, headache, vomiting, corneal oedema).",
-        "Cyclopentolate 1%: systemic effects in up to 10% after repeated doses (tachycardia, restlessness, hallucinations, ataxia, seizures). Atropine poisoning: dry mouth, difficulty swallowing, hot dry flushed skin, fast pulse; seek emergency advice.",
-        "Topical anaesthetics: stinging and redness most common; the major ocular reaction is corneal desquamation (VA can drop to about 6/60). Avoid repeat doses and rubbing; no contact lenses for 25 minutes.",
-        "Chloramphenicol: rare aplastic anaemia and other systemic reactions; avoid in pregnancy, breastfeeding and neonates (grey baby syndrome)."
+        {
+          "text": "Adverse reaction: an unintended harmful effect of a correctly given drug. Side effect: a secondary unwanted effect. Allergic reaction: an immune response, an emergency. OAR: an ocular adverse reaction.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Types A and B, plus C (continuing), D (delayed) and E (end-of-use).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Optometrists see many patients regularly across all ages, so they can monitor, detect (with baseline data) and report. Reporting implies no criticism and the medication usually continues.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Report suspected reactions on a Yellow Card (MHRA or BNF) and inform the GP; emergency referral isn't usually needed. Report all suspected reactions to black-triangle drugs, and serious ones to established, OTC and herbal products, with extra care for under-18s and the elderly. Device incidents (e.g. contact lenses) are reportable too.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Likelihood depends on the drug (dose, nature, interactions), the patient (age, with reactions peaking about 70; history; genetics) and their condition (chronic disease, metabolism).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Tropicamide: dry mouth, tachycardia, headache, nausea, pallor, allergy; the sight-threatening risk is acute angle closure (severe pain, redness, haloes, headache, vomiting, corneal oedema).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Cyclopentolate 1%: systemic effects in up to 10% after repeated doses (tachycardia, restlessness, hallucinations, ataxia, seizures). Atropine poisoning: dry mouth, difficulty swallowing, hot dry flushed skin, fast pulse; seek emergency advice.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Topical anaesthetics: stinging and redness most common; the major ocular reaction is corneal desquamation (VA can drop to about 6/60). Avoid repeat doses and rubbing; no contact lenses for 25 minutes.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Chloramphenicol: rare aplastic anaemia and other systemic reactions; avoid in pregnancy, breastfeeding and neonates (grey baby syndrome).",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Thinking a Yellow Card means stopping the drug or criticising the prescriber: it doesn't.",
-        "Only reporting serious reactions for black-triangle drugs: report all suspected ones.",
-        "Giving patients anaesthetic drops to take home."
+        {
+          "text": "Thinking a Yellow Card means stopping the drug or criticising the prescriber: it doesn't.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Only reporting serious reactions for black-triangle drugs: report all suspected ones.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Giving patients anaesthetic drops to take home.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "angle-closure-mechanism",
@@ -2883,11 +3357,15 @@
       "goDeeper": [
         {
           "heading": "Sources of drug information",
-          "body": "The patient, local prescribing patterns, the BNF (including black triangle drugs), MIMS, MHRA Drug Safety Update, the eMC, textbooks and emedINFO."
+          "body": "The patient, local prescribing patterns, the BNF (including black triangle drugs), MIMS, MHRA Drug Safety Update, the eMC, textbooks and emedINFO.",
+          "priority": "clinical",
+          "module": "PHA"
         },
         {
           "heading": "Angle closure risk factors for dilation",
-          "body": "Risk is higher with hyperopia, older age, shallow anterior chambers and a family history of angle closure; the danger point is the mid-dilated pupil. Allergic reactions range from mild lid redness (often to preservatives or neomycin) to rare anaphylaxis."
+          "body": "Risk is higher with hyperopia, older age, shallow anterior chambers and a family history of angle closure; the danger point is the mid-dilated pupil. Allergic reactions range from mild lid redness (often to preservatives or neomycin) to rare anaphylaxis.",
+          "priority": "exam-core",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -3039,165 +3517,327 @@
         },
         {
           "id": "pha-adverse-reactions-x0072",
-          "q": "Which is a systemic effect of tropicamide?",
+          "q": "After tropicamide, a patient feels their heart racing and their mouth is dry. What's the likely cause?",
           "options": [
             {
-              "text": "Dry mouth and tachycardia",
+              "text": "Systemic antimuscarinic effects of tropicamide",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Hearing loss",
+              "text": "Anaphylaxis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Different signs."
             },
             {
-              "text": "Hair loss",
+              "text": "Angle closure",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Different signs."
             },
             {
-              "text": "Weight gain",
+              "text": "Anxiety only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Possible, but this fits the drug."
             }
           ],
-          "explanation": ""
+          "explanation": "Tropicamide can cause dry mouth, tachycardia, headache, nausea and pallor.",
+          "original": {
+            "q": "Which is a systemic effect of tropicamide?",
+            "options": [
+              {
+                "text": "Dry mouth and tachycardia",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Hearing loss",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hair loss",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Weight gain",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0073",
-          "q": "What's the major ocular reaction to topical anaesthetics?",
+          "q": "A patient has used anaesthetic drops at home for days and now has a painful, cloudy cornea with sloughing epithelium. What's this?",
           "options": [
             {
-              "text": "Corneal desquamation",
+              "text": "Anaesthetic toxicity with corneal desquamation",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Cataract",
+              "text": "Normal healing",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Retinal detachment",
+              "text": "Allergic conjunctivitis",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Glaucoma",
+              "text": "Dry eye",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this."
             }
           ],
-          "explanation": ""
+          "explanation": "The major ocular reaction to topical anaesthetics is corneal desquamation.",
+          "original": {
+            "q": "What's the major ocular reaction to topical anaesthetics?",
+            "options": [
+              {
+                "text": "Corneal desquamation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Retinal detachment",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Glaucoma",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0074",
-          "q": "How long should CL wearers wait after an anaesthetic before reinserting lenses?",
+          "q": "A soft lens wearer has had a topical anaesthetic for tonometry. How long should they wait before putting their lenses back in?",
           "options": [
             {
-              "text": "25 minutes",
+              "text": "About 25 minutes",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "1 minute",
+              "text": "Straight away",
               "correct": false,
-              "feedback": "Too short."
+              "feedback": "They can't feel discomfort or damage."
             },
             {
-              "text": "1 week",
+              "text": "2 days",
               "correct": false,
               "feedback": "Too long."
             },
             {
-              "text": "No wait",
+              "text": "They can never wear lenses again",
               "correct": false,
-              "feedback": "Wait."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lens wearers should wait about 25 minutes after an anaesthetic before reinserting lenses.",
+          "original": {
+            "q": "How long should CL wearers wait after an anaesthetic before reinserting lenses?",
+            "options": [
+              {
+                "text": "25 minutes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "1 minute",
+                "correct": false,
+                "feedback": "Too short."
+              },
+              {
+                "text": "1 week",
+                "correct": false,
+                "feedback": "Too long."
+              },
+              {
+                "text": "No wait",
+                "correct": false,
+                "feedback": "Wait."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0075",
-          "q": "Signs of atropine poisoning include",
+          "q": "A child given atropine drops at home becomes hot, flushed and restless with a fast pulse. What should you suspect?",
           "options": [
             {
-              "text": "hot, dry, flushed skin and a fast pulse",
+              "text": "Atropine toxicity",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "slow pulse",
+              "text": "A viral illness only",
+              "correct": false,
+              "feedback": "Consider the drug first."
+            },
+            {
+              "text": "An allergy to plastic",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "sweating",
+              "text": "Normal effects",
               "correct": false,
-              "feedback": "Dry skin."
-            },
-            {
-              "text": "pinpoint pupils",
-              "correct": false,
-              "feedback": "Dilated."
+              "feedback": "Not these."
             }
           ],
-          "explanation": ""
+          "explanation": "Signs of atropine poisoning include hot, dry, flushed skin and a fast pulse.",
+          "original": {
+            "q": "Signs of atropine poisoning include",
+            "options": [
+              {
+                "text": "hot, dry, flushed skin and a fast pulse",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "slow pulse",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "sweating",
+                "correct": false,
+                "feedback": "Dry skin."
+              },
+              {
+                "text": "pinpoint pupils",
+                "correct": false,
+                "feedback": "Dilated."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0076",
-          "q": "Chloramphenicol should be avoided in",
+          "q": "Which patient should NOT be given chloramphenicol drops?",
           "options": [
             {
-              "text": "pregnancy, breastfeeding and neonates",
+              "text": "A breastfeeding mother",
               "correct": true,
-              "feedback": "Yes (grey baby syndrome)."
+              "feedback": "Yes: avoid in pregnancy, breastfeeding and neonates."
             },
             {
-              "text": "adults",
+              "text": "A healthy 30-year-old man",
               "correct": false,
-              "feedback": "Used."
+              "feedback": "Usually fine."
             },
             {
-              "text": "contact lens wearers",
+              "text": "A 10-year-old",
               "correct": false,
-              "feedback": "Not specifically."
+              "feedback": "Usually fine."
             },
             {
-              "text": "everyone",
+              "text": "An older adult",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually fine."
             }
           ],
-          "explanation": ""
+          "explanation": "Chloramphenicol should be avoided in pregnancy, breastfeeding and neonates (and with blood disorders).",
+          "original": {
+            "q": "Chloramphenicol should be avoided in",
+            "options": [
+              {
+                "text": "pregnancy, breastfeeding and neonates",
+                "correct": true,
+                "feedback": "Yes (grey baby syndrome)."
+              },
+              {
+                "text": "adults",
+                "correct": false,
+                "feedback": "Used."
+              },
+              {
+                "text": "contact lens wearers",
+                "correct": false,
+                "feedback": "Not specifically."
+              },
+              {
+                "text": "everyone",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0077",
-          "q": "Which drugs need ALL suspected reactions reported?",
+          "q": "A patient has a mild rash after a new drug marked with a black triangle. Should you report it?",
           "options": [
             {
-              "text": "Black-triangle drugs",
+              "text": "Yes: all suspected reactions to black-triangle drugs should be reported",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "All established drugs",
+              "text": "Only if serious",
               "correct": false,
-              "feedback": "Serious ones only."
+              "feedback": "Not for black-triangle drugs."
             },
             {
-              "text": "Herbal remedies",
+              "text": "No",
               "correct": false,
-              "feedback": "Serious ones."
+              "feedback": "Report it."
             },
             {
-              "text": "None",
+              "text": "Only if the patient asks",
               "correct": false,
-              "feedback": "Black-triangle drugs do."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Report all suspected reactions to black-triangle drugs, and serious reactions to established drugs.",
+          "original": {
+            "q": "Which drugs need ALL suspected reactions reported?",
+            "options": [
+              {
+                "text": "Black-triangle drugs",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "All established drugs",
+                "correct": false,
+                "feedback": "Serious ones only."
+              },
+              {
+                "text": "Herbal remedies",
+                "correct": false,
+                "feedback": "Serious ones."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Black-triangle drugs do."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0181",
@@ -3228,17 +3868,12 @@
         },
         {
           "id": "pha-adverse-reactions-x0182",
-          "q": "How are suspected reactions reported in the UK?",
+          "q": "You suspect a patient had a reaction to eye drops. How do you report it in the UK?",
           "options": [
             {
-              "text": "The Yellow Card scheme",
+              "text": "Through the Yellow Card scheme (MHRA)",
               "correct": true,
               "feedback": "Yes."
-            },
-            {
-              "text": "A red card",
-              "correct": false,
-              "feedback": "No."
             },
             {
               "text": "To the GOC",
@@ -3248,10 +3883,42 @@
             {
               "text": "Not at all",
               "correct": false,
-              "feedback": "Report."
+              "feedback": "Report it."
+            },
+            {
+              "text": "By email to the manufacturer only",
+              "correct": false,
+              "feedback": "Use Yellow Card."
             }
           ],
-          "explanation": ""
+          "explanation": "Report suspected adverse reactions using the Yellow Card scheme.",
+          "original": {
+            "q": "How are suspected reactions reported in the UK?",
+            "options": [
+              {
+                "text": "The Yellow Card scheme",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A red card",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To the GOC",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Not at all",
+                "correct": false,
+                "feedback": "Report."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-adverse-reactions-x0183",
@@ -4297,20 +4964,68 @@
       "id": "pha-law",
       "title": "Medicines law for optometrists",
       "summary": "The Human Medicines Regulations 2012 control medicines, enforced by the MHRA. Know the POM, P and GSL categories, signed orders, medical devices, and the four levels at which optometrists can use, supply and prescribe.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "The Human Medicines Regulations 2012 replaced the Medicines Act 1968; the MHRA enforces them through the Commission on Human Medicines. Medicines are normally supplied from registered pharmacies.",
-        "POM (about 4,500): only on a prescription from an appropriate practitioner, from a pharmacy. P (about 1,200): any medicine not on the other lists, sold under a pharmacist. GSL (about 1,500): any secure shop; for optometrists mainly eye lotions (eye drops and ointments aren't GSL).",
-        "A drug can fall into more than one category depending on pack size, strength and use (e.g. sodium cromoglicate).",
-        "Signed orders (needed for entry-level and AS drugs): your name, address and GOC number, date, patient details if relevant, drug, quantity, form and strength, labelling and your original signature.",
-        "Medical devices are separately regulated but adverse events still go to the MHRA: contact lenses and solutions are class IIb, fluorescein strips class I. Controlled drugs (Misuse of Drugs Act 1971) don't apply to optometric practice.",
-        "Four levels: entry (registration) level, additional supply, supplementary prescribing, independent prescribing. AS, SP and IP need GOC-approved training (a postgraduate course and supervised hospital placement).",
-        "Entry level P medicines include antazoline, chloramphenicol 0.5% (acute bacterial conjunctivitis), propamidine, sodium cromoglicate, lodoxamide, phenylephrine, naphazoline, fluorescein, rose bengal and tear substitutes.",
-        "AS covers non-sight-threatening conditions (allergic and infective conjunctivitis, blepharitis, dry eye, superficial injury), e.g. ketotifen, olopatadine, acetylcysteine, polymyxin B, atropine and pilocarpine; supplied direct only in an emergency."
+        {
+          "text": "The Human Medicines Regulations 2012 replaced the Medicines Act 1968; the MHRA enforces them through the Commission on Human Medicines. Medicines are normally supplied from registered pharmacies.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "POM (about 4,500): only on a prescription from an appropriate practitioner, from a pharmacy. P (about 1,200): any medicine not on the other lists, sold under a pharmacist. GSL (about 1,500): any secure shop; for optometrists mainly eye lotions (eye drops and ointments aren't GSL).",
+          "priority": "background",
+          "module": "PHA"
+        },
+        {
+          "text": "A drug can fall into more than one category depending on pack size, strength and use (e.g. sodium cromoglicate).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Signed orders (needed for entry-level and AS drugs): your name, address and GOC number, date, patient details if relevant, drug, quantity, form and strength, labelling and your original signature.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Medical devices are separately regulated but adverse events still go to the MHRA: contact lenses and solutions are class IIb, fluorescein strips class I. Controlled drugs (Misuse of Drugs Act 1971) don't apply to optometric practice.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Four levels: entry (registration) level, additional supply, supplementary prescribing, independent prescribing. AS, SP and IP need GOC-approved training (a postgraduate course and supervised hospital placement).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Entry level P medicines include antazoline, chloramphenicol 0.5% (acute bacterial conjunctivitis), propamidine, sodium cromoglicate, lodoxamide, phenylephrine, naphazoline, fluorescein, rose bengal and tear substitutes.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "AS covers non-sight-threatening conditions (allergic and infective conjunctivitis, blepharitis, dry eye, superficial injury), e.g. ketotifen, olopatadine, acetylcysteine, polymyxin B, atropine and pilocarpine; supplied direct only in an emergency.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Thinking eye drops can be GSL.",
-        "Forgetting medical device problems are reported to the MHRA too.",
-        "Self-prescribing POMs for yourself or family: avoid, except minor ailments or emergencies."
+        {
+          "text": "Thinking eye drops can be GSL.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Forgetting medical device problems are reported to the MHRA too.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Self-prescribing POMs for yourself or family: avoid, except minor ailments or emergencies.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "medicines-categories",
@@ -4328,11 +5043,15 @@
       "goDeeper": [
         {
           "heading": "Supplementary prescribing and PGDs",
-          "body": "Supplementary prescribing is a voluntary partnership with an independent prescriber (a doctor) under a patient-specific clinical management plan, useful for glaucoma and post-surgical care. Patient Group Directions allow co-management (e.g. after surgery) with drugs outside the usual lists; they're signed by a senior doctor and a senior pharmacist."
+          "body": "Supplementary prescribing is a voluntary partnership with an independent prescriber (a doctor) under a patient-specific clinical management plan, useful for glaucoma and post-surgical care. Patient Group Directions allow co-management (e.g. after surgery) with drugs outside the usual lists; they're signed by a senior doctor and a senior pharmacist.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Instillation by unregistered staff",
-          "body": "The optometrist stays responsible, must be on the premises and able to intervene. Ignorance of the law is no excuse."
+          "body": "The optometrist stays responsible, must be on the premises and able to intervene. Ignorance of the law is no excuse.",
+          "priority": "clinical",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -4449,30 +5168,57 @@
         },
         {
           "id": "pha-law-w10-1",
-          "q": "How are contact lens solutions classified?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "Class IIb medical devices",
+              "text": "Contact lens solutions are POMs",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: they're medical devices (class IIb)."
             },
             {
-              "text": "Prescription only medicines",
+              "text": "Contact lenses are medical devices",
               "correct": false,
-              "feedback": "They're devices, not medicines."
+              "feedback": "True."
             },
             {
-              "text": "Pharmacy medicines",
+              "text": "Adverse events with devices still go to the MHRA",
               "correct": false,
-              "feedback": "They're devices."
+              "feedback": "True."
             },
             {
-              "text": "Class I medical devices",
+              "text": "Medical devices are regulated separately from medicines",
               "correct": false,
-              "feedback": "Class I covers diagnostic dye strips."
+              "feedback": "True."
             }
           ],
-          "explanation": "PaP legislation lecture, slide 12."
+          "explanation": "Contact lens solutions are class IIb medical devices.",
+          "original": {
+            "q": "How are contact lens solutions classified?",
+            "options": [
+              {
+                "text": "Class IIb medical devices",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Prescription only medicines",
+                "correct": false,
+                "feedback": "They're devices, not medicines."
+              },
+              {
+                "text": "Pharmacy medicines",
+                "correct": false,
+                "feedback": "They're devices."
+              },
+              {
+                "text": "Class I medical devices",
+                "correct": false,
+                "feedback": "Class I covers diagnostic dye strips."
+              }
+            ],
+            "explanation": "PaP legislation lecture, slide 12."
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0071",
@@ -4584,111 +5330,219 @@
         },
         {
           "id": "pha-law-x0075",
-          "q": "What must a signed order include?",
+          "q": "An optometrist writes a signed order for drugs but leaves out their GOC number. What's the problem?",
           "options": [
             {
-              "text": "Your name, address, GOC number, drug details and original signature",
+              "text": "A signed order must include your name, address, GOC number, drug details and an original signature",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only the drug name",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "The GOC number is needed."
             },
             {
-              "text": "The patient's NHS number only",
+              "text": "Signed orders aren't used",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "They are."
             },
             {
-              "text": "A photocopy signature",
+              "text": "Only the drug name is needed",
               "correct": false,
-              "feedback": "Original needed."
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "A signed order needs your name, address, GOC number, drug details and an original signature.",
+          "original": {
+            "q": "What must a signed order include?",
+            "options": [
+              {
+                "text": "Your name, address, GOC number, drug details and original signature",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the drug name",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "The patient's NHS number only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "A photocopy signature",
+                "correct": false,
+                "feedback": "Original needed."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0076",
-          "q": "Supplementary prescribing works with",
+          "q": "A glaucoma patient's treatment can be adjusted by an optometrist following a plan agreed with a consultant. Which prescribing arrangement is this?",
           "options": [
             {
-              "text": "an independent prescriber under a clinical management plan",
+              "text": "Supplementary prescribing, with an independent prescriber under a clinical management plan",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "no doctor involvement",
+              "text": "Independent prescribing",
               "correct": false,
-              "feedback": "That's independent."
+              "feedback": "No plan needed."
             },
             {
-              "text": "pharmacists only",
+              "text": "Additional supply",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Different."
             },
             {
-              "text": "patients only",
+              "text": "Entry level",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Supplementary prescribing works with an independent prescriber under a clinical management plan.",
+          "original": {
+            "q": "Supplementary prescribing works with",
+            "options": [
+              {
+                "text": "an independent prescriber under a clinical management plan",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "no doctor involvement",
+                "correct": false,
+                "feedback": "That's independent."
+              },
+              {
+                "text": "pharmacists only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "patients only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0181",
-          "q": "Which law now governs medicines in the UK?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "The Human Medicines Regulations 2012",
+              "text": "The Medicines Act 1968 is still the main law governing medicines",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it was largely replaced by the Human Medicines Regulations 2012."
             },
             {
-              "text": "The Medicines Act 1968 only",
+              "text": "The MHRA enforces medicines law",
               "correct": false,
-              "feedback": "Mostly replaced."
+              "feedback": "True."
             },
             {
-              "text": "GDPR",
+              "text": "The Human Medicines Regulations 2012 govern medicines now",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "The Equality Act",
+              "text": "Medicines are split into POM, P and GSL",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The Human Medicines Regulations 2012 replaced the Medicines Act 1968.",
+          "original": {
+            "q": "Which law now governs medicines in the UK?",
+            "options": [
+              {
+                "text": "The Human Medicines Regulations 2012",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The Medicines Act 1968 only",
+                "correct": false,
+                "feedback": "Mostly replaced."
+              },
+              {
+                "text": "GDPR",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The Equality Act",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0182",
-          "q": "Which three legal categories of medicine exist?",
+          "q": "A patient asks why they can buy some eye drops in a supermarket but others only from a pharmacist or with a prescription. What explains it?",
           "options": [
             {
-              "text": "POM, P and GSL",
+              "text": "Medicines are classed as GSL, P or POM",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "A, B and C",
+              "text": "Supermarkets ignore the law",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Red, amber and green",
+              "text": "All drops are the same",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "Prices differ",
               "correct": false,
-              "feedback": "Three."
+              "feedback": "Not the reason."
             }
           ],
-          "explanation": ""
+          "explanation": "Medicines fall into three legal categories: POM, P and GSL.",
+          "original": {
+            "q": "Which three legal categories of medicine exist?",
+            "options": [
+              {
+                "text": "POM, P and GSL",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A, B and C",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Red, amber and green",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Three."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0183",
@@ -4881,30 +5735,57 @@
         },
         {
           "id": "pha-law-x01810",
-          "q": "Supplementary prescribing requires",
+          "q": "Which statement about supplementary prescribing is wrong?",
           "options": [
             {
-              "text": "a clinical management plan with a doctor",
+              "text": "It needs no clinical management plan",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it needs one agreed with a doctor."
             },
             {
-              "text": "nothing",
+              "text": "It works with an independent prescriber",
               "correct": false,
-              "feedback": "Plan."
+              "feedback": "True."
             },
             {
-              "text": "a pharmacist only",
+              "text": "It suits long-term conditions like glaucoma",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "the patient's consent only",
+              "text": "It's a GOC specialty registration",
               "correct": false,
-              "feedback": "Not only."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Supplementary prescribing requires a clinical management plan with a doctor.",
+          "original": {
+            "q": "Supplementary prescribing requires",
+            "options": [
+              {
+                "text": "a clinical management plan with a doctor",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Plan."
+              },
+              {
+                "text": "a pharmacist only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "the patient's consent only",
+                "correct": false,
+                "feedback": "Not only."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-law-x0461",
@@ -5734,18 +6615,58 @@
       "id": "pha-anti-infectives-inflammatories",
       "title": "Anti-infectives, anti-allergy drugs and anti-inflammatories",
       "summary": "Most eye infections and inflammations seen in practice are treated with a handful of drug groups: antibiotics for bacterial infection, antivirals for herpes simplex, anti-allergy drugs for allergic conjunctivitis, and steroids or NSAIDs for inflammation. Knowing when not to treat, and when a steroid could be dangerous, matters as much as knowing what to use.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "Most acute bacterial conjunctivitis gets better on its own; a topical antibiotic such as chloramphenicol may speed recovery when it's severe or not settling.",
-        "Contact lens–related keratitis is an emergency because of Pseudomonas and Acanthamoeba risk; it's usually managed in hospital with fluoroquinolones or other intensive treatment.",
-        "Herpes simplex dendritic ulcers are treated with an antiviral (for example aciclovir or ganciclovir), never with a steroid alone.",
-        "Allergic conjunctivitis: mast cell stabilisers (for example sodium cromoglicate) and antihistamines; dual-action drugs (for example olopatadine) do both.",
-        "Topical steroids reduce inflammation but can raise IOP, cause cataract and make herpes or fungal infections much worse.",
-        "Topical NSAIDs (for example ketorolac, nepafenac) are used for pain and inflammation, especially after cataract surgery."
+        {
+          "text": "Most acute bacterial conjunctivitis gets better on its own; a topical antibiotic such as chloramphenicol may speed recovery when it's severe or not settling.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Contact lens–related keratitis is an emergency because of Pseudomonas and Acanthamoeba risk; it's usually managed in hospital with fluoroquinolones or other intensive treatment.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Herpes simplex dendritic ulcers are treated with an antiviral (for example aciclovir or ganciclovir), never with a steroid alone.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Allergic conjunctivitis: mast cell stabilisers (for example sodium cromoglicate) and antihistamines; dual-action drugs (for example olopatadine) do both.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Topical steroids reduce inflammation but can raise IOP, cause cataract and make herpes or fungal infections much worse.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Topical NSAIDs (for example ketorolac, nepafenac) are used for pain and inflammation, especially after cataract surgery.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Using a steroid on an undiagnosed red eye: it can turn a herpes ulcer into a sight-threatening one.",
-        "Treating a contact lens ulcer as simple conjunctivitis.",
-        "Expecting a mast cell stabiliser to work straight away: it takes days and works best before exposure."
+        {
+          "text": "Using a steroid on an undiagnosed red eye: it can turn a herpes ulcer into a sight-threatening one.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Treating a contact lens ulcer as simple conjunctivitis.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Expecting a mast cell stabiliser to work straight away: it takes days and works best before exposure.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "red-eye-treatment",
@@ -5762,15 +6683,21 @@
       "goDeeper": [
         {
           "heading": "Antibiotics",
-          "body": "Chloramphenicol is broad-spectrum and widely used for superficial infections (drops in the day, ointment at night). Fusidic acid works mainly against staphylococci and is used twice daily. Fluoroquinolones (levofloxacin, ofloxacin, moxifloxacin) are reserved for more serious infections such as keratitis. Overuse drives antibiotic resistance, so treat only when there's a clear benefit."
+          "body": "Chloramphenicol is broad-spectrum and widely used for superficial infections (drops in the day, ointment at night). Fusidic acid works mainly against staphylococci and is used twice daily. Fluoroquinolones (levofloxacin, ofloxacin, moxifloxacin) are reserved for more serious infections such as keratitis. Overuse drives antibiotic resistance, so treat only when there's a clear benefit.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Steroids",
-          "body": "Topical steroids range from potent (dexamethasone, prednisolone acetate 1%) to milder or 'soft' (fluorometholone, loteprednol). They're used for uveitis, after surgery and for some severe allergic or immune conditions, usually under specialist care. Risks: raised IOP in 'steroid responders', posterior subcapsular cataract, delayed healing and worsening of infections. They're tapered rather than stopped suddenly after longer courses."
+          "body": "Topical steroids range from potent (dexamethasone, prednisolone acetate 1%) to milder or 'soft' (fluorometholone, loteprednol). They're used for uveitis, after surgery and for some severe allergic or immune conditions, usually under specialist care. Risks: raised IOP in 'steroid responders', posterior subcapsular cataract, delayed healing and worsening of infections. They're tapered rather than stopped suddenly after longer courses.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Anti-allergy drugs",
-          "body": "Mast cell stabilisers (sodium cromoglicate, lodoxamide) stop mast cells releasing histamine, so they are best started before the allergy season and take several days to work. Antihistamines (for example antazoline, azelastine) give quick relief of itch. Dual-action drugs (olopatadine, ketotifen) combine both. Cold compresses and avoiding the allergen help too."
+          "body": "Mast cell stabilisers (sodium cromoglicate, lodoxamide) stop mast cells releasing histamine, so they are best started before the allergy season and take several days to work. Antihistamines (for example antazoline, azelastine) give quick relief of itch. Dual-action drugs (olopatadine, ketotifen) combine both. Cold compresses and avoiding the allergen help too.",
+          "priority": "exam-core",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -5878,30 +6805,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0071",
-          "q": "Most acute bacterial conjunctivitis",
+          "q": "A healthy adult has sticky, mildly red eyes for two days with normal vision. What's the most evidence-based advice?",
           "options": [
             {
-              "text": "gets better on its own; chloramphenicol may speed recovery",
+              "text": "It usually gets better on its own; good hygiene, and chloramphenicol may speed recovery",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "needs hospital admission",
+              "text": "They need oral antibiotics",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "Steroid drops",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "needs steroids",
+              "text": "Emergency referral",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "causes blindness",
-              "correct": false,
-              "feedback": "Rarely."
+              "feedback": "Not needed."
             }
           ],
-          "explanation": ""
+          "explanation": "Most acute bacterial conjunctivitis is self-limiting.",
+          "original": {
+            "q": "Most acute bacterial conjunctivitis",
+            "options": [
+              {
+                "text": "gets better on its own; chloramphenicol may speed recovery",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "needs hospital admission",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "needs steroids",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "causes blindness",
+                "correct": false,
+                "feedback": "Rarely."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0072",
@@ -5932,10 +6886,10 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0073",
-          "q": "Which drug is a mast cell stabiliser?",
+          "q": "A hay fever sufferer wants to prevent itchy eyes this summer, starting before the season. Which drug suits?",
           "options": [
             {
-              "text": "Sodium cromoglicate",
+              "text": "Sodium cromoglicate (a mast cell stabiliser)",
               "correct": true,
               "feedback": "Yes."
             },
@@ -5945,17 +6899,44 @@
               "feedback": "Antibiotic."
             },
             {
+              "text": "Aciclovir",
+              "correct": false,
+              "feedback": "Antiviral."
+            },
+            {
               "text": "Timolol",
               "correct": false,
               "feedback": "Glaucoma."
-            },
-            {
-              "text": "Ketorolac",
-              "correct": false,
-              "feedback": "NSAID."
             }
           ],
-          "explanation": ""
+          "explanation": "Mast cell stabilisers such as sodium cromoglicate prevent allergic reactions and work best started early.",
+          "original": {
+            "q": "Which drug is a mast cell stabiliser?",
+            "options": [
+              {
+                "text": "Sodium cromoglicate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Chloramphenicol",
+                "correct": false,
+                "feedback": "Antibiotic."
+              },
+              {
+                "text": "Timolol",
+                "correct": false,
+                "feedback": "Glaucoma."
+              },
+              {
+                "text": "Ketorolac",
+                "correct": false,
+                "feedback": "NSAID."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0074",
@@ -5986,57 +6967,111 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0075",
-          "q": "Contact lens keratitis is an emergency because of",
+          "q": "Why is a contact lens wearer with a painful red eye and infiltrate an emergency rather than a routine case?",
           "options": [
             {
-              "text": "Pseudomonas and Acanthamoeba",
+              "text": "Pseudomonas and Acanthamoeba can destroy the cornea quickly",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "allergy",
+              "text": "Lenses always cause allergy",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "dry eye",
+              "text": "It's always viral",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "cost",
+              "text": "It isn't an emergency",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lens keratitis is an emergency because of Pseudomonas and Acanthamoeba risk.",
+          "original": {
+            "q": "Contact lens keratitis is an emergency because of",
+            "options": [
+              {
+                "text": "Pseudomonas and Acanthamoeba",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "allergy",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "cost",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0076",
-          "q": "Topical NSAIDs are used mainly",
+          "q": "A patient has had cataract surgery. Why might they be prescribed ketorolac or nepafenac drops?",
           "options": [
             {
-              "text": "for pain and inflammation after cataract surgery",
+              "text": "To reduce pain and inflammation, and the risk of macular oedema",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: these are topical NSAIDs."
             },
             {
-              "text": "for glaucoma",
+              "text": "To fight infection",
+              "correct": false,
+              "feedback": "Antibiotics do that."
+            },
+            {
+              "text": "To dilate the pupil",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "for dilation",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "for dry eye",
+              "text": "To lower IOP",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Topical NSAIDs are used mainly for pain and inflammation after cataract surgery.",
+          "original": {
+            "q": "Topical NSAIDs are used mainly",
+            "options": [
+              {
+                "text": "for pain and inflammation after cataract surgery",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "for glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "for dilation",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "for dry eye",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0181",
@@ -6121,30 +7156,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0184",
-          "q": "Which antiviral gel treats herpes simplex keratitis?",
+          "q": "A patient has a dendritic corneal ulcer. Which treatment fits?",
           "options": [
             {
-              "text": "Ganciclovir",
+              "text": "Ganciclovir gel (or aciclovir ointment)",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: antiviral."
             },
             {
               "text": "Chloramphenicol",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Antibiotic."
             },
             {
-              "text": "Timolol",
+              "text": "Prednisolone alone",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Worsens herpes."
             },
             {
-              "text": "Atropine",
+              "text": "Antihistamine",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Herpes simplex keratitis is treated with an antiviral such as ganciclovir gel.",
+          "original": {
+            "q": "Which antiviral gel treats herpes simplex keratitis?",
+            "options": [
+              {
+                "text": "Ganciclovir",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Chloramphenicol",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Timolol",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Atropine",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0185",
@@ -6175,30 +7237,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0186",
-          "q": "Which is a 'soft' steroid with less IOP rise?",
+          "q": "A known steroid responder needs a mild topical steroid. Which is the more cautious choice?",
           "options": [
             {
               "text": "Fluorometholone",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: a 'soft' steroid with less IOP rise."
             },
             {
               "text": "Dexamethasone",
               "correct": false,
-              "feedback": "Stronger."
+              "feedback": "Potent."
             },
             {
               "text": "Prednisolone acetate 1%",
               "correct": false,
-              "feedback": "Stronger."
+              "feedback": "Potent."
             },
             {
               "text": "Betamethasone",
               "correct": false,
-              "feedback": "Stronger."
+              "feedback": "Potent."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluorometholone and loteprednol are softer steroids with less IOP effect.",
+          "original": {
+            "q": "Which is a 'soft' steroid with less IOP rise?",
+            "options": [
+              {
+                "text": "Fluorometholone",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Dexamethasone",
+                "correct": false,
+                "feedback": "Stronger."
+              },
+              {
+                "text": "Prednisolone acetate 1%",
+                "correct": false,
+                "feedback": "Stronger."
+              },
+              {
+                "text": "Betamethasone",
+                "correct": false,
+                "feedback": "Stronger."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0187",
@@ -6283,30 +7372,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x01810",
-          "q": "Steroid use must be monitored for",
+          "q": "A patient has used steroid drops for six weeks. What two things should you check?",
           "options": [
             {
-              "text": "raised IOP and cataract",
+              "text": "IOP and the lens for cataract",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "myopia",
+              "text": "Colour vision and stereo",
+              "correct": false,
+              "feedback": "Not the priority."
+            },
+            {
+              "text": "PD and vertex distance",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "improved VA",
+              "text": "Corneal curvature only",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "nothing",
-              "correct": false,
-              "feedback": "Monitor."
             }
           ],
-          "explanation": ""
+          "explanation": "Monitor steroid users for raised IOP and cataract.",
+          "original": {
+            "q": "Steroid use must be monitored for",
+            "options": [
+              {
+                "text": "raised IOP and cataract",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "improved VA",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Monitor."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0461",
@@ -6526,30 +7642,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x0469",
-          "q": "Which steroid drop is a suspension needing shaking?",
+          "q": "A patient's prednisolone acetate drops don't seem to work. What simple instruction may have been missed?",
           "options": [
             {
-              "text": "Prednisolone acetate 1%",
+              "text": "Shake the bottle: it's a suspension",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Dexamethasone sodium phosphate",
-              "correct": false,
-              "feedback": "Solution."
-            },
-            {
-              "text": "Saline",
+              "text": "Keep it in the freezer",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Hypromellose",
+              "text": "Use it once a week",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Dilute it",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Prednisolone acetate 1% is a suspension and must be shaken before use.",
+          "original": {
+            "q": "Which steroid drop is a suspension needing shaking?",
+            "options": [
+              {
+                "text": "Prednisolone acetate 1%",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Dexamethasone sodium phosphate",
+                "correct": false,
+                "feedback": "Solution."
+              },
+              {
+                "text": "Saline",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hypromellose",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04610",
@@ -6661,30 +7804,57 @@
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04614",
-          "q": "Lodoxamide is",
+          "q": "A patient with vernal keratoconjunctivitis is prescribed lodoxamide. How does it work?",
           "options": [
             {
-              "text": "a mast cell stabiliser",
+              "text": "It stabilises mast cells to prevent release of histamine",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "an antibiotic",
+              "text": "It kills bacteria",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "an antiviral",
+              "text": "It's a steroid",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "a cycloplegic",
+              "text": "It blocks histamine receptors only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's an antihistamine."
             }
           ],
-          "explanation": ""
+          "explanation": "Lodoxamide is a mast cell stabiliser.",
+          "original": {
+            "q": "Lodoxamide is",
+            "options": [
+              {
+                "text": "a mast cell stabiliser",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "an antibiotic",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "an antiviral",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "a cycloplegic",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-anti-infectives-inflammatories-x04615",
@@ -7138,18 +8308,58 @@
       "id": "pha-glaucoma-medicines",
       "title": "Glaucoma medicines",
       "summary": "Glaucoma treatment lowers intraocular pressure, either by reducing aqueous production or by increasing outflow. Prostaglandin analogues are the usual first drop; beta-blockers, carbonic anhydrase inhibitors and alpha-agonists are added if needed. NICE now recommends laser trabeculoplasty (SLT) as a first-line option for many patients. Optometrists need to know side effects and contraindications to support patients.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "Prostaglandin analogues (latanoprost, bimatoprost, travoprost, tafluprost): increase uveoscleral outflow, once a day at night. Side effects: red eye, longer darker lashes, darker iris, skin around the eye darkening, fat loss around the eye.",
-        "Beta-blockers (timolol, betaxolol): reduce aqueous production. Avoid in asthma/COPD, slow heart rate and heart block.",
-        "Carbonic anhydrase inhibitors: drops (dorzolamide, brinzolamide) reduce production; oral acetazolamide is used short-term (tingling, tiredness, kidney stones, low potassium).",
-        "Alpha-2 agonists (brimonidine): reduce production and increase outflow; allergy is common; avoid in young children.",
-        "NICE NG81 recommends offering selective laser trabeculoplasty (SLT) as first treatment for ocular hypertension (at the treatment threshold) and chronic open-angle glaucoma.",
-        "Adherence is a major problem: forgetting drops, poor technique and side effects all reduce effectiveness."
+        {
+          "text": "Prostaglandin analogues (latanoprost, bimatoprost, travoprost, tafluprost): increase uveoscleral outflow, once a day at night. Side effects: red eye, longer darker lashes, darker iris, skin around the eye darkening, fat loss around the eye.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Beta-blockers (timolol, betaxolol): reduce aqueous production. Avoid in asthma/COPD, slow heart rate and heart block.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Carbonic anhydrase inhibitors: drops (dorzolamide, brinzolamide) reduce production; oral acetazolamide is used short-term (tingling, tiredness, kidney stones, low potassium).",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Alpha-2 agonists (brimonidine): reduce production and increase outflow; allergy is common; avoid in young children.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "NICE NG81 recommends offering selective laser trabeculoplasty (SLT) as first treatment for ocular hypertension (at the treatment threshold) and chronic open-angle glaucoma.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Adherence is a major problem: forgetting drops, poor technique and side effects all reduce effectiveness.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Forgetting that beta-blocker drops can cause asthma attacks or fainting.",
-        "Telling patients the iris colour change from prostaglandins will go away: it's usually permanent.",
-        "Assuming that once IOP is 'normal' the patient can stop drops."
+        {
+          "text": "Forgetting that beta-blocker drops can cause asthma attacks or fainting.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Telling patients the iris colour change from prostaglandins will go away: it's usually permanent.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Assuming that once IOP is 'normal' the patient can stop drops.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "glaucoma-drug-targets",
@@ -7165,15 +8375,21 @@
       "goDeeper": [
         {
           "heading": "Choosing and adding treatment",
-          "body": "NICE NG81 recommends offering SLT first for many people with ocular hypertension or COAG; if drops are used, a generic prostaglandin analogue is usually first. If the target IOP isn't reached, treatment is stepped up: another class, a combination drop (fewer bottles helps adherence) or surgery. Preservative-free options are considered for surface problems."
+          "body": "NICE NG81 recommends offering SLT first for many people with ocular hypertension or COAG; if drops are used, a generic prostaglandin analogue is usually first. If the target IOP isn't reached, treatment is stepped up: another class, a combination drop (fewer bottles helps adherence) or surgery. Preservative-free options are considered for surface problems.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Side effects to watch for",
-          "body": "Prostaglandin analogues: hyperaemia, eyelash growth, iris darkening (permanent), periorbital skin darkening and fat atrophy, and rarely cystoid macular oedema or uveitis. Beta-blockers: bronchospasm, bradycardia, tiredness, low mood. Brimonidine: allergic follicular conjunctivitis, dry mouth, drowsiness (and serious sedation in infants). Dorzolamide: stinging, bitter taste."
+          "body": "Prostaglandin analogues: hyperaemia, eyelash growth, iris darkening (permanent), periorbital skin darkening and fat atrophy, and rarely cystoid macular oedema or uveitis. Beta-blockers: bronchospasm, bradycardia, tiredness, low mood. Brimonidine: allergic follicular conjunctivitis, dry mouth, drowsiness (and serious sedation in infants). Dorzolamide: stinging, bitter taste.",
+          "priority": "exam-core",
+          "module": "PHA"
         },
         {
           "heading": "Helping with adherence",
-          "body": "Ask how patients use their drops and watch them do it. Simplify regimes, link drops to a daily routine (for example brushing teeth), use reminders and drop aids, and explain that glaucoma has no symptoms until late, so stopping drops is risky. Report suspected side effects to the prescriber rather than advising the patient to stop."
+          "body": "Ask how patients use their drops and watch them do it. Simplify regimes, link drops to a daily routine (for example brushing teeth), use reminders and drop aids, and explain that glaucoma has no symptoms until late, so stopping drops is risky. Report suspected side effects to the prescriber rather than advising the patient to stop.",
+          "priority": "clinical",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -7335,165 +8551,327 @@
         },
         {
           "id": "pha-glaucoma-medicines-x0073",
-          "q": "What does NICE NG81 offer first for ocular hypertension or COAG?",
+          "q": "A newly diagnosed COAG patient asks what treatment NICE NG81 recommends first for many people. What do you say?",
           "options": [
             {
-              "text": "Selective laser trabeculoplasty",
+              "text": "Selective laser trabeculoplasty (SLT)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Surgery",
+              "text": "Pilocarpine drops",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Trabeculectomy",
               "correct": false,
               "feedback": "Not first."
             },
             {
               "text": "Oral acetazolamide",
               "correct": false,
-              "feedback": "Short term only."
-            },
-            {
-              "text": "No treatment",
-              "correct": false,
-              "feedback": "Treatment is offered."
+              "feedback": "Not long-term first-line."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE NG81 recommends offering SLT first for many people with OHT or COAG.",
+          "original": {
+            "q": "What does NICE NG81 offer first for ocular hypertension or COAG?",
+            "options": [
+              {
+                "text": "Selective laser trabeculoplasty",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Surgery",
+                "correct": false,
+                "feedback": "Not first."
+              },
+              {
+                "text": "Oral acetazolamide",
+                "correct": false,
+                "feedback": "Short term only."
+              },
+              {
+                "text": "No treatment",
+                "correct": false,
+                "feedback": "Treatment is offered."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0074",
-          "q": "Which drug class is acetazolamide?",
+          "q": "A patient with acute angle closure is given acetazolamide tablets. How do they lower IOP?",
           "options": [
             {
-              "text": "Carbonic anhydrase inhibitor",
-              "correct": true,
-              "feedback": "Yes, oral and short-term."
-            },
-            {
-              "text": "Prostaglandin analogue",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Beta-blocker",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Alpha-2 agonist",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-glaucoma-medicines-x0075",
-          "q": "Brimonidine should be avoided in",
-          "options": [
-            {
-              "text": "young children",
-              "correct": true,
-              "feedback": "Yes; allergy is common too."
-            },
-            {
-              "text": "adults",
-              "correct": false,
-              "feedback": "Used."
-            },
-            {
-              "text": "the elderly",
-              "correct": false,
-              "feedback": "Used with care."
-            },
-            {
-              "text": "nobody",
-              "correct": false,
-              "feedback": "Avoid in young children."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-glaucoma-medicines-x0076",
-          "q": "Why is adherence a problem in glaucoma?",
-          "options": [
-            {
-              "text": "Forgetting drops, poor technique and side effects",
+              "text": "By inhibiting carbonic anhydrase, reducing aqueous production",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Drops cure it quickly",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Drops are always painful",
-              "correct": false,
-              "feedback": "Not always."
-            },
-            {
-              "text": "It isn't a problem",
-              "correct": false,
-              "feedback": "It is."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-glaucoma-medicines-x0181",
-          "q": "Timolol lowers IOP by",
-          "options": [
-            {
-              "text": "reducing aqueous production",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "increasing uveoscleral outflow",
+              "text": "By increasing uveoscleral outflow",
               "correct": false,
               "feedback": "Prostaglandins."
             },
             {
-              "text": "constricting the pupil",
+              "text": "By constricting the pupil",
               "correct": false,
               "feedback": "Pilocarpine."
             },
             {
-              "text": "nothing",
+              "text": "By blocking beta receptors",
               "correct": false,
-              "feedback": "It lowers IOP."
+              "feedback": "Timolol."
             }
           ],
-          "explanation": ""
+          "explanation": "Acetazolamide is a carbonic anhydrase inhibitor.",
+          "original": {
+            "q": "Which drug class is acetazolamide?",
+            "options": [
+              {
+                "text": "Carbonic anhydrase inhibitor",
+                "correct": true,
+                "feedback": "Yes, oral and short-term."
+              },
+              {
+                "text": "Prostaglandin analogue",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Beta-blocker",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Alpha-2 agonist",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0075",
+          "q": "A 2-year-old with childhood glaucoma needs IOP-lowering drops. Which drug should be avoided?",
+          "options": [
+            {
+              "text": "Brimonidine",
+              "correct": true,
+              "feedback": "Yes: risk of CNS depression in young children."
+            },
+            {
+              "text": "Latanoprost",
+              "correct": false,
+              "feedback": "Used with care."
+            },
+            {
+              "text": "Timolol",
+              "correct": false,
+              "feedback": "Used with care at low dose."
+            },
+            {
+              "text": "Dorzolamide",
+              "correct": false,
+              "feedback": "Used with care."
+            }
+          ],
+          "explanation": "Brimonidine should be avoided in young children.",
+          "original": {
+            "q": "Brimonidine should be avoided in",
+            "options": [
+              {
+                "text": "young children",
+                "correct": true,
+                "feedback": "Yes; allergy is common too."
+              },
+              {
+                "text": "adults",
+                "correct": false,
+                "feedback": "Used."
+              },
+              {
+                "text": "the elderly",
+                "correct": false,
+                "feedback": "Used with care."
+              },
+              {
+                "text": "nobody",
+                "correct": false,
+                "feedback": "Avoid in young children."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0076",
+          "q": "A patient's IOP stays high despite three drops. Which question should you ask first?",
+          "options": [
+            {
+              "text": "'How do you use your drops? Can you show me?'",
+              "correct": true,
+              "feedback": "Yes: adherence and technique are common problems."
+            },
+            {
+              "text": "'Have you tried a stronger drug?'",
+              "correct": false,
+              "feedback": "Check adherence first."
+            },
+            {
+              "text": "'Do you want surgery?'",
+              "correct": false,
+              "feedback": "Not first."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Ask."
+            }
+          ],
+          "explanation": "Forgetting drops, poor technique and side effects all reduce effectiveness.",
+          "original": {
+            "q": "Why is adherence a problem in glaucoma?",
+            "options": [
+              {
+                "text": "Forgetting drops, poor technique and side effects",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Drops cure it quickly",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Drops are always painful",
+                "correct": false,
+                "feedback": "Not always."
+              },
+              {
+                "text": "It isn't a problem",
+                "correct": false,
+                "feedback": "It is."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-glaucoma-medicines-x0181",
+          "q": "Which statement about timolol is wrong?",
+          "options": [
+            {
+              "text": "It lowers IOP by increasing uveoscleral outflow",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it reduces aqueous production."
+            },
+            {
+              "text": "It's a beta blocker",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It should be avoided in asthma",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "It can slow the heart",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Timolol reduces aqueous production; prostaglandins increase uveoscleral outflow.",
+          "original": {
+            "q": "Timolol lowers IOP by",
+            "options": [
+              {
+                "text": "reducing aqueous production",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "increasing uveoscleral outflow",
+                "correct": false,
+                "feedback": "Prostaglandins."
+              },
+              {
+                "text": "constricting the pupil",
+                "correct": false,
+                "feedback": "Pilocarpine."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "It lowers IOP."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0182",
-          "q": "A known side effect of prostaglandin analogues is",
+          "q": "A patient using latanoprost in one eye notices that eye's lashes are longer and its iris darker. What's the cause?",
           "options": [
             {
-              "text": "iris darkening and longer lashes",
+              "text": "A known side effect of prostaglandin analogues",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "bronchospasm",
+              "text": "An allergy",
               "correct": false,
-              "feedback": "Beta blockers."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "dry mouth",
+              "text": "A new tumour",
+              "correct": false,
+              "feedback": "Unlikely."
+            },
+            {
+              "text": "Normal ageing",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "tingling",
-              "correct": false,
-              "feedback": "Acetazolamide."
             }
           ],
-          "explanation": ""
+          "explanation": "Prostaglandin analogues can darken the iris and lengthen lashes.",
+          "original": {
+            "q": "A known side effect of prostaglandin analogues is",
+            "options": [
+              {
+                "text": "iris darkening and longer lashes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "bronchospasm",
+                "correct": false,
+                "feedback": "Beta blockers."
+              },
+              {
+                "text": "dry mouth",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "tingling",
+                "correct": false,
+                "feedback": "Acetazolamide."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0183",
@@ -7686,7 +9064,7 @@
         },
         {
           "id": "pha-glaucoma-medicines-x01810",
-          "q": "Which laser does NICE offer as a first-line option?",
+          "q": "A patient with OHT is worried about using drops every day. Which laser option does NICE offer first?",
           "options": [
             {
               "text": "Selective laser trabeculoplasty (SLT)",
@@ -7694,14 +9072,14 @@
               "feedback": "Yes."
             },
             {
-              "text": "PRP",
-              "correct": false,
-              "feedback": "Diabetes."
-            },
-            {
               "text": "YAG capsulotomy",
               "correct": false,
-              "feedback": "PCO."
+              "feedback": "That's for PCO."
+            },
+            {
+              "text": "PRP",
+              "correct": false,
+              "feedback": "That's for diabetic retinopathy."
             },
             {
               "text": "LASIK",
@@ -7709,11 +9087,38 @@
               "feedback": "Refractive."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE offers SLT as a first-line option for OHT and COAG.",
+          "original": {
+            "q": "Which laser does NICE offer as a first-line option?",
+            "options": [
+              {
+                "text": "Selective laser trabeculoplasty (SLT)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "PRP",
+                "correct": false,
+                "feedback": "Diabetes."
+              },
+              {
+                "text": "YAG capsulotomy",
+                "correct": false,
+                "feedback": "PCO."
+              },
+              {
+                "text": "LASIK",
+                "correct": false,
+                "feedback": "Refractive."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0461",
-          "q": "Which prostaglandin analogue is available preservative-free?",
+          "q": "A glaucoma patient with severe dry eye needs a prostaglandin analogue. Which is available preservative-free?",
           "options": [
             {
               "text": "Tafluprost",
@@ -7721,26 +9126,53 @@
               "feedback": "Yes."
             },
             {
-              "text": "Timolol only",
+              "text": "Timolol is the only option",
               "correct": false,
               "feedback": "Not a PGA."
-            },
-            {
-              "text": "None",
-              "correct": false,
-              "feedback": "Some are."
             },
             {
               "text": "Acetazolamide",
               "correct": false,
-              "feedback": "Not a PGA."
+              "feedback": "Oral, not a PGA."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "feedback": "Tafluprost."
             }
           ],
-          "explanation": ""
+          "explanation": "Tafluprost is a preservative-free prostaglandin analogue.",
+          "original": {
+            "q": "Which prostaglandin analogue is available preservative-free?",
+            "options": [
+              {
+                "text": "Tafluprost",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Timolol only",
+                "correct": false,
+                "feedback": "Not a PGA."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Some are."
+              },
+              {
+                "text": "Acetazolamide",
+                "correct": false,
+                "feedback": "Not a PGA."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0462",
-          "q": "Which is a prostaglandin analogue?",
+          "q": "Which drug in a patient's list is a prostaglandin analogue?",
           "options": [
             {
               "text": "Bimatoprost",
@@ -7748,22 +9180,49 @@
               "feedback": "Yes."
             },
             {
+              "text": "Brimonidine",
+              "correct": false,
+              "feedback": "Alpha-2 agonist."
+            },
+            {
               "text": "Brinzolamide",
               "correct": false,
-              "feedback": "CAI."
+              "feedback": "Carbonic anhydrase inhibitor."
             },
             {
               "text": "Betaxolol",
               "correct": false,
               "feedback": "Beta blocker."
-            },
-            {
-              "text": "Brimonidine",
-              "correct": false,
-              "feedback": "Alpha agonist."
             }
           ],
-          "explanation": ""
+          "explanation": "Prostaglandin analogues include latanoprost, bimatoprost, travoprost and tafluprost.",
+          "original": {
+            "q": "Which is a prostaglandin analogue?",
+            "options": [
+              {
+                "text": "Bimatoprost",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Brinzolamide",
+                "correct": false,
+                "feedback": "CAI."
+              },
+              {
+                "text": "Betaxolol",
+                "correct": false,
+                "feedback": "Beta blocker."
+              },
+              {
+                "text": "Brimonidine",
+                "correct": false,
+                "feedback": "Alpha agonist."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x0463",
@@ -8307,30 +9766,57 @@
         },
         {
           "id": "pha-glaucoma-medicines-x04623",
-          "q": "Which drug should be avoided in late pregnancy or breastfeeding infants because of CNS effects in babies?",
+          "q": "A breastfeeding mother with glaucoma asks which drop might affect her baby's breathing or alertness. Which should she avoid?",
           "options": [
             {
               "text": "Brimonidine",
               "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "Saline",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Hypromellose",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Yes: CNS effects in infants."
             },
             {
               "text": "Lubricants",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Safe."
+            },
+            {
+              "text": "Saline",
+              "correct": false,
+              "feedback": "Safe."
+            },
+            {
+              "text": "Artificial tears",
+              "correct": false,
+              "feedback": "Safe."
             }
           ],
-          "explanation": ""
+          "explanation": "Brimonidine should be avoided in late pregnancy and breastfeeding because of CNS effects in babies.",
+          "original": {
+            "q": "Which drug should be avoided in late pregnancy or breastfeeding infants because of CNS effects in babies?",
+            "options": [
+              {
+                "text": "Brimonidine",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Saline",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hypromellose",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Lubricants",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-glaucoma-medicines-x04624",
@@ -8541,17 +10027,53 @@
       "id": "pha-systemic-side-effects",
       "title": "Ocular side effects of systemic medicines",
       "summary": "Some systemic drugs have well-known ocular adverse reactions, and patients taking them often need more frequent checks. Know the key drugs, what they do to the eye and whether it's reversible.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHA"
+      },
       "keyPoints": [
-        "Amiodarone (arrhythmias): corneal microdeposits (common; appear within about 3 months, don't stain with fluorescein, clear 3–7 months after stopping), night glare, optic neuropathy, phototoxicity, possible lens changes.",
-        "Vigabatrin (epilepsy): field defects in about 30%, from a month to years after starting, dose-dependent and irreversible, with reduced colour vision, contrast sensitivity and VA.",
-        "Corticosteroids (e.g. prednisolone, hydrocortisone): posterior subcapsular cataract (bilateral, irreversible), raised IOP and glaucomatous change, corneal oedema and thinning, scleral thinning, rarely disc oedema.",
-        "Hydroxychloroquine (rheumatoid arthritis, lupus): early corneal deposits; bull's eye maculopathy in 1–2%, so check the perimacular field.",
-        "Tamoxifen (breast cancer): retinopathy (1–2%, reversible if caught early), keratopathy, posterior subcapsular cataract.",
-        "Vortex keratopathy (verticillata) can come from amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin."
+        {
+          "text": "Amiodarone (arrhythmias): corneal microdeposits (common; appear within about 3 months, don't stain with fluorescein, clear 3–7 months after stopping), night glare, optic neuropathy, phototoxicity, possible lens changes.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Vigabatrin (epilepsy): field defects in about 30%, from a month to years after starting, dose-dependent and irreversible, with reduced colour vision, contrast sensitivity and VA.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Corticosteroids (e.g. prednisolone, hydrocortisone): posterior subcapsular cataract (bilateral, irreversible), raised IOP and glaucomatous change, corneal oedema and thinning, scleral thinning, rarely disc oedema.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Hydroxychloroquine (rheumatoid arthritis, lupus): early corneal deposits; bull's eye maculopathy in 1–2%, so check the perimacular field.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Tamoxifen (breast cancer): retinopathy (1–2%, reversible if caught early), keratopathy, posterior subcapsular cataract.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Vortex keratopathy (verticillata) can come from amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "examTraps": [
-        "Calling vigabatrin field loss reversible.",
-        "Expecting amiodarone deposits to stain with fluorescein."
+        {
+          "text": "Calling vigabatrin field loss reversible.",
+          "priority": "exam-core",
+          "module": "PHA"
+        },
+        {
+          "text": "Expecting amiodarone deposits to stain with fluorescein.",
+          "priority": "exam-core",
+          "module": "PHA"
+        }
       ],
       "diagram": {
         "id": "drug-eye-map",
@@ -8568,7 +10090,9 @@
       "goDeeper": [
         {
           "heading": "More drugs to know",
-          "body": "Tamsulosin and similar alpha-blockers cause floppy iris syndrome during cataract surgery; ethambutol can cause optic neuropathy; topiramate can trigger sudden bilateral angle closure with a myopic shift in the first weeks. The Royal College of Ophthalmologists recommends hydroxychloroquine retinopathy screening, usually after 5 years of treatment (sooner with risk factors)."
+          "body": "Tamsulosin and similar alpha-blockers cause floppy iris syndrome during cataract surgery; ethambutol can cause optic neuropathy; topiramate can trigger sudden bilateral angle closure with a myopic shift in the first weeks. The Royal College of Ophthalmologists recommends hydroxychloroquine retinopathy screening, usually after 5 years of treatment (sooner with risk factors).",
+          "priority": "exam-core",
+          "module": "PHA"
         }
       ],
       "flashcards": [
@@ -8654,84 +10178,165 @@
         },
         {
           "id": "pha-ss-3",
-          "q": "Long-term steroid inhaler use is most associated with which eye change?",
+          "q": "A 50-year-old asthmatic has used high-dose steroid inhalers for years and now has glare. What should you check?",
+          "options": [
+            {
+              "text": "The lens for posterior subcapsular cataract, and IOP",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Colour vision only",
+              "correct": false,
+              "feedback": "Not the priority."
+            },
+            {
+              "text": "Corneal topography",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Stereo",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Long-term steroids (including inhaled at high doses) are linked with posterior subcapsular cataract and raised IOP.",
+          "original": {
+            "q": "Long-term steroid inhaler use is most associated with which eye change?",
+            "options": [
+              {
+                "text": "Posterior subcapsular cataract and raised IOP",
+                "correct": true,
+                "feedback": "Steroids from any route can cause both."
+              },
+              {
+                "text": "Vortex keratopathy",
+                "correct": false,
+                "feedback": "That's amiodarone."
+              },
+              {
+                "text": "Blue-tinged vision",
+                "correct": false,
+                "feedback": "That's sildenafil."
+              },
+              {
+                "text": "Floppy iris",
+                "correct": false,
+                "feedback": "That's tamsulosin."
+              }
+            ],
+            "explanation": "Ask about inhaled, nasal, oral and skin steroids."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-sys-w12-1",
+          "q": "A patient on long-term oral prednisolone for arthritis comes for a routine check. Which findings should you particularly look for?",
           "options": [
             {
               "text": "Posterior subcapsular cataract and raised IOP",
               "correct": true,
-              "feedback": "Steroids from any route can cause both."
+              "feedback": "Yes."
             },
             {
               "text": "Vortex keratopathy",
               "correct": false,
-              "feedback": "That's amiodarone."
+              "feedback": "Amiodarone and others."
+            },
+            {
+              "text": "Bull's eye maculopathy",
+              "correct": false,
+              "feedback": "Hydroxychloroquine."
             },
             {
               "text": "Blue-tinged vision",
               "correct": false,
-              "feedback": "That's sildenafil."
-            },
-            {
-              "text": "Floppy iris",
-              "correct": false,
-              "feedback": "That's tamsulosin."
+              "feedback": "Sildenafil."
             }
           ],
-          "explanation": "Ask about inhaled, nasal, oral and skin steroids."
-        },
-        {
-          "id": "pha-sys-w12-1",
-          "q": "A patient on long-term oral prednisolone is most at risk of",
-          "options": [
-            {
-              "text": "posterior subcapsular cataract and raised IOP",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "bull's eye maculopathy",
-              "correct": false,
-              "feedback": "That's hydroxychloroquine."
-            },
-            {
-              "text": "vortex keratopathy",
-              "correct": false,
-              "feedback": "That's amiodarone, chloroquine, tamoxifen and others."
-            },
-            {
-              "text": "irreversible field constriction",
-              "correct": false,
-              "feedback": "That's vigabatrin."
-            }
-          ],
-          "explanation": "Adverse reactions 2, slide 9."
+          "explanation": "Systemic steroids raise the risk of posterior subcapsular cataract and raised IOP.",
+          "original": {
+            "q": "A patient on long-term oral prednisolone is most at risk of",
+            "options": [
+              {
+                "text": "posterior subcapsular cataract and raised IOP",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "bull's eye maculopathy",
+                "correct": false,
+                "feedback": "That's hydroxychloroquine."
+              },
+              {
+                "text": "vortex keratopathy",
+                "correct": false,
+                "feedback": "That's amiodarone, chloroquine, tamoxifen and others."
+              },
+              {
+                "text": "irreversible field constriction",
+                "correct": false,
+                "feedback": "That's vigabatrin."
+              }
+            ],
+            "explanation": "Adverse reactions 2, slide 9."
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0081",
-          "q": "Amiodarone corneal deposits usually",
+          "q": "A patient on amiodarone has whorl-like corneal deposits but normal vision. What's the right approach?",
           "options": [
             {
-              "text": "appear within about 3 months and clear 3–7 months after stopping",
+              "text": "Reassure: deposits are common and usually clear months after stopping; check the optic nerve",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "are permanent",
+              "text": "Stop amiodarone yourself",
               "correct": false,
-              "feedback": "They're reversible."
+              "feedback": "Never."
             },
             {
-              "text": "stain with fluorescein",
+              "text": "Emergency referral",
               "correct": false,
-              "feedback": "They don't."
+              "feedback": "Not for deposits alone."
             },
             {
-              "text": "cause pain",
+              "text": "Ignore the optic nerve",
               "correct": false,
-              "feedback": "Usually not."
+              "feedback": "Rare optic neuropathy can occur."
             }
           ],
-          "explanation": ""
+          "explanation": "Amiodarone deposits appear within about 3 months and clear 3–7 months after stopping.",
+          "original": {
+            "q": "Amiodarone corneal deposits usually",
+            "options": [
+              {
+                "text": "appear within about 3 months and clear 3–7 months after stopping",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "are permanent",
+                "correct": false,
+                "feedback": "They're reversible."
+              },
+              {
+                "text": "stain with fluorescein",
+                "correct": false,
+                "feedback": "They don't."
+              },
+              {
+                "text": "cause pain",
+                "correct": false,
+                "feedback": "Usually not."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0082",
@@ -8762,138 +10367,273 @@
         },
         {
           "id": "pha-systemic-side-effects-x0083",
-          "q": "Hydroxychloroquine causes which maculopathy?",
+          "q": "A patient on hydroxychloroquine for 8 years has a ring of pigment changes around the fovea. What is this?",
           "options": [
             {
-              "text": "Bull's eye maculopathy (1–2%)",
-              "correct": true,
-              "feedback": "Yes: check the perimacular field."
-            },
-            {
-              "text": "Wet AMD",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Macular hole",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Cystoid oedema only",
-              "correct": false,
-              "feedback": "Not the classic."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-systemic-side-effects-x0084",
-          "q": "Which cataract do systemic steroids cause?",
-          "options": [
-            {
-              "text": "Posterior subcapsular",
-              "correct": true,
-              "feedback": "Yes, bilateral and irreversible."
-            },
-            {
-              "text": "Nuclear only",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Cortical only",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "None",
-              "correct": false,
-              "feedback": "They do."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-systemic-side-effects-x0085",
-          "q": "Tamoxifen is used for",
-          "options": [
-            {
-              "text": "breast cancer",
-              "correct": true,
-              "feedback": "Yes; it can cause retinopathy, keratopathy and PSC."
-            },
-            {
-              "text": "glaucoma",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "epilepsy",
-              "correct": false,
-              "feedback": "That's vigabatrin."
-            },
-            {
-              "text": "arrhythmia",
-              "correct": false,
-              "feedback": "That's amiodarone."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-systemic-side-effects-x0086",
-          "q": "Which drugs cause vortex keratopathy?",
-          "options": [
-            {
-              "text": "Amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin",
+              "text": "Bull's eye maculopathy (hydroxychloroquine toxicity)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Timolol and latanoprost",
+              "text": "Dry AMD",
+              "correct": false,
+              "feedback": "Different pattern."
+            },
+            {
+              "text": "Diabetic maculopathy",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Tropicamide",
+              "text": "Normal ageing",
               "correct": false,
               "feedback": "No."
+            }
+          ],
+          "explanation": "Hydroxychloroquine can cause bull's eye maculopathy in about 1–2% of long-term users.",
+          "original": {
+            "q": "Hydroxychloroquine causes which maculopathy?",
+            "options": [
+              {
+                "text": "Bull's eye maculopathy (1–2%)",
+                "correct": true,
+                "feedback": "Yes: check the perimacular field."
+              },
+              {
+                "text": "Wet AMD",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Macular hole",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cystoid oedema only",
+                "correct": false,
+                "feedback": "Not the classic."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-systemic-side-effects-x0084",
+          "q": "A 45-year-old on long-term oral steroids has glare and poor reading vision. Which lens opacity is most likely?",
+          "options": [
+            {
+              "text": "Posterior subcapsular cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Nuclear sclerosis",
+              "correct": false,
+              "feedback": "Older, myopic shift."
+            },
+            {
+              "text": "Cortical spokes",
+              "correct": false,
+              "feedback": "Less linked."
+            },
+            {
+              "text": "Anterior polar",
+              "correct": false,
+              "feedback": "Congenital."
+            }
+          ],
+          "explanation": "Systemic steroids cause posterior subcapsular cataract.",
+          "original": {
+            "q": "Which cataract do systemic steroids cause?",
+            "options": [
+              {
+                "text": "Posterior subcapsular",
+                "correct": true,
+                "feedback": "Yes, bilateral and irreversible."
+              },
+              {
+                "text": "Nuclear only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cortical only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "They do."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-systemic-side-effects-x0085",
+          "q": "A patient taking tamoxifen asks why she needs eye checks. Which drug use and risk fit?",
+          "options": [
+            {
+              "text": "Breast cancer treatment; crystalline retinopathy and cataract",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Malaria; bull's eye maculopathy",
+              "correct": false,
+              "feedback": "Hydroxychloroquine."
+            },
+            {
+              "text": "Epilepsy; field loss",
+              "correct": false,
+              "feedback": "Vigabatrin."
+            },
+            {
+              "text": "Arrhythmia; corneal deposits",
+              "correct": false,
+              "feedback": "Amiodarone."
+            }
+          ],
+          "explanation": "Tamoxifen is used for breast cancer and can cause retinopathy, keratopathy and cataract.",
+          "original": {
+            "q": "Tamoxifen is used for",
+            "options": [
+              {
+                "text": "breast cancer",
+                "correct": true,
+                "feedback": "Yes; it can cause retinopathy, keratopathy and PSC."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "epilepsy",
+                "correct": false,
+                "feedback": "That's vigabatrin."
+              },
+              {
+                "text": "arrhythmia",
+                "correct": false,
+                "feedback": "That's amiodarone."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-systemic-side-effects-x0086",
+          "q": "Which drug in a patient's list is NOT a usual cause of vortex keratopathy?",
+          "options": [
+            {
+              "text": "Paracetamol",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Amiodarone",
+              "correct": false,
+              "feedback": "A cause."
+            },
+            {
+              "text": "Chloroquine",
+              "correct": false,
+              "feedback": "A cause."
+            },
+            {
+              "text": "Tamoxifen",
+              "correct": false,
+              "feedback": "A cause."
+            }
+          ],
+          "explanation": "Vortex keratopathy can come from amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin.",
+          "original": {
+            "q": "Which drugs cause vortex keratopathy?",
+            "options": [
+              {
+                "text": "Amiodarone, chloroquine, tamoxifen, chlorpromazine and indometacin",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Timolol and latanoprost",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Tropicamide",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Paracetamol",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "pha-systemic-side-effects-x0181",
+          "q": "A patient being treated for tuberculosis notices reduced colour vision and central blur. Which drug should you suspect?",
+          "options": [
+            {
+              "text": "Ethambutol",
+              "correct": true,
+              "feedback": "Yes: optic neuropathy."
             },
             {
               "text": "Paracetamol",
               "correct": false,
               "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "pha-systemic-side-effects-x0181",
-          "q": "Ethambutol can cause",
-          "options": [
-            {
-              "text": "optic neuropathy",
-              "correct": true,
-              "feedback": "Yes."
             },
             {
-              "text": "cataract",
+              "text": "Antacids",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "myopia",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "glaucoma",
+              "text": "Vitamin D",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Ethambutol can cause optic neuropathy.",
+          "original": {
+            "q": "Ethambutol can cause",
+            "options": [
+              {
+                "text": "optic neuropathy",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0182",
@@ -9032,30 +10772,57 @@
         },
         {
           "id": "pha-systemic-side-effects-x0187",
-          "q": "Tamsulosin is linked with",
+          "q": "A man booked for cataract surgery takes tablets for an enlarged prostate. Why should the surgeon know?",
           "options": [
             {
-              "text": "floppy iris during cataract surgery",
+              "text": "Tamsulosin can cause floppy iris syndrome during surgery",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "cataract",
+              "text": "It causes cataract",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "myopia",
+              "text": "It raises IOP",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not typically."
             },
             {
-              "text": "dry eye",
+              "text": "It doesn't matter",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Tamsulosin and similar alpha-blockers are linked with intraoperative floppy iris syndrome.",
+          "original": {
+            "q": "Tamsulosin is linked with",
+            "options": [
+              {
+                "text": "floppy iris during cataract surgery",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0188",
@@ -9140,30 +10907,57 @@
         },
         {
           "id": "pha-systemic-side-effects-x0461",
-          "q": "Long-term amiodarone can rarely cause",
+          "q": "A patient on amiodarone has corneal deposits and new disc swelling with reduced vision. What should you consider?",
           "options": [
             {
-              "text": "optic neuropathy",
+              "text": "Rare amiodarone optic neuropathy: refer promptly",
               "correct": true,
-              "feedback": "Yes, as well as vortex keratopathy."
+              "feedback": "Yes."
             },
             {
-              "text": "myopia",
+              "text": "The deposits explain the swelling",
+              "correct": false,
+              "feedback": "They don't."
+            },
+            {
+              "text": "Normal ageing",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "glaucoma",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "keratoconus",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Act."
             }
           ],
-          "explanation": ""
+          "explanation": "Long-term amiodarone can rarely cause optic neuropathy.",
+          "original": {
+            "q": "Long-term amiodarone can rarely cause",
+            "options": [
+              {
+                "text": "optic neuropathy",
+                "correct": true,
+                "feedback": "Yes, as well as vortex keratopathy."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "keratoconus",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0462",
@@ -9194,30 +10988,57 @@
         },
         {
           "id": "pha-systemic-side-effects-x0463",
-          "q": "Long courses of linezolid can cause",
+          "q": "A patient on a long course of linezolid for a bone infection develops central blur and poor colour vision. What should you suspect?",
           "options": [
             {
-              "text": "optic neuropathy",
+              "text": "Drug-related optic neuropathy",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "cataract",
+              "text": "Cataract",
+              "correct": false,
+              "feedback": "Not this pattern."
+            },
+            {
+              "text": "Dry eye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "myopia",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "dry eye only",
+              "text": "Presbyopia",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Long courses of linezolid can cause optic neuropathy.",
+          "original": {
+            "q": "Long courses of linezolid can cause",
+            "options": [
+              {
+                "text": "optic neuropathy",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x0464",
@@ -9788,12 +11609,12 @@
         },
         {
           "id": "pha-systemic-side-effects-x04625",
-          "q": "Which drug is linked with acute myopic shift and angle closure?",
+          "q": "A 28-year-old started a new migraine tablet two weeks ago and now has sudden blur and painful red eyes. Which drug should you suspect?",
           "options": [
             {
               "text": "Topiramate",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: acute myopic shift and angle closure."
             },
             {
               "text": "Paracetamol",
@@ -9801,17 +11622,44 @@
               "feedback": "No."
             },
             {
-              "text": "Statins",
+              "text": "Sumatriptan",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "Vitamin D",
+              "text": "Ibuprofen",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Topiramate is linked with acute myopic shift and bilateral angle closure.",
+          "original": {
+            "q": "Which drug is linked with acute myopic shift and angle closure?",
+            "options": [
+              {
+                "text": "Topiramate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Paracetamol",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Statins",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Vitamin D",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pha-systemic-side-effects-x04626",

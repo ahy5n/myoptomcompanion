@@ -45,9 +45,7 @@ export function TopicQuiz({
 
   return (
     <div className="mx-auto max-w-[760px]">
-      <BackLink href={`/t/${topicId}`}>
-        {moduleCode} · {topicTitle}
-      </BackLink>
+      <BackLink href={`/m/${moduleCode}/quiz`}>{moduleCode} Quiz</BackLink>
       <h1 className="mt-2 text-[32px] font-semibold">Topic quiz</h1>
       <p className="mt-1 text-muted">
         {rounds.length > 1

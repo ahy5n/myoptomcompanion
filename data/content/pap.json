@@ -6,19 +6,63 @@
       "id": "pap-visual-development",
       "title": "Visual development",
       "summary": "Babies are born with poor acuity that improves fast over the first year and reaches adult-like levels in early childhood. Binocular vision, accommodation and refraction all develop too. The sensitive period for amblyopia runs through early childhood, which is why early detection matters.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PaP"
+      },
       "keyPoints": [
-        "Newborn acuity is very poor (roughly 6/120 to 6/240 equivalent) and improves rapidly over the first months.",
-        "Fix and follow is usually present by about 6–8 weeks.",
-        "Stereopsis typically emerges at around 3–6 months.",
-        "Optotype acuity reaches adult-like levels around 3–5 years (grating acuity matures earlier).",
-        "Newborns are typically mildly hyperopic (around +2.00 D) and astigmatism is common; most emmetropise over the first 1–2 years.",
-        "The sensitive period for amblyopia extends through early childhood (roughly up to 7–8 years), with greatest plasticity when youngest.",
-        "Anything that blurs or disrupts vision in one eye early (cataract, ptosis, high anisometropia, strabismus) risks amblyopia."
+        {
+          "text": "Newborn acuity is very poor (roughly 6/120 to 6/240 equivalent) and improves rapidly over the first months.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Fix and follow is usually present by about 6–8 weeks.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Stereopsis typically emerges at around 3–6 months.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Optotype acuity reaches adult-like levels around 3–5 years (grating acuity matures earlier).",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Newborns are typically mildly hyperopic (around +2.00 D) and astigmatism is common; most emmetropise over the first 1–2 years.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "The sensitive period for amblyopia extends through early childhood (roughly up to 7–8 years), with greatest plasticity when youngest.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Anything that blurs or disrupts vision in one eye early (cataract, ptosis, high anisometropia, strabismus) risks amblyopia.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "examTraps": [
-        "Expecting a 2-year-old to show 6/6 optotype acuity.",
-        "Treating normal infant hyperopia as needing glasses.",
-        "Forgetting that an absent or white red reflex in a baby needs urgent referral."
+        {
+          "text": "Expecting a 2-year-old to show 6/6 optotype acuity.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Treating normal infant hyperopia as needing glasses.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Forgetting that an absent or white red reflex in a baby needs urgent referral.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "diagram": {
         "id": "acuity-development",
@@ -33,11 +77,15 @@
       "goDeeper": [
         {
           "heading": "Emmetropisation",
-          "body": "Early on, the eye's growth and the cornea/lens powers adjust so that most children move towards a low hyperopia by school age. Children with higher hyperopia, significant astigmatism or anisometropia that doesn't reduce are at risk of amblyopia and strabismus, and may need glasses."
+          "body": "Early on, the eye's growth and the cornea/lens powers adjust so that most children move towards a low hyperopia by school age. Children with higher hyperopia, significant astigmatism or anisometropia that doesn't reduce are at risk of amblyopia and strabismus, and may need glasses.",
+          "priority": "exam-core",
+          "module": "PaP"
         },
         {
           "heading": "Red reflex in babies",
-          "body": "Newborn and infant checks look for an even red reflex in both eyes. An absent, white (leukocoria) or asymmetric reflex can mean congenital cataract or retinoblastoma and needs urgent referral. Parents noticing a white glint in photos should always be taken seriously."
+          "body": "Newborn and infant checks look for an even red reflex in both eyes. An absent, white (leukocoria) or asymmetric reflex can mean congenital cataract or retinoblastoma and needs urgent referral. Parents noticing a white glint in photos should always be taken seriously.",
+          "priority": "exam-core",
+          "module": "PaP"
         }
       ],
       "flashcards": [
@@ -89,30 +137,57 @@
         },
         {
           "id": "pap-visual-development-x0061",
-          "q": "When does fix and follow usually appear?",
+          "q": "A 3-month-old doesn't follow a face moved slowly across their view. What should you do?",
           "options": [
             {
-              "text": "About 6–8 weeks",
+              "text": "Refer: fix and follow is usually present by about 6–8 weeks",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "At birth",
-              "correct": false,
-              "feedback": "Too early."
-            },
-            {
-              "text": "1 year",
+              "text": "Reassure: it develops at 2 years",
               "correct": false,
               "feedback": "Too late."
             },
             {
-              "text": "6 months",
+              "text": "Review in a year",
               "correct": false,
-              "feedback": "Too late."
+              "feedback": "Too slow."
+            },
+            {
+              "text": "Prescribe glasses",
+              "correct": false,
+              "feedback": "Investigate first."
             }
           ],
-          "explanation": ""
+          "explanation": "Fix and follow is usually present by about 6–8 weeks.",
+          "original": {
+            "q": "When does fix and follow usually appear?",
+            "options": [
+              {
+                "text": "About 6–8 weeks",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "At birth",
+                "correct": false,
+                "feedback": "Too early."
+              },
+              {
+                "text": "1 year",
+                "correct": false,
+                "feedback": "Too late."
+              },
+              {
+                "text": "6 months",
+                "correct": false,
+                "feedback": "Too late."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0062",
@@ -170,111 +245,219 @@
         },
         {
           "id": "pap-visual-development-x0064",
-          "q": "Newborns are typically",
+          "q": "A healthy newborn's retinoscopy shows +2.00 D in both eyes. What do you advise?",
           "options": [
             {
-              "text": "mildly hyperopic (about +2.00 D)",
+              "text": "It's typical: newborns are usually mildly hyperopic",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "highly myopic",
+              "text": "Prescribe glasses now",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not needed."
             },
             {
-              "text": "emmetropic",
+              "text": "Refer urgently",
               "correct": false,
-              "feedback": "Emmetropise later."
+              "feedback": "It's normal."
             },
             {
-              "text": "presbyopic",
+              "text": "It means future myopia",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "Newborns are typically mildly hyperopic (about +2.00 D) and usually emmetropise.",
+          "original": {
+            "q": "Newborns are typically",
+            "options": [
+              {
+                "text": "mildly hyperopic (about +2.00 D)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "highly myopic",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "emmetropic",
+                "correct": false,
+                "feedback": "Emmetropise later."
+              },
+              {
+                "text": "presbyopic",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0065",
-          "q": "The sensitive period for amblyopia lasts roughly",
+          "q": "A 12-year-old is found to have anisometropic amblyopia for the first time. What's realistic?",
           "options": [
             {
-              "text": "up to 7–8 years",
+              "text": "Treatment may still help, but the sensitive period (roughly up to 7–8 years) has mostly passed",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "up to 6 months",
+              "text": "Nothing can be done",
               "correct": false,
-              "feedback": "Too short."
+              "feedback": "Some improve."
             },
             {
-              "text": "for life",
+              "text": "Full recovery is guaranteed",
               "correct": false,
-              "feedback": "Plasticity drops."
+              "feedback": "No."
             },
             {
-              "text": "20 years",
+              "text": "It will resolve on its own",
               "correct": false,
-              "feedback": "Too long."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The sensitive period for amblyopia extends roughly up to 7–8 years, with greatest plasticity earlier.",
+          "original": {
+            "q": "The sensitive period for amblyopia lasts roughly",
+            "options": [
+              {
+                "text": "up to 7–8 years",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "up to 6 months",
+                "correct": false,
+                "feedback": "Too short."
+              },
+              {
+                "text": "for life",
+                "correct": false,
+                "feedback": "Plasticity drops."
+              },
+              {
+                "text": "20 years",
+                "correct": false,
+                "feedback": "Too long."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0066",
-          "q": "Which risks amblyopia?",
+          "q": "Which infant is at greatest risk of deprivation amblyopia?",
           "options": [
             {
-              "text": "Congenital cataract, ptosis, high anisometropia or strabismus",
+              "text": "A baby with a dense unilateral congenital cataract",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Mild myopia in both eyes",
+              "text": "A baby with +1.00 D in both eyes",
               "correct": false,
-              "feedback": "Less so."
+              "feedback": "Typical."
             },
             {
-              "text": "Dry eye",
+              "text": "A baby with a brief intermittent squint at 2 weeks",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Often normal."
             },
             {
-              "text": "Blepharitis",
+              "text": "A baby with normal red reflexes",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Anything that blurs or blocks vision in one eye early (cataract, ptosis, high anisometropia, strabismus) risks amblyopia.",
+          "original": {
+            "q": "Which risks amblyopia?",
+            "options": [
+              {
+                "text": "Congenital cataract, ptosis, high anisometropia or strabismus",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Mild myopia in both eyes",
+                "correct": false,
+                "feedback": "Less so."
+              },
+              {
+                "text": "Dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Blepharitis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0067",
-          "q": "Newborn acuity is roughly",
+          "q": "A parent worries that their 2-week-old 'can't see much'. What's accurate?",
           "options": [
             {
-              "text": "6/120 to 6/240",
+              "text": "Newborn acuity is very poor (roughly 6/120 to 6/240) and improves rapidly",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "6/6",
+              "text": "Newborns see 6/6",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "6/12",
+              "text": "Newborns are blind",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "6/60",
+              "text": "Acuity doesn't change in the first year",
               "correct": false,
-              "feedback": "Better than newborns."
+              "feedback": "It improves quickly."
             }
           ],
-          "explanation": ""
+          "explanation": "Newborn acuity is roughly 6/120 to 6/240 equivalent and improves rapidly.",
+          "original": {
+            "q": "Newborn acuity is roughly",
+            "options": [
+              {
+                "text": "6/120 to 6/240",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "6/6",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "6/12",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "6/60",
+                "correct": false,
+                "feedback": "Better than newborns."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0068",
@@ -305,30 +488,57 @@
         },
         {
           "id": "pap-visual-development-x0069",
-          "q": "Which acuity matures earlier?",
+          "q": "A 2-year-old has adult-like grating acuity but poor letter acuity later. Why might grating acuity look better?",
           "options": [
             {
-              "text": "Grating acuity",
+              "text": "Grating acuity matures earlier and can overestimate optotype acuity",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Optotype acuity",
-              "correct": false,
-              "feedback": "Later."
-            },
-            {
-              "text": "Near acuity",
+              "text": "Gratings are harder",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Stereo",
+              "text": "Letters mature first",
               "correct": false,
-              "feedback": "Different."
+              "feedback": "Gratings mature first."
+            },
+            {
+              "text": "They're the same measure",
+              "correct": false,
+              "feedback": "They differ."
             }
           ],
-          "explanation": ""
+          "explanation": "Grating acuity matures earlier; optotype acuity reaches adult levels around 3–5 years.",
+          "original": {
+            "q": "Which acuity matures earlier?",
+            "options": [
+              {
+                "text": "Grating acuity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Optotype acuity",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "Near acuity",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Stereo",
+                "correct": false,
+                "feedback": "Different."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0181",
@@ -359,30 +569,57 @@
         },
         {
           "id": "pap-visual-development-x0182",
-          "q": "Newborn refraction is typically",
+          "q": "An 8-month-old has 1.50 D of astigmatism. What's the usual approach if there's no strabismus or anisometropia?",
           "options": [
             {
-              "text": "mildly hyperopic, often with astigmatism",
+              "text": "Monitor, as infantile astigmatism often reduces",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "highly myopic",
+              "text": "Prescribe the full cylinder now",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Often not needed."
             },
             {
-              "text": "exactly emmetropic",
+              "text": "Refer urgently",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not needed."
             },
             {
-              "text": "−6.00 D",
+              "text": "Ignore forever",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Monitor."
             }
           ],
-          "explanation": ""
+          "explanation": "Newborns are typically mildly hyperopic and astigmatism is common; much of it reduces over the first couple of years.",
+          "original": {
+            "q": "Newborn refraction is typically",
+            "options": [
+              {
+                "text": "mildly hyperopic, often with astigmatism",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "highly myopic",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "exactly emmetropic",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "−6.00 D",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0183",
@@ -440,30 +677,57 @@
         },
         {
           "id": "pap-visual-development-x0185",
-          "q": "Binocular fusion develops at about",
+          "q": "A 2-month-old shows no response to a stereo test. What does it mean?",
           "options": [
             {
-              "text": "3–6 months",
+              "text": "Nothing yet: fusion and stereopsis usually develop at about 3–6 months",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "birth",
+              "text": "Amblyopia",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too early to say."
             },
             {
-              "text": "5 years",
+              "text": "Strabismus",
               "correct": false,
-              "feedback": "Earlier."
+              "feedback": "Not from this alone."
             },
             {
-              "text": "12 years",
+              "text": "Blindness",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Binocular fusion and stereopsis develop at around 3–6 months.",
+          "original": {
+            "q": "Binocular fusion develops at about",
+            "options": [
+              {
+                "text": "3–6 months",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "birth",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "5 years",
+                "correct": false,
+                "feedback": "Earlier."
+              },
+              {
+                "text": "12 years",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x0186",
@@ -1331,12 +1595,12 @@
         },
         {
           "id": "pap-visual-development-x04128",
-          "q": "Which condition causes a white pupil and is life-threatening?",
+          "q": "A parent shows you a photo where one pupil glows white. Which life-threatening condition must be ruled out?",
           "options": [
             {
               "text": "Retinoblastoma",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: urgent referral."
             },
             {
               "text": "Myopia",
@@ -1344,17 +1608,44 @@
               "feedback": "No."
             },
             {
-              "text": "Presbyopia",
+              "text": "Conjunctivitis",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Conjunctivitis",
+              "text": "Presbyopia",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Leukocoria can be a sign of retinoblastoma and needs urgent referral.",
+          "original": {
+            "q": "Which condition causes a white pupil and is life-threatening?",
+            "options": [
+              {
+                "text": "Retinoblastoma",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-visual-development-x04129",
@@ -1428,19 +1719,63 @@
       "id": "pap-assessing-vision",
       "title": "Assessing vision in children",
       "summary": "Choose the test for the child's age and ability: preferential looking for infants, Cardiff cards for toddlers, picture or letter-matching tests (Kay, Keeler, Sonksen) for preschoolers. Crowded tests are better for detecting amblyopia.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PaP"
+      },
       "keyPoints": [
-        "Preferential looking (e.g. Keeler/Teller acuity cards): infants look towards a grating rather than a blank area; gives grating acuity.",
-        "Cardiff acuity cards: vanishing-optotype pictures, around 1–3 years, at 50 cm or 1 m; examiner watches which way the child looks.",
-        "Kay pictures: picture optotypes (crowded and single), matching or naming, from around 2–3 years.",
-        "Letter-matching tests (Keeler crowded logMAR, Sonksen logMAR): from around 3–4 years.",
-        "Crowded tests detect amblyopia better than single optotypes.",
-        "Grating acuity can overestimate acuity in amblyopia.",
-        "Make it a game, test the better eye last if attention is short, and check occlusion isn't being peeked around."
+        {
+          "text": "Preferential looking (e.g. Keeler/Teller acuity cards): infants look towards a grating rather than a blank area; gives grating acuity.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Cardiff acuity cards: vanishing-optotype pictures, around 1–3 years, at 50 cm or 1 m; examiner watches which way the child looks.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Kay pictures: picture optotypes (crowded and single), matching or naming, from around 2–3 years.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Letter-matching tests (Keeler crowded logMAR, Sonksen logMAR): from around 3–4 years.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Crowded tests detect amblyopia better than single optotypes.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Grating acuity can overestimate acuity in amblyopia.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Make it a game, test the better eye last if attention is short, and check occlusion isn't being peeked around.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "examTraps": [
-        "Using single optotypes when amblyopia is suspected.",
-        "Recording a test result without the test name and distance.",
-        "Letting the child peek around the occluder."
+        {
+          "text": "Using single optotypes when amblyopia is suspected.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Recording a test result without the test name and distance.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Letting the child peek around the occluder.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "diagram": {
         "id": "child-tests-by-age",
@@ -1455,11 +1790,15 @@
       "goDeeper": [
         {
           "heading": "Preverbal children",
-          "body": "Besides acuity cards, look at fixation behaviour: is it central, steady and maintained (CSM) in each eye? Does the child object to having one eye covered more than the other (suggesting poorer vision in the uncovered eye)? The 10Δ fixation test (a base-down prism to create diplopia-driven fixation switches) can show fixation preference in children with straight eyes."
+          "body": "Besides acuity cards, look at fixation behaviour: is it central, steady and maintained (CSM) in each eye? Does the child object to having one eye covered more than the other (suggesting poorer vision in the uncovered eye)? The 10Δ fixation test (a base-down prism to create diplopia-driven fixation switches) can show fixation preference in children with straight eyes.",
+          "priority": "exam-core",
+          "module": "PaP"
         },
         {
           "heading": "Recording",
-          "body": "Write the test, distance and result for each eye and binocularly, plus how cooperative the child was ('good co-operation', 'limited attention'). This makes results comparable at the next visit and with orthoptic or hospital records."
+          "body": "Write the test, distance and result for each eye and binocularly, plus how cooperative the child was ('good co-operation', 'limited attention'). This makes results comparable at the next visit and with orthoptic or hospital records.",
+          "priority": "clinical",
+          "module": "PaP"
         }
       ],
       "flashcards": [
@@ -1511,30 +1850,57 @@
         },
         {
           "id": "pap-assessing-vision-x0061",
-          "q": "Which test suits infants who can't name pictures?",
+          "q": "A 6-month-old can't name pictures. Which acuity test fits?",
           "options": [
             {
-              "text": "Preferential looking (Keeler or Teller cards)",
+              "text": "Preferential looking with Keeler or Teller cards",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Snellen",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
               "text": "Kay pictures naming",
               "correct": false,
-              "feedback": "Older."
+              "feedback": "Too young."
             },
             {
-              "text": "Letter matching",
+              "text": "Crowded logMAR letters",
               "correct": false,
-              "feedback": "Older."
+              "feedback": "Too young."
+            },
+            {
+              "text": "Snellen",
+              "correct": false,
+              "feedback": "Too young."
             }
           ],
-          "explanation": ""
+          "explanation": "Preferential looking relies on infants looking towards a grating rather than a plain area.",
+          "original": {
+            "q": "Which test suits infants who can't name pictures?",
+            "options": [
+              {
+                "text": "Preferential looking (Keeler or Teller cards)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Snellen",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Kay pictures naming",
+                "correct": false,
+                "feedback": "Older."
+              },
+              {
+                "text": "Letter matching",
+                "correct": false,
+                "feedback": "Older."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0062",
@@ -1565,57 +1931,111 @@
         },
         {
           "id": "pap-assessing-vision-x0063",
-          "q": "Why prefer crowded optotypes?",
+          "q": "A 4-year-old reads 0.1 logMAR with single pictures but 0.4 on a crowded chart with the right eye. What does it suggest?",
           "options": [
             {
-              "text": "They detect amblyopia better",
+              "text": "Amblyopia, revealed by crowding",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "They're quicker",
+              "text": "Normal vision",
+              "correct": false,
+              "feedback": "The crowded result is poor."
+            },
+            {
+              "text": "A broken chart",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Children like them",
+              "text": "Myopia",
               "correct": false,
-              "feedback": "Not the reason."
-            },
-            {
-              "text": "They're cheaper",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Not from this."
             }
           ],
-          "explanation": ""
+          "explanation": "Crowded tests detect amblyopia better than single optotypes.",
+          "original": {
+            "q": "Why prefer crowded optotypes?",
+            "options": [
+              {
+                "text": "They detect amblyopia better",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "They're quicker",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Children like them",
+                "correct": false,
+                "feedback": "Not the reason."
+              },
+              {
+                "text": "They're cheaper",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0064",
-          "q": "Grating acuity in amblyopia can",
+          "q": "A child with strabismic amblyopia scores well on a grating test. Why be cautious?",
           "options": [
             {
-              "text": "overestimate acuity",
+              "text": "Grating acuity can overestimate acuity in amblyopia",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "underestimate",
+              "text": "Gratings always underestimate",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "be exact",
+              "text": "The child is cheating",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not necessarily."
             },
             {
-              "text": "not be measured",
+              "text": "Gratings measure colour",
               "correct": false,
-              "feedback": "It can."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Grating acuity can overestimate acuity in amblyopia.",
+          "original": {
+            "q": "Grating acuity in amblyopia can",
+            "options": [
+              {
+                "text": "overestimate acuity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "underestimate",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "be exact",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "not be measured",
+                "correct": false,
+                "feedback": "It can."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0065",
@@ -1646,30 +2066,57 @@
         },
         {
           "id": "pap-assessing-vision-x0066",
-          "q": "Which eye should be tested last if attention is short?",
+          "q": "A restless 3-year-old will only manage a few minutes of testing. In what order should you test the eyes?",
           "options": [
             {
-              "text": "The better eye",
+              "text": "The worse (or suspected worse) eye first, the better eye last",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The worse eye",
+              "text": "The better eye first",
               "correct": false,
-              "feedback": "Test it while attention is good."
+              "feedback": "You may run out of attention for the other."
             },
             {
-              "text": "Either",
+              "text": "Only binocularly",
               "correct": false,
-              "feedback": "It matters."
+              "feedback": "You need each eye."
             },
             {
-              "text": "Both together only",
+              "text": "It doesn't matter",
               "correct": false,
-              "feedback": "Test each eye."
+              "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Test the better eye last if attention is short.",
+          "original": {
+            "q": "Which eye should be tested last if attention is short?",
+            "options": [
+              {
+                "text": "The better eye",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The worse eye",
+                "correct": false,
+                "feedback": "Test it while attention is good."
+              },
+              {
+                "text": "Either",
+                "correct": false,
+                "feedback": "It matters."
+              },
+              {
+                "text": "Both together only",
+                "correct": false,
+                "feedback": "Test each eye."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0067",
@@ -1727,7 +2174,7 @@
         },
         {
           "id": "pap-assessing-vision-x0069",
-          "q": "Cardiff cards are used at",
+          "q": "You're using Cardiff acuity cards with a 2-year-old. At what distance should you work?",
           "options": [
             {
               "text": "50 cm or 1 m",
@@ -1737,20 +2184,47 @@
             {
               "text": "6 m",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "25 cm",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Too far."
             },
             {
               "text": "3 m",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's Kay and Keeler crowded logMAR."
+            },
+            {
+              "text": "10 cm",
+              "correct": false,
+              "feedback": "Too close."
             }
           ],
-          "explanation": ""
+          "explanation": "Cardiff cards are used at 50 cm or 1 m.",
+          "original": {
+            "q": "Cardiff cards are used at",
+            "options": [
+              {
+                "text": "50 cm or 1 m",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "6 m",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "25 cm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "3 m",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0181",
@@ -1781,30 +2255,57 @@
         },
         {
           "id": "pap-assessing-vision-x0182",
-          "q": "Which test uses gratings on cards for infants?",
+          "q": "Which statement about Keeler or Teller acuity cards is wrong?",
           "options": [
             {
-              "text": "Keeler or Teller acuity cards",
+              "text": "The child must name the picture on each card",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: you watch where the infant looks."
             },
             {
-              "text": "Snellen",
+              "text": "They use gratings",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Kay pictures",
+              "text": "They suit preverbal infants",
               "correct": false,
-              "feedback": "Pictures."
+              "feedback": "True."
             },
             {
-              "text": "Ishihara",
+              "text": "The examiner watches the child's eyes",
               "correct": false,
-              "feedback": "Colour."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Grating acuity cards use preferential looking; no naming is needed.",
+          "original": {
+            "q": "Which test uses gratings on cards for infants?",
+            "options": [
+              {
+                "text": "Keeler or Teller acuity cards",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Snellen",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Kay pictures",
+                "correct": false,
+                "feedback": "Pictures."
+              },
+              {
+                "text": "Ishihara",
+                "correct": false,
+                "feedback": "Colour."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0183",
@@ -1835,30 +2336,57 @@
         },
         {
           "id": "pap-assessing-vision-x0184",
-          "q": "Fixation is recorded as CSM. What does it stand for?",
+          "q": "A baby's left eye holds fixation on a toy but wanders when the right is uncovered. How would you record the left eye's fixation?",
           "options": [
             {
-              "text": "Central, steady, maintained",
+              "text": "Central and steady, but not maintained",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: not 'M' in CSM."
             },
             {
-              "text": "Corneal, scleral, macular",
+              "text": "Central, steady and maintained",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It isn't maintained."
             },
             {
-              "text": "Colour, size, movement",
+              "text": "Uncentral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not described."
             },
             {
-              "text": "Close, short, medium",
+              "text": "Not recordable",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "CSM: central, steady, maintained.",
+          "original": {
+            "q": "Fixation is recorded as CSM. What does it stand for?",
+            "options": [
+              {
+                "text": "Central, steady, maintained",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Corneal, scleral, macular",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Colour, size, movement",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Close, short, medium",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x0185",
@@ -2591,30 +3119,57 @@
         },
         {
           "id": "pap-assessing-vision-x04122",
-          "q": "Which test is a vanishing optotype test?",
+          "q": "A 2-year-old won't name pictures but will look at them. Which test uses pictures that fade as their outlines get thinner?",
           "options": [
             {
               "text": "Cardiff acuity cards",
               "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "Keeler cards",
-              "correct": false,
-              "feedback": "Gratings."
+              "feedback": "Yes: vanishing optotypes."
             },
             {
               "text": "Kay pictures",
               "correct": false,
-              "feedback": "Pictures."
+              "feedback": "Named or matched."
             },
             {
-              "text": "Snellen",
+              "text": "Keeler crowded logMAR",
               "correct": false,
               "feedback": "Letters."
+            },
+            {
+              "text": "Ishihara",
+              "correct": false,
+              "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "Cardiff cards use vanishing-optotype pictures for about 1–3 year olds.",
+          "original": {
+            "q": "Which test is a vanishing optotype test?",
+            "options": [
+              {
+                "text": "Cardiff acuity cards",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Keeler cards",
+                "correct": false,
+                "feedback": "Gratings."
+              },
+              {
+                "text": "Kay pictures",
+                "correct": false,
+                "feedback": "Pictures."
+              },
+              {
+                "text": "Snellen",
+                "correct": false,
+                "feedback": "Letters."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-assessing-vision-x04123",
@@ -2850,19 +3405,63 @@
       "id": "pap-cycloplegic",
       "title": "Cycloplegic refraction",
       "summary": "Children accommodate strongly, so a 'dry' refraction can hide hyperopia. Cyclopentolate temporarily paralyses accommodation so you can measure the full refractive error — essential in esotropia, suspected amblyopia and when results don't add up.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PaP"
+      },
       "keyPoints": [
-        "Indications: strabismus (especially esotropia), suspected amblyopia, reduced VA, high or unexplained hyperopia, first full assessment of young children.",
-        "Cyclopentolate is the usual drug: commonly 1% (0.5% in very young infants — follow your protocol).",
-        "Retinoscopy at peak effect, about 30–60 minutes after instillation; effect can last up to 24 hours.",
-        "Check the angle and ask about allergies and health conditions before instilling.",
-        "Warn parents about blur (especially near), light sensitivity and occasional side effects like flushing or drowsiness.",
-        "Rarely, cyclopentolate can cause CNS effects (more likely in younger children) — know your clinic's procedure.",
-        "Prescribing from a cycloplegic result needs judgement: full plus for esotropia; partial in some others."
+        {
+          "text": "Indications: strabismus (especially esotropia), suspected amblyopia, reduced VA, high or unexplained hyperopia, first full assessment of young children.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Cyclopentolate is the usual drug: commonly 1% (0.5% in very young infants — follow your protocol).",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Retinoscopy at peak effect, about 30–60 minutes after instillation; effect can last up to 24 hours.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Check the angle and ask about allergies and health conditions before instilling.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Warn parents about blur (especially near), light sensitivity and occasional side effects like flushing or drowsiness.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Rarely, cyclopentolate can cause CNS effects (more likely in younger children) — know your clinic's procedure.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Prescribing from a cycloplegic result needs judgement: full plus for esotropia; partial in some others.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "examTraps": [
-        "Doing retinoscopy too soon after instillation.",
-        "Forgetting to warn parents about blur and light sensitivity.",
-        "Prescribing the full cycloplegic hyperopia to every child without considering BV and symptoms."
+        {
+          "text": "Doing retinoscopy too soon after instillation.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Forgetting to warn parents about blur and light sensitivity.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Prescribing the full cycloplegic hyperopia to every child without considering BV and symptoms.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "diagram": {
         "id": "cyclo-timeline",
@@ -2876,11 +3475,15 @@
       "goDeeper": [
         {
           "heading": "Prescribing after cycloplegia",
-          "body": "With esotropia (especially accommodative), prescribe the full cycloplegic hyperopia to reduce accommodative convergence. For a straight-eyed child with moderate hyperopia and good VA, many clinicians give a partial correction or monitor, depending on age, symptoms and BV. Some apply a small 'tonus' allowance; conventions vary, so follow your department's rules."
+          "body": "With esotropia (especially accommodative), prescribe the full cycloplegic hyperopia to reduce accommodative convergence. For a straight-eyed child with moderate hyperopia and good VA, many clinicians give a partial correction or monitor, depending on age, symptoms and BV. Some apply a small 'tonus' allowance; conventions vary, so follow your department's rules.",
+          "priority": "exam-core",
+          "module": "PaP"
         },
         {
           "heading": "Explaining it to parents",
-          "body": "'These drops relax the focusing muscle so we can see the true prescription. Your child's vision will be blurry up close and they may be sensitive to light for the rest of the day — sunglasses or a hat help. It wears off by tomorrow.' Ask about allergies and health first, and record consent."
+          "body": "'These drops relax the focusing muscle so we can see the true prescription. Your child's vision will be blurry up close and they may be sensitive to light for the rest of the day — sunglasses or a hat help. It wears off by tomorrow.' Ask about allergies and health first, and record consent.",
+          "priority": "clinical",
+          "module": "PaP"
         }
       ],
       "flashcards": [
@@ -2932,22 +3535,22 @@
         },
         {
           "id": "pap-cycloplegic-x0061",
-          "q": "Which is the usual cycloplegic for children?",
+          "q": "A 5-year-old needs a cycloplegic refraction. Which drug is usual?",
           "options": [
             {
-              "text": "Cyclopentolate",
+              "text": "Cyclopentolate 1%",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Tropicamide",
+              "text": "Tropicamide 1%",
               "correct": false,
-              "feedback": "Weak cycloplegic."
+              "feedback": "Weak cycloplegia."
             },
             {
-              "text": "Phenylephrine",
+              "text": "Phenylephrine 2.5%",
               "correct": false,
-              "feedback": "Mydriatic only."
+              "feedback": "No cycloplegia."
             },
             {
               "text": "Pilocarpine",
@@ -2955,34 +3558,88 @@
               "feedback": "Miotic."
             }
           ],
-          "explanation": ""
+          "explanation": "Cyclopentolate is the usual cycloplegic for children.",
+          "original": {
+            "q": "Which is the usual cycloplegic for children?",
+            "options": [
+              {
+                "text": "Cyclopentolate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Tropicamide",
+                "correct": false,
+                "feedback": "Weak cycloplegic."
+              },
+              {
+                "text": "Phenylephrine",
+                "correct": false,
+                "feedback": "Mydriatic only."
+              },
+              {
+                "text": "Pilocarpine",
+                "correct": false,
+                "feedback": "Miotic."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0062",
-          "q": "When is retinoscopy done after cyclopentolate?",
+          "q": "You instil cyclopentolate at 10:00. When is the best time to start retinoscopy?",
           "options": [
             {
-              "text": "At peak effect, about 30–60 minutes",
+              "text": "About 10:30–11:00",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: at peak effect, 30–60 minutes."
             },
             {
-              "text": "Straight away",
+              "text": "10:05",
               "correct": false,
-              "feedback": "Too early."
+              "feedback": "Too soon."
             },
             {
-              "text": "After 24 hours",
+              "text": "14:00",
               "correct": false,
-              "feedback": "Too late."
+              "feedback": "It's wearing off."
             },
             {
-              "text": "After a week",
+              "text": "The next day",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Do retinoscopy at peak effect, about 30–60 minutes after instillation.",
+          "original": {
+            "q": "When is retinoscopy done after cyclopentolate?",
+            "options": [
+              {
+                "text": "At peak effect, about 30–60 minutes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Straight away",
+                "correct": false,
+                "feedback": "Too early."
+              },
+              {
+                "text": "After 24 hours",
+                "correct": false,
+                "feedback": "Too late."
+              },
+              {
+                "text": "After a week",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0063",
@@ -3013,84 +3670,165 @@
         },
         {
           "id": "pap-cycloplegic-x0064",
-          "q": "What strength is used in very young infants?",
+          "q": "A 6-week-old needs a cycloplegic refraction. What's a typical choice?",
           "options": [
             {
-              "text": "0.5% (follow your protocol)",
+              "text": "Cyclopentolate 0.5% (following your protocol)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "1% always",
+              "text": "Cyclopentolate 1% four times",
               "correct": false,
-              "feedback": "Older children."
+              "feedback": "Too much."
             },
             {
-              "text": "2%",
+              "text": "Atropine 1% twice daily for a week",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not routine."
             },
             {
-              "text": "0.1%",
+              "text": "Phenylephrine 10%",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Unsafe in infants."
             }
           ],
-          "explanation": ""
+          "explanation": "Weaker concentrations are used in very young infants.",
+          "original": {
+            "q": "What strength is used in very young infants?",
+            "options": [
+              {
+                "text": "0.5% (follow your protocol)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "1% always",
+                "correct": false,
+                "feedback": "Older children."
+              },
+              {
+                "text": "2%",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "0.1%",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0065",
-          "q": "How long can cyclopentolate's effect last?",
+          "q": "A parent asks when their child's vision will be back to normal after cyclopentolate given at 2 pm. What do you say?",
           "options": [
             {
-              "text": "Up to 24 hours",
+              "text": "It may take up to about 24 hours",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "10 minutes",
+              "text": "Within 10 minutes",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "A week",
+              "text": "Up to a week",
               "correct": false,
               "feedback": "That's atropine."
             },
             {
-              "text": "1 hour",
+              "text": "Never",
               "correct": false,
-              "feedback": "Longer."
+              "feedback": "It recovers."
             }
           ],
-          "explanation": ""
+          "explanation": "Cyclopentolate's effect can last up to about 24 hours.",
+          "original": {
+            "q": "How long can cyclopentolate's effect last?",
+            "options": [
+              {
+                "text": "Up to 24 hours",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "10 minutes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A week",
+                "correct": false,
+                "feedback": "That's atropine."
+              },
+              {
+                "text": "1 hour",
+                "correct": false,
+                "feedback": "Longer."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0066",
-          "q": "What should you warn parents about?",
+          "q": "Which advice should parents get after cyclopentolate?",
           "options": [
             {
-              "text": "Blur (especially near), light sensitivity and occasional flushing or drowsiness",
+              "text": "Expect blur (especially near) and light sensitivity; occasionally flushing or drowsiness",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Permanent vision change",
+              "text": "Their child will see better",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Pain",
+              "text": "No side effects are possible",
               "correct": false,
-              "feedback": "Mild stinging only."
+              "feedback": "Some are."
             },
             {
-              "text": "Nothing",
+              "text": "Avoid school for a week",
               "correct": false,
-              "feedback": "Always warn."
+              "feedback": "Not needed."
             }
           ],
-          "explanation": ""
+          "explanation": "Warn about blur, light sensitivity and occasional systemic effects.",
+          "original": {
+            "q": "What should you warn parents about?",
+            "options": [
+              {
+                "text": "Blur (especially near), light sensitivity and occasional flushing or drowsiness",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Permanent vision change",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Pain",
+                "correct": false,
+                "feedback": "Mild stinging only."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Always warn."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0067",
@@ -3148,30 +3886,57 @@
         },
         {
           "id": "pap-cycloplegic-x0069",
-          "q": "Rare CNS effects of cyclopentolate are more likely in",
+          "q": "Which child needs the most caution with cyclopentolate?",
           "options": [
             {
-              "text": "younger children",
+              "text": "A young infant",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: CNS effects are more likely in younger children."
             },
             {
-              "text": "adults",
+              "text": "A healthy 10-year-old",
               "correct": false,
-              "feedback": "Less likely."
+              "feedback": "Lower risk."
             },
             {
-              "text": "the elderly only",
+              "text": "A teenager",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Lower risk."
             },
             {
-              "text": "nobody",
+              "text": "An adult",
               "correct": false,
-              "feedback": "They occur rarely."
+              "feedback": "Lower risk."
             }
           ],
-          "explanation": ""
+          "explanation": "Rare CNS effects of cyclopentolate are more likely in younger children.",
+          "original": {
+            "q": "Rare CNS effects of cyclopentolate are more likely in",
+            "options": [
+              {
+                "text": "younger children",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "adults",
+                "correct": false,
+                "feedback": "Less likely."
+              },
+              {
+                "text": "the elderly only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nobody",
+                "correct": false,
+                "feedback": "They occur rarely."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x0181",
@@ -3688,30 +4453,57 @@
         },
         {
           "id": "pap-cycloplegic-x04110",
-          "q": "How much plus is usually prescribed for a child with accommodative esotropia?",
+          "q": "A 3-year-old's esotropia straightens with +4.00 D found on cycloplegic retinoscopy. What should you prescribe?",
           "options": [
             {
-              "text": "The full cycloplegic hyperopia",
+              "text": "The full +4.00 D",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Half",
+              "text": "+2.00 D",
               "correct": false,
-              "feedback": "Usually full."
+              "feedback": "Undercorrecting may leave the squint."
             },
             {
-              "text": "None",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Glasses are needed."
             },
             {
-              "text": "Minus",
+              "text": "−4.00 D",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For accommodative esotropia, give the full cycloplegic hyperopia.",
+          "original": {
+            "q": "How much plus is usually prescribed for a child with accommodative esotropia?",
+            "options": [
+              {
+                "text": "The full cycloplegic hyperopia",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Half",
+                "correct": false,
+                "feedback": "Usually full."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Minus",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-cycloplegic-x04111",
@@ -4271,19 +5063,66 @@
       "id": "pap-amblyopia",
       "title": "Amblyopia",
       "summary": "Amblyopia is reduced best-corrected vision in one (or both) eyes caused by abnormal visual input during the sensitive period, with no structural cause that explains it. Treatment starts with full-time glasses, then occlusion or atropine penalisation if needed.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PaP"
+      },
       "keyPoints": [
-        "Types: strabismic, anisometropic, ametropic (bilateral high Rx) and stimulus deprivation (e.g. cataract, ptosis).",
-        "Commonly defined as a two-line (or more) interocular difference in best-corrected VA.",
-        "Rough amblyogenic anisometropia: about 1.00 D hyperopic, 1.50 D astigmatic or 3.00 D myopic difference (check your criteria).",
-        "Step 1: full-time glasses (refractive adaptation) — VA often improves over about 16–18 weeks.",
-        "Step 2: patching — PEDIG trials found 2 hours/day as effective as 6 for moderate amblyopia; 6 hours as effective as full-time for severe.",
-        "Alternative: atropine penalisation of the better eye.",
-        "Crowding: amblyopic eyes do worse with crowded optotypes; use crowded tests to monitor."
+        {
+          "text": "Types: strabismic, anisometropic, ametropic (bilateral high Rx) and stimulus deprivation (e.g. cataract, ptosis).",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Commonly defined as a two-line (or more) interocular difference in best-corrected VA.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Rough amblyogenic anisometropia: about 1.00 D hyperopic, 1.50 D astigmatic or 3.00 D myopic difference (check your criteria).",
+          "priority": "exam-core",
+          "module": "PaP",
+          "why": "A difference in focus between the eyes leaves one eye with a constantly blurred image during development, which can lead to amblyopia.",
+          "limits": "Thresholds vary between studies and guidelines and depend on age and on other factors such as strabismus, so check the criteria your service uses.",
+          "needsReview": true
+        },
+        {
+          "text": "Step 1: full-time glasses (refractive adaptation) — VA often improves over about 16–18 weeks.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Step 2: patching — PEDIG trials found 2 hours/day as effective as 6 for moderate amblyopia; 6 hours as effective as full-time for severe.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Alternative: atropine penalisation of the better eye.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Crowding: amblyopic eyes do worse with crowded optotypes; use crowded tests to monitor.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "examTraps": [
-        "Patching before giving glasses time to work.",
-        "Diagnosing amblyopia without ruling out structural disease.",
-        "Using single optotypes to monitor treatment."
+        {
+          "text": "Patching before giving glasses time to work.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Diagnosing amblyopia without ruling out structural disease.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Using single optotypes to monitor treatment.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "diagram": {
         "id": "amblyopia-types",
@@ -4298,15 +5137,21 @@
       "goDeeper": [
         {
           "heading": "Why glasses first",
-          "body": "A clear image in the amblyopic eye is the first treatment. Many children improve substantially with glasses alone, and some reach good acuity without needing patching. Monitor every 6–8 weeks or so with the same crowded test."
+          "body": "A clear image in the amblyopic eye is the first treatment. Many children improve substantially with glasses alone, and some reach good acuity without needing patching. Monitor every 6–8 weeks or so with the same crowded test.",
+          "priority": "exam-core",
+          "module": "PaP"
         },
         {
           "heading": "Compliance and the family",
-          "body": "Treatment only works if it's done. Explain why, make it fun (patching during activities that need focus, like drawing or tablet games), give a diary, and be positive. Treatment is most effective in younger children, but older children can still improve."
+          "body": "Treatment only works if it's done. Explain why, make it fun (patching during activities that need focus, like drawing or tablet games), give a diary, and be positive. Treatment is most effective in younger children, but older children can still improve.",
+          "priority": "clinical",
+          "module": "PaP"
         },
         {
           "heading": "Who manages it",
-          "body": "In the UK, amblyopia treatment is often managed by hospital orthoptic and ophthalmology services. Optometrists detect it, refract, prescribe glasses and refer according to local pathways."
+          "body": "In the UK, amblyopia treatment is often managed by hospital orthoptic and ophthalmology services. Optometrists detect it, refract, prescribe glasses and refer according to local pathways.",
+          "priority": "background",
+          "module": "PaP"
         }
       ],
       "flashcards": [
@@ -4385,30 +5230,57 @@
         },
         {
           "id": "pap-amblyopia-x0062",
-          "q": "What's step 1 in treating amblyopia?",
+          "q": "A newly diagnosed 5-year-old has anisometropic amblyopia. What's the first step?",
           "options": [
             {
-              "text": "Full-time glasses (refractive adaptation)",
+              "text": "Full-time glasses, then review for refractive adaptation",
               "correct": true,
-              "feedback": "Yes, often for 16–18 weeks."
+              "feedback": "Yes."
             },
             {
-              "text": "Patching",
+              "text": "Start patching on day one",
               "correct": false,
-              "feedback": "Step 2."
+              "feedback": "Glasses first."
+            },
+            {
+              "text": "Atropine immediately",
+              "correct": false,
+              "feedback": "Glasses first."
             },
             {
               "text": "Surgery",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Atropine first",
-              "correct": false,
-              "feedback": "Alternative later."
             }
           ],
-          "explanation": ""
+          "explanation": "Step 1 is full-time glasses; VA often improves over about 16–18 weeks.",
+          "original": {
+            "q": "What's step 1 in treating amblyopia?",
+            "options": [
+              {
+                "text": "Full-time glasses (refractive adaptation)",
+                "correct": true,
+                "feedback": "Yes, often for 16–18 weeks."
+              },
+              {
+                "text": "Patching",
+                "correct": false,
+                "feedback": "Step 2."
+              },
+              {
+                "text": "Surgery",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Atropine first",
+                "correct": false,
+                "feedback": "Alternative later."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x0063",
@@ -4439,7 +5311,7 @@
         },
         {
           "id": "pap-amblyopia-x0064",
-          "q": "Which is an alternative to patching?",
+          "q": "A child refuses to wear a patch. Which alternative has good evidence?",
           "options": [
             {
               "text": "Atropine penalisation of the better eye",
@@ -4447,22 +5319,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Atropine in the amblyopic eye",
+              "text": "Patching the amblyopic eye",
               "correct": false,
               "feedback": "Wrong eye."
             },
             {
-              "text": "Contact lenses only",
+              "text": "Stopping glasses",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "No treatment",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Alternatives exist."
             }
           ],
-          "explanation": ""
+          "explanation": "Atropine penalisation of the better eye is an alternative to patching.",
+          "original": {
+            "q": "Which is an alternative to patching?",
+            "options": [
+              {
+                "text": "Atropine penalisation of the better eye",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Atropine in the amblyopic eye",
+                "correct": false,
+                "feedback": "Wrong eye."
+              },
+              {
+                "text": "Contact lenses only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No treatment",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x0065",
@@ -4493,57 +5392,111 @@
         },
         {
           "id": "pap-amblyopia-x0066",
-          "q": "Roughly what hyperopic anisometropia is amblyogenic?",
+          "q": "Which prescription carries the greatest amblyopia risk if uncorrected?",
           "options": [
             {
-              "text": "About 1.00 D",
+              "text": "R +2.00, L plano (a 2.00 D hyperopic difference)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "About 5.00 D",
+              "text": "R −1.00, L −1.50",
               "correct": false,
-              "feedback": "Too high a threshold."
+              "feedback": "Small myopic difference."
             },
             {
-              "text": "0.25 D",
+              "text": "R plano, L plano",
               "correct": false,
-              "feedback": "Too low."
+              "feedback": "No difference."
             },
             {
-              "text": "None",
+              "text": "R +0.50, L +0.75",
               "correct": false,
-              "feedback": "It can be."
+              "feedback": "Tiny."
             }
           ],
-          "explanation": ""
+          "explanation": "Roughly 1.00 D of hyperopic anisometropia can be amblyogenic; myopic differences need more.",
+          "original": {
+            "q": "Roughly what hyperopic anisometropia is amblyogenic?",
+            "options": [
+              {
+                "text": "About 1.00 D",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "About 5.00 D",
+                "correct": false,
+                "feedback": "Too high a threshold."
+              },
+              {
+                "text": "0.25 D",
+                "correct": false,
+                "feedback": "Too low."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "It can be."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x0067",
-          "q": "Why monitor with crowded tests?",
+          "q": "A child's amblyopic eye reads 0.2 on single letters but 0.5 on a crowded chart. Which result should you use to monitor treatment?",
           "options": [
             {
-              "text": "Amblyopic eyes do worse with crowding",
+              "text": "The crowded result",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "They're faster",
+              "text": "The single-letter result",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Overestimates."
             },
             {
-              "text": "Single letters are banned",
+              "text": "An average",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Use crowded."
             },
             {
-              "text": "No reason",
+              "text": "Neither",
               "correct": false,
-              "feedback": "There is."
+              "feedback": "Crowded."
             }
           ],
-          "explanation": ""
+          "explanation": "Amblyopic eyes do worse with crowding, so monitor with crowded tests.",
+          "original": {
+            "q": "Why monitor with crowded tests?",
+            "options": [
+              {
+                "text": "Amblyopic eyes do worse with crowding",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "They're faster",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Single letters are banned",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No reason",
+                "correct": false,
+                "feedback": "There is."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x0068",
@@ -4655,30 +5608,57 @@
         },
         {
           "id": "pap-amblyopia-x0183",
-          "q": "Atropine penalisation is put in",
+          "q": "A child is treated with atropine penalisation. Which eye gets the drops?",
           "options": [
             {
-              "text": "the better eye",
+              "text": "The better eye",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "the amblyopic eye",
+              "text": "The amblyopic eye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "both eyes",
+              "text": "Both eyes",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "neither",
+              "text": "Neither",
               "correct": false,
-              "feedback": "No."
+              "feedback": "One eye."
             }
           ],
-          "explanation": ""
+          "explanation": "Atropine blurs the better eye to make the amblyopic eye work.",
+          "original": {
+            "q": "Atropine penalisation is put in",
+            "options": [
+              {
+                "text": "the better eye",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "the amblyopic eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "both eyes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "neither",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x0184",
@@ -5384,30 +6364,57 @@
         },
         {
           "id": "pap-amblyopia-x04120",
-          "q": "Why should glasses be worn full time first?",
+          "q": "A 6-year-old's amblyopic eye improves from 0.6 to 0.3 logMAR after 12 weeks of glasses alone. What does this show?",
           "options": [
             {
-              "text": "Many children improve with glasses alone",
+              "text": "Refractive adaptation: glasses alone can improve VA",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "It's cheaper",
+              "text": "The glasses are wrong",
               "correct": false,
-              "feedback": "Not the reason."
+              "feedback": "They're working."
             },
             {
-              "text": "To delay treatment pointlessly",
+              "text": "Patching is never needed",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It may still be needed."
             },
             {
-              "text": "It's not necessary",
+              "text": "A measurement error",
               "correct": false,
-              "feedback": "It is."
+              "feedback": "Not likely."
             }
           ],
-          "explanation": ""
+          "explanation": "Many children improve with full-time glasses before any patching.",
+          "original": {
+            "q": "Why should glasses be worn full time first?",
+            "options": [
+              {
+                "text": "Many children improve with glasses alone",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "It's cheaper",
+                "correct": false,
+                "feedback": "Not the reason."
+              },
+              {
+                "text": "To delay treatment pointlessly",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It's not necessary",
+                "correct": false,
+                "feedback": "It is."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-amblyopia-x04121",
@@ -5697,19 +6704,63 @@
       "id": "pap-myopia",
       "title": "Myopia onset and myopia management",
       "summary": "Myopia is becoming more common and starting younger. Every dioptre matters, because higher myopia raises lifelong risks (myopic maculopathy, retinal detachment, glaucoma). Prevention focuses on outdoor time; management uses myopia-control spectacles, contact lenses, orthokeratology and low-dose atropine.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PaP"
+      },
       "keyPoints": [
-        "Risk factors for onset: myopic parents, lots of near work, less time outdoors, early schooling intensity.",
-        "Time outdoors (around 2 hours a day is often suggested) helps delay onset.",
-        "Higher myopia increases the risk of myopic maculopathy, retinal detachment, glaucoma and cataract.",
-        "Options shown to slow progression include: myopia-control spectacle lenses (e.g. DIMS/HAL designs), dual-focus or multifocal soft contact lenses, orthokeratology and low-dose atropine.",
-        "Typical trial results show slowing of roughly a third to over half compared with single vision correction — results vary by child.",
-        "Deliberately under-correcting myopia is not recommended.",
-        "Measure progression (refraction, ideally axial length), discuss options with parents and agree a plan; follow College guidance."
+        {
+          "text": "Risk factors for onset: myopic parents, lots of near work, less time outdoors, early schooling intensity.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Time outdoors (around 2 hours a day is often suggested) helps delay onset.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Higher myopia increases the risk of myopic maculopathy, retinal detachment, glaucoma and cataract.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Options shown to slow progression include: myopia-control spectacle lenses (e.g. DIMS/HAL designs), dual-focus or multifocal soft contact lenses, orthokeratology and low-dose atropine.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Typical trial results show slowing of roughly a third to over half compared with single vision correction — results vary by child.",
+          "priority": "background",
+          "module": "PaP"
+        },
+        {
+          "text": "Deliberately under-correcting myopia is not recommended.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Measure progression (refraction, ideally axial length), discuss options with parents and agree a plan; follow College guidance.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "examTraps": [
-        "Under-correcting to 'slow' myopia — evidence suggests it doesn't help.",
-        "Promising a treatment will stop myopia completely.",
-        "Ignoring outdoor time and lifestyle advice."
+        {
+          "text": "Under-correcting to 'slow' myopia — evidence suggests it doesn't help.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Promising a treatment will stop myopia completely.",
+          "priority": "exam-core",
+          "module": "PaP"
+        },
+        {
+          "text": "Ignoring outdoor time and lifestyle advice.",
+          "priority": "exam-core",
+          "module": "PaP"
+        }
       ],
       "diagram": {
         "id": "myopia-control",
@@ -5724,15 +6775,21 @@
       "goDeeper": [
         {
           "heading": "How the optical options work",
-          "body": "Most optical myopia-control designs give clear central vision while adding myopic defocus (images focused in front of the retina) across much of the field. This is thought to reduce the signal that drives the eye to elongate. Spectacle designs, dual-focus daily disposable soft lenses and orthokeratology all use versions of this idea."
+          "body": "Most optical myopia-control designs give clear central vision while adding myopic defocus (images focused in front of the retina) across much of the field. This is thought to reduce the signal that drives the eye to elongate. Spectacle designs, dual-focus daily disposable soft lenses and orthokeratology all use versions of this idea.",
+          "priority": "exam-core",
+          "module": "PaP"
         },
         {
           "heading": "Talking to parents",
-          "body": "Explain that myopia usually progresses through childhood, that slowing it reduces lifelong risks, and what each option involves (cost, wear, aftercare, expected effect). Be honest that treatments slow progression rather than stop it and that individual responses vary. Lifestyle advice (outdoor time, breaks from near work) applies to everyone."
+          "body": "Explain that myopia usually progresses through childhood, that slowing it reduces lifelong risks, and what each option involves (cost, wear, aftercare, expected effect). Be honest that treatments slow progression rather than stop it and that individual responses vary. Lifestyle advice (outdoor time, breaks from near work) applies to everyone.",
+          "priority": "clinical",
+          "module": "PaP"
         },
         {
           "heading": "Monitoring",
-          "body": "Review regularly (often every 6 months), measuring refraction (cycloplegic when appropriate) and, if available, axial length — axial length is a more direct measure of eye growth. Record the plan and discuss changes if progression continues."
+          "body": "Review regularly (often every 6 months), measuring refraction (cycloplegic when appropriate) and, if available, axial length — axial length is a more direct measure of eye growth. Record the plan and discuss changes if progression continues.",
+          "priority": "clinical",
+          "module": "PaP"
         }
       ],
       "flashcards": [
@@ -5784,30 +6841,57 @@
         },
         {
           "id": "pap-myopia-x0061",
-          "q": "Which helps delay myopia onset?",
+          "q": "Parents of a 6-year-old with two myopic parents ask how to lower the child's risk. What advice has the best evidence?",
           "options": [
             {
-              "text": "Time outdoors (about 2 hours a day)",
+              "text": "About 2 hours a day outdoors",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "More near work",
+              "text": "Avoid all reading",
               "correct": false,
-              "feedback": "Increases risk."
+              "feedback": "Not practical or proven."
             },
             {
-              "text": "Under-correction",
+              "text": "Wear undercorrected glasses",
               "correct": false,
-              "feedback": "Not recommended."
+              "feedback": "No."
             },
             {
-              "text": "Dim lighting",
+              "text": "Eat carrots",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Time outdoors (about 2 hours a day) helps delay myopia onset.",
+          "original": {
+            "q": "Which helps delay myopia onset?",
+            "options": [
+              {
+                "text": "Time outdoors (about 2 hours a day)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "More near work",
+                "correct": false,
+                "feedback": "Increases risk."
+              },
+              {
+                "text": "Under-correction",
+                "correct": false,
+                "feedback": "Not recommended."
+              },
+              {
+                "text": "Dim lighting",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0062",
@@ -5838,111 +6922,219 @@
         },
         {
           "id": "pap-myopia-x0063",
-          "q": "Typical myopia control slows progression by roughly",
+          "q": "A child progresses by −1.00 D a year in single vision. With a typical myopia control option, what might you expect?",
           "options": [
             {
-              "text": "a third to over half",
+              "text": "About −0.50 to −0.65 D a year",
               "correct": true,
-              "feedback": "Yes; results vary."
+              "feedback": "Yes: roughly a third to over half slower."
             },
             {
-              "text": "100%",
+              "text": "No progression at all",
+              "correct": false,
+              "feedback": "Not realistic."
+            },
+            {
+              "text": "Reversal of myopia",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "5%",
-              "correct": false,
-              "feedback": "Too little."
-            },
-            {
-              "text": "It speeds it up",
+              "text": "Faster progression",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Typical myopia control slows progression by roughly a third to over half.",
+          "original": {
+            "q": "Typical myopia control slows progression by roughly",
+            "options": [
+              {
+                "text": "a third to over half",
+                "correct": true,
+                "feedback": "Yes; results vary."
+              },
+              {
+                "text": "100%",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "5%",
+                "correct": false,
+                "feedback": "Too little."
+              },
+              {
+                "text": "It speeds it up",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0064",
-          "q": "Why does high myopia matter?",
+          "q": "Why does slowing myopia from −8 D to −5 D matter beyond needing thinner glasses?",
           "options": [
             {
-              "text": "Higher risk of maculopathy, detachment, glaucoma and cataract",
+              "text": "Higher myopia raises the risk of maculopathy, detachment, glaucoma and cataract",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "It only affects VA",
+              "text": "It doesn't",
+              "correct": false,
+              "feedback": "It does."
+            },
+            {
+              "text": "It prevents presbyopia",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It reverses",
+              "text": "It improves colour vision",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "No risk",
-              "correct": false,
-              "feedback": "There is."
             }
           ],
-          "explanation": ""
+          "explanation": "Higher myopia increases the risk of serious complications.",
+          "original": {
+            "q": "Why does high myopia matter?",
+            "options": [
+              {
+                "text": "Higher risk of maculopathy, detachment, glaucoma and cataract",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "It only affects VA",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It reverses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No risk",
+                "correct": false,
+                "feedback": "There is."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0065",
-          "q": "How is progression best measured?",
+          "q": "A child's refraction changes only −0.25 D in a year, but their axial length grew 0.4 mm. Which result better shows progression?",
           "options": [
             {
-              "text": "Refraction and ideally axial length",
+              "text": "Axial length",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: refraction can be affected by accommodation and measurement."
             },
             {
-              "text": "VA only",
+              "text": "Refraction alone",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Less reliable here."
             },
             {
-              "text": "Keratometry only",
+              "text": "Neither",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Axial length."
             },
             {
-              "text": "Patient report",
+              "text": "VA",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not a measure of progression."
             }
           ],
-          "explanation": ""
+          "explanation": "Progression is best measured by refraction and ideally axial length.",
+          "original": {
+            "q": "How is progression best measured?",
+            "options": [
+              {
+                "text": "Refraction and ideally axial length",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "VA only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Keratometry only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Patient report",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0066",
-          "q": "Which is a risk factor for myopia onset?",
+          "q": "Which child is at the highest risk of developing myopia?",
           "options": [
             {
-              "text": "Myopic parents",
+              "text": "A child with two myopic parents who reads a lot and rarely goes outside",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Outdoor play",
+              "text": "A child with emmetropic parents who plays outside daily",
               "correct": false,
-              "feedback": "Protective."
+              "feedback": "Lower risk."
             },
             {
-              "text": "Hyperopic parents",
+              "text": "A hyperopic child",
               "correct": false,
-              "feedback": "Less risk."
+              "feedback": "Lower risk."
             },
             {
-              "text": "Late schooling",
+              "text": "A child with no near work",
               "correct": false,
-              "feedback": "Not a risk factor."
+              "feedback": "Lower risk."
             }
           ],
-          "explanation": ""
+          "explanation": "Risk factors include myopic parents, lots of near work and less time outdoors.",
+          "original": {
+            "q": "Which is a risk factor for myopia onset?",
+            "options": [
+              {
+                "text": "Myopic parents",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Outdoor play",
+                "correct": false,
+                "feedback": "Protective."
+              },
+              {
+                "text": "Hyperopic parents",
+                "correct": false,
+                "feedback": "Less risk."
+              },
+              {
+                "text": "Late schooling",
+                "correct": false,
+                "feedback": "Not a risk factor."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0067",
@@ -6135,30 +7327,57 @@
         },
         {
           "id": "pap-myopia-x0186",
-          "q": "Which is a complication of high myopia?",
+          "q": "A −9.00 D myope has new flashes and a shadow. Why should you take it especially seriously?",
           "options": [
             {
-              "text": "Retinal detachment",
+              "text": "High myopia raises the risk of retinal detachment",
               "correct": true,
-              "feedback": "Yes, also myopic maculopathy and glaucoma."
+              "feedback": "Yes."
             },
             {
-              "text": "Presbyopia",
+              "text": "High myopes don't get detachments",
+              "correct": false,
+              "feedback": "They're at higher risk."
+            },
+            {
+              "text": "It's always migraine",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Hyperopia",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Colour blindness",
+              "text": "It's presbyopia",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinal detachment is a complication of high myopia.",
+          "original": {
+            "q": "Which is a complication of high myopia?",
+            "options": [
+              {
+                "text": "Retinal detachment",
+                "correct": true,
+                "feedback": "Yes, also myopic maculopathy and glaucoma."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hyperopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Colour blindness",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0187",
@@ -7026,30 +8245,57 @@
         },
         {
           "id": "pap-myopia-x04129",
-          "q": "Myopia also increases lifetime risk of",
+          "q": "A high myope asks if they need regular eye checks into later life. What's the best answer?",
           "options": [
             {
-              "text": "glaucoma and cataract",
+              "text": "Yes: myopia raises the lifetime risk of glaucoma and cataract, among others",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "presbyopia",
-              "correct": false,
-              "feedback": "Everyone gets it."
-            },
-            {
-              "text": "keratoconus",
-              "correct": false,
-              "feedback": "Not directly."
-            },
-            {
-              "text": "hyperopia",
+              "text": "No, myopia stops mattering in adults",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "Only if they wear contact lenses",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Only for new glasses",
+              "correct": false,
+              "feedback": "Health checks matter too."
             }
           ],
-          "explanation": ""
+          "explanation": "Myopia increases lifetime risk of glaucoma and cataract, as well as retinal problems.",
+          "original": {
+            "q": "Myopia also increases lifetime risk of",
+            "options": [
+              {
+                "text": "glaucoma and cataract",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "presbyopia",
+                "correct": false,
+                "feedback": "Everyone gets it."
+              },
+              {
+                "text": "keratoconus",
+                "correct": false,
+                "feedback": "Not directly."
+              },
+              {
+                "text": "hyperopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "pap-myopia-x0441",

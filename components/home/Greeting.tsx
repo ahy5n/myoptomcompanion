@@ -39,6 +39,7 @@ export function Greeting({ lines }: { lines: string[] }) {
         {g.text}, {name}
       </h1>
       <p className="mt-1.5 min-h-[1.6em] text-[18px] text-muted">{line ?? ' '}</p>
+      <p className="mt-2 text-[15px] text-muted">This resource is built first to help you pass your optometry exams.</p>
     </div>
   )
 }

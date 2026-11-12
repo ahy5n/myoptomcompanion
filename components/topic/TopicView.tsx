@@ -2,9 +2,12 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
-import { caseId, flashcardId } from '@/lib/ids'
-import type { PracticeItem, Topic } from '@/lib/types'
+import { flashcardId } from '@/lib/ids'
+import { showsBlock } from '@/lib/studyMode'
+import type { BlockMeta, PracticeItem, Topic } from '@/lib/types'
 import { useApp, useData } from '../AppProvider'
+import { StudyModeSwitch, useStudyMode } from '../StudyModeSwitch'
+import { BlockNotes } from './BlockNotes'
 import { AskClaudeButton } from '../AskClaudeButton'
 import { BackLink } from '../bits'
 import { DiagramFigure } from '../diagrams/DiagramFigure'
@@ -30,7 +33,7 @@ interface Props {
   next?: { id: string; title: string }
 }
 
-type Tab = 'flashcards' | 'mcq' | 'cases' | 'label'
+type Tab = 'flashcards' | 'label'
 
 export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, index, total, prev, next }: Props) {
   const { setProgress } = useApp()
@@ -39,20 +42,27 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
   const p = data.progress[t.id] ?? { covered: false, revised: false }
   const moduleLabel = data.overrides[moduleCode] || moduleName
 
+  const [mode] = useStudyMode()
+  const shown = (b: BlockMeta) => showsBlock(b, mode, moduleCode)
+  const keyPoints = t.keyPoints.filter(shown)
+  const examTraps = t.examTraps.filter(shown)
+  const goDeeper = t.goDeeper.filter(shown)
+  const checklist = t.checklist && (!t.checklist.priority || shown({ priority: t.checklist.priority, module: t.checklist.module ?? moduleCode })) ? t.checklist : undefined
+  const hiddenCount =
+    t.keyPoints.length + t.examTraps.length + t.goDeeper.length + (t.checklist ? 1 : 0) -
+    (keyPoints.length + examTraps.length + goDeeper.length + (checklist ? 1 : 0))
+  const quizCount = t.mcq.length + t.cases.length
+
   const base = { topicId: t.id, topicTitle: t.title, moduleCode }
-  const sets = useMemo(() => {
-    const fc: PracticeItem[] = t.flashcards.map((card, i) => ({ ...base, kind: 'flashcard', id: flashcardId(t.id, i), card }))
-    const mcq: PracticeItem[] = t.mcq.map((m) => ({ ...base, kind: 'mcq', id: m.id, mcq: m }))
-    const cases: PracticeItem[] = t.cases.map((kase, i) => ({ ...base, kind: 'case', id: caseId(t.id, i), kase }))
-    return { fc, mcq, cases }
+  const flashcards = useMemo<PracticeItem[]>(
+    () => t.flashcards.map((card, i) => ({ ...base, kind: 'flashcard', id: flashcardId(t.id, i), card })),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [t])
+    [t],
+  )
   const labelOk = !!t.labelDiagram && canLabel(t.labelDiagram.diagramId, t.labelDiagram.targets)
 
   const tabs: { key: Tab; label: string; count?: number }[] = [
-    ...(sets.mcq.length ? [{ key: 'mcq' as Tab, label: 'Multiple choice', count: sets.mcq.length }] : []),
-    ...(sets.fc.length ? [{ key: 'flashcards' as Tab, label: 'Flashcards', count: sets.fc.length }] : []),
-    ...(sets.cases.length ? [{ key: 'cases' as Tab, label: 'Clinical cases', count: sets.cases.length }] : []),
+    ...(flashcards.length ? [{ key: 'flashcards' as Tab, label: 'Flashcards', count: flashcards.length }] : []),
     ...(labelOk ? [{ key: 'label' as Tab, label: 'Label the diagram' }] : []),
   ]
   const [tab, setTab] = useState<Tab | undefined>(tabs[0]?.key)
@@ -60,11 +70,12 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
   const toc = [
     ['summary', 'Summary'],
     ...(t.diagram ? [['diagram', 'Diagram']] : []),
-    ...(t.goDeeper.length ? [['go-deeper', 'Go deeper']] : []),
-    ...(t.checklist ? [['checklist', 'Checklist']] : []),
+    ...(goDeeper.length ? [['go-deeper', 'Go deeper']] : []),
+    ...(checklist ? [['checklist', 'Checklist']] : []),
     ...(tabs.length ? [['practice', 'Practice']] : []),
     ['notes', 'My notes'],
     ...(t.links.length ? [['more-info', 'More info']] : []),
+    ...(quizCount ? [['quiz', 'Quiz']] : []),
   ]
 
   const actions = (
@@ -121,31 +132,46 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
           {/* 2. Summary, key points, exam traps */}
           <section id="summary" className="mt-8">
             <p className="text-[19px] leading-relaxed">{t.summary}</p>
-            {t.keyPoints.length > 0 && (
+            <BlockNotes meta={t.summaryMeta} />
+            <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+              <StudyModeSwitch />
+              {hiddenCount > 0 && (
+                <p className="text-[14px] text-muted">
+                  {hiddenCount} {mode === 'exams' ? 'clinical' : 'background'} {hiddenCount === 1 ? 'section' : 'sections'} hidden in {mode === 'exams' ? 'Exams' : 'Clinical'} mode
+                </p>
+              )}
+            </div>
+            {keyPoints.length > 0 && (
               <div className="card mt-6 p-5 sm:p-6">
                 <h2 className="text-[20px] font-semibold">Key points</h2>
                 <ul className="mt-3 space-y-2.5">
-                  {t.keyPoints.map((k, i) => (
+                  {keyPoints.map((k, i) => (
                     <li key={i} className="flex gap-3 text-[17px] leading-relaxed">
                       <span aria-hidden className="mt-[0.6em] size-2 shrink-0 rounded-full" style={{ background: moduleColour, boxShadow: 'inset 0 0 0 1.5px color-mix(in srgb, var(--subject-ink) 15%, transparent)' }} />
-                      <span>{k}</span>
+                      <span className="min-w-0">
+                        {k.text}
+                        <BlockNotes meta={k} />
+                      </span>
                     </li>
                   ))}
                 </ul>
               </div>
             )}
-            {t.examTraps.length > 0 && (
+            {examTraps.length > 0 && (
               <div className="mt-4 rounded-[22px] bg-warn-soft p-5 ring-1 ring-warn sm:p-6">
                 <h2 className="flex items-center gap-2 text-[20px] font-semibold text-warn-ink">
                   <span aria-hidden>⚠︎</span> Exam traps
                 </h2>
                 <ul className="mt-3 space-y-2.5">
-                  {t.examTraps.map((k, i) => (
+                  {examTraps.map((k, i) => (
                     <li key={i} className="flex gap-3 text-[17px] leading-relaxed">
                       <span aria-hidden className="mt-[0.15em] font-bold text-warn-ink">
                         ✗
                       </span>
-                      <span>{k}</span>
+                      <span className="min-w-0">
+                        {k.text}
+                        <BlockNotes meta={k} />
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -162,32 +188,25 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
           )}
 
           {/* 4. Go deeper */}
-          {t.goDeeper.length > 0 && (
+          {goDeeper.length > 0 && (
             <section id="go-deeper" className="mt-10">
               <h2 className="mb-3 text-[22px] font-semibold">Go deeper</h2>
-              <GoDeeper sections={t.goDeeper} />
+              <GoDeeper sections={goDeeper} />
             </section>
           )}
 
           {/* 5. Checklist */}
-          {t.checklist && (
+          {checklist && (
             <section id="checklist" className="mt-10">
               <h2 className="mb-3 text-[22px] font-semibold">Practical checklist</h2>
-              <ChecklistCard checklist={t.checklist} compact />
+              <ChecklistCard checklist={checklist} compact />
             </section>
           )}
 
-          {/* 6. Practice */}
+          {/* 6. Practice (flashcards and labelling; quizzes live in the module's Quiz section) */}
           {tabs.length > 0 && (
             <section id="practice" className="mt-10">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <h2 className="text-[22px] font-semibold">Practice</h2>
-                {(sets.mcq.length > 0 || sets.cases.length > 0) && (
-                  <Link href={`/t/${t.id}/quiz`} className="btn btn-soft min-h-10 px-4 text-[14px]">
-                    Topic quiz in rounds →
-                  </Link>
-                )}
-              </div>
+              <h2 className="text-[22px] font-semibold">Practice</h2>
               <div role="tablist" aria-label="Practice type" className="no-scrollbar -mx-1 mt-3 flex gap-1 overflow-x-auto rounded-full bg-bg p-1">
                 {tabs.map((x) => (
                   <button
@@ -205,9 +224,7 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
                 ))}
               </div>
               <div className="card mt-4 p-5 sm:p-7" role="tabpanel">
-                {tab === 'mcq' && <PracticeRunner items={sets.mcq} />}
-                {tab === 'flashcards' && <PracticeRunner items={sets.fc} />}
-                {tab === 'cases' && <PracticeRunner items={sets.cases} />}
+                {tab === 'flashcards' && <PracticeRunner items={flashcards} />}
                 {tab === 'label' && t.labelDiagram && <LabelDiagram diagramId={t.labelDiagram.diagramId} targets={t.labelDiagram.targets} />}
               </div>
             </section>
@@ -242,7 +259,29 @@ export function TopicView({ topic: t, moduleCode, moduleName, moduleColour, inde
             </section>
           )}
 
-          {/* 9. Actions */}
+          {/* 9. Quiz link: questions live in the module's Quiz section, away from the notes */}
+          {quizCount > 0 && (
+            <section id="quiz" className="mt-10">
+              <div className="card flex flex-wrap items-center justify-between gap-3 p-5 sm:p-6">
+                <div>
+                  <h2 className="text-[22px] font-semibold">Test yourself</h2>
+                  <p className="mt-1 text-[16px] text-muted">
+                    {quizCount} questions on this topic in the {moduleCode} Quiz section, in rounds of 10.
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Link href={`/t/${t.id}/quiz`} className="btn btn-soft min-h-11 px-4 text-[15px]">
+                    Quiz this topic →
+                  </Link>
+                  <Link href={`/m/${moduleCode}/quiz`} className="btn btn-quiet min-h-11 px-4 text-[15px]">
+                    {moduleCode} Quiz section
+                  </Link>
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* 10. Actions */}
           <div className="mt-10 border-t border-border pt-6 lg:hidden">{actions}</div>
 
           <nav className="mt-8 grid gap-3 sm:grid-cols-2" aria-label="Other topics">

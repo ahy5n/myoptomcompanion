@@ -7,6 +7,7 @@ import { useData } from '../AppProvider'
 import { BackLink } from '../bits'
 import { DiagramFigure } from '../diagrams/DiagramFigure'
 import { DownloadIcon } from '../icons'
+import { BlockNotes } from './BlockNotes'
 import { VERIFY_NOTE } from './TopicView'
 
 const LETTERS = 'ABCDEFGH'
@@ -66,7 +67,10 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
                 <H2>Key points</H2>
                 <ul className="list-disc space-y-1 pl-5">
                   {t.keyPoints.map((k, i) => (
-                    <li key={i}>{k}</li>
+                    <li key={i}>
+                      {k.text}
+                      <BlockNotes meta={k} print />
+                    </li>
                   ))}
                 </ul>
               </>
@@ -77,7 +81,10 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
                 <p className="font-semibold text-warn-ink">Exam traps</p>
                 <ul className="mt-1 list-disc space-y-1 pl-5">
                   {t.examTraps.map((k, i) => (
-                    <li key={i}>{k}</li>
+                    <li key={i}>
+                      {k.text}
+                      <BlockNotes meta={k} print />
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -102,6 +109,7 @@ export function PrintView({ topic: t, moduleCode, moduleName }: { topic: Topic; 
                   <section key={g.heading} id={slugify(g.heading)} className="avoid-break mt-3">
                     <h3 className="font-semibold">{g.heading}</h3>
                     <p className="mt-0.5">{g.body}</p>
+                    <BlockNotes meta={g} print />
                   </section>
                 ))}
               </>

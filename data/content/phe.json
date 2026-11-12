@@ -6,19 +6,63 @@
       "id": "phe-sight-loss-uk",
       "title": "Causes of sight loss in the UK",
       "summary": "Around 2 million people in the UK live with sight loss that affects their daily lives, and a large share of it is avoidable. The main causes are uncorrected refractive error, cataract, age-related macular degeneration (AMD), glaucoma and diabetic eye disease.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHE"
+      },
       "keyPoints": [
-        "RNIB estimates more than 2 million people in the UK are living with sight loss; numbers are expected to rise as the population ages.",
-        "A large proportion (often quoted as around half) of sight loss is thought to be avoidable or treatable.",
-        "Main causes: uncorrected refractive error, cataract, AMD, glaucoma, diabetic retinopathy.",
-        "AMD is the leading cause of sight impairment certification in older adults.",
-        "In working-age adults in England and Wales, inherited retinal disease has overtaken diabetic retinopathy as the leading cause of certification (reported in 2014).",
-        "Certification (CVI) is done by a consultant ophthalmologist: sight impaired (partially sighted) or severely sight impaired (blind).",
-        "Sight loss is linked to falls, depression, loss of independence and reduced employment."
+        {
+          "text": "RNIB estimates more than 2 million people in the UK are living with sight loss; numbers are expected to rise as the population ages.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "A large proportion (often quoted as around half) of sight loss is thought to be avoidable or treatable.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "Main causes: uncorrected refractive error, cataract, AMD, glaucoma, diabetic retinopathy.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "AMD is the leading cause of sight impairment certification in older adults.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "In working-age adults in England and Wales, inherited retinal disease has overtaken diabetic retinopathy as the leading cause of certification (reported in 2014).",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "Certification (CVI) is done by a consultant ophthalmologist: sight impaired (partially sighted) or severely sight impaired (blind).",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Sight loss is linked to falls, depression, loss of independence and reduced employment.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "examTraps": [
-        "Forgetting that uncorrected refractive error and cataract are major (and correctable) causes.",
-        "Saying optometrists certify sight impairment — it's done by consultant ophthalmologists.",
-        "Quoting old statistics without a source or date."
+        {
+          "text": "Forgetting that uncorrected refractive error and cataract are major (and correctable) causes.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Saying optometrists certify sight impairment — it's done by consultant ophthalmologists.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Quoting old statistics without a source or date.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "diagram": {
         "id": "sight-loss-causes",
@@ -34,11 +78,15 @@
       "goDeeper": [
         {
           "heading": "Avoidable sight loss",
-          "body": "Refractive error is corrected with glasses or contact lenses; cataract with surgery; diabetic retinopathy is detected through screening and treated (laser, injections); glaucoma is detected and managed to slow progression; wet AMD can be treated with anti-VEGF injections if caught early. Regular eye examinations are central to preventing avoidable sight loss."
+          "body": "Refractive error is corrected with glasses or contact lenses; cataract with surgery; diabetic retinopathy is detected through screening and treated (laser, injections); glaucoma is detected and managed to slow progression; wet AMD can be treated with anti-VEGF injections if caught early. Regular eye examinations are central to preventing avoidable sight loss.",
+          "priority": "exam-core",
+          "module": "PHE"
         },
         {
           "heading": "Certification and registration",
-          "body": "A consultant ophthalmologist completes a Certificate of Vision Impairment (CVI) when criteria are met. This lets the person be registered with their local council as sight impaired or severely sight impaired, unlocking support (e.g. rehabilitation, benefits, concessions). Optometrists can signpost to low vision services and charities such as RNIB."
+          "body": "A consultant ophthalmologist completes a Certificate of Vision Impairment (CVI) when criteria are met. This lets the person be registered with their local council as sight impaired or severely sight impaired, unlocking support (e.g. rehabilitation, benefits, concessions). Optometrists can signpost to low vision services and charities such as RNIB.",
+          "priority": "exam-core",
+          "module": "PHE"
         }
       ],
       "flashcards": [
@@ -62,58 +110,112 @@
       "mcq": [
         {
           "id": "phe-sl-1",
-          "q": "Which cause of sight loss is most easily corrected?",
+          "q": "A 55-year-old who can't read the paper has 6/6 distance VA and has never had reading glasses. What's the simplest way to restore their near vision?",
           "options": [
             {
-              "text": "Uncorrected refractive error",
+              "text": "Correct the refractive error (presbyopia) with reading glasses",
               "correct": true,
-              "feedback": "Yes — glasses or contact lenses."
+              "feedback": "Yes: the most easily corrected cause."
             },
             {
-              "text": "Advanced dry AMD",
+              "text": "Cataract surgery",
               "correct": false,
-              "feedback": "There's currently no cure for advanced dry AMD."
+              "feedback": "Not indicated from this."
             },
             {
-              "text": "End-stage glaucoma",
+              "text": "Refer for low vision aids",
               "correct": false,
-              "feedback": "Lost vision from glaucoma can't be restored."
+              "feedback": "Not needed."
             },
             {
-              "text": "Retinitis pigmentosa",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "An inherited retinal disease, not easily corrected."
+              "feedback": "It's correctable."
             }
           ],
-          "explanation": "Uncorrected refractive error is a leading and easily corrected cause, which is why access to eye tests matters.",
-          "link": "phe-sight-loss-uk#avoidable-sight-loss"
+          "explanation": "Uncorrected refractive error is the most easily corrected cause of sight loss.",
+          "link": "phe-sight-loss-uk#avoidable-sight-loss",
+          "original": {
+            "q": "Which cause of sight loss is most easily corrected?",
+            "options": [
+              {
+                "text": "Uncorrected refractive error",
+                "correct": true,
+                "feedback": "Yes — glasses or contact lenses."
+              },
+              {
+                "text": "Advanced dry AMD",
+                "correct": false,
+                "feedback": "There's currently no cure for advanced dry AMD."
+              },
+              {
+                "text": "End-stage glaucoma",
+                "correct": false,
+                "feedback": "Lost vision from glaucoma can't be restored."
+              },
+              {
+                "text": "Retinitis pigmentosa",
+                "correct": false,
+                "feedback": "An inherited retinal disease, not easily corrected."
+              }
+            ],
+            "explanation": "Uncorrected refractive error is a leading and easily corrected cause, which is why access to eye tests matters."
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0071",
-          "q": "About how many people in the UK live with sight loss?",
+          "q": "Which statement about UK sight loss is wrong?",
           "options": [
             {
-              "text": "More than 2 million",
+              "text": "Fewer than 100,000 people in the UK live with sight loss",
               "correct": true,
-              "feedback": "Yes (RNIB)."
+              "feedback": "Yes, that's wrong: RNIB estimates more than 2 million."
             },
             {
-              "text": "About 20,000",
+              "text": "Numbers are expected to rise",
               "correct": false,
-              "feedback": "Too few."
+              "feedback": "True."
             },
             {
-              "text": "About 50 million",
+              "text": "Much of it is avoidable or treatable",
               "correct": false,
-              "feedback": "Too many."
+              "feedback": "True."
             },
             {
-              "text": "About 200,000",
+              "text": "Older people are most affected",
               "correct": false,
-              "feedback": "Too few."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "RNIB estimates more than 2 million people in the UK live with sight loss.",
+          "original": {
+            "q": "About how many people in the UK live with sight loss?",
+            "options": [
+              {
+                "text": "More than 2 million",
+                "correct": true,
+                "feedback": "Yes (RNIB)."
+              },
+              {
+                "text": "About 20,000",
+                "correct": false,
+                "feedback": "Too few."
+              },
+              {
+                "text": "About 50 million",
+                "correct": false,
+                "feedback": "Too many."
+              },
+              {
+                "text": "About 200,000",
+                "correct": false,
+                "feedback": "Too few."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0072",
@@ -171,111 +273,219 @@
         },
         {
           "id": "phe-sight-loss-uk-x0074",
-          "q": "In working-age adults in England and Wales, the leading cause of certification is now",
+          "q": "Which statement about certification in working-age adults (England and Wales) is wrong?",
           "options": [
             {
-              "text": "inherited retinal disease",
+              "text": "Diabetic retinopathy is still the leading cause",
               "correct": true,
-              "feedback": "Yes, overtaking diabetic retinopathy."
+              "feedback": "Yes, that's wrong: inherited retinal disease has overtaken it."
             },
             {
-              "text": "diabetic retinopathy",
+              "text": "Inherited retinal disease is now the leading cause",
               "correct": false,
-              "feedback": "It was overtaken."
+              "feedback": "True."
             },
             {
-              "text": "glaucoma",
+              "text": "Diabetic screening helped reduce diabetic sight loss",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "cataract",
+              "text": "AMD leads in older adults",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "In working-age adults, inherited retinal disease has overtaken diabetic retinopathy as the leading cause of certification.",
+          "original": {
+            "q": "In working-age adults in England and Wales, the leading cause of certification is now",
+            "options": [
+              {
+                "text": "inherited retinal disease",
+                "correct": true,
+                "feedback": "Yes, overtaking diabetic retinopathy."
+              },
+              {
+                "text": "diabetic retinopathy",
+                "correct": false,
+                "feedback": "It was overtaken."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0075",
-          "q": "Who certifies sight impairment (CVI)?",
+          "q": "An optometrist thinks a patient meets the criteria for sight impairment. What happens next?",
           "options": [
             {
-              "text": "A consultant ophthalmologist",
+              "text": "Refer them so a consultant ophthalmologist can complete a CVI",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "An optometrist",
+              "text": "The optometrist completes the CVI",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not in England."
             },
             {
-              "text": "A GP",
+              "text": "The GP registers them",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not directly."
             },
             {
-              "text": "A dispensing optician",
+              "text": "Nothing can be done",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Certification is possible."
             }
           ],
-          "explanation": ""
+          "explanation": "Certification (CVI) is completed by a consultant ophthalmologist.",
+          "original": {
+            "q": "Who certifies sight impairment (CVI)?",
+            "options": [
+              {
+                "text": "A consultant ophthalmologist",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "An optometrist",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A GP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A dispensing optician",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0076",
-          "q": "Which is a consequence of sight loss?",
+          "q": "A 78-year-old with advancing AMD lives alone. Which risk should you specifically discuss?",
           "options": [
             {
-              "text": "Falls, depression and loss of independence",
+              "text": "Falls, low mood and loss of independence",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Better hearing",
+              "text": "Myopia",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "No effect",
+              "text": "Glaucoma from AMD",
               "correct": false,
-              "feedback": "It has effects."
+              "feedback": "No."
             },
             {
-              "text": "Higher income",
+              "text": "Colour change of the iris",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Sight loss is linked to falls, depression, loss of independence and reduced employment.",
+          "original": {
+            "q": "Which is a consequence of sight loss?",
+            "options": [
+              {
+                "text": "Falls, depression and loss of independence",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Better hearing",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No effect",
+                "correct": false,
+                "feedback": "It has effects."
+              },
+              {
+                "text": "Higher income",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0077",
-          "q": "Which is a main cause of sight loss in the UK?",
+          "q": "Which UK cause of sight loss can usually be fixed in the same visit?",
           "options": [
             {
               "text": "Uncorrected refractive error",
               "correct": true,
-              "feedback": "Yes, with cataract, AMD, glaucoma and diabetic retinopathy."
+              "feedback": "Yes."
             },
             {
-              "text": "Pinguecula",
+              "text": "Glaucoma",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Damage is permanent."
             },
             {
-              "text": "Blepharitis",
+              "text": "Dry AMD",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not reversible."
             },
             {
-              "text": "Presbyopia corrected",
+              "text": "Diabetic retinopathy",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Needs treatment."
             }
           ],
-          "explanation": ""
+          "explanation": "Main causes include uncorrected refractive error, cataract, AMD, glaucoma and diabetic retinopathy.",
+          "original": {
+            "q": "Which is a main cause of sight loss in the UK?",
+            "options": [
+              {
+                "text": "Uncorrected refractive error",
+                "correct": true,
+                "feedback": "Yes, with cataract, AMD, glaucoma and diabetic retinopathy."
+              },
+              {
+                "text": "Pinguecula",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Blepharitis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia corrected",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0078",
@@ -306,30 +516,57 @@
         },
         {
           "id": "phe-sight-loss-uk-x0079",
-          "q": "What are the two certification categories?",
+          "q": "Which statement about certification is wrong?",
           "options": [
             {
-              "text": "Sight impaired and severely sight impaired",
+              "text": "There are three categories: mild, moderate and severe",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: sight impaired and severely sight impaired."
             },
             {
-              "text": "Mild and severe",
+              "text": "'Sight impaired' replaced 'partially sighted'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Blind and normal",
+              "text": "'Severely sight impaired' replaced 'blind'",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Low and high",
+              "text": "Registration is voluntary",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The two categories are sight impaired and severely sight impaired.",
+          "original": {
+            "q": "What are the two certification categories?",
+            "options": [
+              {
+                "text": "Sight impaired and severely sight impaired",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Mild and severe",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Blind and normal",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Low and high",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0181",
@@ -360,30 +597,57 @@
         },
         {
           "id": "phe-sight-loss-uk-x0182",
-          "q": "Globally, the leading cause of vision impairment is",
+          "q": "An eye health charity plans to reduce vision impairment as much as possible worldwide with one programme. Which target would help the most people?",
           "options": [
             {
-              "text": "uncorrected refractive error",
+              "text": "Providing spectacles for uncorrected refractive error",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the leading cause of vision impairment."
             },
             {
-              "text": "cataract",
+              "text": "Glaucoma surgery",
               "correct": false,
-              "feedback": "Blindness."
+              "feedback": "Fewer people."
             },
             {
-              "text": "glaucoma",
+              "text": "AMD injections",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Fewer people."
             },
             {
-              "text": "AMD",
+              "text": "Keratoconus lenses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Fewer people."
             }
           ],
-          "explanation": ""
+          "explanation": "Globally, uncorrected refractive error is the leading cause of vision impairment; cataract is the leading cause of blindness.",
+          "original": {
+            "q": "Globally, the leading cause of vision impairment is",
+            "options": [
+              {
+                "text": "uncorrected refractive error",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "Blindness."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "AMD",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x0183",
@@ -1196,30 +1460,57 @@
         },
         {
           "id": "phe-sight-loss-uk-x04523",
-          "q": "Which cause of sight loss is increasing with rising diabetes and obesity?",
+          "q": "As rates of type 2 diabetes rise, which cause of sight loss will services need to plan for?",
           "options": [
             {
               "text": "Diabetic eye disease",
               "correct": true,
-              "feedback": "Yes, despite screening."
+              "feedback": "Yes."
             },
             {
               "text": "Trachoma",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not in the UK."
             },
             {
               "text": "Onchocerciasis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not in the UK."
             },
             {
-              "text": "Vitamin A deficiency",
+              "text": "Congenital cataract",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not linked."
             }
           ],
-          "explanation": ""
+          "explanation": "Diabetic eye disease is expected to rise with diabetes and obesity.",
+          "original": {
+            "q": "Which cause of sight loss is increasing with rising diabetes and obesity?",
+            "options": [
+              {
+                "text": "Diabetic eye disease",
+                "correct": true,
+                "feedback": "Yes, despite screening."
+              },
+              {
+                "text": "Trachoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Onchocerciasis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Vitamin A deficiency",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x04524",
@@ -1250,30 +1541,57 @@
         },
         {
           "id": "phe-sight-loss-uk-x04525",
-          "q": "Which professional completes the CVI?",
+          "q": "A patient asks you to sign their Certificate of Vision Impairment. What should you explain?",
           "options": [
             {
-              "text": "A consultant ophthalmologist",
+              "text": "A consultant ophthalmologist completes the CVI, so you'll refer them",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "An optometrist",
+              "text": "You can sign it",
+              "correct": false,
+              "feedback": "Not in England."
+            },
+            {
+              "text": "Their GP signs it",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "A GP",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "A social worker",
+              "text": "A social worker signs it",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In England the CVI is completed by a consultant ophthalmologist.",
+          "original": {
+            "q": "Which professional completes the CVI?",
+            "options": [
+              {
+                "text": "A consultant ophthalmologist",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "An optometrist",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A GP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A social worker",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-sight-loss-uk-x04526",
@@ -1428,19 +1746,63 @@
       "id": "phe-inequalities",
       "title": "Health inequalities and access to eye care",
       "summary": "Eye health isn't equal across society. People in deprived areas, some ethnic groups, people with learning disabilities, care home residents and those facing language or mobility barriers are more likely to have undetected eye disease and less likely to get eye tests.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHE"
+      },
       "keyPoints": [
-        "Deprivation is linked to lower uptake of eye tests and later presentation of conditions like glaucoma.",
-        "People with learning disabilities are much more likely to have serious sight problems (often quoted as around 10 times more likely) and often go undiagnosed.",
-        "Higher risk groups: Black African and Caribbean people (glaucoma); South Asian people (diabetes and its eye complications).",
-        "Barriers: perceived cost of glasses, low awareness of the need for eye tests, mobility, language, fear, and practice accessibility.",
-        "NHS sight tests in England are free for many groups, e.g. under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, and people aged 40+ with a parent/sibling/child with glaucoma, plus those on certain benefits.",
-        "Domiciliary (home) eye tests are available for people who can't get to a practice unaccompanied.",
-        "The 'inverse care law': those who need care most often get the least."
+        {
+          "text": "Deprivation is linked to lower uptake of eye tests and later presentation of conditions like glaucoma.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "People with learning disabilities are much more likely to have serious sight problems (often quoted as around 10 times more likely) and often go undiagnosed.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "Higher risk groups: Black African and Caribbean people (glaucoma); South Asian people (diabetes and its eye complications).",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Barriers: perceived cost of glasses, low awareness of the need for eye tests, mobility, language, fear, and practice accessibility.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "NHS sight tests in England are free for many groups, e.g. under 16s, 16–18s in full-time education, over 60s, people with diabetes or glaucoma, and people aged 40+ with a parent/sibling/child with glaucoma, plus those on certain benefits.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Domiciliary (home) eye tests are available for people who can't get to a practice unaccompanied.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "The 'inverse care law': those who need care most often get the least.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "examTraps": [
-        "Assuming everyone knows eye tests are free for them.",
-        "Forgetting reasonable adjustments (time, communication aids, easy-read materials).",
-        "Treating inequality as only about money."
+        {
+          "text": "Assuming everyone knows eye tests are free for them.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Forgetting reasonable adjustments (time, communication aids, easy-read materials).",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Treating inequality as only about money.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "diagram": {
         "id": "barriers-to-care",
@@ -1457,11 +1819,15 @@
       "goDeeper": [
         {
           "heading": "Reasonable adjustments",
-          "body": "Under the Equality Act 2010, services must make reasonable adjustments for disabled people. In practice: longer appointments, quieter times, easy-read information, objective tests when subjective ones aren't possible, involving carers, and accessible premises. SeeAbility has resources on eye care for people with learning disabilities."
+          "body": "Under the Equality Act 2010, services must make reasonable adjustments for disabled people. In practice: longer appointments, quieter times, easy-read information, objective tests when subjective ones aren't possible, involving carers, and accessible premises. SeeAbility has resources on eye care for people with learning disabilities.",
+          "priority": "exam-core",
+          "module": "PHE"
         },
         {
           "heading": "Making Every Contact Count",
-          "body": "Every visit is a chance to check whether family members are eligible for free tests, whether a patient with diabetes is attending screening, and whether someone needs signposting to support. Small conversations can reduce inequality."
+          "body": "Every visit is a chance to check whether family members are eligible for free tests, whether a patient with diabetes is attending screening, and whether someone needs signposting to support. Small conversations can reduce inequality.",
+          "priority": "exam-core",
+          "module": "PHE"
         }
       ],
       "flashcards": [
@@ -1513,88 +1879,169 @@
         },
         {
           "id": "phe-inequalities-x0071",
-          "q": "What is the 'inverse care law'?",
+          "q": "A deprived area with high glaucoma rates has the fewest optometry practices. Which concept does this illustrate?",
           "options": [
             {
-              "text": "Those who need care most often get the least",
+              "text": "The inverse care law",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: those who need care most often get the least."
             },
             {
-              "text": "Care is always equal",
+              "text": "Proportionate universalism",
               "correct": false,
-              "feedback": "No."
+              "feedback": "A solution."
             },
             {
-              "text": "Rich people need more care",
+              "text": "The social gradient",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Related but not this."
             },
             {
-              "text": "Care improves with age",
+              "text": "Making Every Contact Count",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The inverse care law: those who need care most often get the least.",
+          "original": {
+            "q": "What is the 'inverse care law'?",
+            "options": [
+              {
+                "text": "Those who need care most often get the least",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Care is always equal",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Rich people need more care",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Care improves with age",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0072",
-          "q": "Which group has a much higher risk of serious sight problems?",
+          "q": "A day centre for adults with learning disabilities asks about eye care. What should you tell them?",
           "options": [
             {
-              "text": "People with learning disabilities (about 10 times)",
+              "text": "They're about 10 times more likely to have serious sight problems, so regular tests matter",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Students",
+              "text": "Their risk is the same as anyone's",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's much higher."
             },
             {
-              "text": "Contact lens wearers",
+              "text": "Eye tests aren't possible",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They are, with adjustments."
             },
             {
-              "text": "Athletes",
+              "text": "They don't need glasses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Many do."
             }
           ],
-          "explanation": ""
+          "explanation": "People with learning disabilities are much more likely (often quoted as about 10 times) to have serious sight problems.",
+          "original": {
+            "q": "Which group has a much higher risk of serious sight problems?",
+            "options": [
+              {
+                "text": "People with learning disabilities (about 10 times)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Students",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Contact lens wearers",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Athletes",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0073",
-          "q": "Which group is at higher risk of glaucoma?",
+          "q": "A 45-year-old Black Caribbean man asks how often he should have his eyes checked. Which risk should guide your advice?",
           "options": [
             {
-              "text": "Black African and Caribbean people",
+              "text": "A higher risk of glaucoma",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Children",
+              "text": "A higher risk of angle closure",
+              "correct": false,
+              "feedback": "That's East Asian groups."
+            },
+            {
+              "text": "A lower risk of eye disease",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Myopes only",
+              "text": "A higher risk of keratoconus only",
               "correct": false,
-              "feedback": "Myopia is a risk too, but not this group."
-            },
-            {
-              "text": "Nobody",
-              "correct": false,
-              "feedback": "Some groups are."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Black African and Caribbean people have a higher risk of glaucoma.",
+          "original": {
+            "q": "Which group is at higher risk of glaucoma?",
+            "options": [
+              {
+                "text": "Black African and Caribbean people",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Children",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Myopes only",
+                "correct": false,
+                "feedback": "Myopia is a risk too, but not this group."
+              },
+              {
+                "text": "Nobody",
+                "correct": false,
+                "feedback": "Some groups are."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0074",
-          "q": "Which is a barrier to eye care?",
+          "q": "A patient eligible for a free NHS sight test hasn't had one for 10 years because 'glasses cost too much'. Which barrier is this?",
           "options": [
             {
               "text": "Perceived cost of glasses",
@@ -1602,22 +2049,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Free sight tests for children",
+              "text": "Language",
               "correct": false,
-              "feedback": "That helps access."
+              "feedback": "No."
             },
             {
-              "text": "Domiciliary visits",
+              "text": "Mobility",
               "correct": false,
-              "feedback": "They help."
+              "feedback": "No."
             },
             {
-              "text": "Good transport",
+              "text": "Fear of results",
               "correct": false,
-              "feedback": "Helps."
+              "feedback": "Not what they said."
             }
           ],
-          "explanation": ""
+          "explanation": "Barriers include the perceived cost of glasses, low awareness, mobility, language and fear.",
+          "original": {
+            "q": "Which is a barrier to eye care?",
+            "options": [
+              {
+                "text": "Perceived cost of glasses",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Free sight tests for children",
+                "correct": false,
+                "feedback": "That helps access."
+              },
+              {
+                "text": "Domiciliary visits",
+                "correct": false,
+                "feedback": "They help."
+              },
+              {
+                "text": "Good transport",
+                "correct": false,
+                "feedback": "Helps."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0075",
@@ -1648,84 +2122,165 @@
         },
         {
           "id": "phe-inequalities-x0076",
-          "q": "What are domiciliary eye tests?",
+          "q": "An 85-year-old can't leave home without help. How can she get an NHS eye test?",
           "options": [
             {
-              "text": "Home eye tests for people who can't get to a practice unaccompanied",
+              "text": "A domiciliary (home) eye test",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Tests at the hospital",
+              "text": "She can't",
               "correct": false,
-              "feedback": "No."
+              "feedback": "She can."
             },
             {
-              "text": "Tests online",
+              "text": "Only by hospital referral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not necessary."
             },
             {
-              "text": "Tests for children only",
+              "text": "Only privately",
               "correct": false,
-              "feedback": "No."
+              "feedback": "NHS domiciliary tests exist."
             }
           ],
-          "explanation": ""
+          "explanation": "Domiciliary eye tests are available for people who can't get to a practice unaccompanied.",
+          "original": {
+            "q": "What are domiciliary eye tests?",
+            "options": [
+              {
+                "text": "Home eye tests for people who can't get to a practice unaccompanied",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Tests at the hospital",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Tests online",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Tests for children only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0077",
-          "q": "Deprivation is linked to",
+          "q": "Two areas have the same glaucoma rate, but one is far more deprived. What would you expect there?",
           "options": [
             {
-              "text": "lower uptake of eye tests and later presentation of glaucoma",
+              "text": "Lower uptake of eye tests and later presentation of glaucoma",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "better eye health",
+              "text": "Earlier diagnosis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually later."
             },
             {
-              "text": "more frequent tests",
+              "text": "Better outcomes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually worse."
             },
             {
-              "text": "no difference",
+              "text": "No difference",
               "correct": false,
-              "feedback": "There is a difference."
+              "feedback": "Deprivation matters."
             }
           ],
-          "explanation": ""
+          "explanation": "Deprivation is linked to lower uptake of eye tests and later presentation of glaucoma.",
+          "original": {
+            "q": "Deprivation is linked to",
+            "options": [
+              {
+                "text": "lower uptake of eye tests and later presentation of glaucoma",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "better eye health",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "more frequent tests",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "no difference",
+                "correct": false,
+                "feedback": "There is a difference."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0078",
-          "q": "South Asian people are at higher risk of",
+          "q": "A practice in an area with a large South Asian community wants to target eye health messages. Which topic matters most?",
           "options": [
             {
-              "text": "diabetes and its eye complications",
+              "text": "Diabetes and diabetic eye screening",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "keratoconus only",
+              "text": "Keratoconus",
               "correct": false,
-              "feedback": "Not the point here."
+              "feedback": "Less relevant."
             },
             {
-              "text": "presbyopia",
+              "text": "Myopia only",
+              "correct": false,
+              "feedback": "Not the main one."
+            },
+            {
+              "text": "Trachoma",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "nothing",
-              "correct": false,
-              "feedback": "Higher risk."
             }
           ],
-          "explanation": ""
+          "explanation": "South Asian people are at higher risk of diabetes and its eye complications.",
+          "original": {
+            "q": "South Asian people are at higher risk of",
+            "options": [
+              {
+                "text": "diabetes and its eye complications",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "keratoconus only",
+                "correct": false,
+                "feedback": "Not the point here."
+              },
+              {
+                "text": "presbyopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Higher risk."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-inequalities-x0079",
@@ -2852,19 +3407,63 @@
       "id": "phe-health-promotion",
       "title": "Health promotion in practice",
       "summary": "Optometrists see many people who don't see their GP often, so small health conversations can make a real difference: smoking, UV, diet, screen habits, diabetes screening and regular eye tests. Behaviour-change models help you pitch advice to where the patient is.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHE"
+      },
       "keyPoints": [
-        "Smoking is a major modifiable risk factor for AMD (smokers are several times more likely to develop it) and cataract.",
-        "Very Brief Advice on smoking (NCSCT): Ask, Advise, Act — takes under a minute.",
-        "UV protection (sunglasses meeting standards, hats) helps protect the eyes and eyelid skin.",
-        "Diet: a diet rich in leafy greens and fish is often advised for macular health; specific supplements (AREDS2) are for certain AMD stages.",
-        "Encourage people with diabetes to attend diabetic eye screening and manage blood sugar, BP and cholesterol.",
-        "Models: stages of change (precontemplation → contemplation → preparation → action → maintenance), health belief model, COM-B (capability, opportunity, motivation).",
-        "Making Every Contact Count (MECC): use routine contacts for brief, opportunistic health advice."
+        {
+          "text": "Smoking is a major modifiable risk factor for AMD (smokers are several times more likely to develop it) and cataract.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Very Brief Advice on smoking (NCSCT): Ask, Advise, Act — takes under a minute.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "UV protection (sunglasses meeting standards, hats) helps protect the eyes and eyelid skin.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Diet: a diet rich in leafy greens and fish is often advised for macular health; specific supplements (AREDS2) are for certain AMD stages.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Encourage people with diabetes to attend diabetic eye screening and manage blood sugar, BP and cholesterol.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Models: stages of change (precontemplation → contemplation → preparation → action → maintenance), health belief model, COM-B (capability, opportunity, motivation).",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Making Every Contact Count (MECC): use routine contacts for brief, opportunistic health advice.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "examTraps": [
-        "Lecturing a patient who isn't ready to change.",
-        "Recommending supplements to everyone without an indication.",
-        "Forgetting to record the advice given."
+        {
+          "text": "Lecturing a patient who isn't ready to change.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Recommending supplements to everyone without an indication.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Forgetting to record the advice given.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "diagram": {
         "id": "stages-of-change",
@@ -2881,11 +3480,15 @@
       "goDeeper": [
         {
           "heading": "Very Brief Advice in the chair",
-          "body": "Ask: 'Do you smoke?' Advise: 'The best thing you can do for your eyes and your health is to stop — and the most effective way is with support from a stop smoking service.' Act: offer details of the local service or refer if available, and record it. Keep it non-judgemental."
+          "body": "Ask: 'Do you smoke?' Advise: 'The best thing you can do for your eyes and your health is to stop — and the most effective way is with support from a stop smoking service.' Act: offer details of the local service or refer if available, and record it. Keep it non-judgemental.",
+          "priority": "exam-core",
+          "module": "PHE"
         },
         {
           "heading": "Matching advice to readiness",
-          "body": "Someone in precontemplation needs information and a nudge to think about it; someone preparing to change needs practical help (services, plans); someone in action needs encouragement. Asking 'How do you feel about…?' tells you where they are."
+          "body": "Someone in precontemplation needs information and a nudge to think about it; someone preparing to change needs practical help (services, plans); someone in action needs encouragement. Asking 'How do you feel about…?' tells you where they are.",
+          "priority": "exam-core",
+          "module": "PHE"
         }
       ],
       "flashcards": [
@@ -2964,34 +3567,61 @@
         },
         {
           "id": "phe-health-promotion-x0072",
-          "q": "What is Very Brief Advice on smoking?",
+          "q": "You have one minute with a smoker. Which approach is Very Brief Advice?",
           "options": [
             {
-              "text": "Ask, Advise, Act, in under a minute",
+              "text": "Ask if they smoke, advise that stopping protects their eyes, and act by offering referral to stop smoking services",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "A 1-hour course",
+              "text": "Give a 20-minute lecture",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too long."
             },
             {
-              "text": "Prescribing nicotine",
+              "text": "Say nothing",
               "correct": false,
-              "feedback": "Not the optometrist's role."
+              "feedback": "Missed chance."
             },
             {
-              "text": "Ignoring smoking",
+              "text": "Tell them they'll go blind",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Scare tactics."
             }
           ],
-          "explanation": ""
+          "explanation": "Very Brief Advice: Ask, Advise, Act, in under a minute.",
+          "original": {
+            "q": "What is Very Brief Advice on smoking?",
+            "options": [
+              {
+                "text": "Ask, Advise, Act, in under a minute",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A 1-hour course",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Prescribing nicotine",
+                "correct": false,
+                "feedback": "Not the optometrist's role."
+              },
+              {
+                "text": "Ignoring smoking",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0073",
-          "q": "What does MECC stand for?",
+          "q": "During a sight test you notice a patient is overweight and mention local support services. Which approach is this?",
           "options": [
             {
               "text": "Making Every Contact Count",
@@ -2999,26 +3629,53 @@
               "feedback": "Yes."
             },
             {
-              "text": "Medical Eye Care Clinic",
+              "text": "Very Brief Advice on smoking",
+              "correct": false,
+              "feedback": "Smoking-specific."
+            },
+            {
+              "text": "The inverse care law",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Minimum Eye Check Criteria",
+              "text": "Proportionate universalism",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "None",
-              "correct": false,
-              "feedback": "It's a real initiative."
             }
           ],
-          "explanation": ""
+          "explanation": "MECC: use routine contacts for brief, opportunistic health advice.",
+          "original": {
+            "q": "What does MECC stand for?",
+            "options": [
+              {
+                "text": "Making Every Contact Count",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Medical Eye Care Clinic",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Minimum Eye Check Criteria",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "It's a real initiative."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0074",
-          "q": "Which is the first stage of the stages of change model?",
+          "q": "A smoker says 'I'm not interested in stopping.' Which stage of change are they in?",
           "options": [
             {
               "text": "Precontemplation",
@@ -3026,49 +3683,103 @@
               "feedback": "Yes."
             },
             {
-              "text": "Action",
+              "text": "Contemplation",
               "correct": false,
-              "feedback": "Later."
-            },
-            {
-              "text": "Maintenance",
-              "correct": false,
-              "feedback": "Last."
+              "feedback": "Thinking about it."
             },
             {
               "text": "Preparation",
               "correct": false,
-              "feedback": "Third."
+              "feedback": "Planning."
+            },
+            {
+              "text": "Action",
+              "correct": false,
+              "feedback": "Doing it."
             }
           ],
-          "explanation": ""
+          "explanation": "Stages: precontemplation, contemplation, preparation, action, maintenance.",
+          "original": {
+            "q": "Which is the first stage of the stages of change model?",
+            "options": [
+              {
+                "text": "Precontemplation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Action",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "Maintenance",
+                "correct": false,
+                "feedback": "Last."
+              },
+              {
+                "text": "Preparation",
+                "correct": false,
+                "feedback": "Third."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0075",
-          "q": "Which advice protects eyes from UV?",
+          "q": "A patient going skiing asks how to protect their eyes. What's the best advice?",
           "options": [
             {
-              "text": "Sunglasses meeting standards and hats",
+              "text": "Sunglasses that meet standards (UV400 / CE or UKCA) and a hat or goggles",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Dark lenses without UV filters",
+              "text": "Any dark lenses",
               "correct": false,
-              "feedback": "They may increase exposure."
+              "feedback": "May not block UV."
             },
             {
-              "text": "Nothing",
+              "text": "No protection needed in winter",
               "correct": false,
-              "feedback": "Protection helps."
+              "feedback": "Snow reflects UV."
             },
             {
-              "text": "Only contact lenses",
+              "text": "Clear glasses",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Little protection."
             }
           ],
-          "explanation": ""
+          "explanation": "Sunglasses meeting standards and hats help protect the eyes and lids from UV.",
+          "original": {
+            "q": "Which advice protects eyes from UV?",
+            "options": [
+              {
+                "text": "Sunglasses meeting standards and hats",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Dark lenses without UV filters",
+                "correct": false,
+                "feedback": "They may increase exposure."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Protection helps."
+              },
+              {
+                "text": "Only contact lenses",
+                "correct": false,
+                "feedback": "Not enough."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0076",
@@ -3099,30 +3810,57 @@
         },
         {
           "id": "phe-health-promotion-x0077",
-          "q": "What should you encourage people with diabetes to do?",
+          "q": "A patient with type 2 diabetes says they skip screening because their vision is fine. What should you say?",
           "options": [
             {
-              "text": "Attend diabetic eye screening and manage sugar, BP and cholesterol",
+              "text": "Retinopathy can be silent: attend screening and manage sugar, BP and cholesterol",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Stop screening once well",
+              "text": "Screening is only needed if vision drops",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Only see the optometrist",
+              "text": "Glasses will prevent retinopathy",
               "correct": false,
-              "feedback": "Screening too."
+              "feedback": "No."
             },
             {
-              "text": "Nothing",
+              "text": "They can stop screening at 60",
               "correct": false,
-              "feedback": "Encourage."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Encourage attendance at diabetic eye screening and good control of sugar, BP and cholesterol.",
+          "original": {
+            "q": "What should you encourage people with diabetes to do?",
+            "options": [
+              {
+                "text": "Attend diabetic eye screening and manage sugar, BP and cholesterol",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Stop screening once well",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only see the optometrist",
+                "correct": false,
+                "feedback": "Screening too."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Encourage."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0078",
@@ -3153,7 +3891,7 @@
         },
         {
           "id": "phe-health-promotion-x0079",
-          "q": "Which model looks at perceived threat and benefits?",
+          "q": "A patient won't use drops because they don't think glaucoma is serious. Which model's 'perceived threat' idea explains this?",
           "options": [
             {
               "text": "The health belief model",
@@ -3161,22 +3899,49 @@
               "feedback": "Yes."
             },
             {
+              "text": "Stages of change",
+              "correct": false,
+              "feedback": "Readiness."
+            },
+            {
+              "text": "COM-B",
+              "correct": false,
+              "feedback": "Capability, opportunity, motivation."
+            },
+            {
               "text": "Gibbs' cycle",
               "correct": false,
               "feedback": "Reflection."
-            },
-            {
-              "text": "SBAR",
-              "correct": false,
-              "feedback": "Communication."
-            },
-            {
-              "text": "SOAP",
-              "correct": false,
-              "feedback": "Records."
             }
           ],
-          "explanation": ""
+          "explanation": "The health belief model looks at perceived threat, benefits and barriers.",
+          "original": {
+            "q": "Which model looks at perceived threat and benefits?",
+            "options": [
+              {
+                "text": "The health belief model",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Gibbs' cycle",
+                "correct": false,
+                "feedback": "Reflection."
+              },
+              {
+                "text": "SBAR",
+                "correct": false,
+                "feedback": "Communication."
+              },
+              {
+                "text": "SOAP",
+                "correct": false,
+                "feedback": "Records."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0181",
@@ -3207,7 +3972,7 @@
         },
         {
           "id": "phe-health-promotion-x0182",
-          "q": "Very Brief Advice follows",
+          "q": "Which is the correct order for Very Brief Advice?",
           "options": [
             {
               "text": "Ask, Advise, Act",
@@ -3215,49 +3980,103 @@
               "feedback": "Yes."
             },
             {
-              "text": "Look, Listen, Leave",
+              "text": "Advise, Ask, Act",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "SBAR",
+              "text": "Act, Advise, Ask",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "SOAP",
+              "text": "Ask, Act, Advise",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "VBA: Ask about smoking, Advise on stopping, Act by offering support.",
+          "original": {
+            "q": "Very Brief Advice follows",
+            "options": [
+              {
+                "text": "Ask, Advise, Act",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Look, Listen, Leave",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "SBAR",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "SOAP",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0183",
-          "q": "Which stage follows contemplation?",
+          "q": "A smoker says she's decided to quit next month and has booked an appointment. Which stage is she in?",
           "options": [
             {
               "text": "Preparation",
               "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "Action",
-              "correct": false,
-              "feedback": "After preparation."
+              "feedback": "Yes: it follows contemplation."
             },
             {
               "text": "Precontemplation",
               "correct": false,
-              "feedback": "Before."
+              "feedback": "Not interested."
+            },
+            {
+              "text": "Action",
+              "correct": false,
+              "feedback": "Already changing."
             },
             {
               "text": "Maintenance",
               "correct": false,
-              "feedback": "Later."
+              "feedback": "Sustained change."
             }
           ],
-          "explanation": ""
+          "explanation": "Contemplation is followed by preparation, then action and maintenance.",
+          "original": {
+            "q": "Which stage follows contemplation?",
+            "options": [
+              {
+                "text": "Preparation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Action",
+                "correct": false,
+                "feedback": "After preparation."
+              },
+              {
+                "text": "Precontemplation",
+                "correct": false,
+                "feedback": "Before."
+              },
+              {
+                "text": "Maintenance",
+                "correct": false,
+                "feedback": "Later."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0184",
@@ -3504,30 +4323,57 @@
         },
         {
           "id": "phe-health-promotion-x0453",
-          "q": "In the COM-B model, behaviour depends on",
+          "q": "A patient wants to use warm compresses but doesn't own a heat mask and keeps forgetting. Which COM-B factors are missing?",
           "options": [
             {
-              "text": "capability, opportunity and motivation",
+              "text": "Opportunity and capability (reminders), despite motivation",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "cost, outcome and benefit",
+              "text": "Motivation only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They want to."
             },
             {
-              "text": "colour, odour and brightness",
+              "text": "None",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Some are missing."
             },
             {
-              "text": "chance only",
+              "text": "Physical health only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the model."
             }
           ],
-          "explanation": ""
+          "explanation": "COM-B: behaviour depends on capability, opportunity and motivation.",
+          "original": {
+            "q": "In the COM-B model, behaviour depends on",
+            "options": [
+              {
+                "text": "capability, opportunity and motivation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cost, outcome and benefit",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "colour, odour and brightness",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "chance only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-health-promotion-x0454",
@@ -4276,28 +5122,76 @@
       "id": "phe-infection-control",
       "title": "Infection control in optometric practice",
       "summary": "Keeping patients and staff from picking up infections in practice: the legal duties, how infection spreads, hand hygiene, and decontaminating equipment and trial lenses. Assessed by a pass/fail Blackboard quiz in week 11.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHE"
+      },
       "keyPoints": [
-        "Duties: the GOS contract (infection control and decontamination), the Management of Health and Safety at Work Regulations 1999 (employer risk assessment), and the Opticians Act duty of care. GOC outcomes 5.5 and 4.8.",
-        "Chain of infection: reservoir, portal of exit, mode of transmission, portal of entry, susceptible host. Break any link; hands are the main mode.",
-        "Handwashing is the single most effective step: at least 15–20 seconds, six-stage technique, then dry with paper towels.",
-        "Alcohol rubs (at least 70% for MRSA) are for clean hands between patients and on domiciliary visits; not for visibly dirty hands, C. difficile or norovirus.",
-        "Cleaning removes visible dirt; disinfection reduces microbes; sterilisation destroys them all.",
-        "Reused trial lenses: don't let them dry, clean, 10,000 ppm sodium hypochlorite for an hour, rinse, then routine disinfection; keep records and inform the patient.",
-        "Universal precautions: the routine should already be good enough for patients known to have HIV, hepatitis or CJD."
+        {
+          "text": "Duties: the GOS contract (infection control and decontamination), the Management of Health and Safety at Work Regulations 1999 (employer risk assessment), and the Opticians Act duty of care. GOC outcomes 5.5 and 4.8.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Chain of infection: reservoir, portal of exit, mode of transmission, portal of entry, susceptible host. Break any link; hands are the main mode.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Handwashing is the single most effective step: at least 15–20 seconds, six-stage technique, then dry with paper towels.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Alcohol rubs (at least 70% for MRSA) are for clean hands between patients and on domiciliary visits; not for visibly dirty hands, C. difficile or norovirus.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Cleaning removes visible dirt; disinfection reduces microbes; sterilisation destroys them all.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Reused trial lenses: don't let them dry, clean, 10,000 ppm sodium hypochlorite for an hour, rinse, then routine disinfection; keep records and inform the patient.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Universal precautions: the routine should already be good enough for patients known to have HIV, hepatitis or CJD.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "examTraps": [
-        "Saying alcohol rub kills C. difficile or norovirus. It doesn't.",
-        "Wiping a tonometer head with alcohol alone: it doesn't remove prions and may fix them to the surface.",
-        "Cleaning a Volk lens with alcohol: it dissolves the cement."
+        {
+          "text": "Saying alcohol rub kills C. difficile or norovirus. It doesn't.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Wiping a tonometer head with alcohol alone: it doesn't remove prions and may fix them to the surface.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Cleaning a Volk lens with alcohol: it dissolves the cement.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Drug storage",
-          "body": "Keep the drug fridge at 2–8°C with no food or drink, check and reset the max/min thermometer daily, keep it lockable, and keep temperature records for at least a year (or the life of the stock) for audit. Date multidose bottles when opened and prefer single-use drops."
+          "body": "Keep the drug fridge at 2–8°C with no food or drink, check and reset the max/min thermometer daily, keep it lockable, and keep temperature records for at least a year (or the life of the stock) for audit. Date multidose bottles when opened and prefer single-use drops.",
+          "priority": "clinical",
+          "module": "PHE"
         },
         {
           "heading": "When to wear gloves",
-          "body": "For invasive procedures, if your hands are badly cracked, or if the patient has an infective condition such as viral conjunctivitis. Not routinely for contact lens fitting. Wash your hands before and after, change gloves between patients, and ask about latex allergy."
+          "body": "For invasive procedures, if your hands are badly cracked, or if the patient has an infective condition such as viral conjunctivitis. Not routinely for contact lens fitting. Wash your hands before and after, change gloves between patients, and ask about latex allergy.",
+          "priority": "clinical",
+          "module": "PHE"
         }
       ],
       "flashcards": [
@@ -4898,30 +5792,57 @@
         },
         {
           "id": "phe-infection-control-x04520",
-          "q": "Do gloves replace hand hygiene?",
+          "q": "A colleague puts on gloves without washing their hands and removes them without washing afterwards. What's wrong?",
           "options": [
             {
-              "text": "No: wash or rub hands before and after",
+              "text": "Gloves don't replace hand hygiene: clean hands before and after",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Yes",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Hand hygiene is still needed."
             },
             {
-              "text": "Only for students",
+              "text": "Gloves should never be used",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They're sometimes needed."
             },
             {
-              "text": "Only with alcohol",
+              "text": "They should wear two pairs",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the fix."
             }
           ],
-          "explanation": ""
+          "explanation": "Wash or rub hands before and after glove use.",
+          "original": {
+            "q": "Do gloves replace hand hygiene?",
+            "options": [
+              {
+                "text": "No: wash or rub hands before and after",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Yes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only for students",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only with alcohol",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-infection-control-x04521",
@@ -5195,30 +6116,57 @@
         },
         {
           "id": "phe-infection-control-x0071",
-          "q": "How long should handwashing take?",
+          "q": "A student rinses their hands under the tap for 5 seconds between patients. What should they change?",
           "options": [
             {
-              "text": "At least 15–20 seconds",
+              "text": "Wash for at least 15–20 seconds using the six-stage technique, then dry",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "2 seconds",
+              "text": "Nothing",
               "correct": false,
               "feedback": "Too short."
             },
             {
-              "text": "5 minutes",
+              "text": "Use cold water only",
               "correct": false,
-              "feedback": "Unnecessary."
+              "feedback": "Not the issue."
             },
             {
-              "text": "No time limit",
+              "text": "Skip drying",
               "correct": false,
-              "feedback": "Aim for 15–20 s."
+              "feedback": "Drying matters."
             }
           ],
-          "explanation": ""
+          "explanation": "Handwashing should take at least 15–20 seconds with the six-stage technique.",
+          "original": {
+            "q": "How long should handwashing take?",
+            "options": [
+              {
+                "text": "At least 15–20 seconds",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "2 seconds",
+                "correct": false,
+                "feedback": "Too short."
+              },
+              {
+                "text": "5 minutes",
+                "correct": false,
+                "feedback": "Unnecessary."
+              },
+              {
+                "text": "No time limit",
+                "correct": false,
+                "feedback": "Aim for 15–20 s."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-infection-control-x0072",
@@ -5276,30 +6224,57 @@
         },
         {
           "id": "phe-infection-control-x0074",
-          "q": "Why can't alcohol be used on Volk lenses?",
+          "q": "A student wipes a Volk lens with an alcohol wipe. Why is this a problem?",
           "options": [
             {
-              "text": "It dissolves the cement",
+              "text": "Alcohol can dissolve the cement holding the lens elements",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "It makes them blurry",
+              "text": "Alcohol is too weak",
+              "correct": false,
+              "feedback": "Not the issue."
+            },
+            {
+              "text": "Alcohol stains glass",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It's too expensive",
+              "text": "It isn't a problem",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "It can",
-              "correct": false,
-              "feedback": "It can't."
+              "feedback": "It is."
             }
           ],
-          "explanation": ""
+          "explanation": "Follow the manufacturer's cleaning advice; alcohol can damage the cement in Volk lenses.",
+          "original": {
+            "q": "Why can't alcohol be used on Volk lenses?",
+            "options": [
+              {
+                "text": "It dissolves the cement",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "It makes them blurry",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It's too expensive",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It can",
+                "correct": false,
+                "feedback": "It can't."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-infection-control-x0075",
@@ -5688,23 +6663,65 @@
       "id": "phe-wellbeing",
       "title": "Practitioner health and wellbeing",
       "summary": "Your own health affects patient safety. Know the signs of stress, where to get help, when a health condition affects fitness to practise or train, and when to tell the GOC.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "PHE"
+      },
       "keyPoints": [
-        "GOC outcome 5.6: understand the importance of maintaining your own health. Signed off by the stage 2 portfolio task.",
-        "Stress: when demands seem to exceed your resources. In optometry it's linked to long hours, time pressure per exam, physical strain and lack of support.",
-        "Optometrists report more psychological distress and anxiety than the general population, and many don't seek help.",
-        "Fitness to practise or train: the skills, knowledge, health and character to work safely (GOC). Raise concerns about yourself (standard 11.4 for registrants; standard 10 for students).",
-        "Declare a health condition to the GOC only if it currently affects your fitness; include the condition, date of diagnosis and treatment, and show insight.",
-        "HEOPS standards: reduced stereopsis isn't a bar; colour deficiency is unlikely to be; field defects may stop you meeting competencies.",
-        "Conditions that can affect safe practice: alcohol dependence, drug misuse, mental illness, other medical conditions."
+        {
+          "text": "GOC outcome 5.6: understand the importance of maintaining your own health. Signed off by the stage 2 portfolio task.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "Stress: when demands seem to exceed your resources. In optometry it's linked to long hours, time pressure per exam, physical strain and lack of support.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Optometrists report more psychological distress and anxiety than the general population, and many don't seek help.",
+          "priority": "background",
+          "module": "PHE"
+        },
+        {
+          "text": "Fitness to practise or train: the skills, knowledge, health and character to work safely (GOC). Raise concerns about yourself (standard 11.4 for registrants; standard 10 for students).",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Declare a health condition to the GOC only if it currently affects your fitness; include the condition, date of diagnosis and treatment, and show insight.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "HEOPS standards: reduced stereopsis isn't a bar; colour deficiency is unlikely to be; field defects may stop you meeting competencies.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Conditions that can affect safe practice: alcohol dependence, drug misuse, mental illness, other medical conditions.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "examTraps": [
-        "Thinking every health condition must be declared. Only one that currently affects fitness to practise or train.",
-        "Assuming colour vision deficiency stops you training as an optometrist."
+        {
+          "text": "Thinking every health condition must be declared. Only one that currently affects fitness to practise or train.",
+          "priority": "exam-core",
+          "module": "PHE"
+        },
+        {
+          "text": "Assuming colour vision deficiency stops you training as an optometrist.",
+          "priority": "exam-core",
+          "module": "PHE"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Five ways to wellbeing",
-          "body": "Connect, be active, take notice, keep learning, and give. The AOP peer support line (0800 870 8401) is open to members and non-members; the College also has wellbeing videos, podcasts and articles. See your GP if stress persists."
+          "body": "Connect, be active, take notice, keep learning, and give. The AOP peer support line (0800 870 8401) is open to members and non-members; the College also has wellbeing videos, podcasts and articles. See your GP if stress persists.",
+          "priority": "exam-core",
+          "module": "PHE"
         }
       ],
       "flashcards": [
@@ -6696,30 +7713,57 @@
         },
         {
           "id": "phe-wellbeing-x0076",
-          "q": "Which number reaches the AOP peer support line?",
+          "q": "A newly qualified optometrist is struggling and wants to talk to someone in the profession. Which statement is wrong?",
           "options": [
             {
-              "text": "0800 870 8401",
+              "text": "There's no peer support service for optometrists",
               "correct": true,
-              "feedback": "Yes, for members and non-members."
+              "feedback": "Yes, that's wrong: the AOP runs a peer support line."
             },
             {
-              "text": "999",
+              "text": "The AOP peer support line is available",
               "correct": false,
-              "feedback": "Emergencies."
+              "feedback": "True."
             },
             {
-              "text": "111",
+              "text": "University and GP support are options",
               "correct": false,
-              "feedback": "NHS non-emergency."
+              "feedback": "True."
             },
             {
-              "text": "101",
+              "text": "Samaritans offer 24-hour support",
               "correct": false,
-              "feedback": "Police."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The AOP peer support line (0800 870 8401) offers confidential support from trained optometrists.",
+          "original": {
+            "q": "Which number reaches the AOP peer support line?",
+            "options": [
+              {
+                "text": "0800 870 8401",
+                "correct": true,
+                "feedback": "Yes, for members and non-members."
+              },
+              {
+                "text": "999",
+                "correct": false,
+                "feedback": "Emergencies."
+              },
+              {
+                "text": "111",
+                "correct": false,
+                "feedback": "NHS non-emergency."
+              },
+              {
+                "text": "101",
+                "correct": false,
+                "feedback": "Police."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-wellbeing-x0077",
@@ -7020,30 +8064,57 @@
         },
         {
           "id": "phe-wellbeing-x0189",
-          "q": "Which is one of the five ways to wellbeing?",
+          "q": "A student signs up for a pottery class to switch off from study. Which of the five ways to wellbeing is this?",
           "options": [
             {
               "text": "Keep learning",
               "correct": true,
-              "feedback": "Yes, with connect, be active, take notice and give."
+              "feedback": "Yes."
             },
             {
-              "text": "Work all night",
+              "text": "Give",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Helping others."
             },
             {
-              "text": "Avoid others",
+              "text": "Take notice",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Paying attention to the moment."
             },
             {
-              "text": "Eat only sugar",
+              "text": "Connect",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Possibly, but learning fits best."
             }
           ],
-          "explanation": ""
+          "explanation": "The five ways: connect, be active, take notice, keep learning and give.",
+          "original": {
+            "q": "Which is one of the five ways to wellbeing?",
+            "options": [
+              {
+                "text": "Keep learning",
+                "correct": true,
+                "feedback": "Yes, with connect, be active, take notice and give."
+              },
+              {
+                "text": "Work all night",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Avoid others",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Eat only sugar",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "phe-wellbeing-x01810",

@@ -6,22 +6,81 @@
       "id": "syd-case-history",
       "title": "History and symptoms",
       "summary": "The history is the most important part of the eye examination: over 70% of diagnoses can come from it. Take it in a logical order, follow up every symptom with LOFTSEA, ask everyone the standard symptom check, and record negatives.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Ask permission to take the history; show empathy, listen actively, keep open body language and don't interrupt. Patients' uninterrupted talking time is usually 30 seconds to a minute.",
-        "General observation matters: appearance, head posture, facial asymmetry, lids, eyes, speech and emotional state; age, sex and ethnicity change the likelihood of some conditions.",
-        "Reason for visit: open with 'Is there any particular reason for your visit today?' and record it in the patient's words. Return to it at the end.",
-        "LOFTSEA: Location, Onset (sudden can mean serious), Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms. Visual problems tend to come with eye use, on weekdays, building through the day.",
-        "Ask everyone about distance and near vision, eyestrain, headaches, pain or burning, diplopia, and flashes and floaters (especially high myopes).",
-        "Ocular history: each pair of spectacles, contact lens wear and care, low vision aids, past injuries, infections, surgery or patching, and the last eye exam.",
-        "General health: ask specifically about high blood pressure and diabetes (how long, last check), medication (including drops, hay fever and contraceptive pills; check the BNF) and allergies or reactions to drops.",
-        "Family history: strabismus, glaucoma, hypertension and diabetes. Lifestyle: occupation, sport, hobbies, driving and smoking (the strongest environmental risk factor for AMD).",
-        "Suggested order: general information, last eye exam, reason for visit, ocular history, family ocular history, general health, family medical history, symptom check, occupation and lifestyle.",
-        "Record in pen, legibly and fully, including negatives (no record means not asked), using only accepted abbreviations."
+        {
+          "text": "Ask permission to take the history; show empathy, listen actively, keep open body language and don't interrupt. Patients' uninterrupted talking time is usually 30 seconds to a minute.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "General observation matters: appearance, head posture, facial asymmetry, lids, eyes, speech and emotional state; age, sex and ethnicity change the likelihood of some conditions.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Reason for visit: open with 'Is there any particular reason for your visit today?' and record it in the patient's words. Return to it at the end.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "LOFTSEA: Location, Onset (sudden can mean serious), Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms. Visual problems tend to come with eye use, on weekdays, building through the day.",
+          "priority": "exam-core",
+          "module": "SyD",
+          "why": "Each item narrows the differential: for example, a sudden onset points towards vascular or other serious causes, and a pattern linked to eye use points towards visual causes.",
+          "limits": "It's a checklist for structure, not a diagnostic test. Don't let it replace open listening, and ask about red flags (for example jaw claudication or a curtain over the vision) directly.",
+          "needsReview": true
+        },
+        {
+          "text": "Ask everyone about distance and near vision, eyestrain, headaches, pain or burning, diplopia, and flashes and floaters (especially high myopes).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Ocular history: each pair of spectacles, contact lens wear and care, low vision aids, past injuries, infections, surgery or patching, and the last eye exam.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "General health: ask specifically about high blood pressure and diabetes (how long, last check), medication (including drops, hay fever and contraceptive pills; check the BNF) and allergies or reactions to drops.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Family history: strabismus, glaucoma, hypertension and diabetes. Lifestyle: occupation, sport, hobbies, driving and smoking (the strongest environmental risk factor for AMD).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Suggested order: general information, last eye exam, reason for visit, ocular history, family ocular history, general health, family medical history, symptom check, occupation and lifestyle.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Record in pen, legibly and fully, including negatives (no record means not asked), using only accepted abbreviations.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Accepting 'double vision' at face value: ask if they see two of everything and whether it goes with one eye closed.",
-        "Not following up a headache because the patient says it isn't their eyes.",
-        "Assuming old records are still current."
+        {
+          "text": "Accepting 'double vision' at face value: ask if they see two of everything and whether it goes with one eye closed.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Not following up a headache because the patient says it isn't their eyes.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Assuming old records are still current.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "history-structure",
@@ -37,11 +96,17 @@
       "goDeeper": [
         {
           "heading": "Symptom clues",
-          "body": "Constant distance blur: myopia, or nuclear sclerosis in older people. Intermittent: young diabetics, pseudomyopia. Near blur fine in good light: presbyopia. Both: astigmatism or pathology. Visual headaches are mild to moderate, dull, above or behind the eyes and linked to eye use. Pain or burning often means dry eye. Diplopia that persists with one eye closed is monocular (cataract, irregular astigmatism); pathological or traumatic diplopia is more often vertical."
+          "body": "Constant distance blur: myopia, or nuclear sclerosis in older people. Intermittent: young diabetics, pseudomyopia. Near blur fine in good light: presbyopia. Both: astigmatism or pathology. Visual headaches are mild to moderate, dull, above or behind the eyes and linked to eye use. Pain or burning often means dry eye. Diplopia that persists with one eye closed is monocular (cataract, irregular astigmatism); pathological or traumatic diplopia is more often vertical.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "SOCRATES and red flags",
-          "body": "For pain, SOCRATES (site, onset, character, radiation, associations, time course, exacerbating and relieving factors, severity) is another framework. Red flags include sudden vision loss, flashes with a curtain, a painful red eye, new diplopia, and headache with visual or neurological symptoms."
+          "body": "For pain, SOCRATES (site, onset, character, radiation, associations, time course, exacerbating and relieving factors, severity) is another framework. Red flags include sudden vision loss, flashes with a curtain, a painful red eye, new diplopia, and headache with visual or neurological symptoms.",
+          "priority": "exam-core",
+          "module": "SyD",
+          "limits": "Mnemonics like SOCRATES and LOFTSEA help you cover the ground, but they don't tell you what the answers mean; red flags still need specific questions.",
+          "needsReview": true
         }
       ],
       "checklist": {
@@ -58,7 +123,9 @@
           "Social: occupation, driving, screens, hobbies, smoking.",
           "Red flag questions where relevant.",
           "Summarise back to the patient and check you've got it right."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "SyD"
       },
       "flashcards": [
         {
@@ -124,66 +191,120 @@
         },
         {
           "id": "syd-case-history-x0061",
-          "q": "What does the E in LOFTSEA stand for?",
+          "q": "A patient says their blurred vision means they've had to stop driving at night. Which part of LOFTSEA have you just learned about?",
           "options": [
             {
               "text": "Effect on the patient",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the E."
             },
             {
-              "text": "Eye affected",
+              "text": "Frequency",
               "correct": false,
-              "feedback": "That's location."
+              "feedback": "How often."
             },
             {
-              "text": "Exacerbating factors",
+              "text": "Onset",
               "correct": false,
-              "feedback": "Not in LOFTSEA."
+              "feedback": "When it started."
             },
             {
-              "text": "Examination",
+              "text": "Self-treatment",
               "correct": false,
-              "feedback": "No."
+              "feedback": "What they've tried."
             }
           ],
-          "explanation": ""
+          "explanation": "LOFTSEA: Location, Onset, Frequency, Type and severity, Self-treatment, Effect on the patient, Associated symptoms.",
+          "original": {
+            "q": "What does the E in LOFTSEA stand for?",
+            "options": [
+              {
+                "text": "Effect on the patient",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Eye affected",
+                "correct": false,
+                "feedback": "That's location."
+              },
+              {
+                "text": "Exacerbating factors",
+                "correct": false,
+                "feedback": "Not in LOFTSEA."
+              },
+              {
+                "text": "Examination",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-case-history-x0062",
-          "q": "Visual problems tend to occur",
+          "q": "Which headache history most suggests a visual cause?",
           "options": [
             {
-              "text": "with eye use, on weekdays and building through the day",
+              "text": "Worse after a day at the computer on weekdays, better at weekends",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "only at night",
+              "text": "Wakes them at night with vomiting",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Red flag."
             },
             {
-              "text": "on waking only",
+              "text": "Sudden, worst ever",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Red flag."
             },
             {
-              "text": "randomly",
+              "text": "Constant since a head injury",
               "correct": false,
-              "feedback": "They follow eye use."
+              "feedback": "Not visual."
             }
           ],
-          "explanation": ""
+          "explanation": "Visual problems tend to come with eye use, on weekdays, building through the day.",
+          "original": {
+            "q": "Visual problems tend to occur",
+            "options": [
+              {
+                "text": "with eye use, on weekdays and building through the day",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "only at night",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "on waking only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "randomly",
+                "correct": false,
+                "feedback": "They follow eye use."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-case-history-x0063",
-          "q": "Diplopia persists with one eye closed. What does it suggest?",
+          "q": "A patient sees double, and it persists with the other eye closed. What's the most likely cause?",
           "options": [
             {
-              "text": "Monocular diplopia, e.g. cataract or irregular astigmatism",
+              "text": "An optical problem in that eye, e.g. cataract or irregular astigmatism",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: monocular diplopia."
             },
             {
               "text": "A sixth nerve palsy",
@@ -191,7 +312,7 @@
               "feedback": "That's binocular."
             },
             {
-              "text": "Decompensated phoria",
+              "text": "A decompensated phoria",
               "correct": false,
               "feedback": "Binocular."
             },
@@ -201,34 +322,88 @@
               "feedback": "Binocular."
             }
           ],
-          "explanation": ""
+          "explanation": "Diplopia that persists with one eye closed is monocular and usually optical.",
+          "original": {
+            "q": "Diplopia persists with one eye closed. What does it suggest?",
+            "options": [
+              {
+                "text": "Monocular diplopia, e.g. cataract or irregular astigmatism",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A sixth nerve palsy",
+                "correct": false,
+                "feedback": "That's binocular."
+              },
+              {
+                "text": "Decompensated phoria",
+                "correct": false,
+                "feedback": "Binocular."
+              },
+              {
+                "text": "Myasthenia",
+                "correct": false,
+                "feedback": "Binocular."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-case-history-x0064",
-          "q": "Which systemic conditions should you ask about specifically?",
+          "q": "A 60-year-old has scattered retinal haemorrhages. Which two systemic conditions are you most keen to ask about?",
           "options": [
             {
               "text": "High blood pressure and diabetes",
               "correct": true,
-              "feedback": "Yes, and how long and when last checked."
+              "feedback": "Yes."
             },
             {
-              "text": "Broken bones",
+              "text": "Asthma and eczema",
               "correct": false,
-              "feedback": "Not specifically."
+              "feedback": "Less relevant."
             },
             {
-              "text": "Hay fever only",
+              "text": "Migraine and epilepsy",
               "correct": false,
-              "feedback": "Not the key ones."
+              "feedback": "Less relevant."
             },
             {
-              "text": "None",
+              "text": "Hay fever and acne",
               "correct": false,
-              "feedback": "Always ask."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Always ask specifically about high blood pressure and diabetes (how long, last check).",
+          "original": {
+            "q": "Which systemic conditions should you ask about specifically?",
+            "options": [
+              {
+                "text": "High blood pressure and diabetes",
+                "correct": true,
+                "feedback": "Yes, and how long and when last checked."
+              },
+              {
+                "text": "Broken bones",
+                "correct": false,
+                "feedback": "Not specifically."
+              },
+              {
+                "text": "Hay fever only",
+                "correct": false,
+                "feedback": "Not the key ones."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Always ask."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-case-history-x0065",
@@ -1463,19 +1638,63 @@
       "id": "syd-differential",
       "title": "Building a differential diagnosis",
       "summary": "A differential diagnosis is a ranked list of what could explain the findings. Rank by likelihood, but always include the conditions you can't afford to miss, then choose tests that separate them.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "List possibilities from the key symptom and sign (e.g. 'sudden painless loss of vision in one eye').",
-        "Think anatomically (front to back) and by mechanism (vascular, inflammatory, infective, degenerative, neoplastic, traumatic).",
-        "Rank by likelihood (age, history, risk factors) and by seriousness.",
-        "Always keep 'can't miss' diagnoses on the list until ruled out (e.g. retinal detachment, GCA, angle closure).",
-        "Choose discriminating tests: pupils (RAPD), IOP, fields, staining, dilated fundus exam.",
-        "Revisit the list as new results come in.",
-        "Management follows from the most likely and most serious possibilities."
+        {
+          "text": "List possibilities from the key symptom and sign (e.g. 'sudden painless loss of vision in one eye').",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Think anatomically (front to back) and by mechanism (vascular, inflammatory, infective, degenerative, neoplastic, traumatic).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Rank by likelihood (age, history, risk factors) and by seriousness.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Always keep 'can't miss' diagnoses on the list until ruled out (e.g. retinal detachment, GCA, angle closure).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Choose discriminating tests: pupils (RAPD), IOP, fields, staining, dilated fundus exam.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Revisit the list as new results come in.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Management follows from the most likely and most serious possibilities.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Stopping at the first diagnosis that fits ('premature closure').",
-        "Ranking only by likelihood and forgetting serious but rarer causes.",
-        "Doing every test instead of the ones that discriminate."
+        {
+          "text": "Stopping at the first diagnosis that fits ('premature closure').",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Ranking only by likelihood and forgetting serious but rarer causes.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Doing every test instead of the ones that discriminate.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "red-eye-differential",
@@ -1492,15 +1711,21 @@
       "goDeeper": [
         {
           "heading": "Example: sudden painless vision loss",
-          "body": "Differentials: retinal vein occlusion, retinal artery occlusion, vitreous haemorrhage, retinal detachment involving the macula, wet AMD, ischaemic optic neuropathy (including arteritic from GCA). Discriminators: fundus appearance, RAPD, age and systemic history, symptoms of GCA. Most need urgent or emergency referral."
+          "body": "Differentials: retinal vein occlusion, retinal artery occlusion, vitreous haemorrhage, retinal detachment involving the macula, wet AMD, ischaemic optic neuropathy (including arteritic from GCA). Discriminators: fundus appearance, RAPD, age and systemic history, symptoms of GCA. Most need urgent or emergency referral.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Example: gradual blur",
-          "body": "Differentials: refractive change, cataract, dry AMD, diabetic maculopathy, glaucoma (late), medication effects. Discriminators: pinhole, refraction, lens assessment, macular exam (and OCT), fields, history (diabetes, steroids)."
+          "body": "Differentials: refractive change, cataract, dry AMD, diabetic maculopathy, glaucoma (late), medication effects. Discriminators: pinhole, refraction, lens assessment, macular exam (and OCT), fields, history (diabetes, steroids).",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Writing it down",
-          "body": "Record the working diagnosis and the main differentials you considered, the tests that supported or excluded them, and your plan. This shows clear reasoning, which is exactly what PC-lab and OSCE-style assessments look for."
+          "body": "Record the working diagnosis and the main differentials you considered, the tests that supported or excluded them, and your plan. This shows clear reasoning, which is exactly what PC-lab and OSCE-style assessments look for.",
+          "priority": "clinical",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -1579,12 +1804,17 @@
         },
         {
           "id": "syd-differential-x0062",
-          "q": "Which test best discriminates an optic nerve problem from cataract?",
+          "q": "An elderly patient has reduced VA in one eye and a moderate cataract. Which test best shows whether an optic nerve problem is also present?",
           "options": [
             {
-              "text": "Pupils (RAPD)",
+              "text": "Pupils, looking for an RAPD",
               "correct": true,
-              "feedback": "Yes: cataract never causes an RAPD."
+              "feedback": "Yes: cataract usually doesn't cause one."
+            },
+            {
+              "text": "Pinhole VA",
+              "correct": false,
+              "feedback": "Won't separate them."
             },
             {
               "text": "Keratometry",
@@ -1592,17 +1822,39 @@
               "feedback": "No."
             },
             {
-              "text": "Refraction",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Colour of the iris",
+              "text": "Duochrome",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An RAPD points to the optic nerve or retina rather than the media.",
+          "original": {
+            "q": "Which test best discriminates an optic nerve problem from cataract?",
+            "options": [
+              {
+                "text": "Pupils (RAPD)",
+                "correct": true,
+                "feedback": "Yes: cataract never causes an RAPD."
+              },
+              {
+                "text": "Keratometry",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Refraction",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Colour of the iris",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-differential-x0063",
@@ -1903,30 +2155,57 @@
         },
         {
           "id": "syd-differential-x0176",
-          "q": "Metamorphopsia points to",
+          "q": "A patient says door frames look wavy in one eye. Where is the problem most likely?",
           "options": [
             {
-              "text": "the macula",
+              "text": "The macula",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: metamorphopsia."
             },
             {
-              "text": "the optic nerve",
+              "text": "The optic nerve",
               "correct": false,
-              "feedback": "Colour loss."
+              "feedback": "Colour loss and RAPD."
             },
             {
-              "text": "the lens",
+              "text": "The cornea",
               "correct": false,
-              "feedback": "Blur."
+              "feedback": "Blur, not distortion."
             },
             {
-              "text": "the cornea",
+              "text": "The lens",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Blur and glare."
             }
           ],
-          "explanation": ""
+          "explanation": "Metamorphopsia points to the macula.",
+          "original": {
+            "q": "Metamorphopsia points to",
+            "options": [
+              {
+                "text": "the macula",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "the optic nerve",
+                "correct": false,
+                "feedback": "Colour loss."
+              },
+              {
+                "text": "the lens",
+                "correct": false,
+                "feedback": "Blur."
+              },
+              {
+                "text": "the cornea",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-differential-x0177",
@@ -2335,30 +2614,57 @@
         },
         {
           "id": "syd-differential-x03712",
-          "q": "In VITAMIN CDE, 'D' commonly stands for",
+          "q": "Using VITAMIN CDE, under which heading does dry AMD belong?",
           "options": [
             {
-              "text": "degenerative",
+              "text": "Degenerative",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "drugs only",
+              "text": "Vascular",
+              "correct": false,
+              "feedback": "Not mainly."
+            },
+            {
+              "text": "Infective",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "diabetes only",
-              "correct": false,
-              "feedback": "Metabolic."
-            },
-            {
-              "text": "diagnosis",
+              "text": "Neoplastic",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "VITAMIN CDE is a surgical sieve: vascular, inflammatory/infective, trauma, autoimmune, metabolic, iatrogenic, neoplastic, congenital, degenerative, endocrine.",
+          "original": {
+            "q": "In VITAMIN CDE, 'D' commonly stands for",
+            "options": [
+              {
+                "text": "degenerative",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "drugs only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "diabetes only",
+                "correct": false,
+                "feedback": "Metabolic."
+              },
+              {
+                "text": "diagnosis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-differential-x03713",
@@ -2870,19 +3176,63 @@
       "id": "syd-diabetes",
       "title": "Diabetes and the eye",
       "summary": "Diabetic retinopathy is a microvascular disease graded in England by the NHS Diabetic Eye Screening Programme (R0–R3, M0–M1). Diabetes also affects refraction, the lens, cranial nerves and the cornea. Know the signs in order of severity and the referral rules.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Earliest sign: microaneurysms. Then dot/blot haemorrhages, hard exudates, cotton wool spots.",
-        "Pre-proliferative (R2): venous beading or reduplication, IRMA, multiple deep blot haemorrhages.",
-        "Proliferative (R3A): new vessels (on the disc or elsewhere), pre-retinal or vitreous haemorrhage, fibrosis.",
-        "Maculopathy (M1): exudate within 1 disc diameter of the fovea, a group of exudates in the macula, or haemorrhage/MA near the fovea with reduced VA.",
-        "Risk factors for progression: duration, poor glucose control (HbA1c), high blood pressure, raised lipids, pregnancy, rapid improvement in control.",
-        "Other effects: refraction shifts with blood sugar changes, earlier cataract, cranial nerve palsies (III often pupil-sparing), reduced corneal sensation, rubeosis and neovascular glaucoma.",
-        "Everyone with diabetes aged 12+ should attend annual DESP screening (intervals are being extended for some low-risk people)."
+        {
+          "text": "Earliest sign: microaneurysms. Then dot/blot haemorrhages, hard exudates, cotton wool spots.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Pre-proliferative (R2): venous beading or reduplication, IRMA, multiple deep blot haemorrhages.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Proliferative (R3A): new vessels (on the disc or elsewhere), pre-retinal or vitreous haemorrhage, fibrosis.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Maculopathy (M1): exudate within 1 disc diameter of the fovea, a group of exudates in the macula, or haemorrhage/MA near the fovea with reduced VA.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Risk factors for progression: duration, poor glucose control (HbA1c), high blood pressure, raised lipids, pregnancy, rapid improvement in control.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Other effects: refraction shifts with blood sugar changes, earlier cataract, cranial nerve palsies (III often pupil-sparing), reduced corneal sensation, rubeosis and neovascular glaucoma.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Everyone with diabetes aged 12+ should attend annual DESP screening (intervals are being extended for some low-risk people).",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Confusing hard exudates (yellow, well-defined) with cotton wool spots (white, fluffy).",
-        "Calling cotton wool spots alone 'proliferative'.",
-        "Prescribing glasses during a period of unstable blood sugar."
+        {
+          "text": "Confusing hard exudates (yellow, well-defined) with cotton wool spots (white, fluffy).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Calling cotton wool spots alone 'proliferative'.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Prescribing glasses during a period of unstable blood sugar.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "diabetic-retinopathy",
@@ -2901,15 +3251,21 @@
       "goDeeper": [
         {
           "heading": "DESP grading in brief",
-          "body": "R0 none; R1 background (MAs, haemorrhages, exudates, cotton wool spots with other non-referable features); R2 pre-proliferative (venous beading/loop/reduplication, IRMA, multiple deep round or blot haemorrhages); R3A active proliferative; R3S stable treated proliferative. M0 no maculopathy; M1 maculopathy. U = ungradable. R3A is referred urgently; R2 and M1 are referred to the hospital eye service. Check the current DESP grading definitions."
+          "body": "R0 none; R1 background (MAs, haemorrhages, exudates, cotton wool spots with other non-referable features); R2 pre-proliferative (venous beading/loop/reduplication, IRMA, multiple deep round or blot haemorrhages); R3A active proliferative; R3S stable treated proliferative. M0 no maculopathy; M1 maculopathy. U = ungradable. R3A is referred urgently; R2 and M1 are referred to the hospital eye service. Check the current DESP grading definitions.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Diabetes and refraction",
-          "body": "High blood glucose can change the lens's refractive index and hydration, often causing a myopic shift; as control improves the refraction moves back. If someone has been recently diagnosed or their control has just changed, it's often wise to delay a new prescription until blood sugar is stable, explaining why."
+          "body": "High blood glucose can change the lens's refractive index and hydration, often causing a myopic shift; as control improves the refraction moves back. If someone has been recently diagnosed or their control has just changed, it's often wise to delay a new prescription until blood sugar is stable, explaining why.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Optometrist's role",
-          "body": "Check that patients with diabetes are attending DESP, examine the fundus (dilated where appropriate), recognise sight-threatening signs between screenings and refer accordingly, and give lifestyle messages: blood sugar, blood pressure, cholesterol, smoking, attending screening."
+          "body": "Check that patients with diabetes are attending DESP, examine the fundus (dilated where appropriate), recognise sight-threatening signs between screenings and refer accordingly, and give lifestyle messages: blood sugar, blood pressure, cholesterol, smoking, attending screening.",
+          "priority": "clinical",
+          "module": "SyD"
         }
       ],
       "labelDiagram": {
@@ -2999,30 +3355,57 @@
         },
         {
           "id": "syd-diabetes-x0061",
-          "q": "What is the earliest sign of diabetic retinopathy?",
+          "q": "A patient with diabetes has a few tiny red dots near the macula and nothing else. What's the grade?",
           "options": [
             {
-              "text": "Microaneurysms",
+              "text": "R1 background: microaneurysms are the earliest sign",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "New vessels",
+              "text": "R0",
               "correct": false,
-              "feedback": "That's proliferative."
+              "feedback": "There are signs."
             },
             {
-              "text": "Cotton wool spots",
+              "text": "R2",
               "correct": false,
-              "feedback": "Later."
+              "feedback": "Needs beading, IRMA or many blot haemorrhages."
             },
             {
-              "text": "Venous beading",
+              "text": "R3",
               "correct": false,
-              "feedback": "Pre-proliferative."
+              "feedback": "Needs new vessels."
             }
           ],
-          "explanation": ""
+          "explanation": "Microaneurysms are the earliest sign of diabetic retinopathy.",
+          "original": {
+            "q": "What is the earliest sign of diabetic retinopathy?",
+            "options": [
+              {
+                "text": "Microaneurysms",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "New vessels",
+                "correct": false,
+                "feedback": "That's proliferative."
+              },
+              {
+                "text": "Cotton wool spots",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "Venous beading",
+                "correct": false,
+                "feedback": "Pre-proliferative."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x0062",
@@ -3053,30 +3436,57 @@
         },
         {
           "id": "syd-diabetes-x0063",
-          "q": "Which finding counts as maculopathy (M1)?",
+          "q": "A diabetic patient has hard exudates half a disc diameter from the fovea, with 6/6 VA. Does this count as maculopathy (M1)?",
           "options": [
             {
-              "text": "Exudate within 1 disc diameter of the fovea",
+              "text": "Yes",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: exudate within 1 DD of the fovea."
             },
             {
-              "text": "A single microaneurysm far from the macula",
+              "text": "No, because VA is 6/6",
+              "correct": false,
+              "feedback": "VA isn't needed for this criterion."
+            },
+            {
+              "text": "Only if new vessels are present",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Cotton wool spot near the disc",
+              "text": "Only if both eyes are affected",
               "correct": false,
-              "feedback": "Not M1."
-            },
-            {
-              "text": "Venous beading",
-              "correct": false,
-              "feedback": "That's R2."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "M1 includes exudate within 1 disc diameter of the fovea.",
+          "original": {
+            "q": "Which finding counts as maculopathy (M1)?",
+            "options": [
+              {
+                "text": "Exudate within 1 disc diameter of the fovea",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A single microaneurysm far from the macula",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cotton wool spot near the disc",
+                "correct": false,
+                "feedback": "Not M1."
+              },
+              {
+                "text": "Venous beading",
+                "correct": false,
+                "feedback": "That's R2."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x0064",
@@ -3107,30 +3517,57 @@
         },
         {
           "id": "syd-diabetes-x0065",
-          "q": "Which risk factor speeds progression?",
+          "q": "Two patients have had diabetes for 10 years. Which is more likely to progress?",
           "options": [
             {
-              "text": "Poor glucose control (high HbA1c)",
+              "text": "The one with an HbA1c of 85 mmol/mol and high BP",
               "correct": true,
-              "feedback": "Yes, also BP, lipids, pregnancy."
+              "feedback": "Yes."
             },
             {
-              "text": "Myopia",
+              "text": "The one with an HbA1c of 48 and normal BP",
               "correct": false,
-              "feedback": "Tends to protect."
+              "feedback": "Better controlled."
             },
             {
-              "text": "Good control",
+              "text": "They're equally likely",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Control matters."
             },
             {
-              "text": "Contact lens wear",
+              "text": "Neither will progress",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They can."
             }
           ],
-          "explanation": ""
+          "explanation": "Poor glucose control (high HbA1c), high blood pressure and raised lipids speed progression.",
+          "original": {
+            "q": "Which risk factor speeds progression?",
+            "options": [
+              {
+                "text": "Poor glucose control (high HbA1c)",
+                "correct": true,
+                "feedback": "Yes, also BP, lipids, pregnancy."
+              },
+              {
+                "text": "Myopia",
+                "correct": false,
+                "feedback": "Tends to protect."
+              },
+              {
+                "text": "Good control",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Contact lens wear",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x0066",
@@ -3161,30 +3598,57 @@
         },
         {
           "id": "syd-diabetes-x0067",
-          "q": "Which feature is pre-proliferative (R2)?",
+          "q": "Which finding would move a patient from R1 to R2?",
           "options": [
             {
-              "text": "Venous beading or IRMA",
+              "text": "Venous beading",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "New vessels",
-              "correct": false,
-              "feedback": "R3."
-            },
-            {
-              "text": "A single microaneurysm",
+              "text": "A few microaneurysms",
               "correct": false,
               "feedback": "R1."
             },
             {
-              "text": "Hard exudate at the fovea",
+              "text": "New vessels on the disc",
               "correct": false,
-              "feedback": "Maculopathy."
+              "feedback": "R3."
+            },
+            {
+              "text": "Normal fundus",
+              "correct": false,
+              "feedback": "R0."
             }
           ],
-          "explanation": ""
+          "explanation": "R2 (pre-proliferative) includes venous beading or reduplication, IRMA and multiple deep blot haemorrhages.",
+          "original": {
+            "q": "Which feature is pre-proliferative (R2)?",
+            "options": [
+              {
+                "text": "Venous beading or IRMA",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "New vessels",
+                "correct": false,
+                "feedback": "R3."
+              },
+              {
+                "text": "A single microaneurysm",
+                "correct": false,
+                "feedback": "R1."
+              },
+              {
+                "text": "Hard exudate at the fovea",
+                "correct": false,
+                "feedback": "Maculopathy."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x0068",
@@ -3674,30 +4138,57 @@
         },
         {
           "id": "syd-diabetes-x0378",
-          "q": "Which factor most reduces retinopathy risk?",
+          "q": "A newly diagnosed diabetic asks what they can do to protect their eyes. What's the most effective advice?",
           "options": [
             {
-              "text": "Good blood glucose and blood pressure control",
+              "text": "Control blood glucose and blood pressure, and attend screening",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "More screen time",
+              "text": "Take vitamin supplements",
+              "correct": false,
+              "feedback": "Not the key."
+            },
+            {
+              "text": "Wear blue-light glasses",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Glasses",
+              "text": "Avoid screens",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "Control helps."
             }
           ],
-          "explanation": ""
+          "explanation": "Good glucose and blood pressure control most reduce retinopathy risk.",
+          "original": {
+            "q": "Which factor most reduces retinopathy risk?",
+            "options": [
+              {
+                "text": "Good blood glucose and blood pressure control",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "More screen time",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Glasses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Control helps."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x0379",
@@ -3728,30 +4219,57 @@
         },
         {
           "id": "syd-diabetes-x03710",
-          "q": "Why might diabetic patients get blurred vision when glucose is high?",
+          "q": "A newly diagnosed diabetic's distance vision blurred over a month as her glucose was very high. What should you do about her glasses?",
           "options": [
             {
-              "text": "The lens swells, often causing a myopic shift",
+              "text": "Wait until glucose is stable before prescribing",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the lens swells and refraction shifts."
             },
             {
-              "text": "The cornea melts",
+              "text": "Prescribe the new myopic Rx straight away",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It may change again."
             },
             {
-              "text": "IOP falls",
+              "text": "Refer urgently for cataract",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not likely."
             },
             {
-              "text": "It never happens",
+              "text": "Nothing ever",
               "correct": false,
-              "feedback": "It can."
+              "feedback": "Prescribe once stable."
             }
           ],
-          "explanation": ""
+          "explanation": "High glucose can swell the lens, often causing a temporary myopic shift.",
+          "original": {
+            "q": "Why might diabetic patients get blurred vision when glucose is high?",
+            "options": [
+              {
+                "text": "The lens swells, often causing a myopic shift",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The cornea melts",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "IOP falls",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It never happens",
+                "correct": false,
+                "feedback": "It can."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diabetes-x03711",
@@ -4311,19 +4829,63 @@
       "id": "syd-hypertension",
       "title": "Hypertension and the eye",
       "summary": "High blood pressure damages retinal vessels over time (narrowing, AV nipping, wiring) and acutely in severe hypertension (haemorrhages, cotton wool spots, exudates, disc swelling). It also raises the risk of vein and artery occlusions.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Chronic changes: generalised and focal arteriolar narrowing, AV nipping, copper or silver wiring (arteriosclerosis).",
-        "Acute/severe changes: flame haemorrhages, cotton wool spots, hard exudates (sometimes a macular star), disc swelling.",
-        "Classifications: Keith–Wagener–Barker (grades 1–4) or the simpler Wong–Mitchell (mild, moderate, malignant).",
-        "Hypertension raises the risk of branch and central retinal vein occlusion, artery occlusion and ischaemic optic neuropathy.",
-        "NICE NG136: clinic BP of 180/120 mmHg or more with retinal haemorrhages or papilloedema needs same-day specialist assessment.",
-        "Measuring BP in practice (where trained and equipped) can support appropriate referral.",
-        "Often asymptomatic — your fundus findings may be the first clue."
+        {
+          "text": "Chronic changes: generalised and focal arteriolar narrowing, AV nipping, copper or silver wiring (arteriosclerosis).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Acute/severe changes: flame haemorrhages, cotton wool spots, hard exudates (sometimes a macular star), disc swelling.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Classifications: Keith–Wagener–Barker (grades 1–4) or the simpler Wong–Mitchell (mild, moderate, malignant).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Hypertension raises the risk of branch and central retinal vein occlusion, artery occlusion and ischaemic optic neuropathy.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "NICE NG136: clinic BP of 180/120 mmHg or more with retinal haemorrhages or papilloedema needs same-day specialist assessment.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Measuring BP in practice (where trained and equipped) can support appropriate referral.",
+          "priority": "clinical",
+          "module": "SyD"
+        },
+        {
+          "text": "Often asymptomatic — your fundus findings may be the first clue.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Missing bilateral disc swelling in a patient with very high BP (accelerated hypertension).",
-        "Calling AV nipping 'normal crossings'.",
-        "Forgetting to check BP and refer when you see hypertensive signs."
+        {
+          "text": "Missing bilateral disc swelling in a patient with very high BP (accelerated hypertension).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Calling AV nipping 'normal crossings'.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Forgetting to check BP and refer when you see hypertensive signs.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "av-nipping",
@@ -4338,11 +4900,15 @@
       "goDeeper": [
         {
           "heading": "Wong–Mitchell classification",
-          "body": "Mild: generalised or focal arteriolar narrowing, AV nicking, opacity ('wiring') of arteriolar walls. Moderate: haemorrhages (blot, dot or flame), microaneurysms, cotton wool spots, hard exudates. Malignant: moderate signs plus optic disc swelling. Moderate and malignant changes carry higher cardiovascular risk."
+          "body": "Mild: generalised or focal arteriolar narrowing, AV nicking, opacity ('wiring') of arteriolar walls. Moderate: haemorrhages (blot, dot or flame), microaneurysms, cotton wool spots, hard exudates. Malignant: moderate signs plus optic disc swelling. Moderate and malignant changes carry higher cardiovascular risk.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "What to do",
-          "body": "Mild signs: advise the patient to have their BP checked by their GP. Moderate signs: refer to the GP more promptly, ideally with a BP reading. Signs of malignant hypertension (disc swelling, widespread haemorrhages/exudates) with very high BP: same-day referral. Follow local guidance and record what you advised."
+          "body": "Mild signs: advise the patient to have their BP checked by their GP. Moderate signs: refer to the GP more promptly, ideally with a BP reading. Signs of malignant hypertension (disc swelling, widespread haemorrhages/exudates) with very high BP: same-day referral. Follow local guidance and record what you advised.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -4394,7 +4960,7 @@
         },
         {
           "id": "syd-hypertension-x0061",
-          "q": "Which is a chronic hypertensive retinal change?",
+          "q": "Which finding suggests long-standing rather than acute hypertension?",
           "options": [
             {
               "text": "AV nipping and arteriolar narrowing",
@@ -4402,34 +4968,174 @@
               "feedback": "Yes."
             },
             {
-              "text": "Disc swelling",
+              "text": "Flame haemorrhages",
               "correct": false,
               "feedback": "Acute/severe."
             },
             {
-              "text": "Flame haemorrhages",
-              "correct": false,
-              "feedback": "Acute."
-            },
-            {
               "text": "Cotton wool spots",
               "correct": false,
-              "feedback": "Acute."
+              "feedback": "Acute/severe."
+            },
+            {
+              "text": "Disc swelling",
+              "correct": false,
+              "feedback": "Malignant."
             }
           ],
-          "explanation": ""
+          "explanation": "Chronic changes: narrowing, AV nipping, copper or silver wiring. Acute: haemorrhages, cotton wool spots, exudates, disc swelling.",
+          "original": {
+            "q": "Which is a chronic hypertensive retinal change?",
+            "options": [
+              {
+                "text": "AV nipping and arteriolar narrowing",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Disc swelling",
+                "correct": false,
+                "feedback": "Acute/severe."
+              },
+              {
+                "text": "Flame haemorrhages",
+                "correct": false,
+                "feedback": "Acute."
+              },
+              {
+                "text": "Cotton wool spots",
+                "correct": false,
+                "feedback": "Acute."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0062",
-          "q": "What does copper or silver wiring indicate?",
+          "q": "An arteriole's light reflex is so broad it looks like copper wire. What does it reflect?",
           "options": [
             {
-              "text": "Arteriosclerosis",
+              "text": "Arteriosclerosis (thickened vessel walls)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Diabetes",
+              "text": "Acute haemorrhage",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal vessels",
+              "correct": false,
+              "feedback": "Not normal."
+            },
+            {
+              "text": "Venous occlusion",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Copper and silver wiring indicate arteriosclerosis.",
+          "original": {
+            "q": "What does copper or silver wiring indicate?",
+            "options": [
+              {
+                "text": "Arteriosclerosis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Diabetes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Normal vessels",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "syd-hypertension-x0063",
+          "q": "In practice, a patient's BP is 185/125 and you see retinal haemorrhages. What does NICE NG136 advise?",
+          "options": [
+            {
+              "text": "Same-day specialist assessment",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "GP review within a month",
+              "correct": false,
+              "feedback": "Too slow."
+            },
+            {
+              "text": "Repeat in a year",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Urgent."
+            }
+          ],
+          "explanation": "Clinic BP of 180/120 or more with retinal haemorrhages or papilloedema needs same-day specialist assessment.",
+          "original": {
+            "q": "BP of 185/125 with retinal haemorrhages needs",
+            "options": [
+              {
+                "text": "same-day specialist assessment (NICE NG136)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "routine GP referral",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "review in a year",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "syd-hypertension-x0064",
+          "q": "A patient with long-standing hypertension has sudden blurring with haemorrhages along one vein. What's most likely?",
+          "options": [
+            {
+              "text": "Branch retinal vein occlusion",
+              "correct": true,
+              "feedback": "Yes: hypertension is a risk factor."
+            },
+            {
+              "text": "Diabetic retinopathy",
+              "correct": false,
+              "feedback": "Not this pattern."
+            },
+            {
+              "text": "AMD",
               "correct": false,
               "feedback": "No."
             },
@@ -4437,68 +5143,36 @@
               "text": "Glaucoma",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Normal vessels",
-              "correct": false,
-              "feedback": "No."
             }
           ],
-          "explanation": ""
-        },
-        {
-          "id": "syd-hypertension-x0063",
-          "q": "BP of 185/125 with retinal haemorrhages needs",
-          "options": [
-            {
-              "text": "same-day specialist assessment (NICE NG136)",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "routine GP referral",
-              "correct": false,
-              "feedback": "Too slow."
-            },
-            {
-              "text": "review in a year",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "nothing",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "syd-hypertension-x0064",
-          "q": "Which occlusion is hypertension a risk factor for?",
-          "options": [
-            {
-              "text": "Retinal vein (and artery) occlusion",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "Lacrimal duct occlusion",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Punctal occlusion",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "None",
-              "correct": false,
-              "feedback": "It's a major risk factor."
-            }
-          ],
-          "explanation": ""
+          "explanation": "Hypertension raises the risk of branch and central retinal vein occlusion, and of artery occlusion.",
+          "original": {
+            "q": "Which occlusion is hypertension a risk factor for?",
+            "options": [
+              {
+                "text": "Retinal vein (and artery) occlusion",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Lacrimal duct occlusion",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Punctal occlusion",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "It's a major risk factor."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0065",
@@ -4610,30 +5284,57 @@
         },
         {
           "id": "syd-hypertension-x0069",
-          "q": "Which ocular condition is linked to hypertension?",
+          "q": "A hypertensive 68-year-old has sudden painless loss of the lower field in one eye with a swollen disc. Which condition fits?",
           "options": [
             {
-              "text": "Ischaemic optic neuropathy",
+              "text": "Non-arteritic ischaemic optic neuropathy",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Keratoconus",
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "Gradual."
+            },
+            {
+              "text": "Cataract",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Pinguecula",
+              "text": "Optic neuritis",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Presbyopia",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Usually younger and painful."
             }
           ],
-          "explanation": ""
+          "explanation": "Hypertension is linked with ischaemic optic neuropathy.",
+          "original": {
+            "q": "Which ocular condition is linked to hypertension?",
+            "options": [
+              {
+                "text": "Ischaemic optic neuropathy",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Keratoconus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Pinguecula",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0171",
@@ -4664,30 +5365,57 @@
         },
         {
           "id": "syd-hypertension-x0172",
-          "q": "Which BP level with retinal changes is a hypertensive emergency?",
+          "q": "Which BP reading with retinal haemorrhages is a hypertensive emergency?",
           "options": [
             {
-              "text": "180/120 mmHg or more",
+              "text": "182/122 mmHg",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: 180/120 or more."
             },
             {
-              "text": "120/80",
+              "text": "150/95 mmHg",
+              "correct": false,
+              "feedback": "Raised but not an emergency."
+            },
+            {
+              "text": "135/85 mmHg",
+              "correct": false,
+              "feedback": "Not an emergency."
+            },
+            {
+              "text": "120/80 mmHg",
               "correct": false,
               "feedback": "Normal."
-            },
-            {
-              "text": "140/90",
-              "correct": false,
-              "feedback": "Stage 1."
-            },
-            {
-              "text": "130/85",
-              "correct": false,
-              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "180/120 mmHg or more with retinal changes needs same-day assessment.",
+          "original": {
+            "q": "Which BP level with retinal changes is a hypertensive emergency?",
+            "options": [
+              {
+                "text": "180/120 mmHg or more",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "120/80",
+                "correct": false,
+                "feedback": "Normal."
+              },
+              {
+                "text": "140/90",
+                "correct": false,
+                "feedback": "Stage 1."
+              },
+              {
+                "text": "130/85",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0173",
@@ -4853,30 +5581,57 @@
         },
         {
           "id": "syd-hypertension-x0179",
-          "q": "Grade 4 hypertensive retinopathy (Keith-Wagener-Barker) includes",
+          "q": "Which finding places hypertensive retinopathy at Keith–Wagener–Barker grade 4?",
           "options": [
             {
-              "text": "papilloedema",
+              "text": "Papilloedema",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "AV nipping only",
+              "text": "AV nipping",
               "correct": false,
-              "feedback": "Lower."
+              "feedback": "Lower grade."
             },
             {
-              "text": "narrowing only",
+              "text": "Mild narrowing",
               "correct": false,
               "feedback": "Grade 1."
             },
             {
-              "text": "nothing",
+              "text": "Cotton wool spots alone",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Grade 3."
             }
           ],
-          "explanation": ""
+          "explanation": "KWB grade 4 includes papilloedema.",
+          "original": {
+            "q": "Grade 4 hypertensive retinopathy (Keith-Wagener-Barker) includes",
+            "options": [
+              {
+                "text": "papilloedema",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "AV nipping only",
+                "correct": false,
+                "feedback": "Lower."
+              },
+              {
+                "text": "narrowing only",
+                "correct": false,
+                "feedback": "Grade 1."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x01710",
@@ -4934,7 +5689,7 @@
         },
         {
           "id": "syd-hypertension-x0372",
-          "q": "Which retinal sign shows a vein compressed by an artery?",
+          "q": "Where an artery crosses a vein, the vein looks pinched and tapered on each side. What's this called?",
           "options": [
             {
               "text": "AV nipping",
@@ -4947,17 +5702,44 @@
               "feedback": "Arteriolar wall."
             },
             {
-              "text": "Microaneurysm",
+              "text": "Venous beading",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Diabetic."
             },
             {
-              "text": "Drusen",
+              "text": "Microaneurysm",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "AV nipping shows a vein compressed by a thickened artery at a crossing.",
+          "original": {
+            "q": "Which retinal sign shows a vein compressed by an artery?",
+            "options": [
+              {
+                "text": "AV nipping",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Copper wiring",
+                "correct": false,
+                "feedback": "Arteriolar wall."
+              },
+              {
+                "text": "Microaneurysm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Drusen",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0373",
@@ -5042,57 +5824,111 @@
         },
         {
           "id": "syd-hypertension-x0376",
-          "q": "In Wong-Mitchell, moderate retinopathy includes",
+          "q": "In the Wong–Mitchell classification, a fundus with flame haemorrhages and cotton wool spots but no disc swelling is",
           "options": [
             {
-              "text": "haemorrhages, microaneurysms, cotton wool spots or exudates",
+              "text": "moderate",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "disc swelling",
+              "text": "mild",
               "correct": false,
-              "feedback": "Malignant."
+              "feedback": "Only narrowing and nipping."
             },
             {
-              "text": "AV nipping only",
+              "text": "malignant",
               "correct": false,
-              "feedback": "Mild."
+              "feedback": "Needs disc swelling."
             },
             {
-              "text": "nothing",
-              "correct": false,
-              "feedback": "Signs."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "syd-hypertension-x0377",
-          "q": "Malignant hypertensive retinopathy includes",
-          "options": [
-            {
-              "text": "disc swelling",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "AV nipping only",
-              "correct": false,
-              "feedback": "Mild."
-            },
-            {
-              "text": "narrowing only",
-              "correct": false,
-              "feedback": "Mild."
-            },
-            {
-              "text": "drusen",
+              "text": "normal",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Moderate: haemorrhages, microaneurysms, cotton wool spots or exudates. Malignant: disc swelling.",
+          "original": {
+            "q": "In Wong-Mitchell, moderate retinopathy includes",
+            "options": [
+              {
+                "text": "haemorrhages, microaneurysms, cotton wool spots or exudates",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "disc swelling",
+                "correct": false,
+                "feedback": "Malignant."
+              },
+              {
+                "text": "AV nipping only",
+                "correct": false,
+                "feedback": "Mild."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Signs."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "syd-hypertension-x0377",
+          "q": "Which single finding moves Wong–Mitchell retinopathy to 'malignant'?",
+          "options": [
+            {
+              "text": "Disc swelling",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "AV nipping",
+              "correct": false,
+              "feedback": "Mild."
+            },
+            {
+              "text": "A cotton wool spot",
+              "correct": false,
+              "feedback": "Moderate."
+            },
+            {
+              "text": "Arteriolar narrowing",
+              "correct": false,
+              "feedback": "Mild."
+            }
+          ],
+          "explanation": "Malignant hypertensive retinopathy includes disc swelling.",
+          "original": {
+            "q": "Malignant hypertensive retinopathy includes",
+            "options": [
+              {
+                "text": "disc swelling",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "AV nipping only",
+                "correct": false,
+                "feedback": "Mild."
+              },
+              {
+                "text": "narrowing only",
+                "correct": false,
+                "feedback": "Mild."
+              },
+              {
+                "text": "drusen",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x0378",
@@ -5177,30 +6013,57 @@
         },
         {
           "id": "syd-hypertension-x03711",
-          "q": "Retinal arterial macroaneurysm is linked to",
+          "q": "An elderly patient has a round red swelling on a retinal artery with surrounding exudate. Which systemic condition should you check for?",
           "options": [
             {
-              "text": "hypertension",
+              "text": "Hypertension",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: retinal arterial macroaneurysm is linked to it."
             },
             {
-              "text": "myopia",
+              "text": "Diabetes only",
+              "correct": false,
+              "feedback": "Less linked."
+            },
+            {
+              "text": "Thyroid disease",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "glaucoma",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "dry eye",
+              "text": "Asthma",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinal arterial macroaneurysm is linked to hypertension.",
+          "original": {
+            "q": "Retinal arterial macroaneurysm is linked to",
+            "options": [
+              {
+                "text": "hypertension",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-hypertension-x03712",
@@ -5733,19 +6596,63 @@
       "id": "syd-clinical-data",
       "title": "Interpreting clinical data in PC-lab cases",
       "summary": "PC-lab cases give you a patient's history and a set of results to interpret. Work systematically: check the data makes sense, compare eyes and visits, decide what's abnormal, link the findings into a diagnosis, then decide management.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Read the whole case first; note age, symptoms, history and risk factors.",
-        "Check consistency: does the VA fit the refraction? Did pinhole improve it?",
-        "Compare right with left and today with previous visits — change and asymmetry are often the key.",
-        "Know your normal ranges (IOP, C/D, amplitude, fusional reserves, NIBUT).",
-        "Visual fields: check reliability first, then pattern (arcuate, altitudinal, hemianopic, quadrantic, central).",
-        "Bitemporal defects suggest chiasmal lesions; homonymous defects suggest lesions behind the chiasm.",
-        "Finish with a clear diagnosis, differentials, management and urgency."
+        {
+          "text": "Read the whole case first; note age, symptoms, history and risk factors.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Check consistency: does the VA fit the refraction? Did pinhole improve it?",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Compare right with left and today with previous visits — change and asymmetry are often the key.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Know your normal ranges (IOP, C/D, amplitude, fusional reserves, NIBUT).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Visual fields: check reliability first, then pattern (arcuate, altitudinal, hemianopic, quadrantic, central).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Bitemporal defects suggest chiasmal lesions; homonymous defects suggest lesions behind the chiasm.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Finish with a clear diagnosis, differentials, management and urgency.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Interpreting an unreliable field as real.",
-        "Ignoring the 'boring' data (e.g. pinhole VA) that explains the case.",
-        "Giving a diagnosis without management and urgency."
+        {
+          "text": "Interpreting an unreliable field as real.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Ignoring the 'boring' data (e.g. pinhole VA) that explains the case.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Giving a diagnosis without management and urgency.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "visual-pathway-defects",
@@ -5762,15 +6669,21 @@
       "goDeeper": [
         {
           "heading": "Visual field reliability",
-          "body": "Before reading any defect, look at fixation losses, false positives and false negatives. High false positives (trigger-happy patient) make fields look better than they are; high false negatives can mimic defects. Commonly used cut-offs (e.g. false positives above about 15% with SITA) mark a test as unreliable — check the values your module uses. Repeat unreliable fields."
+          "body": "Before reading any defect, look at fixation losses, false positives and false negatives. High false positives (trigger-happy patient) make fields look better than they are; high false negatives can mimic defects. Commonly used cut-offs (e.g. false positives above about 15% with SITA) mark a test as unreliable — check the values your module uses. Repeat unreliable fields.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Field indices",
-          "body": "Mean deviation (MD): overall depression compared with age-matched normals (more negative = worse). Pattern standard deviation (PSD): how irregular the loss is (higher = more localised defects). Glaucoma hemifield test (GHT) compares superior and inferior field: 'outside normal limits' is suspicious. Look at the pattern deviation plot to see localised loss beyond general depression (e.g. cataract)."
+          "body": "Mean deviation (MD): overall depression compared with age-matched normals (more negative = worse). Pattern standard deviation (PSD): how irregular the loss is (higher = more localised defects). Glaucoma hemifield test (GHT) compares superior and inferior field: 'outside normal limits' is suspicious. Look at the pattern deviation plot to see localised loss beyond general depression (e.g. cataract).",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Structuring your answer",
-          "body": "1) Summary of the key abnormal findings. 2) Most likely diagnosis and why. 3) Differentials and what rules them out. 4) Management: what you'd do, who you'd refer to and how urgently. 5) What you'd tell the patient. This structure works for almost every case."
+          "body": "1) Summary of the key abnormal findings. 2) Most likely diagnosis and why. 3) Differentials and what rules them out. 4) Management: what you'd do, who you'd refer to and how urgently. 5) What you'd tell the patient. This structure works for almost every case.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -5877,30 +6790,57 @@
         },
         {
           "id": "syd-clinical-data-x0062",
-          "q": "What should you check first on a visual field printout?",
+          "q": "A field printout shows a dense superior arcuate defect, with 35% false positives. What do you do first?",
           "options": [
             {
-              "text": "Reliability",
+              "text": "Treat the field as unreliable and repeat it",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: check reliability first."
             },
             {
-              "text": "The diagnosis",
+              "text": "Refer for glaucoma",
               "correct": false,
-              "feedback": "Later."
+              "feedback": "Check reliability first."
             },
             {
-              "text": "The greyscale",
+              "text": "Ignore the defect",
               "correct": false,
-              "feedback": "After reliability."
+              "feedback": "Repeat it."
             },
             {
-              "text": "The date",
+              "text": "Diagnose RP",
               "correct": false,
-              "feedback": "Not first."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Always check reliability before reading any defect.",
+          "original": {
+            "q": "What should you check first on a visual field printout?",
+            "options": [
+              {
+                "text": "Reliability",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The diagnosis",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "The greyscale",
+                "correct": false,
+                "feedback": "After reliability."
+              },
+              {
+                "text": "The date",
+                "correct": false,
+                "feedback": "Not first."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-clinical-data-x0063",
@@ -5931,30 +6871,57 @@
         },
         {
           "id": "syd-clinical-data-x0064",
-          "q": "Why compare right with left and today with previous visits?",
+          "q": "A patient's CD ratio is 0.6 in both eyes. Which extra fact would most raise concern?",
           "options": [
             {
-              "text": "Change and asymmetry are often the key",
+              "text": "It was 0.4 two years ago",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: change over time."
             },
             {
-              "text": "To fill the record",
+              "text": "Their discs are large",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's reassuring."
             },
             {
-              "text": "It's quicker",
+              "text": "They're myopic",
               "correct": false,
-              "feedback": "Not the point."
+              "feedback": "Not by itself."
             },
             {
-              "text": "Patients like it",
+              "text": "Their IOP is 15",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not by itself."
             }
           ],
-          "explanation": ""
+          "explanation": "Change and asymmetry, between eyes and over time, are often the key.",
+          "original": {
+            "q": "Why compare right with left and today with previous visits?",
+            "options": [
+              {
+                "text": "Change and asymmetry are often the key",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To fill the record",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It's quicker",
+                "correct": false,
+                "feedback": "Not the point."
+              },
+              {
+                "text": "Patients like it",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-clinical-data-x0065",
@@ -5985,30 +6952,57 @@
         },
         {
           "id": "syd-clinical-data-x0066",
-          "q": "How should a clinical data question be finished?",
+          "q": "You've identified the likely diagnosis in a clinical data question. What else completes a good answer?",
           "options": [
             {
-              "text": "Diagnosis, differentials, management and urgency",
+              "text": "Differentials, management and urgency",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Just the diagnosis",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "More is needed."
             },
             {
-              "text": "Just the Rx",
+              "text": "Only the diagnosis in capitals",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "No."
             },
             {
-              "text": "'Refer'",
+              "text": "A list of every test",
               "correct": false,
-              "feedback": "Say how and how urgently."
+              "feedback": "Not useful."
             }
           ],
-          "explanation": ""
+          "explanation": "Finish with a clear diagnosis, differentials, management and urgency.",
+          "original": {
+            "q": "How should a clinical data question be finished?",
+            "options": [
+              {
+                "text": "Diagnosis, differentials, management and urgency",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Just the diagnosis",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Just the Rx",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "'Refer'",
+                "correct": false,
+                "feedback": "Say how and how urgently."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-clinical-data-x0067",
@@ -7141,19 +8135,63 @@
       "id": "syd-referral",
       "title": "Referral urgency and writing referrals",
       "summary": "Choosing the right urgency and writing a clear referral gets the patient seen by the right person at the right time. The College of Optometrists' Clinical Management Guidelines give urgency for most conditions; follow local pathways for where to send it.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Urgency categories (College CMGs) include emergency (same day), urgent (within about a week) and routine — check the exact definitions you're taught.",
-        "Emergency examples: retinal detachment, acute angle closure, suspected GCA, microbial keratitis, chemical injury (irrigate first), papilloedema.",
-        "Urgent examples: suspected wet AMD (via fast-track pathway), anterior uveitis (often same/next day), new unexplained field defects.",
-        "Routine examples: cataract affecting lifestyle, suspected COAG/OHT, stable chronic conditions.",
-        "Where to: eye casualty, hospital eye service via the local pathway, GP, or community schemes — depends on the condition and local services.",
-        "Referral letter contents: patient details, reason and urgency, history, relevant findings with numbers (VA, IOP, fields), what you've told the patient, your details and signature.",
-        "Tell the patient why, how urgently, and what to do if things get worse; record the referral."
+        {
+          "text": "Urgency categories (College CMGs) include emergency (same day), urgent (within about a week) and routine — check the exact definitions you're taught.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Emergency examples: retinal detachment, acute angle closure, suspected GCA, microbial keratitis, chemical injury (irrigate first), papilloedema.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Urgent examples: suspected wet AMD (via fast-track pathway), anterior uveitis (often same/next day), new unexplained field defects.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Routine examples: cataract affecting lifestyle, suspected COAG/OHT, stable chronic conditions.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Where to: eye casualty, hospital eye service via the local pathway, GP, or community schemes — depends on the condition and local services.",
+          "priority": "clinical",
+          "module": "SyD"
+        },
+        {
+          "text": "Referral letter contents: patient details, reason and urgency, history, relevant findings with numbers (VA, IOP, fields), what you've told the patient, your details and signature.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Tell the patient why, how urgently, and what to do if things get worse; record the referral.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Under-calling urgency for GCA or retinal detachment.",
-        "Writing vague letters ('?glaucoma, please see').",
-        "Not telling the patient what to expect or what to do if symptoms worsen."
+        {
+          "text": "Under-calling urgency for GCA or retinal detachment.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Writing vague letters ('?glaucoma, please see').",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Not telling the patient what to expect or what to do if symptoms worsen.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "diagram": {
         "id": "referral-urgency",
@@ -7167,15 +8205,21 @@
       "goDeeper": [
         {
           "heading": "A good referral letter",
-          "body": "Dear Doctor / Colleague, Re: [name, DOB, address, NHS number if known]. Reason: e.g. 'Suspected COAG left eye — routine.' History: symptoms, relevant medical history and medication. Findings: VA, IOP with method and time, disc description/C/D, fields (with printout), other relevant results. Action taken and advice given. Your name, GOC number, practice details, date, signature. Keep it factual and concise."
+          "body": "Dear Doctor / Colleague, Re: [name, DOB, address, NHS number if known]. Reason: e.g. 'Suspected COAG left eye — routine.' History: symptoms, relevant medical history and medication. Findings: VA, IOP with method and time, disc description/C/D, fields (with printout), other relevant results. Action taken and advice given. Your name, GOC number, practice details, date, signature. Keep it factual and concise.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "GOS 18 and local pathways",
-          "body": "In England, the GOS 18 form is used to refer NHS patients from a sight test; many areas now use electronic referral systems and community schemes (e.g. glaucoma repeat measures, cataract direct referral, minor eye conditions services). Know your local pathway — and as a student, always involve your supervisor."
+          "body": "In England, the GOS 18 form is used to refer NHS patients from a sight test; many areas now use electronic referral systems and community schemes (e.g. glaucoma repeat measures, cataract direct referral, minor eye conditions services). Know your local pathway — and as a student, always involve your supervisor.",
+          "priority": "clinical",
+          "module": "SyD"
         },
         {
           "heading": "Safety-netting",
-          "body": "Tell the patient what to watch for and what to do if it happens: 'If you notice a curtain coming over your vision, more flashes or a shower of floaters, go to eye casualty straight away.' Write down what you told them."
+          "body": "Tell the patient what to watch for and what to do if it happens: 'If you notice a curtain coming over your vision, more flashes or a shower of floaters, go to eye casualty straight away.' Write down what you told them.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -7255,30 +8299,57 @@
         },
         {
           "id": "syd-referral-x0061",
-          "q": "Which needs emergency (same-day) referral?",
+          "q": "Which patient needs same-day emergency referral?",
           "options": [
             {
-              "text": "Acute angle closure",
+              "text": "A patient with a painful red eye, haloes and IOP of 52 mmHg",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: acute angle closure."
             },
             {
-              "text": "Stable cataract",
+              "text": "A patient with stable dry AMD",
               "correct": false,
               "feedback": "Routine."
             },
             {
-              "text": "Suspected COAG",
+              "text": "A patient with a cataract affecting driving",
               "correct": false,
               "feedback": "Routine."
             },
             {
-              "text": "Blepharitis",
+              "text": "A patient with mild blepharitis",
               "correct": false,
-              "feedback": "Manage in practice."
+              "feedback": "Manage."
             }
           ],
-          "explanation": ""
+          "explanation": "Emergencies include retinal detachment, acute angle closure, GCA, microbial keratitis and chemical injury.",
+          "original": {
+            "q": "Which needs emergency (same-day) referral?",
+            "options": [
+              {
+                "text": "Acute angle closure",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Stable cataract",
+                "correct": false,
+                "feedback": "Routine."
+              },
+              {
+                "text": "Suspected COAG",
+                "correct": false,
+                "feedback": "Routine."
+              },
+              {
+                "text": "Blepharitis",
+                "correct": false,
+                "feedback": "Manage in practice."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0062",
@@ -7336,88 +8407,169 @@
         },
         {
           "id": "syd-referral-x0064",
-          "q": "Which is routine?",
+          "q": "A 78-year-old has a cataract that's making night driving and reading hard. VA is 6/12. How urgently should you refer?",
           "options": [
             {
-              "text": "Cataract affecting lifestyle",
+              "text": "Routinely, if she wants surgery",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Retinal detachment",
+              "text": "Same day",
               "correct": false,
-              "feedback": "Emergency."
+              "feedback": "Not an emergency."
             },
             {
-              "text": "Suspected GCA",
+              "text": "Never, until VA is 6/60",
               "correct": false,
-              "feedback": "Emergency."
+              "feedback": "No VA threshold."
             },
             {
-              "text": "Microbial keratitis",
+              "text": "Within 24 hours",
               "correct": false,
-              "feedback": "Emergency."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Refer cataract routinely when it affects quality of life and the patient wants surgery.",
+          "original": {
+            "q": "Which is routine?",
+            "options": [
+              {
+                "text": "Cataract affecting lifestyle",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Retinal detachment",
+                "correct": false,
+                "feedback": "Emergency."
+              },
+              {
+                "text": "Suspected GCA",
+                "correct": false,
+                "feedback": "Emergency."
+              },
+              {
+                "text": "Microbial keratitis",
+                "correct": false,
+                "feedback": "Emergency."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0065",
-          "q": "What should a referral letter include?",
+          "q": "Which line would most improve a referral letter that says 'Please see, ?glaucoma'?",
           "options": [
             {
-              "text": "Patient details, reason and urgency, history and findings with numbers",
+              "text": "'IOP R 32, L 18 mmHg (NCT, 10:30); CD R 0.7, L 0.4; superior arcuate defect R'",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: findings with numbers."
             },
             {
-              "text": "Only the patient's name",
+              "text": "'Patient is nice'",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Not useful."
             },
             {
-              "text": "Your opinion of the GP",
+              "text": "'Urgent!!'",
+              "correct": false,
+              "feedback": "No detail."
+            },
+            {
+              "text": "'See attached' with nothing attached",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Nothing written",
-              "correct": false,
-              "feedback": "It should be written."
             }
           ],
-          "explanation": ""
+          "explanation": "Include patient details, reason and urgency, history and relevant findings with numbers.",
+          "original": {
+            "q": "What should a referral letter include?",
+            "options": [
+              {
+                "text": "Patient details, reason and urgency, history and findings with numbers",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the patient's name",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Your opinion of the GP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing written",
+                "correct": false,
+                "feedback": "It should be written."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0066",
-          "q": "What should you tell the patient?",
+          "q": "You refer a patient urgently. What must you tell them?",
           "options": [
             {
-              "text": "Why, how urgently, and what to do if it gets worse",
+              "text": "Why you're referring, how urgent it is, and what to do if things get worse",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing, to avoid worry",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They need to know."
             },
             {
-              "text": "Only the hospital name",
+              "text": "Only the hospital address",
               "correct": false,
               "feedback": "Not enough."
             },
             {
-              "text": "That it's nothing",
+              "text": "That it's probably nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Don't falsely reassure."
             }
           ],
-          "explanation": ""
+          "explanation": "Tell the patient why, how urgently, and what to do if it gets worse; record the referral.",
+          "original": {
+            "q": "What should you tell the patient?",
+            "options": [
+              {
+                "text": "Why, how urgently, and what to do if it gets worse",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only the hospital name",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "That it's nothing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0067",
-          "q": "Where would you send a painful red eye with reduced vision today?",
+          "q": "A patient has a painful red eye with reduced vision this morning. Where should they go today?",
           "options": [
             {
               "text": "Eye casualty",
@@ -7425,22 +8577,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "GP next month",
+              "text": "Their GP next week",
               "correct": false,
               "feedback": "Too slow."
             },
             {
-              "text": "Routine hospital list",
+              "text": "A routine clinic",
               "correct": false,
               "feedback": "Too slow."
             },
             {
-              "text": "No referral",
+              "text": "A pharmacist",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not for reduced vision and pain."
             }
           ],
-          "explanation": ""
+          "explanation": "Painful red eyes with reduced vision need same-day assessment in eye casualty.",
+          "original": {
+            "q": "Where would you send a painful red eye with reduced vision today?",
+            "options": [
+              {
+                "text": "Eye casualty",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "GP next month",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "Routine hospital list",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "No referral",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0068",
@@ -7525,30 +8704,57 @@
         },
         {
           "id": "syd-referral-x0173",
-          "q": "Which is a routine referral?",
+          "q": "Which of these is routine rather than urgent?",
           "options": [
             {
-              "text": "Cataract affecting lifestyle",
+              "text": "A stable epiretinal membrane with mild distortion",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "RD",
+              "text": "Suspected wet AMD",
               "correct": false,
-              "feedback": "Emergency."
+              "feedback": "Fast-track."
             },
             {
-              "text": "GCA",
-              "correct": false,
-              "feedback": "Emergency."
-            },
-            {
-              "text": "Papilloedema",
+              "text": "Anterior uveitis",
               "correct": false,
               "feedback": "Urgent."
+            },
+            {
+              "text": "A new third nerve palsy with a dilated pupil",
+              "correct": false,
+              "feedback": "Emergency."
             }
           ],
-          "explanation": ""
+          "explanation": "Routine referrals include stable chronic conditions such as cataract or a mild ERM.",
+          "original": {
+            "q": "Which is a routine referral?",
+            "options": [
+              {
+                "text": "Cataract affecting lifestyle",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "RD",
+                "correct": false,
+                "feedback": "Emergency."
+              },
+              {
+                "text": "GCA",
+                "correct": false,
+                "feedback": "Emergency."
+              },
+              {
+                "text": "Papilloedema",
+                "correct": false,
+                "feedback": "Urgent."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x0174",
@@ -8389,30 +9595,57 @@
         },
         {
           "id": "syd-referral-x03825",
-          "q": "Which is an 'urgent' (not same-day) referral in many schemes?",
+          "q": "A 75-year-old has new distortion and a small macular haemorrhage. How should you refer?",
           "options": [
             {
-              "text": "Suspected wet AMD (fast-track)",
+              "text": "Via the wet AMD fast-track pathway (urgent, not same-day emergency)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Acute angle closure",
+              "text": "Routine",
               "correct": false,
-              "feedback": "Same day."
+              "feedback": "Too slow."
             },
             {
-              "text": "Chemical injury",
+              "text": "Emergency eye casualty tonight",
               "correct": false,
-              "feedback": "Immediate."
+              "feedback": "Fast-track is usual."
             },
             {
-              "text": "RD with macula on",
+              "text": "No referral",
               "correct": false,
-              "feedback": "Same day."
+              "feedback": "Refer."
             }
           ],
-          "explanation": ""
+          "explanation": "Suspected wet AMD goes through the fast-track pathway.",
+          "original": {
+            "q": "Which is an 'urgent' (not same-day) referral in many schemes?",
+            "options": [
+              {
+                "text": "Suspected wet AMD (fast-track)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Acute angle closure",
+                "correct": false,
+                "feedback": "Same day."
+              },
+              {
+                "text": "Chemical injury",
+                "correct": false,
+                "feedback": "Immediate."
+              },
+              {
+                "text": "RD with macula on",
+                "correct": false,
+                "feedback": "Same day."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x03826",
@@ -8470,30 +9703,57 @@
         },
         {
           "id": "syd-referral-x03828",
-          "q": "Which needs immediate first aid before referral?",
+          "q": "A patient arrives with bleach splashed in one eye. What do you do before anything else?",
           "options": [
             {
-              "text": "Chemical injury: irrigate",
+              "text": "Irrigate immediately and copiously",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Cataract",
+              "text": "Measure VA",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Irrigate first."
             },
             {
-              "text": "Stable naevus",
+              "text": "Phone the hospital",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Irrigate first."
             },
             {
-              "text": "Dry AMD",
+              "text": "Instil anaesthetic and wait",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Irrigate now."
             }
           ],
-          "explanation": ""
+          "explanation": "Chemical injury: irrigate first, then refer.",
+          "original": {
+            "q": "Which needs immediate first aid before referral?",
+            "options": [
+              {
+                "text": "Chemical injury: irrigate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Stable naevus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Dry AMD",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-referral-x03829",
@@ -8567,27 +9827,71 @@
       "id": "syd-red-eye",
       "title": "The non-traumatic red eye",
       "summary": "Sorting a red eye by history and a few signs: one eye or both, pain, photophobia, vision, discharge, pupil, cornea and anterior chamber.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Unilateral red eye: think infection, acute glaucoma or iritis. Bilateral: conjunctivitis is more likely.",
-        "Conjunctivitis: viral is watery with cold symptoms and follicles; allergic is watery and itchy with puffy lids and papillae; bacterial is mucoid and crusty with lids stuck together.",
-        "Papillae: raised, red, central vessel, on the palpebral conjunctiva (allergy, bacteria, contact lenses). Follicles: pale domes with vessels around them, lower fornix (viral).",
-        "Corneal ulcer: pain, photophobia, watering and reduced VA with staining and an infiltrate. Contact lens wear and smoking point to infection; systemic illness such as rheumatoid arthritis, ankylosing spondylitis or inflammatory bowel disease points to a non-infectious cause.",
-        "Episcleritis: mild pain, VA normal, vessels move over the sclera. Scleritis: moderate to severe pain, VA reduced, vessels do not move, with intraocular inflammation.",
-        "Endophthalmitis: sudden painful red eye with cells, flare and hypopyon."
+        {
+          "text": "Unilateral red eye: think infection, acute glaucoma or iritis. Bilateral: conjunctivitis is more likely.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Conjunctivitis: viral is watery with cold symptoms and follicles; allergic is watery and itchy with puffy lids and papillae; bacterial is mucoid and crusty with lids stuck together.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Papillae: raised, red, central vessel, on the palpebral conjunctiva (allergy, bacteria, contact lenses). Follicles: pale domes with vessels around them, lower fornix (viral).",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Corneal ulcer: pain, photophobia, watering and reduced VA with staining and an infiltrate. Contact lens wear and smoking point to infection; systemic illness such as rheumatoid arthritis, ankylosing spondylitis or inflammatory bowel disease points to a non-infectious cause.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Episcleritis: mild pain, VA normal, vessels move over the sclera. Scleritis: moderate to severe pain, VA reduced, vessels do not move, with intraocular inflammation.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Endophthalmitis: sudden painful red eye with cells, flare and hypopyon.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Not noticing what the record leaves out: questions that weren't asked and tests that weren't done.",
-        "Giving one referral urgency for a condition whose urgency depends on the findings.",
-        "Mixing up papillae and follicles: follicles go with viral infection."
+        {
+          "text": "Not noticing what the record leaves out: questions that weren't asked and tests that weren't done.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Giving one referral urgency for a condition whose urgency depends on the findings.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Mixing up papillae and follicles: follicles go with viral infection.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Pupil clues",
-          "body": "A distorted pupil suggests iritis. An oval, mid-dilated pupil suggests angle closure. Photophobia also points towards iritis or acute angle closure."
+          "body": "A distorted pupil suggests iritis. An oval, mid-dilated pupil suggests angle closure. Photophobia also points towards iritis or acute angle closure.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Marginal keratitis and recurrent erosion",
-          "body": "In the tutorial table, marginal keratitis has no pain or photophobia and normal VA, with staining and a stromal infiltrate. Recurrent corneal erosion gives pain and photophobia with staining but no infiltrate."
+          "body": "In the tutorial table, marginal keratitis has no pain or photophobia and normal VA, with staining and a stromal infiltrate. Recurrent corneal erosion gives pain and photophobia with staining but no infiltrate.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -8692,30 +9996,57 @@
         },
         {
           "id": "syd-red-eye-x0172",
-          "q": "Sectoral redness that blanches with phenylephrine suggests",
+          "q": "Phenylephrine drops make sectoral redness fade within minutes, and the patient has only mild ache. What's most likely?",
           "options": [
             {
-              "text": "episcleritis",
+              "text": "Episcleritis",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "scleritis",
+              "text": "Scleritis",
+              "correct": false,
+              "feedback": "Deep vessels don't blanch; severe pain."
+            },
+            {
+              "text": "Anterior uveitis",
+              "correct": false,
+              "feedback": "Ciliary flush, photophobia."
+            },
+            {
+              "text": "Subconjunctival haemorrhage",
               "correct": false,
               "feedback": "Doesn't blanch."
-            },
-            {
-              "text": "conjunctivitis",
-              "correct": false,
-              "feedback": "Diffuse."
-            },
-            {
-              "text": "uveitis",
-              "correct": false,
-              "feedback": "Flush."
             }
           ],
-          "explanation": ""
+          "explanation": "Episcleral vessels blanch with phenylephrine; scleral vessels don't.",
+          "original": {
+            "q": "Sectoral redness that blanches with phenylephrine suggests",
+            "options": [
+              {
+                "text": "episcleritis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "scleritis",
+                "correct": false,
+                "feedback": "Doesn't blanch."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "Diffuse."
+              },
+              {
+                "text": "uveitis",
+                "correct": false,
+                "feedback": "Flush."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0173",
@@ -8746,30 +10077,57 @@
         },
         {
           "id": "syd-red-eye-x0174",
-          "q": "A hazy cornea with a fixed mid-dilated pupil suggests",
+          "q": "A patient's cornea is hazy and the pupil is mid-dilated and doesn't react. What should you measure straight away?",
           "options": [
             {
-              "text": "acute angle closure",
+              "text": "IOP",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: suspect acute angle closure."
             },
             {
-              "text": "conjunctivitis",
+              "text": "Colour vision",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "episcleritis",
+              "text": "Stereo",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "dry eye",
+              "text": "Amplitude",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A hazy cornea with a fixed mid-dilated pupil suggests acute angle closure.",
+          "original": {
+            "q": "A hazy cornea with a fixed mid-dilated pupil suggests",
+            "options": [
+              {
+                "text": "acute angle closure",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "episcleritis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0175",
@@ -8989,30 +10347,57 @@
         },
         {
           "id": "syd-red-eye-x0063",
-          "q": "Which corneal ulcer is more likely in a contact lens wearer who smokes?",
+          "q": "A contact lens wearer who smokes has a painful red eye with a central corneal infiltrate. How should you treat it?",
           "options": [
             {
-              "text": "Infectious",
+              "text": "As infectious keratitis until proven otherwise: stop lenses, refer same day",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Non-infectious",
+              "text": "As a sterile infiltrate: review next week",
               "correct": false,
-              "feedback": "That's linked to systemic disease."
+              "feedback": "Risky."
             },
             {
-              "text": "Marginal keratitis",
+              "text": "As dry eye: lubricants",
               "correct": false,
-              "feedback": "Painless here."
+              "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "As allergy: antihistamines",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lens wear and smoking raise the risk of infectious keratitis.",
+          "original": {
+            "q": "Which corneal ulcer is more likely in a contact lens wearer who smokes?",
+            "options": [
+              {
+                "text": "Infectious",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Non-infectious",
+                "correct": false,
+                "feedback": "That's linked to systemic disease."
+              },
+              {
+                "text": "Marginal keratitis",
+                "correct": false,
+                "feedback": "Painless here."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0064",
@@ -9070,57 +10455,111 @@
         },
         {
           "id": "syd-red-eye-x0066",
-          "q": "Follicles are found mainly in the",
+          "q": "Where should you look to find follicles in suspected viral conjunctivitis?",
           "options": [
             {
-              "text": "lower fornix",
+              "text": "The lower fornix and lower palpebral conjunctiva",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "upper tarsal plate",
-              "correct": false,
-              "feedback": "That's papillae."
-            },
-            {
-              "text": "cornea",
+              "text": "The cornea",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "iris",
+              "text": "The iris",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "The upper bulbar conjunctiva only",
+              "correct": false,
+              "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "Follicles are found mainly in the lower fornix.",
+          "original": {
+            "q": "Follicles are found mainly in the",
+            "options": [
+              {
+                "text": "lower fornix",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "upper tarsal plate",
+                "correct": false,
+                "feedback": "That's papillae."
+              },
+              {
+                "text": "cornea",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "iris",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0067",
-          "q": "Recurrent corneal erosion in the tutorial table shows",
+          "q": "A patient has pain and photophobia on waking, with staining but no infiltrate. What best fits?",
           "options": [
             {
-              "text": "pain and photophobia with staining but no infiltrate",
+              "text": "Recurrent corneal erosion",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "no symptoms",
+              "text": "Microbial keratitis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Would show an infiltrate."
             },
             {
-              "text": "a large infiltrate",
+              "text": "Marginal keratitis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Has an infiltrate."
             },
             {
-              "text": "hypopyon",
+              "text": "Acute angle closure",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Different signs."
             }
           ],
-          "explanation": ""
+          "explanation": "In the tutorial table, recurrent erosion shows pain and photophobia with staining but no infiltrate.",
+          "original": {
+            "q": "Recurrent corneal erosion in the tutorial table shows",
+            "options": [
+              {
+                "text": "pain and photophobia with staining but no infiltrate",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "no symptoms",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "a large infiltrate",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "hypopyon",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0381",
@@ -9205,20 +10644,15 @@
         },
         {
           "id": "syd-red-eye-x0384",
-          "q": "Which systemic disease is linked with scleritis?",
+          "q": "A patient with severe, boring eye pain and violaceous redness asks what's linked to it. Which systemic condition should you ask about?",
           "options": [
             {
               "text": "Rheumatoid arthritis",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: scleritis."
             },
             {
-              "text": "Myopia",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Hay fever",
+              "text": "Asthma",
               "correct": false,
               "feedback": "No."
             },
@@ -9226,9 +10660,41 @@
               "text": "Migraine",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "Diabetes",
+              "correct": false,
+              "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "Scleritis is linked with rheumatoid arthritis and other autoimmune diseases.",
+          "original": {
+            "q": "Which systemic disease is linked with scleritis?",
+            "options": [
+              {
+                "text": "Rheumatoid arthritis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Myopia",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hay fever",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Migraine",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x0385",
@@ -9583,30 +11049,57 @@
         },
         {
           "id": "syd-red-eye-x03818",
-          "q": "Which history makes bacterial keratitis more likely?",
+          "q": "Which history should most raise suspicion of bacterial keratitis in a painful red eye?",
           "options": [
             {
-              "text": "Contact lens wear",
+              "text": "Sleeping in soft contact lenses",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Hay fever",
               "correct": false,
+              "feedback": "Allergy."
+            },
+            {
+              "text": "A recent cold",
+              "correct": false,
+              "feedback": "Viral conjunctivitis."
+            },
+            {
+              "text": "Reading a lot",
+              "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Recent cold",
-              "correct": false,
-              "feedback": "Viral."
-            },
-            {
-              "text": "Old age alone",
-              "correct": false,
-              "feedback": "Not mainly."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lens wear, especially overnight, is the main risk factor for bacterial keratitis.",
+          "original": {
+            "q": "Which history makes bacterial keratitis more likely?",
+            "options": [
+              {
+                "text": "Contact lens wear",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Hay fever",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Recent cold",
+                "correct": false,
+                "feedback": "Viral."
+              },
+              {
+                "text": "Old age alone",
+                "correct": false,
+                "feedback": "Not mainly."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-red-eye-x03819",
@@ -9947,26 +11440,68 @@
       "id": "syd-lids-orbit",
       "title": "Lids and orbit: lagophthalmos and proptosis",
       "summary": "Incomplete lid closure and a bulging eye: the causes to tell apart, the tests that matter, and how urgent each one is.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "For lagophthalmos the needed tests are history, VA, cover test, motility and external examination; pupils, refraction, internal examination and IOP aren't needed.",
-        "Ectropion: urgent (2 weeks) if the cornea stains; routine if the cornea is normal.",
-        "Myasthenia gravis: intermittent binocular diplopia that varies with gaze, fatigable ptosis worse on sustained upgaze, lagophthalmos and surface staining.",
-        "Carotid-cavernous fistula: abnormal artery-to-cavernous-sinus connection (trauma or spontaneous, e.g. Ehlers-Danlos). Bruit, pulsating proptosis, brick-red vessels, chemosis, cranial nerve palsies; can cause angle-closure glaucoma or optic neuropathy.",
-        "Orbital cellulitis: infection spreading from sinuses, teeth or ears; sudden unilateral proptosis, lid oedema and redness, painful restricted movement, diplopia, RAPD. Can spread to the brain or cavernous sinus.",
-        "Thyroid eye disease: expansion of orbital fat and connective tissue, lid retraction, lagophthalmos, proptosis and incomitant deviation; red, staining eye when active, white when chronic."
+        {
+          "text": "For lagophthalmos the needed tests are history, VA, cover test, motility and external examination; pupils, refraction, internal examination and IOP aren't needed.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Ectropion: urgent (2 weeks) if the cornea stains; routine if the cornea is normal.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Myasthenia gravis: intermittent binocular diplopia that varies with gaze, fatigable ptosis worse on sustained upgaze, lagophthalmos and surface staining.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Carotid-cavernous fistula: abnormal artery-to-cavernous-sinus connection (trauma or spontaneous, e.g. Ehlers-Danlos). Bruit, pulsating proptosis, brick-red vessels, chemosis, cranial nerve palsies; can cause angle-closure glaucoma or optic neuropathy.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Orbital cellulitis: infection spreading from sinuses, teeth or ears; sudden unilateral proptosis, lid oedema and redness, painful restricted movement, diplopia, RAPD. Can spread to the brain or cavernous sinus.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Thyroid eye disease: expansion of orbital fat and connective tissue, lid retraction, lagophthalmos, proptosis and incomitant deviation; red, staining eye when active, white when chronic.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Forgetting that pinhole failing to improve VA rules out uncorrected refractive error.",
-        "Giving one urgency for conditions whose urgency depends on findings (ectropion, orbital tumour, TED)."
+        {
+          "text": "Forgetting that if a pinhole doesn't improve VA, uncorrected refractive error is unlikely to be the main cause.",
+          "priority": "exam-core",
+          "module": "SyD",
+          "limits": "A pinhole may not fully improve very high or irregular errors, and it can make vision worse in some media opacities, so treat the result as a guide.",
+          "needsReview": true
+        },
+        {
+          "text": "Giving one urgency for conditions whose urgency depends on findings (ectropion, orbital tumour, TED).",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Why a fistula affects so much",
-          "body": "High-pressure arterial blood enters the cavernous sinus and pushes back through the superior ophthalmic vein, so orbital veins become dilated and tortuous (chemosis, proptosis). The swollen sinus also presses on cranial nerves III, IV, V1, V2 and VI as they pass through."
+          "body": "High-pressure arterial blood enters the cavernous sinus and pushes back through the superior ophthalmic vein, so orbital veins become dilated and tortuous (chemosis, proptosis). The swollen sinus also presses on cranial nerves III, IV, V1, V2 and VI as they pass through.",
+          "priority": "exam-core",
+          "module": "SyD"
         },
         {
           "heading": "Orbital tumour urgency",
-          "body": "In the tutorial table: urgent within 1 week if there is blurred vision, limited movement, pain, red eye or corneal staining with ptosis, lagophthalmos and proptosis; routine if VA, comfort and the ocular surface are normal."
+          "body": "In the tutorial table: urgent within 1 week if there is blurred vision, limited movement, pain, red eye or corneal staining with ptosis, lagophthalmos and proptosis; routine if VA, comfort and the ocular surface are normal.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -10017,30 +11552,57 @@
         },
         {
           "id": "syd-lids-orbit-x0171",
-          "q": "The commonest cause of proptosis in adults is",
+          "q": "A 45-year-old woman has staring eyes, lid retraction and mild proptosis in both eyes. What's the most likely cause?",
           "options": [
             {
-              "text": "thyroid eye disease",
+              "text": "Thyroid eye disease",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the commonest cause of proptosis in adults."
             },
             {
-              "text": "orbital tumour",
+              "text": "Orbital cellulitis",
+              "correct": false,
+              "feedback": "Unilateral and painful."
+            },
+            {
+              "text": "Carotid-cavernous fistula",
+              "correct": false,
+              "feedback": "Bruit, usually one eye."
+            },
+            {
+              "text": "Orbital lymphoma",
               "correct": false,
               "feedback": "Less common."
-            },
-            {
-              "text": "orbital cellulitis",
-              "correct": false,
-              "feedback": "Less common."
-            },
-            {
-              "text": "fistula",
-              "correct": false,
-              "feedback": "Rare."
             }
           ],
-          "explanation": ""
+          "explanation": "Thyroid eye disease is the commonest cause of proptosis in adults.",
+          "original": {
+            "q": "The commonest cause of proptosis in adults is",
+            "options": [
+              {
+                "text": "thyroid eye disease",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "orbital tumour",
+                "correct": false,
+                "feedback": "Less common."
+              },
+              {
+                "text": "orbital cellulitis",
+                "correct": false,
+                "feedback": "Less common."
+              },
+              {
+                "text": "fistula",
+                "correct": false,
+                "feedback": "Rare."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0172",
@@ -10260,30 +11822,57 @@
         },
         {
           "id": "syd-lids-orbit-x01710",
-          "q": "What's the danger in orbital cellulitis?",
+          "q": "Why is orbital cellulitis an emergency rather than an urgent referral?",
           "options": [
             {
-              "text": "Spread to the brain or cavernous sinus",
+              "text": "It can spread to the cavernous sinus or brain",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "None",
-              "correct": false,
-              "feedback": "Serious."
-            },
-            {
-              "text": "Cataract",
+              "text": "It causes cataract",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Myopia",
+              "text": "It's always bilateral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Usually unilateral."
+            },
+            {
+              "text": "It's contagious",
+              "correct": false,
+              "feedback": "Not the reason."
             }
           ],
-          "explanation": ""
+          "explanation": "Orbital cellulitis can spread to the cavernous sinus or brain.",
+          "original": {
+            "q": "What's the danger in orbital cellulitis?",
+            "options": [
+              {
+                "text": "Spread to the brain or cavernous sinus",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Serious."
+              },
+              {
+                "text": "Cataract",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Myopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0061",
@@ -10314,37 +11903,64 @@
         },
         {
           "id": "syd-lids-orbit-x0062",
-          "q": "Myasthenia gravis lid sign?",
+          "q": "A patient's ptosis gets worse after looking up for a minute. What does it suggest?",
           "options": [
             {
-              "text": "Fatigable ptosis, worse on sustained upgaze",
+              "text": "Myasthenia gravis",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: fatigable ptosis."
             },
             {
-              "text": "Lid retraction",
+              "text": "Horner's syndrome",
               "correct": false,
-              "feedback": "Thyroid eye disease."
+              "feedback": "Not fatigable."
             },
             {
-              "text": "Sudden complete ptosis with a dilated pupil",
+              "text": "Aponeurotic ptosis",
               "correct": false,
-              "feedback": "Third nerve palsy."
+              "feedback": "Stable."
             },
             {
-              "text": "Ectropion",
+              "text": "Third nerve palsy",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not fatigable."
             }
           ],
-          "explanation": ""
+          "explanation": "Fatigable ptosis, worse on sustained upgaze, suggests myasthenia gravis.",
+          "original": {
+            "q": "Myasthenia gravis lid sign?",
+            "options": [
+              {
+                "text": "Fatigable ptosis, worse on sustained upgaze",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Lid retraction",
+                "correct": false,
+                "feedback": "Thyroid eye disease."
+              },
+              {
+                "text": "Sudden complete ptosis with a dilated pupil",
+                "correct": false,
+                "feedback": "Third nerve palsy."
+              },
+              {
+                "text": "Ectropion",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0063",
-          "q": "Which proptosis cause has a bruit?",
+          "q": "A patient has a red, bulging eye and you can hear a whooshing sound with your stethoscope over the eye. What's most likely?",
           "options": [
             {
-              "text": "Carotid-cavernous fistula",
+              "text": "A carotid-cavernous fistula",
               "correct": true,
               "feedback": "Yes."
             },
@@ -10359,70 +11975,151 @@
               "feedback": "No bruit."
             },
             {
-              "text": "Lagophthalmos",
+              "text": "A chalazion",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A carotid-cavernous fistula causes proptosis with a bruit.",
+          "original": {
+            "q": "Which proptosis cause has a bruit?",
+            "options": [
+              {
+                "text": "Carotid-cavernous fistula",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Thyroid eye disease",
+                "correct": false,
+                "feedback": "No bruit."
+              },
+              {
+                "text": "Orbital cellulitis",
+                "correct": false,
+                "feedback": "No bruit."
+              },
+              {
+                "text": "Lagophthalmos",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0064",
-          "q": "Lid retraction with proptosis suggests",
+          "q": "A patient has lid lag on downgaze and visible sclera above the cornea. What should you suspect?",
           "options": [
             {
-              "text": "thyroid eye disease",
+              "text": "Thyroid eye disease",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "myasthenia",
+              "text": "Myasthenia",
               "correct": false,
-              "feedback": "Ptosis instead."
+              "feedback": "Ptosis."
             },
             {
-              "text": "ectropion",
+              "text": "Horner's",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Ptosis."
             },
             {
-              "text": "blepharitis",
+              "text": "Bell's palsy",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Lagophthalmos."
             }
           ],
-          "explanation": ""
+          "explanation": "Lid retraction with proptosis suggests thyroid eye disease.",
+          "original": {
+            "q": "Lid retraction with proptosis suggests",
+            "options": [
+              {
+                "text": "thyroid eye disease",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myasthenia",
+                "correct": false,
+                "feedback": "Ptosis instead."
+              },
+              {
+                "text": "ectropion",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "blepharitis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0065",
-          "q": "Orbital cellulitis usually spreads from the",
+          "q": "A child with recent sinusitis develops a swollen, red, painful eye with reduced movement. What's the likely source?",
           "options": [
             {
-              "text": "sinuses, teeth or ears",
+              "text": "Spread from the sinuses (orbital cellulitis)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "cornea",
+              "text": "A bee sting",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not with sinusitis."
             },
             {
-              "text": "lacrimal gland only",
+              "text": "An allergic reaction",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not with reduced movement."
             },
             {
-              "text": "brain",
+              "text": "A chalazion",
               "correct": false,
-              "feedback": "It can spread to the brain."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Orbital cellulitis usually spreads from the sinuses, teeth or ears.",
+          "original": {
+            "q": "Orbital cellulitis usually spreads from the",
+            "options": [
+              {
+                "text": "sinuses, teeth or ears",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "cornea",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "lacrimal gland only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "brain",
+                "correct": false,
+                "feedback": "It can spread to the brain."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0066",
-          "q": "Which cranial nerves pass through the cavernous sinus?",
+          "q": "A cavernous sinus thrombosis could affect which nerves?",
           "options": [
             {
               "text": "III, IV, V1, V2 and VI",
@@ -10430,7 +12127,7 @@
               "feedback": "Yes."
             },
             {
-              "text": "I and II",
+              "text": "II only",
               "correct": false,
               "feedback": "No."
             },
@@ -10440,12 +12137,39 @@
               "feedback": "No."
             },
             {
-              "text": "IX and X",
+              "text": "III only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "More are involved."
             }
           ],
-          "explanation": ""
+          "explanation": "The cavernous sinus contains CN III, IV, V1, V2 and VI (and the internal carotid artery).",
+          "original": {
+            "q": "Which cranial nerves pass through the cavernous sinus?",
+            "options": [
+              {
+                "text": "III, IV, V1, V2 and VI",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "I and II",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "VII and VIII",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "IX and X",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x0067",
@@ -10746,30 +12470,57 @@
         },
         {
           "id": "syd-lids-orbit-x0389",
-          "q": "Ptosis that worsens through the day suggests",
+          "q": "Which ptosis pattern is most typical of aponeurotic (age-related) ptosis rather than myasthenia?",
           "options": [
             {
-              "text": "myasthenia gravis",
+              "text": "Stable through the day with a high lid crease",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "aponeurotic ptosis",
+              "text": "Worse in the evening",
               "correct": false,
-              "feedback": "Stable."
+              "feedback": "Myasthenia."
             },
             {
-              "text": "Horner's",
+              "text": "Worse after sustained upgaze",
               "correct": false,
-              "feedback": "Mild, stable."
+              "feedback": "Myasthenia."
             },
             {
-              "text": "congenital",
+              "text": "Varying with diplopia",
               "correct": false,
-              "feedback": "Stable."
+              "feedback": "Myasthenia."
             }
           ],
-          "explanation": ""
+          "explanation": "Myasthenic ptosis is fatigable and worsens through the day; aponeurotic ptosis is stable.",
+          "original": {
+            "q": "Ptosis that worsens through the day suggests",
+            "options": [
+              {
+                "text": "myasthenia gravis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "aponeurotic ptosis",
+                "correct": false,
+                "feedback": "Stable."
+              },
+              {
+                "text": "Horner's",
+                "correct": false,
+                "feedback": "Mild, stable."
+              },
+              {
+                "text": "congenital",
+                "correct": false,
+                "feedback": "Stable."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x03810",
@@ -11205,30 +12956,57 @@
         },
         {
           "id": "syd-lids-orbit-x03826",
-          "q": "Bilateral proptosis is most often due to",
+          "q": "A patient has proptosis in both eyes. Which cause is most likely?",
           "options": [
             {
-              "text": "thyroid eye disease",
+              "text": "Thyroid eye disease",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "orbital tumour",
+              "text": "Orbital cellulitis",
               "correct": false,
-              "feedback": "Usually unilateral."
+              "feedback": "Usually one eye."
             },
             {
-              "text": "cellulitis",
+              "text": "An orbital tumour",
               "correct": false,
-              "feedback": "Unilateral."
+              "feedback": "Usually one eye."
             },
             {
-              "text": "fracture",
+              "text": "A blow-out fracture",
               "correct": false,
               "feedback": "Enophthalmos."
             }
           ],
-          "explanation": ""
+          "explanation": "Bilateral proptosis is most often due to thyroid eye disease.",
+          "original": {
+            "q": "Bilateral proptosis is most often due to",
+            "options": [
+              {
+                "text": "thyroid eye disease",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "orbital tumour",
+                "correct": false,
+                "feedback": "Usually unilateral."
+              },
+              {
+                "text": "cellulitis",
+                "correct": false,
+                "feedback": "Unilateral."
+              },
+              {
+                "text": "fracture",
+                "correct": false,
+                "feedback": "Enophthalmos."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-lids-orbit-x03827",
@@ -11347,23 +13125,65 @@
       "id": "syd-diplopia",
       "title": "Diplopia",
       "summary": "Working out the cause of double vision: which muscles and nerves are involved, how each cause looks, and which need urgent action.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "SO4 LR6 (rest)3: superior oblique is supplied by IV, lateral rectus by VI, all other extraocular muscles by III.",
-        "Sixth nerve palsy: sudden horizontal diplopia worse in the affected direction, esotropia, limited abduction.",
-        "Fourth nerve palsy: vertical or oblique diplopia, hypertropia, head tilted towards the opposite shoulder.",
-        "Third nerve palsy: oblique diplopia, exotropia and hypotropia, limited adduction, elevation and depression, possibly ptosis and a poorly reacting dilated pupil.",
-        "Internuclear ophthalmoplegia: poor adduction of one eye with nystagmus of the abducting eye; linked to multiple sclerosis.",
-        "Decompensated phoria: intermittent diplopia worse when tired; the cover test shows poor recovery or breakdown to a tropia; everything else normal.",
-        "In the tutorial, palsies and gaze palsy come with swollen discs, which changes urgency and whether dilation is safe."
+        {
+          "text": "SO4 LR6 (rest)3: superior oblique is supplied by IV, lateral rectus by VI, all other extraocular muscles by III.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Sixth nerve palsy: sudden horizontal diplopia worse in the affected direction, esotropia, limited abduction.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Fourth nerve palsy: vertical or oblique diplopia, hypertropia, head tilted towards the opposite shoulder.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Third nerve palsy: oblique diplopia, exotropia and hypotropia, limited adduction, elevation and depression, possibly ptosis and a poorly reacting dilated pupil.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Internuclear ophthalmoplegia: poor adduction of one eye with nystagmus of the abducting eye; linked to multiple sclerosis.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Decompensated phoria: intermittent diplopia worse when tired; the cover test shows poor recovery or breakdown to a tropia; everything else normal.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "In the tutorial, palsies and gaze palsy come with swollen discs, which changes urgency and whether dilation is safe.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Missing that diplopia varies with gaze direction: that points to a palsy, not a decompensated phoria.",
-        "Dilating without thinking about whether it's safe in a patient with a possible neurological problem."
+        {
+          "text": "Missing that diplopia varies with gaze direction: that points to a palsy, not a decompensated phoria.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Dilating without thinking about whether it's safe in a patient with a possible neurological problem.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Gaze palsy",
-          "body": "Sudden horizontal diplopia with limited movement of both eyes towards one side, unusual headaches and neurological symptoms, with swollen discs: think of an intracranial cause such as an aneurysm, and refer as an emergency."
+          "body": "Sudden horizontal diplopia with limited movement of both eyes towards one side, unusual headaches and neurological symptoms, with swollen discs: think of an intracranial cause such as an aneurysm, and refer as an emergency.",
+          "priority": "exam-core",
+          "module": "SyD"
         }
       ],
       "flashcards": [
@@ -11734,30 +13554,57 @@
         },
         {
           "id": "syd-diplopia-x0063",
-          "q": "A sixth nerve palsy causes",
+          "q": "A patient has horizontal double vision that's worse looking to the right, and the right eye won't move out fully. Which nerve is affected?",
           "options": [
             {
-              "text": "horizontal diplopia, esotropia and limited abduction",
+              "text": "Right CN VI",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "vertical diplopia",
+              "text": "Right CN III",
               "correct": false,
-              "feedback": "Fourth nerve."
+              "feedback": "Would affect adduction, elevation, depression."
             },
             {
-              "text": "exotropia",
+              "text": "Left CN VI",
               "correct": false,
-              "feedback": "Third nerve."
+              "feedback": "Would limit left abduction."
             },
             {
-              "text": "ptosis",
+              "text": "Right CN IV",
               "correct": false,
-              "feedback": "Third nerve."
+              "feedback": "Vertical."
             }
           ],
-          "explanation": ""
+          "explanation": "Sixth nerve palsy: horizontal diplopia worse towards the affected side, esotropia and limited abduction.",
+          "original": {
+            "q": "A sixth nerve palsy causes",
+            "options": [
+              {
+                "text": "horizontal diplopia, esotropia and limited abduction",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "vertical diplopia",
+                "correct": false,
+                "feedback": "Fourth nerve."
+              },
+              {
+                "text": "exotropia",
+                "correct": false,
+                "feedback": "Third nerve."
+              },
+              {
+                "text": "ptosis",
+                "correct": false,
+                "feedback": "Third nerve."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diplopia-x0064",
@@ -11788,30 +13635,57 @@
         },
         {
           "id": "syd-diplopia-x0065",
-          "q": "A third nerve palsy causes",
+          "q": "A patient's eye sits down and out, with a droopy lid and poor elevation, depression and adduction. Which nerve is affected?",
           "options": [
             {
-              "text": "exotropia and hypotropia, limited adduction, elevation and depression",
+              "text": "CN III",
               "correct": true,
-              "feedback": "Yes, sometimes with ptosis and a dilated pupil."
+              "feedback": "Yes."
             },
             {
-              "text": "esotropia",
+              "text": "CN IV",
               "correct": false,
-              "feedback": "Sixth."
+              "feedback": "Superior oblique only."
             },
             {
-              "text": "hypertropia only",
+              "text": "CN VI",
               "correct": false,
-              "feedback": "Fourth."
+              "feedback": "Lateral rectus only."
             },
             {
-              "text": "nothing visible",
+              "text": "CN VII",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Facial muscles."
             }
           ],
-          "explanation": ""
+          "explanation": "Third nerve palsy: exotropia and hypotropia, limited adduction, elevation and depression, possibly ptosis and a dilated pupil.",
+          "original": {
+            "q": "A third nerve palsy causes",
+            "options": [
+              {
+                "text": "exotropia and hypotropia, limited adduction, elevation and depression",
+                "correct": true,
+                "feedback": "Yes, sometimes with ptosis and a dilated pupil."
+              },
+              {
+                "text": "esotropia",
+                "correct": false,
+                "feedback": "Sixth."
+              },
+              {
+                "text": "hypertropia only",
+                "correct": false,
+                "feedback": "Fourth."
+              },
+              {
+                "text": "nothing visible",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diplopia-x0066",
@@ -11842,30 +13716,57 @@
         },
         {
           "id": "syd-diplopia-x0067",
-          "q": "Intermittent diplopia worse when tired, with full movements, suggests",
+          "q": "A student has occasional double vision when tired after studying; eye movements are full. What's most likely?",
           "options": [
             {
-              "text": "a decompensated phoria",
+              "text": "A decompensated phoria",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "a third nerve palsy",
+              "text": "A sixth nerve palsy",
               "correct": false,
-              "feedback": "Constant, limited movement."
+              "feedback": "Movements would be limited."
             },
             {
-              "text": "a sixth nerve palsy",
+              "text": "Myasthenia",
               "correct": false,
-              "feedback": "Limited abduction."
+              "feedback": "Possible, but this pattern fits a phoria."
             },
             {
-              "text": "a gaze palsy",
+              "text": "A third nerve palsy",
               "correct": false,
-              "feedback": "Limited movement."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Intermittent diplopia worse when tired, with full movements, suggests a decompensated phoria.",
+          "original": {
+            "q": "Intermittent diplopia worse when tired, with full movements, suggests",
+            "options": [
+              {
+                "text": "a decompensated phoria",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "a third nerve palsy",
+                "correct": false,
+                "feedback": "Constant, limited movement."
+              },
+              {
+                "text": "a sixth nerve palsy",
+                "correct": false,
+                "feedback": "Limited abduction."
+              },
+              {
+                "text": "a gaze palsy",
+                "correct": false,
+                "feedback": "Limited movement."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diplopia-x0068",
@@ -11923,30 +13824,57 @@
         },
         {
           "id": "syd-diplopia-x0391",
-          "q": "Which muscle is the main abductor of the eye?",
+          "q": "A patient can't move their right eye outwards past the midline. Which muscle is weak?",
           "options": [
             {
-              "text": "Lateral rectus",
+              "text": "Right lateral rectus",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the main abductor."
             },
             {
-              "text": "Medial rectus",
+              "text": "Right medial rectus",
               "correct": false,
               "feedback": "Adducts."
             },
             {
-              "text": "Superior oblique",
+              "text": "Left lateral rectus",
               "correct": false,
-              "feedback": "Depresses in adduction."
+              "feedback": "Wrong eye."
             },
             {
-              "text": "Inferior rectus",
+              "text": "Right superior oblique",
               "correct": false,
-              "feedback": "Depresses."
+              "feedback": "Mainly depresses and intorts."
             }
           ],
-          "explanation": ""
+          "explanation": "The lateral rectus is the main abductor (CN VI).",
+          "original": {
+            "q": "Which muscle is the main abductor of the eye?",
+            "options": [
+              {
+                "text": "Lateral rectus",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Medial rectus",
+                "correct": false,
+                "feedback": "Adducts."
+              },
+              {
+                "text": "Superior oblique",
+                "correct": false,
+                "feedback": "Depresses in adduction."
+              },
+              {
+                "text": "Inferior rectus",
+                "correct": false,
+                "feedback": "Depresses."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diplopia-x0392",
@@ -12193,30 +14121,57 @@
         },
         {
           "id": "syd-diplopia-x03911",
-          "q": "INO in a young adult most often suggests",
+          "q": "A 25-year-old woman has poor adduction of the right eye with nystagmus of the left eye looking left. What should you suspect?",
           "options": [
             {
-              "text": "multiple sclerosis",
+              "text": "Internuclear ophthalmoplegia, often from multiple sclerosis",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "stroke",
+              "text": "A sixth nerve palsy",
               "correct": false,
-              "feedback": "Older adults."
+              "feedback": "Abduction would be limited."
             },
             {
-              "text": "diabetes",
+              "text": "A third nerve palsy",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Other signs."
             },
             {
-              "text": "myopia",
+              "text": "A decompensated phoria",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "INO in a young adult most often suggests multiple sclerosis.",
+          "original": {
+            "q": "INO in a young adult most often suggests",
+            "options": [
+              {
+                "text": "multiple sclerosis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "stroke",
+                "correct": false,
+                "feedback": "Older adults."
+              },
+              {
+                "text": "diabetes",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "myopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-diplopia-x03912",
@@ -12740,16 +14695,48 @@
       "id": "syd-headache-pain",
       "title": "Headache and pain in or around the eye",
       "summary": "Most headaches aren't visual, but eye pain or headache can signal angle closure, iritis, orbital disease or a neurological problem.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Follow up any headache with LOFTSEA, even if the patient thinks it isn't visual.",
-        "Visual headaches are linked to eye use, mild to moderate, dull and above or behind the eyes; only a small proportion of headaches are visual.",
-        "Pupil clues in eye pain: distorted in iritis; oval and mid-dilated in acute angle closure.",
-        "Painful proptosis suggests orbital cellulitis or an orbital tumour.",
-        "Headache types met in the tutorial include chronic daily headache (CDH) and episodic tension-type headache (ETTH)."
+        {
+          "text": "Follow up any headache with LOFTSEA, even if the patient thinks it isn't visual.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Visual headaches are linked to eye use, mild to moderate, dull and above or behind the eyes; only a small proportion of headaches are visual.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Pupil clues in eye pain: distorted in iritis; oval and mid-dilated in acute angle closure.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Painful proptosis suggests orbital cellulitis or an orbital tumour.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Headache types met in the tutorial include chronic daily headache (CDH) and episodic tension-type headache (ETTH).",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Assuming a headache is visual because the patient needs glasses: look for features that don't fit and for neurological signs.",
-        "Skipping tests the case needs, such as pupils and IOP, in a patient with eye pain."
+        {
+          "text": "Assuming a headache is visual because the patient needs glasses: look for features that don't fit and for neurological signs.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Skipping tests the case needs, such as pupils and IOP, in a patient with eye pain.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "flashcards": [
         {
@@ -13065,57 +15052,111 @@
         },
         {
           "id": "syd-headache-pain-x0061",
-          "q": "Which headache feature suggests a visual cause?",
+          "q": "Which headache description most suggests a visual cause?",
           "options": [
             {
-              "text": "Mild, dull, linked to eye use, above or behind the eyes",
+              "text": "A mild, dull ache above the eyes after reading",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Sudden severe 'thunderclap'",
+              "text": "A sudden severe headache with neck stiffness",
               "correct": false,
               "feedback": "Red flag."
             },
             {
-              "text": "Worse lying down with swollen discs",
-              "correct": false,
-              "feedback": "Raised pressure."
-            },
-            {
-              "text": "With fever and neck stiffness",
+              "text": "A headache worse lying down with vomiting",
               "correct": false,
               "feedback": "Red flag."
+            },
+            {
+              "text": "Scalp tenderness and jaw pain in a 75-year-old",
+              "correct": false,
+              "feedback": "GCA."
             }
           ],
-          "explanation": ""
+          "explanation": "Visual headaches are mild to moderate, dull, linked to eye use, above or behind the eyes.",
+          "original": {
+            "q": "Which headache feature suggests a visual cause?",
+            "options": [
+              {
+                "text": "Mild, dull, linked to eye use, above or behind the eyes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Sudden severe 'thunderclap'",
+                "correct": false,
+                "feedback": "Red flag."
+              },
+              {
+                "text": "Worse lying down with swollen discs",
+                "correct": false,
+                "feedback": "Raised pressure."
+              },
+              {
+                "text": "With fever and neck stiffness",
+                "correct": false,
+                "feedback": "Red flag."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-headache-pain-x0062",
-          "q": "An oval, mid-dilated pupil with a painful red eye suggests",
+          "q": "A patient with a red eye and headache has an oval, mid-dilated pupil. What's your next step?",
           "options": [
             {
-              "text": "acute angle closure",
+              "text": "Measure IOP straight away and refer as an emergency if raised",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: suspect angle closure."
             },
             {
-              "text": "iritis",
+              "text": "Prescribe glasses",
               "correct": false,
-              "feedback": "Small or distorted."
+              "feedback": "No."
             },
             {
-              "text": "conjunctivitis",
+              "text": "Reassure",
               "correct": false,
-              "feedback": "Normal pupil."
+              "feedback": "No."
             },
             {
-              "text": "episcleritis",
+              "text": "Book a routine review",
               "correct": false,
-              "feedback": "Normal pupil."
+              "feedback": "Too slow."
             }
           ],
-          "explanation": ""
+          "explanation": "An oval, mid-dilated pupil with a painful red eye suggests acute angle closure.",
+          "original": {
+            "q": "An oval, mid-dilated pupil with a painful red eye suggests",
+            "options": [
+              {
+                "text": "acute angle closure",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "iritis",
+                "correct": false,
+                "feedback": "Small or distorted."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "Normal pupil."
+              },
+              {
+                "text": "episcleritis",
+                "correct": false,
+                "feedback": "Normal pupil."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-headache-pain-x0063",
@@ -13173,30 +15214,57 @@
         },
         {
           "id": "syd-headache-pain-x0065",
-          "q": "What do CDH and ETTH stand for?",
+          "q": "A patient has had a mild band-like headache on and off for years, with no red flags. Which category fits best?",
           "options": [
             {
-              "text": "Chronic daily headache and episodic tension-type headache",
+              "text": "Episodic tension-type headache (ETTH)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Corneal disease and eye trauma",
+              "text": "Chronic daily headache (CDH)",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's most days."
             },
             {
-              "text": "Cluster and ocular headache",
+              "text": "Thunderclap headache",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Sudden and severe."
             },
             {
-              "text": "None",
+              "text": "Cluster headache",
               "correct": false,
-              "feedback": "They're headache types."
+              "feedback": "Severe, around one eye."
             }
           ],
-          "explanation": ""
+          "explanation": "The tutorial uses CDH (chronic daily headache) and ETTH (episodic tension-type headache).",
+          "original": {
+            "q": "What do CDH and ETTH stand for?",
+            "options": [
+              {
+                "text": "Chronic daily headache and episodic tension-type headache",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Corneal disease and eye trauma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cluster and ocular headache",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "They're headache types."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-headache-pain-x0066",
@@ -13281,30 +15349,57 @@
         },
         {
           "id": "syd-headache-pain-x0069",
-          "q": "Which tests should never be skipped with eye pain?",
+          "q": "A patient has eye pain. Which two tests should you never skip?",
           "options": [
             {
               "text": "Pupils and IOP",
               "correct": true,
-              "feedback": "Yes, plus slit lamp."
+              "feedback": "Yes."
             },
             {
-              "text": "Colour vision only",
+              "text": "Colour vision and stereo",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Not the priority."
             },
             {
-              "text": "Near add",
+              "text": "Amplitude and facility",
               "correct": false,
-              "feedback": "Not relevant."
+              "feedback": "Not the priority."
             },
             {
-              "text": "Keratometry",
+              "text": "PD and vertex distance",
               "correct": false,
-              "feedback": "Not essential."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pupils and IOP can reveal angle closure, uveitis and nerve problems.",
+          "original": {
+            "q": "Which tests should never be skipped with eye pain?",
+            "options": [
+              {
+                "text": "Pupils and IOP",
+                "correct": true,
+                "feedback": "Yes, plus slit lamp."
+              },
+              {
+                "text": "Colour vision only",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Near add",
+                "correct": false,
+                "feedback": "Not relevant."
+              },
+              {
+                "text": "Keratometry",
+                "correct": false,
+                "feedback": "Not essential."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-headache-pain-x0391",
@@ -13740,30 +15835,57 @@
         },
         {
           "id": "syd-headache-pain-x03917",
-          "q": "Which ocular cause of headache is an emergency?",
+          "q": "Which headache with eye signs needs emergency referral?",
           "options": [
             {
-              "text": "Acute angle closure",
+              "text": "Headache with a red eye, haloes and IOP of 48 mmHg",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: acute angle closure."
             },
             {
-              "text": "Uncorrected low hyperopia",
+              "text": "A mild headache after screen use",
               "correct": false,
-              "feedback": "Not an emergency."
+              "feedback": "Visual."
             },
             {
-              "text": "Dry eye",
+              "text": "A headache that improves with new glasses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Visual."
             },
             {
-              "text": "Presbyopia",
+              "text": "A tension headache with normal eyes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not an eye emergency."
             }
           ],
-          "explanation": ""
+          "explanation": "Acute angle closure is an ocular emergency that can present with headache.",
+          "original": {
+            "q": "Which ocular cause of headache is an emergency?",
+            "options": [
+              {
+                "text": "Acute angle closure",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Uncorrected low hyperopia",
+                "correct": false,
+                "feedback": "Not an emergency."
+              },
+              {
+                "text": "Dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-headache-pain-x03918",
@@ -14126,17 +16248,53 @@
       "id": "syd-field-loss",
       "title": "Visual field loss: causes and urgency",
       "summary": "When a patient reports losing part of their vision, the history, IOP, fundus and field pattern separate retinal, optic nerve and brain causes, and set the urgency.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "SyD"
+      },
       "keyPoints": [
-        "Retinal detachment: vision lost like a curtain, IOP under 10 mmHg, tobacco dust (Shafer's sign), pale elevated retina. Macula-on vs macula-off changes urgency.",
-        "Acute optic neuropathy: sudden blur and unusual headaches with a hyperaemic, swollen disc. Progressive forms are gradual, with a swollen or a pale disc.",
-        "Wet AMD: sudden one-eyed blur with drusen, haemorrhage, grey-green membrane, exudates and oedema. Dry AMD: routine referral for low vision help if the patient wants it.",
-        "Glaucoma: gradual, painless, repeatable field loss that respects the horizontal midline.",
-        "Brain disease: transient bilateral blur, headaches worse lying down, flashes, neurological symptoms, swollen discs, and homonymous loss respecting the vertical midline.",
-        "TIA: seconds of blur or sparkling lights with neurological symptoms (vertigo, weakness, numbness); everything else normal."
+        {
+          "text": "Retinal detachment: vision lost like a curtain, IOP under 10 mmHg, tobacco dust (Shafer's sign), pale elevated retina. Macula-on vs macula-off changes urgency.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Acute optic neuropathy: sudden blur and unusual headaches with a hyperaemic, swollen disc. Progressive forms are gradual, with a swollen or a pale disc.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Wet AMD: sudden one-eyed blur with drusen, haemorrhage, grey-green membrane, exudates and oedema. Dry AMD: routine referral for low vision help if the patient wants it.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Glaucoma: gradual, painless, repeatable field loss that respects the horizontal midline.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Brain disease: transient bilateral blur, headaches worse lying down, flashes, neurological symptoms, swollen discs, and homonymous loss respecting the vertical midline.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "TIA: seconds of blur or sparkling lights with neurological symptoms (vertigo, weakness, numbness); everything else normal.",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "examTraps": [
-        "Missing low IOP as a clue to retinal detachment.",
-        "Giving a single urgency for conditions where it depends on the findings (e.g. macula on or off, how recent wet AMD is)."
+        {
+          "text": "Missing low IOP as a clue to retinal detachment.",
+          "priority": "exam-core",
+          "module": "SyD"
+        },
+        {
+          "text": "Giving a single urgency for conditions where it depends on the findings (e.g. macula on or off, how recent wet AMD is).",
+          "priority": "exam-core",
+          "module": "SyD"
+        }
       ],
       "flashcards": [
         {
@@ -14452,30 +16610,57 @@
         },
         {
           "id": "syd-field-loss-x0061",
-          "q": "Vision loss like a curtain coming down suggests",
+          "q": "A patient says a shadow has crept up from below over the last day in one eye. What should you suspect, and how urgently should you act?",
           "options": [
             {
-              "text": "retinal detachment",
+              "text": "Retinal detachment: same-day referral",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "migraine",
+              "text": "Migraine: reassure",
               "correct": false,
-              "feedback": "Usually zigzags."
+              "feedback": "Not with a progressing shadow."
             },
             {
-              "text": "cataract",
+              "text": "Cataract: routine",
               "correct": false,
-              "feedback": "Gradual."
+              "feedback": "Not a curtain."
             },
             {
-              "text": "glaucoma",
+              "text": "Dry eye: lubricants",
               "correct": false,
-              "feedback": "Gradual."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Vision loss like a curtain suggests retinal detachment, which needs same-day referral.",
+          "original": {
+            "q": "Vision loss like a curtain coming down suggests",
+            "options": [
+              {
+                "text": "retinal detachment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "migraine",
+                "correct": false,
+                "feedback": "Usually zigzags."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "Gradual."
+              },
+              {
+                "text": "glaucoma",
+                "correct": false,
+                "feedback": "Gradual."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "syd-field-loss-x0062",

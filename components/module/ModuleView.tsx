@@ -146,7 +146,7 @@ export function ModuleView({
             </h2>
             {m.hasContent && questionCount > 0 && (
               <Link href={`/m/${m.code}/quiz`} className="btn btn-soft">
-                Module quiz · {questionCount} questions
+                Quiz section · {questionCount} questions
               </Link>
             )}
           </div>

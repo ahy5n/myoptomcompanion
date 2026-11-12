@@ -124,9 +124,9 @@ export function PracticeRunner({
           ))}
       </div>
       <div key={item.id + i}>
-        {item.kind === 'mcq' && <McqCard mcq={item.mcq} onResult={onResult} />}
+        {item.kind === 'mcq' && <McqCard mcq={item.mcq} topicId={item.topicId} onResult={onResult} />}
         {item.kind === 'flashcard' && <FlashcardCard id={item.id} card={item.card} onResult={onResult} />}
-        {item.kind === 'case' && <CaseCard id={item.id} kase={item.kase} onResult={onResult} />}
+        {item.kind === 'case' && <CaseCard id={item.id} kase={item.kase} topicId={item.topicId} onResult={onResult} />}
       </div>
       <div className="mt-5 flex items-center justify-between gap-3">
         {item.topicId ? <FlagButton topicId={item.topicId} itemId={item.id} variant="link" label="Flag this question" /> : <span />}

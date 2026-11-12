@@ -6,18 +6,58 @@
       "id": "lva-causes-impact",
       "title": "Causes and impact of visual impairment in the UK",
       "summary": "Low vision means sight loss that can't be fully corrected with glasses, contact lenses, medicine or surgery and that affects everyday life. In older adults it's mainly caused by age-related macular degeneration, glaucoma, diabetic eye disease and cataract; in children, cerebral visual impairment is now the most common cause. The impact goes far beyond reading: falls, isolation, depression and loss of independence are common.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "More than 2 million people in the UK live with sight loss that affects their daily lives (RNIB estimate), and numbers are rising as the population ages.",
-        "Leading causes in older adults: AMD, glaucoma, cataract, diabetic retinopathy and uncorrected refractive error.",
-        "In children in the UK, cerebral (cortical) visual impairment is the most common cause of visual impairment.",
-        "Central field loss (for example AMD) mainly affects reading, faces and fine detail; peripheral field loss (for example advanced glaucoma, retinitis pigmentosa) mainly affects mobility.",
-        "Sight loss is linked to falls, depression, social isolation and loss of employment.",
-        "Charles Bonnet syndrome (vivid visual hallucinations with insight) is common in people with sight loss and is often not reported because people fear it means mental illness."
+        {
+          "text": "More than 2 million people in the UK live with sight loss that affects their daily lives (RNIB estimate), and numbers are rising as the population ages.",
+          "priority": "background",
+          "module": "LVA"
+        },
+        {
+          "text": "Leading causes in older adults: AMD, glaucoma, cataract, diabetic retinopathy and uncorrected refractive error.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "In children in the UK, cerebral (cortical) visual impairment is the most common cause of visual impairment.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Central field loss (for example AMD) mainly affects reading, faces and fine detail; peripheral field loss (for example advanced glaucoma, retinitis pigmentosa) mainly affects mobility.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Sight loss is linked to falls, depression, social isolation and loss of employment.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Charles Bonnet syndrome (vivid visual hallucinations with insight) is common in people with sight loss and is often not reported because people fear it means mental illness.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "examTraps": [
-        "Thinking low vision only affects reading: mobility, faces, TV, cooking and wellbeing matter too.",
-        "Forgetting to ask about Charles Bonnet syndrome: a simple explanation can be a huge relief.",
-        "Assuming one type of aid suits everyone with the same acuity."
+        {
+          "text": "Thinking low vision only affects reading: mobility, faces, TV, cooking and wellbeing matter too.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Forgetting to ask about Charles Bonnet syndrome: a simple explanation can be a huge relief.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Assuming one type of aid suits everyone with the same acuity.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "field-loss-types",
@@ -33,15 +73,21 @@
       "goDeeper": [
         {
           "heading": "Charles Bonnet syndrome",
-          "body": "When the brain gets less visual input, it can produce its own images: patterns, people, animals or scenes, sometimes very detailed. People know they aren't real. It's not a mental health problem, often settles over time, and is common in AMD. Ask about it gently in every low vision assessment, reassure, and signpost to support such as the Esme's Umbrella campaign or RNIB."
+          "body": "When the brain gets less visual input, it can produce its own images: patterns, people, animals or scenes, sometimes very detailed. People know they aren't real. It's not a mental health problem, often settles over time, and is common in AMD. Ask about it gently in every low vision assessment, reassure, and signpost to support such as the Esme's Umbrella campaign or RNIB.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Emotional impact",
-          "body": "Losing sight is often described like a bereavement. Depression rates are high in people with sight loss. Listen, acknowledge feelings, and signpost to emotional support (for example RNIB's helpline and counselling, local sight loss charities, the Eye Clinic Liaison Officer). Practical solutions help but don't replace being heard."
+          "body": "Losing sight is often described like a bereavement. Depression rates are high in people with sight loss. Listen, acknowledge feelings, and signpost to emotional support (for example RNIB's helpline and counselling, local sight loss charities, the Eye Clinic Liaison Officer). Practical solutions help but don't replace being heard.",
+          "priority": "background",
+          "module": "LVA"
         },
         {
           "heading": "Falls and safety",
-          "body": "Reduced acuity, contrast sensitivity and fields all increase the risk of falls. Multifocal glasses can make steps harder to judge. Practical advice includes good lighting on stairs, contrasting edges on steps, removing trip hazards, and considering single-vision distance glasses for walking outdoors."
+          "body": "Reduced acuity, contrast sensitivity and fields all increase the risk of falls. Multifocal glasses can make steps harder to judge. Practical advice includes good lighting on stairs, contrasting edges on steps, removing trip hazards, and considering single-vision distance glasses for walking outdoors.",
+          "priority": "exam-core",
+          "module": "LVA"
         }
       ],
       "flashcards": [
@@ -149,7 +195,7 @@
         },
         {
           "id": "lva-causes-impact-x0101",
-          "q": "What is the most common cause of visual impairment in UK children?",
+          "q": "A paediatric low vision clinic sees mostly children whose eyes look structurally normal but who struggle to make sense of what they see. Which cause is most common in UK children?",
           "options": [
             {
               "text": "Cerebral (cortical) visual impairment",
@@ -157,49 +203,103 @@
               "feedback": "Yes."
             },
             {
-              "text": "Cataract",
+              "text": "Congenital cataract",
+              "correct": false,
+              "feedback": "Less common now."
+            },
+            {
+              "text": "Retinopathy of prematurity",
               "correct": false,
               "feedback": "Less common."
             },
             {
-              "text": "AMD",
+              "text": "High myopia",
               "correct": false,
-              "feedback": "Older adults."
-            },
-            {
-              "text": "Glaucoma",
-              "correct": false,
-              "feedback": "Rare in children."
+              "feedback": "Not the leading cause."
             }
           ],
-          "explanation": ""
+          "explanation": "Cerebral (cortical) visual impairment is the most common cause of visual impairment in UK children.",
+          "original": {
+            "q": "What is the most common cause of visual impairment in UK children?",
+            "options": [
+              {
+                "text": "Cerebral (cortical) visual impairment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cataract",
+                "correct": false,
+                "feedback": "Less common."
+              },
+              {
+                "text": "AMD",
+                "correct": false,
+                "feedback": "Older adults."
+              },
+              {
+                "text": "Glaucoma",
+                "correct": false,
+                "feedback": "Rare in children."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-causes-impact-x0102",
-          "q": "Central field loss from AMD mainly affects",
+          "q": "A patient with AMD has 6/36 acuity but a full peripheral field. Which task will they find hardest?",
           "options": [
             {
-              "text": "reading, faces and fine detail",
+              "text": "Recognising faces and reading",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: central field loss."
             },
             {
-              "text": "getting around",
+              "text": "Walking round furniture",
               "correct": false,
-              "feedback": "That's peripheral loss."
+              "feedback": "Peripheral field helps."
             },
             {
-              "text": "night vision only",
+              "text": "Seeing movement to the side",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Peripheral field intact."
             },
             {
-              "text": "nothing",
+              "text": "Finding a doorway",
               "correct": false,
-              "feedback": "It has a big impact."
+              "feedback": "Usually manageable."
             }
           ],
-          "explanation": ""
+          "explanation": "Central field loss mainly affects reading, faces and fine detail.",
+          "original": {
+            "q": "Central field loss from AMD mainly affects",
+            "options": [
+              {
+                "text": "reading, faces and fine detail",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "getting around",
+                "correct": false,
+                "feedback": "That's peripheral loss."
+              },
+              {
+                "text": "night vision only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "It has a big impact."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-causes-impact-x0103",
@@ -230,30 +330,57 @@
         },
         {
           "id": "lva-causes-impact-x0104",
-          "q": "What is Charles Bonnet syndrome?",
+          "q": "A patient with advanced glaucoma sees patterned wallpaper that isn't there and knows it isn't real. They have no other symptoms. What's the most likely explanation?",
           "options": [
             {
-              "text": "Vivid visual hallucinations with insight in people with sight loss",
+              "text": "Charles Bonnet syndrome",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: hallucinations with insight in sight loss."
             },
             {
-              "text": "A cause of glaucoma",
+              "text": "Psychosis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Insight is kept."
             },
             {
-              "text": "A drug reaction",
+              "text": "Migraine aura",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "A mental illness",
+              "text": "Dementia",
               "correct": false,
-              "feedback": "It isn't one."
+              "feedback": "Not without other signs."
             }
           ],
-          "explanation": ""
+          "explanation": "Charles Bonnet syndrome: vivid hallucinations with insight in people with sight loss. Rule out other causes if there's no insight or other symptoms.",
+          "original": {
+            "q": "What is Charles Bonnet syndrome?",
+            "options": [
+              {
+                "text": "Vivid visual hallucinations with insight in people with sight loss",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A cause of glaucoma",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A drug reaction",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A mental illness",
+                "correct": false,
+                "feedback": "It isn't one."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-causes-impact-x0105",
@@ -311,30 +438,57 @@
         },
         {
           "id": "lva-causes-impact-x0107",
-          "q": "Which is linked to sight loss?",
+          "q": "Which statement about the impact of sight loss is wrong?",
           "options": [
             {
-              "text": "Falls, depression and social isolation",
+              "text": "It doesn't affect mental health",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it's linked to depression."
             },
             {
-              "text": "Better sleep",
+              "text": "It raises the risk of falls",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Lower blood pressure",
+              "text": "It's linked to social isolation",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Nothing",
+              "text": "It can affect employment",
               "correct": false,
-              "feedback": "Many effects."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Sight loss is linked to falls, depression and social isolation.",
+          "original": {
+            "q": "Which is linked to sight loss?",
+            "options": [
+              {
+                "text": "Falls, depression and social isolation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Better sleep",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Lower blood pressure",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Many effects."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [],
@@ -354,18 +508,58 @@
       "id": "lva-assessment",
       "title": "Low vision assessment",
       "summary": "A low vision assessment finds out what the person wants to do and what their vision allows, then matches help to their goals. It includes a detailed history, acuity at an appropriate distance, near acuity and reading speed, contrast sensitivity and a look at central fields and eccentric viewing.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "Start with goals: what would they most like to do (read post, watch TV, recognise faces, cook, get around)?",
-        "Measure distance acuity with a logMAR chart at a closer distance (for example 2 m or 1 m) so they read more letters; adjust the score for distance.",
-        "Measure near acuity with continuous text in N-point print sizes and note reading speed; newspaper print is about N8–N10.",
-        "Contrast sensitivity predicts real-world difficulty better than acuity alone.",
-        "Check central fields (for example Amsler or a scotoma map) and whether they use eccentric viewing (a preferred retinal locus).",
-        "Refraction still matters: a careful refraction with larger steps (for example ±1.00 D) can improve vision."
+        {
+          "text": "Start with goals: what would they most like to do (read post, watch TV, recognise faces, cook, get around)?",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Measure distance acuity with a logMAR chart at a closer distance (for example 2 m or 1 m) so they read more letters; adjust the score for distance.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Measure near acuity with continuous text in N-point print sizes and note reading speed; newspaper print is about N8–N10.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Contrast sensitivity predicts real-world difficulty better than acuity alone.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Check central fields (for example Amsler or a scotoma map) and whether they use eccentric viewing (a preferred retinal locus).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Refraction still matters: a careful refraction with larger steps (for example ±1.00 D) can improve vision.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "examTraps": [
-        "Testing distance acuity only at 6 m: few letters are read, so small changes are missed.",
-        "Skipping refraction because 'they have AMD'.",
-        "Measuring near acuity only with single words instead of continuous text."
+        {
+          "text": "Testing distance acuity only at 6 m: few letters are read, so small changes are missed.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Skipping refraction because 'they have AMD'.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Measuring near acuity only with single words instead of continuous text.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "lv-assessment-flow",
@@ -383,15 +577,21 @@
       "goDeeper": [
         {
           "heading": "Adjusting acuity for distance",
-          "body": "LogMAR at a shorter distance: add log₁₀(standard distance ÷ test distance). A chart designed for 4 m read at 1 m: add log₁₀(4) = 0.60. If the patient reads to 0.80 at 1 m, their 4 m equivalent is 1.40. Recording as, for example, '0.80 at 1 m' is also fine as long as the distance is clear."
+          "body": "LogMAR at a shorter distance: add log₁₀(standard distance ÷ test distance). A chart designed for 4 m read at 1 m: add log₁₀(4) = 0.60. If the patient reads to 0.80 at 1 m, their 4 m equivalent is 1.40. Recording as, for example, '0.80 at 1 m' is also fine as long as the distance is clear.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Eccentric viewing",
-          "body": "With a central scotoma, people learn to use a healthier area of retina next to it, the preferred retinal locus. Many do this naturally; others benefit from training to place the scotoma consistently, often above or to one side of the target. Asking the patient to look at your nose and describe what they can see of your face helps locate the scotoma."
+          "body": "With a central scotoma, people learn to use a healthier area of retina next to it, the preferred retinal locus. Many do this naturally; others benefit from training to place the scotoma consistently, often above or to one side of the target. Asking the patient to look at your nose and describe what they can see of your face helps locate the scotoma.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Reading performance",
-          "body": "Reading speed charts (for example MNREAD-style continuous text) give the threshold print size, the critical print size (the smallest print read at full speed) and the maximum reading speed. Aids are set to give print comfortably larger than the critical print size, because reading at threshold is slow and tiring."
+          "body": "Reading speed charts (for example MNREAD-style continuous text) give the threshold print size, the critical print size (the smallest print read at full speed) and the maximum reading speed. Aids are set to give print comfortably larger than the critical print size, because reading at threshold is slow and tiring.",
+          "priority": "exam-core",
+          "module": "LVA"
         }
       ],
       "checklist": {
@@ -406,7 +606,9 @@
           "Assess central fields (Amsler or scotoma mapping) and eccentric viewing.",
           "Calculate magnification needed for the main goal and try suitable aids with good lighting.",
           "Agree a plan, demonstrate the aid, give written instructions and arrange follow-up or referral (rehabilitation, ECLO, charities)."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "LVA"
       },
       "flashcards": [
         {
@@ -594,7 +796,7 @@
         },
         {
           "id": "lva-assessment-x0104",
-          "q": "Which predicts real-world difficulty better than acuity alone?",
+          "q": "Two patients both read 6/18, but one struggles with kerbs and faces much more. Which test is most likely to explain the difference?",
           "options": [
             {
               "text": "Contrast sensitivity",
@@ -602,22 +804,49 @@
               "feedback": "Yes."
             },
             {
+              "text": "Stereo acuity",
+              "correct": false,
+              "feedback": "Less relevant."
+            },
+            {
               "text": "Colour vision",
               "correct": false,
-              "feedback": "Not as well."
+              "feedback": "Less relevant."
             },
             {
-              "text": "IOP",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Keratometry",
+              "text": "Pupil reactions",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Contrast sensitivity often predicts real-world difficulty better than acuity alone.",
+          "original": {
+            "q": "Which predicts real-world difficulty better than acuity alone?",
+            "options": [
+              {
+                "text": "Contrast sensitivity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Colour vision",
+                "correct": false,
+                "feedback": "Not as well."
+              },
+              {
+                "text": "IOP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Keratometry",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-assessment-x0105",
@@ -714,18 +943,61 @@
       "id": "lva-magnification",
       "title": "Magnification: types and how much is needed",
       "summary": "Magnification makes the image on the retina bigger so it lands on more working cells. There are four ways to do it: make the object bigger, bring it closer, use an optical device that enlarges the angle (such as a telescope), or project it electronically. Working out how much is needed starts from the patient's current near acuity and the size of print they want to read.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "Relative size magnification: make the object bigger (large print, bigger phone text).",
-        "Relative distance magnification: bring the object closer (halving the distance doubles the retinal image).",
-        "Angular magnification: optical devices such as telescopes enlarge the angle the object subtends.",
-        "Electronic (projection) magnification: video magnifiers, tablets and apps.",
-        "Magnification needed ≈ current print size read ÷ target print size, then add a reserve for fluent reading. For example reads N24, wants N8 → 3× (more for comfort).",
-        "Equivalent power for near (with a 25 cm reference): F ≈ 4 × M dioptres, so 3× ≈ +12 D."
+        {
+          "text": "Relative size magnification: make the object bigger (large print, bigger phone text).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Relative distance magnification: bring the object closer (halving the distance doubles the retinal image).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Angular magnification: optical devices such as telescopes enlarge the angle the object subtends.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Electronic (projection) magnification: video magnifiers, tablets and apps.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Magnification needed ≈ current print size read ÷ target print size, then add a reserve for fluent reading. For example reads N24, wants N8 → 3× (more for comfort).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Equivalent power for near (with a 25 cm reference): F ≈ 4 × M dioptres, so 3× ≈ +12 D.",
+          "priority": "exam-core",
+          "module": "LVA",
+          "why": "With a 25 cm reference distance (4 D), each 1× of magnification corresponds to about 4 D of equivalent power.",
+          "limits": "It's a convention: the magnification actually achieved depends on the working distance, any reading add and how the device is used, so trial the device with the patient.",
+          "needsReview": true
+        }
       ],
       "examTraps": [
-        "Forgetting the reading reserve and prescribing just enough to reach threshold.",
-        "Ignoring that more magnification means a smaller field of view and shorter working distance.",
-        "Mixing up the reference distances used by different manufacturers (25 cm vs other conventions)."
+        {
+          "text": "Forgetting the reading reserve and prescribing just enough to reach threshold.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Ignoring that more magnification means a smaller field of view and shorter working distance.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Mixing up the reference distances used by different manufacturers (25 cm vs other conventions).",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "magnification-types",
@@ -741,15 +1013,21 @@
       "goDeeper": [
         {
           "heading": "A worked example",
-          "body": "A patient reads N20 with their reading glasses at 25 cm and wants to read N5 bank statements. Magnification needed = 20 ÷ 5 = 4×. Add a comfort reserve (for example aim for 1.5–2× their critical print size), giving roughly 5–6×. Equivalent power ≈ 4 × 5 = +20 D (or 24 D for 6×). Then try devices of that strength and adjust to what works in practice."
+          "body": "A patient reads N20 with their reading glasses at 25 cm and wants to read N5 bank statements. Magnification needed = 20 ÷ 5 = 4×. Add a comfort reserve (for example aim for 1.5–2× their critical print size), giving roughly 5–6×. Equivalent power ≈ 4 × 5 = +20 D (or 24 D for 6×). Then try devices of that strength and adjust to what works in practice.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Field of view and working distance",
-          "body": "As magnification goes up, the field of view through a lens gets smaller and the working distance gets shorter (for a spectacle magnifier, about 100 / F cm). People reading with a +20 D add must hold text about 5 cm away. Hand magnifiers give a larger field when held close to the eye. Matching the device to the task (spot reading versus long reading) matters as much as the number."
+          "body": "As magnification goes up, the field of view through a lens gets smaller and the working distance gets shorter (for a spectacle magnifier, about 100 / F cm). People reading with a +20 D add must hold text about 5 cm away. Hand magnifiers give a larger field when held close to the eye. Matching the device to the task (spot reading versus long reading) matters as much as the number.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Why electronic aids are so useful",
-          "body": "Video magnifiers and tablets offer high magnification with a comfortable working distance, adjustable contrast and colour reversal (light text on dark), and can read text aloud. They are often the best option for longer reading at high magnifications, although some people find them harder to use, and they need power and some training."
+          "body": "Video magnifiers and tablets offer high magnification with a comfortable working distance, adjustable contrast and colour reversal (light text on dark), and can read text aloud. They are often the best option for longer reading at high magnifications, although some people find them harder to use, and they need power and some training.",
+          "priority": "exam-core",
+          "module": "LVA"
         }
       ],
       "flashcards": [
@@ -938,57 +1216,111 @@
         },
         {
           "id": "lva-magnification-x0104",
-          "q": "Large print is an example of",
+          "q": "A patient's text is changed from 12 pt to 24 pt print. How much magnification is this, and what type?",
           "options": [
             {
-              "text": "relative size magnification",
+              "text": "2×, relative size magnification",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "angular magnification",
+              "text": "2×, angular magnification",
               "correct": false,
               "feedback": "That's telescopes."
             },
             {
-              "text": "relative distance magnification",
+              "text": "4×, relative size",
               "correct": false,
-              "feedback": "That's moving closer."
+              "feedback": "It's 24 ÷ 12 = 2."
             },
             {
-              "text": "electronic",
+              "text": "1×, none",
               "correct": false,
-              "feedback": "Different."
+              "feedback": "It doubles."
             }
           ],
-          "explanation": ""
+          "explanation": "Enlarging the object itself (such as large print) is relative size magnification: 24 ÷ 12 = 2×.",
+          "original": {
+            "q": "Large print is an example of",
+            "options": [
+              {
+                "text": "relative size magnification",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "angular magnification",
+                "correct": false,
+                "feedback": "That's telescopes."
+              },
+              {
+                "text": "relative distance magnification",
+                "correct": false,
+                "feedback": "That's moving closer."
+              },
+              {
+                "text": "electronic",
+                "correct": false,
+                "feedback": "Different."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-magnification-x0105",
-          "q": "Telescopes provide",
+          "q": "A patient wants to read a bus number across the road. Which aid fits, and what kind of magnification does it give?",
           "options": [
             {
-              "text": "angular magnification",
+              "text": "A telescope, giving angular magnification",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "relative size magnification",
+              "text": "A stand magnifier, relative distance",
               "correct": false,
-              "feedback": "No."
+              "feedback": "For near."
             },
             {
-              "text": "no magnification",
+              "text": "Large print, relative size",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not possible here."
             },
             {
-              "text": "electronic magnification",
+              "text": "A video magnifier, electronic",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not practical for this."
             }
           ],
-          "explanation": ""
+          "explanation": "Telescopes provide angular magnification for distance tasks.",
+          "original": {
+            "q": "Telescopes provide",
+            "options": [
+              {
+                "text": "angular magnification",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "relative size magnification",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "no magnification",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "electronic magnification",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-magnification-x0106",
@@ -1019,30 +1351,57 @@
         },
         {
           "id": "lva-magnification-x0107",
-          "q": "Video magnifiers provide",
+          "q": "A patient uses a desktop device that shows a magazine on a screen at 10× with reversed contrast. Which type of magnification is this?",
           "options": [
             {
-              "text": "electronic (projection) magnification",
+              "text": "Electronic (projection) magnification",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "angular magnification",
+              "text": "Relative distance",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "relative distance magnification only",
+              "text": "Angular",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "none",
+              "text": "Relative size",
               "correct": false,
-              "feedback": "They magnify."
+              "feedback": "Not quite: it's electronic."
             }
           ],
-          "explanation": ""
+          "explanation": "Video magnifiers provide electronic (projection) magnification.",
+          "original": {
+            "q": "Video magnifiers provide",
+            "options": [
+              {
+                "text": "electronic (projection) magnification",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "angular magnification",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "relative distance magnification only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "none",
+                "correct": false,
+                "feedback": "They magnify."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [],
@@ -1058,18 +1417,58 @@
       "id": "lva-aids",
       "title": "Magnifiers, telescopes and electronic aids",
       "summary": "Each type of low vision aid suits different tasks and people. Hand magnifiers are portable and flexible; stand magnifiers suit people with tremor or long reading; spectacle magnifiers keep hands free; telescopes help at distance; and electronic aids offer the most magnification and contrast control. Good demonstration and training are what make an aid actually get used.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "Hand magnifiers: cheap and portable, good for short tasks (labels, prices); need a steady hand and correct distance.",
-        "Stand magnifiers: rest on the page at a fixed distance, good with tremor and for longer reading; they form an image at a finite distance, so the patient usually needs their reading glasses or an add.",
-        "Spectacle magnifiers (high reading adds): hands free and wide field, but very short working distance; base-in prisms help binocular use up to about +10 D.",
-        "Telescopes: Galilean (simple, upright image, low power) and Keplerian (sharper, more powerful, need prisms to correct the image). They narrow the field and are mainly for spotting tasks like reading signs or watching TV.",
-        "Electronic aids: desktop video magnifiers, portable devices, tablets and smartphone apps with zoom, contrast reversal and text-to-speech.",
-        "Many patients abandon aids that weren't demonstrated well; give training, written instructions and follow-up."
+        {
+          "text": "Hand magnifiers: cheap and portable, good for short tasks (labels, prices); need a steady hand and correct distance.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Stand magnifiers: rest on the page at a fixed distance, good with tremor and for longer reading; they form an image at a finite distance, so the patient usually needs their reading glasses or an add.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Spectacle magnifiers (high reading adds): hands free and wide field, but very short working distance; base-in prisms help binocular use up to about +10 D.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Telescopes: Galilean (simple, upright image, low power) and Keplerian (sharper, more powerful, need prisms to correct the image). They narrow the field and are mainly for spotting tasks like reading signs or watching TV.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Electronic aids: desktop video magnifiers, portable devices, tablets and smartphone apps with zoom, contrast reversal and text-to-speech.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Many patients abandon aids that weren't demonstrated well; give training, written instructions and follow-up.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "examTraps": [
-        "Forgetting that stand magnifier users usually need their reading correction.",
-        "Recommending a telescope for walking around: the field is too narrow.",
-        "Choosing the strongest aid instead of the one that fits the task and the person."
+        {
+          "text": "Forgetting that stand magnifier users usually need their reading correction.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Recommending a telescope for walking around: the field is too narrow.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Choosing the strongest aid instead of the one that fits the task and the person.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "lva-device-types",
@@ -1085,15 +1484,21 @@
       "goDeeper": [
         {
           "heading": "Getting the most from a hand magnifier",
-          "body": "Hold the magnifier at its focal distance from the page (for a +12 D lens about 8 cm). If the patient wears distance glasses and holds the page at exactly the focal length, light leaves the lens parallel and the eye-to-lens distance only changes the field of view: closer to the eye gives a wider view. Many illuminated magnifiers include an LED light, which helps a lot."
+          "body": "Hold the magnifier at its focal distance from the page (for a +12 D lens about 8 cm). If the patient wears distance glasses and holds the page at exactly the focal length, light leaves the lens parallel and the eye-to-lens distance only changes the field of view: closer to the eye gives a wider view. Many illuminated magnifiers include an LED light, which helps a lot.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Telescopes",
-          "body": "A Galilean telescope (positive objective, negative eyepiece) gives an upright image, is short and light, but usually limited to about 4×. A Keplerian telescope (two positive lenses) is longer, needs prisms to make the image upright, but gives better optics and higher power. Magnification M = −Feyepiece / Fobjective. Telescopes can be focused for near with a reading cap."
+          "body": "A Galilean telescope (positive objective, negative eyepiece) gives an upright image, is short and light, but usually limited to about 4×. A Keplerian telescope (two positive lenses) is longer, needs prisms to make the image upright, but gives better optics and higher power. Magnification M = −Feyepiece / Fobjective. Telescopes can be focused for near with a reading cap.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "Technology and apps",
-          "body": "Smartphones and tablets now do much of what dedicated devices did: magnification, high-contrast modes, text-to-speech, apps that read text or describe scenes, and accessibility settings built into the operating system. Show patients these settings on their own devices, and signpost to digital skills support from sight loss charities."
+          "body": "Smartphones and tablets now do much of what dedicated devices did: magnification, high-contrast modes, text-to-speech, apps that read text or describe scenes, and accessibility settings built into the operating system. Show patients these settings on their own devices, and signpost to digital skills support from sight loss charities.",
+          "priority": "clinical",
+          "module": "LVA"
         }
       ],
       "flashcards": [
@@ -1228,30 +1633,57 @@
         },
         {
           "id": "lva-aids-x0102",
-          "q": "What's a downside of high-add spectacle magnifiers?",
+          "q": "A patient is given a +10.00 D reading add. At roughly what distance must they hold the text?",
           "options": [
             {
-              "text": "A very short working distance",
+              "text": "About 10 cm",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: 1 ÷ 10 D = 0.1 m."
             },
             {
-              "text": "Narrow field",
+              "text": "About 40 cm",
               "correct": false,
-              "feedback": "They give a wide field."
+              "feedback": "That's +2.50 D."
             },
             {
-              "text": "They need hands",
+              "text": "About 25 cm",
               "correct": false,
-              "feedback": "They're hands-free."
+              "feedback": "That's +4.00 D."
             },
             {
-              "text": "Expensive always",
+              "text": "About 1 m",
               "correct": false,
-              "feedback": "Not necessarily."
+              "feedback": "That's +1.00 D."
             }
           ],
-          "explanation": ""
+          "explanation": "Working distance is 1/add: a +10.00 D add means about 10 cm, a downside of high-add spectacles.",
+          "original": {
+            "q": "What's a downside of high-add spectacle magnifiers?",
+            "options": [
+              {
+                "text": "A very short working distance",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Narrow field",
+                "correct": false,
+                "feedback": "They give a wide field."
+              },
+              {
+                "text": "They need hands",
+                "correct": false,
+                "feedback": "They're hands-free."
+              },
+              {
+                "text": "Expensive always",
+                "correct": false,
+                "feedback": "Not necessarily."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-aids-x0103",
@@ -1309,57 +1741,111 @@
         },
         {
           "id": "lva-aids-x0105",
-          "q": "Which electronic features help?",
+          "q": "A patient with very low vision finds white text on a black background easier to read. Which electronic feature provides this?",
           "options": [
             {
-              "text": "Zoom, contrast reversal and text-to-speech",
+              "text": "Contrast reversal",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only zoom",
+              "text": "Zoom",
               "correct": false,
-              "feedback": "More than that."
+              "feedback": "Size."
             },
             {
-              "text": "None",
+              "text": "Text-to-speech",
               "correct": false,
-              "feedback": "Many help."
+              "feedback": "Audio."
             },
             {
-              "text": "Only colour change",
+              "text": "Autofocus",
               "correct": false,
-              "feedback": "More than that."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Useful electronic features include zoom, contrast reversal and text-to-speech.",
+          "original": {
+            "q": "Which electronic features help?",
+            "options": [
+              {
+                "text": "Zoom, contrast reversal and text-to-speech",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only zoom",
+                "correct": false,
+                "feedback": "More than that."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Many help."
+              },
+              {
+                "text": "Only colour change",
+                "correct": false,
+                "feedback": "More than that."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-aids-x0106",
-          "q": "Why may high reading adds need base-in prism?",
+          "q": "A patient given +8.00 D reading spectacles gets eyestrain and double vision after a few minutes. What might help?",
           "options": [
             {
-              "text": "To help convergence at the very short working distance",
+              "text": "Adding base-in prism to ease convergence at the short distance",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "To magnify more",
+              "text": "Base-out prism",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Wrong direction."
             },
             {
-              "text": "To correct astigmatism",
+              "text": "A weaker distance Rx",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the issue."
             },
             {
-              "text": "For cosmetic reasons",
+              "text": "Removing the add",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They need it."
             }
           ],
-          "explanation": ""
+          "explanation": "High reading adds may need base-in prism because of the convergence demand at very short distances.",
+          "original": {
+            "q": "Why may high reading adds need base-in prism?",
+            "options": [
+              {
+                "text": "To help convergence at the very short working distance",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To magnify more",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To correct astigmatism",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "For cosmetic reasons",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [
@@ -1381,18 +1867,61 @@
       "id": "lva-lighting-nonoptical",
       "title": "Lighting, contrast and non-optical aids",
       "summary": "Simple changes often help as much as magnification. Good, well-placed lighting, higher contrast, reducing glare, and using touch or sound instead of sight can make everyday tasks possible again. These are cheap, quick to try and easy to forget.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "Task lighting: a bright, adjustable lamp placed close to the task and to the side of the better eye, avoiding shadows and reflections.",
-        "Older eyes often need around three times more light than younger eyes for the same task.",
-        "Increase contrast: bold-lined paper, thick black pens, a typoscope (a black card with a slot for reading lines), contrasting chopping boards and tape on step edges.",
-        "Glare control: hats with brims, side shields and tinted filters (often yellow or amber for glare and contrast, especially in cataract or retinitis pigmentosa).",
-        "Sensory substitution: audiobooks, talking clocks, screen readers, bump-on dots for appliances and liquid level indicators.",
-        "Mobility: symbol canes signal sight loss; long canes and guide dogs need training from rehabilitation services."
+        {
+          "text": "Task lighting: a bright, adjustable lamp placed close to the task and to the side of the better eye, avoiding shadows and reflections.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Older eyes often need around three times more light than younger eyes for the same task.",
+          "priority": "exam-core",
+          "module": "LVA",
+          "why": "Older eyes have smaller pupils and a yellower, more scattering lens, so less light reaches the retina.",
+          "limits": "The 'three times' figure varies widely between people; more light isn't always better, because glare sensitivity also rises with age and with some eye conditions.",
+          "needsReview": true
+        },
+        {
+          "text": "Increase contrast: bold-lined paper, thick black pens, a typoscope (a black card with a slot for reading lines), contrasting chopping boards and tape on step edges.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Glare control: hats with brims, side shields and tinted filters (often yellow or amber for glare and contrast, especially in cataract or retinitis pigmentosa).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Sensory substitution: audiobooks, talking clocks, screen readers, bump-on dots for appliances and liquid level indicators.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Mobility: symbol canes signal sight loss; long canes and guide dogs need training from rehabilitation services.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "examTraps": [
-        "Focusing only on optical aids and forgetting lighting.",
-        "Assuming tints always help: always let the patient try them in real conditions.",
-        "Forgetting that rehabilitation services (not optometrists) provide mobility training."
+        {
+          "text": "Focusing only on optical aids and forgetting lighting.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Assuming tints always help: always let the patient try them in real conditions.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Forgetting that rehabilitation services (not optometrists) provide mobility training.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "task-lighting",
@@ -1408,15 +1937,21 @@
       "goDeeper": [
         {
           "heading": "Lighting advice",
-          "body": "Bring the light to the task rather than lighting the whole room more. Position it to avoid shadows from the head or hands, and so it doesn't reflect off glossy paper into the eyes. Daylight-type LED lamps are cool and efficient. Even, bright lighting on stairs and in kitchens helps safety. Let people try different light levels: some (for example with corneal problems or cone dystrophies) prefer less."
+          "body": "Bring the light to the task rather than lighting the whole room more. Position it to avoid shadows from the head or hands, and so it doesn't reflect off glossy paper into the eyes. Daylight-type LED lamps are cool and efficient. Even, bright lighting on stairs and in kitchens helps safety. Let people try different light levels: some (for example with corneal problems or cone dystrophies) prefer less.",
+          "priority": "clinical",
+          "module": "LVA"
         },
         {
           "heading": "Contrast at home",
-          "body": "Use contrasting colours: a dark mug for milky drinks, white plates on a dark tablecloth, coloured tape on light switches and the edge of each step. Reduce clutter and patterns that hide objects. Bold-line writing paper and black felt-tip pens make writing easier to read back."
+          "body": "Use contrasting colours: a dark mug for milky drinks, white plates on a dark tablecloth, coloured tape on light switches and the edge of each step. Reduce clutter and patterns that hide objects. Bold-line writing paper and black felt-tip pens make writing easier to read back.",
+          "priority": "clinical",
+          "module": "LVA"
         },
         {
           "heading": "Filters and glare",
-          "body": "Glare from cataract, corneal scarring or retinal disease can be disabling. Wrap-around sunglasses, side shields and peaked caps block stray light. Coloured filters (yellow, amber, orange) cut short-wavelength light and can improve comfort and apparent contrast. Patients should try filters outdoors and indoors before buying, as preferences vary a lot."
+          "body": "Glare from cataract, corneal scarring or retinal disease can be disabling. Wrap-around sunglasses, side shields and peaked caps block stray light. Coloured filters (yellow, amber, orange) cut short-wavelength light and can improve comfort and apparent contrast. Patients should try filters outdoors and indoors before buying, as preferences vary a lot.",
+          "priority": "exam-core",
+          "module": "LVA"
         }
       ],
       "flashcards": [
@@ -1551,30 +2086,57 @@
         },
         {
           "id": "lva-lighting-nonoptical-x0102",
-          "q": "Where should a task lamp go?",
+          "q": "A patient's right eye is much better than their left. Where should their reading lamp go?",
           "options": [
             {
-              "text": "Close to the task, to the side of the better eye, avoiding shadows and glare",
+              "text": "Close to the task, on the right side, avoiding glare and shadows",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Behind the head always",
+              "text": "Behind them, high on the ceiling",
               "correct": false,
-              "feedback": "Can cast shadows."
+              "feedback": "Shadows."
             },
             {
-              "text": "On the ceiling",
+              "text": "On the left side",
               "correct": false,
-              "feedback": "Too far."
+              "feedback": "Better eye is the right."
             },
             {
-              "text": "Shining into the eyes",
+              "text": "Shining directly into their eyes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Glare."
             }
           ],
-          "explanation": ""
+          "explanation": "Place a task lamp close to the task, to the side of the better eye, avoiding glare and shadows.",
+          "original": {
+            "q": "Where should a task lamp go?",
+            "options": [
+              {
+                "text": "Close to the task, to the side of the better eye, avoiding shadows and glare",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Behind the head always",
+                "correct": false,
+                "feedback": "Can cast shadows."
+              },
+              {
+                "text": "On the ceiling",
+                "correct": false,
+                "feedback": "Too far."
+              },
+              {
+                "text": "Shining into the eyes",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-lighting-nonoptical-x0103",
@@ -1605,7 +2167,7 @@
         },
         {
           "id": "lva-lighting-nonoptical-x0104",
-          "q": "Which filter often helps glare and contrast?",
+          "q": "A patient with cataract finds bright sunlight washes everything out. Which filter is often tried first?",
           "options": [
             {
               "text": "Yellow or amber",
@@ -1615,47 +2177,101 @@
             {
               "text": "Blue",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Often worse."
             },
             {
               "text": "Clear",
               "correct": false,
-              "feedback": "No."
+              "feedback": "No help."
             },
             {
-              "text": "Red always",
+              "text": "Red",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not usually."
             }
           ],
-          "explanation": ""
+          "explanation": "Yellow or amber filters often help glare and contrast; let the patient try them.",
+          "original": {
+            "q": "Which filter often helps glare and contrast?",
+            "options": [
+              {
+                "text": "Yellow or amber",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Blue",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Clear",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Red always",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-lighting-nonoptical-x0105",
-          "q": "Which is sensory substitution?",
+          "q": "A patient can no longer read print even with magnifiers but wants to enjoy novels. Which option uses sensory substitution?",
           "options": [
             {
-              "text": "Audiobooks and screen readers",
+              "text": "Audiobooks",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Magnifiers",
+              "text": "A stronger magnifier",
               "correct": false,
-              "feedback": "Optical."
+              "feedback": "Still visual."
             },
             {
-              "text": "Lamps",
+              "text": "Large print",
               "correct": false,
-              "feedback": "Lighting."
+              "feedback": "Still visual."
             },
             {
-              "text": "Spectacles",
+              "text": "A brighter lamp",
               "correct": false,
-              "feedback": "Optical."
+              "feedback": "Still visual."
             }
           ],
-          "explanation": ""
+          "explanation": "Sensory substitution uses another sense, such as audiobooks and screen readers.",
+          "original": {
+            "q": "Which is sensory substitution?",
+            "options": [
+              {
+                "text": "Audiobooks and screen readers",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Magnifiers",
+                "correct": false,
+                "feedback": "Optical."
+              },
+              {
+                "text": "Lamps",
+                "correct": false,
+                "feedback": "Lighting."
+              },
+              {
+                "text": "Spectacles",
+                "correct": false,
+                "feedback": "Optical."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-lighting-nonoptical-x0106",
@@ -1725,18 +2341,58 @@
       "id": "lva-certification-support",
       "title": "Certification, registration and support services",
       "summary": "In England, a consultant ophthalmologist can certify someone as sight impaired or severely sight impaired using the Certificate of Vision Impairment (CVI). The certificate goes to the local council, which offers registration and a rehabilitation assessment. Optometrists play a key role in spotting who might be eligible, explaining the process and signposting to support long before and after certification.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "LVA"
+      },
       "keyPoints": [
-        "Two categories: sight impaired (partially sighted) and severely sight impaired (blind).",
-        "The CVI is completed by a consultant ophthalmologist; it records acuity, fields and diagnosis.",
-        "Registration with the local council is voluntary and opens up rehabilitation, equipment and some benefits and concessions.",
-        "People who aren't yet eligible can still get help: Referral of Vision Impairment and Letter of Vision Impairment forms let optometrists and others refer people to social services directly.",
-        "Eye Clinic Liaison Officers (ECLOs) in hospital clinics give practical and emotional support around diagnosis.",
-        "Different forms and processes apply in Scotland, Wales and Northern Ireland."
+        {
+          "text": "Two categories: sight impaired (partially sighted) and severely sight impaired (blind).",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "The CVI is completed by a consultant ophthalmologist; it records acuity, fields and diagnosis.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Registration with the local council is voluntary and opens up rehabilitation, equipment and some benefits and concessions.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "People who aren't yet eligible can still get help: Referral of Vision Impairment and Letter of Vision Impairment forms let optometrists and others refer people to social services directly.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Eye Clinic Liaison Officers (ECLOs) in hospital clinics give practical and emotional support around diagnosis.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Different forms and processes apply in Scotland, Wales and Northern Ireland.",
+          "priority": "background",
+          "module": "LVA"
+        }
       ],
       "examTraps": [
-        "Saying optometrists certify sight impairment: consultant ophthalmologists do.",
-        "Waiting for certification before referring for help: rehabilitation can start earlier.",
-        "Forgetting to tell patients about the DVLA if their vision or fields fall below the standard."
+        {
+          "text": "Saying optometrists certify sight impairment: consultant ophthalmologists do.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Waiting for certification before referring for help: rehabilitation can start earlier.",
+          "priority": "exam-core",
+          "module": "LVA"
+        },
+        {
+          "text": "Forgetting to tell patients about the DVLA if their vision or fields fall below the standard.",
+          "priority": "exam-core",
+          "module": "LVA"
+        }
       ],
       "diagram": {
         "id": "certification-pathway",
@@ -1753,15 +2409,21 @@
       "goDeeper": [
         {
           "heading": "Certification criteria (outline)",
-          "body": "Severely sight impaired includes, for example, acuity worse than 3/60 with a full field; 3/60 to worse than 6/60 with a very contracted field; or 6/60 or better with a very contracted field, especially if the lower field is lost. Sight impaired includes, for example, 3/60 to 6/60 with a full field; up to 6/24 with moderate field contraction; or 6/18 or better with a gross field defect. Use the current official guidance for exact criteria."
+          "body": "Severely sight impaired includes, for example, acuity worse than 3/60 with a full field; 3/60 to worse than 6/60 with a very contracted field; or 6/60 or better with a very contracted field, especially if the lower field is lost. Sight impaired includes, for example, 3/60 to 6/60 with a full field; up to 6/24 with moderate field contraction; or 6/18 or better with a gross field defect. Use the current official guidance for exact criteria.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "What registration can offer",
-          "body": "A rehabilitation (habilitation) assessment for daily living and mobility skills, equipment, and help at home. Concessions may include a Blind Person's Allowance (tax), a reduced TV licence for severely sight impaired people, a Blue Badge for severely sight impaired people, travel concessions and a Disabled Persons Railcard. Benefits such as Personal Independence Payment depend on how sight loss affects the person, not on registration alone."
+          "body": "A rehabilitation (habilitation) assessment for daily living and mobility skills, equipment, and help at home. Concessions may include a Blind Person's Allowance (tax), a reduced TV licence for severely sight impaired people, a Blue Badge for severely sight impaired people, travel concessions and a Disabled Persons Railcard. Benefits such as Personal Independence Payment depend on how sight loss affects the person, not on registration alone.",
+          "priority": "exam-core",
+          "module": "LVA"
         },
         {
           "heading": "The optometrist's role",
-          "body": "Notice when vision is reducing, explain what certification is and ask whether the patient would like it, refer to the hospital eye service if needed, provide low vision care, and refer directly to social services and charities for support. Discuss driving and the DVLA, work and education support (for example Access to Work), and emotional support, and record what you discussed."
+          "body": "Notice when vision is reducing, explain what certification is and ask whether the patient would like it, refer to the hospital eye service if needed, provide low vision care, and refer directly to social services and charities for support. Discuss driving and the DVLA, work and education support (for example Access to Work), and emotional support, and record what you discussed.",
+          "priority": "clinical",
+          "module": "LVA"
         }
       ],
       "flashcards": [
@@ -1813,63 +2475,117 @@
         },
         {
           "id": "lva-cs-2",
-          "q": "Is registration as sight impaired compulsory once someone is certified?",
+          "q": "A patient has just been certified sight impaired but doesn't want to be on the council's register. What should you tell them?",
           "options": [
             {
-              "text": "No: registration with the council is voluntary",
+              "text": "That's their choice: registration is voluntary",
               "correct": true,
-              "feedback": "The patient chooses whether to be registered."
+              "feedback": "Yes."
             },
             {
-              "text": "Yes, by law",
+              "text": "They must register by law",
               "correct": false,
-              "feedback": "It isn't compulsory."
+              "feedback": "No."
             },
             {
-              "text": "Only for people over 65",
+              "text": "The certificate is cancelled",
               "correct": false,
-              "feedback": "Age isn't the rule."
+              "feedback": "No."
             },
             {
-              "text": "Only if they drive",
+              "text": "They lose access to all services",
               "correct": false,
-              "feedback": "Driving is a separate DVLA matter."
+              "feedback": "Not all."
             }
           ],
-          "explanation": "Certification enables registration; the person decides.",
-          "link": "lva-certification-support#what-registration-can-offer"
+          "explanation": "Registration with the local council is voluntary after certification.",
+          "link": "lva-certification-support#what-registration-can-offer",
+          "original": {
+            "q": "Is registration as sight impaired compulsory once someone is certified?",
+            "options": [
+              {
+                "text": "No: registration with the council is voluntary",
+                "correct": true,
+                "feedback": "The patient chooses whether to be registered."
+              },
+              {
+                "text": "Yes, by law",
+                "correct": false,
+                "feedback": "It isn't compulsory."
+              },
+              {
+                "text": "Only for people over 65",
+                "correct": false,
+                "feedback": "Age isn't the rule."
+              },
+              {
+                "text": "Only if they drive",
+                "correct": false,
+                "feedback": "Driving is a separate DVLA matter."
+              }
+            ],
+            "explanation": "Certification enables registration; the person decides."
+          },
+          "needsReview": true
         },
         {
           "id": "lva-cs-3",
-          "q": "Which situation fits 'severely sight impaired' most clearly?",
+          "q": "Which patient most clearly meets the criteria for severely sight impaired?",
           "options": [
             {
-              "text": "Acuity worse than 3/60 with a full field",
+              "text": "2/60 acuity with a full field",
               "correct": true,
-              "feedback": "This is one of the standard SSI examples."
+              "feedback": "Yes: worse than 3/60."
+            },
+            {
+              "text": "6/24 with a full field",
+              "correct": false,
+              "feedback": "Usually not."
+            },
+            {
+              "text": "6/9 with a full field",
+              "correct": false,
+              "feedback": "No."
             },
             {
               "text": "6/12 with a full field",
               "correct": false,
-              "feedback": "Wouldn't meet criteria."
-            },
-            {
-              "text": "6/9 with a small peripheral defect",
-              "correct": false,
-              "feedback": "Wouldn't meet criteria."
-            },
-            {
-              "text": "6/18 with a full field",
-              "correct": false,
-              "feedback": "Wouldn't meet SSI criteria."
+              "feedback": "No."
             }
           ],
-          "explanation": "Check the current official criteria for the full list.",
-          "link": "lva-certification-support#certification-criteria-outline"
+          "explanation": "Acuity worse than 3/60 with a full field fits 'severely sight impaired' most clearly.",
+          "link": "lva-certification-support#certification-criteria-outline",
+          "original": {
+            "q": "Which situation fits 'severely sight impaired' most clearly?",
+            "options": [
+              {
+                "text": "Acuity worse than 3/60 with a full field",
+                "correct": true,
+                "feedback": "This is one of the standard SSI examples."
+              },
+              {
+                "text": "6/12 with a full field",
+                "correct": false,
+                "feedback": "Wouldn't meet criteria."
+              },
+              {
+                "text": "6/9 with a small peripheral defect",
+                "correct": false,
+                "feedback": "Wouldn't meet criteria."
+              },
+              {
+                "text": "6/18 with a full field",
+                "correct": false,
+                "feedback": "Wouldn't meet SSI criteria."
+              }
+            ],
+            "explanation": "Check the current official criteria for the full list."
+          },
+          "needsReview": true
         },
         {
           "id": "lva-certification-support-x0101",
-          "q": "Who completes the CVI?",
+          "q": "A community optometrist thinks a patient meets the criteria for certification. Who will actually complete the CVI?",
           "options": [
             {
               "text": "A consultant ophthalmologist",
@@ -1877,22 +2593,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "An optometrist",
+              "text": "The optometrist",
+              "correct": false,
+              "feedback": "Not in England."
+            },
+            {
+              "text": "The GP",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "A GP",
+              "text": "The council",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "The patient",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Registration only."
             }
           ],
-          "explanation": ""
+          "explanation": "The CVI is completed by a consultant ophthalmologist.",
+          "original": {
+            "q": "Who completes the CVI?",
+            "options": [
+              {
+                "text": "A consultant ophthalmologist",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "An optometrist",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A GP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The patient",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-certification-support-x0102",
@@ -1923,30 +2666,57 @@
         },
         {
           "id": "lva-certification-support-x0103",
-          "q": "What do ECLOs do?",
+          "q": "A patient has just been told in clinic that their sight loss is permanent and is very upset. Who in the hospital eye clinic can help them right away?",
           "options": [
             {
-              "text": "Give practical and emotional support around diagnosis in hospital clinics",
+              "text": "An Eye Clinic Liaison Officer (ECLO)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Perform surgery",
+              "text": "The receptionist",
+              "correct": false,
+              "feedback": "Not trained for this."
+            },
+            {
+              "text": "The pharmacist",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Certify patients",
+              "text": "Nobody",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Prescribe drugs",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "ECLOs exist."
             }
           ],
-          "explanation": ""
+          "explanation": "ECLOs give practical and emotional support around diagnosis in hospital eye clinics.",
+          "original": {
+            "q": "What do ECLOs do?",
+            "options": [
+              {
+                "text": "Give practical and emotional support around diagnosis in hospital clinics",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Perform surgery",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Certify patients",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Prescribe drugs",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-certification-support-x0104",
@@ -1977,30 +2747,57 @@
         },
         {
           "id": "lva-certification-support-x0105",
-          "q": "What does registration open up?",
+          "q": "A patient is unsure whether to register as sight impaired. Which benefit could registration give them?",
           "options": [
             {
-              "text": "Rehabilitation, equipment and some benefits and concessions",
+              "text": "Access to rehabilitation, equipment and some concessions",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Free glasses only",
+              "text": "A guaranteed income",
               "correct": false,
-              "feedback": "More than that."
+              "feedback": "No."
+            },
+            {
+              "text": "A free car",
+              "correct": false,
+              "feedback": "No."
             },
             {
               "text": "Nothing",
               "correct": false,
-              "feedback": "It helps."
-            },
-            {
-              "text": "A driving licence",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "It can help."
             }
           ],
-          "explanation": ""
+          "explanation": "Registration can open up rehabilitation, equipment and some benefits and concessions.",
+          "original": {
+            "q": "What does registration open up?",
+            "options": [
+              {
+                "text": "Rehabilitation, equipment and some benefits and concessions",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Free glasses only",
+                "correct": false,
+                "feedback": "More than that."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "It helps."
+              },
+              {
+                "text": "A driving licence",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "lva-certification-support-x0106",

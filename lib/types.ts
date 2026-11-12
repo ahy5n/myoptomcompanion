@@ -6,6 +6,8 @@ export type ThemeName = 'Foundations' | 'Management' | 'Patient' | 'Professional
 export interface ModuleMeta {
   code: string
   name: string
+  /** Left blank until the lecturer is confirmed. */
+  lecturer?: string
   theme: ThemeName
   /** Years of the degree this subject is usually taught in. */
   years: number[]
@@ -29,6 +31,33 @@ export interface Mcq {
   explanation: string
   /** "topic-id#section-anchor" or just "topic-id" */
   link?: string
+  needsReview?: boolean
+  /** The question this one replaced, kept for comparison. Never shown. */
+  original?: { q: string; options: McqOption[]; explanation?: string }
+}
+
+/** exam-core: examinable essentials. clinical: practice know-how. background: context, statistics, history. */
+export type Priority = 'exam-core' | 'clinical' | 'background'
+
+export interface BlockMeta {
+  priority: Priority
+  /** Code of the module this block belongs to (see modules.json). */
+  module: string
+  /** Written or rewritten and waiting for an optometrist to check it. */
+  needsReview?: boolean
+  /** For rules and rules of thumb: the anatomy or physiology behind them. */
+  why?: string
+  /** For rules and rules of thumb: when they don't hold. */
+  limits?: string
+}
+
+export interface TextBlock extends BlockMeta {
+  text: string
+}
+
+export interface GoDeeperBlock extends BlockMeta {
+  heading: string
+  body: string
 }
 
 export interface Flashcard {
@@ -52,11 +81,13 @@ export interface Topic {
   id: string
   title: string
   summary: string
-  keyPoints: string[]
-  examTraps: string[]
+  /** Tags for the summary block. */
+  summaryMeta: BlockMeta
+  keyPoints: TextBlock[]
+  examTraps: TextBlock[]
   diagram?: { id: string; description: string; labels: string[] }
-  goDeeper: { heading: string; body: string }[]
-  checklist?: Checklist
+  goDeeper: GoDeeperBlock[]
+  checklist?: Checklist & Partial<BlockMeta>
   labelDiagram?: { diagramId: string; targets: string[] }
   flashcards: Flashcard[]
   mcq: Mcq[]

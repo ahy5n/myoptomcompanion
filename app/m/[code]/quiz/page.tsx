@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { QuizPage } from '@/components/practice/QuizPage'
-import { ModuleName } from '@/components/ModuleName'
-import { getModule, getModules, getPracticeItems } from '@/lib/content'
+import { ModuleQuizSection } from '@/components/practice/ModuleQuizSection'
+import { getModule, getModules, getModuleTopics } from '@/lib/content'
 
 export const dynamicParams = false
 
@@ -17,19 +16,15 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   return { title: `${code} quiz` }
 }
 
+/** A module's Quiz section: every topic's quiz in rounds, kept apart from the reading pages. */
 export default async function ModuleQuiz({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params
   const m = getModule(code)
   if (!m || !m.hasContent) notFound()
-  const items = getPracticeItems(code).filter((i) => i.kind !== 'flashcard')
-  return (
-    <QuizPage
-      items={items}
-      mode="all"
-      title={`${m.code} quiz`}
-      subtitle={<>All {items.length} questions from <ModuleName code={m.code} name={m.name} />, in a random order.</>}
-      backHref={`/m/${m.code}`}
-      backLabel={<>{m.code} · <ModuleName code={m.code} name={m.name} /></>}
-    />
-  )
+  const all = getModuleTopics(code)
+  const mixedCount = all.reduce((n, t) => n + t.mcq.length + t.cases.length, 0)
+  const topics = all
+    .map((t) => ({ id: t.id, title: t.title, count: Math.min(t.mcq.length + t.cases.length, 50) }))
+    .filter((t) => t.count > 0)
+  return <ModuleQuizSection code={m.code} name={m.name} topics={topics} mixedCount={mixedCount} />
 }

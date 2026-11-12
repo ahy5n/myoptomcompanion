@@ -6,18 +6,58 @@
       "id": "hq-higher-qualifications",
       "title": "Higher qualifications for optometrists",
       "summary": "After registration, optometrists can extend their scope with further qualifications. The College of Optometrists offers professional and higher certificates in areas such as glaucoma, medical retina, low vision and paediatric eye care, which often lead to work in enhanced community services. Therapeutic qualifications (Additional Supply, Supplementary and Independent Prescribing) allow optometrists to manage more conditions with medicines and are recorded by the GOC as specialist registration.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "College of Optometrists professional certificates cover areas such as glaucoma, medical retina, low vision and paediatric eye care; higher certificates go further.",
-        "Higher certificates often lead to roles in community glaucoma, medical retina or hospital-based clinics.",
-        "Therapeutic qualifications: Additional Supply (AS), Supplementary Prescribing (SP) and Independent Prescribing (IP).",
-        "AS, SP and IP are shown as specialist entries on the GOC register.",
-        "Some newer five-year MOptom programmes include independent prescribing within the degree.",
-        "Enhanced services (for example minor eye conditions, glaucoma repeat measures, cataract referral and post-op care) vary by area."
+        {
+          "text": "College of Optometrists professional certificates cover areas such as glaucoma, medical retina, low vision and paediatric eye care; higher certificates go further.",
+          "priority": "background",
+          "module": "HQ"
+        },
+        {
+          "text": "Higher certificates often lead to roles in community glaucoma, medical retina or hospital-based clinics.",
+          "priority": "background",
+          "module": "HQ"
+        },
+        {
+          "text": "Therapeutic qualifications: Additional Supply (AS), Supplementary Prescribing (SP) and Independent Prescribing (IP).",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "AS, SP and IP are shown as specialist entries on the GOC register.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Some newer five-year MOptom programmes include independent prescribing within the degree.",
+          "priority": "background",
+          "module": "HQ"
+        },
+        {
+          "text": "Enhanced services (for example minor eye conditions, glaucoma repeat measures, cataract referral and post-op care) vary by area.",
+          "priority": "clinical",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Assuming a certificate alone lets you prescribe: prescribing needs a therapeutic qualification and GOC specialist registration.",
-        "Thinking enhanced services are the same everywhere in the UK.",
-        "Confusing the College's certificates with GOC specialist registration."
+        {
+          "text": "Assuming a certificate alone lets you prescribe: prescribing needs a therapeutic qualification and GOC specialist registration.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Thinking enhanced services are the same everywhere in the UK.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Confusing the College's certificates with GOC specialist registration.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "career-ladder",
@@ -34,15 +74,21 @@
       "goDeeper": [
         {
           "heading": "Why extend your scope",
-          "body": "Hospital eye services are under heavy demand. Moving suitable care into the community (for example stable glaucoma monitoring, minor eye conditions, post-cataract checks) shortens waits and keeps patients closer to home. Optometrists with extra qualifications are central to these services and to newer integrated care models."
+          "body": "Hospital eye services are under heavy demand. Moving suitable care into the community (for example stable glaucoma monitoring, minor eye conditions, post-cataract checks) shortens waits and keeps patients closer to home. Optometrists with extra qualifications are central to these services and to newer integrated care models.",
+          "priority": "background",
+          "module": "HQ"
         },
         {
           "heading": "Choosing a qualification",
-          "body": "Think about the services in your area, what your workplace can support (OCT, fields, slit lamp time), what interests you and what your patients need. Talk to optometrists already doing the work. Some qualifications need supervised clinical sessions with an ophthalmologist or experienced practitioner, which can take time to arrange."
+          "body": "Think about the services in your area, what your workplace can support (OCT, fields, slit lamp time), what interests you and what your patients need. Talk to optometrists already doing the work. Some qualifications need supervised clinical sessions with an ophthalmologist or experienced practitioner, which can take time to arrange.",
+          "priority": "background",
+          "module": "HQ"
         },
         {
           "heading": "Staying competent",
-          "body": "Extended roles need ongoing CPD in that area, audit of your own outcomes and peer discussion. Work within your competence and local protocols, and keep clear records of decisions and their reasons."
+          "body": "Extended roles need ongoing CPD in that area, audit of your own outcomes and peer discussion. Work within your competence and local protocols, and keep clear records of decisions and their reasons.",
+          "priority": "clinical",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -150,7 +196,7 @@
         },
         {
           "id": "hq-higher-qualifications-x0101",
-          "q": "Which body offers professional certificates in glaucoma and medical retina?",
+          "q": "An optometrist wants a recognised qualification to work in a community glaucoma service. Which body offers professional certificates in this area?",
           "options": [
             {
               "text": "The College of Optometrists",
@@ -160,101 +206,209 @@
             {
               "text": "The GOC",
               "correct": false,
-              "feedback": "Regulator."
+              "feedback": "Regulator, not the awarding body here."
             },
             {
-              "text": "The NHS",
+              "text": "The AOP",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Representative body."
             },
             {
               "text": "The MHRA",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Medicines regulator."
             }
           ],
-          "explanation": ""
+          "explanation": "The College of Optometrists offers professional certificates in glaucoma and medical retina.",
+          "original": {
+            "q": "Which body offers professional certificates in glaucoma and medical retina?",
+            "options": [
+              {
+                "text": "The College of Optometrists",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The GOC",
+                "correct": false,
+                "feedback": "Regulator."
+              },
+              {
+                "text": "The NHS",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The MHRA",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0102",
-          "q": "How do AS, SP and IP appear?",
+          "q": "An employer wants to check whether a locum holds independent prescribing. Where should they look?",
           "options": [
             {
-              "text": "As specialist entries on the GOC register",
+              "text": "The GOC register, where it appears as a specialist entry",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Not at all",
+              "text": "The locum's CV only",
               "correct": false,
-              "feedback": "They appear."
+              "feedback": "Not enough."
             },
             {
-              "text": "On a driving licence",
+              "text": "The College website",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the register."
             },
             {
-              "text": "In the BNF",
+              "text": "Nowhere",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's recorded."
             }
           ],
-          "explanation": ""
+          "explanation": "AS, SP and IP appear as specialist entries on the GOC register.",
+          "original": {
+            "q": "How do AS, SP and IP appear?",
+            "options": [
+              {
+                "text": "As specialist entries on the GOC register",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Not at all",
+                "correct": false,
+                "feedback": "They appear."
+              },
+              {
+                "text": "On a driving licence",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "In the BNF",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0103",
-          "q": "Which is an enhanced service?",
+          "q": "A patient with a sticky eye is seen at a practice under a local NHS scheme instead of going to their GP. What is this?",
           "options": [
             {
-              "text": "Minor eye conditions or glaucoma repeat measures",
+              "text": "An enhanced service (minor eye conditions)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Standard sight test",
-              "correct": false,
-              "feedback": "Not enhanced."
-            },
-            {
-              "text": "Selling frames",
+              "text": "A routine sight test",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "Hospital care",
               "correct": false,
-              "feedback": "Many exist."
+              "feedback": "No."
+            },
+            {
+              "text": "Private care only",
+              "correct": false,
+              "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "Enhanced services include minor eye conditions and glaucoma repeat measures.",
+          "original": {
+            "q": "Which is an enhanced service?",
+            "options": [
+              {
+                "text": "Minor eye conditions or glaucoma repeat measures",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Standard sight test",
+                "correct": false,
+                "feedback": "Not enhanced."
+              },
+              {
+                "text": "Selling frames",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Many exist."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0104",
-          "q": "Some newer five-year MOptom degrees include",
+          "q": "A student on a newer five-year MOptom degree asks what extra it might include. What's a likely answer?",
           "options": [
             {
-              "text": "independent prescribing",
+              "text": "Independent prescribing",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "dispensing only",
+              "text": "Ophthalmic surgery",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "nothing extra",
-              "correct": false,
-              "feedback": "They include IP."
-            },
-            {
-              "text": "surgery",
+              "text": "Dentistry",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "Nothing more",
+              "correct": false,
+              "feedback": "Some include IP."
             }
           ],
-          "explanation": ""
+          "explanation": "Some newer five-year MOptom degrees include independent prescribing.",
+          "original": {
+            "q": "Some newer five-year MOptom degrees include",
+            "options": [
+              {
+                "text": "independent prescribing",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "dispensing only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing extra",
+                "correct": false,
+                "feedback": "They include IP."
+              },
+              {
+                "text": "surgery",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0105",
@@ -285,30 +439,57 @@
         },
         {
           "id": "hq-higher-qualifications-x0106",
-          "q": "Which is a therapeutic qualification?",
+          "q": "Which qualification lets an optometrist diagnose and prescribe medicines for eye conditions on their own?",
           "options": [
             {
               "text": "Independent Prescribing",
               "correct": true,
-              "feedback": "Yes, with AS and SP."
+              "feedback": "Yes."
+            },
+            {
+              "text": "Professional Certificate in Glaucoma",
+              "correct": false,
+              "feedback": "Not prescribing."
+            },
+            {
+              "text": "Contact lens specialty",
+              "correct": false,
+              "feedback": "Not prescribing."
             },
             {
               "text": "Low vision certificate",
               "correct": false,
-              "feedback": "Not therapeutic."
-            },
-            {
-              "text": "Paediatric certificate",
-              "correct": false,
-              "feedback": "Not therapeutic."
-            },
-            {
-              "text": "CVI",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Not prescribing."
             }
           ],
-          "explanation": ""
+          "explanation": "Independent Prescribing is a therapeutic qualification.",
+          "original": {
+            "q": "Which is a therapeutic qualification?",
+            "options": [
+              {
+                "text": "Independent Prescribing",
+                "correct": true,
+                "feedback": "Yes, with AS and SP."
+              },
+              {
+                "text": "Low vision certificate",
+                "correct": false,
+                "feedback": "Not therapeutic."
+              },
+              {
+                "text": "Paediatric certificate",
+                "correct": false,
+                "feedback": "Not therapeutic."
+              },
+              {
+                "text": "CVI",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-higher-qualifications-x0107",
@@ -355,22 +536,62 @@
       "id": "hq-glaucoma",
       "title": "Glaucoma: risk factors, assessment and monitoring",
       "summary": "Glaucoma is a group of conditions in which the optic nerve is progressively damaged, causing characteristic visual field loss. Raised IOP is the main modifiable risk factor. Case finding relies on assessing the optic disc, IOP and visual fields together; NICE NG81 sets out who to refer, how to diagnose and how to treat and monitor.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "Risk factors for chronic open-angle glaucoma: increasing age, raised IOP, family history in a first-degree relative, Black African or Black Caribbean family origin, high myopia and thin central corneas.",
-        "Signs: enlarging or asymmetric cupping, rim thinning (notching), disc haemorrhages, nerve fibre layer defects and matching field loss.",
-        "Field defects typically respect the horizontal midline: nasal steps, arcuate and paracentral defects.",
-        "NICE NG81 recommends referral for further assessment when IOP is 24 mmHg or more (confirmed on repeat measurement), or there is a suspicious disc or field defect.",
-        "Diagnosis includes Goldmann-type tonometry, central corneal thickness, gonioscopy, optic nerve assessment (often with OCT) and visual fields.",
-        "Treatment aims to lower IOP: NICE recommends offering selective laser trabeculoplasty (SLT) first for many patients, with drops or surgery if needed."
+        {
+          "text": "Risk factors for chronic open-angle glaucoma: increasing age, raised IOP, family history in a first-degree relative, Black African or Black Caribbean family origin, high myopia and thin central corneas.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Signs: enlarging or asymmetric cupping, rim thinning (notching), disc haemorrhages, nerve fibre layer defects and matching field loss.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Field defects typically respect the horizontal midline: nasal steps, arcuate and paracentral defects.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "NICE NG81 recommends referral for further assessment when IOP is 24 mmHg or more (confirmed on repeat measurement), or there is a suspicious disc or field defect.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Diagnosis includes Goldmann-type tonometry, central corneal thickness, gonioscopy, optic nerve assessment (often with OCT) and visual fields.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Treatment aims to lower IOP: NICE recommends offering selective laser trabeculoplasty (SLT) first for many patients, with drops or surgery if needed.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Referring purely on cup-to-disc ratio without considering disc size.",
-        "Relying on non-contact tonometry alone for a borderline reading without repeating.",
-        "Forgetting gonioscopy: open-angle and angle-closure glaucoma are managed differently."
+        {
+          "text": "Referring purely on cup-to-disc ratio without considering disc size.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Relying on non-contact tonometry alone for a borderline reading without repeating.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Forgetting gonioscopy: open-angle and angle-closure glaucoma are managed differently.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "glaucomatous-disc",
-        "description": "Two optic discs side by side. Left: healthy disc with a small central cup and a thick neuroretinal rim following the ISNT pattern (Inferior ≥ Superior ≥ Nasal ≥ Temporal). Right: glaucomatous disc with an enlarged vertically elongated cup, inferior rim notch, a small splinter haemorrhage at the disc edge, and a matching superior arcuate field defect drawn beside it.",
+        "description": "Two optic discs side by side. Left: healthy disc with a small central cup and a thick neuroretinal rim, here following the ISNT pattern often seen in healthy discs (Inferior ≥ Superior ≥ Nasal ≥ Temporal), though many healthy discs differ. Right: glaucomatous disc with an enlarged vertically elongated cup, inferior rim notch, a small splinter haemorrhage at the disc edge, and a matching superior arcuate field defect drawn beside it.",
         "labels": [
           "Neuroretinal rim",
           "Cup",
@@ -383,15 +604,23 @@
       "goDeeper": [
         {
           "heading": "Assessing the optic disc",
-          "body": "Estimate disc size first (for example with a slit lamp lens and graticule or the height of the slit), because big discs have bigger cups. Then look at the rim: is it evenly thick and does it follow the ISNT pattern? Look for notches, haemorrhages, peripapillary atrophy and nerve fibre layer defects. Compare the two eyes: asymmetry is suspicious. OCT measurement of the nerve fibre layer and rim helps, but must be interpreted alongside the clinical picture."
+          "body": "Estimate disc size first (for example with a slit lamp lens and graticule or the height of the slit), because big discs have bigger cups. Then look at the rim: is it evenly thick and does it follow the ISNT pattern? Look for notches, haemorrhages, peripapillary atrophy and nerve fibre layer defects. Compare the two eyes: asymmetry is suspicious. OCT measurement of the nerve fibre layer and rim helps, but must be interpreted alongside the clinical picture.",
+          "priority": "exam-core",
+          "module": "HQ",
+          "limits": "Even rim thickness and the ISNT pattern are guides only: many healthy discs don't follow ISNT exactly, so judge them alongside disc size, cup shape, haemorrhages, the nerve fibre layer, OCT and fields.",
+          "needsReview": true
         },
         {
           "heading": "IOP and corneal thickness",
-          "body": "Goldmann applanation is the reference method. Thin corneas make readings falsely low and are an independent risk factor; thick corneas read high. Single raised readings from non-contact tonometry should be repeated; many areas have 'repeat measures' or refinement schemes so that patients aren't referred on one reading."
+          "body": "Goldmann applanation is the reference method. Thin corneas make readings falsely low and are an independent risk factor; thick corneas read high. Single raised readings from non-contact tonometry should be repeated; many areas have 'repeat measures' or refinement schemes so that patients aren't referred on one reading.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Ocular hypertension",
-          "body": "Ocular hypertension means IOP consistently above normal (often 24 mmHg or more) with healthy discs and fields. Not everyone develops glaucoma, so NICE uses IOP and risk factors to decide who to treat and how often to monitor. Patients need to understand why monitoring continues even though they have no symptoms."
+          "body": "Ocular hypertension means IOP consistently above normal (often 24 mmHg or more) with healthy discs and fields. Not everyone develops glaucoma, so NICE uses IOP and risk factors to decide who to treat and how often to monitor. Patients need to understand why monitoring continues even though they have no symptoms.",
+          "priority": "exam-core",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -499,30 +728,57 @@
         },
         {
           "id": "hq-glaucoma-x0101",
-          "q": "NICE NG81 refers when IOP is",
+          "q": "A patient's IOP is 25 mmHg on repeat measurement with normal discs and fields. What should you do under NICE NG81?",
           "options": [
             {
-              "text": "24 mmHg or more on repeat measurement",
+              "text": "Refer: IOP is 24 mmHg or more on repeat",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "21 mmHg once",
+              "text": "Recheck in five years",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too long."
             },
             {
-              "text": "30 mmHg only",
+              "text": "Reassure: no damage",
               "correct": false,
-              "feedback": "No."
+              "feedback": "NICE says refer."
             },
             {
-              "text": "any value",
+              "text": "Refer only if over 30",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE NG81 refers when IOP is 24 mmHg or more on repeat measurement.",
+          "original": {
+            "q": "NICE NG81 refers when IOP is",
+            "options": [
+              {
+                "text": "24 mmHg or more on repeat measurement",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "21 mmHg once",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "30 mmHg only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "any value",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-glaucoma-x0102",
@@ -553,30 +809,57 @@
         },
         {
           "id": "hq-glaucoma-x0103",
-          "q": "What does NICE offer first for many patients?",
+          "q": "A newly diagnosed COAG patient asks if they can avoid daily drops. What can NICE offer first for many patients?",
           "options": [
             {
-              "text": "Selective laser trabeculoplasty",
+              "text": "Selective laser trabeculoplasty (SLT)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Surgery",
+              "text": "Trabeculectomy",
               "correct": false,
               "feedback": "Not first."
             },
             {
               "text": "No treatment",
               "correct": false,
-              "feedback": "Treatment is offered."
+              "feedback": "No."
             },
             {
               "text": "Oral acetazolamide",
               "correct": false,
-              "feedback": "Short term."
+              "feedback": "Not long-term."
             }
           ],
-          "explanation": ""
+          "explanation": "NICE offers SLT first for many patients with OHT or COAG.",
+          "original": {
+            "q": "What does NICE offer first for many patients?",
+            "options": [
+              {
+                "text": "Selective laser trabeculoplasty",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Surgery",
+                "correct": false,
+                "feedback": "Not first."
+              },
+              {
+                "text": "No treatment",
+                "correct": false,
+                "feedback": "Treatment is offered."
+              },
+              {
+                "text": "Oral acetazolamide",
+                "correct": false,
+                "feedback": "Short term."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-glaucoma-x0104",
@@ -607,57 +890,111 @@
         },
         {
           "id": "hq-glaucoma-x0105",
-          "q": "Which test is part of diagnosis?",
+          "q": "Two patients have the same IOP of 23 mmHg, but one has thin corneas. Which test explains why their risk differs?",
           "options": [
             {
               "text": "Central corneal thickness",
               "correct": true,
-              "feedback": "Yes, with Goldmann tonometry and gonioscopy."
+              "feedback": "Yes."
             },
             {
               "text": "Keratometry",
               "correct": false,
-              "feedback": "Not diagnostic."
+              "feedback": "Curvature only."
             },
             {
-              "text": "Colour vision only",
+              "text": "Colour vision",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Duochrome",
+              "text": "Stereo",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Central corneal thickness is part of glaucoma diagnosis and affects risk.",
+          "original": {
+            "q": "Which test is part of diagnosis?",
+            "options": [
+              {
+                "text": "Central corneal thickness",
+                "correct": true,
+                "feedback": "Yes, with Goldmann tonometry and gonioscopy."
+              },
+              {
+                "text": "Keratometry",
+                "correct": false,
+                "feedback": "Not diagnostic."
+              },
+              {
+                "text": "Colour vision only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Duochrome",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-glaucoma-x0106",
-          "q": "Which is a risk factor?",
+          "q": "Which patient has a recognised risk factor for glaucoma?",
           "options": [
             {
-              "text": "Family history in a first-degree relative",
+              "text": "A 50-year-old whose father has glaucoma",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: first-degree relative."
             },
             {
-              "text": "Hyperopia only",
+              "text": "A 30-year-old with mild hyperopia only",
               "correct": false,
-              "feedback": "Angle closure."
+              "feedback": "Less relevant."
             },
             {
-              "text": "Contact lens wear",
+              "text": "A 25-year-old who wears contact lenses",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Young age",
+              "text": "A child with a squint",
               "correct": false,
-              "feedback": "Older age."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Family history in a first-degree relative is a risk factor.",
+          "original": {
+            "q": "Which is a risk factor?",
+            "options": [
+              {
+                "text": "Family history in a first-degree relative",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Hyperopia only",
+                "correct": false,
+                "feedback": "Angle closure."
+              },
+              {
+                "text": "Contact lens wear",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Young age",
+                "correct": false,
+                "feedback": "Older age."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [
@@ -679,18 +1016,58 @@
       "id": "hq-medical-retina",
       "title": "Medical retina: AMD, diabetic retinopathy and vein occlusions",
       "summary": "Medical retina covers diseases of the retina treated with medicines, lasers or monitoring rather than surgery. The big three seen in optometric practice are age-related macular degeneration, diabetic retinopathy and retinal vein occlusion. Optometrists detect them, decide urgency and increasingly help with monitoring in the community.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "AMD: dry (drusen, pigment changes, geographic atrophy) and wet/neovascular (new vessels causing fluid, haemorrhage and rapid distortion and vision loss).",
-        "Suspected wet AMD needs fast referral through the local pathway: anti-VEGF injections work best when started early.",
-        "Diabetic retinopathy is graded in the NHS Diabetic Eye Screening Programme as R0 (none), R1 (background), R2 (pre-proliferative), R3 (proliferative), with M0/M1 for maculopathy.",
-        "Proliferative retinopathy and significant maculopathy need prompt referral; people with diabetes should attend screening as well as routine eye tests.",
-        "Retinal vein occlusion: haemorrhages, dilated veins and macular oedema; linked to high blood pressure, diabetes, high cholesterol and raised IOP.",
-        "OCT is central to diagnosing and monitoring macular fluid."
+        {
+          "text": "AMD: dry (drusen, pigment changes, geographic atrophy) and wet/neovascular (new vessels causing fluid, haemorrhage and rapid distortion and vision loss).",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Suspected wet AMD needs fast referral through the local pathway: anti-VEGF injections work best when started early.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Diabetic retinopathy is graded in the NHS Diabetic Eye Screening Programme as R0 (none), R1 (background), R2 (pre-proliferative), R3 (proliferative), with M0/M1 for maculopathy.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Proliferative retinopathy and significant maculopathy need prompt referral; people with diabetes should attend screening as well as routine eye tests.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Retinal vein occlusion: haemorrhages, dilated veins and macular oedema; linked to high blood pressure, diabetes, high cholesterol and raised IOP.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "OCT is central to diagnosing and monitoring macular fluid.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Sending suspected wet AMD as a routine referral.",
-        "Assuming diabetic screening replaces the eye test: it doesn't check vision, refraction or other eye disease.",
-        "Forgetting to check blood pressure and general health links in vein occlusion."
+        {
+          "text": "Sending suspected wet AMD as a routine referral.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Assuming diabetic screening replaces the eye test: it doesn't check vision, refraction or other eye disease.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Forgetting to check blood pressure and general health links in vein occlusion.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "medical-retina-signs",
@@ -707,15 +1084,21 @@
       "goDeeper": [
         {
           "heading": "Wet AMD fast-track",
-          "body": "Warning signs: sudden distortion (straight lines wavy), a new central blur or dark patch, and a drop in acuity. Signs include macular haemorrhage, fluid on OCT and a grey-green membrane. Refer via the local rapid-access pathway with VA, symptoms, duration and OCT if available. Treatment is with anti-VEGF injections (for example aflibercept, ranibizumab or faricimab) given in a schedule tailored to response. Advise Amsler grid self-monitoring of the other eye."
+          "body": "Warning signs: sudden distortion (straight lines wavy), a new central blur or dark patch, and a drop in acuity. Signs include macular haemorrhage, fluid on OCT and a grey-green membrane. Refer via the local rapid-access pathway with VA, symptoms, duration and OCT if available. Treatment is with anti-VEGF injections (for example aflibercept, ranibizumab or faricimab) given in a schedule tailored to response. Advise Amsler grid self-monitoring of the other eye.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Diabetic eye screening grades",
-          "body": "R0: no retinopathy. R1: background (microaneurysms, haemorrhages, exudates). R2: pre-proliferative (venous beading, loops, multiple deep haemorrhages, IRMA). R3: proliferative (new vessels on the disc or elsewhere, pre-retinal or vitreous haemorrhage); R3A is active and needs urgent referral. M1: maculopathy (for example exudates or haemorrhages near the fovea), referred for OCT/medical retina assessment. Screening intervals have been extended for people at low risk in some areas: check current local rules."
+          "body": "R0: no retinopathy. R1: background (microaneurysms, haemorrhages, exudates). R2: pre-proliferative (venous beading, loops, multiple deep haemorrhages, IRMA). R3: proliferative (new vessels on the disc or elsewhere, pre-retinal or vitreous haemorrhage); R3A is active and needs urgent referral. M1: maculopathy (for example exudates or haemorrhages near the fovea), referred for OCT/medical retina assessment. Screening intervals have been extended for people at low risk in some areas: check current local rules.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Retinal vein occlusion",
-          "body": "Central retinal vein occlusion gives widespread haemorrhages in all four quadrants ('stormy sunset'); branch occlusion gives a wedge of haemorrhages, usually at an artery–vein crossing. Complications are macular oedema (treated with anti-VEGF or steroid implants) and new vessels leading to neovascular glaucoma. Refer according to vision and signs, and make sure the GP checks blood pressure, glucose and lipids."
+          "body": "Central retinal vein occlusion gives widespread haemorrhages in all four quadrants ('stormy sunset'); branch occlusion gives a wedge of haemorrhages, usually at an artery–vein crossing. Complications are macular oedema (treated with anti-VEGF or steroid implants) and new vessels leading to neovascular glaucoma. Refer according to vision and signs, and make sure the GP checks blood pressure, glucose and lipids.",
+          "priority": "exam-core",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -739,114 +1122,222 @@
       "mcq": [
         {
           "id": "hq-mr-1",
-          "q": "A 78-year-old notices door frames look bent in the left eye over a week; VA has dropped from 6/9 to 6/24 and OCT shows subretinal fluid. Best action?",
+          "q": "Which of these is the right action for a 78-year-old with new distortion, VA down from 6/9 to 6/24 and macular fluid on OCT?",
           "options": [
             {
               "text": "Fast-track referral for suspected wet AMD",
               "correct": true,
-              "feedback": "Early anti-VEGF treatment protects vision."
+              "feedback": "Yes."
             },
             {
               "text": "Routine referral",
               "correct": false,
-              "feedback": "Too slow for suspected wet AMD."
+              "feedback": "Too slow."
             },
             {
-              "text": "Update glasses and review in a year",
+              "text": "Review in six months",
               "correct": false,
-              "feedback": "Doesn't address the cause."
+              "feedback": "Too slow."
             },
             {
-              "text": "AREDS supplements only",
+              "text": "Prescribe new glasses",
               "correct": false,
-              "feedback": "Supplements don't treat wet AMD."
+              "feedback": "Doesn't treat it."
             }
           ],
-          "explanation": "New distortion + fluid = suspected wet AMD: fast-track.",
-          "link": "hq-medical-retina#wet-amd-fast-track"
+          "explanation": "Suspected wet AMD needs fast-track referral.",
+          "link": "hq-medical-retina#wet-amd-fast-track",
+          "original": {
+            "q": "A 78-year-old notices door frames look bent in the left eye over a week; VA has dropped from 6/9 to 6/24 and OCT shows subretinal fluid. Best action?",
+            "options": [
+              {
+                "text": "Fast-track referral for suspected wet AMD",
+                "correct": true,
+                "feedback": "Early anti-VEGF treatment protects vision."
+              },
+              {
+                "text": "Routine referral",
+                "correct": false,
+                "feedback": "Too slow for suspected wet AMD."
+              },
+              {
+                "text": "Update glasses and review in a year",
+                "correct": false,
+                "feedback": "Doesn't address the cause."
+              },
+              {
+                "text": "AREDS supplements only",
+                "correct": false,
+                "feedback": "Supplements don't treat wet AMD."
+              }
+            ],
+            "explanation": "New distortion + fluid = suspected wet AMD: fast-track."
+          },
+          "needsReview": true
         },
         {
           "id": "hq-mr-2",
-          "q": "New vessels on the disc in a patient with diabetes correspond to which screening grade?",
+          "q": "A diabetic screening image shows new vessels on the disc. Which grade and action fit?",
           "options": [
             {
-              "text": "R3 (proliferative)",
-              "correct": true,
-              "feedback": "New vessels define proliferative retinopathy."
-            },
-            {
-              "text": "R1",
-              "correct": false,
-              "feedback": "R1 is background retinopathy."
-            },
-            {
-              "text": "R2",
-              "correct": false,
-              "feedback": "R2 is pre-proliferative."
-            },
-            {
-              "text": "M1",
-              "correct": false,
-              "feedback": "M1 is maculopathy."
-            }
-          ],
-          "explanation": "R3 needs urgent referral.",
-          "link": "hq-medical-retina#diabetic-eye-screening-grades"
-        },
-        {
-          "id": "hq-mr-3",
-          "q": "Flame haemorrhages in a wedge shape distal to an artery–vein crossing suggest:",
-          "options": [
-            {
-              "text": "Branch retinal vein occlusion",
-              "correct": true,
-              "feedback": "The artery compresses the vein at the crossing."
-            },
-            {
-              "text": "Central retinal artery occlusion",
-              "correct": false,
-              "feedback": "That gives a pale retina with a cherry-red spot."
-            },
-            {
-              "text": "Dry AMD",
-              "correct": false,
-              "feedback": "Dry AMD causes drusen and atrophy."
-            },
-            {
-              "text": "Retinal detachment",
-              "correct": false,
-              "feedback": "Detachment causes a grey, elevated retina."
-            }
-          ],
-          "explanation": "BRVO: sectoral haemorrhages beyond a crossing.",
-          "link": "hq-medical-retina#retinal-vein-occlusion"
-        },
-        {
-          "id": "hq-medical-retina-x0101",
-          "q": "Wet AMD is treated with",
-          "options": [
-            {
-              "text": "anti-VEGF injections, best started early",
+              "text": "R3 (proliferative): urgent referral",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "antibiotics",
+              "text": "R1: annual screening",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Background."
             },
             {
-              "text": "glasses",
+              "text": "R2: closer monitoring",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Pre-proliferative."
             },
             {
-              "text": "nothing",
+              "text": "M1: maculopathy",
               "correct": false,
-              "feedback": "Treatment exists."
+              "feedback": "Different grade."
             }
           ],
-          "explanation": ""
+          "explanation": "New vessels on the disc are R3 (proliferative).",
+          "link": "hq-medical-retina#diabetic-eye-screening-grades",
+          "original": {
+            "q": "New vessels on the disc in a patient with diabetes correspond to which screening grade?",
+            "options": [
+              {
+                "text": "R3 (proliferative)",
+                "correct": true,
+                "feedback": "New vessels define proliferative retinopathy."
+              },
+              {
+                "text": "R1",
+                "correct": false,
+                "feedback": "R1 is background retinopathy."
+              },
+              {
+                "text": "R2",
+                "correct": false,
+                "feedback": "R2 is pre-proliferative."
+              },
+              {
+                "text": "M1",
+                "correct": false,
+                "feedback": "M1 is maculopathy."
+              }
+            ],
+            "explanation": "R3 needs urgent referral."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "hq-mr-3",
+          "q": "A patient with hypertension has flame haemorrhages in one quadrant beyond an artery–vein crossing. Which is the most likely diagnosis?",
+          "options": [
+            {
+              "text": "Branch retinal vein occlusion",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Central retinal artery occlusion",
+              "correct": false,
+              "feedback": "Pale retina, cherry-red spot."
+            },
+            {
+              "text": "Diabetic retinopathy",
+              "correct": false,
+              "feedback": "Not sectoral."
+            },
+            {
+              "text": "Wet AMD",
+              "correct": false,
+              "feedback": "Macular."
+            }
+          ],
+          "explanation": "Sectoral flame haemorrhages beyond an artery–vein crossing suggest BRVO.",
+          "link": "hq-medical-retina#retinal-vein-occlusion",
+          "original": {
+            "q": "Flame haemorrhages in a wedge shape distal to an artery–vein crossing suggest:",
+            "options": [
+              {
+                "text": "Branch retinal vein occlusion",
+                "correct": true,
+                "feedback": "The artery compresses the vein at the crossing."
+              },
+              {
+                "text": "Central retinal artery occlusion",
+                "correct": false,
+                "feedback": "That gives a pale retina with a cherry-red spot."
+              },
+              {
+                "text": "Dry AMD",
+                "correct": false,
+                "feedback": "Dry AMD causes drusen and atrophy."
+              },
+              {
+                "text": "Retinal detachment",
+                "correct": false,
+                "feedback": "Detachment causes a grey, elevated retina."
+              }
+            ],
+            "explanation": "BRVO: sectoral haemorrhages beyond a crossing."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "hq-medical-retina-x0101",
+          "q": "A patient with suspected wet AMD asks why you're referring so quickly. What's the reason?",
+          "options": [
+            {
+              "text": "Anti-VEGF injections work best when started early",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "There's no treatment",
+              "correct": false,
+              "feedback": "There is."
+            },
+            {
+              "text": "Surgery is needed today",
+              "correct": false,
+              "feedback": "Not usually."
+            },
+            {
+              "text": "It's routine",
+              "correct": false,
+              "feedback": "Not urgent enough."
+            }
+          ],
+          "explanation": "Wet AMD is treated with anti-VEGF injections, best started early.",
+          "original": {
+            "q": "Wet AMD is treated with",
+            "options": [
+              {
+                "text": "anti-VEGF injections, best started early",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "antibiotics",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glasses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Treatment exists."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-medical-retina-x0102",
@@ -877,30 +1368,57 @@
         },
         {
           "id": "hq-medical-retina-x0103",
-          "q": "Retinal vein occlusion is linked to",
+          "q": "A patient has had a retinal vein occlusion. Which health check should you recommend?",
           "options": [
             {
-              "text": "high blood pressure, diabetes and high cholesterol",
+              "text": "Blood pressure, blood sugar and cholesterol with their GP",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "myopia only",
+              "text": "A hearing test",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "contact lenses",
+              "text": "A dental check",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "nothing",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "Several risks."
+              "feedback": "Systemic risks matter."
             }
           ],
-          "explanation": ""
+          "explanation": "Retinal vein occlusion is linked to high blood pressure, diabetes and high cholesterol.",
+          "original": {
+            "q": "Retinal vein occlusion is linked to",
+            "options": [
+              {
+                "text": "high blood pressure, diabetes and high cholesterol",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "myopia only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "contact lenses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "Several risks."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-medical-retina-x0104",
@@ -958,30 +1476,57 @@
         },
         {
           "id": "hq-medical-retina-x0106",
-          "q": "Proliferative retinopathy needs",
+          "q": "A diabetic patient has new vessels elsewhere on the retina. What should you do?",
           "options": [
             {
-              "text": "prompt referral",
+              "text": "Refer promptly",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "routine annual review",
+              "text": "Recheck in a year",
               "correct": false,
               "feedback": "Too slow."
             },
             {
-              "text": "no action",
+              "text": "Reassure",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "glasses",
+              "text": "Prescribe glasses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Doesn't treat it."
             }
           ],
-          "explanation": ""
+          "explanation": "Proliferative retinopathy needs prompt referral.",
+          "original": {
+            "q": "Proliferative retinopathy needs",
+            "options": [
+              {
+                "text": "prompt referral",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "routine annual review",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "no action",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "glasses",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-medical-retina-x0107",
@@ -1028,18 +1573,58 @@
       "id": "hq-acute-eye-care",
       "title": "Acute and emergency eye care services",
       "summary": "Many areas run community urgent eye care services (often called CUES or MECS) where trained optometrists see people with sudden eye problems instead of them going to A&E or their GP. Safe triage, a systematic examination, clear decisions about who can be managed locally and who needs hospital care, and good safety-netting are the core skills.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "Common presentations: red eye, flashes and floaters, foreign bodies, minor injuries, sudden blurred vision, and lid lumps.",
-        "Triage by phone or in person decides how quickly the patient needs to be seen.",
-        "Red flags needing same-day hospital care include suspected retinal detachment, acute angle closure, microbial keratitis, chemical injury, penetrating injury, sudden painless vision loss and suspected giant cell arteritis.",
-        "Superficial foreign bodies can be removed by trained optometrists within the service's protocol; rust rings and deep or central ones may need referral.",
-        "Flashes and floaters need a dilated retinal examination; a tear or detachment needs same-day referral.",
-        "Services follow written protocols and often use Patient Group Directions or IP prescribing for treatment."
+        {
+          "text": "Common presentations: red eye, flashes and floaters, foreign bodies, minor injuries, sudden blurred vision, and lid lumps.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Triage by phone or in person decides how quickly the patient needs to be seen.",
+          "priority": "clinical",
+          "module": "HQ"
+        },
+        {
+          "text": "Red flags needing same-day hospital care include suspected retinal detachment, acute angle closure, microbial keratitis, chemical injury, penetrating injury, sudden painless vision loss and suspected giant cell arteritis.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Superficial foreign bodies can be removed by trained optometrists within the service's protocol; rust rings and deep or central ones may need referral.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Flashes and floaters need a dilated retinal examination; a tear or detachment needs same-day referral.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Services follow written protocols and often use Patient Group Directions or IP prescribing for treatment.",
+          "priority": "clinical",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Missing a penetrating injury because the history sounded like a simple foreign body (for example hammering metal on metal).",
-        "Not dilating patients with acute flashes and floaters.",
-        "Discharging without clear safety-net advice."
+        {
+          "text": "Missing a penetrating injury because the history sounded like a simple foreign body (for example hammering metal on metal).",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Not dilating patients with acute flashes and floaters.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Discharging without clear safety-net advice.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "red-eye-triage",
@@ -1057,15 +1642,21 @@
       "goDeeper": [
         {
           "heading": "Flashes and floaters",
-          "body": "Most new floaters with flashes in older adults are from posterior vitreous detachment. About 1 in 10 people with an acute PVD has a retinal tear. Examine both eyes dilated with a wide-field technique; look for pigment in the anterior vitreous ('tobacco dust'), which strongly suggests a tear. Tears or detachment: same-day referral. Uncomplicated PVD: explain the warning signs (more floaters, more flashes, a shadow or curtain) and when to return urgently."
+          "body": "Most new floaters with flashes in older adults are from posterior vitreous detachment. About 1 in 10 people with an acute PVD has a retinal tear. Examine both eyes dilated with a wide-field technique; look for pigment in the anterior vitreous ('tobacco dust'), which strongly suggests a tear. Tears or detachment: same-day referral. Uncomplicated PVD: explain the warning signs (more floaters, more flashes, a shadow or curtain) and when to return urgently.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Eye injuries",
-          "body": "Chemical injury: irrigate immediately and copiously (before anything else), check pH if possible, then refer the same day. High-velocity injury (hammering, grinding): suspect an intraocular foreign body; don't press on the eye; refer for imaging. Blunt injury: check for hyphaema, raised IOP, orbital fracture and retinal damage. Record mechanism, time and findings carefully."
+          "body": "Chemical injury: irrigate immediately and copiously (before anything else), check pH if possible, then refer the same day. High-velocity injury (hammering, grinding): suspect an intraocular foreign body; don't press on the eye; refer for imaging. Blunt injury: check for hyphaema, raised IOP, orbital fracture and retinal damage. Record mechanism, time and findings carefully.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Managing locally",
-          "body": "Conditions often managed in community services include simple conjunctivitis, dry eye, blepharitis, marginal keratitis, subconjunctival haemorrhage, superficial foreign bodies and minor abrasions. Treat within protocol, give written advice and a clear plan for review, and escalate if the patient doesn't improve as expected."
+          "body": "Conditions often managed in community services include simple conjunctivitis, dry eye, blepharitis, marginal keratitis, subconjunctival haemorrhage, superficial foreign bodies and minor abrasions. Treat within protocol, give written advice and a clear plan for review, and escalate if the patient doesn't improve as expected.",
+          "priority": "clinical",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -1173,57 +1764,111 @@
         },
         {
           "id": "hq-acute-eye-care-x0101",
-          "q": "Flashes and floaters need",
+          "q": "A 60-year-old has had new flashes and floaters for two days. What must you do?",
           "options": [
             {
-              "text": "a dilated retinal examination",
+              "text": "A dilated retinal examination",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "reassurance only",
-              "correct": false,
-              "feedback": "Examine first."
-            },
-            {
-              "text": "glasses",
+              "text": "Reassure without examining",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "tonometry only",
+              "text": "Refraction only",
               "correct": false,
               "feedback": "Not enough."
+            },
+            {
+              "text": "Book in six months",
+              "correct": false,
+              "feedback": "Too slow."
             }
           ],
-          "explanation": ""
+          "explanation": "Flashes and floaters need a dilated retinal examination.",
+          "original": {
+            "q": "Flashes and floaters need",
+            "options": [
+              {
+                "text": "a dilated retinal examination",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "reassurance only",
+                "correct": false,
+                "feedback": "Examine first."
+              },
+              {
+                "text": "glasses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "tonometry only",
+                "correct": false,
+                "feedback": "Not enough."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-acute-eye-care-x0102",
-          "q": "Which is a same-day hospital red flag?",
+          "q": "Which patient needs same-day referral to hospital?",
           "options": [
             {
-              "text": "Suspected retinal detachment",
+              "text": "Someone with a curtain coming over their vision after flashes",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: suspected retinal detachment."
             },
             {
-              "text": "Mild allergic conjunctivitis",
+              "text": "Someone with mild itchy eyes in spring",
               "correct": false,
-              "feedback": "Manage in community."
+              "feedback": "Routine."
             },
             {
-              "text": "Blepharitis",
+              "text": "Someone needing new reading glasses",
               "correct": false,
-              "feedback": "Community."
+              "feedback": "Routine."
             },
             {
-              "text": "Dry eye",
+              "text": "Someone with a chalazion",
               "correct": false,
-              "feedback": "Community."
+              "feedback": "Routine."
             }
           ],
-          "explanation": ""
+          "explanation": "Suspected retinal detachment is a same-day hospital red flag.",
+          "original": {
+            "q": "Which is a same-day hospital red flag?",
+            "options": [
+              {
+                "text": "Suspected retinal detachment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Mild allergic conjunctivitis",
+                "correct": false,
+                "feedback": "Manage in community."
+              },
+              {
+                "text": "Blepharitis",
+                "correct": false,
+                "feedback": "Community."
+              },
+              {
+                "text": "Dry eye",
+                "correct": false,
+                "feedback": "Community."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-acute-eye-care-x0103",
@@ -1254,7 +1899,7 @@
         },
         {
           "id": "hq-acute-eye-care-x0104",
-          "q": "How is urgency decided?",
+          "q": "A practice gets three calls about eye problems in one morning. How should staff decide who's seen first?",
           "options": [
             {
               "text": "Triage by phone or in person",
@@ -1264,7 +1909,7 @@
             {
               "text": "First come, first served",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Unsafe."
             },
             {
               "text": "By age only",
@@ -1272,12 +1917,39 @@
               "feedback": "No."
             },
             {
-              "text": "Randomly",
+              "text": "By who complains loudest",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Urgency is decided by triage by phone or in person.",
+          "original": {
+            "q": "How is urgency decided?",
+            "options": [
+              {
+                "text": "Triage by phone or in person",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "First come, first served",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "By age only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Randomly",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-acute-eye-care-x0105",
@@ -1308,30 +1980,57 @@
         },
         {
           "id": "hq-acute-eye-care-x0106",
-          "q": "A retinal tear found on examination needs",
+          "q": "You find a horseshoe retinal tear on dilated examination. What's the right action?",
           "options": [
             {
-              "text": "same-day referral",
+              "text": "Same-day referral",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "routine referral",
+              "text": "Routine referral",
               "correct": false,
               "feedback": "Too slow."
             },
             {
-              "text": "review in a month",
+              "text": "Review in a month",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too slow."
             },
             {
-              "text": "no action",
+              "text": "No action",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Act."
             }
           ],
-          "explanation": ""
+          "explanation": "A retinal tear needs same-day referral.",
+          "original": {
+            "q": "A retinal tear found on examination needs",
+            "options": [
+              {
+                "text": "same-day referral",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "routine referral",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "review in a month",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "no action",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-acute-eye-care-x0107",
@@ -1374,18 +2073,58 @@
       "id": "hq-additional-supply-sp",
       "title": "Additional supply and supplementary prescribing",
       "summary": "Before independent prescribing, optometrists could extend their use of medicines in two ways. Additional Supply (AS) allows supply of a wider list of prescription-only medicines in the course of practice. Supplementary Prescribing (SP) allows prescribing within a clinical management plan agreed with an independent medical prescriber and the patient. Both remain on the GOC register, though most new therapeutic training now leads to IP.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "AS optometrists can supply certain additional POMs (for example some antibiotic and anti-allergy medicines) in the course of professional practice.",
-        "SP works in partnership: a doctor (independent prescriber) makes the diagnosis, and a clinical management plan (CMP) sets out what the SP optometrist can prescribe.",
-        "A CMP names the patient, condition, medicines, doses, when to refer back and review arrangements, and is agreed with the patient.",
-        "SP suits long-term conditions such as glaucoma, where a plan covers monitoring and treatment changes.",
-        "AS and SP are GOC specialist registrations and need approved training.",
-        "Independent prescribing has largely replaced SP as the route optometrists choose."
+        {
+          "text": "AS optometrists can supply certain additional POMs (for example some antibiotic and anti-allergy medicines) in the course of professional practice.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "SP works in partnership: a doctor (independent prescriber) makes the diagnosis, and a clinical management plan (CMP) sets out what the SP optometrist can prescribe.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "A CMP names the patient, condition, medicines, doses, when to refer back and review arrangements, and is agreed with the patient.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "SP suits long-term conditions such as glaucoma, where a plan covers monitoring and treatment changes.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "AS and SP are GOC specialist registrations and need approved training.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Independent prescribing has largely replaced SP as the route optometrists choose.",
+          "priority": "background",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Saying an SP optometrist can prescribe anything they think fit: they're limited to the CMP.",
-        "Forgetting that the patient must agree to supplementary prescribing.",
-        "Confusing AS supply with prescribing."
+        {
+          "text": "Saying an SP optometrist can prescribe anything they think fit: they're limited to the CMP.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Forgetting that the patient must agree to supplementary prescribing.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Confusing AS supply with prescribing.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "sp-partnership",
@@ -1400,15 +2139,21 @@
       "goDeeper": [
         {
           "heading": "Clinical management plans",
-          "body": "A CMP must include the patient's name and condition, the medicines that can be prescribed (with limits on dose and changes), the circumstances in which the SP must refer back to the independent prescriber, how adverse reactions are reported, and when the plan is reviewed. Both prescribers and the patient must agree it, and it should be part of the patient's record."
+          "body": "A CMP must include the patient's name and condition, the medicines that can be prescribed (with limits on dose and changes), the circumstances in which the SP must refer back to the independent prescriber, how adverse reactions are reported, and when the plan is reviewed. Both prescribers and the patient must agree it, and it should be part of the patient's record.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Additional Supply in practice",
-          "body": "AS lets an optometrist examine a patient and supply an appropriate medicine directly from the practice, rather than sending them to a GP. It's useful for common anterior eye conditions. Supply must be recorded, labelled correctly and accompanied by clear instructions, and the optometrist must work within their competence."
+          "body": "AS lets an optometrist examine a patient and supply an appropriate medicine directly from the practice, rather than sending them to a GP. It's useful for common anterior eye conditions. Supply must be recorded, labelled correctly and accompanied by clear instructions, and the optometrist must work within their competence.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Why IP took over",
-          "body": "IP allows an optometrist to diagnose and prescribe independently for eye conditions without needing a CMP, which fits community acute and glaucoma services better. Many SP and AS optometrists have since added IP."
+          "body": "IP allows an optometrist to diagnose and prescribe independently for eye conditions without needing a CMP, which fits community acute and glaucoma services better. Many SP and AS optometrists have since added IP.",
+          "priority": "background",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -1432,31 +2177,58 @@
       "mcq": [
         {
           "id": "hq-as-1",
-          "q": "An SP optometrist wants to add a new glaucoma drug not listed in the patient's clinical management plan. What should they do?",
+          "q": "Which of these actions is right for an SP optometrist whose patient needs a glaucoma drug not in the clinical management plan?",
           "options": [
             {
               "text": "Refer back to the independent prescriber to review the plan",
               "correct": true,
-              "feedback": "SP is limited to the CMP."
+              "feedback": "Yes."
             },
             {
               "text": "Prescribe it anyway",
               "correct": false,
-              "feedback": "Outside the CMP."
+              "feedback": "Outside the plan."
             },
             {
               "text": "Ask the patient to buy it",
               "correct": false,
-              "feedback": "Not appropriate."
+              "feedback": "No."
             },
             {
-              "text": "Change the CMP themselves",
+              "text": "Change the plan themselves",
               "correct": false,
-              "feedback": "The plan must be agreed with the independent prescriber and patient."
+              "feedback": "Not alone."
             }
           ],
-          "explanation": "Supplementary prescribing stays within the agreed plan.",
-          "link": "hq-additional-supply-sp#clinical-management-plans"
+          "explanation": "SP optometrists work within the clinical management plan; anything outside it goes back to the independent prescriber.",
+          "link": "hq-additional-supply-sp#clinical-management-plans",
+          "original": {
+            "q": "An SP optometrist wants to add a new glaucoma drug not listed in the patient's clinical management plan. What should they do?",
+            "options": [
+              {
+                "text": "Refer back to the independent prescriber to review the plan",
+                "correct": true,
+                "feedback": "SP is limited to the CMP."
+              },
+              {
+                "text": "Prescribe it anyway",
+                "correct": false,
+                "feedback": "Outside the CMP."
+              },
+              {
+                "text": "Ask the patient to buy it",
+                "correct": false,
+                "feedback": "Not appropriate."
+              },
+              {
+                "text": "Change the CMP themselves",
+                "correct": false,
+                "feedback": "The plan must be agreed with the independent prescriber and patient."
+              }
+            ],
+            "explanation": "Supplementary prescribing stays within the agreed plan."
+          },
+          "needsReview": true
         },
         {
           "id": "hq-as-2",
@@ -1543,17 +2315,17 @@
         },
         {
           "id": "hq-additional-supply-sp-x0102",
-          "q": "In SP, who makes the diagnosis?",
+          "q": "Under supplementary prescribing, a glaucoma patient's diagnosis is made by whom?",
           "options": [
             {
-              "text": "A doctor (independent prescriber)",
+              "text": "A doctor (the independent prescriber)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The optometrist alone",
+              "text": "The SP optometrist",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not under SP."
             },
             {
               "text": "The patient",
@@ -1561,75 +2333,156 @@
               "feedback": "No."
             },
             {
-              "text": "A pharmacist",
+              "text": "The pharmacist",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In SP, a doctor (independent prescriber) makes the diagnosis.",
+          "original": {
+            "q": "In SP, who makes the diagnosis?",
+            "options": [
+              {
+                "text": "A doctor (independent prescriber)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The optometrist alone",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A pharmacist",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-additional-supply-sp-x0103",
-          "q": "What does a clinical management plan name?",
+          "q": "Which item would NOT normally be found in a clinical management plan?",
           "options": [
             {
-              "text": "The patient, condition, medicines, doses, when to refer back and review",
+              "text": "The patient's favourite pharmacy",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only the drug",
+              "text": "The condition",
               "correct": false,
-              "feedback": "Not enough."
+              "feedback": "Included."
             },
             {
-              "text": "Only the price",
+              "text": "The medicines and doses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Included."
             },
             {
-              "text": "Nothing specific",
+              "text": "When to refer back",
               "correct": false,
-              "feedback": "It's specific."
+              "feedback": "Included."
             }
           ],
-          "explanation": ""
+          "explanation": "A clinical management plan names the patient, condition, medicines, doses, when to refer back and review.",
+          "original": {
+            "q": "What does a clinical management plan name?",
+            "options": [
+              {
+                "text": "The patient, condition, medicines, doses, when to refer back and review",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the drug",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Only the price",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing specific",
+                "correct": false,
+                "feedback": "It's specific."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-additional-supply-sp-x0104",
-          "q": "SP suits which kind of condition?",
+          "q": "Which patient's care suits supplementary prescribing best?",
           "options": [
             {
-              "text": "Long-term conditions such as glaucoma",
+              "text": "A stable glaucoma patient needing long-term management",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "One-off injuries",
+              "text": "Someone with a one-off sticky eye",
               "correct": false,
-              "feedback": "Less so."
+              "feedback": "Acute."
             },
             {
-              "text": "Refractive error",
+              "text": "A suspected retinal detachment",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Emergency."
             },
             {
-              "text": "Presbyopia",
+              "text": "A new presbyope",
               "correct": false,
-              "feedback": "No."
+              "feedback": "No drugs."
             }
           ],
-          "explanation": ""
+          "explanation": "SP suits long-term conditions such as glaucoma.",
+          "original": {
+            "q": "SP suits which kind of condition?",
+            "options": [
+              {
+                "text": "Long-term conditions such as glaucoma",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "One-off injuries",
+                "correct": false,
+                "feedback": "Less so."
+              },
+              {
+                "text": "Refractive error",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Presbyopia",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-additional-supply-sp-x0105",
-          "q": "Which route do most optometrists now choose?",
+          "q": "An optometrist wants to start a therapeutic qualification today. Which route do most now choose?",
           "options": [
             {
               "text": "Independent prescribing",
               "correct": true,
-              "feedback": "Yes: it has largely replaced SP."
+              "feedback": "Yes."
             },
             {
               "text": "Supplementary prescribing",
@@ -1637,17 +2490,44 @@
               "feedback": "Less common now."
             },
             {
-              "text": "Additional supply only",
+              "text": "Additional supply",
               "correct": false,
-              "feedback": "Less common."
+              "feedback": "Limited."
             },
             {
               "text": "None",
               "correct": false,
-              "feedback": "IP is common."
+              "feedback": "Most choose IP."
             }
           ],
-          "explanation": ""
+          "explanation": "Most optometrists now choose independent prescribing.",
+          "original": {
+            "q": "Which route do most optometrists now choose?",
+            "options": [
+              {
+                "text": "Independent prescribing",
+                "correct": true,
+                "feedback": "Yes: it has largely replaced SP."
+              },
+              {
+                "text": "Supplementary prescribing",
+                "correct": false,
+                "feedback": "Less common now."
+              },
+              {
+                "text": "Additional supply only",
+                "correct": false,
+                "feedback": "Less common."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "IP is common."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-additional-supply-sp-x0106",
@@ -1717,18 +2597,58 @@
       "id": "hq-independent-prescribing",
       "title": "Independent prescribing: law, responsibility and good practice",
       "summary": "Independent prescribing optometrists can assess, diagnose and prescribe any licensed medicine for conditions affecting the eye and surrounding tissue, within their competence, except controlled drugs. With that freedom comes full responsibility for the decision, so safe prescribing follows a structured process, uses the BNF and local formularies, and supports antimicrobial stewardship.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "HQ"
+      },
       "keyPoints": [
-        "IP optometrists can prescribe any licensed medicine for conditions of the eye and surrounding tissue within their competence; controlled drugs are excluded.",
-        "Training includes a College of Optometrists qualification, supervised learning in practice with a designated prescribing practitioner and a final assessment, then GOC specialist registration.",
-        "The Royal Pharmaceutical Society's Competency Framework for all Prescribers sets out what safe prescribing looks like.",
-        "Prescriptions must meet legal requirements (patient details, medicine, strength, dose, quantity, prescriber details and signature, date).",
-        "Never prescribe for yourself or for family and friends except in genuine emergencies, following guidance.",
-        "Antimicrobial stewardship: prescribe antibiotics only when they'll help, choose narrow-spectrum where possible, and give the shortest effective course."
+        {
+          "text": "IP optometrists can prescribe any licensed medicine for conditions of the eye and surrounding tissue within their competence; controlled drugs are excluded.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Training includes a College of Optometrists qualification, supervised learning in practice with a designated prescribing practitioner and a final assessment, then GOC specialist registration.",
+          "priority": "background",
+          "module": "HQ"
+        },
+        {
+          "text": "The Royal Pharmaceutical Society's Competency Framework for all Prescribers sets out what safe prescribing looks like.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Prescriptions must meet legal requirements (patient details, medicine, strength, dose, quantity, prescriber details and signature, date).",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Never prescribe for yourself or for family and friends except in genuine emergencies, following guidance.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Antimicrobial stewardship: prescribe antibiotics only when they'll help, choose narrow-spectrum where possible, and give the shortest effective course.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "examTraps": [
-        "Thinking IP covers systemic conditions: it's limited to eye and surrounding tissue conditions.",
-        "Prescribing outside personal competence because the law would allow it.",
-        "Forgetting to tell the patient's GP about what you prescribed."
+        {
+          "text": "Thinking IP covers systemic conditions: it's limited to eye and surrounding tissue conditions.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Prescribing outside personal competence because the law would allow it.",
+          "priority": "exam-core",
+          "module": "HQ"
+        },
+        {
+          "text": "Forgetting to tell the patient's GP about what you prescribed.",
+          "priority": "exam-core",
+          "module": "HQ"
+        }
       ],
       "diagram": {
         "id": "prescribing-process",
@@ -1745,15 +2665,21 @@
       "goDeeper": [
         {
           "heading": "A safe prescribing routine",
-          "body": "Confirm the diagnosis; take a full drug history (including over-the-counter and herbal remedies), allergies, pregnancy or breastfeeding and relevant conditions; check the BNF for dose, interactions and contraindications; consider whether a medicine is needed at all; agree the plan with the patient; write a clear prescription; explain how to use it, what to expect, side effects and when to come back; record everything and inform the GP."
+          "body": "Confirm the diagnosis; take a full drug history (including over-the-counter and herbal remedies), allergies, pregnancy or breastfeeding and relevant conditions; check the BNF for dose, interactions and contraindications; consider whether a medicine is needed at all; agree the plan with the patient; write a clear prescription; explain how to use it, what to expect, side effects and when to come back; record everything and inform the GP.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Antimicrobial stewardship",
-          "body": "Antibiotic resistance is a major threat. Many eye conditions, such as most acute conjunctivitis, get better without antibiotics. When antibiotics are needed, follow local formularies, choose the narrowest effective drug, set a clear stop date and review. Explain to patients why antibiotics aren't always given."
+          "body": "Antibiotic resistance is a major threat. Many eye conditions, such as most acute conjunctivitis, get better without antibiotics. When antibiotics are needed, follow local formularies, choose the narrowest effective drug, set a clear stop date and review. Explain to patients why antibiotics aren't always given.",
+          "priority": "exam-core",
+          "module": "HQ"
         },
         {
           "heading": "Accountability",
-          "body": "As an independent prescriber you are fully accountable for your prescribing decisions. Work within your competence and local protocols, keep up to date through CPD, audit your prescribing, and seek advice from ophthalmology or pharmacy colleagues when unsure. Report suspected adverse reactions through the Yellow Card scheme."
+          "body": "As an independent prescriber you are fully accountable for your prescribing decisions. Work within your competence and local protocols, keep up to date through CPD, audit your prescribing, and seek advice from ophthalmology or pharmacy colleagues when unsure. Report suspected adverse reactions through the Yellow Card scheme.",
+          "priority": "exam-core",
+          "module": "HQ"
         }
       ],
       "flashcards": [
@@ -1833,62 +2759,116 @@
         },
         {
           "id": "hq-ip-3",
-          "q": "Which step should come BEFORE writing a prescription?",
+          "q": "An IP optometrist is about to prescribe a steroid. Which step must come first?",
           "options": [
             {
-              "text": "Check the drug history, allergies, interactions and contraindications in the BNF",
-              "correct": true,
-              "feedback": "Safety checks come first."
-            },
-            {
-              "text": "Tell the patient it has no side effects",
-              "correct": false,
-              "feedback": "Misleading."
-            },
-            {
-              "text": "Give the largest pack size",
-              "correct": false,
-              "feedback": "Quantity should match need."
-            },
-            {
-              "text": "Skip the GP letter",
-              "correct": false,
-              "feedback": "Inform the GP after prescribing."
-            }
-          ],
-          "explanation": "Assess and check before prescribing.",
-          "link": "hq-independent-prescribing#a-safe-prescribing-routine"
-        },
-        {
-          "id": "hq-independent-prescribing-x0101",
-          "q": "What can IP optometrists prescribe?",
-          "options": [
-            {
-              "text": "Any licensed medicine for the eye and surrounding tissue within their competence",
+              "text": "Check drug history, allergies, interactions and contraindications in the BNF",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Any medicine for any condition",
+              "text": "Hand over the prescription",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not first."
             },
             {
-              "text": "Only eye drops",
+              "text": "Ask the patient to read the leaflet",
               "correct": false,
-              "feedback": "Not only."
+              "feedback": "Not first."
             },
             {
-              "text": "Only antibiotics",
+              "text": "Phone the pharmacist",
               "correct": false,
-              "feedback": "Not only."
+              "feedback": "Not required first."
             }
           ],
-          "explanation": ""
+          "explanation": "Check drug history, allergies, interactions and contraindications before prescribing.",
+          "link": "hq-independent-prescribing#a-safe-prescribing-routine",
+          "original": {
+            "q": "Which step should come BEFORE writing a prescription?",
+            "options": [
+              {
+                "text": "Check the drug history, allergies, interactions and contraindications in the BNF",
+                "correct": true,
+                "feedback": "Safety checks come first."
+              },
+              {
+                "text": "Tell the patient it has no side effects",
+                "correct": false,
+                "feedback": "Misleading."
+              },
+              {
+                "text": "Give the largest pack size",
+                "correct": false,
+                "feedback": "Quantity should match need."
+              },
+              {
+                "text": "Skip the GP letter",
+                "correct": false,
+                "feedback": "Inform the GP after prescribing."
+              }
+            ],
+            "explanation": "Assess and check before prescribing."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "hq-independent-prescribing-x0101",
+          "q": "Which can an IP optometrist prescribe?",
+          "options": [
+            {
+              "text": "A licensed medicine for an eye condition within their competence",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Any drug for any condition",
+              "correct": false,
+              "feedback": "Not outside the eye."
+            },
+            {
+              "text": "Only lubricants",
+              "correct": false,
+              "feedback": "More than that."
+            },
+            {
+              "text": "Only POMs with a doctor's note",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "IP optometrists can prescribe any licensed medicine for the eye and surrounding tissue within their competence.",
+          "original": {
+            "q": "What can IP optometrists prescribe?",
+            "options": [
+              {
+                "text": "Any licensed medicine for the eye and surrounding tissue within their competence",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Any medicine for any condition",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only eye drops",
+                "correct": false,
+                "feedback": "Not only."
+              },
+              {
+                "text": "Only antibiotics",
+                "correct": false,
+                "feedback": "Not only."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-independent-prescribing-x0102",
-          "q": "Which framework sets out safe prescribing?",
+          "q": "An IP optometrist wants to check their prescribing practice against a recognised framework. Which one?",
           "options": [
             {
               "text": "The Royal Pharmaceutical Society's Competency Framework for all Prescribers",
@@ -1898,120 +2878,228 @@
             {
               "text": "The GOC student standards",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this."
             },
             {
               "text": "The BNF only",
               "correct": false,
-              "feedback": "Reference, not framework."
+              "feedback": "A reference, not a framework."
             },
             {
-              "text": "SOAP",
+              "text": "NICE NG81",
               "correct": false,
-              "feedback": "Records."
+              "feedback": "Glaucoma guidance."
             }
           ],
-          "explanation": ""
+          "explanation": "The RPS Competency Framework for all Prescribers sets out safe prescribing.",
+          "original": {
+            "q": "Which framework sets out safe prescribing?",
+            "options": [
+              {
+                "text": "The Royal Pharmaceutical Society's Competency Framework for all Prescribers",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The GOC student standards",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The BNF only",
+                "correct": false,
+                "feedback": "Reference, not framework."
+              },
+              {
+                "text": "SOAP",
+                "correct": false,
+                "feedback": "Records."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-independent-prescribing-x0103",
-          "q": "Can IP optometrists prescribe for family?",
+          "q": "An IP optometrist's partner asks for antibiotic drops for a mild sticky eye. What should they do?",
           "options": [
             {
-              "text": "Not except in genuine emergencies, following guidance",
+              "text": "Not prescribe, except in a genuine emergency following guidance",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Yes, freely",
+              "text": "Prescribe as usual",
+              "correct": false,
+              "feedback": "Avoid prescribing for family."
+            },
+            {
+              "text": "Prescribe without records",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Only for children",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Always",
+              "text": "Ask a colleague to sign blank",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Avoid prescribing for family except in genuine emergencies, following guidance.",
+          "original": {
+            "q": "Can IP optometrists prescribe for family?",
+            "options": [
+              {
+                "text": "Not except in genuine emergencies, following guidance",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Yes, freely",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only for children",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Always",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-independent-prescribing-x0104",
-          "q": "What does antimicrobial stewardship mean?",
+          "q": "An IP optometrist sees viral conjunctivitis and the patient asks for antibiotics. What does antimicrobial stewardship suggest?",
           "options": [
             {
-              "text": "Prescribing antibiotics only when they'll help, narrow-spectrum where possible",
+              "text": "Don't prescribe antibiotics, as they won't help",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Prescribing antibiotics for every red eye",
+              "text": "Prescribe broad-spectrum antibiotics",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Avoiding all antibiotics",
+              "text": "Prescribe to keep them happy",
               "correct": false,
-              "feedback": "Not all."
+              "feedback": "No."
             },
             {
-              "text": "Stocking up",
+              "text": "Prescribe oral antibiotics",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Antimicrobial stewardship: prescribe antibiotics only when they'll help, narrow-spectrum where possible.",
+          "original": {
+            "q": "What does antimicrobial stewardship mean?",
+            "options": [
+              {
+                "text": "Prescribing antibiotics only when they'll help, narrow-spectrum where possible",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Prescribing antibiotics for every red eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Avoiding all antibiotics",
+                "correct": false,
+                "feedback": "Not all."
+              },
+              {
+                "text": "Stocking up",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "hq-independent-prescribing-x0105",
-          "q": "Which must a prescription include?",
+          "q": "A prescription lists only the drug name and patient's name. What's missing?",
           "options": [
             {
-              "text": "Patient details, medicine, strength, dose, quantity and prescriber details",
+              "text": "Strength, dose, quantity and prescriber details",
               "correct": true,
               "feedback": "Yes."
-            },
-            {
-              "text": "Only the medicine",
-              "correct": false,
-              "feedback": "Not enough."
-            },
-            {
-              "text": "Your opinion",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "The price",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "hq-independent-prescribing-x0106",
-          "q": "IP training includes",
-          "options": [
-            {
-              "text": "a College qualification and supervised learning with a designated prescriber",
-              "correct": true,
-              "feedback": "Yes."
-            },
-            {
-              "text": "A weekend course",
-              "correct": false,
-              "feedback": "Not enough."
             },
             {
               "text": "Nothing",
               "correct": false,
-              "feedback": "Training is required."
+              "feedback": "Incomplete."
+            },
+            {
+              "text": "The patient's occupation",
+              "correct": false,
+              "feedback": "Not required."
+            },
+            {
+              "text": "The pharmacy name",
+              "correct": false,
+              "feedback": "Not required."
+            }
+          ],
+          "explanation": "A prescription must include patient details, medicine, strength, dose, quantity and prescriber details.",
+          "original": {
+            "q": "Which must a prescription include?",
+            "options": [
+              {
+                "text": "Patient details, medicine, strength, dose, quantity and prescriber details",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the medicine",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Your opinion",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The price",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "hq-independent-prescribing-x0106",
+          "q": "An optometrist wants to become an IP. Which combination of training is required?",
+          "options": [
+            {
+              "text": "A College qualification and supervised learning with a designated prescriber",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "A weekend course only",
+              "correct": false,
+              "feedback": "Not enough."
+            },
+            {
+              "text": "Nothing extra",
+              "correct": false,
+              "feedback": "Training is needed."
             },
             {
               "text": "A medical degree",
@@ -2019,7 +3107,34 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "IP training includes a College qualification and supervised learning with a designated prescriber.",
+          "original": {
+            "q": "IP training includes",
+            "options": [
+              {
+                "text": "a College qualification and supervised learning with a designated prescriber",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A weekend course",
+                "correct": false,
+                "feedback": "Not enough."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Training is required."
+              },
+              {
+                "text": "A medical degree",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [

@@ -3,6 +3,8 @@
 import { usePathname } from 'next/navigation'
 import { useCallback, useEffect, useState } from 'react'
 import { slugify } from '@/lib/slug'
+import type { BlockMeta } from '@/lib/types'
+import { BlockNotes } from './BlockNotes'
 import { ChevronDown } from '../icons'
 
 /**
@@ -10,7 +12,7 @@ import { ChevronDown } from '../icons'
  * id (slug of its heading) so quiz feedback can link straight to it; the
  * linked section opens and scrolls into view.
  */
-export function GoDeeper({ sections }: { sections: { heading: string; body: string }[] }) {
+export function GoDeeper({ sections }: { sections: ({ heading: string; body: string } & Partial<BlockMeta>)[] }) {
   const [open, setOpen] = useState<Record<string, boolean>>({})
   const [flash, setFlash] = useState<string | null>(null)
   const pathname = usePathname()
@@ -74,6 +76,7 @@ export function GoDeeper({ sections }: { sections: { heading: string; body: stri
             </h3>
             <div id={`${id}-body`} hidden={!isOpen} className="px-5 pb-5 text-[17px] leading-relaxed">
               {s.body}
+              <BlockNotes meta={s} />
             </div>
           </section>
         )

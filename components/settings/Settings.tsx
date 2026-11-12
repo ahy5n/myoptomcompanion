@@ -9,6 +9,7 @@ import { useApp, useData } from '../AppProvider'
 import { FALLBACK_CLAUDE_URL } from '../AskClaudeButton'
 import { BackLink } from '../bits'
 import { SIGNUP_FLAG } from '../LoginScreen'
+import { StudyModeSwitch } from '../StudyModeSwitch'
 import { AboutApp, Appearance } from './Appearance'
 import { FeedbackCard } from './FeedbackCard'
 
@@ -53,6 +54,19 @@ export function Settings({ modules }: { modules: { code: string; name: string }[
       <h1 className="mt-2 text-[32px] font-semibold">Settings</h1>
 
       <Appearance />
+
+      <section className="card mt-6 p-6" aria-labelledby="study-mode">
+        <h2 id="study-mode" className="text-[20px] font-semibold">
+          Study mode
+        </h2>
+        <p className="mt-1 text-[16px] text-muted">
+          Exams shows the exam essentials and background for each module. Clinical shows the exam essentials and clinical
+          know-how, and hides background.
+        </p>
+        <div className="mt-4">
+          <StudyModeSwitch showHint />
+        </div>
+      </section>
 
       <AboutYouCard />
 

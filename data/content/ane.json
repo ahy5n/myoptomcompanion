@@ -6,22 +6,78 @@
       "id": "ane-slit-lamp-illumination",
       "title": "Slit lamp illumination techniques",
       "summary": "Each slit lamp illumination technique shows different things. Start broad (diffuse) to survey, narrow the beam to look at layers and depth (direct focal: parallelepiped, optic section, conical beam), and use indirect methods — indirect illumination, retro-illumination, specular reflection, sclerotic scatter and tangential — for subtle changes.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Diffuse: diffuser in place, wide beam, low magnification (typically 6× or 10×) — overall view of the eye and adnexa.",
-        "Optic section (direct): thin beam, low to high magnification — shows depth: AC depth and localising nerve fibres, vessels, infiltrates and cataracts.",
-        "Parallelepiped (direct): broader beam lighting a block of cornea — corneal nerve fibres, punctate keratitis.",
-        "Conical beam (direct): small circular, short narrow beam at 45–60°, medium magnification, darkened room so the pupil is a dark background (Tyndall effect) — AC cells and flare.",
-        "Indirect: look to the side of the beam (decouple the observation system) — epithelial vesicles and erosions, iris pathology, iris sphincter, limbal vessels.",
-        "Retro-illumination: light reflected from the iris or fundus, moderately wide beam, decoupled, medium to high magnification — microcysts (appear 'reversed'), vacuoles, lens opacities, CL deposits, vascularisation.",
-        "Specular reflection: angle of illumination = angle of observation, medium to high magnification, seen in one eyepiece only — tear film debris and flow, endothelium, lens 'orange peel'.",
-        "Sclerotic scatter: 1–1.5 mm slit on the limbus, total internal reflection, observation decoupled and focused on the cornea, low magnification — scars, oedema, corneal foreign bodies.",
-        "Tangential: illumination and observation almost at right angles (about 70°), low to medium magnification, wide beam — iris freckles, tumours, general integrity of cornea and iris."
+        {
+          "text": "Diffuse: diffuser in place, wide beam, low magnification (typically 6× or 10×) — overall view of the eye and adnexa.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Optic section (direct): thin beam, low to high magnification — shows depth: AC depth and localising nerve fibres, vessels, infiltrates and cataracts.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Parallelepiped (direct): broader beam lighting a block of cornea — corneal nerve fibres, punctate keratitis.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Conical beam (direct): small circular, short narrow beam at 45–60°, medium magnification, darkened room so the pupil is a dark background (Tyndall effect) — AC cells and flare.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Indirect: look to the side of the beam (decouple the observation system) — epithelial vesicles and erosions, iris pathology, iris sphincter, limbal vessels.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Retro-illumination: light reflected from the iris or fundus, moderately wide beam, decoupled, medium to high magnification — microcysts (appear 'reversed'), vacuoles, lens opacities, CL deposits, vascularisation.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Specular reflection: angle of illumination = angle of observation, medium to high magnification, seen in one eyepiece only — tear film debris and flow, endothelium, lens 'orange peel'.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Sclerotic scatter: 1–1.5 mm slit on the limbus, total internal reflection, observation decoupled and focused on the cornea, low magnification — scars, oedema, corneal foreign bodies.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Tangential: illumination and observation almost at right angles (about 70°), low to medium magnification, wide beam — iris freckles, tumours, general integrity of cornea and iris.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Using high magnification for the first look — start with diffuse at low magnification.",
-        "Setting conical beam at high magnification in a lit room — it's medium magnification in a darkened room.",
-        "Forgetting to decouple for indirect, retro-illumination and sclerotic scatter (you look beside the beam, not at it).",
-        "Looking for specular reflection with both eyes — it's only visible through one eyepiece."
+        {
+          "text": "Using high magnification for the first look — start with diffuse at low magnification.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Setting conical beam at high magnification in a lit room — it's medium magnification in a darkened room.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Forgetting to decouple for indirect, retro-illumination and sclerotic scatter (you look beside the beam, not at it).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Looking for specular reflection with both eyes — it's only visible through one eyepiece.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "optic-section",
@@ -39,23 +95,33 @@
       "goDeeper": [
         {
           "heading": "Setting up the slit lamp",
-          "body": "Clean the headrest and chinrest and adjust the table height. With a focusing rod: turn each eyepiece anticlockwise to maximum plus, put the rod in place at the shared axis of the illumination and observation systems, narrow the slit, and turn each eyepiece in turn until the slit is just in focus; then set the IPD, position the patient and adjust the chinrest. Without a rod: position the patient first, then focus on the closed eyelid — rotate the illumination arm and watch the slit; if it moves 'against', move the slit lamp closer; if 'with', move it away; when it doesn't move, the eyelid is at the shared focus and you can focus the eyepieces on the slit, then set the IPD."
+          "body": "Clean the headrest and chinrest and adjust the table height. With a focusing rod: turn each eyepiece anticlockwise to maximum plus, put the rod in place at the shared axis of the illumination and observation systems, narrow the slit, and turn each eyepiece in turn until the slit is just in focus; then set the IPD, position the patient and adjust the chinrest. Without a rod: position the patient first, then focus on the closed eyelid — rotate the illumination arm and watch the slit; if it moves 'against', move the slit lamp closer; if 'with', move it away; when it doesn't move, the eyelid is at the shared focus and you can focus the eyepieces on the slit, then set the IPD.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Coupled and decoupled",
-          "body": "Normally the illumination and observation systems are coupled — both focused on the same point, so you look at what the beam lights. For indirect illumination, retro-illumination and sclerotic scatter you decouple them, so the microscope focuses beside the beam. The direct beam can 'bleach' subtle defects from view, which is why looking beside it shows things like epithelial vesicles and erosions better."
+          "body": "Normally the illumination and observation systems are coupled — both focused on the same point, so you look at what the beam lights. For indirect illumination, retro-illumination and sclerotic scatter you decouple them, so the microscope focuses beside the beam. The direct beam can 'bleach' subtle defects from view, which is why looking beside it shows things like epithelial vesicles and erosions better.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Choosing a technique",
-          "body": "Survey with diffuse. Then ask what you want to know: depth or thickness → optic section; texture of a surface or stroma → parallelepiped; something faint or translucent (microcysts, vacuoles, KPs) → retro-illumination; generalised corneal haze → sclerotic scatter; endothelium or tear film detail → specular; AC cells → conical beam."
+          "body": "Survey with diffuse. Then ask what you want to know: depth or thickness → optic section; texture of a surface or stroma → parallelepiped; something faint or translucent (microcysts, vacuoles, KPs) → retro-illumination; generalised corneal haze → sclerotic scatter; endothelium or tear film detail → specular; AC cells → conical beam.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Looking for cells and flare",
-          "body": "Dim the room fully so the pupil acts as a dark background. Use a short, narrow circular beam at about 45–60°, medium magnification, focused in the AC between the cornea and lens. Cells look like dust in a sunbeam; flare looks like a smoky haze (the Tyndall effect, from protein). They're signs of anterior uveitis — grade them and refer as your guidance says."
+          "body": "Dim the room fully so the pupil acts as a dark background. Use a short, narrow circular beam at about 45–60°, medium magnification, focused in the AC between the cornea and lens. Cells look like dust in a sunbeam; flare looks like a smoky haze (the Tyndall effect, from protein). They're signs of anterior uveitis — grade them and refer as your guidance says.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Specular reflection",
-          "body": "Focus on the area of interest, then swing the illumination arm until the bright mirror-like reflection (a Purkinje image from the tear film) appears — angle of illumination equals angle of observation. Use medium to high magnification; it's only visible through one eyepiece at a time. Reduce the angle to look at deeper structures such as the endothelium (dark gaps suggest guttata or polymegethism) or the lens surface ('orange peel')."
+          "body": "Focus on the area of interest, then swing the illumination arm until the bright mirror-like reflection (a Purkinje image from the tear film) appears — angle of illumination equals angle of observation. Use medium to high magnification; it's only visible through one eyepiece at a time. Reduce the angle to look at deeper structures such as the endothelium (dark gaps suggest guttata or polymegethism) or the lens surface ('orange peel').",
+          "priority": "exam-core",
+          "module": "AnE"
         }
       ],
       "checklist": {
@@ -72,7 +138,9 @@
           "Conical beam in a darkened room, medium magnification, for AC cells and flare.",
           "Tangential (~70°) to view the iris.",
           "Repeat for the other eye and record findings with grades."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AnE"
       },
       "flashcards": [
         {
@@ -107,124 +175,232 @@
       "mcq": [
         {
           "id": "ane-sl-1",
-          "q": "Which technique best shows epithelial microcysts?",
+          "q": "A long-term low-Dk lens wearer may have epithelial microcysts. How should you set up the slit lamp to look for them?",
           "options": [
             {
-              "text": "Retro-illumination",
+              "text": "Retro-illumination: decoupled beam, light reflected from the iris behind the area",
               "correct": true,
-              "feedback": "Yes — they show up as small dots against the lit background."
+              "feedback": "Yes."
             },
             {
-              "text": "Diffuse illumination",
+              "text": "Diffuse at low magnification",
               "correct": false,
-              "feedback": "Too broad and low-mag to see them."
+              "feedback": "Too coarse."
             },
             {
-              "text": "Conical beam",
+              "text": "Cobalt blue with fluorescein",
               "correct": false,
-              "feedback": "That's for AC cells."
+              "feedback": "They don't stain well."
+            },
+            {
+              "text": "Sclerotic scatter only",
+              "correct": false,
+              "feedback": "Not the best for these."
+            }
+          ],
+          "explanation": "Microcysts are best seen in retro-illumination, appearing with reversed illumination.",
+          "link": "ane-slit-lamp-illumination#choosing-a-technique",
+          "original": {
+            "q": "Which technique best shows epithelial microcysts?",
+            "options": [
+              {
+                "text": "Retro-illumination",
+                "correct": true,
+                "feedback": "Yes — they show up as small dots against the lit background."
+              },
+              {
+                "text": "Diffuse illumination",
+                "correct": false,
+                "feedback": "Too broad and low-mag to see them."
+              },
+              {
+                "text": "Conical beam",
+                "correct": false,
+                "feedback": "That's for AC cells."
+              },
+              {
+                "text": "Sclerotic scatter",
+                "correct": false,
+                "feedback": "Useful for generalised haze, not tiny microcysts."
+              }
+            ],
+            "explanation": "Microcysts are translucent; light reflected back from behind (retro-illumination) makes them stand out."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "ane-sl-2",
+          "q": "You're trying to see the endothelial mosaic but just get a bright glare. What should you adjust?",
+          "options": [
+            {
+              "text": "Swing the illumination until its angle equals your viewing angle, and focus on the back of the cornea",
+              "correct": true,
+              "feedback": "Yes: specular reflection."
+            },
+            {
+              "text": "Use diffuse light",
+              "correct": false,
+              "feedback": "Won't show cells."
+            },
+            {
+              "text": "Use a wider beam at low magnification",
+              "correct": false,
+              "feedback": "Not enough detail."
+            },
+            {
+              "text": "Turn the light off",
+              "correct": false,
+              "feedback": "No."
+            }
+          ],
+          "explanation": "Specular reflection needs the angle of illumination equal to the angle of observation, at medium to high magnification.",
+          "link": "ane-slit-lamp-illumination#specular-reflection",
+          "original": {
+            "q": "For specular reflection, how is the slit lamp set up?",
+            "options": [
+              {
+                "text": "Angle of illumination equals angle of observation",
+                "correct": true,
+                "feedback": "Right — like a mirror."
+              },
+              {
+                "text": "Illumination at 90° to the microscope",
+                "correct": false,
+                "feedback": "That's not a specular angle."
+              },
+              {
+                "text": "Beam on the limbus",
+                "correct": false,
+                "feedback": "That's sclerotic scatter."
+              },
+              {
+                "text": "Diffuser in place, low magnification",
+                "correct": false,
+                "feedback": "Specular needs high magnification."
+              }
+            ],
+            "explanation": "Specular reflection uses the mirror-like reflection from a smooth surface: angle of incidence = angle of reflection."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "ane-sl-3",
+          "q": "A patient with a painful red eye may have uveitis. Which set-up best shows cells in the anterior chamber?",
+          "options": [
+            {
+              "text": "A short, narrow circular beam at 45–60°, medium magnification, darkened room",
+              "correct": true,
+              "feedback": "Yes: conical beam."
+            },
+            {
+              "text": "Diffuse light, low magnification, lights on",
+              "correct": false,
+              "feedback": "Cells won't show."
+            },
+            {
+              "text": "Specular reflection",
+              "correct": false,
+              "feedback": "Endothelium."
             },
             {
               "text": "Sclerotic scatter",
               "correct": false,
-              "feedback": "Useful for generalised haze, not tiny microcysts."
+              "feedback": "Corneal haze."
             }
           ],
-          "explanation": "Microcysts are translucent; light reflected back from behind (retro-illumination) makes them stand out.",
-          "link": "ane-slit-lamp-illumination#choosing-a-technique"
-        },
-        {
-          "id": "ane-sl-2",
-          "q": "For specular reflection, how is the slit lamp set up?",
-          "options": [
-            {
-              "text": "Angle of illumination equals angle of observation",
-              "correct": true,
-              "feedback": "Right — like a mirror."
-            },
-            {
-              "text": "Illumination at 90° to the microscope",
-              "correct": false,
-              "feedback": "That's not a specular angle."
-            },
-            {
-              "text": "Beam on the limbus",
-              "correct": false,
-              "feedback": "That's sclerotic scatter."
-            },
-            {
-              "text": "Diffuser in place, low magnification",
-              "correct": false,
-              "feedback": "Specular needs high magnification."
-            }
-          ],
-          "explanation": "Specular reflection uses the mirror-like reflection from a smooth surface: angle of incidence = angle of reflection.",
-          "link": "ane-slit-lamp-illumination#specular-reflection"
-        },
-        {
-          "id": "ane-sl-3",
-          "q": "Which set-up matches conical beam illumination for AC cells?",
-          "options": [
-            {
-              "text": "Short narrow circular beam at 45–60°, medium magnification, darkened room",
-              "correct": true,
-              "feedback": "Yes — the dark pupil behind the AC makes cells and flare visible (Tyndall effect)."
-            },
-            {
-              "text": "Wide diffuse beam, low magnification, room lights on",
-              "correct": false,
-              "feedback": "That's diffuse illumination — far too much light to see cells."
-            },
-            {
-              "text": "Slit on the limbus, observation decoupled",
-              "correct": false,
-              "feedback": "That's sclerotic scatter, for corneal opacities and oedema."
-            },
-            {
-              "text": "Illumination and observation at about 70°",
-              "correct": false,
-              "feedback": "That's tangential illumination, used for the iris."
-            }
-          ],
-          "explanation": "Conical beam: circular, narrow and short beam at 45–60°, medium magnification, in a darkened room so the pupil is a dark background.",
-          "link": "ane-slit-lamp-illumination#looking-for-cells-and-flare"
+          "explanation": "The conical beam shows cells and flare (Tyndall effect) against the dark pupil.",
+          "link": "ane-slit-lamp-illumination#looking-for-cells-and-flare",
+          "original": {
+            "q": "Which set-up matches conical beam illumination for AC cells?",
+            "options": [
+              {
+                "text": "Short narrow circular beam at 45–60°, medium magnification, darkened room",
+                "correct": true,
+                "feedback": "Yes — the dark pupil behind the AC makes cells and flare visible (Tyndall effect)."
+              },
+              {
+                "text": "Wide diffuse beam, low magnification, room lights on",
+                "correct": false,
+                "feedback": "That's diffuse illumination — far too much light to see cells."
+              },
+              {
+                "text": "Slit on the limbus, observation decoupled",
+                "correct": false,
+                "feedback": "That's sclerotic scatter, for corneal opacities and oedema."
+              },
+              {
+                "text": "Illumination and observation at about 70°",
+                "correct": false,
+                "feedback": "That's tangential illumination, used for the iris."
+              }
+            ],
+            "explanation": "Conical beam: circular, narrow and short beam at 45–60°, medium magnification, in a darkened room so the pupil is a dark background."
+          },
+          "needsReview": true
         },
         {
           "id": "ane-sl-4",
-          "q": "When is the observation system decoupled from the illumination?",
+          "q": "Which technique does NOT need the illumination decoupled from the microscope?",
           "options": [
             {
-              "text": "Indirect illumination, retro-illumination and sclerotic scatter",
+              "text": "Optic section",
               "correct": true,
-              "feedback": "Right — you focus beside the beam rather than on it."
+              "feedback": "Yes: it's direct (coupled) illumination."
             },
             {
-              "text": "Optic section and parallelepiped",
+              "text": "Retro-illumination",
               "correct": false,
-              "feedback": "Those are direct (coupled) techniques."
+              "feedback": "Decoupled."
             },
             {
-              "text": "Diffuse illumination only",
+              "text": "Indirect illumination",
               "correct": false,
-              "feedback": "Diffuse is used coupled at low magnification."
+              "feedback": "Decoupled."
             },
             {
-              "text": "Never — they're always coupled",
+              "text": "Sclerotic scatter",
               "correct": false,
-              "feedback": "Decoupling is how indirect techniques work."
+              "feedback": "Decoupled."
             }
           ],
-          "explanation": "Direct techniques look at what the beam lights; indirect techniques look beside it, which needs the systems decoupled.",
-          "link": "ane-slit-lamp-illumination#coupled-and-decoupled"
+          "explanation": "Indirect, retro-illumination and sclerotic scatter need the beam decoupled; direct techniques don't.",
+          "link": "ane-slit-lamp-illumination#coupled-and-decoupled",
+          "original": {
+            "q": "When is the observation system decoupled from the illumination?",
+            "options": [
+              {
+                "text": "Indirect illumination, retro-illumination and sclerotic scatter",
+                "correct": true,
+                "feedback": "Right — you focus beside the beam rather than on it."
+              },
+              {
+                "text": "Optic section and parallelepiped",
+                "correct": false,
+                "feedback": "Those are direct (coupled) techniques."
+              },
+              {
+                "text": "Diffuse illumination only",
+                "correct": false,
+                "feedback": "Diffuse is used coupled at low magnification."
+              },
+              {
+                "text": "Never — they're always coupled",
+                "correct": false,
+                "feedback": "Decoupling is how indirect techniques work."
+              }
+            ],
+            "explanation": "Direct techniques look at what the beam lights; indirect techniques look beside it, which needs the systems decoupled."
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x0051",
-          "q": "Which illumination is best for an overall first look at the eye and adnexa?",
+          "q": "A new patient sits at the slit lamp. What's the best first technique, and why?",
           "options": [
             {
-              "text": "Diffuse, at low magnification",
+              "text": "Diffuse light at low magnification, for an overview of the eye and adnexa",
               "correct": true,
-              "feedback": "Yes: start broad."
+              "feedback": "Yes."
             },
             {
               "text": "Optic section at high magnification",
@@ -234,69 +410,150 @@
             {
               "text": "Specular reflection",
               "correct": false,
-              "feedback": "For the endothelium and tear film."
+              "feedback": "Too specific."
             },
             {
-              "text": "Sclerotic scatter",
+              "text": "Conical beam",
               "correct": false,
-              "feedback": "For subtle corneal opacities."
+              "feedback": "Only for AC cells."
             }
           ],
-          "explanation": ""
+          "explanation": "Start with diffuse light at low magnification, then use detailed techniques where needed.",
+          "original": {
+            "q": "Which illumination is best for an overall first look at the eye and adnexa?",
+            "options": [
+              {
+                "text": "Diffuse, at low magnification",
+                "correct": true,
+                "feedback": "Yes: start broad."
+              },
+              {
+                "text": "Optic section at high magnification",
+                "correct": false,
+                "feedback": "Too detailed to start."
+              },
+              {
+                "text": "Specular reflection",
+                "correct": false,
+                "feedback": "For the endothelium and tear film."
+              },
+              {
+                "text": "Sclerotic scatter",
+                "correct": false,
+                "feedback": "For subtle corneal opacities."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x0052",
-          "q": "Which technique shows AC cells and flare?",
+          "q": "Why must the room be fully dark to look for AC cells and flare?",
           "options": [
             {
-              "text": "Conical beam in a darkened room (Tyndall effect)",
+              "text": "So the dark pupil gives contrast for the scattered light (Tyndall effect)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "To dilate the pupil only",
+              "correct": false,
+              "feedback": "Not the main reason."
+            },
+            {
+              "text": "To protect the patient",
+              "correct": false,
+              "feedback": "Not the reason."
+            },
+            {
+              "text": "It doesn't matter",
+              "correct": false,
+              "feedback": "It does."
+            }
+          ],
+          "explanation": "Cells and flare are seen with a conical beam against a dark background.",
+          "original": {
+            "q": "Which technique shows AC cells and flare?",
+            "options": [
+              {
+                "text": "Conical beam in a darkened room (Tyndall effect)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Diffuse",
+                "correct": false,
+                "feedback": "Too broad."
+              },
+              {
+                "text": "Retro-illumination",
+                "correct": false,
+                "feedback": "For microcysts and vacuoles."
+              },
+              {
+                "text": "Tangential",
+                "correct": false,
+                "feedback": "For iris surface."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "ane-slit-lamp-illumination-x0053",
+          "q": "You want to judge a contact lens wearer's endothelial cell size and shape. Which technique?",
+          "options": [
+            {
+              "text": "Specular reflection",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Diffuse",
               "correct": false,
-              "feedback": "Too broad."
+              "feedback": "Too coarse."
             },
             {
-              "text": "Retro-illumination",
+              "text": "Sclerotic scatter",
               "correct": false,
-              "feedback": "For microcysts and vacuoles."
+              "feedback": "Whole-cornea haze."
             },
             {
               "text": "Tangential",
               "correct": false,
-              "feedback": "For iris surface."
+              "feedback": "Surface relief."
             }
           ],
-          "explanation": ""
-        },
-        {
-          "id": "ane-slit-lamp-illumination-x0053",
-          "q": "Specular reflection is used to view",
-          "options": [
-            {
-              "text": "the endothelium and tear film debris",
-              "correct": true,
-              "feedback": "Yes, through one eyepiece only."
-            },
-            {
-              "text": "AC cells",
-              "correct": false,
-              "feedback": "Conical beam."
-            },
-            {
-              "text": "Lens opacities only",
-              "correct": false,
-              "feedback": "Retro-illumination is better."
-            },
-            {
-              "text": "Lid margins",
-              "correct": false,
-              "feedback": "Diffuse."
-            }
-          ],
-          "explanation": ""
+          "explanation": "Specular reflection shows the endothelium and tear film debris.",
+          "original": {
+            "q": "Specular reflection is used to view",
+            "options": [
+              {
+                "text": "the endothelium and tear film debris",
+                "correct": true,
+                "feedback": "Yes, through one eyepiece only."
+              },
+              {
+                "text": "AC cells",
+                "correct": false,
+                "feedback": "Conical beam."
+              },
+              {
+                "text": "Lens opacities only",
+                "correct": false,
+                "feedback": "Retro-illumination is better."
+              },
+              {
+                "text": "Lid margins",
+                "correct": false,
+                "feedback": "Diffuse."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x0054",
@@ -354,57 +611,111 @@
         },
         {
           "id": "ane-slit-lamp-illumination-x0056",
-          "q": "Which techniques need the illumination decoupled from the microscope?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "Indirect, retro-illumination and sclerotic scatter",
+              "text": "Sclerotic scatter keeps the beam focused on the area you're viewing",
               "correct": true,
-              "feedback": "Yes: you look beside the beam."
+              "feedback": "Yes, that's wrong: the beam is on the limbus and decoupled."
             },
             {
-              "text": "Diffuse",
+              "text": "Retro-illumination is decoupled",
               "correct": false,
-              "feedback": "Coupled."
+              "feedback": "True."
             },
             {
-              "text": "Optic section",
+              "text": "Indirect illumination looks beside the beam",
               "correct": false,
-              "feedback": "Coupled."
+              "feedback": "True."
             },
             {
-              "text": "Parallelepiped",
+              "text": "Optic section is direct illumination",
               "correct": false,
-              "feedback": "Coupled."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Indirect, retro-illumination and sclerotic scatter need the beam decoupled from the microscope.",
+          "original": {
+            "q": "Which techniques need the illumination decoupled from the microscope?",
+            "options": [
+              {
+                "text": "Indirect, retro-illumination and sclerotic scatter",
+                "correct": true,
+                "feedback": "Yes: you look beside the beam."
+              },
+              {
+                "text": "Diffuse",
+                "correct": false,
+                "feedback": "Coupled."
+              },
+              {
+                "text": "Optic section",
+                "correct": false,
+                "feedback": "Coupled."
+              },
+              {
+                "text": "Parallelepiped",
+                "correct": false,
+                "feedback": "Coupled."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x0151",
-          "q": "Which illumination gives a cross-section through the cornea?",
+          "q": "You need to judge how deep a corneal scar lies. Which technique?",
           "options": [
             {
-              "text": "An optic section (narrow direct focal beam)",
+              "text": "An optic section (narrow direct beam)",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Diffuse",
               "correct": false,
-              "feedback": "Overview."
+              "feedback": "No depth information."
             },
             {
               "text": "Retro-illumination",
               "correct": false,
-              "feedback": "Backlit."
+              "feedback": "Not depth."
             },
             {
               "text": "Sclerotic scatter",
               "correct": false,
-              "feedback": "Whole cornea glow."
+              "feedback": "Not depth."
             }
           ],
-          "explanation": ""
+          "explanation": "An optic section gives a cross-section through the cornea, showing depth.",
+          "original": {
+            "q": "Which illumination gives a cross-section through the cornea?",
+            "options": [
+              {
+                "text": "An optic section (narrow direct focal beam)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Diffuse",
+                "correct": false,
+                "feedback": "Overview."
+              },
+              {
+                "text": "Retro-illumination",
+                "correct": false,
+                "feedback": "Backlit."
+              },
+              {
+                "text": "Sclerotic scatter",
+                "correct": false,
+                "feedback": "Whole cornea glow."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x0152",
@@ -867,30 +1178,57 @@
         },
         {
           "id": "ane-slit-lamp-illumination-x0319",
-          "q": "In specular reflection, the angle of incidence",
+          "q": "The illumination arm is at 30° to one side of the viewing axis. Where must your view be for specular reflection?",
           "options": [
             {
-              "text": "equals the angle of reflection",
+              "text": "30° to the other side, so the angles are equal",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "is 0°",
+              "text": "Straight on at 0°",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "is 90°",
+              "text": "60° to the same side",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "doesn't matter",
+              "text": "Anywhere",
               "correct": false,
-              "feedback": "It does."
+              "feedback": "It must match."
             }
           ],
-          "explanation": ""
+          "explanation": "In specular reflection the angle of incidence equals the angle of reflection.",
+          "original": {
+            "q": "In specular reflection, the angle of incidence",
+            "options": [
+              {
+                "text": "equals the angle of reflection",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "is 0°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "is 90°",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "doesn't matter",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x03110",
@@ -975,30 +1313,57 @@
         },
         {
           "id": "ane-slit-lamp-illumination-x03113",
-          "q": "Variation in endothelial cell size is",
+          "q": "A specular image shows endothelial cells of very different sizes. What's this called, and what can cause it?",
           "options": [
             {
-              "text": "polymegethism",
+              "text": "Polymegethism, e.g. from chronic hypoxia",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "pleomorphism",
+              "text": "Pleomorphism, e.g. from hypoxia",
               "correct": false,
-              "feedback": "Shape variation."
+              "feedback": "That's shape variation."
             },
             {
-              "text": "guttata",
+              "text": "Guttata",
               "correct": false,
               "feedback": "Excrescences."
             },
             {
-              "text": "microcysts",
+              "text": "Microcysts",
               "correct": false,
               "feedback": "Epithelial."
             }
           ],
-          "explanation": ""
+          "explanation": "Polymegethism means variation in cell size; pleomorphism means variation in shape.",
+          "original": {
+            "q": "Variation in endothelial cell size is",
+            "options": [
+              {
+                "text": "polymegethism",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "pleomorphism",
+                "correct": false,
+                "feedback": "Shape variation."
+              },
+              {
+                "text": "guttata",
+                "correct": false,
+                "feedback": "Excrescences."
+              },
+              {
+                "text": "microcysts",
+                "correct": false,
+                "feedback": "Epithelial."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x03114",
@@ -1299,30 +1664,57 @@
         },
         {
           "id": "ane-slit-lamp-illumination-x03125",
-          "q": "To see corneal oedema across the whole cornea, try",
+          "q": "A patient may have early corneal oedema across the whole cornea. Which technique shows it best?",
           "options": [
             {
-              "text": "sclerotic scatter",
+              "text": "Sclerotic scatter",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: haze lights up against the dark pupil."
             },
             {
-              "text": "specular reflection only",
+              "text": "Specular reflection",
               "correct": false,
               "feedback": "Small area."
             },
             {
-              "text": "red-free",
+              "text": "Red-free",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Vessels."
             },
             {
-              "text": "conical beam",
+              "text": "Conical beam",
               "correct": false,
-              "feedback": "AC."
+              "feedback": "AC cells."
             }
           ],
-          "explanation": ""
+          "explanation": "Sclerotic scatter uses total internal reflection from a beam at the limbus to show whole-cornea haze.",
+          "original": {
+            "q": "To see corneal oedema across the whole cornea, try",
+            "options": [
+              {
+                "text": "sclerotic scatter",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "specular reflection only",
+                "correct": false,
+                "feedback": "Small area."
+              },
+              {
+                "text": "red-free",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "conical beam",
+                "correct": false,
+                "feedback": "AC."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-slit-lamp-illumination-x03126",
@@ -1477,19 +1869,63 @@
       "id": "ane-systematic-exam",
       "title": "Systematic anterior segment examination",
       "summary": "A routine order — outside in, front to back — means nothing gets missed: lids and lashes, lid margins, conjunctiva, cornea, tear film, anterior chamber, iris and lens. Do it the same way every time and record both eyes.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Order: lids and lashes → lid margins (meibomian glands) → bulbar and palpebral conjunctiva → limbus → cornea (epithelium, stroma, endothelium) → tear film → AC → iris → lens.",
-        "Start each part with diffuse light at low magnification, then go more detailed.",
-        "Use fluorescein after the white-light exam (it changes what you see).",
-        "Grade findings with a named scale and note location (e.g. 'inferior', 'at 4 o'clock').",
-        "Check AC depth (Van Herick) and look for cells/flare when indicated.",
-        "Evert the upper lid when the history suggests it (FB sensation, CL wear, itch).",
-        "Always compare with the other eye."
+        {
+          "text": "Order: lids and lashes → lid margins (meibomian glands) → bulbar and palpebral conjunctiva → limbus → cornea (epithelium, stroma, endothelium) → tear film → AC → iris → lens.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Start each part with diffuse light at low magnification, then go more detailed.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Use fluorescein after the white-light exam (it changes what you see).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Grade findings with a named scale and note location (e.g. 'inferior', 'at 4 o'clock').",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Check AC depth (Van Herick) and look for cells/flare when indicated.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Evert the upper lid when the history suggests it (FB sensation, CL wear, itch).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Always compare with the other eye.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Jumping straight to the cornea and missing lid margin disease.",
-        "Instilling fluorescein before checking the tear film and conjunctiva in white light.",
-        "Recording 'normal' without saying what was checked."
+        {
+          "text": "Jumping straight to the cornea and missing lid margin disease.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Instilling fluorescein before checking the tear film and conjunctiva in white light.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Recording 'normal' without saying what was checked.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "anterior-eye-layers",
@@ -1507,15 +1943,21 @@
       "goDeeper": [
         {
           "heading": "Lids and lashes",
-          "body": "Look for lid position (ptosis, entropion, ectropion), lumps (chalazion, stye, papilloma, BCC features), lash direction (trichiasis), crusting, collarettes or cylindrical dandruff at the lash base (Demodex), and the meibomian gland orifices (capping, toothpaste secretions)."
+          "body": "Look for lid position (ptosis, entropion, ectropion), lumps (chalazion, stye, papilloma, BCC features), lash direction (trichiasis), crusting, collarettes or cylindrical dandruff at the lash base (Demodex), and the meibomian gland orifices (capping, toothpaste secretions).",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Cornea layer by layer",
-          "body": "Use a parallelepiped to scan the cornea in sections, then optic section to place anything you find: epithelium (punctate staining, microcysts), stroma (scars, infiltrates, oedema), endothelium (guttata, KPs). Note size, depth, location and whether it stains."
+          "body": "Use a parallelepiped to scan the cornea in sections, then optic section to place anything you find: epithelium (punctate staining, microcysts), stroma (scars, infiltrates, oedema), endothelium (guttata, KPs). Note size, depth, location and whether it stains.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Recording",
-          "body": "Write a line per structure for each eye, e.g. 'Lids/lashes: clear. Conj: bulbar redness 1 (Efron). Cornea: clear, no staining. AC: deep and quiet, VH 4. Iris: NAD. Lens: clear.' Use a drawing for anything abnormal, with size and position."
+          "body": "Write a line per structure for each eye, e.g. 'Lids/lashes: clear. Conj: bulbar redness 1 (Efron). Cornea: clear, no staining. AC: deep and quiet, VH 4. Iris: NAD. Lens: clear.' Use a drawing for anything abnormal, with size and position.",
+          "priority": "clinical",
+          "module": "AnE"
         }
       ],
       "checklist": {
@@ -1534,7 +1976,9 @@
           "Lens (best through a dilated pupil).",
           "Fluorescein: cornea and conjunctiva under cobalt blue with barrier filter.",
           "Record with grades and drawings."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AnE"
       },
       "flashcards": [
         {
@@ -1585,30 +2029,57 @@
         },
         {
           "id": "ane-systematic-exam-x0051",
-          "q": "In what order should you examine the anterior segment?",
+          "q": "A student examines the cornea first, then goes back to the lids. What's wrong with this?",
           "options": [
             {
-              "text": "Lids and lashes, lid margins, conjunctiva, limbus, cornea, AC, iris, lens",
+              "text": "A set front-to-back order (lids, lashes, margins, conjunctiva, limbus, cornea, AC, iris, lens) avoids missing things",
               "correct": true,
-              "feedback": "Yes: outside in."
+              "feedback": "Yes."
             },
             {
-              "text": "Lens first",
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Order matters."
+            },
+            {
+              "text": "They should start with the lens",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Cornea before lids",
+              "text": "They should skip the lids",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Random",
-              "correct": false,
-              "feedback": "A system avoids missing things."
             }
           ],
-          "explanation": ""
+          "explanation": "Examine in a consistent order from the outside in.",
+          "original": {
+            "q": "In what order should you examine the anterior segment?",
+            "options": [
+              {
+                "text": "Lids and lashes, lid margins, conjunctiva, limbus, cornea, AC, iris, lens",
+                "correct": true,
+                "feedback": "Yes: outside in."
+              },
+              {
+                "text": "Lens first",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cornea before lids",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Random",
+                "correct": false,
+                "feedback": "A system avoids missing things."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-systematic-exam-x0052",
@@ -1666,30 +2137,57 @@
         },
         {
           "id": "ane-systematic-exam-x0054",
-          "q": "When should the upper lid be everted?",
+          "q": "In which patient is upper lid eversion most clearly indicated?",
           "options": [
             {
-              "text": "When the history suggests it: FB sensation, CL wear or itching",
+              "text": "A contact lens wearer with itch and stringy mucus",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Never",
+              "text": "A patient with flashes and floaters",
               "correct": false,
-              "feedback": "It's important when indicated."
+              "feedback": "Retinal."
             },
             {
-              "text": "Always first",
+              "text": "A myope with blur",
               "correct": false,
-              "feedback": "Not routinely first."
+              "feedback": "Refractive."
             },
             {
-              "text": "Only in children",
+              "text": "A patient with a headache only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not usually."
             }
           ],
-          "explanation": ""
+          "explanation": "Evert the upper lid when the history suggests it: FB sensation, CL wear or itching.",
+          "original": {
+            "q": "When should the upper lid be everted?",
+            "options": [
+              {
+                "text": "When the history suggests it: FB sensation, CL wear or itching",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "It's important when indicated."
+              },
+              {
+                "text": "Always first",
+                "correct": false,
+                "feedback": "Not routinely first."
+              },
+              {
+                "text": "Only in children",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-systematic-exam-x0055",
@@ -1747,34 +2245,61 @@
         },
         {
           "id": "ane-systematic-exam-x0057",
-          "q": "What should you check when indicated after looking at the cornea?",
+          "q": "A patient has a narrow-looking angle on your corneal exam and plans dilation. What should you check next?",
           "options": [
             {
-              "text": "AC depth (van Herick) and cells or flare",
+              "text": "AC depth with van Herick, and cells or flare if inflamed",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Fundus",
-              "correct": false,
-              "feedback": "That's posterior."
-            },
-            {
-              "text": "Visual fields",
+              "text": "Colour vision",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Pupil size only",
+              "text": "Stereo",
               "correct": false,
-              "feedback": "Not the main point."
+              "feedback": "No."
+            },
+            {
+              "text": "PD",
+              "correct": false,
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "After the cornea, check AC depth (van Herick) and look for cells or flare when indicated.",
+          "original": {
+            "q": "What should you check when indicated after looking at the cornea?",
+            "options": [
+              {
+                "text": "AC depth (van Herick) and cells or flare",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Fundus",
+                "correct": false,
+                "feedback": "That's posterior."
+              },
+              {
+                "text": "Visual fields",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Pupil size only",
+                "correct": false,
+                "feedback": "Not the main point."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-systematic-exam-x0058",
-          "q": "Which part of the lid margin shows evaporative dry eye signs?",
+          "q": "A patient has gritty eyes later in the day and a foamy tear film. Where on the lid margin should you look closely?",
           "options": [
             {
               "text": "The meibomian gland orifices",
@@ -1782,22 +2307,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "The lash tips",
+              "text": "The lashes only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not enough."
+            },
+            {
+              "text": "The puncta only",
+              "correct": false,
+              "feedback": "Drainage."
             },
             {
               "text": "The skin of the brow",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "The caruncle only",
-              "correct": false,
-              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Capped or blocked meibomian gland orifices are a key sign of evaporative dry eye.",
+          "original": {
+            "q": "Which part of the lid margin shows evaporative dry eye signs?",
+            "options": [
+              {
+                "text": "The meibomian gland orifices",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The lash tips",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The skin of the brow",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The caruncle only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-systematic-exam-x0059",
@@ -2341,30 +2893,57 @@
         },
         {
           "id": "ane-systematic-exam-x03110",
-          "q": "Corneal guttata are seen at the",
+          "q": "Dark spots like 'beaten metal' are seen in specular reflection at the back of the cornea in a 60-year-old. What are they, and where?",
           "options": [
             {
-              "text": "endothelium",
+              "text": "Corneal guttata, at the endothelium",
               "correct": true,
-              "feedback": "Yes, e.g. in Fuchs' dystrophy."
+              "feedback": "Yes."
             },
             {
-              "text": "epithelium",
+              "text": "Microcysts, in the epithelium",
+              "correct": false,
+              "feedback": "Different layer."
+            },
+            {
+              "text": "KPs, on the lens",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Bowman's layer",
-              "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "iris",
+              "text": "Arcus, at the limbus",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Guttata are excrescences of Descemet's membrane seen at the endothelium (e.g. Fuchs' dystrophy).",
+          "original": {
+            "q": "Corneal guttata are seen at the",
+            "options": [
+              {
+                "text": "endothelium",
+                "correct": true,
+                "feedback": "Yes, e.g. in Fuchs' dystrophy."
+              },
+              {
+                "text": "epithelium",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Bowman's layer",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "iris",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-systematic-exam-x03111",
@@ -2924,20 +3503,68 @@
       "id": "ane-van-herick",
       "title": "Anterior chamber angle assessment",
       "summary": "Dilating can trigger acute angle closure, so assess the angle first. Van Herick is the routine screen; the pen torch and Smith's method are cruder; imaging gives cross-sections; only gonioscopy shows the angle directly.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Aqueous inflates the eye, feeds the avascular tissues, defends against pathogens and keeps the refractive index; 80–90% drains through the trabecular meshwork, 10–20% by the uveoscleral route.",
-        "Acute angle closure: pain, blurred vision with coloured haloes, nausea and vomiting, an emergency. Warn patients before dilating.",
-        "Risk factors: shallow chamber, forward or thick lens, small cornea, short eye, steep cornea, age, female sex (4:1) and East Asian ethnicity.",
-        "Van Herick: 10–16x, narrow bright slit at 60° temporal, at the limbus; compare peripheral chamber depth with corneal thickness. Grade 4 (1:1 or more, closure impossible), 3 (1:½, unlikely), 2 (1:¼, possible), 1 (under 1:¼, very likely), 0 (closed).",
-        "Pen torch: light from the temporal side parallel to the iris; nasal iris in shadow 0/25/50/75/100% gives grades 4 to 0. Very crude.",
-        "Smith's method: horizontal 1–2 mm slit at 60°; chamber depth ≈ slit length × 1.4; under 2 mm suggests risk.",
-        "Ultrasound, Scheimpflug imaging (Pentacam) and AS-OCT give cross-sections but don't view the angle directly.",
-        "Gonioscopy (direct Koeppe or indirect mirror lenses) is the gold standard. Structures front to back: Schwalbe's line, unpigmented and pigmented trabecular meshwork, scleral spur, ciliary body. The superior angle is usually the narrowest."
+        {
+          "text": "Aqueous inflates the eye, feeds the avascular tissues, defends against pathogens and keeps the refractive index; 80–90% drains through the trabecular meshwork, 10–20% by the uveoscleral route.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Acute angle closure: pain, blurred vision with coloured haloes, nausea and vomiting, an emergency. Warn patients before dilating.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Risk factors: shallow chamber, forward or thick lens, small cornea, short eye, steep cornea, age, female sex (4:1) and East Asian ethnicity.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Van Herick: 10–16x, narrow bright slit at 60° temporal, at the limbus; compare peripheral chamber depth with corneal thickness. Grade 4 (1:1 or more, closure impossible), 3 (1:½, unlikely), 2 (1:¼, possible), 1 (under 1:¼, very likely), 0 (closed).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Pen torch: light from the temporal side parallel to the iris; nasal iris in shadow 0/25/50/75/100% gives grades 4 to 0. Very crude.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Smith's method: horizontal 1–2 mm slit at 60°; chamber depth ≈ slit length × 1.4; under 2 mm suggests risk.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Ultrasound, Scheimpflug imaging (Pentacam) and AS-OCT give cross-sections but don't view the angle directly.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Gonioscopy (direct Koeppe or indirect mirror lenses) is the gold standard. Structures front to back: Schwalbe's line, unpigmented and pigmented trabecular meshwork, scleral spur, ciliary body. The superior angle is usually the narrowest.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Treating van Herick as a diagnosis rather than a screen.",
-        "Saying the inferior angle is the narrowest.",
-        "Pressing hard on a corneal gonio lens: it folds Descemet's membrane and can falsely widen the angle."
+        {
+          "text": "Treating van Herick as a diagnosis rather than a screen.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Saying the inferior angle is the narrowest.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Pressing hard on a corneal gonio lens: it folds Descemet's membrane and can falsely widen the angle.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "van-herick",
@@ -2952,7 +3579,9 @@
       "goDeeper": [
         {
           "heading": "Gonioscopy in practice",
-          "body": "Indications include narrow angles on van Herick (grade 2 or less), glaucoma, pigment dispersion or pseudoexfoliation, neovascular risk, trauma and after iridotomy; not after recent trauma or surgery. Scleral (Goldmann) lenses need coupling fluid; corneal four-mirror lenses (Posner, Zeiss, Sussman) are about 9 mm. Use low magnification with a 2–3 mm parallelepiped, put the mirror opposite the quadrant you want, start inferiorly and grade all 360°."
+          "body": "Indications include narrow angles on van Herick (grade 2 or less), glaucoma, pigment dispersion or pseudoexfoliation, neovascular risk, trauma and after iridotomy; not after recent trauma or surgery. Scleral (Goldmann) lenses need coupling fluid; corneal four-mirror lenses (Posner, Zeiss, Sussman) are about 9 mm. Use low magnification with a 2–3 mm parallelepiped, put the mirror opposite the quadrant you want, start inferiorly and grade all 360°.",
+          "priority": "exam-core",
+          "module": "AnE"
         }
       ],
       "flashcards": [
@@ -3038,30 +3667,57 @@
         },
         {
           "id": "ane-ac-1",
-          "q": "What is the correct order of structures in the anterior chamber angle (front to back)?",
+          "q": "Looking into the angle with a gonioscope from front to back, which structure comes straight after the pigmented trabecular meshwork?",
           "options": [
             {
-              "text": "Schwalbe's line, unpigmented TM, pigmented TM, scleral spur, ciliary body",
+              "text": "The scleral spur",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Scleral spur, unpigmented TM, pigmented TM, Schwalbe's line, ciliary body",
+              "text": "Schwalbe's line",
               "correct": false,
-              "feedback": "Schwalbe's line is the most anterior structure."
+              "feedback": "Most anterior."
             },
             {
-              "text": "Ciliary body, unpigmented TM, pigmented TM, scleral spur, Schwalbe's line",
+              "text": "The ciliary body band",
               "correct": false,
-              "feedback": "That runs the wrong way and in the wrong order."
+              "feedback": "After the spur."
             },
             {
-              "text": "Unpigmented TM, Schwalbe's line, pigmented TM, scleral spur, ciliary body",
+              "text": "The cornea",
               "correct": false,
-              "feedback": "Schwalbe's line comes before the meshwork."
+              "feedback": "No."
             }
           ],
-          "explanation": "Lecture MCQ (slide 36)."
+          "explanation": "Order: Schwalbe's line, unpigmented TM, pigmented TM, scleral spur, ciliary body band.",
+          "original": {
+            "q": "What is the correct order of structures in the anterior chamber angle (front to back)?",
+            "options": [
+              {
+                "text": "Schwalbe's line, unpigmented TM, pigmented TM, scleral spur, ciliary body",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Scleral spur, unpigmented TM, pigmented TM, Schwalbe's line, ciliary body",
+                "correct": false,
+                "feedback": "Schwalbe's line is the most anterior structure."
+              },
+              {
+                "text": "Ciliary body, unpigmented TM, pigmented TM, scleral spur, Schwalbe's line",
+                "correct": false,
+                "feedback": "That runs the wrong way and in the wrong order."
+              },
+              {
+                "text": "Unpigmented TM, Schwalbe's line, pigmented TM, scleral spur, ciliary body",
+                "correct": false,
+                "feedback": "Schwalbe's line comes before the meshwork."
+              }
+            ],
+            "explanation": "Lecture MCQ (slide 36)."
+          },
+          "needsReview": true
         },
         {
           "id": "ane-ac-2",
@@ -3119,30 +3775,57 @@
         },
         {
           "id": "ane-van-herick-x0052",
-          "q": "What slit lamp settings does van Herick use?",
+          "q": "A student does van Herick with a wide beam at 20° to the cornea centrally. What's wrong?",
           "options": [
             {
-              "text": "A narrow bright slit at 60° temporal, 10–16x, at the limbus",
+              "text": "It needs a narrow bright slit at 60° temporally, at the limbus",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "A wide diffuse beam",
+              "text": "Nothing",
+              "correct": false,
+              "feedback": "Several things are wrong."
+            },
+            {
+              "text": "It must be done with cobalt blue",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Coaxial illumination",
+              "text": "It must be done at 40×",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Cobalt blue light",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "10–16× is usual."
             }
           ],
-          "explanation": ""
+          "explanation": "Van Herick: narrow bright slit at 60°, at the temporal limbus, about 10–16×.",
+          "original": {
+            "q": "What slit lamp settings does van Herick use?",
+            "options": [
+              {
+                "text": "A narrow bright slit at 60° temporal, 10–16x, at the limbus",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A wide diffuse beam",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Coaxial illumination",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cobalt blue light",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x0053",
@@ -3389,57 +4072,111 @@
         },
         {
           "id": "ane-van-herick-x0156",
-          "q": "Which is the most anterior structure in the angle?",
+          "q": "On gonioscopy you can only see the most anterior angle structure. Which is it, and what does it suggest?",
           "options": [
             {
-              "text": "Schwalbe's line",
+              "text": "Schwalbe's line; the angle is very narrow or closed",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Ciliary body band",
+              "text": "The ciliary body band; the angle is wide open",
               "correct": false,
-              "feedback": "Most posterior."
+              "feedback": "That's posterior."
             },
             {
-              "text": "Scleral spur",
+              "text": "The scleral spur; the angle is normal",
               "correct": false,
-              "feedback": "Middle."
+              "feedback": "Not if only one structure is seen."
             },
             {
-              "text": "Trabecular meshwork",
+              "text": "The iris root; normal",
               "correct": false,
-              "feedback": "Behind Schwalbe's line."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Schwalbe's line is the most anterior angle structure.",
+          "original": {
+            "q": "Which is the most anterior structure in the angle?",
+            "options": [
+              {
+                "text": "Schwalbe's line",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Ciliary body band",
+                "correct": false,
+                "feedback": "Most posterior."
+              },
+              {
+                "text": "Scleral spur",
+                "correct": false,
+                "feedback": "Middle."
+              },
+              {
+                "text": "Trabecular meshwork",
+                "correct": false,
+                "feedback": "Behind Schwalbe's line."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x0157",
-          "q": "Which symptoms suggest acute angle closure?",
+          "q": "A patient phones two hours after dilation with a painful red eye, haloes and vomiting. What do you suspect?",
           "options": [
             {
-              "text": "Pain, haloes, blurred vision and nausea",
+              "text": "Acute angle closure: emergency referral",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Itching only",
+              "text": "Migraine",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Rule out closure first."
             },
             {
-              "text": "Floaters only",
+              "text": "Normal drop effects",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not with pain and vomiting."
             },
             {
-              "text": "None",
+              "text": "Conjunctivitis",
               "correct": false,
-              "feedback": "Symptoms."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pain, haloes, blurred vision and nausea suggest acute angle closure.",
+          "original": {
+            "q": "Which symptoms suggest acute angle closure?",
+            "options": [
+              {
+                "text": "Pain, haloes, blurred vision and nausea",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Itching only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Floaters only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Symptoms."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x0158",
@@ -3956,30 +4693,57 @@
         },
         {
           "id": "ane-van-herick-x03117",
-          "q": "Where does the pen torch shine from in the pen torch angle test?",
+          "q": "In the pen torch angle test, half the nasal iris is in shadow. What does this suggest?",
           "options": [
             {
-              "text": "The temporal side, looking for shadow on the nasal iris",
+              "text": "A narrow angle",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the iris bows forward."
             },
             {
-              "text": "From above",
+              "text": "A wide-open angle",
               "correct": false,
-              "feedback": "No."
+              "feedback": "No shadow."
             },
             {
-              "text": "From the nasal side",
+              "text": "Normal",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not with 50% shadow."
             },
             {
-              "text": "Straight on",
+              "text": "Cataract",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Shine the light from the temporal side parallel to the iris; nasal shadow suggests a forward-bowed iris and narrow angle.",
+          "original": {
+            "q": "Where does the pen torch shine from in the pen torch angle test?",
+            "options": [
+              {
+                "text": "The temporal side, looking for shadow on the nasal iris",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "From above",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "From the nasal side",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Straight on",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x03118",
@@ -4172,30 +4936,57 @@
         },
         {
           "id": "ane-van-herick-x03125",
-          "q": "Which van Herick grade is often taken as needing gonioscopy before dilation?",
+          "q": "Van Herick shows the peripheral chamber is a quarter of the corneal thickness. You plan to dilate. What's a common next step?",
           "options": [
             {
-              "text": "Grade 2 or less",
+              "text": "Consider gonioscopy before dilating",
               "correct": true,
-              "feedback": "Yes, as a common guide."
+              "feedback": "Yes: grade 2 or less often prompts it."
             },
             {
-              "text": "Grade 4",
+              "text": "Dilate with phenylephrine 10%",
               "correct": false,
-              "feedback": "Wide open."
+              "feedback": "Riskier."
             },
             {
-              "text": "Grade 3 only",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "Usually safe."
+              "feedback": "Consider gonioscopy."
             },
             {
-              "text": "None",
+              "text": "Refer as an emergency",
               "correct": false,
-              "feedback": "Some do."
+              "feedback": "Not without symptoms."
             }
           ],
-          "explanation": ""
+          "explanation": "Van Herick grade 2 or less is often taken as needing gonioscopy before dilation.",
+          "original": {
+            "q": "Which van Herick grade is often taken as needing gonioscopy before dilation?",
+            "options": [
+              {
+                "text": "Grade 2 or less",
+                "correct": true,
+                "feedback": "Yes, as a common guide."
+              },
+              {
+                "text": "Grade 4",
+                "correct": false,
+                "feedback": "Wide open."
+              },
+              {
+                "text": "Grade 3 only",
+                "correct": false,
+                "feedback": "Usually safe."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Some do."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-van-herick-x03126",
@@ -4350,19 +5141,63 @@
       "id": "ane-staining",
       "title": "Fluorescein and lissamine green staining",
       "summary": "Sodium fluorescein shows where the corneal (and conjunctival) epithelium is disrupted or missing; lissamine green shows damaged or devitalised cells and mucus, especially on the conjunctiva. Grade staining by location, type and extent with a named scale.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Sodium fluorescein (NaFl): view with a broad beam, cobalt blue light and a yellow (Wratten) barrier filter — cornea, conjunctiva and TBUT. It stains where cell junctions are broken or cells missing and pools in defects.",
-        "Look at the cornea soon after instillation, before it diffuses into the stroma.",
-        "Lissamine green: view with white light (a red filter helps); best for conjunctival staining; look 1–4 minutes after instillation.",
-        "Describe staining: type (punctate, diffuse, coalescent, patch), depth, location (zones or clock hours) and extent.",
-        "Grading options: Efron or CCLRU for CL work; Oxford scheme (panels A–E) for dry eye; NEI zones.",
-        "Patterns help diagnosis: inferior band (exposure/MGD), superior (SLK, upper lid FB), 3 & 9 o'clock (RGP), dendrite (HSV).",
-        "Avoid standard NaFl with soft lenses in situ — it stains them."
+        {
+          "text": "Sodium fluorescein (NaFl): view with a broad beam, cobalt blue light and a yellow (Wratten) barrier filter — cornea, conjunctiva and TBUT. It stains where cell junctions are broken or cells missing and pools in defects.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Look at the cornea soon after instillation, before it diffuses into the stroma.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Lissamine green: view with white light (a red filter helps); best for conjunctival staining; look 1–4 minutes after instillation.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Describe staining: type (punctate, diffuse, coalescent, patch), depth, location (zones or clock hours) and extent.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Grading options: Efron or CCLRU for CL work; Oxford scheme (panels A–E) for dry eye; NEI zones.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Patterns help diagnosis: inferior band (exposure/MGD), superior (SLK, upper lid FB), 3 & 9 o'clock (RGP), dendrite (HSV).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Avoid standard NaFl with soft lenses in situ — it stains them.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Viewing fluorescein without the barrier filter and under-grading staining.",
-        "Using lissamine green with the cobalt blue light.",
-        "Forgetting to look at the conjunctiva as well as the cornea."
+        {
+          "text": "Viewing fluorescein without the barrier filter and under-grading staining.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Using lissamine green with the cobalt blue light.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Forgetting to look at the conjunctiva as well as the cornea.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "corneal-zones",
@@ -4378,15 +5213,21 @@
       "goDeeper": [
         {
           "heading": "Recognising staining patterns",
-          "body": "Inferior punctate staining: exposure, incomplete blinking, MGD/evaporative dry eye. Interpalpebral band: dry eye. 3 and 9 o'clock: RGP edge drying. Superior arcuate: tight soft lens or SEAL. Linear vertical scratches: FB under the upper lid — evert it. Dendritic branching ulcer with terminal bulbs: herpes simplex keratitis — refer."
+          "body": "Inferior punctate staining: exposure, incomplete blinking, MGD/evaporative dry eye. Interpalpebral band: dry eye. 3 and 9 o'clock: RGP edge drying. Superior arcuate: tight soft lens or SEAL. Linear vertical scratches: FB under the upper lid — evert it. Dendritic branching ulcer with terminal bulbs: herpes simplex keratitis — refer.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Seidel test",
-          "body": "If a penetrating injury or wound leak is suspected, paint concentrated fluorescein over the area and watch under cobalt blue. A stream of dilute (bright green) aqueous flowing through the dark orange dye is a positive Seidel — an emergency."
+          "body": "If a penetrating injury or wound leak is suspected, paint concentrated fluorescein over the area and watch under cobalt blue. A stream of dilute (bright green) aqueous flowing through the dark orange dye is a positive Seidel — an emergency.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Practical tips",
-          "body": "Moisten the strip with saline and touch it to the lower conjunctiva (not the cornea); one small drop's worth is plenty. Ask the patient to blink a few times. Too much dye floods the view and makes grading harder."
+          "body": "Moisten the strip with saline and touch it to the lower conjunctiva (not the cornea); one small drop's worth is plenty. Ask the patient to blink a few times. Too much dye floods the view and makes grading harder.",
+          "priority": "clinical",
+          "module": "AnE"
         }
       ],
       "flashcards": [
@@ -4438,58 +5279,112 @@
         },
         {
           "id": "ane-stain-2",
-          "q": "Which light do you use to view lissamine green?",
+          "q": "A student looks for lissamine green staining under cobalt blue light and sees nothing. What should they change?",
           "options": [
             {
-              "text": "White light (ideally with a red filter)",
-              "correct": true,
-              "feedback": "Right."
-            },
-            {
-              "text": "Cobalt blue with a yellow filter",
-              "correct": false,
-              "feedback": "That's for fluorescein."
-            },
-            {
-              "text": "Red-free (green) light",
-              "correct": false,
-              "feedback": "That reduces the contrast of green dye."
-            },
-            {
-              "text": "Ultraviolet",
-              "correct": false,
-              "feedback": "Not used for lissamine green."
-            }
-          ],
-          "explanation": "Lissamine green absorbs red light, so white light (with a red filter to boost contrast) shows it best.",
-          "link": "ane-staining#practical-tips"
-        },
-        {
-          "id": "ane-staining-x0051",
-          "q": "How is sodium fluorescein viewed?",
-          "options": [
-            {
-              "text": "Cobalt blue light with a yellow barrier filter",
+              "text": "Use white light (ideally with a red filter)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "White light only",
+              "text": "Add more lissamine under blue",
               "correct": false,
-              "feedback": "Staining is faint."
+              "feedback": "Still poor."
             },
             {
-              "text": "Red-free light",
+              "text": "Use a yellow filter",
               "correct": false,
-              "feedback": "That's for vessels."
+              "feedback": "That's for fluorescein."
             },
             {
-              "text": "Without the slit lamp",
+              "text": "Wait an hour",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too long."
             }
           ],
-          "explanation": ""
+          "explanation": "Lissamine green is viewed with white light; a red filter helps.",
+          "link": "ane-staining#practical-tips",
+          "original": {
+            "q": "Which light do you use to view lissamine green?",
+            "options": [
+              {
+                "text": "White light (ideally with a red filter)",
+                "correct": true,
+                "feedback": "Right."
+              },
+              {
+                "text": "Cobalt blue with a yellow filter",
+                "correct": false,
+                "feedback": "That's for fluorescein."
+              },
+              {
+                "text": "Red-free (green) light",
+                "correct": false,
+                "feedback": "That reduces the contrast of green dye."
+              },
+              {
+                "text": "Ultraviolet",
+                "correct": false,
+                "feedback": "Not used for lissamine green."
+              }
+            ],
+            "explanation": "Lissamine green absorbs red light, so white light (with a red filter to boost contrast) shows it best."
+          },
+          "needsReview": true
+        },
+        {
+          "id": "ane-staining-x0051",
+          "q": "Fluorescein staining looks faint and washed out under blue light. What would improve it?",
+          "options": [
+            {
+              "text": "Adding a yellow (Wratten) barrier filter",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Using white light",
+              "correct": false,
+              "feedback": "Less contrast."
+            },
+            {
+              "text": "Using a red filter",
+              "correct": false,
+              "feedback": "That's for lissamine."
+            },
+            {
+              "text": "More magnification only",
+              "correct": false,
+              "feedback": "Not the fix."
+            }
+          ],
+          "explanation": "View sodium fluorescein with cobalt blue light and a yellow barrier filter.",
+          "original": {
+            "q": "How is sodium fluorescein viewed?",
+            "options": [
+              {
+                "text": "Cobalt blue light with a yellow barrier filter",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "White light only",
+                "correct": false,
+                "feedback": "Staining is faint."
+              },
+              {
+                "text": "Red-free light",
+                "correct": false,
+                "feedback": "That's for vessels."
+              },
+              {
+                "text": "Without the slit lamp",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x0052",
@@ -4520,57 +5415,111 @@
         },
         {
           "id": "ane-staining-x0053",
-          "q": "How is lissamine green viewed?",
+          "q": "You instil lissamine green and look straight away. What should you do differently?",
           "options": [
             {
-              "text": "White light (a red filter helps), 1–4 minutes after instilling",
+              "text": "Wait 1–4 minutes before viewing, with white light",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Cobalt blue",
+              "text": "Look under cobalt blue",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Wrong light."
             },
             {
-              "text": "Straight away with UV",
+              "text": "Wait 30 minutes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too long."
             },
             {
-              "text": "Only on the cornea",
+              "text": "Rinse it out first",
               "correct": false,
-              "feedback": "Best for the conjunctiva."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Lissamine green is best viewed 1–4 minutes after instillation, in white light.",
+          "original": {
+            "q": "How is lissamine green viewed?",
+            "options": [
+              {
+                "text": "White light (a red filter helps), 1–4 minutes after instilling",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cobalt blue",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Straight away with UV",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only on the cornea",
+                "correct": false,
+                "feedback": "Best for the conjunctiva."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x0054",
-          "q": "Inferior punctate staining suggests",
+          "q": "A patient with lagophthalmos after Bell's palsy shows punctate staining. Where is it most likely?",
           "options": [
             {
-              "text": "exposure, incomplete blinking or MGD",
+              "text": "Inferiorly",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: exposure."
             },
             {
-              "text": "RGP edge drying",
+              "text": "Superiorly",
               "correct": false,
-              "feedback": "That's 3 and 9 o'clock."
+              "feedback": "Upper lid problems."
             },
             {
-              "text": "Upper lid foreign body",
+              "text": "At 3 and 9 o'clock only",
               "correct": false,
-              "feedback": "That's superior."
+              "feedback": "Rigid lenses."
             },
             {
-              "text": "Herpes simplex",
+              "text": "Centrally in a dendrite",
               "correct": false,
-              "feedback": "That's dendritic."
+              "feedback": "Herpes."
             }
           ],
-          "explanation": ""
+          "explanation": "Inferior punctate staining suggests exposure, incomplete blinking or MGD.",
+          "original": {
+            "q": "Inferior punctate staining suggests",
+            "options": [
+              {
+                "text": "exposure, incomplete blinking or MGD",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "RGP edge drying",
+                "correct": false,
+                "feedback": "That's 3 and 9 o'clock."
+              },
+              {
+                "text": "Upper lid foreign body",
+                "correct": false,
+                "feedback": "That's superior."
+              },
+              {
+                "text": "Herpes simplex",
+                "correct": false,
+                "feedback": "That's dendritic."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x0055",
@@ -4655,30 +5604,57 @@
         },
         {
           "id": "ane-staining-x0058",
-          "q": "A branching (dendritic) staining pattern suggests",
+          "q": "A patient has a painful red eye and fluorescein shows a branching line with bulbs at its ends. What should you NOT give?",
           "options": [
             {
-              "text": "herpes simplex keratitis",
+              "text": "A topical steroid alone",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it can worsen a herpes simplex dendrite."
             },
             {
-              "text": "Dry eye",
+              "text": "An antiviral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the treatment."
             },
             {
-              "text": "Exposure",
+              "text": "A referral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Refer."
             },
             {
-              "text": "RGP edge",
+              "text": "Advice to avoid lenses",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Fine."
             }
           ],
-          "explanation": ""
+          "explanation": "A dendritic ulcer suggests herpes simplex keratitis; it's treated with an antiviral, never a steroid alone.",
+          "original": {
+            "q": "A branching (dendritic) staining pattern suggests",
+            "options": [
+              {
+                "text": "herpes simplex keratitis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Exposure",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "RGP edge",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x0151",
@@ -5059,30 +6035,57 @@
         },
         {
           "id": "ane-staining-x0315",
-          "q": "Inferior staining is often linked with",
+          "q": "A patient who sleeps with partly open eyes has punctate staining. Which pattern do you expect?",
           "options": [
             {
-              "text": "exposure or incomplete blinking",
+              "text": "An inferior band",
               "correct": true,
-              "feedback": "Yes, also blepharitis."
+              "feedback": "Yes."
             },
             {
-              "text": "SLK",
+              "text": "Superior arcuate staining",
               "correct": false,
-              "feedback": "Superior."
+              "feedback": "SEAL."
             },
             {
-              "text": "a subtarsal foreign body",
+              "text": "A dendrite",
               "correct": false,
-              "feedback": "Superior."
+              "feedback": "Herpes."
             },
             {
-              "text": "SEAL",
+              "text": "Diffuse staining after a new solution",
               "correct": false,
-              "feedback": "Superior."
+              "feedback": "Toxicity."
             }
           ],
-          "explanation": ""
+          "explanation": "Inferior staining is often linked with exposure or incomplete blinking.",
+          "original": {
+            "q": "Inferior staining is often linked with",
+            "options": [
+              {
+                "text": "exposure or incomplete blinking",
+                "correct": true,
+                "feedback": "Yes, also blepharitis."
+              },
+              {
+                "text": "SLK",
+                "correct": false,
+                "feedback": "Superior."
+              },
+              {
+                "text": "a subtarsal foreign body",
+                "correct": false,
+                "feedback": "Superior."
+              },
+              {
+                "text": "SEAL",
+                "correct": false,
+                "feedback": "Superior."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x0316",
@@ -5167,30 +6170,57 @@
         },
         {
           "id": "ane-staining-x0319",
-          "q": "A large irregular geographic ulcer that stains may be",
+          "q": "A patient with a past dendritic ulcer now has a large irregular staining area with scalloped edges. What's most likely?",
           "options": [
             {
-              "text": "herpes simplex keratitis",
+              "text": "A geographic herpes simplex ulcer",
               "correct": true,
-              "feedback": "Yes, a geographic form."
+              "feedback": "Yes."
             },
             {
-              "text": "dry eye",
+              "text": "Dry eye",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Punctate."
             },
             {
               "text": "SEAL",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Superior arc."
             },
             {
-              "text": "arcus",
+              "text": "A contact lens abrasion",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this pattern."
             }
           ],
-          "explanation": ""
+          "explanation": "Herpes simplex can form a larger geographic ulcer as well as a dendrite.",
+          "original": {
+            "q": "A large irregular geographic ulcer that stains may be",
+            "options": [
+              {
+                "text": "herpes simplex keratitis",
+                "correct": true,
+                "feedback": "Yes, a geographic form."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "SEAL",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "arcus",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x03110",
@@ -5653,30 +6683,57 @@
         },
         {
           "id": "ane-staining-x03127",
-          "q": "In dry eye, lissamine green staining is more prominent on",
+          "q": "In a dry eye patient, where do you expect lissamine green staining to be most obvious?",
           "options": [
             {
-              "text": "the conjunctiva",
+              "text": "On the exposed conjunctiva, nasally and temporally",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "the lens",
+              "text": "On the lens",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "the iris",
+              "text": "On the iris",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "the retina",
+              "text": "Only centrally on the cornea",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not typically."
             }
           ],
-          "explanation": ""
+          "explanation": "Lissamine green shows conjunctival staining well, often in nasal and temporal triangles in dry eye.",
+          "original": {
+            "q": "In dry eye, lissamine green staining is more prominent on",
+            "options": [
+              {
+                "text": "the conjunctiva",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "the lens",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "the iris",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "the retina",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-staining-x03128",
@@ -5777,17 +6834,53 @@
       "id": "ane-tear-film",
       "title": "Tear film assessment",
       "summary": "Know where each tear layer comes from, how blinking and drainage work, and the tests for tear quantity, stability, lipid layer, surface damage and symptoms.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Lipid (0.1–0.2 µm): meibomian glands and glands of Zeis and Moll; reduces evaporation. Aqueous (about 7 µm): main lacrimal gland (reflex) and accessory glands of Krause and Wolfring (basal). Mucin (about 0.05 µm): goblet cells and corneal epithelium; makes the surface wettable.",
-        "Volume about 7 µl, produced at 1.2 µl/min, turned over every 5 minutes; open-eye osmolarity about 315 mOsm/kg.",
-        "Blink rate about 12/min, raised by conversation, anxiety, tiredness and dry environments, lowered by reading, hard tasks and screens.",
-        "Quantity: Schirmer (only useful for comparison), phenol red thread, meniscus height. Stability: fluorescein TBUT (which adds volume) and non-invasive break-up (NIBUT).",
-        "Lipid layer: Tearscope interference patterns. Surface damage: fluorescein, rose bengal (dead or degenerate cells and poor mucin cover; irritating) and lissamine green. Symptoms: e.g. OSDI.",
-        "Also check tear debris, meniscus shape, lid wiper and meibomian glands. Meibomian gland dysfunction and blepharitis destabilise the lipid layer and cause dry, itchy eyes and lens intolerance."
+        {
+          "text": "Lipid (0.1–0.2 µm): meibomian glands and glands of Zeis and Moll; reduces evaporation. Aqueous (about 7 µm): main lacrimal gland (reflex) and accessory glands of Krause and Wolfring (basal). Mucin (about 0.05 µm): goblet cells and corneal epithelium; makes the surface wettable.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Volume about 7 µl, produced at 1.2 µl/min, turned over every 5 minutes; open-eye osmolarity about 315 mOsm/kg.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Blink rate about 12/min, raised by conversation, anxiety, tiredness and dry environments, lowered by reading, hard tasks and screens.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Quantity: Schirmer (only useful for comparison), phenol red thread, meniscus height. Stability: fluorescein TBUT (which adds volume) and non-invasive break-up (NIBUT).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Lipid layer: Tearscope interference patterns. Surface damage: fluorescein, rose bengal (dead or degenerate cells and poor mucin cover; irritating) and lissamine green. Symptoms: e.g. OSDI.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Also check tear debris, meniscus shape, lid wiper and meibomian glands. Meibomian gland dysfunction and blepharitis destabilise the lipid layer and cause dry, itchy eyes and lens intolerance.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Calling TBUT a secretion test: it measures stability.",
-        "Doing fluorescein TBUT before non-invasive tests."
+        {
+          "text": "Calling TBUT a secretion test: it measures stability.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Doing fluorescein TBUT before non-invasive tests.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "tear-film-layers",
@@ -5802,7 +6895,9 @@
       "goDeeper": [
         {
           "heading": "TFOS DEWS II cut-offs",
-          "body": "Dry eye is diagnosed on symptoms (OSDI ≥ 13 or DEQ-5 ≥ 6) plus at least one sign: NIBUT under 10 s, osmolarity ≥ 308 mOsm/L or an inter-eye difference over 8, or ocular surface staining. A meniscus under about 0.2 mm suggests low volume; Schirmer I of 5 mm or less in 5 minutes is low. Do non-invasive tests first."
+          "body": "Dry eye is diagnosed on symptoms (OSDI ≥ 13 or DEQ-5 ≥ 6) plus at least one sign: NIBUT under 10 s, osmolarity ≥ 308 mOsm/L or an inter-eye difference over 8, or ocular surface staining. A meniscus under about 0.2 mm suggests low volume; Schirmer I of 5 mm or less in 5 minutes is low. Do non-invasive tests first.",
+          "priority": "exam-core",
+          "module": "AnE"
         }
       ],
       "labelDiagram": {
@@ -5916,39 +7011,66 @@
         },
         {
           "id": "ane-tear-film-x0052",
-          "q": "Which glands produce basal aqueous tears?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "The accessory glands of Krause and Wolfring",
+              "text": "Basal tears come mainly from the main lacrimal gland",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: the accessory glands give basal tears."
             },
             {
-              "text": "Meibomian glands",
+              "text": "The accessory glands of Krause and Wolfring give basal tears",
               "correct": false,
-              "feedback": "Lipid."
+              "feedback": "True."
             },
             {
-              "text": "Goblet cells",
+              "text": "The main gland gives reflex tears",
               "correct": false,
-              "feedback": "Mucin."
+              "feedback": "True."
             },
             {
-              "text": "Glands of Moll",
+              "text": "Reflex tearing is triggered via CN V",
               "correct": false,
-              "feedback": "Lipid."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Basal aqueous tears come from the accessory glands of Krause and Wolfring; reflex tears from the main lacrimal gland.",
+          "original": {
+            "q": "Which glands produce basal aqueous tears?",
+            "options": [
+              {
+                "text": "The accessory glands of Krause and Wolfring",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Meibomian glands",
+                "correct": false,
+                "feedback": "Lipid."
+              },
+              {
+                "text": "Goblet cells",
+                "correct": false,
+                "feedback": "Mucin."
+              },
+              {
+                "text": "Glands of Moll",
+                "correct": false,
+                "feedback": "Lipid."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-tear-film-x0053",
-          "q": "What does rose bengal stain?",
+          "q": "Rose bengal stains a patient's cornea much more than fluorescein does. What does it suggest?",
           "options": [
             {
-              "text": "Dead or degenerate cells and areas with poor mucin cover",
+              "text": "Damaged or poorly mucin-covered cells",
               "correct": true,
-              "feedback": "Yes, but it's irritating."
+              "feedback": "Yes."
             },
             {
               "text": "Healthy epithelium",
@@ -5956,71 +7078,152 @@
               "feedback": "No."
             },
             {
-              "text": "Lipid",
+              "text": "An abrasion",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Fluorescein shows that."
             },
             {
-              "text": "Blood vessels",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It matters."
             }
           ],
-          "explanation": ""
+          "explanation": "Rose bengal stains dead or degenerate cells and areas with poor mucin cover.",
+          "original": {
+            "q": "What does rose bengal stain?",
+            "options": [
+              {
+                "text": "Dead or degenerate cells and areas with poor mucin cover",
+                "correct": true,
+                "feedback": "Yes, but it's irritating."
+              },
+              {
+                "text": "Healthy epithelium",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Lipid",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Blood vessels",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-tear-film-x0054",
-          "q": "Open-eye tear osmolarity is about",
+          "q": "A patient's tear osmolarity is 330 mOsm/L in one eye and 305 in the other. What does this suggest?",
           "options": [
             {
-              "text": "315 mOsm/kg",
-              "correct": true,
-              "feedback": "Yes; reflex tearing lowers it."
-            },
-            {
-              "text": "100 mOsm/kg",
-              "correct": false,
-              "feedback": "Too low."
-            },
-            {
-              "text": "500 mOsm/kg",
-              "correct": false,
-              "feedback": "Too high."
-            },
-            {
-              "text": "0",
-              "correct": false,
-              "feedback": "No."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "ane-tear-film-x0055",
-          "q": "Which tool assesses the lipid layer?",
-          "options": [
-            {
-              "text": "Tearscope interference patterns",
+              "text": "Dry eye: the value is raised and the difference between eyes is over 8",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Schirmer strip",
+              "text": "Normal",
               "correct": false,
-              "feedback": "Quantity."
+              "feedback": "Raised and asymmetric."
+            },
+            {
+              "text": "Glaucoma",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Infection",
+              "correct": false,
+              "feedback": "Not from this."
+            }
+          ],
+          "explanation": "Normal open-eye osmolarity is about 300–315; 308 or more, or an 8-point difference between eyes, suggests dry eye.",
+          "original": {
+            "q": "Open-eye tear osmolarity is about",
+            "options": [
+              {
+                "text": "315 mOsm/kg",
+                "correct": true,
+                "feedback": "Yes; reflex tearing lowers it."
+              },
+              {
+                "text": "100 mOsm/kg",
+                "correct": false,
+                "feedback": "Too low."
+              },
+              {
+                "text": "500 mOsm/kg",
+                "correct": false,
+                "feedback": "Too high."
+              },
+              {
+                "text": "0",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "ane-tear-film-x0055",
+          "q": "You want to see whether a patient's lipid layer is thin. Which tool helps?",
+          "options": [
+            {
+              "text": "A Tearscope (interference patterns)",
+              "correct": true,
+              "feedback": "Yes."
+            },
+            {
+              "text": "Schirmer strips",
+              "correct": false,
+              "feedback": "Aqueous quantity."
             },
             {
               "text": "Phenol red thread",
               "correct": false,
-              "feedback": "Quantity."
+              "feedback": "Aqueous quantity."
             },
             {
-              "text": "Keratometer",
+              "text": "A focimeter",
               "correct": false,
-              "feedback": "Curvature."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The Tearscope shows lipid layer interference patterns.",
+          "original": {
+            "q": "Which tool assesses the lipid layer?",
+            "options": [
+              {
+                "text": "Tearscope interference patterns",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Schirmer strip",
+                "correct": false,
+                "feedback": "Quantity."
+              },
+              {
+                "text": "Phenol red thread",
+                "correct": false,
+                "feedback": "Quantity."
+              },
+              {
+                "text": "Keratometer",
+                "correct": false,
+                "feedback": "Curvature."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-tear-film-x0056",
@@ -6375,30 +7578,57 @@
         },
         {
           "id": "ane-tear-film-x0322",
-          "q": "Which is the commonest underlying cause of evaporative dry eye?",
+          "q": "A patient has a short NIBUT, capped meibomian glands and a normal Schirmer. What's the most likely type of dry eye?",
           "options": [
             {
-              "text": "Meibomian gland dysfunction",
+              "text": "Evaporative, from meibomian gland dysfunction",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Sjögren's syndrome",
+              "text": "Aqueous-deficient",
               "correct": false,
-              "feedback": "Aqueous-deficient."
+              "feedback": "Schirmer is normal."
             },
             {
-              "text": "Lacrimal gland removal",
+              "text": "Allergic",
               "correct": false,
-              "feedback": "Aqueous-deficient."
+              "feedback": "Not this pattern."
             },
             {
-              "text": "Contact lenses only",
+              "text": "Infective",
               "correct": false,
-              "feedback": "Not the commonest."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Meibomian gland dysfunction is the commonest cause of evaporative dry eye.",
+          "original": {
+            "q": "Which is the commonest underlying cause of evaporative dry eye?",
+            "options": [
+              {
+                "text": "Meibomian gland dysfunction",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Sjögren's syndrome",
+                "correct": false,
+                "feedback": "Aqueous-deficient."
+              },
+              {
+                "text": "Lacrimal gland removal",
+                "correct": false,
+                "feedback": "Aqueous-deficient."
+              },
+              {
+                "text": "Contact lenses only",
+                "correct": false,
+                "feedback": "Not the commonest."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-tear-film-x0323",
@@ -6456,30 +7686,57 @@
         },
         {
           "id": "ane-tear-film-x0325",
-          "q": "A DEQ-5 score of 6 or more suggests",
+          "q": "A patient scores 9 on the DEQ-5 questionnaire. What's your next step?",
           "options": [
             {
-              "text": "dry eye symptoms",
+              "text": "Look for a supporting sign, such as NIBUT, osmolarity or staining",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: symptoms plus a sign."
             },
             {
-              "text": "normal",
-              "correct": false,
-              "feedback": "Lower."
-            },
-            {
-              "text": "uveitis",
+              "text": "Diagnose glaucoma",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "cataract",
+              "text": "Reassure: it's normal",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It suggests symptoms."
+            },
+            {
+              "text": "Ignore it",
+              "correct": false,
+              "feedback": "Follow up."
             }
           ],
-          "explanation": ""
+          "explanation": "DEQ-5 ≥ 6 suggests dry eye symptoms; diagnosis needs symptoms plus a sign.",
+          "original": {
+            "q": "A DEQ-5 score of 6 or more suggests",
+            "options": [
+              {
+                "text": "dry eye symptoms",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "normal",
+                "correct": false,
+                "feedback": "Lower."
+              },
+              {
+                "text": "uveitis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-tear-film-x0326",
@@ -7180,19 +8437,63 @@
       "id": "ane-lid-eversion",
       "title": "Lid eversion technique",
       "summary": "Everting the upper lid shows the upper tarsal conjunctiva, where foreign bodies hide and where papillae and follicles show up. It's quick and comfortable when done smoothly and explained well.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Prepare the slit lamp first, and explain: it feels strange but shouldn't hurt.",
-        "Ask the patient to look down (and keep looking down) throughout.",
-        "Use a cotton bud (or your finger); push the lashes apart with the bud if needed.",
-        "Hold the upper lashes and pull the lid gently down and away from the eye.",
-        "Place the bud at the top of the tarsal plate (about 10 mm above the lid margin).",
-        "Fold the lid up over the bud with a 'down and round' motion of the lashes and bud.",
-        "Look with white light and with blue light (after fluorescein); to return the lid, ask the patient to look up and blink."
+        {
+          "text": "Prepare the slit lamp first, and explain: it feels strange but shouldn't hurt.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Ask the patient to look down (and keep looking down) throughout.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Use a cotton bud (or your finger); push the lashes apart with the bud if needed.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Hold the upper lashes and pull the lid gently down and away from the eye.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Place the bud at the top of the tarsal plate (about 10 mm above the lid margin).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Fold the lid up over the bud with a 'down and round' motion of the lashes and bud.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Look with white light and with blue light (after fluorescein); to return the lid, ask the patient to look up and blink.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Asking the patient to look up during eversion (makes it impossible).",
-        "Pressing on the eyeball with the cotton bud.",
-        "Forgetting to look with fluorescein — papillae show up much better."
+        {
+          "text": "Asking the patient to look up during eversion (makes it impossible).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Pressing on the eyeball with the cotton bud.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Forgetting to look with fluorescein — papillae show up much better.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "lid-eversion",
@@ -7206,11 +8507,15 @@
       "goDeeper": [
         {
           "heading": "Papillae vs follicles",
-          "body": "Papillae: raised bumps with a central blood vessel, on the tarsal conjunctiva — allergic conjunctivitis, contact lens papillary conjunctivitis, bacterial conjunctivitis. Follicles: pale, avascular lymphoid swellings with vessels around them, often in the lower fornix — viral (adenovirus), chlamydial, some drug reactions."
+          "body": "Papillae: raised bumps with a central blood vessel, on the tarsal conjunctiva — allergic conjunctivitis, contact lens papillary conjunctivitis, bacterial conjunctivitis. Follicles: pale, avascular lymphoid swellings with vessels around them, often in the lower fornix — viral (adenovirus), chlamydial, some drug reactions.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Foreign bodies",
-          "body": "A subtarsal FB causes a scratchy feeling and vertical linear corneal staining. It can often be removed with a moistened cotton bud once everted (within your scope and training). Embedded or corneal FBs, or any rust ring, may need referral depending on competence and local arrangements."
+          "body": "A subtarsal FB causes a scratchy feeling and vertical linear corneal staining. It can often be removed with a moistened cotton bud once everted (within your scope and training). Embedded or corneal FBs, or any rust ring, may need referral depending on competence and local arrangements.",
+          "priority": "exam-core",
+          "module": "AnE"
         }
       ],
       "checklist": {
@@ -7226,7 +8531,9 @@
           "Examine with white light, then blue light with fluorescein.",
           "Return the lid: patient looks up and blinks to straighten it.",
           "Record findings (papillae/follicles, grading, any FB)."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AnE"
       },
       "flashcards": [
         {
@@ -7304,34 +8611,61 @@
         },
         {
           "id": "ane-lid-eversion-x0052",
-          "q": "Where is the cotton bud placed?",
+          "q": "You place the cotton bud right on the lid margin and the lid won't evert. What's wrong?",
           "options": [
             {
-              "text": "At the top of the tarsal plate, about 10 mm above the lid margin",
+              "text": "The bud should be at the top of the tarsal plate, about 10 mm above the margin",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "On the lid margin",
+              "text": "You need more force",
               "correct": false,
-              "feedback": "Too low."
+              "feedback": "No."
             },
             {
-              "text": "On the cornea",
+              "text": "The patient should look up",
               "correct": false,
-              "feedback": "Never."
+              "feedback": "They should look down."
             },
             {
-              "text": "On the brow",
+              "text": "Use fluorescein first",
               "correct": false,
-              "feedback": "Too high."
+              "feedback": "Not the problem."
             }
           ],
-          "explanation": ""
+          "explanation": "The bud acts as a fulcrum at the upper border of the tarsal plate.",
+          "original": {
+            "q": "Where is the cotton bud placed?",
+            "options": [
+              {
+                "text": "At the top of the tarsal plate, about 10 mm above the lid margin",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "On the lid margin",
+                "correct": false,
+                "feedback": "Too low."
+              },
+              {
+                "text": "On the cornea",
+                "correct": false,
+                "feedback": "Never."
+              },
+              {
+                "text": "On the brow",
+                "correct": false,
+                "feedback": "Too high."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0053",
-          "q": "How do you return the lid?",
+          "q": "You've finished looking under the everted lid. How do you return it comfortably?",
           "options": [
             {
               "text": "Ask the patient to look up and blink",
@@ -7339,7 +8673,12 @@
               "feedback": "Yes."
             },
             {
-              "text": "Pull it down hard",
+              "text": "Push on the cornea",
+              "correct": false,
+              "feedback": "Never."
+            },
+            {
+              "text": "Pull the lashes hard",
               "correct": false,
               "feedback": "No."
             },
@@ -7347,14 +8686,36 @@
               "text": "Leave it",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Press on the globe",
-              "correct": false,
-              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Asking the patient to look up and blink returns the lid.",
+          "original": {
+            "q": "How do you return the lid?",
+            "options": [
+              {
+                "text": "Ask the patient to look up and blink",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Pull it down hard",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Leave it",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Press on the globe",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0054",
@@ -7385,10 +8746,10 @@
         },
         {
           "id": "ane-lid-eversion-x0055",
-          "q": "What do you hold to pull the lid down and away?",
+          "q": "What do you hold to start everting the upper lid?",
           "options": [
             {
-              "text": "The upper lashes",
+              "text": "The upper lashes, pulling the lid gently down and away",
               "correct": true,
               "feedback": "Yes."
             },
@@ -7405,10 +8766,37 @@
             {
               "text": "The globe",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Never."
             }
           ],
-          "explanation": ""
+          "explanation": "Hold the lashes, pull down and away, then fold over the bud.",
+          "original": {
+            "q": "What do you hold to pull the lid down and away?",
+            "options": [
+              {
+                "text": "The upper lashes",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The lower lid",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The brow",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The globe",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0056",
@@ -7439,34 +8827,61 @@
         },
         {
           "id": "ane-lid-eversion-x0057",
-          "q": "Which light should you use after eversion?",
+          "q": "After everting the lid you see nothing obvious in white light. What's the next step?",
           "options": [
             {
-              "text": "White light, then blue after fluorescein",
+              "text": "Instil fluorescein and look with blue light",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: papillae show up better."
             },
             {
-              "text": "Only red-free",
+              "text": "Return the lid",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Look more first."
             },
             {
-              "text": "Only UV",
+              "text": "Use red-free only",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the main step."
             },
             {
-              "text": "No light",
+              "text": "Measure IOP",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Look with white light, then with blue light after fluorescein.",
+          "original": {
+            "q": "Which light should you use after eversion?",
+            "options": [
+              {
+                "text": "White light, then blue after fluorescein",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only red-free",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only UV",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No light",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0058",
-          "q": "What might you find under the upper lid in a contact lens wearer with itch and mucus?",
+          "q": "A contact lens wearer has itch, mucus and lenses riding high. Which finding under the upper lid explains all three?",
           "options": [
             {
               "text": "Papillae (contact lens papillary conjunctivitis)",
@@ -7474,22 +8889,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Follicles in the lower fornix",
+              "text": "Follicles",
               "correct": false,
-              "feedback": "That's viral."
+              "feedback": "Viral."
             },
             {
-              "text": "A pinguecula",
+              "text": "A foreign body",
               "correct": false,
-              "feedback": "That's bulbar."
+              "feedback": "Wouldn't explain itch and mucus."
             },
             {
-              "text": "Arcus",
+              "text": "Concretions",
               "correct": false,
-              "feedback": "That's corneal."
+              "feedback": "Not this pattern."
             }
           ],
-          "explanation": ""
+          "explanation": "CLPC causes papillae that grip the lens and lift it, with itch and mucus.",
+          "original": {
+            "q": "What might you find under the upper lid in a contact lens wearer with itch and mucus?",
+            "options": [
+              {
+                "text": "Papillae (contact lens papillary conjunctivitis)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Follicles in the lower fornix",
+                "correct": false,
+                "feedback": "That's viral."
+              },
+              {
+                "text": "A pinguecula",
+                "correct": false,
+                "feedback": "That's bulbar."
+              },
+              {
+                "text": "Arcus",
+                "correct": false,
+                "feedback": "That's corneal."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0059",
@@ -7627,30 +9069,57 @@
         },
         {
           "id": "ane-lid-eversion-x0155",
-          "q": "A subtarsal foreign body typically causes",
+          "q": "A patient has fine vertical scratches on the upper cornea. What should you do?",
           "options": [
             {
-              "text": "vertical linear corneal staining",
+              "text": "Evert the upper lid to look for a subtarsal foreign body",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "dendrites",
+              "text": "Prescribe lubricants only",
               "correct": false,
-              "feedback": "Herpes."
+              "feedback": "Look first."
             },
             {
-              "text": "inferior punctate staining",
+              "text": "Dilate",
               "correct": false,
-              "feedback": "Dry eye."
+              "feedback": "Not needed first."
             },
             {
-              "text": "nothing",
+              "text": "Measure IOP",
               "correct": false,
-              "feedback": "It does."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "A subtarsal foreign body typically causes vertical linear corneal staining.",
+          "original": {
+            "q": "A subtarsal foreign body typically causes",
+            "options": [
+              {
+                "text": "vertical linear corneal staining",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "dendrites",
+                "correct": false,
+                "feedback": "Herpes."
+              },
+              {
+                "text": "inferior punctate staining",
+                "correct": false,
+                "feedback": "Dry eye."
+              },
+              {
+                "text": "nothing",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x0156",
@@ -8113,30 +9582,57 @@
         },
         {
           "id": "ane-lid-eversion-x03213",
-          "q": "The upper tarsal plate is about how tall?",
+          "q": "A 3 mm bud placed 3 mm above the lid margin fails to evert the lid. Why?",
           "options": [
             {
-              "text": "About 10 mm",
+              "text": "The upper tarsal plate is about 10 mm tall, so the bud needs to sit higher",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "2 mm",
+              "text": "The lid is too small",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "25 mm",
+              "text": "The patient has no tarsal plate",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They do."
             },
             {
-              "text": "5 cm",
+              "text": "The bud is too thick",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the main issue."
             }
           ],
-          "explanation": ""
+          "explanation": "The bud goes at the top of the tarsal plate, about 10 mm above the lid margin.",
+          "original": {
+            "q": "The upper tarsal plate is about how tall?",
+            "options": [
+              {
+                "text": "About 10 mm",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "2 mm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "25 mm",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "5 cm",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x03214",
@@ -8194,30 +9690,57 @@
         },
         {
           "id": "ane-lid-eversion-x03216",
-          "q": "Which stain helps show papillae on the everted lid?",
+          "q": "Papillae on the everted lid are hard to judge in white light. What helps?",
           "options": [
             {
-              "text": "Fluorescein",
+              "text": "Fluorescein, viewed with blue light",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Rose bengal only",
+              "text": "Lissamine green under blue",
               "correct": false,
-              "feedback": "Not mainly."
+              "feedback": "No."
             },
             {
-              "text": "None",
+              "text": "No stain",
               "correct": false,
-              "feedback": "Fluorescein helps."
+              "feedback": "Harder."
             },
             {
-              "text": "Lissamine only",
+              "text": "Red-free",
               "correct": false,
-              "feedback": "Not mainly."
+              "feedback": "Vessels."
             }
           ],
-          "explanation": ""
+          "explanation": "Fluorescein pools around papillae, outlining them.",
+          "original": {
+            "q": "Which stain helps show papillae on the everted lid?",
+            "options": [
+              {
+                "text": "Fluorescein",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Rose bengal only",
+                "correct": false,
+                "feedback": "Not mainly."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Fluorescein helps."
+              },
+              {
+                "text": "Lissamine only",
+                "correct": false,
+                "feedback": "Not mainly."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-lid-eversion-x03217",
@@ -8615,19 +10138,63 @@
       "id": "ane-common-conditions",
       "title": "Common conditions: blepharitis, MGD, dry eye and conjunctivitis",
       "summary": "Most anterior eye problems you'll see are lid margin disease, dry eye and conjunctivitis. Recognise the type from history and signs, give clear self-care advice, and know the red flags that mean referral.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Anterior blepharitis: crusting and collarettes at the lash base (staphylococcal); cylindrical dandruff suggests Demodex.",
-        "MGD (posterior blepharitis): capped orifices, thick 'toothpaste' secretions, lid margin telangiectasia; drives evaporative dry eye.",
-        "Lid hygiene and warm compresses are the core management for both; it's a chronic condition — set expectations.",
-        "Bacterial conjunctivitis: sticky mucopurulent discharge, usually self-limiting; good hygiene; antibiotics if severe or persistent.",
-        "Viral (adenoviral) conjunctivitis: watery discharge, follicles, often preauricular lymph node, very contagious; may get subepithelial infiltrates.",
-        "Allergic conjunctivitis: itching is key, bilateral, papillae, chemosis; cold compresses, antihistamine/mast cell stabiliser drops.",
-        "Red flags: pain, photophobia, reduced vision, unreactive pupil, corneal involvement, recent surgery or CL wear — refer as per College CMGs."
+        {
+          "text": "Anterior blepharitis: crusting and collarettes at the lash base (staphylococcal); cylindrical dandruff suggests Demodex.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "MGD (posterior blepharitis): capped orifices, thick 'toothpaste' secretions, lid margin telangiectasia; drives evaporative dry eye.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Lid hygiene and warm compresses are the core management for both; it's a chronic condition — set expectations.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Bacterial conjunctivitis: sticky mucopurulent discharge, usually self-limiting; good hygiene; antibiotics if severe or persistent.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Viral (adenoviral) conjunctivitis: watery discharge, follicles, often preauricular lymph node, very contagious; may get subepithelial infiltrates.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Allergic conjunctivitis: itching is key, bilateral, papillae, chemosis; cold compresses, antihistamine/mast cell stabiliser drops.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Red flags: pain, photophobia, reduced vision, unreactive pupil, corneal involvement, recent surgery or CL wear — refer as per College CMGs.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Calling every red eye 'conjunctivitis' without checking vision, pupils and cornea.",
-        "Forgetting to ask about contact lens wear.",
-        "Not telling patients with viral conjunctivitis how contagious it is."
+        {
+          "text": "Calling every red eye 'conjunctivitis' without checking vision, pupils and cornea.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Forgetting to ask about contact lens wear.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Not telling patients with viral conjunctivitis how contagious it is.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "diagram": {
         "id": "lid-margin",
@@ -8643,15 +10210,21 @@
       "goDeeper": [
         {
           "heading": "Red eye differential in one minute",
-          "body": "Conjunctivitis: discharge, vision normal, no pain. Subconjunctival haemorrhage: painless flat red patch. Episcleritis: sectoral redness, mild ache. Scleritis: deep boring pain, violaceous, refer urgently. Anterior uveitis: photophobia, ache, ciliary flush, AC cells. Keratitis: pain, staining, infiltrate. Acute angle closure: severe pain, haloes, hazy cornea, fixed mid-dilated pupil — emergency."
+          "body": "Conjunctivitis: discharge, vision normal, no pain. Subconjunctival haemorrhage: painless flat red patch. Episcleritis: sectoral redness, mild ache. Scleritis: deep boring pain, violaceous, refer urgently. Anterior uveitis: photophobia, ache, ciliary flush, AC cells. Keratitis: pain, staining, infiltrate. Acute angle closure: severe pain, haloes, hazy cornea, fixed mid-dilated pupil — emergency.",
+          "priority": "exam-core",
+          "module": "AnE"
         },
         {
           "heading": "Lid hygiene advice",
-          "body": "Warm compress (a heated eye mask works well) for 5–10 minutes, then gentle massage towards the lid margin, then clean the lashes with a lid wipe or diluted baby shampoo — daily, long term. Explain that it controls rather than cures, and that it can take weeks to feel better."
+          "body": "Warm compress (a heated eye mask works well) for 5–10 minutes, then gentle massage towards the lid margin, then clean the lashes with a lid wipe or diluted baby shampoo — daily, long term. Explain that it controls rather than cures, and that it can take weeks to feel better.",
+          "priority": "clinical",
+          "module": "AnE"
         },
         {
           "heading": "College Clinical Management Guidelines",
-          "body": "The College of Optometrists' CMGs give evidence-based guidance on diagnosis, self-care, what optometrists can manage and when to refer for many anterior eye conditions. They're the go-to reference in UK practice — check them for each condition as you learn it."
+          "body": "The College of Optometrists' CMGs give evidence-based guidance on diagnosis, self-care, what optometrists can manage and when to refer for many anterior eye conditions. They're the go-to reference in UK practice — check them for each condition as you learn it.",
+          "priority": "clinical",
+          "module": "AnE"
         }
       ],
       "flashcards": [
@@ -8812,57 +10385,111 @@
         },
         {
           "id": "ane-common-conditions-x0054",
-          "q": "Which sign suggests adenoviral conjunctivitis?",
+          "q": "Which finding argues AGAINST adenoviral conjunctivitis?",
           "options": [
             {
-              "text": "Watery discharge, follicles and a preauricular lymph node",
+              "text": "Intense itching with papillae",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: that points to allergy."
             },
             {
-              "text": "Papillae and itching",
+              "text": "Watery discharge",
               "correct": false,
-              "feedback": "Allergic."
+              "feedback": "Typical of adenovirus."
             },
             {
-              "text": "Mucopurulent discharge",
+              "text": "Follicles",
               "correct": false,
-              "feedback": "Bacterial."
+              "feedback": "Typical."
             },
             {
-              "text": "Capped meibomian glands",
+              "text": "A preauricular lymph node",
               "correct": false,
-              "feedback": "MGD."
+              "feedback": "Typical."
             }
           ],
-          "explanation": ""
+          "explanation": "Adenoviral conjunctivitis: watery discharge, follicles, often a preauricular node; very contagious.",
+          "original": {
+            "q": "Which sign suggests adenoviral conjunctivitis?",
+            "options": [
+              {
+                "text": "Watery discharge, follicles and a preauricular lymph node",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Papillae and itching",
+                "correct": false,
+                "feedback": "Allergic."
+              },
+              {
+                "text": "Mucopurulent discharge",
+                "correct": false,
+                "feedback": "Bacterial."
+              },
+              {
+                "text": "Capped meibomian glands",
+                "correct": false,
+                "feedback": "MGD."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x0055",
-          "q": "Which is a red flag needing referral in a red eye?",
+          "q": "Which red eye can usually be managed in practice?",
           "options": [
             {
-              "text": "Pain with photophobia and reduced vision",
+              "text": "Mild bilateral itchy conjunctivitis with normal vision",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Mild itch",
+              "text": "A painful red eye with photophobia and reduced vision",
               "correct": false,
-              "feedback": "Not a red flag alone."
+              "feedback": "Red flag."
             },
             {
-              "text": "Sticky lashes",
+              "text": "A red eye with a fixed mid-dilated pupil",
               "correct": false,
-              "feedback": "Not a red flag alone."
+              "feedback": "Red flag."
             },
             {
-              "text": "Bilateral watering with a cold",
+              "text": "A red eye after recent surgery",
               "correct": false,
-              "feedback": "Often viral and self-limiting."
+              "feedback": "Red flag."
             }
           ],
-          "explanation": ""
+          "explanation": "Red flags include pain, photophobia, reduced vision, an abnormal pupil, corneal involvement and recent surgery.",
+          "original": {
+            "q": "Which is a red flag needing referral in a red eye?",
+            "options": [
+              {
+                "text": "Pain with photophobia and reduced vision",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Mild itch",
+                "correct": false,
+                "feedback": "Not a red flag alone."
+              },
+              {
+                "text": "Sticky lashes",
+                "correct": false,
+                "feedback": "Not a red flag alone."
+              },
+              {
+                "text": "Bilateral watering with a cold",
+                "correct": false,
+                "feedback": "Often viral and self-limiting."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x0056",
@@ -8893,30 +10520,57 @@
         },
         {
           "id": "ane-common-conditions-x0057",
-          "q": "'Toothpaste' meibomian secretions point to",
+          "q": "Pressing the lower lid releases thick, white, paste-like secretions. What does this suggest, and what's the first-line management?",
           "options": [
             {
-              "text": "MGD (posterior blepharitis)",
+              "text": "MGD; warm compresses and lid hygiene",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Anterior blepharitis",
-              "correct": false,
-              "feedback": "That's at the lash base."
-            },
-            {
-              "text": "Dry eye from aqueous deficiency",
-              "correct": false,
-              "feedback": "MGD causes evaporative dry eye."
-            },
-            {
-              "text": "Conjunctivitis",
+              "text": "Bacterial conjunctivitis; antibiotics",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "Allergy; antihistamines",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
+              "text": "Normal; nothing",
+              "correct": false,
+              "feedback": "It's abnormal."
             }
           ],
-          "explanation": ""
+          "explanation": "'Toothpaste' meibomian secretions point to MGD (posterior blepharitis).",
+          "original": {
+            "q": "'Toothpaste' meibomian secretions point to",
+            "options": [
+              {
+                "text": "MGD (posterior blepharitis)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Anterior blepharitis",
+                "correct": false,
+                "feedback": "That's at the lash base."
+              },
+              {
+                "text": "Dry eye from aqueous deficiency",
+                "correct": false,
+                "feedback": "MGD causes evaporative dry eye."
+              },
+              {
+                "text": "Conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x0151",
@@ -9001,30 +10655,57 @@
         },
         {
           "id": "ane-common-conditions-x0154",
-          "q": "Photophobia, ciliary flush and AC cells suggest",
+          "q": "A patient has a painful red eye with redness around the limbus, a small pupil and cells in the AC. What do you suspect, and how urgently should you refer?",
           "options": [
             {
-              "text": "anterior uveitis",
+              "text": "Anterior uveitis; refer urgently (usually same or next day)",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "conjunctivitis",
+              "text": "Conjunctivitis; manage in practice",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "dry eye",
+              "text": "Episcleritis; reassure",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "cataract",
+              "text": "Dry eye; lubricants",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Photophobia, ciliary flush and AC cells suggest anterior uveitis.",
+          "original": {
+            "q": "Photophobia, ciliary flush and AC cells suggest",
+            "options": [
+              {
+                "text": "anterior uveitis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "cataract",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x0155",
@@ -9082,30 +10763,57 @@
         },
         {
           "id": "ane-common-conditions-x0157",
-          "q": "A red, painful eye with a fixed, mid-dilated pupil and haloes suggests",
+          "q": "Which finding argues AGAINST acute angle closure in a painful red eye?",
           "options": [
             {
-              "text": "acute angle closure",
+              "text": "A small, reactive pupil",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: closure gives a fixed, mid-dilated pupil."
             },
             {
-              "text": "conjunctivitis",
+              "text": "Haloes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Typical."
             },
             {
-              "text": "episcleritis",
+              "text": "A hazy cornea",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Typical."
             },
             {
-              "text": "dry eye",
+              "text": "Nausea",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Typical."
             }
           ],
-          "explanation": ""
+          "explanation": "Acute angle closure: painful red eye, haloes, hazy cornea and a fixed, mid-dilated pupil.",
+          "original": {
+            "q": "A red, painful eye with a fixed, mid-dilated pupil and haloes suggests",
+            "options": [
+              {
+                "text": "acute angle closure",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "conjunctivitis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "episcleritis",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "dry eye",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x0158",
@@ -9568,30 +11276,57 @@
         },
         {
           "id": "ane-common-conditions-x03215",
-          "q": "Anterior blepharitis with collarettes is often",
+          "q": "Which feature suggests staphylococcal rather than Demodex blepharitis?",
           "options": [
             {
-              "text": "staphylococcal",
+              "text": "Hard collarettes and crusting at the lash base",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "seborrhoeic",
+              "text": "Cylindrical dandruff around the lashes",
               "correct": false,
-              "feedback": "Greasy scales."
+              "feedback": "Demodex."
             },
             {
-              "text": "viral",
+              "text": "Itchy lid margins with mites on lashes",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Demodex."
             },
             {
-              "text": "allergic",
+              "text": "Capped meibomian glands",
               "correct": false,
-              "feedback": "No."
+              "feedback": "MGD."
             }
           ],
-          "explanation": ""
+          "explanation": "Staphylococcal anterior blepharitis shows crusting and collarettes; Demodex shows cylindrical dandruff.",
+          "original": {
+            "q": "Anterior blepharitis with collarettes is often",
+            "options": [
+              {
+                "text": "staphylococcal",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "seborrhoeic",
+                "correct": false,
+                "feedback": "Greasy scales."
+              },
+              {
+                "text": "viral",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "allergic",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-common-conditions-x03216",
@@ -10021,27 +11756,71 @@
       "id": "ane-cataract",
       "title": "The crystalline lens and cataract",
       "summary": "How the lens stays clear, how it ages, what cataract does to vision, and when to refer for surgery.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AnE"
+      },
       "keyPoints": [
-        "Lens: about 10 mm wide, 4 mm thick, about 15 D; 64% water and 35% protein; index 1.38 (cortex) to 1.40 (nucleus).",
-        "Transparency depends on a highly ordered structure; loss comes from protein aggregation, hydration changes, membrane breakdown and cytoskeletal change.",
-        "It absorbs UV from 300 to 400 nm; yellowing with age protects the retina.",
-        "Symptoms: myopic shift, gradual blur (worse in bright light and for reading), glare, monocular diplopia, haloes.",
-        "Types: cortical (63%), nuclear (41%), posterior subcapsular (24%; steroids and uveitis); about 30% mixed.",
-        "Refer when it limits quality of life, work or driving (whatever the Snellen acuity) and the patient wants surgery.",
-        "Risks: age, UV, smoking, diabetes, cardiovascular and renal disease, dehydration, steroids, low socio-economic status."
+        {
+          "text": "Lens: about 10 mm wide, 4 mm thick, about 15 D; 64% water and 35% protein; index 1.38 (cortex) to 1.40 (nucleus).",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Transparency depends on a highly ordered structure; loss comes from protein aggregation, hydration changes, membrane breakdown and cytoskeletal change.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "It absorbs UV from 300 to 400 nm; yellowing with age protects the retina.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Symptoms: myopic shift, gradual blur (worse in bright light and for reading), glare, monocular diplopia, haloes.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Types: cortical (63%), nuclear (41%), posterior subcapsular (24%; steroids and uveitis); about 30% mixed.",
+          "priority": "background",
+          "module": "AnE"
+        },
+        {
+          "text": "Refer when it limits quality of life, work or driving (whatever the Snellen acuity) and the patient wants surgery.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Risks: age, UV, smoking, diabetes, cardiovascular and renal disease, dehydration, steroids, low socio-economic status.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "examTraps": [
-        "Using a VA cut-off as the referral criterion: there isn't a fixed one.",
-        "Forgetting that nuclear cataract causes a myopic shift."
+        {
+          "text": "Using a VA cut-off as the referral criterion: there isn't a fixed one.",
+          "priority": "exam-core",
+          "module": "AnE"
+        },
+        {
+          "text": "Forgetting that nuclear cataract causes a myopic shift.",
+          "priority": "exam-core",
+          "module": "AnE"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Phacoemulsification",
-          "body": "An ultrasonic probe breaks up the nucleus and aspirates it through a small self-sealing incision, leaving the posterior capsule to support the IOL. It's now almost always day-case under local anaesthetic in the UK (about 400,000 NHS operations a year), with lower complication rates and 4–6 weeks' recovery."
+          "body": "An ultrasonic probe breaks up the nucleus and aspirates it through a small self-sealing incision, leaving the posterior capsule to support the IOL. It's now almost always day-case under local anaesthetic in the UK (about 400,000 NHS operations a year), with lower complication rates and 4–6 weeks' recovery.",
+          "priority": "background",
+          "module": "AnE"
         },
         {
           "heading": "Paediatric cataract",
-          "body": "IOLs can go in from about 4 weeks. The eye is left hyperopic because it will become more myopic as it grows; the other eye is occluded if one eye is operated first. Posterior capsule opacification is common, so a posterior capsulorhexis and limited vitrectomy are done."
+          "body": "IOLs can go in from about 4 weeks. The eye is left hyperopic because it will become more myopic as it grows; the other eye is occluded if one eye is operated first. Posterior capsule opacification is common, so a posterior capsulorhexis and limited vitrectomy are done.",
+          "priority": "background",
+          "module": "AnE"
         }
       ],
       "flashcards": [
@@ -10092,7 +11871,7 @@
         },
         {
           "id": "ane-cataract-x0051",
-          "q": "Which cataract type is linked to steroids and uveitis?",
+          "q": "A 35-year-old with chronic uveitis treated with steroid drops reports glare. Which cataract is most likely?",
           "options": [
             {
               "text": "Posterior subcapsular",
@@ -10102,12 +11881,12 @@
             {
               "text": "Nuclear",
               "correct": false,
-              "feedback": "Age and brunescence."
+              "feedback": "Older, myopic shift."
             },
             {
               "text": "Cortical",
               "correct": false,
-              "feedback": "Wedge-shaped spokes."
+              "feedback": "Typically older."
             },
             {
               "text": "Congenital",
@@ -10115,7 +11894,34 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Posterior subcapsular cataract is linked to steroids and uveitis.",
+          "original": {
+            "q": "Which cataract type is linked to steroids and uveitis?",
+            "options": [
+              {
+                "text": "Posterior subcapsular",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nuclear",
+                "correct": false,
+                "feedback": "Age and brunescence."
+              },
+              {
+                "text": "Cortical",
+                "correct": false,
+                "feedback": "Wedge-shaped spokes."
+              },
+              {
+                "text": "Congenital",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-cataract-x0052",
@@ -10146,30 +11952,57 @@
         },
         {
           "id": "ane-cataract-x0053",
-          "q": "Nuclear cataract often causes",
+          "q": "A 74-year-old's Rx has shifted by −1.50 D in a year and she can read without glasses again. What's the likely cause?",
           "options": [
             {
-              "text": "a myopic shift",
+              "text": "Nuclear cataract",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: a myopic shift."
             },
             {
-              "text": "a hyperopic shift",
+              "text": "Posterior subcapsular cataract",
               "correct": false,
-              "feedback": "Usually the opposite."
+              "feedback": "Glare, near blur."
             },
             {
-              "text": "no change in Rx",
+              "text": "Cortical cataract",
               "correct": false,
-              "feedback": "It often changes."
+              "feedback": "Not usually a big shift."
             },
             {
-              "text": "sudden vision loss",
+              "text": "Presbyopia reversing",
               "correct": false,
-              "feedback": "Gradual."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Nuclear cataract often causes a myopic shift ('second sight').",
+          "original": {
+            "q": "Nuclear cataract often causes",
+            "options": [
+              {
+                "text": "a myopic shift",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "a hyperopic shift",
+                "correct": false,
+                "feedback": "Usually the opposite."
+              },
+              {
+                "text": "no change in Rx",
+                "correct": false,
+                "feedback": "It often changes."
+              },
+              {
+                "text": "sudden vision loss",
+                "correct": false,
+                "feedback": "Gradual."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-cataract-x0054",
@@ -10227,57 +12060,111 @@
         },
         {
           "id": "ane-cataract-x0056",
-          "q": "Which surgery is standard in the UK now?",
+          "q": "A patient is anxious about cataract surgery. Which description of standard UK surgery is accurate?",
           "options": [
             {
-              "text": "Day-case phacoemulsification under local anaesthetic",
+              "text": "Usually a day-case phacoemulsification under local anaesthetic",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Couching",
+              "text": "Overnight stay under general anaesthetic",
               "correct": false,
-              "feedback": "Historical."
+              "feedback": "Not usually."
             },
             {
-              "text": "Intracapsular extraction",
+              "text": "A large incision with the whole lens removed in its capsule",
               "correct": false,
-              "feedback": "Old."
+              "feedback": "Old technique."
             },
             {
-              "text": "General anaesthetic for all",
+              "text": "Laser only, with no incision",
               "correct": false,
-              "feedback": "Rare."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Day-case phacoemulsification under local anaesthetic is standard in the UK.",
+          "original": {
+            "q": "Which surgery is standard in the UK now?",
+            "options": [
+              {
+                "text": "Day-case phacoemulsification under local anaesthetic",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Couching",
+                "correct": false,
+                "feedback": "Historical."
+              },
+              {
+                "text": "Intracapsular extraction",
+                "correct": false,
+                "feedback": "Old."
+              },
+              {
+                "text": "General anaesthetic for all",
+                "correct": false,
+                "feedback": "Rare."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-cataract-x0057",
-          "q": "In paediatric cataract surgery, why is the eye left hyperopic?",
+          "q": "A 1-year-old has cataract surgery with an IOL. Why is the target refraction hyperopic?",
           "options": [
             {
-              "text": "It will become more myopic as it grows",
+              "text": "The eye will grow and become more myopic",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "To make reading easier",
+              "text": "To avoid amblyopia",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the reason for the target."
             },
             {
-              "text": "Because IOLs can't be strong enough",
+              "text": "Babies can't accommodate",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the reason."
             },
             {
-              "text": "To prevent amblyopia",
+              "text": "By mistake",
               "correct": false,
-              "feedback": "Occlusion helps with that."
+              "feedback": "It's deliberate."
             }
           ],
-          "explanation": ""
+          "explanation": "In children the eye is left hyperopic because it becomes more myopic as it grows.",
+          "original": {
+            "q": "In paediatric cataract surgery, why is the eye left hyperopic?",
+            "options": [
+              {
+                "text": "It will become more myopic as it grows",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To make reading easier",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Because IOLs can't be strong enough",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To prevent amblyopia",
+                "correct": false,
+                "feedback": "Occlusion helps with that."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-cataract-x0058",
@@ -10335,7 +12222,7 @@
         },
         {
           "id": "ane-cataract-x0151",
-          "q": "Which cataract causes glare and poor near vision early?",
+          "q": "A 50-year-old says oncoming headlights are dazzling and reading has got harder, while distance is fine. Which cataract best fits?",
           "options": [
             {
               "text": "Posterior subcapsular",
@@ -10345,20 +12232,47 @@
             {
               "text": "Nuclear",
               "correct": false,
-              "feedback": "Myopic shift."
+              "feedback": "Distance blur and myopic shift."
             },
             {
               "text": "Cortical",
               "correct": false,
-              "feedback": "Spokes."
+              "feedback": "Spokes, later symptoms."
             },
             {
-              "text": "Congenital",
+              "text": "None",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It fits PSC."
             }
           ],
-          "explanation": ""
+          "explanation": "Posterior subcapsular cataract causes glare and poor near vision early.",
+          "original": {
+            "q": "Which cataract causes glare and poor near vision early?",
+            "options": [
+              {
+                "text": "Posterior subcapsular",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nuclear",
+                "correct": false,
+                "feedback": "Myopic shift."
+              },
+              {
+                "text": "Cortical",
+                "correct": false,
+                "feedback": "Spokes."
+              },
+              {
+                "text": "Congenital",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "ane-cataract-x0152",

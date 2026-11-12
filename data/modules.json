@@ -10,6 +10,7 @@
     {
       "code": "OPT",
       "name": "Optics & Ophthalmic Lenses",
+      "lecturer": "",
       "theme": "Foundations",
       "years": [
         1
@@ -31,6 +32,7 @@
     {
       "code": "ANA",
       "name": "Ocular Anatomy & Physiology",
+      "lecturer": "",
       "theme": "Foundations",
       "years": [
         1
@@ -52,6 +54,7 @@
     {
       "code": "VPE",
       "name": "Visual Perception & Vision Science",
+      "lecturer": "",
       "theme": "Foundations",
       "years": [
         1
@@ -72,6 +75,7 @@
     {
       "code": "AaD",
       "name": "Optical Dispensing",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         1,
@@ -97,6 +101,7 @@
     {
       "code": "AaM",
       "name": "Refraction & Management of Refractive Error",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         1,
@@ -133,6 +138,7 @@
     {
       "code": "CLB",
       "name": "Contact Lenses",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         2,
@@ -168,6 +174,7 @@
     {
       "code": "AnE",
       "name": "Anterior Eye Examination",
+      "lecturer": "",
       "theme": "Patient",
       "years": [
         2
@@ -198,6 +205,7 @@
     {
       "code": "PEG",
       "name": "Posterior Eye (and Glaucoma)",
+      "lecturer": "",
       "theme": "Patient",
       "years": [
         2,
@@ -231,6 +239,7 @@
     {
       "code": "SyD",
       "name": "Diagnosis & Systemic Disease",
+      "lecturer": "",
       "theme": "Patient",
       "years": [
         2,
@@ -264,6 +273,7 @@
     {
       "code": "BVP",
       "name": "Binocular Vision",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         2,
@@ -290,6 +300,7 @@
     {
       "code": "PaP",
       "name": "Paediatrics",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         2,
@@ -316,6 +327,7 @@
     {
       "code": "VSE",
       "name": "Vision Science & Evidence",
+      "lecturer": "",
       "theme": "Professional",
       "years": [
         1,
@@ -350,6 +362,7 @@
     {
       "code": "PPD",
       "name": "Professional & Personal Development",
+      "lecturer": "",
       "theme": "Professional",
       "years": [
         1,
@@ -376,6 +389,7 @@
     {
       "code": "DoC",
       "name": "Duty of Candour",
+      "lecturer": "",
       "theme": "Professional",
       "years": [
         2,
@@ -399,6 +413,7 @@
     {
       "code": "PHE",
       "name": "Public Health & Eye Health",
+      "lecturer": "",
       "theme": "Professional",
       "years": [
         3
@@ -423,6 +438,7 @@
     {
       "code": "PHA",
       "name": "Ocular Pharmacology & Therapeutics",
+      "lecturer": "",
       "theme": "Patient",
       "years": [
         2,
@@ -444,6 +460,7 @@
     {
       "code": "LVA",
       "name": "Low Vision",
+      "lecturer": "",
       "theme": "Management",
       "years": [
         3
@@ -463,6 +480,7 @@
     {
       "code": "CLP",
       "name": "Clinical Learning in Practice (Placement Year)",
+      "lecturer": "",
       "theme": "Professional",
       "years": [
         4
@@ -482,6 +500,7 @@
     {
       "code": "HQ",
       "name": "Glaucoma, Medical Retina & Prescribing",
+      "lecturer": "",
       "theme": "Patient",
       "years": [
         4,

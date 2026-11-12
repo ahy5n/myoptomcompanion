@@ -6,7 +6,10 @@ import path from 'node:path'
 import { caseId, flashcardId } from './ids'
 import { surahName } from './surahs'
 import type {
+  BlockMeta,
   Checklist,
+  GoDeeperBlock,
+  TextBlock,
   ModuleContent,
   ModuleMeta,
   ModuleView,
@@ -63,12 +66,29 @@ function load() {
   return cache
 }
 
-function normaliseTopic(t: Topic): Topic {
+// Older content stores key points and traps as plain strings; treat those
+// as exam-core blocks of the topic's own module.
+type RawText = string | TextBlock
+type RawTopic = Omit<Topic, 'summaryMeta' | 'keyPoints' | 'examTraps' | 'goDeeper'> & {
+  summaryMeta?: BlockMeta
+  keyPoints?: RawText[]
+  examTraps?: RawText[]
+  goDeeper?: (Omit<GoDeeperBlock, keyof BlockMeta> & Partial<BlockMeta>)[]
+}
+
+function normaliseTopic(t: RawTopic, moduleCode: string): Topic {
+  const meta = (b?: Partial<BlockMeta>): BlockMeta => ({
+    ...b,
+    priority: b?.priority ?? 'exam-core',
+    module: b?.module ?? moduleCode,
+  })
+  const text = (x: RawText): TextBlock => (typeof x === 'string' ? { text: x, ...meta() } : { ...x, ...meta(x) })
   return {
     ...t,
-    keyPoints: t.keyPoints ?? [],
-    examTraps: t.examTraps ?? [],
-    goDeeper: t.goDeeper ?? [],
+    summaryMeta: meta(t.summaryMeta),
+    keyPoints: (t.keyPoints ?? []).map(text),
+    examTraps: (t.examTraps ?? []).map(text),
+    goDeeper: (t.goDeeper ?? []).map((g) => ({ ...g, ...meta(g) })),
     flashcards: t.flashcards ?? [],
     mcq: t.mcq ?? [],
     cases: t.cases ?? [],
@@ -78,7 +98,7 @@ function normaliseTopic(t: Topic): Topic {
 
 /** Topics of a full module in teaching order (modules.json `topics` first). */
 function orderedTopics(m: ModuleMeta, c: ModuleContent): Topic[] {
-  const byId = new Map(c.topics.map((t) => [t.id, normaliseTopic(t)]))
+  const byId = new Map((c.topics as unknown as RawTopic[]).map((t) => [t.id, normaliseTopic(t, m.code)]))
   const ordered: Topic[] = []
   for (const id of m.topics ?? []) {
     const t = byId.get(id)

@@ -695,7 +695,7 @@ const glaucomatousDisc: DiagramDef = {
         <T x={184} y={140} size={11} weight={600} show={L}>
           N
         </T>
-        <Lines x={125} y={250} text="Small cup; thick rim following ISNT: Inferior ≥ Superior ≥ Nasal ≥ Temporal" max={30} size={11} weight={600} show={L} />
+        <Lines x={125} y={250} text="Small cup; thick rim, often in the ISNT pattern (many healthy discs differ)" max={30} size={11} weight={600} show={L} />
       </Panel>
       <Panel x={250} y={10} w={230} h={280} title="Glaucomatous">
         <ellipse cx={365} cy={140} rx={66} ry={74} fill={ROSE_SOFT} stroke={BUTTER_INK} />

@@ -6,19 +6,63 @@
       "id": "aam-retinoscopy",
       "title": "Retinoscopy: refinement and the working-distance lens",
       "summary": "Retinoscopy gives an objective starting point for the subjective. You neutralise the reflex in each principal meridian, then take off the working-distance allowance: at 67 cm that's 1.50 D, so the net result is the gross result minus +1.50 D.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Working distance allowance = 1 / working distance (m). At 67 cm it's +1.50 D; at 50 cm it's +2.00 D.",
-        "Net Rx = gross (lenses in the trial frame at neutral) − working-distance lens. E.g. gross +3.50 at 67 cm → net +2.00.",
-        "'With' movement → add plus. 'Against' movement → add minus.",
-        "Near neutral the reflex gets brighter, faster and wider; at neutral the pupil fills with no movement.",
-        "With a streak retinoscope, find the two principal meridians by rotating the streak until the reflex lines up with it (no 'break').",
-        "Patient fixates a distant target with both eyes open (e.g. a green or red target at 6 m) to relax accommodation.",
-        "Keep your eyes in line with the patient's visual axis: right eye for their right, left eye for their left."
+        {
+          "text": "Working distance allowance = 1 / working distance (m). At 67 cm it's +1.50 D; at 50 cm it's +2.00 D.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Net Rx = gross (lenses in the trial frame at neutral) − working-distance lens. E.g. gross +3.50 at 67 cm → net +2.00.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "'With' movement → add plus. 'Against' movement → add minus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Near neutral the reflex gets brighter, faster and wider; at neutral the pupil fills with no movement.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "With a streak retinoscope, find the two principal meridians by rotating the streak until the reflex lines up with it (no 'break').",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Patient fixates a distant target with both eyes open (e.g. a green or red target at 6 m) to relax accommodation.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Keep your eyes in line with the patient's visual axis: right eye for their right, left eye for their left.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Forgetting to subtract the working-distance lens (or adding it instead).",
-        "Recording 'neutral' too early — check by moving slightly forward (should see with) and back (should see against).",
-        "Letting the patient look at the light: accommodation creeps in and the result goes too minus."
+        {
+          "text": "Forgetting to subtract the working-distance lens (or adding it instead).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Recording 'neutral' too early — check by moving slightly forward (should see with) and back (should see against).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Letting the patient look at the light: accommodation creeps in and the result goes too minus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "ret-reflex",
@@ -33,15 +77,21 @@
       "goDeeper": [
         {
           "heading": "Why the working-distance lens exists",
-          "body": "At neutral, the patient's far point is at your retinoscope's peephole, not at infinity. If you sit at 67 cm, the lenses in the trial frame have made the eye 1.50 D myopic (focused at 67 cm). Taking off +1.50 D gives the Rx that focuses the eye at infinity. Some practitioners put a +1.50 working-distance lens in the frame during ret so the gross reading in the other lenses is already the net result — check which method your clinic expects."
+          "body": "At neutral, the patient's far point is at your retinoscope's peephole, not at infinity. If you sit at 67 cm, the lenses in the trial frame have made the eye 1.50 D myopic (focused at 67 cm). Taking off +1.50 D gives the Rx that focuses the eye at infinity. Some practitioners put a +1.50 working-distance lens in the frame during ret so the gross reading in the other lenses is already the net result — check which method your clinic expects.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Finding the axis with a streak",
-          "body": "Sweep the streak at 90° to its length. If the reflex inside the pupil isn't parallel to the streak (it looks 'broken'), rotate the sleeve until they line up: that's a principal meridian. Neutralise it with spheres, then turn the streak 90° and neutralise the other meridian. The difference between the two is the cylinder; its axis is the meridian you neutralised with the more positive sphere when writing the Rx in minus-cylinder form."
+          "body": "Sweep the streak at 90° to its length. If the reflex inside the pupil isn't parallel to the streak (it looks 'broken'), rotate the sleeve until they line up: that's a principal meridian. Neutralise it with spheres, then turn the streak 90° and neutralise the other meridian. The difference between the two is the cylinder; its axis is the meridian you neutralised with the more positive sphere when writing the Rx in minus-cylinder form.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Tricky reflexes",
-          "body": "A dull, slow reflex usually means a large error — try a big lens (±4.00 or more) to find which way you're going. A 'scissors' reflex (two bands moving towards each other) is seen in keratoconus and some high astigmatism. Small pupils and media opacities make the reflex dim; dimming the room and asking the patient to keep looking past you helps."
+          "body": "A dull, slow reflex usually means a large error — try a big lens (±4.00 or more) to find which way you're going. A 'scissors' reflex (two bands moving towards each other) is seen in keratoconus and some high astigmatism. Small pupils and media opacities make the reflex dim; dimming the room and asking the patient to keep looking past you helps.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "checklist": {
@@ -58,7 +108,9 @@
           "Repeat for the left eye with your left eye.",
           "Subtract the working-distance lens and record the net result (and VA with it).",
           "Use the result as the starting point for subjective refraction."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AaM"
       },
       "flashcards": [
         {
@@ -434,30 +486,57 @@
         },
         {
           "id": "aam-retinoscopy-x0135",
-          "q": "As you approach neutral, the reflex becomes",
+          "q": "With +2.00 in place the reflex is slow and dull; with +3.00 it's fast, bright and fills most of the pupil. What does this tell you?",
           "options": [
             {
-              "text": "faster, brighter and wider",
+              "text": "You're close to neutral with +3.00",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "slower and dimmer",
+              "text": "You've moved away from neutral",
               "correct": false,
-              "feedback": "That's far from neutral."
+              "feedback": "The reflex improves near neutral."
             },
             {
-              "text": "red",
+              "text": "The patient is accommodating",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not from this alone."
             },
             {
-              "text": "absent",
+              "text": "There's a media opacity",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not from this."
             }
           ],
-          "explanation": ""
+          "explanation": "Near neutral the reflex becomes faster, brighter and wider.",
+          "original": {
+            "q": "As you approach neutral, the reflex becomes",
+            "options": [
+              {
+                "text": "faster, brighter and wider",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "slower and dimmer",
+                "correct": false,
+                "feedback": "That's far from neutral."
+              },
+              {
+                "text": "red",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "absent",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x0136",
@@ -812,30 +891,57 @@
         },
         {
           "id": "aam-retinoscopy-x0259",
-          "q": "How do you find the axis with a streak retinoscope?",
+          "q": "The reflex in the pupil sits at an angle to your streak and moves obliquely. What should you do?",
           "options": [
             {
-              "text": "Rotate the streak until it lines up with the reflex",
+              "text": "Rotate the streak until it lines up with the reflex, then neutralise that meridian",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Use a spot",
+              "text": "Add plus until it disappears",
               "correct": false,
-              "feedback": "Harder."
+              "feedback": "Find the meridian first."
             },
             {
-              "text": "Ask the patient",
+              "text": "Ignore it",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It shows astigmatism off-axis."
             },
             {
-              "text": "Measure IOP",
+              "text": "Switch to a spot retinoscope",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not needed."
             }
           ],
-          "explanation": ""
+          "explanation": "A skewed reflex means the streak isn't on a principal meridian; rotate the streak to align with it.",
+          "original": {
+            "q": "How do you find the axis with a streak retinoscope?",
+            "options": [
+              {
+                "text": "Rotate the streak until it lines up with the reflex",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Use a spot",
+                "correct": false,
+                "feedback": "Harder."
+              },
+              {
+                "text": "Ask the patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Measure IOP",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02510",
@@ -866,30 +972,57 @@
         },
         {
           "id": "aam-retinoscopy-x02511",
-          "q": "Why fog the other eye during distance retinoscopy?",
+          "q": "During distance retinoscopy of the right eye, the reflex keeps changing as the patient looks around. What could steady it?",
           "options": [
             {
-              "text": "To relax accommodation",
+              "text": "A fogging lens over the left eye to relax accommodation",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "To blind it",
+              "text": "A minus lens over the left eye",
+              "correct": false,
+              "feedback": "That stimulates accommodation."
+            },
+            {
+              "text": "Shining the light into the left eye",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "To measure it",
+              "text": "Asking the patient to look at your light",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "To check VA",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "That stimulates accommodation."
             }
           ],
-          "explanation": ""
+          "explanation": "Fogging the other eye and using a distant target relaxes accommodation during static retinoscopy.",
+          "original": {
+            "q": "Why fog the other eye during distance retinoscopy?",
+            "options": [
+              {
+                "text": "To relax accommodation",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To blind it",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To measure it",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To check VA",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02512",
@@ -1055,30 +1188,57 @@
         },
         {
           "id": "aam-retinoscopy-x02518",
-          "q": "When you overshoot neutral with too much plus, you see",
+          "q": "You see with movement at +2.50 and against movement at +3.00. Where is neutral, and what did +3.00 show?",
           "options": [
             {
-              "text": "against movement",
+              "text": "About +2.75; +3.00 overshot neutral",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "with movement",
+              "text": "+2.50; it's already neutral",
               "correct": false,
-              "feedback": "Too little plus."
+              "feedback": "It still shows 'with'."
             },
             {
-              "text": "no reflex",
+              "text": "+3.00; against means neutral",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Against means too much plus."
             },
             {
-              "text": "scissors",
+              "text": "+5.50",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "With movement means add plus; against movement means you've gone past neutral.",
+          "original": {
+            "q": "When you overshoot neutral with too much plus, you see",
+            "options": [
+              {
+                "text": "against movement",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "with movement",
+                "correct": false,
+                "feedback": "Too little plus."
+              },
+              {
+                "text": "no reflex",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "scissors",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-retinoscopy-x02519",
@@ -1428,19 +1588,69 @@
       "id": "aam-subjective",
       "title": "Subjective refraction: best vision sphere, fogging and duochrome",
       "summary": "The aim of the spherical part of the subjective is the most plus (least minus) that gives the best acuity. Fogging relaxes accommodation first, then you reduce the plus until vision is best; the duochrome checks you haven't over-minused.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Best vision sphere (BVS) / maximum plus to maximum visual acuity (MPMVA): the most positive sphere that gives the best VA.",
-        "Fog first (e.g. +0.75 to +1.00 over the ret result) so accommodation relaxes, then reduce plus in 0.25 D steps.",
-        "Each −0.25 D should buy about one line of acuity; if it doesn't, don't give it.",
-        "Duochrome: red clearer → add minus (−0.25); green clearer → add plus (+0.25). Aim for equal, or red slightly clearer.",
-        "The duochrome works on chromatic aberration, so it still works in most colour vision deficient patients.",
-        "Pinhole: if VA improves through a pinhole, the reduced VA is likely refractive.",
-        "Use the +1.00 blur test at the end: VA should drop to about 6/12–6/18 (unaided-check of over-minus)."
+        {
+          "text": "Best vision sphere (BVS) / maximum plus to maximum visual acuity (MPMVA): the most positive sphere that gives the best VA.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Fog first (e.g. +0.75 to +1.00 over the ret result) so accommodation relaxes, then reduce plus in 0.25 D steps.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Each −0.25 D should usually buy about one line of acuity; if it doesn't, don't give it.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "Near best focus in a young eye, a 0.25 D error typically blurs the image enough to cost about one line of letters, so extra minus that doesn't improve acuity is probably just stimulating accommodation.",
+          "limits": "Older patients with small pupils have more depth of focus, and eyes with amblyopia or pathology may not change by a full line. The aim is still the least minus for the best acuity.",
+          "needsReview": true
+        },
+        {
+          "text": "Duochrome: red clearer → add minus (−0.25); green clearer → add plus (+0.25). Aim for equal, or red slightly clearer.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "The eye has longitudinal chromatic aberration: shorter (green) wavelengths focus in front of longer (red) ones. If red looks clearer, red is focused nearer the retina, so the image sits in front of it and minus is needed.",
+          "limits": "It's less reliable in older patients (yellowing lenses favour red), with small pupils, with poor acuity and when the chart is too dim. It is a check on the sphere, not a way to find the full correction, and responses can be biased towards one colour.",
+          "needsReview": true
+        },
+        {
+          "text": "The duochrome works on chromatic aberration, so it still works in most colour vision deficient patients.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Pinhole: if VA improves through a pinhole, the reduced VA is likely refractive.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Use the +1.00 blur test at the end: VA should drop to about 6/12–6/18 (unaided-check of over-minus).",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Over-minusing: young patients will accept extra minus by accommodating and say it's 'darker/smaller but sharper'.",
-        "Reversing the duochrome rule — red clearer means the image is in front of the retina, so add minus.",
-        "Forgetting to re-check the sphere after finding the cylinder (maintain the spherical equivalent)."
+        {
+          "text": "Over-minusing: young patients will accept extra minus by accommodating and say it's 'darker/smaller but sharper'.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Reversing the duochrome rule — red clearer means the image is in front of the retina, so add minus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Forgetting to re-check the sphere after finding the cylinder (maintain the spherical equivalent).",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "duochrome",
@@ -1456,15 +1666,21 @@
       "goDeeper": [
         {
           "heading": "Why fogging works",
-          "body": "Putting the eye artificially myopic (fogging) means accommodation can only make things blurrier, so the patient relaxes it. As you reduce the plus, vision improves until you reach the far point. Going past that point the patient has to accommodate to keep things clear, which is why extra minus 'feels' fine to young eyes but causes asthenopia later."
+          "body": "Putting the eye artificially myopic (fogging) means accommodation can only make things blurrier, so the patient relaxes it. As you reduce the plus, vision improves until you reach the far point. Going past that point the patient has to accommodate to keep things clear, which is why extra minus 'feels' fine to young eyes but causes asthenopia later.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Duochrome in practice",
-          "body": "Ask: 'Are the letters clearer on the red or the green, or are they the same?' Use the black rings or letters a line above the best VA. Red clearer: add −0.25. Green clearer: add +0.25. If it flips with a single 0.25 step, choose the red-clearer end for younger patients (relaxed accommodation) and the green end can be acceptable for presbyopes doing near work — check your clinic's convention."
+          "body": "Ask: 'Are the letters clearer on the red or the green, or are they the same?' Use the black rings or letters a line above the best VA. Red clearer: add −0.25. Green clearer: add +0.25. If it flips with a single 0.25 step, choose the red-clearer end for younger patients (relaxed accommodation) and the green end can be acceptable for presbyopes doing near work — check your clinic's convention.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Recording the result",
-          "body": "Record each eye's sphere, cylinder and axis with the VA achieved, e.g. R +1.25/−0.50 × 180 6/5. Note the method (e.g. 'BVS, duochrome balanced') if your clinic asks for it, and the final binocular VA."
+          "body": "Record each eye's sphere, cylinder and axis with the VA achieved, e.g. R +1.25/−0.50 × 180 6/5. Note the method (e.g. 'BVS, duochrome balanced') if your clinic asks for it, and the final binocular VA.",
+          "priority": "clinical",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -1544,30 +1760,57 @@
         },
         {
           "id": "aam-subjective-x0031",
-          "q": "What's the aim of the spherical part of the subjective?",
+          "q": "A young patient reads 6/5 with −2.25 and 6/5 with −2.50. Which sphere should you prescribe?",
           "options": [
             {
-              "text": "The most plus (least minus) that gives the best acuity",
+              "text": "−2.25",
               "correct": true,
-              "feedback": "Yes: maximum plus to maximum visual acuity."
+              "feedback": "Yes: the most plus (least minus) for the best acuity."
             },
             {
-              "text": "The most minus the patient will accept",
+              "text": "−2.50",
               "correct": false,
-              "feedback": "That over-minuses."
+              "feedback": "Extra minus without benefit."
             },
             {
-              "text": "Equal clarity on red and green only",
+              "text": "−2.00",
               "correct": false,
-              "feedback": "The duochrome is just a check."
+              "feedback": "Check: VA may be worse."
             },
             {
-              "text": "The sphere from retinoscopy unchanged",
+              "text": "−2.75",
               "correct": false,
-              "feedback": "Ret is only a starting point."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The best vision sphere is the most plus that gives the best acuity.",
+          "original": {
+            "q": "What's the aim of the spherical part of the subjective?",
+            "options": [
+              {
+                "text": "The most plus (least minus) that gives the best acuity",
+                "correct": true,
+                "feedback": "Yes: maximum plus to maximum visual acuity."
+              },
+              {
+                "text": "The most minus the patient will accept",
+                "correct": false,
+                "feedback": "That over-minuses."
+              },
+              {
+                "text": "Equal clarity on red and green only",
+                "correct": false,
+                "feedback": "The duochrome is just a check."
+              },
+              {
+                "text": "The sphere from retinoscopy unchanged",
+                "correct": false,
+                "feedback": "Ret is only a starting point."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0032",
@@ -1598,30 +1841,57 @@
         },
         {
           "id": "aam-subjective-x0033",
-          "q": "Why fog before reducing plus?",
+          "q": "Why do you start the sphere with too much plus rather than too much minus?",
           "options": [
             {
-              "text": "Accommodation can only make things blurrier, so the patient relaxes it",
+              "text": "Blur from fog can't be cleared by accommodating, so the patient relaxes it",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "To check colour vision",
+              "text": "Plus lenses are cheaper",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "To shrink the pupil",
+              "text": "Minus first is faster",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It risks over-minus."
             },
             {
-              "text": "To measure the add",
+              "text": "It doesn't matter",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "Fogging makes the eye artificially myopic; accommodation would only blur it more, so it relaxes.",
+          "original": {
+            "q": "Why fog before reducing plus?",
+            "options": [
+              {
+                "text": "Accommodation can only make things blurrier, so the patient relaxes it",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "To check colour vision",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To shrink the pupil",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "To measure the add",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0034",
@@ -1679,30 +1949,57 @@
         },
         {
           "id": "aam-subjective-x0036",
-          "q": "VA improves with a pinhole. What does it suggest?",
+          "q": "VA is 6/24 and improves to 6/9 through a pinhole. What should you do?",
           "options": [
             {
-              "text": "The reduced VA is likely refractive",
+              "text": "Look for an uncorrected refractive error",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: the pinhole suggests it."
             },
             {
-              "text": "Pathology",
+              "text": "Refer for macular disease",
               "correct": false,
-              "feedback": "No improvement suggests other causes."
+              "feedback": "Pinhole improvement points to refraction."
             },
             {
-              "text": "Amblyopia",
+              "text": "Stop testing",
               "correct": false,
-              "feedback": "That wouldn't improve."
+              "feedback": "No."
             },
             {
-              "text": "Nothing",
+              "text": "Assume amblyopia",
               "correct": false,
-              "feedback": "It's useful information."
+              "feedback": "Pinhole wouldn't help much."
             }
           ],
-          "explanation": ""
+          "explanation": "If VA improves through a pinhole, the reduced VA is likely refractive.",
+          "original": {
+            "q": "VA improves with a pinhole. What does it suggest?",
+            "options": [
+              {
+                "text": "The reduced VA is likely refractive",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Pathology",
+                "correct": false,
+                "feedback": "No improvement suggests other causes."
+              },
+              {
+                "text": "Amblyopia",
+                "correct": false,
+                "feedback": "That wouldn't improve."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "It's useful information."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0037",
@@ -1733,30 +2030,57 @@
         },
         {
           "id": "aam-subjective-x0038",
-          "q": "After finding the cylinder, what should you recheck?",
+          "q": "You've just refined a −1.50 DC cylinder from scratch. What's the next step?",
           "options": [
             {
-              "text": "The sphere",
+              "text": "Recheck the sphere",
               "correct": true,
-              "feedback": "Yes, keeping the spherical equivalent in mind."
+              "feedback": "Yes: the cylinder change can shift the best sphere."
             },
             {
-              "text": "The PD",
+              "text": "Balance straight away",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Sphere first."
             },
             {
-              "text": "The add",
+              "text": "Prescribe",
               "correct": false,
-              "feedback": "Later."
+              "feedback": "Not yet."
             },
             {
-              "text": "Pupils",
+              "text": "Measure IOP",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "After the cylinder, check the sphere again before balancing.",
+          "original": {
+            "q": "After finding the cylinder, what should you recheck?",
+            "options": [
+              {
+                "text": "The sphere",
+                "correct": true,
+                "feedback": "Yes, keeping the spherical equivalent in mind."
+              },
+              {
+                "text": "The PD",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The add",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "Pupils",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x0131",
@@ -2489,30 +2813,57 @@
         },
         {
           "id": "aam-subjective-x02518",
-          "q": "What's the end point of the +1.00 blur test?",
+          "q": "After +1.00 D binocularly, a patient still reads 6/5. What does it suggest?",
           "options": [
             {
-              "text": "VA should drop to about 6/12",
+              "text": "The Rx probably has too much minus",
               "correct": true,
-              "feedback": "Yes, if not over-minused."
+              "feedback": "Yes: VA should drop to about 6/12."
             },
             {
-              "text": "VA should improve",
+              "text": "The Rx is correct",
               "correct": false,
-              "feedback": "Means too much minus."
+              "feedback": "VA should drop."
             },
             {
-              "text": "VA stays 6/5",
+              "text": "The patient needs more minus",
               "correct": false,
-              "feedback": "Over-minus."
+              "feedback": "Opposite."
             },
             {
-              "text": "VA drops to 6/60",
+              "text": "The patient has cataract",
               "correct": false,
-              "feedback": "Too much."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The +1.00 blur test should drop VA to about 6/12–6/18 if the Rx isn't over-minused.",
+          "original": {
+            "q": "What's the end point of the +1.00 blur test?",
+            "options": [
+              {
+                "text": "VA should drop to about 6/12",
+                "correct": true,
+                "feedback": "Yes, if not over-minused."
+              },
+              {
+                "text": "VA should improve",
+                "correct": false,
+                "feedback": "Means too much minus."
+              },
+              {
+                "text": "VA stays 6/5",
+                "correct": false,
+                "feedback": "Over-minus."
+              },
+              {
+                "text": "VA drops to 6/60",
+                "correct": false,
+                "feedback": "Too much."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-subjective-x02519",
@@ -2856,19 +3207,66 @@
       "id": "aam-jcc",
       "title": "Jackson cross-cylinder: axis then power",
       "summary": "The JCC refines the cylinder: first its axis, then its power. A JCC is a lens with equal and opposite powers in its two meridians (e.g. +0.25/−0.50 × the handle at 45°), flipped to present two choices.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Always refine axis before power — an axis error makes the power look wrong.",
-        "Axis check: hold the JCC so its handle lies along the cylinder axis (the JCC axes 'straddle' it at 45°).",
-        "Turn the cylinder axis towards the minus axis of the preferred JCC position (when using minus cylinders) — 'follow the red/minus dot'.",
-        "Use bigger steps for low cylinders and smaller steps for high cylinders (e.g. 15° for −0.50, 5° for −2.00).",
-        "Power check: line up one JCC axis with the cylinder axis. Minus preferred → add −0.25 cyl; plus preferred → reduce cyl by 0.25.",
-        "Keep the spherical equivalent: for every −0.50 D cylinder added, add +0.25 DS.",
-        "Use a round target (circles or a block of letters one line above best VA)."
+        {
+          "text": "Refine axis before power: an axis error makes the power look wrong.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "A cylinder at the wrong axis leaves a residual oblique cylinder, which the patient can't judge correctly when you test the power.",
+          "limits": "With very small cylinders the axis is hard to refine, and if the power changes a lot you should recheck the axis.",
+          "needsReview": true
+        },
+        {
+          "text": "Axis check: hold the JCC so its handle lies along the cylinder axis (the JCC axes 'straddle' it at 45°).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Turn the cylinder axis towards the minus axis of the preferred JCC position (when using minus cylinders) — 'follow the red/minus dot'.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Use bigger steps for low cylinders and smaller steps for high cylinders (e.g. 15° for −0.50, 5° for −2.00).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Power check: line up one JCC axis with the cylinder axis. Minus preferred → add −0.25 cyl; plus preferred → reduce cyl by 0.25.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Keep the spherical equivalent: for every −0.50 D cylinder added, add +0.25 DS.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Use a round target (circles or a block of letters one line above best VA).",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Doing power before axis.",
-        "Turning the axis the wrong way (towards the plus axis).",
-        "Changing cylinder power without adjusting the sphere to keep the circle of least confusion on the retina."
+        {
+          "text": "Doing power before axis.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Turning the axis the wrong way (towards the plus axis).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Changing cylinder power without adjusting the sphere to keep the circle of least confusion on the retina.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "jcc",
@@ -2884,15 +3282,21 @@
       "goDeeper": [
         {
           "heading": "What the JCC does optically",
-          "body": "A ±0.25 JCC is +0.25 DS / −0.50 DC. Placed in front of a correctly corrected eye it creates equal blur in both flip positions. If the trial cylinder is off-axis, one position combines with the residual astigmatism to make less blur and the patient prefers it. The preferred minus axis points to where the true axis lies."
+          "body": "A ±0.25 JCC is +0.25 DS / −0.50 DC. Placed in front of a correctly corrected eye it creates equal blur in both flip positions. If the trial cylinder is off-axis, one position combines with the residual astigmatism to make less blur and the patient prefers it. The preferred minus axis points to where the true axis lies.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Bracketing the axis",
-          "body": "Move the axis towards the preferred minus axis, check again, and keep going until the preference reverses. Then split the difference ('bracket') until both positions look the same. Patients often find the two choices very similar near the end point — 'they look the same' is a valid answer and usually means you're there."
+          "body": "Move the axis towards the preferred minus axis, check again, and keep going until the preference reverses. Then split the difference ('bracket') until both positions look the same. Patients often find the two choices very similar near the end point — 'they look the same' is a valid answer and usually means you're there.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Finding a cylinder nobody suspected",
-          "body": "If ret showed no cylinder, check with the JCC at 90/180 and then at 45/135. If the patient consistently prefers a position, put in −0.25 DC at that minus axis and refine axis and power as usual."
+          "body": "If ret showed no cylinder, check with the JCC at 90/180 and then at 45/135. If the patient consistently prefers a position, put in −0.25 DC at that minus axis and refine axis and power as usual.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "checklist": {
@@ -2908,7 +3312,9 @@
           "Minus preferred: add −0.25 DC (and +0.25 DS for every −0.50 DC added). Plus preferred: reduce cylinder.",
           "Stop when both positions look equal.",
           "Re-check the best vision sphere and record the final result with VA."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AaM"
       },
       "flashcards": [
         {
@@ -3014,57 +3420,111 @@
         },
         {
           "id": "aam-jcc-x0032",
-          "q": "For the axis check, how is the JCC held?",
+          "q": "Checking the axis of a −1.25 × 90 cylinder, how do you place a hand-held JCC?",
           "options": [
             {
-              "text": "With its handle along the cylinder axis, so its axes straddle it at 45°",
+              "text": "Handle along 90, so the JCC axes straddle it at 45°",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "With one axis along the cyl axis",
+              "text": "A red dot on 90",
               "correct": false,
               "feedback": "That's the power check."
             },
             {
-              "text": "Vertically",
-              "correct": false,
-              "feedback": "Not necessarily."
-            },
-            {
-              "text": "Horizontally",
-              "correct": false,
-              "feedback": "Not necessarily."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "aam-jcc-x0033",
-          "q": "With minus cylinders, which way do you turn the axis?",
-          "options": [
-            {
-              "text": "Towards the minus axis of the preferred position",
-              "correct": true,
-              "feedback": "Yes: 'follow the red'."
-            },
-            {
-              "text": "Towards the plus axis",
-              "correct": false,
-              "feedback": "Opposite."
-            },
-            {
-              "text": "Always clockwise",
+              "text": "Handle at 45",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "It doesn't matter",
+              "text": "Handle at 180",
               "correct": false,
-              "feedback": "It does."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "For the axis check, the handle lies along the cylinder axis; for the power check, a JCC axis lies on it.",
+          "original": {
+            "q": "For the axis check, how is the JCC held?",
+            "options": [
+              {
+                "text": "With its handle along the cylinder axis, so its axes straddle it at 45°",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "With one axis along the cyl axis",
+                "correct": false,
+                "feedback": "That's the power check."
+              },
+              {
+                "text": "Vertically",
+                "correct": false,
+                "feedback": "Not necessarily."
+              },
+              {
+                "text": "Horizontally",
+                "correct": false,
+                "feedback": "Not necessarily."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "aam-jcc-x0033",
+          "q": "With a minus cylinder at 90, the patient prefers the position with the JCC's minus axis at 135. Which way do you turn the cylinder?",
+          "options": [
+            {
+              "text": "Towards 135 (e.g. to 100)",
+              "correct": true,
+              "feedback": "Yes: towards the preferred minus axis."
+            },
+            {
+              "text": "Towards 45 (e.g. to 80)",
+              "correct": false,
+              "feedback": "Opposite."
+            },
+            {
+              "text": "Leave it",
+              "correct": false,
+              "feedback": "They preferred one side."
+            },
+            {
+              "text": "Change the power instead",
+              "correct": false,
+              "feedback": "Axis first."
+            }
+          ],
+          "explanation": "With minus cylinders, turn the axis towards the minus axis of the preferred JCC position.",
+          "original": {
+            "q": "With minus cylinders, which way do you turn the axis?",
+            "options": [
+              {
+                "text": "Towards the minus axis of the preferred position",
+                "correct": true,
+                "feedback": "Yes: 'follow the red'."
+              },
+              {
+                "text": "Towards the plus axis",
+                "correct": false,
+                "feedback": "Opposite."
+              },
+              {
+                "text": "Always clockwise",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "It doesn't matter",
+                "correct": false,
+                "feedback": "It does."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0034",
@@ -3122,57 +3582,111 @@
         },
         {
           "id": "aam-jcc-x0036",
-          "q": "You add −0.50 DC of cylinder. How do you keep the spherical equivalent?",
+          "q": "During the power check you increase the cylinder from −0.75 to −1.75 DC. How should the sphere change?",
           "options": [
             {
-              "text": "Add +0.25 DS",
+              "text": "+0.50 DS",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: +0.25 for each −0.50 of cylinder."
             },
             {
-              "text": "Add −0.25 DS",
+              "text": "−0.50 DS",
               "correct": false,
-              "feedback": "Wrong direction."
+              "feedback": "Opposite."
             },
             {
-              "text": "Add +0.50 DS",
+              "text": "+1.00 DS",
               "correct": false,
               "feedback": "Too much."
             },
             {
-              "text": "Nothing",
+              "text": "No change",
               "correct": false,
-              "feedback": "The spherical equivalent changes."
+              "feedback": "Keep the spherical equivalent."
             }
           ],
-          "explanation": ""
+          "explanation": "Keep the circle of least confusion on the retina: add +0.25 DS for every −0.50 DC added.",
+          "original": {
+            "q": "You add −0.50 DC of cylinder. How do you keep the spherical equivalent?",
+            "options": [
+              {
+                "text": "Add +0.25 DS",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Add −0.25 DS",
+                "correct": false,
+                "feedback": "Wrong direction."
+              },
+              {
+                "text": "Add +0.50 DS",
+                "correct": false,
+                "feedback": "Too much."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "The spherical equivalent changes."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0037",
-          "q": "What target suits the JCC?",
+          "q": "A patient can't decide between JCC positions because the letters are too small. What should you change?",
           "options": [
             {
-              "text": "A round target or a letter block one line above best VA",
+              "text": "Use a round target or a letter block one line above their best VA",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "A single tiny letter",
+              "text": "The smallest line",
               "correct": false,
-              "feedback": "Too small."
+              "feedback": "Too hard."
             },
             {
-              "text": "The duochrome",
+              "text": "A single huge letter",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Too coarse."
             },
             {
-              "text": "A spotlight",
+              "text": "A red target",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "The JCC works best with a round target or a block of letters a line or so above best VA.",
+          "original": {
+            "q": "What target suits the JCC?",
+            "options": [
+              {
+                "text": "A round target or a letter block one line above best VA",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "A single tiny letter",
+                "correct": false,
+                "feedback": "Too small."
+              },
+              {
+                "text": "The duochrome",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "A spotlight",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0038",
@@ -3230,30 +3744,57 @@
         },
         {
           "id": "aam-jcc-x0132",
-          "q": "What do the red dots on a JCC mark?",
+          "q": "You hold a ±0.25 JCC with its red dots at 180. What's the power along 180?",
           "options": [
             {
-              "text": "The minus cylinder axis",
+              "text": "−0.25 D: the red dots mark the minus cylinder axis",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The plus axis",
+              "text": "+0.25 D",
               "correct": false,
-              "feedback": "White dots."
+              "feedback": "That's at 90."
             },
             {
-              "text": "The handle",
+              "text": "−0.50 D",
+              "correct": false,
+              "feedback": "That's the cylinder."
+            },
+            {
+              "text": "0 D",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "They mark the axis."
             }
           ],
-          "explanation": ""
+          "explanation": "Red dots mark the minus axis; white dots the plus axis.",
+          "original": {
+            "q": "What do the red dots on a JCC mark?",
+            "options": [
+              {
+                "text": "The minus cylinder axis",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The plus axis",
+                "correct": false,
+                "feedback": "White dots."
+              },
+              {
+                "text": "The handle",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "They mark the axis."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0133",
@@ -3338,30 +3879,57 @@
         },
         {
           "id": "aam-jcc-x0136",
-          "q": "Where should the circle of least confusion be during the JCC?",
+          "q": "Why must the sphere be right before you start the JCC?",
           "options": [
             {
-              "text": "On the retina",
+              "text": "The circle of least confusion must be on the retina for the comparisons to work",
               "correct": true,
-              "feedback": "Yes: keep the spherical equivalent correct."
+              "feedback": "Yes."
             },
             {
-              "text": "In front of the retina",
+              "text": "To fog",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Behind the retina",
+              "text": "The JCC changes the sphere",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Its SE is zero."
             },
             {
-              "text": "Anywhere",
+              "text": "It doesn't matter",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It does."
             }
           ],
-          "explanation": ""
+          "explanation": "The JCC compares blur either side of the circle of least confusion, so that circle must be on the retina.",
+          "original": {
+            "q": "Where should the circle of least confusion be during the JCC?",
+            "options": [
+              {
+                "text": "On the retina",
+                "correct": true,
+                "feedback": "Yes: keep the spherical equivalent correct."
+              },
+              {
+                "text": "In front of the retina",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Behind the retina",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Anywhere",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0137",
@@ -3446,30 +4014,57 @@
         },
         {
           "id": "aam-jcc-x01310",
-          "q": "The JCC is best done with what VA level of target?",
+          "q": "A patient with 6/9 best VA finds the JCC comparisons impossible on the 6/9 line. What will help?",
           "options": [
             {
-              "text": "Letters a line or two above best VA",
+              "text": "A target a line or two larger",
               "correct": true,
-              "feedback": "Yes, or a round target."
+              "feedback": "Yes."
             },
             {
-              "text": "The smallest line",
+              "text": "A smaller line",
               "correct": false,
-              "feedback": "Too hard."
+              "feedback": "Harder."
             },
             {
-              "text": "The largest letter",
+              "text": "No target",
               "correct": false,
-              "feedback": "Too coarse."
+              "feedback": "Need one."
             },
             {
-              "text": "A blank screen",
+              "text": "More fog",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the fix."
             }
           ],
-          "explanation": ""
+          "explanation": "Use letters a line or two above best VA (or a round target) for the JCC.",
+          "original": {
+            "q": "The JCC is best done with what VA level of target?",
+            "options": [
+              {
+                "text": "Letters a line or two above best VA",
+                "correct": true,
+                "feedback": "Yes, or a round target."
+              },
+              {
+                "text": "The smallest line",
+                "correct": false,
+                "feedback": "Too hard."
+              },
+              {
+                "text": "The largest letter",
+                "correct": false,
+                "feedback": "Too coarse."
+              },
+              {
+                "text": "A blank screen",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-jcc-x0251",
@@ -4299,21 +4894,73 @@
       "id": "aam-binocular-balance",
       "title": "Binocular balancing, binocular addition and binocular refraction",
       "summary": "Binocular balancing makes sure accommodation is balanced between the eyes after a monocular subjective. With a trial frame the preferred method is monocular fogging (modified Humphriss). Binocular addition then checks for any extra plus, and binocular refraction does the whole subjective with both eyes open.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Why balance: occluding one eye in monocular refraction can cause proximal accommodation, and an imbalance in the final Rx can cause asthenopia. Balancing equalises accommodation, not vision.",
-        "Techniques: monocular fogging (preferred with a trial frame), prism-dissociated blur balance (preferred with a phoropter), Humphriss immediate contrast, and Turville infinite balance (cumbersome, needs a septum).",
-        "Monocular fogging: after ret and monocular subjective on both eyes, fog the left with about +0.75 DS and check it reads about 6/12 (add more plus if not). Fogging suppresses central vision but keeps peripheral fusion.",
-        "In the right eye add +0.25 while letters are clearer or the same, until VA first blurs. Then try −0.25 and accept it only if letters are clearer, not just smaller and blacker. Repeat with the right eye fogged.",
-        "Binocular addition: remove the fog and add +0.25 to both eyes while clearer or the same; useful for low hyperopes with near symptoms. If latent hyperopia is suspected, start with +1.00 both eyes and reduce. A 6 m chart is −0.16 D away, and some patients prefer slightly less plus.",
-        "Final Rx = subjective + binocular balance + binocular addition. Record each, plus the +1.00 check test and binocular VA.",
-        "Binocular refraction (monocular fogging method): ret both eyes, fog the left with +0.75 (check 6/12), JCC the right, swap, remove fog, binocular addition if needed. No separate balance afterwards.",
-        "Binocular refraction suits hyperopia, pseudomyopia and antimetropia, and avoids occlusion effects (pupil dilation, latent nystagmus, cyclophoria). It's hard with a strongly dominant eye and needs a starting point close to the final Rx."
+        {
+          "text": "Why balance: occluding one eye in monocular refraction can cause proximal accommodation, and an imbalance in the final Rx can cause asthenopia. Balancing equalises accommodation, not vision.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Techniques: monocular fogging (preferred with a trial frame), prism-dissociated blur balance (preferred with a phoropter), Humphriss immediate contrast, and Turville infinite balance (cumbersome, needs a septum).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Monocular fogging: after ret and monocular subjective on both eyes, fog the left with about +0.75 DS and check it reads about 6/12 (add more plus if not). Fogging suppresses central vision but keeps peripheral fusion.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "In the right eye add +0.25 while letters are clearer or the same, until VA first blurs. Then try −0.25 and accept it only if letters are clearer, not just smaller and blacker. Repeat with the right eye fogged.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Binocular addition: remove the fog and add +0.25 to both eyes while clearer or the same; useful for low hyperopes with near symptoms. If latent hyperopia is suspected, start with +1.00 both eyes and reduce. A 6 m chart is −0.16 D away, and some patients prefer slightly less plus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Final Rx = subjective + binocular balance + binocular addition. Record each, plus the +1.00 check test and binocular VA.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Binocular refraction (monocular fogging method): ret both eyes, fog the left with +0.75 (check 6/12), JCC the right, swap, remove fog, binocular addition if needed. No separate balance afterwards.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Binocular refraction suits hyperopia, pseudomyopia and antimetropia, and avoids occlusion effects (pupil dilation, latent nystagmus, cyclophoria). It's hard with a strongly dominant eye and needs a starting point close to the final Rx.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Saying binocular balancing equalises vision between the eyes. It balances accommodation.",
-        "Choosing monocular refraction for latent nystagmus or cyclophoria: occlusion makes both manifest.",
-        "Saying monocular fogging is used for binocular addition: no fog is used, plus goes on both eyes.",
-        "Doing a binocular balance after a binocular refraction: it isn't needed."
+        {
+          "text": "Saying binocular balancing equalises vision between the eyes. It balances accommodation.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Choosing monocular refraction for latent nystagmus or cyclophoria: occlusion makes both manifest.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Saying monocular fogging is used for binocular addition: no fog is used, plus goes on both eyes.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Doing a binocular balance after a binocular refraction: it isn't needed.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "prism-dissociation",
@@ -4328,11 +4975,15 @@
       "goDeeper": [
         {
           "heading": "Week 6 assessment brief",
-          "body": "15 minutes for ret and subjective on one eye of a student patient wearing a dummy lens, with a record and clear instructions. Worth 3% of stage 2; 19 marks, pass 10/19. Arrive at least 10 minutes early with your kit (blu-tak helps hold the dummy lens); missing your slot scores 0; no contact lenses when you're the patient. Feedback afterwards: the commonest lost marks were for over-minus, and powers must have two decimal places and a sign."
+          "body": "15 minutes for ret and subjective on one eye of a student patient wearing a dummy lens, with a record and clear instructions. Worth 3% of stage 2; 19 marks, pass 10/19. Arrive at least 10 minutes early with your kit (blu-tak helps hold the dummy lens); missing your slot scores 0; no contact lenses when you're the patient. Feedback afterwards: the commonest lost marks were for over-minus, and powers must have two decimal places and a sign.",
+          "priority": "background",
+          "module": "AaM"
         },
         {
           "heading": "Other balancing methods in detail",
-          "body": "In prism-dissociated balancing, 3Δ base up before one eye and 3Δ base down before the other give two images; both are fogged by about +0.75 and plus is added to the clearer one until they match. It's the usual method with a phoropter."
+          "body": "In prism-dissociated balancing, 3Δ base up before one eye and 3Δ base down before the other give two images; both are fogged by about +0.75 and plus is added to the clearer one until they match. It's the usual method with a phoropter.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -4486,84 +5137,165 @@
         },
         {
           "id": "aam-binocular-balance-x0031",
-          "q": "What should the fogged eye read during monocular fogging?",
+          "q": "During monocular fogging, the fogged left eye reads 6/6. What should you do?",
           "options": [
             {
-              "text": "About 6/12",
+              "text": "Add more plus until it reads about 6/12",
               "correct": true,
-              "feedback": "Yes: add more plus if it's better than that."
+              "feedback": "Yes."
             },
             {
-              "text": "6/5",
+              "text": "Carry on",
               "correct": false,
               "feedback": "Not fogged enough."
             },
             {
-              "text": "6/60",
+              "text": "Remove the fog",
               "correct": false,
-              "feedback": "Too fogged."
+              "feedback": "Too soon."
             },
             {
-              "text": "Nothing",
+              "text": "Add minus",
               "correct": false,
-              "feedback": "It should be blurred, not blank."
+              "feedback": "Opposite."
             }
           ],
-          "explanation": ""
+          "explanation": "The fogged eye should read about 6/12 so it doesn't compete, while still keeping fusion.",
+          "original": {
+            "q": "What should the fogged eye read during monocular fogging?",
+            "options": [
+              {
+                "text": "About 6/12",
+                "correct": true,
+                "feedback": "Yes: add more plus if it's better than that."
+              },
+              {
+                "text": "6/5",
+                "correct": false,
+                "feedback": "Not fogged enough."
+              },
+              {
+                "text": "6/60",
+                "correct": false,
+                "feedback": "Too fogged."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "It should be blurred, not blank."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0032",
-          "q": "What does fogging one eye preserve?",
+          "q": "Why is fogging one eye better than covering it during a binocular refraction?",
           "options": [
             {
-              "text": "Peripheral fusion",
+              "text": "It keeps peripheral fusion, so accommodation stays relaxed and balanced",
               "correct": true,
-              "feedback": "Yes: central vision is suppressed but both eyes still work together."
+              "feedback": "Yes."
             },
             {
-              "text": "Central fusion",
+              "text": "It's quicker",
               "correct": false,
-              "feedback": "Central detail is blurred."
+              "feedback": "Not the reason."
             },
             {
-              "text": "Stereopsis at full level",
+              "text": "It measures IOP",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Accommodation in the fogged eye",
+              "text": "Covering is never allowed",
               "correct": false,
-              "feedback": "It relaxes."
+              "feedback": "It's sometimes used."
             }
           ],
-          "explanation": ""
+          "explanation": "Fogging preserves peripheral fusion and avoids the accommodation changes that occlusion can trigger.",
+          "original": {
+            "q": "What does fogging one eye preserve?",
+            "options": [
+              {
+                "text": "Peripheral fusion",
+                "correct": true,
+                "feedback": "Yes: central vision is suppressed but both eyes still work together."
+              },
+              {
+                "text": "Central fusion",
+                "correct": false,
+                "feedback": "Central detail is blurred."
+              },
+              {
+                "text": "Stereopsis at full level",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Accommodation in the fogged eye",
+                "correct": false,
+                "feedback": "It relaxes."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0033",
-          "q": "Which balancing method is preferred with a phoropter?",
+          "q": "You're refracting with a phoropter and want to balance the eyes. Which method fits best?",
           "options": [
             {
               "text": "Prism-dissociated blur balance",
               "correct": true,
-              "feedback": "Yes; monocular fogging is preferred with a trial frame."
+              "feedback": "Yes."
             },
             {
-              "text": "Turville infinite balance",
+              "text": "Monocular fogging with a trial frame",
               "correct": false,
-              "feedback": "Cumbersome."
+              "feedback": "Preferred with a trial frame."
             },
             {
-              "text": "Humphriss immediate contrast",
+              "text": "Humphriss",
               "correct": false,
-              "feedback": "Not the lecture's phoropter choice."
+              "feedback": "Possible but not the usual phoropter choice."
             },
             {
               "text": "None",
               "correct": false,
-              "feedback": "Balancing is still done."
+              "feedback": "Balance is needed."
             }
           ],
-          "explanation": ""
+          "explanation": "Prism-dissociated balancing is usually preferred with a phoropter; monocular fogging with a trial frame.",
+          "original": {
+            "q": "Which balancing method is preferred with a phoropter?",
+            "options": [
+              {
+                "text": "Prism-dissociated blur balance",
+                "correct": true,
+                "feedback": "Yes; monocular fogging is preferred with a trial frame."
+              },
+              {
+                "text": "Turville infinite balance",
+                "correct": false,
+                "feedback": "Cumbersome."
+              },
+              {
+                "text": "Humphriss immediate contrast",
+                "correct": false,
+                "feedback": "Not the lecture's phoropter choice."
+              },
+              {
+                "text": "None",
+                "correct": false,
+                "feedback": "Balancing is still done."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0034",
@@ -4702,7 +5434,7 @@
         },
         {
           "id": "aam-binocular-balance-x0133",
-          "q": "About how much plus does the Humphriss method use for the fogged eye?",
+          "q": "In the Humphriss immediate contrast method, about how much plus goes over the eye not being refined?",
           "options": [
             {
               "text": "About +0.75 D",
@@ -4720,12 +5452,39 @@
               "feedback": "Too little."
             },
             {
-              "text": "−1.00",
+              "text": "−1.00 D",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "About +0.75 D fogs central vision while keeping fusion.",
+          "original": {
+            "q": "About how much plus does the Humphriss method use for the fogged eye?",
+            "options": [
+              {
+                "text": "About +0.75 D",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "+3.00 D",
+                "correct": false,
+                "feedback": "Too much."
+              },
+              {
+                "text": "+0.12 D",
+                "correct": false,
+                "feedback": "Too little."
+              },
+              {
+                "text": "−1.00",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x0134",
@@ -5377,7 +6136,7 @@
         },
         {
           "id": "aam-binocular-balance-x02518",
-          "q": "What's the final check after balancing?",
+          "q": "You've balanced the eyes and added binocular plus. What should you check last?",
           "options": [
             {
               "text": "Binocular VA and a binocular plus check",
@@ -5390,17 +6149,44 @@
               "feedback": "No."
             },
             {
-              "text": "Colour",
+              "text": "Colour vision",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "PD",
+              "text": "The PD",
               "correct": false,
               "feedback": "Not this step."
             }
           ],
-          "explanation": ""
+          "explanation": "Finish with binocular VA and a binocular plus (+1.00 blur) check for over-minus.",
+          "original": {
+            "q": "What's the final check after balancing?",
+            "options": [
+              {
+                "text": "Binocular VA and a binocular plus check",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "IOP",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Colour",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "PD",
+                "correct": false,
+                "feedback": "Not this step."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-binocular-balance-x02519",
@@ -5744,19 +6530,66 @@
       "id": "aam-accommodation",
       "title": "Accommodation in pre-presbyopes",
       "summary": "When a pre-presbyope has near symptoms, test amplitude (push-up/pull-down), facility (±2.00 flippers) and lag (dynamic retinoscopy), and compare amplitude with the Duane-Hofstetter age norms.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Accommodative dysfunction can be caused by medication, trauma, inflammation, diabetes, Down's syndrome or cerebral palsy, or be idiopathic. Symptoms: headache, eyestrain, near blur, trouble reading or changing focus.",
-        "Amplitude by RAF rule with the distance correction on: push the smallest legible print in until blur is sustained (push-up), then pull it out until clear (pull-down), and average the two. Measure R, L and both.",
-        "Binocular amplitude is 1–2 D higher than monocular because convergence drives extra accommodation.",
-        "Push-up overestimates (depth of focus, print getting bigger, moving target); a −3.00 lens can push the near point out for young patients (then add 3 D to the reading).",
-        "Duane-Hofstetter: minimum 15 − 0.25 × age, average 18.5 − 0.30 × age, maximum 25 − 0.40 × age. Suspect accommodative insufficiency if amplitude is more than 1.50 D below expected for age.",
-        "Facility with ±2.00 DS flippers at 40 cm: cycles per minute (clearing + and − is one cycle). Fail (up to 30 years): under 11 cpm monocular, under 8 cpm binocular; some suggest 7 and 5 for ages 8–12.",
-        "Facility can be abnormal even when amplitude is normal. Lag is measured with dynamic retinoscopy (MEM or modified Nott)."
+        {
+          "text": "Accommodative dysfunction can be caused by medication, trauma, inflammation, diabetes, Down's syndrome or cerebral palsy, or be idiopathic. Symptoms: headache, eyestrain, near blur, trouble reading or changing focus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Amplitude by RAF rule with the distance correction on: push the smallest legible print in until blur is sustained (push-up), then pull it out until clear (pull-down), and average the two. Measure R, L and both.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Binocular amplitude is 1–2 D higher than monocular because convergence drives extra accommodation.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Push-up overestimates (depth of focus, print getting bigger, moving target); a −3.00 lens can push the near point out for young patients (then add 3 D to the reading).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Duane-Hofstetter: minimum 15 − 0.25 × age, average 18.5 − 0.30 × age, maximum 25 − 0.40 × age. Suspect accommodative insufficiency if amplitude is more than 1.50 D below expected for age.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "Amplitude falls with age as the lens stiffens; the three lines are fitted to population data to give a typical range for each age.",
+          "limits": "They are population norms with real spread, and the measurement method changes the result. Use them to flag a possible problem alongside symptoms, facility and lag, not as a pass/fail test.",
+          "needsReview": true
+        },
+        {
+          "text": "Facility with ±2.00 DS flippers at 40 cm: cycles per minute (clearing + and − is one cycle). Fail (up to 30 years): under 11 cpm monocular, under 8 cpm binocular; some suggest 7 and 5 for ages 8–12.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Facility can be abnormal even when amplitude is normal. Lag is measured with dynamic retinoscopy (MEM or modified Nott).",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Measuring amplitude without the distance correction in place.",
-        "Measuring amplitude over 55: what's left is depth of focus.",
-        "Forgetting binocular amplitude is normally higher than monocular."
+        {
+          "text": "Measuring amplitude without the distance correction in place.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Measuring amplitude over 55: what's left is depth of focus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Forgetting binocular amplitude is normally higher than monocular.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "rule-push-up",
@@ -5771,11 +6604,15 @@
       "goDeeper": [
         {
           "heading": "Recording",
-          "body": "Amp (push-up/pull-down) RE 8D, LE 8D, BE 10D. Accommodative facility (±2.00 DS) RE 11 cpm, LE 11 cpm, BE 8 cpm."
+          "body": "Amp (push-up/pull-down) RE 8D, LE 8D, BE 10D. Accommodative facility (±2.00 DS) RE 11 cpm, LE 11 cpm, BE 8 cpm.",
+          "priority": "clinical",
+          "module": "AaM"
         },
         {
           "heading": "Normal lag",
-          "body": "Normal lag is about +0.25 to +0.75 D at 40 cm. It's measured with MEM or Nott dynamic retinoscopy."
+          "body": "Normal lag is about +0.25 to +0.75 D at 40 cm. It's measured with MEM or Nott dynamic retinoscopy.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -5938,30 +6775,57 @@
         },
         {
           "id": "aam-accommodation-x0034",
-          "q": "Which test measures how quickly accommodation changes?",
+          "q": "A student says print takes a while to clear when she looks up from her notes. Which test fits her symptom best?",
           "options": [
             {
-              "text": "±2.00 DS flippers (facility)",
+              "text": "Accommodative facility with ±2.00 DS flippers",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: it measures how quickly focus changes."
             },
             {
               "text": "Push-up amplitude",
               "correct": false,
-              "feedback": "That's how much."
+              "feedback": "Measures how much, not how fast."
             },
             {
               "text": "MEM retinoscopy",
               "correct": false,
-              "feedback": "That's lag."
+              "feedback": "Measures lag."
             },
             {
-              "text": "Duochrome",
+              "text": "Cover test",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Binocular vision."
             }
           ],
-          "explanation": ""
+          "explanation": "Facility measures speed of focusing changes; amplitude measures how much; MEM measures lag.",
+          "original": {
+            "q": "Which test measures how quickly accommodation changes?",
+            "options": [
+              {
+                "text": "±2.00 DS flippers (facility)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Push-up amplitude",
+                "correct": false,
+                "feedback": "That's how much."
+              },
+              {
+                "text": "MEM retinoscopy",
+                "correct": false,
+                "feedback": "That's lag."
+              },
+              {
+                "text": "Duochrome",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x0035",
@@ -6262,30 +7126,57 @@
         },
         {
           "id": "aam-accommodation-x0139",
-          "q": "A normal lag of accommodation at near is about",
+          "q": "MEM retinoscopy at 40 cm shows +2.00 D of lag in a 20-year-old. What does it suggest?",
           "options": [
             {
-              "text": "+0.25 to +0.75 D",
+              "text": "A larger lag than normal, which may mean accommodative insufficiency or uncorrected hyperopia",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "+3.00 D",
+              "text": "Normal",
               "correct": false,
-              "feedback": "Too much."
+              "feedback": "Normal is about +0.25 to +0.75."
             },
             {
-              "text": "−1.00 D",
+              "text": "A lead of accommodation",
               "correct": false,
-              "feedback": "That's a lead."
+              "feedback": "That would be minus."
             },
             {
-              "text": "0 exactly",
+              "text": "Myopia",
               "correct": false,
-              "feedback": "Small lag is normal."
+              "feedback": "Not from this."
             }
           ],
-          "explanation": ""
+          "explanation": "Normal lag at 40 cm is about +0.25 to +0.75 D.",
+          "original": {
+            "q": "A normal lag of accommodation at near is about",
+            "options": [
+              {
+                "text": "+0.25 to +0.75 D",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "+3.00 D",
+                "correct": false,
+                "feedback": "Too much."
+              },
+              {
+                "text": "−1.00 D",
+                "correct": false,
+                "feedback": "That's a lead."
+              },
+              {
+                "text": "0 exactly",
+                "correct": false,
+                "feedback": "Small lag is normal."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-accommodation-x01310",
@@ -7148,19 +8039,66 @@
       "id": "aam-presbyopia-add",
       "title": "Presbyopia and finding the near add",
       "summary": "Presbyopia usually starts at 40–45 and true accommodation has gone by about 55. Find a tentative add (preferably from age and working distance), refine it binocularly to the least plus, check the range of clear vision, and record it.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Presbyopia starts earlier in hot climates, people with short arms or close working distances, and hyperopes; later in myopes and long-armed people.",
-        "Tentative add, most to least recommended: age and working distance (table), amplitude (add = WD − ½ amp), relative accommodation, binocular cross-cylinder.",
-        "Age and distance table: 45 years +1.25 / +0.75 / +0.50 (33 cm / 40 cm / 50–60 cm); 50 years +1.75 / +1.25 / +1.00; 55 years +2.25 / +1.75 / +1.50; 60+ +2.50 / +2.00 / +1.75.",
-        "Final add: near PD in the trial frame, patient at their own reading distance. Try −0.25 binocularly; if not clearer, try +0.25; stop when clarity no longer improves. This gives the least plus.",
-        "Range of clear vision: far end 1 ÷ add, near end 1 ÷ (add + amplitude). Check it by moving the chart in and out; if it doesn't suit, change the add or give an intermediate add.",
-        "Adds are usually equal and rarely above +3.00 (except for low vision). Unequal adds may suit amblyopia, lag, anisometropia or a very particular patient.",
-        "Don't measure amplitude over 55."
+        {
+          "text": "Presbyopia starts earlier in hot climates, people with short arms or close working distances, and hyperopes; later in myopes and long-armed people.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Tentative add, most to least recommended: age and working distance (table), amplitude (add = WD − ½ amp), relative accommodation, binocular cross-cylinder.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Age and distance table: 45 years +1.25 / +0.75 / +0.50 (33 cm / 40 cm / 50–60 cm); 50 years +1.75 / +1.25 / +1.00; 55 years +2.25 / +1.75 / +1.50; 60+ +2.50 / +2.00 / +1.75.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Final add: near PD in the trial frame, patient at their own reading distance. Try −0.25 binocularly; if not clearer, try +0.25; stop when clarity no longer improves. This gives the least plus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Range of clear vision: far end 1 ÷ add, near end 1 ÷ (add + amplitude). Check it by moving the chart in and out; if it doesn't suit, change the add or give an intermediate add.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Adds are usually equal and rarely above +3.00 (except for low vision). Unequal adds may suit amblyopia, lag, anisometropia or a very particular patient.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Measuring amplitude is rarely useful over about 55: what's left is mostly depth of focus.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "By the mid-fifties the lens can barely change shape, so a push-up 'amplitude' mostly reflects depth of focus and pupil size.",
+          "limits": "This is a guide, not a fixed age cut-off; a small measurable amplitude can occasionally help explain a patient's range of clear vision.",
+          "needsReview": true
+        }
       ],
       "examTraps": [
-        "Basing the tentative add on measured amplitude: it's error-prone in presbyopes; age and working distance is recommended.",
-        "Not checking the range of clear vision at the patient's real working distances.",
-        "Forgetting intermediate (screen) work needs a lower add than reading."
+        {
+          "text": "Basing the tentative add on measured amplitude: it's error-prone in presbyopes; age and working distance is recommended.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Not checking the range of clear vision at the patient's real working distances.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Forgetting intermediate (screen) work needs a lower add than reading.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "range-clear-vision",
@@ -7175,11 +8113,15 @@
       "goDeeper": [
         {
           "heading": "Why half the amplitude?",
-          "body": "The amplitude formula assumes only half the amplitude can be sustained. Aston research (Wolffsohn et al., 2011) suggests about 80% may be, one reason the method is less reliable than the age and distance table."
+          "body": "The amplitude formula assumes only half the amplitude can be sustained. Aston research (Wolffsohn et al., 2011) suggests about 80% may be, one reason the method is less reliable than the age and distance table.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Worked example (lecture SAQ)",
-          "body": "CT is 52, amplitude 3.00 D, model making at 25 cm. Add = 4.00 − 1.50 = +2.50. Range: 1 ÷ 2.50 = 40 cm to 1 ÷ 5.50 = 18 cm, so his phone at 35 cm is fine."
+          "body": "CT is 52, amplitude 3.00 D, model making at 25 cm. Add = 4.00 − 1.50 = +2.50. Range: 1 ÷ 2.50 = 40 cm to 1 ÷ 5.50 = 18 cm, so his phone at 35 cm is fine.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -8179,30 +9121,57 @@
         },
         {
           "id": "aam-presbyopia-add-x02618",
-          "q": "Which test finds the add by moving reading material until it blurs?",
+          "q": "With a +2.00 add, a patient reads clearly from 50 cm in to 30 cm. What have you measured, and what's their amplitude?",
           "options": [
             {
-              "text": "Range of clear vision (near and far points)",
+              "text": "The range of clear vision; about 1.33 D",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: 1 ÷ 0.3 − 2.00."
             },
             {
-              "text": "Pinhole",
+              "text": "The add; 2.00 D",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the add itself."
             },
             {
-              "text": "Cover test",
+              "text": "The amplitude directly; 3.33 D",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That's the total near-point power."
             },
             {
-              "text": "JCC",
+              "text": "Facility",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Range: far end 1 ÷ add, near end 1 ÷ (add + amplitude). Moving the chart in and out checks the add suits the task.",
+          "original": {
+            "q": "Which test finds the add by moving reading material until it blurs?",
+            "options": [
+              {
+                "text": "Range of clear vision (near and far points)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Pinhole",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cover test",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "JCC",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-presbyopia-add-x02619",
@@ -8552,23 +9521,83 @@
       "id": "aam-prescribing",
       "title": "Prescribing decisions and counselling",
       "summary": "Deciding what to prescribe is 'art rather than science'. Listen to and involve the patient, be careful with plus and minus, big changes and cylinders, think about anisometropia and high powers, only prescribe small errors with good reason, then counsel and record your advice.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Listen: a myope who sees better pushing their glasses closer needs more minus; a hyperope who pushes them away needs more plus; a presbyope reading down the nose needs more add.",
-        "Involve the patient: compare old and new in a trial frame or with lenses held over their glasses, and ask whether they'd like new glasses.",
-        "'If it ain't broke, don't fix it': a happy patient wanting a new frame is often best with the current Rx. A presbyopic myope may prefer slight distance under-correction.",
-        "Myopes: avoid over-plus (6 m chart = +0.17 D; night myopia), err towards slight over-minus. Hyperopes: partial correction (½ to ¾ if manifest) to relieve symptoms; full only for presbyopes, esotropia and esophoria.",
-        "Extra minus can decompensate esophoria; extra plus can decompensate exophoria. Recheck binocular vision after a big change, especially with a high AC/A.",
-        "Over 25, avoid changes of more than ±0.75 D (stage them). Consider not prescribing 0.25 DC. Make partial cylinder changes over 0.75 DC, or axis changes over 30° (≤1.00 DC), 15° (1.00–2.00 DC) or 7.5° (>2.00 DC); power changes are better tolerated than axis changes.",
-        "Anisometropia under 1.00 D rarely causes aniseikonia. In presbyopes (e.g. after one cataract op), reduce it by about a third, minimise BVD and thickness, match base curves, consider iseikonic or contact lenses.",
-        "Over 3.00 D, match the old base curves, CD, BVD and material. Low vision adds above +2.50 bring work closer. Correct for vertex distance (F²/1000 per mm, or the exact formula).",
-        "Small errors: no symptoms, no prescription; prescribe more readily for detailed work, detail-focused people, clear improvement or to compensate a phoria. GOC 16.3: targets mustn't affect your judgement.",
-        "Counsel on the chief complaint, ocular health, the Rx and recall, in order of importance to the patient; record the advice. Standard recall 2 years, 1 year for children and the elderly."
+        {
+          "text": "Listen: a myope who sees better pushing their glasses closer needs more minus; a hyperope who pushes them away needs more plus; a presbyope reading down the nose needs more add.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Involve the patient: compare old and new in a trial frame or with lenses held over their glasses, and ask whether they'd like new glasses.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "'If it ain't broke, don't fix it': a happy patient wanting a new frame is often best with the current Rx. A presbyopic myope may prefer slight distance under-correction.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Myopes: avoid over-plus (6 m chart = +0.17 D; night myopia), err towards slight over-minus. Hyperopes: partial correction (½ to ¾ if manifest) to relieve symptoms; full only for presbyopes, esotropia and esophoria.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Extra minus can decompensate esophoria; extra plus can decompensate exophoria. Recheck binocular vision after a big change, especially with a high AC/A.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Over 25, avoid changes of more than ±0.75 D (stage them). Consider not prescribing 0.25 DC. Make partial cylinder changes over 0.75 DC, or axis changes over 30° (≤1.00 DC), 15° (1.00–2.00 DC) or 7.5° (>2.00 DC); power changes are better tolerated than axis changes.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Anisometropia under 1.00 D rarely causes aniseikonia. In presbyopes (e.g. after one cataract op), reduce it by about a third, minimise BVD and thickness, match base curves, consider iseikonic or contact lenses.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Over 3.00 D, match the old base curves, CD, BVD and material. Low vision adds above +2.50 bring work closer. Correct for vertex distance (F²/1000 per mm, or the exact formula).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Small errors: no symptoms, no prescription; prescribe more readily for detailed work, detail-focused people, clear improvement or to compensate a phoria. GOC 16.3: targets mustn't affect your judgement.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Counsel on the chief complaint, ocular health, the Rx and recall, in order of importance to the patient; record the advice. Standard recall 2 years, 1 year for children and the elderly.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Saying it's never sensible to put an old Rx in a new frame.",
-        "Giving full hyperopic correction to every hyperope.",
-        "Thinking oblique cylinder changes are well tolerated: they're the most problematic.",
-        "Criticising the previous optometrist: they may have under-corrected on purpose (GOC 13.6)."
+        {
+          "text": "Saying it's never sensible to put an old Rx in a new frame.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Giving full hyperopic correction to every hyperope.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Thinking oblique cylinder changes are well tolerated: they're the most problematic.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Criticising the previous optometrist: they may have under-corrected on purpose (GOC 13.6).",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "aniseikonia",
@@ -8583,11 +9612,18 @@
       "goDeeper": [
         {
           "heading": "Non-tolerance",
-          "body": "Beesley et al. (2022): about 2% of eye exams lead to a recheck for non-tolerance (about 470,000 a year), and nearly half of 279 rechecks involved cylinder changes, especially oblique ones. Warn about adaptation with a first Rx, a big change, or first bifocals or varifocals."
+          "body": "Beesley et al. (2022): about 2% of eye exams lead to a recheck for non-tolerance (about 470,000 a year), and nearly half of 279 rechecks involved cylinder changes, especially oblique ones. Warn about adaptation with a first Rx, a big change, or first bifocals or varifocals.",
+          "priority": "background",
+          "module": "AaM"
         },
         {
           "heading": "Aniseikonia rule of thumb",
-          "body": "Spectacle magnification differs by roughly 1% per dioptre of anisometropia; under 1.00 D rarely causes problems and contact lenses often help."
+          "body": "Spectacle magnification differs by roughly 1% per dioptre of anisometropia; under 1.00 D rarely causes problems and contact lenses often help.",
+          "priority": "exam-core",
+          "module": "AaM",
+          "why": "Spectacle magnification depends on lens power and vertex distance, so unequal powers give unequal retinal image sizes.",
+          "limits": "It's only a rough guide. Axial anisometropia corrected with spectacles near the anterior focal point can give similar image sizes (Knapp's law), tolerance varies between people, and lens form and vertex distance change the figure.",
+          "needsReview": true
         }
       ],
       "flashcards": [
@@ -8866,30 +9902,57 @@
         },
         {
           "id": "aam-prescribing-x0133",
-          "q": "A plus lens increases what?",
+          "q": "A +8.00 D hyperope switches from spectacles to contact lenses. What do they notice about image size?",
           "options": [
             {
-              "text": "Spectacle magnification",
+              "text": "Things look smaller, because spectacle magnification is lost",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Minification",
+              "text": "Things look bigger",
               "correct": false,
-              "feedback": "Minus."
+              "feedback": "Opposite for plus."
             },
             {
-              "text": "Accommodation",
+              "text": "No change",
               "correct": false,
-              "feedback": "No."
+              "feedback": "There is a change."
             },
             {
-              "text": "Field of view",
+              "text": "Double vision",
               "correct": false,
-              "feedback": "It reduces it."
+              "feedback": "Not expected."
             }
           ],
-          "explanation": ""
+          "explanation": "Plus spectacle lenses magnify; minus lenses minify.",
+          "original": {
+            "q": "A plus lens increases what?",
+            "options": [
+              {
+                "text": "Spectacle magnification",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Minification",
+                "correct": false,
+                "feedback": "Minus."
+              },
+              {
+                "text": "Accommodation",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Field of view",
+                "correct": false,
+                "feedback": "It reduces it."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0134",
@@ -9136,7 +10199,7 @@
         },
         {
           "id": "aam-prescribing-x0263",
-          "q": "Which correction usually suits refractive (not axial) anisometropia best for image size?",
+          "q": "A patient has 4 D of refractive (corneal) anisometropia and complains of unequal image sizes in glasses. What usually helps most?",
           "options": [
             {
               "text": "Contact lenses",
@@ -9144,22 +10207,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Spectacles",
+              "text": "Spectacles with matched base curves only",
               "correct": false,
-              "feedback": "For axial."
+              "feedback": "Helps a little."
             },
             {
               "text": "Prism",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not for image size."
             },
             {
               "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Options exist."
             }
           ],
-          "explanation": ""
+          "explanation": "Contact lenses usually suit refractive anisometropia best for image size; axial anisometropia may do well in spectacles (Knapp's law).",
+          "original": {
+            "q": "Which correction usually suits refractive (not axial) anisometropia best for image size?",
+            "options": [
+              {
+                "text": "Contact lenses",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Spectacles",
+                "correct": false,
+                "feedback": "For axial."
+              },
+              {
+                "text": "Prism",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-prescribing-x0264",
@@ -9924,19 +11014,63 @@
       "id": "aam-presbyope-clinic",
       "title": "Presbyope clinic: running a full refraction",
       "summary": "In the presbyope clinic you put everything together on a real patient: history, vision, retinoscopy, subjective, balancing, near add, range of clear vision, final Rx and advice. Time management and clear communication matter as much as technique.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "One session per student between weeks 8 and 12 — check the rota for yours.",
-        "Start with a focused history: symptoms, visual tasks and distances, current glasses, health and medication.",
-        "Measure habitual VA (distance and near) before changing anything.",
-        "Objective (ret) → subjective (BVS, JCC, sphere check) → binocular balance → binocular BVS.",
-        "Near add: tentative from age/amplitude, refine binocularly, then check range of clear vision at her real distances.",
-        "Trial-frame the final Rx and let her look at her phone or a book before deciding.",
-        "Finish with clear advice (lens types, adaptation) and a clear record, signed off by your supervisor."
+        {
+          "text": "One session per student between weeks 8 and 12 — check the rota for yours.",
+          "priority": "background",
+          "module": "AaM"
+        },
+        {
+          "text": "Start with a focused history: symptoms, visual tasks and distances, current glasses, health and medication.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Measure habitual VA (distance and near) before changing anything.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Objective (ret) → subjective (BVS, JCC, sphere check) → binocular balance → binocular BVS.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Near add: tentative from age/amplitude, refine binocularly, then check range of clear vision at her real distances.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Trial-frame the final Rx and let her look at her phone or a book before deciding.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Finish with clear advice (lens types, adaptation) and a clear record, signed off by your supervisor.",
+          "priority": "clinical",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Running out of time on the subjective and rushing the add.",
-        "Not measuring habitual VA, so you can't show the improvement.",
-        "Prescribing an add without checking the patient's real tasks."
+        {
+          "text": "Running out of time on the subjective and rushing the add.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Not measuring habitual VA, so you can't show the improvement.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Prescribing an add without checking the patient's real tasks.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "diagram": {
         "id": "refraction-flow",
@@ -9954,15 +11088,21 @@
       "goDeeper": [
         {
           "heading": "Keeping to time",
-          "body": "Practise the routine until the order is automatic. A rough split for a teaching clinic might be: history and VAs 10 min, ret 10 min, subjective and balance 20 min, near add and range 10 min, trial frame, advice and records 10 min — your supervisors will tell you the real time limits. If ret is hard, don't get stuck: move on to the subjective."
+          "body": "Practise the routine until the order is automatic. A rough split for a teaching clinic might be: history and VAs 10 min, ret 10 min, subjective and balance 20 min, near add and range 10 min, trial frame, advice and records 10 min — your supervisors will tell you the real time limits. If ret is hard, don't get stuck: move on to the subjective.",
+          "priority": "clinical",
+          "module": "AaM"
         },
         {
           "heading": "Talking to a real patient",
-          "body": "Introduce yourself as a student, explain what you'll do, and get consent. Use plain language ('which is clearer, one or two — or the same?'). Older patients may need more time to answer; don't rush them. Check understanding at the end and invite questions."
+          "body": "Introduce yourself as a student, explain what you'll do, and get consent. Use plain language ('which is clearer, one or two — or the same?'). Older patients may need more time to answer; don't rush them. Check understanding at the end and invite questions.",
+          "priority": "clinical",
+          "module": "AaM"
         },
         {
           "heading": "What to record",
-          "body": "Habitual Rx and VAs, ret result, subjective result per eye with VA, binocular VA, add, near VA, range of clear vision, final Rx prescribed and why, advice given, and your supervisor's sign-off."
+          "body": "Habitual Rx and VAs, ret result, subjective result per eye with VA, binocular VA, add, near VA, range of clear vision, final Rx prescribed and why, advice given, and your supervisor's sign-off.",
+          "priority": "clinical",
+          "module": "AaM"
         }
       ],
       "checklist": {
@@ -9980,7 +11120,9 @@
           "Check range of clear vision (and intermediate if needed).",
           "Trial-frame the final Rx and check real tasks.",
           "Explain the result and options; record everything and get sign-off."
-        ]
+        ],
+        "priority": "exam-core",
+        "module": "AaM"
       },
       "flashcards": [
         {
@@ -10031,30 +11173,57 @@
         },
         {
           "id": "aam-presbyope-clinic-x0031",
-          "q": "What should you measure before changing anything in the presbyope clinic?",
+          "q": "A presbyope arrives saying her glasses are 'useless'. What should you do before changing anything?",
           "options": [
             {
-              "text": "Habitual distance and near VA",
+              "text": "Measure her habitual distance and near VA with her current glasses",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The new add",
+              "text": "Start the subjective",
               "correct": false,
-              "feedback": "Later."
+              "feedback": "Baseline first."
             },
             {
-              "text": "Pupil size",
+              "text": "Prescribe a stronger add",
               "correct": false,
-              "feedback": "Not first."
+              "feedback": "Not yet."
             },
             {
-              "text": "Amplitude",
+              "text": "Dilate",
               "correct": false,
-              "feedback": "Not needed over 55."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Record habitual VA first so you can compare and explain any change.",
+          "original": {
+            "q": "What should you measure before changing anything in the presbyope clinic?",
+            "options": [
+              {
+                "text": "Habitual distance and near VA",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The new add",
+                "correct": false,
+                "feedback": "Later."
+              },
+              {
+                "text": "Pupil size",
+                "correct": false,
+                "feedback": "Not first."
+              },
+              {
+                "text": "Amplitude",
+                "correct": false,
+                "feedback": "Not needed over 55."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0032",
@@ -10112,57 +11281,111 @@
         },
         {
           "id": "aam-presbyope-clinic-x0034",
-          "q": "Before deciding, what should the patient do with the trial frame?",
+          "q": "You've found a new near add. What's the best way to check she'll be happy with it?",
           "options": [
             {
-              "text": "Look at their phone or a book",
-              "correct": true,
-              "feedback": "Yes: real tasks show if it works."
-            },
-            {
-              "text": "Walk downstairs",
-              "correct": false,
-              "feedback": "Not with a trial frame."
-            },
-            {
-              "text": "Read the 6 m chart only",
-              "correct": false,
-              "feedback": "Check near tasks too."
-            },
-            {
-              "text": "Nothing",
-              "correct": false,
-              "feedback": "Let them try it."
-            }
-          ],
-          "explanation": ""
-        },
-        {
-          "id": "aam-presbyope-clinic-x0035",
-          "q": "How often does each student attend the presbyope clinic?",
-          "options": [
-            {
-              "text": "One session each between weeks 8 and 12 (check the rota)",
+              "text": "Trial-frame it and let her look at her phone or a book at her own distance",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Every week",
+              "text": "Tell her it's right",
+              "correct": false,
+              "feedback": "Let her try it."
+            },
+            {
+              "text": "Measure IOP",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Once a term in week 1",
+              "text": "Order it straight away",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Not at all in stage 2",
-              "correct": false,
-              "feedback": "It runs in stage 2."
+              "feedback": "Trial it first."
             }
           ],
-          "explanation": ""
+          "explanation": "Trial the final Rx with her real tasks before deciding.",
+          "original": {
+            "q": "Before deciding, what should the patient do with the trial frame?",
+            "options": [
+              {
+                "text": "Look at their phone or a book",
+                "correct": true,
+                "feedback": "Yes: real tasks show if it works."
+              },
+              {
+                "text": "Walk downstairs",
+                "correct": false,
+                "feedback": "Not with a trial frame."
+              },
+              {
+                "text": "Read the 6 m chart only",
+                "correct": false,
+                "feedback": "Check near tasks too."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Let them try it."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
+        },
+        {
+          "id": "aam-presbyope-clinic-x0035",
+          "q": "Which statement about the presbyope clinic is wrong?",
+          "options": [
+            {
+              "text": "Each student attends every week of the term",
+              "correct": true,
+              "feedback": "Yes, that's wrong: it's one session each between weeks 8 and 12."
+            },
+            {
+              "text": "You should check the rota for your session",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "Your record must be signed off by your supervisor",
+              "correct": false,
+              "feedback": "True."
+            },
+            {
+              "text": "You'll see a real presbyopic patient",
+              "correct": false,
+              "feedback": "True."
+            }
+          ],
+          "explanation": "Each student has one presbyope clinic session between weeks 8 and 12; check the rota.",
+          "original": {
+            "q": "How often does each student attend the presbyope clinic?",
+            "options": [
+              {
+                "text": "One session each between weeks 8 and 12 (check the rota)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Every week",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Once a term in week 1",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Not at all in stage 2",
+                "correct": false,
+                "feedback": "It runs in stage 2."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-presbyope-clinic-x0036",
@@ -11370,27 +12593,71 @@
       "id": "aam-near-vision",
       "title": "Near vision assessment",
       "summary": "Near vision adequacy for everyone, accommodation tests when a pre-presbyope has near symptoms, and a structured way to find and check a presbyope's near add.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Near vision adequacy: the smallest N-point paragraph read at the patient's preferred distance, recorded with that distance (e.g. N5 @ 40 cm R, L and Bin).",
-        "Amplitude by push-up/pull-down on a RAF rule: average the two end points. Binocular is 1–2 D higher than monocular because convergence drives extra accommodation.",
-        "Average expected monocular amplitude = 18.5 − 0.30 × age. Suspect accommodative insufficiency if it is more than 1.50 D below that.",
-        "Accommodative facility with ±2.00 flippers at 40 cm: pass is at least 11 cpm monocularly and 8 cpm binocularly (children and adults to 30).",
-        "Tentative add: best from age and working distance. From amplitude: add = working distance (D) − ½ amplitude.",
-        "Final add: binocular ±0.25 steps, stopping when clarity no longer improves (least plus). Then check the range of clear vision: 1 ÷ (add + amp) to 1 ÷ add."
+        {
+          "text": "Near vision adequacy: the smallest N-point paragraph read at the patient's preferred distance, recorded with that distance (e.g. N5 @ 40 cm R, L and Bin).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Amplitude by push-up/pull-down on a RAF rule: average the two end points. Binocular is 1–2 D higher than monocular because convergence drives extra accommodation.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Average expected monocular amplitude = 18.5 − 0.30 × age. Suspect accommodative insufficiency if it is more than 1.50 D below that.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Accommodative facility with ±2.00 flippers at 40 cm: pass is at least 11 cpm monocularly and 8 cpm binocularly (children and adults to 30).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Tentative add: best from age and working distance. From amplitude: add = working distance (D) − ½ amplitude.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Final add: binocular ±0.25 steps, stopping when clarity no longer improves (least plus). Then check the range of clear vision: 1 ÷ (add + amp) to 1 ÷ add.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Basing the tentative add on measured amplitude. In presbyopes that measurement is error-prone; age and working distance is the recommended method.",
-        "Measuring amplitude in patients over 55: what remains is depth of focus.",
-        "Recording an N-number without the working distance."
+        {
+          "text": "Basing the tentative add on measured amplitude. In presbyopes that measurement is error-prone; age and working distance is the recommended method.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Measuring amplitude in patients over 55: what remains is depth of focus.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Recording an N-number without the working distance.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Why half the amplitude?",
-          "body": "The amplitude-based formula assumes only about half the amplitude can be sustained comfortably. Research at Aston (Wolffsohn et al., 2011) suggests about 80% may be sustainable, which is one reason this method is less reliable than tables by age and working distance."
+          "body": "The amplitude-based formula assumes only about half the amplitude can be sustained comfortably. Research at Aston (Wolffsohn et al., 2011) suggests about 80% may be sustainable, which is one reason this method is less reliable than tables by age and working distance.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "When unequal adds are reasonable",
-          "body": "Amblyopia, accommodative lag, anisometropia (for example after cataract surgery in one eye), or a very particular patient. Before prescribing, recheck the add end points and the distance binocular balance, then check each eye's range and present the result binocularly."
+          "body": "Amblyopia, accommodative lag, anisometropia (for example after cataract surgery in one eye), or a very particular patient. Before prescribing, recheck the add end points and the distance binocular balance, then check each eye's range and present the result binocularly.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -11446,35 +12713,62 @@
         },
         {
           "id": "aam-nv-2",
-          "q": "Which formula gives the average expected amplitude of accommodation?",
+          "q": "Using 18.5 − 0.30 × age, what average amplitude would you expect at 45?",
           "options": [
             {
-              "text": "18.5 − 0.30 × age",
+              "text": "5 D",
               "correct": true,
-              "feedback": "Yes: the Duane-Hofstetter average."
+              "feedback": "Yes: 18.5 − 13.5."
             },
             {
-              "text": "15 − 0.25 × age",
+              "text": "3.5 D",
               "correct": false,
-              "feedback": "That is the minimum expected amplitude."
+              "feedback": "That's at 50."
             },
             {
-              "text": "25 − 0.40 × age",
+              "text": "7.25 D",
               "correct": false,
-              "feedback": "That is the maximum expected amplitude."
+              "feedback": "That's the maximum formula."
             },
             {
-              "text": "10 − 0.25 × age",
+              "text": "15 D",
               "correct": false,
-              "feedback": "Not one of the Duane-Hofstetter formulae."
-            },
-            {
-              "text": "20 − 0.25 × age",
-              "correct": false,
-              "feedback": "Not one of the Duane-Hofstetter formulae."
+              "feedback": "No."
             }
           ],
-          "explanation": "Lecture MCQ 2 and answer sheet."
+          "explanation": "Duane–Hofstetter average amplitude = 18.5 − 0.30 × age.",
+          "original": {
+            "q": "Which formula gives the average expected amplitude of accommodation?",
+            "options": [
+              {
+                "text": "18.5 − 0.30 × age",
+                "correct": true,
+                "feedback": "Yes: the Duane-Hofstetter average."
+              },
+              {
+                "text": "15 − 0.25 × age",
+                "correct": false,
+                "feedback": "That is the minimum expected amplitude."
+              },
+              {
+                "text": "25 − 0.40 × age",
+                "correct": false,
+                "feedback": "That is the maximum expected amplitude."
+              },
+              {
+                "text": "10 − 0.25 × age",
+                "correct": false,
+                "feedback": "Not one of the Duane-Hofstetter formulae."
+              },
+              {
+                "text": "20 − 0.25 × age",
+                "correct": false,
+                "feedback": "Not one of the Duane-Hofstetter formulae."
+              }
+            ],
+            "explanation": "Lecture MCQ 2 and answer sheet."
+          },
+          "needsReview": true
         },
         {
           "id": "aam-near-vision-x0031",
@@ -12760,28 +14054,76 @@
       "id": "aam-routine-exam",
       "title": "The routine eye examination and record card",
       "summary": "A sensible order for the routine eye examination and how to record each part on the Aston record card, from introducing yourself to advice.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "Introduce yourself as a student optometrist working under supervision, name your supervisor, confirm name and date of birth, and ask how they'd like to be addressed (GOC standard 2.2).",
-        "History: reason for visit in the patient's words; record negative findings (headaches, diplopia, flashes, floaters, pain, asthenopia).",
-        "Measure unaided vision if no Rx is worn, it is lost or broken, not always worn (drivers), possibly unneeded, or needed for a report.",
-        "Focimetry: date of Rx, lens type, sphero-cylinder, CD and add, then VA through each pair.",
-        "Order: cover test, motility (about 40 cm, no Rx), pupils, anterior eye, posterior eye, PD and trial frame, ret and subjective, post-refraction binocular vision, near assessment, advice.",
-        "Always do the swinging flashlight test; check the near pupil reflex only if the light reflex is abnormal.",
-        "Advice must address the reason for visit."
+        {
+          "text": "Introduce yourself as a student optometrist working under supervision, name your supervisor, confirm name and date of birth, and ask how they'd like to be addressed (GOC standard 2.2).",
+          "priority": "clinical",
+          "module": "AaM"
+        },
+        {
+          "text": "History: reason for visit in the patient's words; record negative findings (headaches, diplopia, flashes, floaters, pain, asthenopia).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Measure unaided vision if no Rx is worn, it is lost or broken, not always worn (drivers), possibly unneeded, or needed for a report.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Focimetry: date of Rx, lens type, sphero-cylinder, CD and add, then VA through each pair.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Order: cover test, motility (about 40 cm, no Rx), pupils, anterior eye, posterior eye, PD and trial frame, ret and subjective, post-refraction binocular vision, near assessment, advice.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Always do the swinging flashlight test; check the near pupil reflex only if the light reflex is abnormal.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Advice must address the reason for visit.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Recording 'NAD' instead of describing each structure.",
-        "Leaving out negative symptoms, which then look as if you didn't ask.",
-        "Skipping the post-refraction cover test for a first or much-changed prescription."
+        {
+          "text": "Recording 'NAD' instead of describing each structure.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Leaving out negative symptoms, which then look as if you didn't ask.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Skipping the post-refraction cover test for a first or much-changed prescription.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Which subjective technique?",
-          "body": "Monocular subjective refraction suits patients with marked ocular dominance. Binocular refraction suits hyperopes, pseudomyopes, antimetropes, and anyone with latent nystagmus or cyclophoria."
+          "body": "Monocular subjective refraction suits patients with marked ocular dominance. Binocular refraction suits hyperopes, pseudomyopes, antimetropes, and anyone with latent nystagmus or cyclophoria.",
+          "priority": "exam-core",
+          "module": "AaM"
         },
         {
           "heading": "Post-refraction binocular vision",
-          "body": "Cover test at distance and near (essential for a first Rx or a big change), Maddox rod (distance) and Maddox wing (near), the Mallett aligning prism or fixation disparity test, NPC and jump convergence. While training, measure them all."
+          "body": "Cover test at distance and near (essential for a first Rx or a big change), Maddox rod (distance) and Maddox wing (near), the Mallett aligning prism or fixation disparity test, NPC and jump convergence. While training, measure them all.",
+          "priority": "exam-core",
+          "module": "AaM"
         }
       ],
       "flashcards": [
@@ -12936,57 +14278,111 @@
         },
         {
           "id": "aam-routine-exam-x0035",
-          "q": "When do you test the near pupil reflex?",
+          "q": "A patient's pupils react normally to light. Do you need to test the near reflex?",
           "options": [
             {
-              "text": "Only if the light reflex is abnormal",
+              "text": "No: test it only if the light reflex is abnormal",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Always first",
+              "text": "Yes, always first",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "Never",
-              "correct": false,
-              "feedback": "It helps find light-near dissociation."
+              "feedback": "Not needed if light reflexes are normal."
             },
             {
               "text": "Only in children",
               "correct": false,
               "feedback": "No."
+            },
+            {
+              "text": "Only after dilation",
+              "correct": false,
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "No condition affects the near response while sparing the light response, so the near reflex is checked only when the light reflex is abnormal.",
+          "original": {
+            "q": "When do you test the near pupil reflex?",
+            "options": [
+              {
+                "text": "Only if the light reflex is abnormal",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Always first",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "It helps find light-near dissociation."
+              },
+              {
+                "text": "Only in children",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0036",
-          "q": "Which subjective method suits a patient with cyclophoria?",
+          "q": "A patient's cyclophoria makes monocular refraction unstable. Which approach suits them?",
           "options": [
             {
               "text": "Binocular refraction",
               "correct": true,
-              "feedback": "Yes: occlusion makes cyclophoria manifest."
+              "feedback": "Yes: it keeps the eyes fused."
             },
             {
-              "text": "Monocular refraction",
+              "text": "Monocular refraction with occlusion",
               "correct": false,
-              "feedback": "That's for marked dominance."
+              "feedback": "That disrupts fusion."
+            },
+            {
+              "text": "Retinoscopy only",
+              "correct": false,
+              "feedback": "Not enough."
             },
             {
               "text": "Autorefraction only",
               "correct": false,
-              "feedback": "No."
-            },
-            {
-              "text": "No subjective",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "Binocular refraction avoids occlusion effects, so it suits cyclophoria, latent nystagmus and similar.",
+          "original": {
+            "q": "Which subjective method suits a patient with cyclophoria?",
+            "options": [
+              {
+                "text": "Binocular refraction",
+                "correct": true,
+                "feedback": "Yes: occlusion makes cyclophoria manifest."
+              },
+              {
+                "text": "Monocular refraction",
+                "correct": false,
+                "feedback": "That's for marked dominance."
+              },
+              {
+                "text": "Autorefraction only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "No subjective",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0037",
@@ -13044,30 +14440,57 @@
         },
         {
           "id": "aam-routine-exam-x0039",
-          "q": "What must advice at the end always address?",
+          "q": "A patient came in because of headaches. Your exam finds a small Rx change. What must your advice cover?",
           "options": [
             {
-              "text": "The reason for visit",
+              "text": "Whether the findings explain the headaches and what to do about them",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "The price of lenses",
+              "text": "Only the new Rx",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Address the reason for visit."
             },
             {
-              "text": "The next patient",
+              "text": "Frame styles",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the priority."
             },
             {
-              "text": "The supervisor's opinion",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "Address the patient's concern."
+              "feedback": "Advice is needed."
             }
           ],
-          "explanation": ""
+          "explanation": "Advice must address the reason for visit.",
+          "original": {
+            "q": "What must advice at the end always address?",
+            "options": [
+              {
+                "text": "The reason for visit",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The price of lenses",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The next patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The supervisor's opinion",
+                "correct": false,
+                "feedback": "Address the patient's concern."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0131",
@@ -13098,12 +14521,12 @@
         },
         {
           "id": "aam-routine-exam-x0132",
-          "q": "Which test checks for a relative afferent pupillary defect?",
+          "q": "A patient's left optic nerve may be damaged. Which test shows whether the left pupil responds less to light?",
           "options": [
             {
               "text": "The swinging flashlight test",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: for an RAPD."
             },
             {
               "text": "Cover test",
@@ -13111,17 +14534,44 @@
               "feedback": "Binocular vision."
             },
             {
-              "text": "Duochrome",
+              "text": "Near reflex",
               "correct": false,
-              "feedback": "Refraction."
+              "feedback": "Not this."
             },
             {
-              "text": "JCC",
+              "text": "Ishihara",
               "correct": false,
-              "feedback": "Cylinder."
+              "feedback": "Colour."
             }
           ],
-          "explanation": ""
+          "explanation": "The swinging flashlight test detects a relative afferent pupillary defect.",
+          "original": {
+            "q": "Which test checks for a relative afferent pupillary defect?",
+            "options": [
+              {
+                "text": "The swinging flashlight test",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Cover test",
+                "correct": false,
+                "feedback": "Binocular vision."
+              },
+              {
+                "text": "Duochrome",
+                "correct": false,
+                "feedback": "Refraction."
+              },
+              {
+                "text": "JCC",
+                "correct": false,
+                "feedback": "Cylinder."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-routine-exam-x0133",
@@ -14158,17 +15608,53 @@
       "id": "aam-record-keeping",
       "title": "Record keeping",
       "summary": "The record is a legal document and the basis of continuity of care. Make it clear, complete, contemporaneous and confidential, and structure it so a reader can follow your reasoning.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "GOC outcome 4.12: comply with legal, professional and ethical rules for managing information, including accurate records and confidentiality.",
-        "Records must be clear, accurate, legible, dated, signed and contemporaneous, with history, findings, consent, referrals, advice and who did any delegated task.",
-        "In a GOC enquiry, the record is the first thing examined: if it isn't written down, it wasn't done.",
-        "Know data protection and freedom of information law, and how to handle a patient's Subject Access Request.",
-        "Structure: Subjective findings, Objective findings, Assessment (linking them) and Plan (treatment, advice or referral, with prognosis).",
-        "Electronic records (e.g. Xeyex) are legible and linkable but you can't sketch, and each system takes some learning."
+        {
+          "text": "GOC outcome 4.12: comply with legal, professional and ethical rules for managing information, including accurate records and confidentiality.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Records must be clear, accurate, legible, dated, signed and contemporaneous, with history, findings, consent, referrals, advice and who did any delegated task.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "In a GOC enquiry, the record is the first thing examined: if it isn't written down, it wasn't done.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Know data protection and freedom of information law, and how to handle a patient's Subject Access Request.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Structure: Subjective findings, Objective findings, Assessment (linking them) and Plan (treatment, advice or referral, with prognosis).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Electronic records (e.g. Xeyex) are legible and linkable but you can't sketch, and each system takes some learning.",
+          "priority": "clinical",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Recording a near VA or add without the working distance and range.",
-        "Leaving out negative findings, which then look as if you never asked."
+        {
+          "text": "Recording a near VA or add without the working distance and range.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Leaving out negative findings, which then look as if you never asked.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "flashcards": [
         {
@@ -14183,30 +15669,57 @@
       "mcq": [
         {
           "id": "aam-rk-1",
-          "q": "Which part of a good record links the patient's symptoms with your findings to reach a diagnosis?",
+          "q": "Your record says 'VA 6/18 R, improves with pinhole' and then 'Plan: refer'. Which section is missing?",
           "options": [
             {
-              "text": "Assessment",
+              "text": "Assessment, linking the findings to a diagnosis",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Subjective",
               "correct": false,
-              "feedback": "That's what the patient reports."
+              "feedback": "Present."
             },
             {
               "text": "Objective",
               "correct": false,
-              "feedback": "That's your test results."
+              "feedback": "Present."
             },
             {
               "text": "Plan",
               "correct": false,
-              "feedback": "That's what you'll do about it."
+              "feedback": "Present."
             }
           ],
-          "explanation": "Xeyex record keeping lecture, slides 24–28."
+          "explanation": "In SOAP records, the Assessment links the symptoms and findings to a diagnosis.",
+          "original": {
+            "q": "Which part of a good record links the patient's symptoms with your findings to reach a diagnosis?",
+            "options": [
+              {
+                "text": "Assessment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Subjective",
+                "correct": false,
+                "feedback": "That's what the patient reports."
+              },
+              {
+                "text": "Objective",
+                "correct": false,
+                "feedback": "That's your test results."
+              },
+              {
+                "text": "Plan",
+                "correct": false,
+                "feedback": "That's what you'll do about it."
+              }
+            ],
+            "explanation": "Xeyex record keeping lecture, slides 24–28."
+          },
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0031",
@@ -14642,30 +16155,57 @@
         },
         {
           "id": "aam-record-keeping-x0138",
-          "q": "Records must be",
+          "q": "A colleague writes up the notes from memory at the end of the week. What's the main problem?",
           "options": [
             {
-              "text": "legible, accurate and contemporaneous",
+              "text": "Records must be contemporaneous",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "short only",
+              "text": "Notes should be in pencil",
               "correct": false,
-              "feedback": "No."
+              "feedback": "No: pen."
             },
             {
-              "text": "written later",
+              "text": "Notes should be shorter",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not the issue."
             },
             {
-              "text": "private to the optometrist",
+              "text": "Nothing",
               "correct": false,
-              "feedback": "No."
+              "feedback": "It's a problem."
             }
           ],
-          "explanation": ""
+          "explanation": "Records must be clear, accurate, legible, dated, signed and contemporaneous.",
+          "original": {
+            "q": "Records must be",
+            "options": [
+              {
+                "text": "legible, accurate and contemporaneous",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "short only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "written later",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "private to the optometrist",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-record-keeping-x0139",
@@ -15541,17 +17081,53 @@
       "id": "aam-autorefraction",
       "title": "Automated refraction",
       "summary": "Autorefractors give a quick objective starting point for subjective refraction. Know how they work, when they can mislead, and how to compare their results with subjective findings.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "AaM"
+      },
       "keyPoints": [
-        "They analyse infrared light reflected from the fundus as an internal optometer lens moves, finding the far point with minimal patient input.",
-        "Uses: a starting point for subjective refraction, K readings, and research on accommodation and myopia.",
-        "Main error: proximal accommodation (instrument myopia); fogging targets help.",
-        "Limits: range about ±25 D, minimum pupil about 2.0–2.9 mm, and some can't measure through cataract (SLD sources cope better than LEDs).",
-        "Practice instruments are closed-field; research instruments are open-field.",
-        "Compare results with MSE = sphere + cyl/2 and the vector components J0 and J45; use Bland-Altman plots (difference against mean) for agreement and repeatability."
+        {
+          "text": "They analyse infrared light reflected from the fundus as an internal optometer lens moves, finding the far point with minimal patient input.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Uses: a starting point for subjective refraction, K readings, and research on accommodation and myopia.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Main error: proximal accommodation (instrument myopia); fogging targets help.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Limits: range about ±25 D, minimum pupil about 2.0–2.9 mm, and some can't measure through cataract (SLD sources cope better than LEDs).",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Practice instruments are closed-field; research instruments are open-field.",
+          "priority": "background",
+          "module": "AaM"
+        },
+        {
+          "text": "Compare results with MSE = sphere + cyl/2 and the vector components J0 and J45; use Bland-Altman plots (difference against mean) for agreement and repeatability.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "examTraps": [
-        "Prescribing straight from the autorefractor: it's a starting point.",
-        "Putting the difference on the x-axis of a Bland-Altman plot: the mean goes on x, the difference on y."
+        {
+          "text": "Prescribing straight from the autorefractor: it's a starting point.",
+          "priority": "exam-core",
+          "module": "AaM"
+        },
+        {
+          "text": "Putting the difference on the x-axis of a Bland-Altman plot: the mean goes on x, the difference on y.",
+          "priority": "exam-core",
+          "module": "AaM"
+        }
       ],
       "flashcards": [
         {
@@ -15624,7 +17200,7 @@
         },
         {
           "id": "aam-autorefraction-x0032",
-          "q": "What's the main source of error in autorefraction?",
+          "q": "A young patient's autorefraction is consistently more myopic than subjective. What's the most likely reason?",
           "options": [
             {
               "text": "Proximal accommodation (instrument myopia)",
@@ -15632,76 +17208,157 @@
               "feedback": "Yes."
             },
             {
-              "text": "Too much plus",
+              "text": "Cataract",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not likely."
             },
             {
-              "text": "Corneal staining",
+              "text": "Dry eye",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not likely."
             },
             {
-              "text": "Room lighting only",
+              "text": "Hyperopia",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Proximal accommodation is the main source of error; fogging targets help.",
+          "original": {
+            "q": "What's the main source of error in autorefraction?",
+            "options": [
+              {
+                "text": "Proximal accommodation (instrument myopia)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Too much plus",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Corneal staining",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Room lighting only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0033",
-          "q": "Practice autorefractors are usually",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "closed-field",
+              "text": "Practice autorefractors are usually open-field",
               "correct": true,
-              "feedback": "Yes; research instruments are often open-field."
+              "feedback": "Yes, that's wrong: they're usually closed-field."
             },
             {
-              "text": "open-field",
+              "text": "Research instruments are often open-field",
               "correct": false,
-              "feedback": "That's research instruments."
+              "feedback": "True."
             },
             {
-              "text": "handheld only",
+              "text": "Closed-field designs can cause instrument myopia",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "subjective",
+              "text": "Fogging targets reduce accommodation",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "Practice instruments are closed-field; research instruments are often open-field.",
+          "original": {
+            "q": "Practice autorefractors are usually",
+            "options": [
+              {
+                "text": "closed-field",
+                "correct": true,
+                "feedback": "Yes; research instruments are often open-field."
+              },
+              {
+                "text": "open-field",
+                "correct": false,
+                "feedback": "That's research instruments."
+              },
+              {
+                "text": "handheld only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "subjective",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0034",
-          "q": "What is MSE?",
+          "q": "What's the MSE of +0.75/−2.50 × 180?",
           "options": [
             {
-              "text": "Sphere + cyl ÷ 2",
+              "text": "−0.50 D",
               "correct": true,
-              "feedback": "Yes: the mean spherical equivalent."
+              "feedback": "Yes: +0.75 − 1.25."
             },
             {
-              "text": "Sphere × cyl",
+              "text": "+0.75 D",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That ignores the cylinder."
             },
             {
-              "text": "Sphere only",
+              "text": "−1.75 D",
               "correct": false,
-              "feedback": "No."
+              "feedback": "That subtracts the full cylinder."
             },
             {
-              "text": "Cyl only",
+              "text": "+2.00 D",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Mean spherical equivalent = sphere + cyl ÷ 2.",
+          "original": {
+            "q": "What is MSE?",
+            "options": [
+              {
+                "text": "Sphere + cyl ÷ 2",
+                "correct": true,
+                "feedback": "Yes: the mean spherical equivalent."
+              },
+              {
+                "text": "Sphere × cyl",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Sphere only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Cyl only",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0035",
@@ -15813,7 +17470,7 @@
         },
         {
           "id": "aam-autorefraction-x0039",
-          "q": "Which vector components describe astigmatism for comparisons?",
+          "q": "You want to compare astigmatism between two autorefractors statistically. Which components should you use?",
           "options": [
             {
               "text": "J0 and J45",
@@ -15821,22 +17478,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "MSE and VA",
+              "text": "Sphere and axis",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Axis is circular."
             },
             {
-              "text": "K1 and K2",
+              "text": "Cylinder and axis",
               "correct": false,
-              "feedback": "Those are keratometry."
+              "feedback": "Axis can't be averaged directly."
             },
             {
-              "text": "Sphere and add",
+              "text": "PD",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Power vectors (M, J0, J45) let astigmatism be averaged and compared.",
+          "original": {
+            "q": "Which vector components describe astigmatism for comparisons?",
+            "options": [
+              {
+                "text": "J0 and J45",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "MSE and VA",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "K1 and K2",
+                "correct": false,
+                "feedback": "Those are keratometry."
+              },
+              {
+                "text": "Sphere and add",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0131",
@@ -16110,30 +17794,57 @@
         },
         {
           "id": "aam-autorefraction-x0271",
-          "q": "Autorefractors usually measure with",
+          "q": "Why must autorefractors correct their readings before printing them?",
           "options": [
             {
-              "text": "infrared light",
+              "text": "They measure with infrared light, which the eye focuses differently from visible light",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "ultraviolet light",
+              "text": "They measure with UV",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "visible red only",
+              "text": "They measure IOP",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "sound",
+              "text": "They don't",
               "correct": false,
-              "feedback": "No."
+              "feedback": "They do."
             }
           ],
-          "explanation": ""
+          "explanation": "Autorefractors use infrared light, so results are adjusted for the eye's chromatic aberration.",
+          "original": {
+            "q": "Autorefractors usually measure with",
+            "options": [
+              {
+                "text": "infrared light",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "ultraviolet light",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "visible red only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "sound",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "aam-autorefraction-x0272",

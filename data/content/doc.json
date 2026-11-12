@@ -6,19 +6,63 @@
       "id": "doc-what-it-requires",
       "title": "What the professional duty of candour requires",
       "summary": "Every healthcare professional must be open and honest with patients when something goes wrong with their care that causes, or could cause, harm or distress. The UK healthcare regulators (including the GOC) set this out together in a joint statement on the professional duty of candour.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "DoC"
+      },
       "keyPoints": [
-        "Tell the patient (or their carer/advocate) when something has gone wrong.",
-        "Apologise.",
-        "Offer an appropriate remedy or support to put matters right if possible.",
-        "Explain fully the short- and long-term effects of what has happened.",
-        "Be open and honest with colleagues, employers and regulators; take part in reviews and investigations.",
-        "Report adverse incidents and near misses through the right systems so lessons are learned.",
-        "The professional duty applies to individuals; there's also a separate statutory duty of candour for organisations (e.g. Regulation 20 in England, overseen by the CQC)."
+        {
+          "text": "Tell the patient (or their carer/advocate) when something has gone wrong.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Apologise.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Offer an appropriate remedy or support to put matters right if possible.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Explain fully the short- and long-term effects of what has happened.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Be open and honest with colleagues, employers and regulators; take part in reviews and investigations.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Report adverse incidents and near misses through the right systems so lessons are learned.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "The professional duty applies to individuals; there's also a separate statutory duty of candour for organisations (e.g. Regulation 20 in England, overseen by the CQC).",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "examTraps": [
-        "Thinking candour only applies when actual harm occurs — it includes potential harm and distress.",
-        "Mixing up the professional (individual) duty with the statutory (organisational) duty.",
-        "Believing an apology admits legal liability."
+        {
+          "text": "Thinking candour only applies when actual harm occurs — it includes potential harm and distress.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Mixing up the professional (individual) duty with the statutory (organisational) duty.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Believing an apology admits legal liability.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "diagram": {
         "id": "candour-steps",
@@ -34,11 +78,15 @@
       "goDeeper": [
         {
           "heading": "Examples in optometry",
-          "body": "Wrong prescription dispensed; lenses glazed with the wrong axis; a missed or delayed referral; a corneal abrasion from contact tonometry; an allergic reaction to drops; records sent to the wrong patient. Each needs honesty with the patient, an apology, practical steps to put it right and reporting."
+          "body": "Wrong prescription dispensed; lenses glazed with the wrong axis; a missed or delayed referral; a corneal abrasion from contact tonometry; an allergic reaction to drops; records sent to the wrong patient. Each needs honesty with the patient, an apology, practical steps to put it right and reporting.",
+          "priority": "exam-core",
+          "module": "DoC"
         },
         {
           "heading": "As a student",
-          "body": "If something goes wrong in clinic, tell your supervisor straight away — don't try to hide or fix it alone. The supervisor will help with talking to the patient and recording it. Being candid as a student is part of the GOC Standards for Optical Students."
+          "body": "If something goes wrong in clinic, tell your supervisor straight away — don't try to hide or fix it alone. The supervisor will help with talking to the patient and recording it. Being candid as a student is part of the GOC Standards for Optical Students.",
+          "priority": "exam-core",
+          "module": "DoC"
         }
       ],
       "flashcards": [
@@ -144,17 +192,17 @@
         },
         {
           "id": "doc-what-it-requires-x0073",
-          "q": "Who else must you be honest with?",
+          "q": "You discover a colleague's mistake was entered on the wrong patient's record. Besides the patient, who must you be honest with?",
           "options": [
             {
-              "text": "Colleagues, employers and regulators",
+              "text": "Colleagues, your employer and, if required, the regulator",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Only the patient",
+              "text": "Nobody else",
               "correct": false,
-              "feedback": "Others too."
+              "feedback": "Be open more widely."
             },
             {
               "text": "Only your friends",
@@ -162,12 +210,39 @@
               "feedback": "No."
             },
             {
-              "text": "Nobody",
+              "text": "Only the patient's family",
               "correct": false,
-              "feedback": "Be honest."
+              "feedback": "Not instead of these."
             }
           ],
-          "explanation": ""
+          "explanation": "Be open and honest with colleagues, employers and regulators, and take part in reviews.",
+          "original": {
+            "q": "Who else must you be honest with?",
+            "options": [
+              {
+                "text": "Colleagues, employers and regulators",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Only the patient",
+                "correct": false,
+                "feedback": "Others too."
+              },
+              {
+                "text": "Only your friends",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Nobody",
+                "correct": false,
+                "feedback": "Be honest."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-what-it-requires-x0074",
@@ -225,57 +300,111 @@
         },
         {
           "id": "doc-what-it-requires-x0076",
-          "q": "The statutory duty of candour applies to",
+          "q": "Which statement about the duty of candour is wrong?",
           "options": [
             {
-              "text": "organisations",
+              "text": "The statutory duty applies to individual students",
               "correct": true,
-              "feedback": "Yes; the professional duty applies to individuals."
+              "feedback": "Yes, that's wrong: it applies to organisations."
             },
             {
-              "text": "students only",
+              "text": "The professional duty applies to individual registrants",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "patients",
+              "text": "Both require openness when things go wrong",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "nobody",
+              "text": "Students should tell their supervisor",
               "correct": false,
-              "feedback": "It exists."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The professional duty applies to individuals; the statutory duty applies to organisations.",
+          "original": {
+            "q": "The statutory duty of candour applies to",
+            "options": [
+              {
+                "text": "organisations",
+                "correct": true,
+                "feedback": "Yes; the professional duty applies to individuals."
+              },
+              {
+                "text": "students only",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "patients",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nobody",
+                "correct": false,
+                "feedback": "It exists."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-what-it-requires-x0077",
-          "q": "What should you offer if possible?",
+          "q": "A patient's new glasses had the wrong axis. Besides telling and apologising, what should you offer?",
           "options": [
             {
-              "text": "A remedy or support to put things right",
+              "text": "A remedy, such as remaking the glasses, and support",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Nothing",
+              "text": "Nothing more",
               "correct": false,
-              "feedback": "Offer support."
+              "feedback": "Offer to put it right."
             },
             {
-              "text": "A discount only",
+              "text": "A discount on their next frame only",
               "correct": false,
               "feedback": "Not the point."
             },
             {
-              "text": "A different optometrist without explanation",
+              "text": "A different optometrist",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not necessarily."
             }
           ],
-          "explanation": ""
+          "explanation": "Offer an appropriate remedy or support to put matters right if possible.",
+          "original": {
+            "q": "What should you offer if possible?",
+            "options": [
+              {
+                "text": "A remedy or support to put things right",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Offer support."
+              },
+              {
+                "text": "A discount only",
+                "correct": false,
+                "feedback": "Not the point."
+              },
+              {
+                "text": "A different optometrist without explanation",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-what-it-requires-x0078",
@@ -333,30 +462,57 @@
         },
         {
           "id": "doc-what-it-requires-x0181",
-          "q": "Who issued the joint statement on the professional duty of candour (2014)?",
+          "q": "Which statement is wrong?",
           "options": [
             {
-              "text": "The healthcare regulators, including the GOC",
+              "text": "The 2014 joint statement on candour came only from the NHS",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes, that's wrong: it came from the healthcare regulators, including the GOC."
             },
             {
-              "text": "The NHS alone",
+              "text": "The GOC signed it",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Patients",
+              "text": "It applies to optometrists",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             },
             {
-              "text": "Insurers",
+              "text": "It sets out a professional duty",
               "correct": false,
-              "feedback": "No."
+              "feedback": "True."
             }
           ],
-          "explanation": ""
+          "explanation": "The joint statement on the professional duty of candour (2014) was issued by the healthcare regulators, including the GOC.",
+          "original": {
+            "q": "Who issued the joint statement on the professional duty of candour (2014)?",
+            "options": [
+              {
+                "text": "The healthcare regulators, including the GOC",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The NHS alone",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Patients",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Insurers",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-what-it-requires-x0182",
@@ -1429,19 +1585,63 @@
       "id": "doc-apologising",
       "title": "Apologising and explaining when things go wrong",
       "summary": "A good apology is prompt, sincere and specific, and comes with a clear explanation and a plan. Saying sorry is not an admission of legal liability. Patients mostly want to know what happened, that someone cares, and that it won't happen again.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "DoC"
+      },
       "keyPoints": [
-        "Apologise as soon as practical, ideally face to face, in a private space.",
-        "Be specific: 'I'm sorry that your glasses were made with the wrong prescription.'",
-        "Explain what happened in plain language, without jargon or blame.",
-        "Say what you'll do now and what support is available.",
-        "Listen and answer questions; give a point of contact.",
-        "In England and Wales, an apology doesn't of itself amount to an admission of negligence (Compensation Act 2006, s.2).",
-        "Record the conversation and follow up as promised."
+        {
+          "text": "Apologise as soon as practical, ideally face to face, in a private space.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Be specific: 'I'm sorry that your glasses were made with the wrong prescription.'",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Explain what happened in plain language, without jargon or blame.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Say what you'll do now and what support is available.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Listen and answer questions; give a point of contact.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "In England and Wales, an apology doesn't of itself amount to an admission of negligence (Compensation Act 2006, s.2).",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Record the conversation and follow up as promised.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "examTraps": [
-        "A non-apology ('I'm sorry you feel that way').",
-        "Blaming colleagues or the lab in front of the patient.",
-        "Promising outcomes you can't guarantee."
+        {
+          "text": "A non-apology ('I'm sorry you feel that way').",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Blaming colleagues or the lab in front of the patient.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Promising outcomes you can't guarantee.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "diagram": {
         "id": "apology-structure",
@@ -1456,11 +1656,15 @@
       "goDeeper": [
         {
           "heading": "An example conversation",
-          "body": "'Mrs Ahmed, thank you for coming back in. I'm sorry — your new glasses were made with the wrong strength in the right lens, which is why things looked blurry. That was our error. We'll remake them as a priority at no cost, and I'll check them myself before you collect. In the meantime your old glasses are safe to use. Do you have any questions? Here's my direct number if anything else worries you.'"
+          "body": "'Mrs Ahmed, thank you for coming back in. I'm sorry — your new glasses were made with the wrong strength in the right lens, which is why things looked blurry. That was our error. We'll remake them as a priority at no cost, and I'll check them myself before you collect. In the meantime your old glasses are safe to use. Do you have any questions? Here's my direct number if anything else worries you.'",
+          "priority": "exam-core",
+          "module": "DoC"
         },
         {
           "heading": "After the conversation",
-          "body": "Record what happened, what you said and agreed, and report the incident through your practice's system. Reflect on it (what caused it, what will prevent it) — it's also good material for CPD reflection once you're qualified."
+          "body": "Record what happened, what you said and agreed, and report the incident through your practice's system. Reflect on it (what caused it, what will prevent it) — it's also good material for CPD reflection once you're qualified.",
+          "priority": "exam-core",
+          "module": "DoC"
         }
       ],
       "flashcards": [
@@ -1512,7 +1716,7 @@
         },
         {
           "id": "doc-apologising-x0071",
-          "q": "When should you apologise?",
+          "q": "A patient's referral was delayed by a week. When and how should you apologise?",
           "options": [
             {
               "text": "As soon as practical, ideally face to face in private",
@@ -1520,56 +1724,110 @@
               "feedback": "Yes."
             },
             {
-              "text": "Never",
+              "text": "After the investigation finishes months later",
               "correct": false,
-              "feedback": "Always apologise."
+              "feedback": "Don't wait."
             },
             {
-              "text": "Only by letter months later",
+              "text": "By text only",
               "correct": false,
-              "feedback": "Too late."
+              "feedback": "Not ideal."
             },
             {
-              "text": "Only if sued",
+              "text": "Only if they complain",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Apologise as soon as practical, ideally face to face, in a private space.",
+          "original": {
+            "q": "When should you apologise?",
+            "options": [
+              {
+                "text": "As soon as practical, ideally face to face in private",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Never",
+                "correct": false,
+                "feedback": "Always apologise."
+              },
+              {
+                "text": "Only by letter months later",
+                "correct": false,
+                "feedback": "Too late."
+              },
+              {
+                "text": "Only if sued",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0072",
-          "q": "Which is a good, specific apology?",
+          "q": "Which apology is best?",
           "options": [
             {
               "text": "'I'm sorry your glasses were made with the wrong prescription'",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: specific."
             },
             {
-              "text": "'Sorry if you feel upset'",
+              "text": "'Sorry for any inconvenience'",
               "correct": false,
               "feedback": "Vague."
             },
             {
-              "text": "'These things happen'",
+              "text": "'Sorry if you feel upset'",
               "correct": false,
-              "feedback": "Dismissive."
+              "feedback": "Deflecting."
             },
             {
-              "text": "'It wasn't my fault'",
+              "text": "'Mistakes happen'",
               "correct": false,
-              "feedback": "Blaming."
+              "feedback": "Dismissive."
             }
           ],
-          "explanation": ""
+          "explanation": "Be specific about what went wrong.",
+          "original": {
+            "q": "Which is a good, specific apology?",
+            "options": [
+              {
+                "text": "'I'm sorry your glasses were made with the wrong prescription'",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "'Sorry if you feel upset'",
+                "correct": false,
+                "feedback": "Vague."
+              },
+              {
+                "text": "'These things happen'",
+                "correct": false,
+                "feedback": "Dismissive."
+              },
+              {
+                "text": "'It wasn't my fault'",
+                "correct": false,
+                "feedback": "Blaming."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0073",
-          "q": "In England and Wales, does an apology admit negligence?",
+          "q": "A colleague won't apologise because 'it'll count as admitting negligence'. In England and Wales, is that right?",
           "options": [
             {
-              "text": "No, not of itself (Compensation Act 2006)",
+              "text": "No: an apology doesn't of itself amount to an admission of negligence (Compensation Act 2006)",
               "correct": true,
               "feedback": "Yes."
             },
@@ -1589,7 +1847,34 @@
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "In England and Wales, an apology doesn't of itself admit negligence (Compensation Act 2006).",
+          "original": {
+            "q": "In England and Wales, does an apology admit negligence?",
+            "options": [
+              {
+                "text": "No, not of itself (Compensation Act 2006)",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Yes, always",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only in writing",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Only for students",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0074",
@@ -1620,10 +1905,10 @@
         },
         {
           "id": "doc-apologising-x0075",
-          "q": "What should you give the patient?",
+          "q": "At the end of an apology conversation, the patient asks who to call with questions. What should you give them?",
           "options": [
             {
-              "text": "A point of contact",
+              "text": "A named point of contact",
               "correct": true,
               "feedback": "Yes."
             },
@@ -1633,44 +1918,98 @@
               "feedback": "Give a contact."
             },
             {
-              "text": "Your personal phone",
+              "text": "The GOC's address only",
               "correct": false,
-              "feedback": "Not appropriate."
+              "feedback": "Not the first contact."
             },
             {
-              "text": "A form to sign away rights",
+              "text": "A leaflet with no names",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not enough."
             }
           ],
-          "explanation": ""
+          "explanation": "Give the patient a point of contact.",
+          "original": {
+            "q": "What should you give the patient?",
+            "options": [
+              {
+                "text": "A point of contact",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Give a contact."
+              },
+              {
+                "text": "Your personal phone",
+                "correct": false,
+                "feedback": "Not appropriate."
+              },
+              {
+                "text": "A form to sign away rights",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0076",
-          "q": "What language should you use?",
+          "q": "Which explanation is best when telling a patient about an error?",
           "options": [
             {
-              "text": "Plain language without jargon or blame",
+              "text": "'The lab made your lenses at the wrong angle for your astigmatism, which is why things looked tilted'",
               "correct": true,
-              "feedback": "Yes."
+              "feedback": "Yes: plain language."
             },
             {
-              "text": "Technical terms",
+              "text": "'There was an axis transposition error in the minus cylinder'",
               "correct": false,
-              "feedback": "Avoid."
+              "feedback": "Jargon."
             },
             {
-              "text": "Legal language",
+              "text": "'The lab messed up, not me'",
               "correct": false,
-              "feedback": "Avoid."
+              "feedback": "Blaming."
             },
             {
-              "text": "Whatever is quickest",
+              "text": "'It's complicated'",
               "correct": false,
-              "feedback": "Be clear."
+              "feedback": "Not helpful."
             }
           ],
-          "explanation": ""
+          "explanation": "Explain what happened in plain language, without jargon or blame.",
+          "original": {
+            "q": "What language should you use?",
+            "options": [
+              {
+                "text": "Plain language without jargon or blame",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Technical terms",
+                "correct": false,
+                "feedback": "Avoid."
+              },
+              {
+                "text": "Legal language",
+                "correct": false,
+                "feedback": "Avoid."
+              },
+              {
+                "text": "Whatever is quickest",
+                "correct": false,
+                "feedback": "Be clear."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0077",
@@ -1701,7 +2040,7 @@
         },
         {
           "id": "doc-apologising-x0078",
-          "q": "What should you do after the conversation?",
+          "q": "You promised a patient you'd call after checking with the lab. What's the most important thing now?",
           "options": [
             {
               "text": "Follow up as promised",
@@ -1709,22 +2048,49 @@
               "feedback": "Yes."
             },
             {
+              "text": "Wait for them to call",
+              "correct": false,
+              "feedback": "No."
+            },
+            {
               "text": "Forget it",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Avoid the patient",
+              "text": "Ask a receptionist to say nothing",
               "correct": false,
               "feedback": "No."
-            },
-            {
-              "text": "Close the case immediately",
-              "correct": false,
-              "feedback": "Follow up."
             }
           ],
-          "explanation": ""
+          "explanation": "Record the conversation and follow up as promised.",
+          "original": {
+            "q": "What should you do after the conversation?",
+            "options": [
+              {
+                "text": "Follow up as promised",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Forget it",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Avoid the patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Close the case immediately",
+                "correct": false,
+                "feedback": "Follow up."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0079",
@@ -1755,12 +2121,12 @@
         },
         {
           "id": "doc-apologising-x0181",
-          "q": "Which is a poor apology?",
+          "q": "Which response to an upset patient is a poor apology?",
           "options": [
             {
               "text": "'I'm sorry you feel that way'",
               "correct": true,
-              "feedback": "Yes: it deflects."
+              "feedback": "Yes: it deflects responsibility."
             },
             {
               "text": "'I'm sorry this happened'",
@@ -1768,17 +2134,44 @@
               "feedback": "Fine."
             },
             {
-              "text": "'I'm sorry we gave the wrong axis'",
+              "text": "'I'm sorry we gave the wrong prescription'",
               "correct": false,
               "feedback": "Good."
             },
             {
-              "text": "'I apologise for the error'",
+              "text": "'I apologise for the delay in your referral'",
               "correct": false,
-              "feedback": "Fine."
+              "feedback": "Good."
             }
           ],
-          "explanation": ""
+          "explanation": "Avoid conditional or deflecting apologies.",
+          "original": {
+            "q": "Which is a poor apology?",
+            "options": [
+              {
+                "text": "'I'm sorry you feel that way'",
+                "correct": true,
+                "feedback": "Yes: it deflects."
+              },
+              {
+                "text": "'I'm sorry this happened'",
+                "correct": false,
+                "feedback": "Fine."
+              },
+              {
+                "text": "'I'm sorry we gave the wrong axis'",
+                "correct": false,
+                "feedback": "Good."
+              },
+              {
+                "text": "'I apologise for the error'",
+                "correct": false,
+                "feedback": "Fine."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0182",
@@ -1998,30 +2391,57 @@
         },
         {
           "id": "doc-apologising-x01810",
-          "q": "An apology should be",
+          "q": "Which describes a good apology?",
           "options": [
             {
-              "text": "sincere and specific",
+              "text": "Sincere and specific, followed by what will happen next",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "vague",
+              "text": "Vague and quick",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "conditional",
+              "text": "Conditional on the patient's feelings",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "forced",
+              "text": "Delivered only by letter months later",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "An apology should be sincere and specific, with an explanation and next steps.",
+          "original": {
+            "q": "An apology should be",
+            "options": [
+              {
+                "text": "sincere and specific",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "vague",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "conditional",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "forced",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-apologising-x0431",
@@ -2851,19 +3271,63 @@
       "id": "doc-raising-concerns",
       "title": "Raising concerns",
       "summary": "If you're worried that patients could be put at risk — by a colleague, a system, or a practice — you have a professional duty to raise it. Start with the right person locally, keep records, and know where to go if that doesn't work. Whistleblowers are legally protected.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "DoC"
+      },
       "keyPoints": [
-        "You must raise concerns about patient safety, even as a student.",
-        "Start locally: your supervisor, clinic lead or manager; at university, the clinic or programme lead.",
-        "If immediate patient safety is at risk, act straight away.",
-        "Write down what you saw, when, and who you told.",
-        "If local routes fail or aren't appropriate, escalate (e.g. employer's senior management, NHS Freedom to Speak Up Guardians, the regulator).",
-        "The Public Interest Disclosure Act 1998 protects workers who raise genuine concerns in the public interest.",
-        "Concerns about yourself (health, competence) should also be raised — seeking help is professional."
+        {
+          "text": "You must raise concerns about patient safety, even as a student.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Start locally: your supervisor, clinic lead or manager; at university, the clinic or programme lead.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "If immediate patient safety is at risk, act straight away.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Write down what you saw, when, and who you told.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "If local routes fail or aren't appropriate, escalate (e.g. employer's senior management, NHS Freedom to Speak Up Guardians, the regulator).",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "The Public Interest Disclosure Act 1998 protects workers who raise genuine concerns in the public interest.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Concerns about yourself (health, competence) should also be raised — seeking help is professional.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "examTraps": [
-        "Going straight to social media or the press.",
-        "Waiting until you have 'proof' when patients are at risk.",
-        "Thinking students don't have this duty."
+        {
+          "text": "Going straight to social media or the press.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Waiting until you have 'proof' when patients are at risk.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Thinking students don't have this duty.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "diagram": {
         "id": "raising-concerns-ladder",
@@ -2878,11 +3342,15 @@
       "goDeeper": [
         {
           "heading": "A student example",
-          "body": "You notice a practitioner at a placement repeatedly skipping fundus examination on patients with diabetes. Note what you've seen (dates, no patient-identifiable details outside records). Raise it with your placement supervisor or university placement lead. They're there to help you handle it safely and fairly."
+          "body": "You notice a practitioner at a placement repeatedly skipping fundus examination on patients with diabetes. Note what you've seen (dates, no patient-identifiable details outside records). Raise it with your placement supervisor or university placement lead. They're there to help you handle it safely and fairly.",
+          "priority": "exam-core",
+          "module": "DoC"
         },
         {
           "heading": "Why speaking up matters",
-          "body": "Many serious failures in healthcare were noticed by someone who felt unable to speak. A culture where people can raise concerns early — without blame — protects patients and staff. Raising a concern is about safety, not about getting someone into trouble."
+          "body": "Many serious failures in healthcare were noticed by someone who felt unable to speak. A culture where people can raise concerns early — without blame — protects patients and staff. Raising a concern is about safety, not about getting someone into trouble.",
+          "priority": "background",
+          "module": "DoC"
         }
       ],
       "flashcards": [
@@ -2961,7 +3429,7 @@
         },
         {
           "id": "doc-raising-concerns-x0072",
-          "q": "Where should you usually start?",
+          "q": "On placement you notice equipment isn't being cleaned between patients. Where should you usually start?",
           "options": [
             {
               "text": "Locally: your supervisor, clinic lead or manager",
@@ -2969,9 +3437,9 @@
               "feedback": "Yes."
             },
             {
-              "text": "The newspapers",
+              "text": "The national press",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Last resort."
             },
             {
               "text": "Social media",
@@ -2979,43 +3447,97 @@
               "feedback": "No."
             },
             {
-              "text": "The GOC first always",
+              "text": "The police",
               "correct": false,
-              "feedback": "Start locally unless inappropriate."
+              "feedback": "Not for this."
             }
           ],
-          "explanation": ""
+          "explanation": "Start locally unless that isn't appropriate.",
+          "original": {
+            "q": "Where should you usually start?",
+            "options": [
+              {
+                "text": "Locally: your supervisor, clinic lead or manager",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The newspapers",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Social media",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The GOC first always",
+                "correct": false,
+                "feedback": "Start locally unless inappropriate."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0073",
-          "q": "If patient safety is at immediate risk, you should",
+          "q": "You see a colleague about to instil the wrong drug into a child's eye. What do you do?",
           "options": [
             {
-              "text": "act straight away",
+              "text": "Act straight away to stop it, then report",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "wait for the next meeting",
+              "text": "Write it down for later",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Act first."
             },
             {
-              "text": "write a letter",
+              "text": "Email your tutor next week",
               "correct": false,
-              "feedback": "Too slow."
+              "feedback": "Too late."
             },
             {
-              "text": "do nothing",
+              "text": "Say nothing",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "If patient safety is at immediate risk, act straight away.",
+          "original": {
+            "q": "If patient safety is at immediate risk, you should",
+            "options": [
+              {
+                "text": "act straight away",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "wait for the next meeting",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "write a letter",
+                "correct": false,
+                "feedback": "Too slow."
+              },
+              {
+                "text": "do nothing",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0074",
-          "q": "What should you write down?",
+          "q": "After raising a concern, what should your own notes record?",
           "options": [
             {
               "text": "What you saw, when, and who you told",
@@ -3023,26 +3545,53 @@
               "feedback": "Yes."
             },
             {
+              "text": "Your opinion of the colleague's personality",
+              "correct": false,
+              "feedback": "Not relevant."
+            },
+            {
               "text": "Nothing",
               "correct": false,
-              "feedback": "Keep notes."
+              "feedback": "Keep a record."
             },
             {
-              "text": "Only your opinion",
+              "text": "Rumours you've heard",
               "correct": false,
-              "feedback": "Facts too."
-            },
-            {
-              "text": "Gossip",
-              "correct": false,
-              "feedback": "No."
+              "feedback": "Stick to facts."
             }
           ],
-          "explanation": ""
+          "explanation": "Write down what you saw, when, and who you told.",
+          "original": {
+            "q": "What should you write down?",
+            "options": [
+              {
+                "text": "What you saw, when, and who you told",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Keep notes."
+              },
+              {
+                "text": "Only your opinion",
+                "correct": false,
+                "feedback": "Facts too."
+              },
+              {
+                "text": "Gossip",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0075",
-          "q": "Which law protects workers raising genuine concerns?",
+          "q": "An optometrist fears being sacked for reporting unsafe practice. Which law protects workers who raise genuine concerns?",
           "options": [
             {
               "text": "The Public Interest Disclosure Act 1998",
@@ -3050,22 +3599,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "The Opticians Act",
+              "text": "The Equality Act 2010",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Discrimination."
             },
             {
-              "text": "The Equality Act",
+              "text": "The Opticians Act 1989",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Regulation."
             },
             {
-              "text": "The Data Protection Act",
+              "text": "GDPR",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Data."
             }
           ],
-          "explanation": ""
+          "explanation": "The Public Interest Disclosure Act 1998 protects workers raising genuine concerns in the public interest.",
+          "original": {
+            "q": "Which law protects workers raising genuine concerns?",
+            "options": [
+              {
+                "text": "The Public Interest Disclosure Act 1998",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The Opticians Act",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The Equality Act",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The Data Protection Act",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0076",
@@ -3096,30 +3672,57 @@
         },
         {
           "id": "doc-raising-concerns-x0077",
-          "q": "Concerns about your own health or competence should be",
+          "q": "A student notices their own anxiety is affecting their clinical decisions. What should they do?",
           "options": [
             {
-              "text": "raised: seeking help is professional",
+              "text": "Raise it and seek help: that's professional",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "hidden",
+              "text": "Hide it",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "ignored",
+              "text": "Stop attending without telling anyone",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "only told to friends",
+              "text": "Wait until something goes wrong",
               "correct": false,
-              "feedback": "Raise them properly."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Concerns about your own health or competence should also be raised.",
+          "original": {
+            "q": "Concerns about your own health or competence should be",
+            "options": [
+              {
+                "text": "raised: seeking help is professional",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "hidden",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "ignored",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "only told to friends",
+                "correct": false,
+                "feedback": "Raise them properly."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0078",
@@ -3312,30 +3915,57 @@
         },
         {
           "id": "doc-raising-concerns-x0186",
-          "q": "What comes first: patient safety or loyalty to colleagues?",
+          "q": "A friend asks you not to report their repeated unsafe practice. What should guide you?",
           "options": [
             {
-              "text": "Patient safety",
+              "text": "Patient safety comes before loyalty to colleagues",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "Loyalty",
+              "text": "Loyalty to your friend",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Neither",
+              "text": "Avoiding conflict",
               "correct": false,
-              "feedback": "Safety."
+              "feedback": "Not if patients are at risk."
             },
             {
-              "text": "Both equally",
+              "text": "Your career",
               "correct": false,
-              "feedback": "Safety first."
+              "feedback": "Not first."
             }
           ],
-          "explanation": ""
+          "explanation": "Patient safety comes first.",
+          "original": {
+            "q": "What comes first: patient safety or loyalty to colleagues?",
+            "options": [
+              {
+                "text": "Patient safety",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Loyalty",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Neither",
+                "correct": false,
+                "feedback": "Safety."
+              },
+              {
+                "text": "Both equally",
+                "correct": false,
+                "feedback": "Safety first."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x0187",
@@ -3852,30 +4482,57 @@
         },
         {
           "id": "doc-raising-concerns-x04316",
-          "q": "Concerns about a student's behaviour on placement should go to",
+          "q": "A student on placement is repeatedly rude to patients. Who should a fellow student tell?",
           "options": [
             {
-              "text": "the placement supervisor and university",
+              "text": "The placement supervisor and the university",
               "correct": true,
               "feedback": "Yes."
             },
             {
-              "text": "social media",
+              "text": "The patients",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "the patient",
+              "text": "Social media",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "nobody",
+              "text": "Nobody",
               "correct": false,
               "feedback": "Raise it."
             }
           ],
-          "explanation": ""
+          "explanation": "Concerns about a student's behaviour on placement go to the supervisor and university.",
+          "original": {
+            "q": "Concerns about a student's behaviour on placement should go to",
+            "options": [
+              {
+                "text": "the placement supervisor and university",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "social media",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "the patient",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "nobody",
+                "correct": false,
+                "feedback": "Raise it."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-raising-concerns-x04317",
@@ -4273,27 +4930,71 @@
       "id": "doc-edi",
       "title": "Equality, diversity and inclusion",
       "summary": "Your legal and professional duties not to discriminate, how unconscious bias creeps into care, and the reasonable adjustments that make a practice accessible.",
+      "summaryMeta": {
+        "priority": "exam-core",
+        "module": "DoC"
+      },
       "keyPoints": [
-        "GOC standard 13.2: promote equality, value diversity, be inclusive and don't discriminate on any protected characteristic.",
-        "Equality Act 2010, nine protected characteristics: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, sexual orientation.",
-        "College of Optometrists guidance: don't discriminate against patients (D9) or colleagues (C165). An employer who fails to protect a colleague from racist comments by staff or patients may breach C165.",
-        "NHS contracts carry equality obligations, such as the Workforce Race Equality Standard.",
-        "Unconscious bias: understand its impact, use logical checks on yourself, and don't become complacent.",
-        "Section 20 reasonable adjustments: step-free access, easy-read letters, priority or longer appointments, a quiet waiting space, hearing loops, communication charts for dementia."
+        {
+          "text": "GOC standard 13.2: promote equality, value diversity, be inclusive and don't discriminate on any protected characteristic.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Equality Act 2010, nine protected characteristics: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, sexual orientation.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "College of Optometrists guidance: don't discriminate against patients (D9) or colleagues (C165). An employer who fails to protect a colleague from racist comments by staff or patients may breach C165.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "NHS contracts carry equality obligations, such as the Workforce Race Equality Standard.",
+          "priority": "background",
+          "module": "DoC"
+        },
+        {
+          "text": "Unconscious bias: understand its impact, use logical checks on yourself, and don't become complacent.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Section 20 reasonable adjustments: step-free access, easy-read letters, priority or longer appointments, a quiet waiting space, hearing loops, communication charts for dementia.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "examTraps": [
-        "Listing 'gender' instead of 'sex' and 'gender reassignment' as the Act's protected characteristics.",
-        "Using a family member as interpreter without thinking about whether consent is truly informed.",
-        "Treating everyone the same and calling it equality: reasonable adjustments mean treating people differently so they get the same access."
+        {
+          "text": "Listing 'gender' instead of 'sex' and 'gender reassignment' as the Act's protected characteristics.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Using a family member as interpreter without thinking about whether consent is truly informed.",
+          "priority": "exam-core",
+          "module": "DoC"
+        },
+        {
+          "text": "Treating everyone the same and calling it equality: reasonable adjustments mean treating people differently so they get the same access.",
+          "priority": "exam-core",
+          "module": "DoC"
+        }
       ],
       "goDeeper": [
         {
           "heading": "Case: a transgender patient",
-          "body": "A 20-year-old's record says female; he tells you he is transgender and uses he/him, and the receptionist called out his old name. In the room: apologise, use his name and pronouns, and check how he'd like to be recorded. Longer term: update records and systems, train staff, and challenge inappropriate language when you hear it."
+          "body": "A 20-year-old's record says female; he tells you he is transgender and uses he/him, and the receptionist called out his old name. In the room: apologise, use his name and pronouns, and check how he'd like to be recorded. Longer term: update records and systems, train staff, and challenge inappropriate language when you hear it.",
+          "priority": "exam-core",
+          "module": "DoC"
         },
         {
           "heading": "Case: language and cultural beliefs",
-          "body": "A 65-year-old woman new to the UK speaks little English; her son interprets and she is afraid of drops that will 'harm her vision'. Think about professional interpreters, explaining what drops are for (and that they are optional), checking understanding before consent, and whether the son is filtering what she says or hears."
+          "body": "A 65-year-old woman new to the UK speaks little English; her son interprets and she is afraid of drops that will 'harm her vision'. Think about professional interpreters, explaining what drops are for (and that they are optional), checking understanding before consent, and whether the son is filtering what she says or hears.",
+          "priority": "exam-core",
+          "module": "DoC"
         }
       ],
       "flashcards": [
@@ -4367,7 +5068,7 @@
         },
         {
           "id": "doc-edi-x0432",
-          "q": "Which is a protected characteristic?",
+          "q": "A practice declines to offer a pregnant optometrist a placement because she's pregnant. Which protected characteristic is involved?",
           "options": [
             {
               "text": "Pregnancy and maternity",
@@ -4375,26 +5076,53 @@
               "feedback": "Yes."
             },
             {
-              "text": "Hair colour",
+              "text": "Age",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Football team",
+              "text": "Disability",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not necessarily."
             },
             {
-              "text": "Income",
+              "text": "Religion",
               "correct": false,
-              "feedback": "Not protected."
+              "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Pregnancy and maternity is one of the nine protected characteristics.",
+          "original": {
+            "q": "Which is a protected characteristic?",
+            "options": [
+              {
+                "text": "Pregnancy and maternity",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Hair colour",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Football team",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Income",
+                "correct": false,
+                "feedback": "Not protected."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-edi-x0433",
-          "q": "Which is a protected characteristic?",
+          "q": "A patient who has transitioned is repeatedly misgendered by staff on purpose. Which protected characteristic is involved?",
           "options": [
             {
               "text": "Gender reassignment",
@@ -4402,22 +5130,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "Shoe size",
+              "text": "Marriage",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Job title",
+              "text": "Age",
               "correct": false,
               "feedback": "No."
             },
             {
-              "text": "Hobby",
+              "text": "Pregnancy",
               "correct": false,
               "feedback": "No."
             }
           ],
-          "explanation": ""
+          "explanation": "Gender reassignment is a protected characteristic under the Equality Act 2010.",
+          "original": {
+            "q": "Which is a protected characteristic?",
+            "options": [
+              {
+                "text": "Gender reassignment",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Shoe size",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Job title",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Hobby",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-edi-x0434",
@@ -5231,17 +5986,17 @@
         },
         {
           "id": "doc-edi-x0074",
-          "q": "Which section of the Equality Act covers reasonable adjustments?",
+          "q": "A wheelchair user can't reach your consulting room. Under which section of the Equality Act must you consider changes such as step-free access?",
           "options": [
             {
-              "text": "Section 20",
+              "text": "Section 20 (reasonable adjustments)",
               "correct": true,
               "feedback": "Yes."
             },
             {
               "text": "Section 1",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Not this."
             },
             {
               "text": "Section 99",
@@ -5249,12 +6004,39 @@
               "feedback": "No."
             },
             {
-              "text": "There isn't one",
+              "text": "None",
               "correct": false,
-              "feedback": "There is."
+              "feedback": "Section 20."
             }
           ],
-          "explanation": ""
+          "explanation": "Section 20 covers reasonable adjustments such as step-free access and easy-read letters.",
+          "original": {
+            "q": "Which section of the Equality Act covers reasonable adjustments?",
+            "options": [
+              {
+                "text": "Section 20",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "Section 1",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "Section 99",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "There isn't one",
+                "correct": false,
+                "feedback": "There is."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         },
         {
           "id": "doc-edi-x0075",
@@ -5636,7 +6418,7 @@
         },
         {
           "id": "doc-edi-x01810",
-          "q": "Which law sets out protected characteristics?",
+          "q": "Which law lists the nine protected characteristics?",
           "options": [
             {
               "text": "The Equality Act 2010",
@@ -5644,22 +6426,49 @@
               "feedback": "Yes."
             },
             {
-              "text": "The Opticians Act",
+              "text": "The Mental Capacity Act 2005",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Capacity."
             },
             {
-              "text": "GDPR",
+              "text": "The Public Interest Disclosure Act 1998",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Whistleblowing."
             },
             {
-              "text": "The Mental Capacity Act",
+              "text": "The Data Protection Act 2018",
               "correct": false,
-              "feedback": "No."
+              "feedback": "Data."
             }
           ],
-          "explanation": ""
+          "explanation": "The Equality Act 2010 sets out the protected characteristics.",
+          "original": {
+            "q": "Which law sets out protected characteristics?",
+            "options": [
+              {
+                "text": "The Equality Act 2010",
+                "correct": true,
+                "feedback": "Yes."
+              },
+              {
+                "text": "The Opticians Act",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "GDPR",
+                "correct": false,
+                "feedback": "No."
+              },
+              {
+                "text": "The Mental Capacity Act",
+                "correct": false,
+                "feedback": "No."
+              }
+            ],
+            "explanation": ""
+          },
+          "needsReview": true
         }
       ],
       "cases": [],

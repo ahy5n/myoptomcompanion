@@ -1,8 +1,10 @@
 'use client'
 
+import Link from 'next/link'
 import { useState } from 'react'
 import type { ClinicalCase } from '@/lib/types'
 import { useApp } from '../AppProvider'
+import { ChevronRight } from '../icons'
 
 const MARKS = [
   { key: 'nailed', label: 'Nailed it', correct: true, cls: 'bg-good text-good-ink hover:bg-good/80' },
@@ -10,7 +12,7 @@ const MARKS = [
   { key: 'missed', label: 'Missed it', correct: false, cls: 'bg-bad-soft text-bad-ink hover:bg-bad' },
 ] as const
 
-export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCase; onResult?: (correct: boolean) => void }) {
+export function CaseCard({ id, kase, topicId, onResult }: { id: string; kase: ClinicalCase; topicId?: string; onResult?: (correct: boolean) => void }) {
   const { recordResult } = useApp()
   const [answer, setAnswer] = useState('')
   const [shown, setShown] = useState(false)
@@ -40,6 +42,15 @@ export function CaseCard({ id, kase, onResult }: { id: string; kase: ClinicalCas
             <p className="eyebrow text-good-ink">Model answer</p>
             <p className="mt-1 text-[17px] leading-relaxed">{kase.modelAnswer}</p>
           </div>
+          {topicId && (
+            <Link
+              href={`/t/${topicId}`}
+              className="mt-3 inline-flex min-h-11 items-center gap-1 rounded-full bg-accent-soft px-3.5 text-[14px] font-semibold text-accent-strong hover:bg-accent-tint"
+            >
+              Back to the topic
+              <ChevronRight className="size-4" />
+            </Link>
+          )}
           <p className="mt-4 text-[15px] font-medium text-muted">How did you do?</p>
           <div className="mt-2 grid grid-cols-3 gap-2">
             {MARKS.map((m) => (

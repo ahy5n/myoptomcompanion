@@ -473,7 +473,7 @@ const opticDisc: DiagramDef = {
     Notch: { x: 504, y: 252 },
     'Disc haemorrhage': { x: 470, y: 298 },
   },
-  caption: 'Right disc as seen in the fundus (temporal on the left). Normal rim follows ISNT: Inferior ≥ Superior ≥ Nasal ≥ Temporal.',
+  caption: 'Right disc as seen in the fundus (temporal on the left). A healthy rim often follows the ISNT pattern (Inferior ≥ Superior ≥ Nasal ≥ Temporal), but many healthy discs do not.',
   render: (L) => {
     const disc = (cx: number, cy: number, notch: boolean) => (
       <g>
